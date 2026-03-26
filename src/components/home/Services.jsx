@@ -1,135 +1,31 @@
-// import { serviceCards } from '../../data/homeContent'
-// import { Plus } from 'lucide-react'
-// import { Swiper, SwiperSlide } from 'swiper/react'
-// import { Pagination, Autoplay } from 'swiper/modules'
-// import 'swiper/css'
-// import 'swiper/css/pagination'
-
-// function Services() {
-//   return (
-//     <section className="bg-[#f8f9fb] px-6 py-24 md:px-10 lg:px-20">
-//       <div className="mx-auto w-full max-w-[1400px]">
-//         {/* Section Header */}
-//         <div className="mb-16 text-center">
-//           <p className="mb-3 text-[13px] font-bold uppercase tracking-[0.3em] text-[#c5a044]">
-//             Our Expertise
-//           </p>
-//           <h2 className="text-4xl font-bold tracking-tight text-[#001f3f] md:text-5xl">
-//             Core <span className="text-[#c5a044]">Services</span>
-//           </h2>
-//           <div className="mx-auto mt-6 h-1 w-20 bg-[#c5a044]" />
-//         </div>
-
-//         {/* Services Slider */}
-//         <Swiper
-//           modules={[Pagination, Autoplay]}
-//           spaceBetween={24}
-//           slidesPerView={1}
-//           loop={true}
-//           autoplay={{
-//             delay: 3000,
-//             disableOnInteraction: false,
-//             pauseOnMouseEnter: true,
-//           }}
-//           speed={800}
-//           breakpoints={{
-//             768: { slidesPerView: 2 },
-//             1024: { slidesPerView: 3 },
-//             1280: { slidesPerView: 4 },
-//           }}
-//           pagination={{
-//             clickable: true,
-//             el: '.services-pagination',
-//             bulletClass: 'swiper-custom-bullet-dark',
-//             bulletActiveClass: 'swiper-custom-bullet-dark-active',
-//           }}
-//           className="w-full !pb-4"
-//         >
-//           {serviceCards.map((card, index) => (
-//             <SwiperSlide key={index} className="h-auto">
-//               <article className="group flex h-full flex-col justify-between border border-gray-200 bg-white p-8 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
-//                 <div>
-//                   {/* Icon: Gold circle with plus/icon as seen in image */}
-//                   <div className="mb-8 flex h-12 w-12 items-center justify-center rounded-full bg-[#e8b021] text-white shadow-md transition-transform group-hover:scale-110">
-//                     <Plus size={24} strokeWidth={3} />
-//                   </div>
-
-//                   <h3 className="text-[22px] font-bold leading-tight text-[#001f3f] transition-colors group-hover:text-[#c5a044]">
-//                     {card.title}
-//                   </h3>
-                  
-//                   <p className="mt-5 text-[15px] leading-relaxed text-gray-500 font-light">
-//                     {card.description}
-//                   </p>
-//                 </div>
-
-//                 {/* Button: Navy Outline Style */}
-//                 <div className="mt-10">
-//                   <button
-//                     type="button"
-//                     className="border border-[#001f3f] px-6 py-2 text-[11px] font-bold uppercase tracking-widest text-[#001f3f] transition-all group-hover:bg-[#001f3f] group-hover:text-white"
-//                   >
-//                     Read More
-//                   </button>
-//                 </div>
-//               </article>
-//             </SwiperSlide>
-//           ))}
-//         </Swiper>
-
-//         {/* Visual Slider Dots Container */}
-//         <div className="services-pagination mt-16 flex justify-center items-center gap-2" />
-
-//         <style>
-//           {`
-//             .swiper-custom-bullet-dark {
-//               width: 32px;
-//               height: 4px;
-//               background-color: #d1d5db; /* gray-300 */
-//               display: inline-block;
-//               margin: 0 4px !important;
-//               cursor: pointer;
-//               transition: all 0.3s ease;
-//             }
-//             .swiper-custom-bullet-dark-active {
-//               background-color: #c5a044;
-//             }
-//           `}
-//         </style>
-//       </div>
-//     </section>
-//   )
-// }
-
-// export default Services
 
 
-import React, { useEffect, useRef } from 'react';
+import  { useEffect, useRef } from 'react';
 
 const services = [
   {
     name: "Strategy & Business Advisory",
-    desc: "Growth architecture, market positioning, and 90-day execution roadmaps. professionals who understand how Indian businesses actually scale."
+    desc: "Growth architecture, market positioning, and 90-day execution roadmaps — grounded in real variance analysis and multi-sector due diligence experience across ₹10–100 Cr businesses."
   },
   {
     name: "Financial Due Diligence",
-    desc: "Investor-grade FDD for PE/VC transactions, acquisitions, and debt placements — conducted by qualified CAs with real transaction experience."
+    desc: "Investor-grade FDD covering cash flow assessment, accounting discrepancy identification, and deal-ready financials. Conducted across 5+ sectors with turnovers up to ₹2,200 Cr."
   },
   {
     name: "Forensic Accounting",
-    desc: "Deep fraud investigation and transaction testing. When the stakes are real and trust is on the line, Northrop delivers findings that hold up."
+    desc: "Forensic audits commissioned by public sector banks — fund diversion, shell entities, over-invoicing, circular transactions. 8+ clients including listed companies. Reports filed to regulatory committees."
   },
   {
     name: "IBC / NCLT Advisory",
-    desc: "Resolution support, creditor advisory, and CIRP management by professionals with direct IBC practitioner experience."
+    desc: "End-to-end IBC mandate management — Information Memorandums, CoC approvals, competitive bidding, and NCLT submissions across manufacturing, real estate, and services sectors."
   },
   {
     name: "M&A Transaction Advisory",
-    desc: "Buy-side and sell-side advisory by CFA and CA professionals who have structured real deals — valuation, negotiation, and closing."
+    desc: "Buy-side and sell-side advisory — valuation, deal structuring, and full transaction support. Direct experience as Transaction Auditor across hospitality, real estate, and industrial sectors."
   },
   {
-    name: "Risk & Compliance",
-    desc: "ERM, DPDP Act, ABAC, and ROC compliance. Indian businesses trust Northrop to keep them clean, governed, and audit-ready."
+    name: "Credit Analytics & Risk Surveillance",
+    desc: "Quarterly credit analytics for listed and unlisted borrowers — ₹500–1,200 Cr loan exposure, balance sheets up to ₹60,000 Cr. 70–100-point monitoring framework. Early stress identification."
   }
 ];
 
@@ -173,7 +69,7 @@ export default function Services() {
             </h2>
           </div>
           <p ref={addToRefs} className="text-[14px] font-light leading-relaxed text-white/40 opacity-0 translate-y-10 transition-all duration-700 delay-200">
-            Delivered by CA, CFA, IIT, and MBA professionals with real mandates behind them. Twelve verticals. One trusted senior relationship. Every engagement backed by genuine rigour.
+            Twelve service verticals. One senior relationship. Backed by practitioners with real mandates — rigour and precision at every level of complexity.
           </p>
         </div>
 
@@ -193,7 +89,7 @@ export default function Services() {
 
         <div ref={addToRefs} className="mt-16 pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-start md:items-center gap-8 opacity-0 translate-y-10 transition-all duration-700 delay-500">
           <p className="text-[13px] font-light text-white/30 max-w-[540px]">
-            Also covering: <strong className="text-white/50 font-normal">Credit Analytics · Tax · Digital & AI · HR Advisory · Operations Excellence · Government Advisory</strong>
+            Also covering: <strong className="text-white/50 font-normal">Tax · Risk & Compliance · Digital & AI · HR Advisory · Operations Excellence · Government Advisory · Managed Services</strong>
           </p>
           <a href="mailto:Business@NorthropIndia.com" className="flex items-center gap-3 text-[11px] font-medium tracking-widest uppercase text-[#C4973B] group transition-all">
             Discuss a Mandate <span className="text-lg group-hover:ml-4 transition-all">→</span>

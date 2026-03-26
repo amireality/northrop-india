@@ -1,84 +1,6 @@
-// import React, { useEffect, useRef } from 'react';
-
-// export default function Institute() {
-//   const revealRefs = useRef([]);
-//   revealRefs.current = [];
-
-//   useEffect(() => {
-//     const observer = new IntersectionObserver(
-//       (entries) => {
-//         entries.forEach((entry) => {
-//           if (entry.isIntersecting) {
-//             entry.target.classList.add('opacity-100', 'translate-y-0');
-//             entry.target.classList.remove('opacity-0', 'translate-y-10');
-//           }
-//         });
-//       },
-//       { threshold: 0.1 }
-//     );
-
-//     revealRefs.current.forEach((el) => observer.observe(el));
-//     return () => observer.disconnect();
-//   }, []);
-
-//   const addToRefs = (el) => {
-//     if (el && !revealRefs.current.includes(el)) {
-//       revealRefs.current.push(el);
-//     }
-//   };
-
-//   return (
-//     <section id="institute" className="bg-[#F0EDE6] py-20 lg:py-32">
-//       <div className="max-w-[1280px] mx-auto px-6 lg:px-20">
-//         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center mb-24 pb-20 border-b border-[#0E0E0E]/10">
-//           <div ref={addToRefs} className="relative h-[460px] opacity-0 translate-y-10 transition-all duration-700">
-//             <div className="absolute inset-0 bg-cover bg-center grayscale brightness-[0.7] saturate-[0.7]" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1000&q=90')" }}></div>
-//             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#0E0E0E]/50"></div>
-//             <div className="absolute bottom-6 left-6 border border-[#C4973B]/30 bg-[#0E0E0E]/70 backdrop-blur-md px-4 py-2 text-[#C4973B] text-[9.5px] font-medium tracking-widest uppercase">
-//               Research & Education Initiative
-//             </div>
-//           </div>
-//           <div>
-//             <div ref={addToRefs} className="flex items-center gap-3 text-[10px] font-medium tracking-[0.24em] uppercase text-[#C4973B] mb-6 opacity-0 translate-y-10 transition-all duration-700 delay-100">
-//               <span className="w-7 h-px bg-[#C4973B]"></span> Northrop Institute of Global Finance
-//             </div>
-//             <h2 ref={addToRefs} className="font-serif text-[32px] lg:text-[46px] leading-[1.1] text-[#0E0E0E] tracking-tight mb-4 opacity-0 translate-y-10 transition-all duration-700 delay-200">
-//               Finance the<br />Way It<br /><em className="text-[#C4973B] italic">Actually Works.</em>
-//             </h2>
-//             <p ref={addToRefs} className="font-serif text-[13px] italic text-[#C4973B] mb-8 opacity-0 translate-y-10 transition-all duration-700 delay-300">
-//               A research and education initiative of Northrop Management Private Limited
-//             </p>
-//             <div ref={addToRefs} className="text-[14px] font-light leading-relaxed text-[#4A4540] space-y-4 opacity-0 translate-y-10 transition-all duration-700 delay-400">
-//               <p>The gap between what professionals learned and what markets actually demand is real. Finance today moves faster than most professionals are trained to understand.</p>
-//               <p>Most financial education in India remains theoretical — focused on exams rather than judgment. The Northrop Institute was created to bridge this distance.</p>
-//             </div>
-//           </div>
-//         </div>
-
-//         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
-//           <div ref={addToRefs} className="opacity-0 translate-y-10 transition-all duration-700">
-//             <h3 className="font-serif text-[28px] lg:text-[38px] text-[#0E0E0E] leading-tight mb-8">
-//               A CA. A CFA. An IIT Graduate.<br />And Still <em className="text-[#C4973B] italic">Unprepared.</em>
-//             </h3>
-//             <p className="text-[14px] leading-relaxed text-[#4A4540]">
-//               In real boardrooms, on live transactions, the gap between credential and capability shows up immediately. Not because these professionals lack intelligence. But because real finance tests judgment.
-//             </p>
-//           </div>
-//           <div ref={addToRefs} className="bg-[#0E0E0E] border-l-[3px] border-[#C4973B] p-10 opacity-0 translate-y-10 transition-all duration-700 delay-200">
-//             <h4 className="font-serif text-[20px] text-[#C4973B] mb-6">Our Promise</h4>
-//             <div className="text-[13.5px] font-light leading-relaxed text-white/55 space-y-4 italic">
-//               <p>"We will not teach finance as a collection of formulas. We will challenge how you think, not just what you know."</p>
-//               <p>"The difference between a trusted advisor and a technician is rarely knowledge — it is the ability to think clearly when the stakes are real."</p>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// }
 
 
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 export default function Institute() {
   const revealRefs = useRef([]);
@@ -120,13 +42,13 @@ export default function Institute() {
             className="relative h-[420px] opacity-0 translate-y-10 transition-all duration-700"
           >
             <div
-              className="absolute inset-0 bg-cover bg-center grayscale brightness-75"
+              className="absolute inset-0 bg-cover bg-center  brightness-99"
               style={{
                 backgroundImage:
-                  "url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1000')",
+                  "url('/homepageimg/institude.jpg')",
               }}
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/60" />
+
 
             <div className="absolute bottom-5 left-5 text-[10px] tracking-widest uppercase text-[#C4973B] border border-[#C4973B]/40 px-4 py-2 bg-black/70">
               Research & Education Initiative
@@ -163,16 +85,15 @@ export default function Institute() {
               className="text-sm text-[#4A4540] space-y-4 opacity-0 translate-y-10 transition duration-700 delay-300"
             >
               <p>
-                Finance today moves faster than most professionals are trained to understand. Whether you are a  <strong>CA, CFA, IIT graduate, or MBA professional</strong> —
-                the gap between what you learned and what markets actually demand is real, and it shows up fast.
+                Finance today moves faster than most professionals are trained to understand. Decisions must often be made with incomplete information and real consequences attached.
               </p>
 
               <p>
-             Capital flows across borders, businesses scale rapidly, and decisions must often be made with incomplete information and genuine consequences. Yet most financial education in India remains theoretical — focused on clearing exams rather than building the judgment that real mandates require.
+                Yet most financial education remains trapped in theory — teaching models, not markets. It produces professionals who can navigate a syllabus but struggle when the situation is real and the outcome matters.
               </p>
 
               <p>
-               The Northrop Institute of Global Finance was created to address this gap — bridging the distance between credentials and capability, so that India's best-qualified professionals can operate with real confidence in complex financial environments.
+                The Northrop Institute was built to close that gap. Led by practitioners — Chartered Accountants, forensic specialists, and IBC practitioners with direct capital markets experience — it develops the financial thinking that functions in boardrooms, not just classrooms.
               </p>
             </div>
 
@@ -182,14 +103,10 @@ export default function Institute() {
               className="bg-black text-white p-8 border-l-4 border-[#C4973B] opacity-0 translate-y-10 transition duration-700 delay-200 mt-5"
             >
               <p className="font-semibold mb-2">Who This Program Is Not For</p>
-              <p className="text-sm text-white/55">
-              This is not a revision course for CA exams, a CFA prep class, or an MBA elective. It is not designed for professionals seeking shortcuts, certificates over understanding, or passive learning without real engagement.
+              <p className="text-[13px] md:text-[13px] text-white/55">
+                Not a certification programme, exam prep course, or passive learning experience. Designed for finance professionals serious about understanding how capital, markets, and business decisions actually work — willing to engage deeply with ideas that have no easy answers.
               </p>
 
-              <p className="text-sm text-white/55">
-
-                It is designed for CA, CFA, IIT, MBA, and serious finance professionals who already have their credentials — and who want to build the thinking and judgment that credentials alone cannot give them.
-              </p>
             </div>
           </div>
         </div>
@@ -206,21 +123,23 @@ export default function Institute() {
             </p>
 
             <h3 className="text-3xl lg:text-4xl font-serif leading-tight mb-6">
-              A CA. A CFA. An IIT Graduate. <br />
-              And Still <em className="text-[#C4973B] italic">Unprepared.</em>
+              The Real World <br />
+              Does Not Operate
+              <br />
+              Like <em className="text-[#C4973B] italic">Textbooks.</em>
             </h3>
 
             <p className="text-sm text-[#4A4540] mb-4">
-             India produces some of the world's most credentialed finance professionals — CAs who cleared one of the hardest exams on earth, CFAs with three levels of rigorous study, IIT and MBA graduates from institutions of genuine reputation.
+              Many professionals enter finance believing credentials and structured frameworks will prepare them for the realities of markets and capital decisions.
             </p>
 
             <p className="text-sm text-[#4A4540] mb-4">
-           And yet — in real boardrooms, on live transactions, and in genuine capital decisions — the gap between credential and capability shows up immediately. Not because these professionals lack intelligence. But because credentials test knowledge. Real finance tests judgment.
+              Very quickly, they discover something uncomfortable. Markets move faster than models. Capital is unforgiving when judgment is absent — and no syllabus teaches you how to think when the outcome is genuinely uncertain.
             </p>
 
 
             <p className="text-sm text-[#4A4540] mb-4">
-At the Northrop Institute, we work with professionals who have already earned their qualifications and are now ready to build something that no exam can certify: the ability to think clearly when the stakes are real and the outcome is uncertain.
+              At the Northrop Institute, we develop the clarity of thinking required to operate in real financial environments — because that is what separates a trusted advisor from a credentialed technician.
             </p>
           </div>
 
@@ -233,14 +152,16 @@ At the Northrop Institute, we work with professionals who have already earned th
             </h4>
 
             <p className="text-sm text-white/70 mb-4">
-              We will not teach finance as a collection of formulas or exam-ready frameworks. Whether you are a CA, CFA, IIT graduate, or MBA professional — if you join the Northrop Institute, we will challenge how you think, not just what you know.
+              We will not reduce finance to frameworks or slides. The Institute is built around one objective: to develop professionals who can think clearly about capital, markets, and risk — in the real world, under real pressure, with real consequences.
             </p>
 
             <p className="text-sm text-white/60">
-           We focus on developing the clarity of thinking required to navigate real financial environments — where trust between advisors and clients is built through judgment, not just qualifications.
+              Our contributors bring live transaction experience — forensic audits filed before regulatory bodies, IBC mandates closed through the NCLT, credit surveillance on companies with balance sheets in the tens of thousands of crores.
             </p>
             <p className="text-sm text-white/60">
-         Because in finance, the difference between a trusted advisor and a credentialed technician is rarely knowledge — it is the ability to think clearly and act decisively when the stakes are real.
+             If participants leave with sharper judgment and the confidence to operate at a genuinely higher level — the programme has done its job.
+
+
             </p>
           </div>
         </div>
@@ -255,7 +176,7 @@ At the Northrop Institute, we work with professionals who have already earned th
           </p>
 
           <h3 className="text-3xl font-serif mb-10">
-               Northrop Fellows & Contributors
+            Northrop Fellows & Contributors
           </h3>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-1">
@@ -263,30 +184,31 @@ At the Northrop Institute, we work with professionals who have already earned th
             <div className="p-6 bg-white shadow-sm rounded-lg">
               <h4 className="font-semibold">Ashish Chaudhary</h4>
               <p className="text-sm mt-2 text-[#C4973B]">
-              Founder — Northrop Institute of Global Finance
+                Founder — Northrop Institute of Global Finance
               </p>
-              <p className="text-xs text-gray-500 mt-2">
-               CA Finalist · IBC Practitioner · Forensic Specialist
+              <p className="text-[12px] text-gray-500 mt-2">
+                CA Finalist · IBC Practitioner · Forensic Specialist
               </p>
-              <p className="text-xs text-gray-500 mt-2">
-              Managing Director, Northrop Management Private Limited
+              <p className="text-[12px] text-gray-500 mt-2">
+               Transaction Auditor, NCLT Mandates
+Managing Director, Northrop Management Pvt. Ltd.
               </p>
             </div>
 
-           <div className="p-6 bg-[#F0EDE6] text-center text-sm text-gray-400 shadow-sm rounded-lg">
-  <p className="font-semibold">Senior Industry Professionals</p>
-  <p className="text-xs text-gray-500 mt-2">
-    CA · CFA · IIT · MBA · To be announced
-  </p>
-</div>
+            <div className="p-6 bg-[#F0EDE6] text-center text-sm text-gray-400 shadow-sm rounded-lg">
+              <p className="font-semibold">Senior Industry Professionals</p>
+              <p className="text-xs text-gray-400 mt-2">
+               CA · CFA · IIT · MBA <br /> Capital markets & advisory <br /> To be announced
+              </p>
+            </div>
             <div className="p-6 bg-[#F0EDE6] text-center text-sm text-gray-400 shadow-sm rounded-lg">
               <p className="font-semibold">Visiting Practitioners</p>
-              <p className="text-xs text-gray-500 mt-2">PE · IB · Capital Markets · To be announced</p>
+              <p className="text-xs text-gray-400 mt-2">PE · Investment Banking <br />Credit & Capital Markets <br /> To be announced</p>
             </div>
 
             <div className="p-6 bg-[#F0EDE6]  text-center text-sm text-gray-400 shadow-sm rounded-lg">
               <p className="font-semibold">Guest Speakers</p>
-              <p className="text-xs text-gray-500 mt-2">CFOs · MDs · Fund Managers · To be announced</p>
+              <p className="text-xs text-gray-400 mt-2">CFOs · Fund Managers · MDs <br /> To be announced</p>
             </div>
 
           </div>

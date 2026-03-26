@@ -33,11 +33,11 @@ export default function ContactSection() {
       <div className="hidden lg:block relative overflow-hidden">
         <div 
           className="absolute inset-0 bg-cover bg-center grayscale brightness-[0.35] saturate-[0.5]" 
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1200&q=85')" }}
+          style={{ backgroundImage: "url('/homepageimg/photo-lastsection.jpg')", }}
         ></div>
         <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#141414]"></div>
         <div className="absolute bottom-20 left-20 right-20">
-          <blockquote className="font-serif text-[24px] lg:text-[28px] italic text-white/65 leading-relaxed mb-8 max-w-[460px]">
+          <blockquote className="text-[20px] lg:text-[20px] italic text-white/65 leading-relaxed mb-8 max-w-[460px]">
             "We don't sell services. We build advisory relationships — grounded in trust, delivered through expertise."
           </blockquote>
           <cite className="flex items-center gap-4 text-[10px] font-medium tracking-widest uppercase text-[#C4973B] not-italic">
@@ -55,7 +55,7 @@ export default function ContactSection() {
           The right engagement<br />starts with one<br /><em className="text-[#D9AF58] italic">trusted conversation.</em>
         </h2>
         <p ref={addToRefs} className="text-[14px] font-light leading-relaxed text-white/35 max-w-[450px] mb-12 opacity-0 translate-y-10 transition-all duration-700 delay-200">
-          Our team of CA, CFA, IIT, and MBA professionals does not pitch before understanding your situation. Every Northrop engagement begins with a direct, confidential conversation.
+        We do not pitch before we understand your situation. Every engagement begins with a direct, confidential conversation — no junior intermediaries. Real advisory, from day one.
         </p>
 
         <div className="space-y-2 mb-16 max-w-[500px]">

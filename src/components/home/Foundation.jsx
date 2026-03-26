@@ -47,8 +47,8 @@ export default function Foundation() {
             A part of what we make, we give back.
           </p>
           <div ref={addToRefs} className="text-[15px] font-light leading-relaxed text-white/45 space-y-6 mb-12 opacity-0 translate-y-10 transition-all duration-700 delay-300">
-            <p>At Northrop, we believe the institutions that endure are those that contribute beyond their commercial purpose. India's CA, CFA, IIT, and MBA professionals built this country's financial infrastructure — and Northrop's responsibility extends to the communities those firms are built upon.</p>
-            <p>The Northrop Foundation is not a marketing initiative. It is a structural commitment — a portion of every engagement fee, directed to causes we trust, through partners we have verified personally.</p>
+            <p>The Northrop Foundation is our commitment to contributing beyond commercial purpose — a structured giving initiative funded directly from the firm's revenues, directed to causes we have personally verified.</p>
+            <p>We are not a charity. We are a firm that has chosen to build social responsibility into the architecture of how we operate.</p>
           </div>
 
           <div className="space-y-6 border-t border-white/10 pt-10">
@@ -79,9 +79,9 @@ export default function Foundation() {
         <div ref={addToRefs} className="opacity-0 translate-y-10 transition-all duration-700 delay-700">
           <div className="bg-white/5 border border-[#C4973B]/20 backdrop-blur-xl p-10 lg:p-12">
             <div className="text-[9.5px] font-medium tracking-[0.2em] uppercase text-[#C4973B] mb-6">The Northrop Pledge</div>
-            <h3 className="font-serif text-[28px] text-white mb-6 leading-none italic">"A Part of Every Mandate Goes Further."</h3>
+            <h3 className="font-serif text-[28px] text-white mb-6 leading-none italic">A Part of <br />  Every Mandate  <br />  <span className="text-[#C4973B]">Goes Further.</span></h3>
             <p className="text-[14px] font-light leading-relaxed text-white/45 mb-5">
-             A portion of every engagement fee is directed to the Northrop Foundation. Not as an afterthought. Not as a marketing statement. As a structural commitment built into how we operate.
+            A portion of every engagement fee is directed to the Northrop Foundation. Not as an afterthought — as a structural commitment built into how we operate.
 
 
             </p>
@@ -89,7 +89,7 @@ export default function Foundation() {
             We work with partners including the Hridya Saras Foundation and others committed to child welfare, rehabilitation, and community development across India.
             </p>
             <p className="text-[14px] font-light leading-relaxed text-white/45 mb-5">
-            If you are a charitable institution, NGO, or foundation seeking a serious advisory partner — or if you wish to direct CSR funding through our network — we welcome that conversation.
+            If you are a charitable institution, NGO, or foundation seeking a serious advisory partner — we welcome that conversation.
             </p>
 
            

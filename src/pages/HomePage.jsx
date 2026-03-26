@@ -11,6 +11,7 @@ import Institute from '../components/home/Institute'
 import Foundation from '../components/home/Foundation'
 import ContactSection from '../components/home/ContactSection'
 import Insights from '../components/home/insightsData'
+import LocationsSection from '../components/home/Locationsection'
 
 
 function HomePage() {
@@ -25,6 +26,8 @@ function HomePage() {
       <Institute/>
       <Foundation/>
       <Insights />
+
+      <LocationsSection/>
       
       <ContactSection />
       {/* <Leadership /> */}
