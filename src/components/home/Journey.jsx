@@ -1,65 +1,109 @@
 import { journeyItems } from '../../data/homeContent'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import { Pagination, Autoplay} from 'swiper/modules'
+import 'swiper/css'
+import 'swiper/css/pagination'
 
 function Journey() {
   return (
-    <section className="relative overflow-hidden bg-[#001f3f] px-6 py-24 md:px-10 lg:px-20">
-      {/* Optional: Hexagonal background pattern overlay to match the image */}
+    <section className="relative overflow-hidden bg-[#134988] px-6 py-24 md:px-10 lg:px-20">
+      {/* Hexagonal background pattern overlay */}
       <div 
-        className="absolute inset-0 opacity-10" 
-        style={{ backgroundImage: `url('https://www.transparenttextures.com/patterns/hexellence.png')` }}
+        className="absolute inset-0 opacity-20 bg-cover bg-center" 
+        style={{ backgroundImage: `url('/homepageimg/wcu_bg_1.jpg')` }}
       />
+
+      <style>
+        {`
+          .swiper-custom-bullet {
+            width: 35px;
+            height: 5px;
+            background-color: rgba(255, 255, 255, 0.3);
+            display: inline-block;
+            border-radius: 2px;
+            margin: 0 6px !important;
+            cursor: pointer;
+            transition: all 0.3s ease;
+          }
+          .swiper-custom-bullet-active {
+            background-color: #ffffff;
+            opacity: 1;
+          }
+        `}
+      </style>
 
       <div className="relative z-10 mx-auto w-full max-w-[1400px]">
         {/* Header Section */}
         <div className="mb-16 text-center">
-          <h2 className="text-4xl font-bold tracking-tight text-white md:text-5xl">
-            Our <span className="text-[#c5a044]">Journey</span>
+          <h2 className="text-[40px] font-bold tracking-tight text-white md:text-[48px]">
+            Our Journey
           </h2>
-          <div className="mx-auto mt-4 h-1 w-24 bg-[#c5a044]" />
-          <p className="mt-6 text-sm font-medium uppercase tracking-[0.3em] text-gray-400">
+          <p className="mt-4 text-[13px] sm:text-[14px] font-bold uppercase tracking-[0.2em] text-white">
             Evolving with the times, leading with integrity
           </p>
         </div>
 
-        {/* Timeline Grid */}
-        <div className="grid gap-8 md:grid-cols-3">
-          {journeyItems.map((item) => (
-            <article 
-              key={item.year} 
-              className="group relative border border-white/10 bg-white/5 p-10 transition-all duration-300 hover:bg-white/10"
-            >
-              {/* Year Label */}
-              <div className="mb-6 inline-block border-b-2 border-[#c5a044] pb-2">
-                <p className="text-3xl font-bold tracking-tighter text-[#c5a044]">
+        {/* Swiper Slider */}
+        <Swiper
+          modules={[Pagination,Autoplay]}
+          spaceBetween={30}
+          slidesPerView={1}
+         loop={true}   // ✅ infinite loop
+
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          }}
+
+          speed={800} 
+        
+          breakpoints={{
+            768: { slidesPerView: 2 },
+            1024: { slidesPerView: 3 },
+          }}
+          pagination={{
+            clickable: true,
+            el: '.custom-pagination',
+            bulletClass: 'swiper-custom-bullet',
+            bulletActiveClass: 'swiper-custom-bullet-active',
+          }}
+          className="w-full"
+        >
+          {journeyItems.map((item, index) => (
+            <SwiperSlide key={index}>
+              <div className="group relative bg-[#0a2f5e]/60 flex flex-col items-center justify-center min-h-[300px] p-8 sm:p-12 transition-all duration-300 hover:bg-[#0a2f5e]/80">
+                {/* Year Label */}
+                <h3 className="mb-8 text-4xl sm:text-[44px] font-bold text-white">
                   {item.year}
-                </p>
+                </h3>
+
+                {/* Connecting Line with Square Icon */}
+                <div className="relative w-full flex items-center justify-center mb-8">
+                  {/* The Horizontal Line */}
+                  <div className="absolute left-0 right-0 h-[1px] bg-white/40" />
+                  {/* The Center Square Box */}
+                  <div className="relative z-10 flex h-[18px] w-[18px] items-center justify-center bg-[#fdb714] ring-2 ring-white" />
+                </div>
+
+                {/* Content */}
+                <div className="text-center">
+                  {item.title && (
+                    <strong className="block mb-2 text-[17px] text-white">
+                      {item.title}
+                    </strong>
+                  )}
+                  <p className="text-[16px] leading-relaxed text-white font-medium">
+                    {item.description}
+                  </p>
+                </div>
               </div>
-
-              {/* Icon / Decorator (Small white box with gold icon as seen in image) */}
-              <div className="mb-6 flex h-12 w-12 items-center justify-center bg-white text-[#001f3f]">
-                <span className="text-xl font-bold">★</span>
-              </div>
-
-              <h3 className="text-xl font-semibold text-white group-hover:text-[#c5a044] transition-colors">
-                {item.title}
-              </h3>
-              
-              <p className="mt-4 text-[15px] leading-relaxed text-gray-300 font-light">
-                {item.description}
-              </p>
-
-              {/* Decorative line connecting cards (visible on desktop) */}
-              <div className="absolute -right-4 top-1/2 hidden h-[1px] w-8 bg-white/10 lg:block" />
-            </article>
+            </SwiperSlide>
           ))}
-        </div>
+        </Swiper>
 
-        {/* Slider Pagination Dots (Visual match to image) */}
-        <div className="mt-16 flex justify-center gap-3">
-          <button className="h-1.5 w-12 bg-gray-600 transition-colors hover:bg-[#c5a044]" />
-          <button className="h-1.5 w-12 bg-[#c5a044]" />
-          <button className="h-1.5 w-12 bg-gray-600 transition-colors hover:bg-[#c5a044]" />
-        </div>
+        {/* Custom Pagination Container */}
+        <div className="custom-pagination mt-16 flex justify-center items-center" />
       </div>
     </section>
   )

@@ -2,7 +2,10 @@ import { footerLinks } from '../../data/homeContent'
 
 function ContactFooter() {
   return (
-    <footer className="bg-[#001f3f] px-6 py-20 text-white md:px-10 lg:px-20">
+    <footer 
+      className="bg-cover bg-center bg-no-repeat px-6 py-20 text-white md:px-10 lg:px-20"
+      style={{ backgroundImage: `url('/homepageimg/footer_bg.jpg')` }}
+    >
       <div className="mx-auto w-full max-w-[1400px]">
         {/* Main Grid: Logo + Links + Form */}
         <div className="grid gap-12 lg:grid-cols-[250px_1fr]">

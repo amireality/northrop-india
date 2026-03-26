@@ -55,36 +55,52 @@ export default function MegaMenuNavbar() {
   }, [location]);
 
   return (
-    <header className="relative w-full bg-white border-b border-gray-200 font-sans text-[#001f3f] select-none">
+    <header 
+      className="relative w-full bg-white border-b border-gray-200 font-sans text-[#001f3f] select-none"
+      onMouseLeave={() => setIsMegaMenuOpen(false)}
+    >
       {/* Top Navbar with more top/bottom space */}
       <nav className="flex h-[80px] items-center justify-between px-6 lg:px-12">
-        <div className="flex items-center gap-10">
+        <div className="flex items-center gap-10 h-full">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <Link to="/" className="flex items-center h-full">
             <img src="/Logo.jpeg" alt="Northrop Logo" className="h-[60px] w-auto object-contain" />
           </Link>
 
           {/* Nav Links */}
           <div className="hidden h-full items-center gap-8 md:flex">
-            <NavItem label="Who we are" href="/who-we-are" />
-            <div className={`flex h-full items-center gap-1.5 px-2 text-[15px] transition-all ${
+            <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
+              <NavItem label="Who we are" href="/who-we-are" />
+            </div>
+            
+            <div 
+              className={`flex h-full items-center gap-1.5 px-2 text-[15px] cursor-pointer transition-all ${
                 isMegaMenuOpen ? 'border-[1px] border-dotted border-[#c5a044] text-[#c5a044]' : 'text-[#001f3f] hover:text-gray-600'
-              }`}>
+              }`}
+              onMouseEnter={() => setIsMegaMenuOpen(true)}
+              onClick={() => setIsMegaMenuOpen(!isMegaMenuOpen)}
+            >
               <Link to="/what-we-do" className={`${isMegaMenuOpen ? 'text-[#c5a044]' : 'text-[#001f3f] hover:text-gray-600'}`}>What we do</Link>
               <button 
-                onClick={() => setIsMegaMenuOpen(!isMegaMenuOpen)}
-                className="flex items-center h-full outline-none"
+                className="flex items-center h-full outline-none cursor-pointer"
+                aria-label="Toggle megamenu"
               >
                 <ChevronDown size={14} className={`transition-transform duration-300 ${isMegaMenuOpen ? 'rotate-180' : ''}`} />
               </button>
             </div>
-            <NavItem label="Our Thinking" href="/our-thinking" />
-            <NavItem label="Careers" href="/careers" />
+
+            <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
+              <NavItem label="Our Thinking" href="/our-thinking" />
+            </div>
+
+            <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
+              <NavItem label="Careers" href="/careers" />
+            </div>
           </div>
         </div>
 
         {/* Right Icons */}
-        <div className="flex items-center gap-5 text-gray-600">
+        <div className="flex items-center gap-5 text-gray-600 h-full" onMouseEnter={() => setIsMegaMenuOpen(false)}>
           <button className="flex items-center gap-2 text-[14px] hover:text-[#001f3f]">
             <Search size={20} strokeWidth={1.5} />
             <span className="hidden lg:inline">Search</span>
@@ -103,7 +119,7 @@ export default function MegaMenuNavbar() {
           {/* Mobile Menu Hamburger */}
           <button 
             className="md:hidden flex items-center text-gray-800 hover:text-[#001f3f]"
-            onClick={() => setIsMobileMenuOpen(true)}
+            onClick={(e) => { e.stopPropagation(); setIsMobileMenuOpen(true); }}
           >
             <Menu size={28} />
           </button>

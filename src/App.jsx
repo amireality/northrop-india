@@ -9,6 +9,7 @@ import Services from './pages/Services'
 import Industry from './pages/Industry'
 import Alliances from './pages/Alliances'
 import CaseStudies from './pages/CaseStudies'
+import ContactFooter from './components/home/ContactFooter'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/case-studies" element={<CaseStudies />} />
         </Routes>
       </MainLayout>
+       <ContactFooter />
     </BrowserRouter>
   )
 }

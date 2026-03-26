@@ -28,6 +28,17 @@ export const journeyItems = [
     title: 'Execution Network',
     description: 'Built specialist partnerships for legal, finance, and compliance execution under one advisory umbrella.',
   },
+
+  {
+    year: '2027',
+    title: 'Regional Expansion',
+    description: 'Expanded engagement support across high-growth markets and sector-specific advisory mandates.',
+  },
+  {
+    year: '2028',
+    title: 'Execution Network',
+    description: 'Built specialist partnerships for legal, finance, and compliance execution under one advisory umbrella.',
+  },
 ]
 
 export const serviceCards = [
@@ -47,6 +58,10 @@ export const serviceCards = [
     title: 'Trade Compliance (EPR/BIS/LMPC)',
     description: 'Specialized advisory for product compliance, registration, and market readiness.',
   },
+  {
+    title: 'Trade Compliance (EPR/BIS/LMPC)',
+    description: 'Specialized advisory for product compliance, registration, and market readiness.',
+  },
 ]
 
 export const leadershipStats = [
@@ -61,13 +76,28 @@ export const leadershipStats = [
 export const leadershipMembers = [
   { name: 'Deepak Maini', role: 'Director – Restructuring & Insolvency' },
   { name: 'Rakesh Mishra', role: 'Director – Business Advisory & Support Services' },
+  { name: 'Rakesh Mishra', role: 'Director – Business Advisory & Support Services' },
+  { name: 'Rakesh Mishra', role: 'Director – Business Advisory & Support Services' },
 ]
 
-export const testimonial = {
-  quote:
-    'Northrop helped us move from fragmented compliance and reporting to a disciplined advisory-led model. Their response time and execution quality significantly improved our operational confidence.',
-  author: 'Client Leadership Team',
-}
+export const testimonials = [
+  {
+    quote: 'The advice provided by Northrop has been instrumental in our strategic expansion. Their team combines deep expertise with a highly personalized approach.',
+    author: 'Managing Director, Global Tech',
+  },
+  {
+    quote: 'Northrop helped us move from fragmented compliance and reporting to a disciplined advisory-led model. Their response time and execution quality significantly improved our operational confidence.',
+    author: 'Client Leadership Team',
+  },
+  {
+    quote: 'The advice provided by Northrop has been instrumental in our strategic expansion. Their team combines deep expertise with a highly personalized approach.',
+    author: 'Managing Director, Global Tech',
+  },
+  {
+    quote: 'Northrop helped us move from fragmented compliance and reporting to a disciplined advisory-led model. Their response time and execution quality significantly improved our operational confidence.',
+    author: 'Client Leadership Team',
+  }
+]
 
 export const partners = ['Industry Association', 'Avery Dennison', 'Berger', 'Logistics Partner', 'Global Consumer Brand']
 
