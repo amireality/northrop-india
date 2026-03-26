@@ -1,19 +1,40 @@
 @import 'tailwindcss';
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
+
 :root {
-  font-family: Inter, 'Segoe UI', Roboto, Arial, sans-serif;
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --ink:     #0E0E0E;
+  --dark:    #141414;
+  --panel:   #1A1A1A;
+  --gold:    #C4973B;
+  --gold2:   #D9AF58;
+  --white:   #FFFFFF;
+  --cream:   #FAF8F3;
+  --stone:   #F0EDE6;
+  --grey:    #9A9590;
 }
 
-* {
-  box-sizing: border-box;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
-  min-height: 100vh;
-  background-color: #ffffff;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif; /* Global Font */
+  background: var(--cream);
+  color: var(--ink);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
+
+/* Inter for specific body copy and utility text where needed for clarity */
+.font-sans, p, span, button, a {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .font-serif {
+  font-family: 'Playfair Display', serif;
+}
+

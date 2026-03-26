@@ -3,8 +3,7 @@ import { footerLinks } from '../../data/homeContent'
 function Footer() {
   return (
     <footer 
-      className="bg-cover bg-center bg-no-repeat px-6 py-20 text-white md:px-10 lg:px-20"
-      style={{ backgroundImage: `url('/homepageimg/footer_bg.jpg')` }}
+      className="bg-cover bg-center bg-no-repeat px-6 py-20 text-white md:px-10 lg:px-20 bg-[#0E0E0E]"
     >
       <div className="mx-auto w-full max-w-[1400px]">
         {/* Main Grid: Logo + Links + Form */}
