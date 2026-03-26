@@ -4,6 +4,7 @@ import { Pagination, Autoplay } from 'swiper/modules'
 import { ArrowRight, Share2 } from 'lucide-react'
 import 'swiper/css'
 import 'swiper/css/pagination'
+import avatar from '../../assets/avatar.png'
 
 function Leadership() {
   return (
@@ -13,22 +14,31 @@ function Leadership() {
     >
       {/* 1. Stats Ribbon */}
       <div className="px-6 mb-24 mt-8">
-        <div className="mx-auto flex max-w-[1400px] flex-wrap justify-between gap-y-12">
-          {leadershipStats?.map((stat, index) => (
-            <div 
-              key={stat.label} 
-              className={`flex-1 text-center ${index !== leadershipStats.length - 1 ? 'border-r border-white/40' : ''}`}
-            >
-              <p className="text-4xl font-bold tracking-tighter text-white md:text-[44px]">
-                {stat.value}
-              </p>
-              <p className="mt-3 text-[10px] sm:text-[11px] font-bold uppercase tracking-[0.1em] sm:tracking-[0.2em] text-white">
-                {stat.label}
-              </p>
-            </div>
-          ))}
+  <div className="mx-auto max-w-[1400px]">
+    {/* Mobile: 2x2 grid | Desktop: single row */}
+    <div className="grid grid-cols-2 gap-y-10 sm:flex sm:flex-wrap sm:justify-between">
+      {leadershipStats?.map((stat, index) => (
+        <div
+          key={stat.label}
+          className={`
+            flex flex-col items-center text-center px-4
+            sm:flex-1
+            ${index % 2 === 0 ? 'border-r border-white/30 sm:border-r-0' : ''}
+            ${index < leadershipStats.length - 2 ? 'border-b border-white/20 pb-10 sm:border-b-0 sm:pb-0' : ''}
+            sm:[&:not(:last-child)]:border-r sm:[&:not(:last-child)]:border-white/40
+          `}
+        >
+          <p className="text-[38px] font-bold tracking-tighter text-white sm:text-[44px]">
+            {stat.value}
+          </p>
+          <p className="mt-2 text-[10px] font-bold uppercase tracking-[0.15em] text-white/80 sm:text-[11px] sm:tracking-[0.2em]">
+            {stat.label}
+          </p>
         </div>
-      </div>
+      ))}
+    </div>
+  </div>
+</div>
 
       {/* 2. Leadership Section Content */}
       <div className="mx-auto w-full max-w-[1400px] px-6 md:px-10 lg:px-20">
@@ -76,7 +86,12 @@ function Leadership() {
                       {/* Image Container */}
                       <div className="relative aspect-[4/5] bg-[#e6e6e6] flex items-end justify-center">
                         {/* Placeholder silhouette/avatar for now */}
-                        <div className="z-10 h-[75%] w-[60%] bg-[#d0d0d0] rounded-t-[100px] shadow-inner" />
+                        {/* <div className="z-10 h-[75%] w-[60%] bg-[#d0d0d0] rounded-t-[100px] shadow-inner" /> */}
+                          <img
+                            src={avatar}
+                            alt={member.name}
+                            className="h-full w-full object-cover object-top"
+                          />
                         
                         {/* Yellow Share Block at bottom right */}
                         <div className="absolute bottom-0 right-0 z-20 flex h-10 w-10 items-center justify-center bg-[#fdb714] text-[#072456] transition-transform hover:scale-110 cursor-pointer">

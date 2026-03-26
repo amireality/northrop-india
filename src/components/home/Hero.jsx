@@ -27,7 +27,7 @@ function Hero() {
       <div className="relative z-10 border-t border-white/10 bg-[#061a3a]/60 backdrop-blur-md">
         <div className="mx-auto flex max-w-[1440px] items-center justify-between px-6 py-4 text-[14px] uppercase tracking-widest text-gray-400 md:px-12">
           <div className="flex gap-6">
-            <span>Connaught Place, New Delhi</span>
+            <span>Connaught Place, New Delhi</span> 
             <span className="hidden md:inline">|</span>
             <span className="hidden md:inline">northropindia.com</span>
           </div>

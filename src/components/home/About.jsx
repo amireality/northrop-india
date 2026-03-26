@@ -3,8 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 function About() {
   return (
-    <section className="bg-[#ffff] px-6 py-24 md:px-10 lg:px-20">
-      <div className="mx-auto grid w-full max-w-[1400px] gap-16 lg:grid-cols-[1.1fr_1fr] items-center">
+<section className="bg-white px-6 pt-4 pb-12 md:pt-12 md:px-10 lg:px-20">      <div className="mx-auto grid w-full max-w-[1400px] gap-16 lg:grid-cols-[1.1fr_1fr] items-center">
         
         {/* Left Side: Visual Element (World Map / Brand Asset) */}
         <div className="relative flex justify-center lg:justify-start">
