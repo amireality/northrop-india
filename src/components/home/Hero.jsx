@@ -15,7 +15,7 @@ function Hero() {
         <img
           src="/homepageimg/new-mobile-website-bannAR.webp"
           alt="Global Expertise"
-          className="block md:hidden h-full w-full object-cover object-right "
+          className="block md:hidden h-full w-full object-contain object-right "
         />
         {/* 2. Gradient Overlay for Text Readability */}
         {/* <div className="absolute inset-0 bg-gradient-to-r from-[#061a3a] via-[#061a3a]/80 to-transparent" /> */}

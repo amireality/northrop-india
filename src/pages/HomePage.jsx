@@ -5,6 +5,7 @@ import Services from '../components/home/Services'
 import Leadership from '../components/home/Leadership'
 import SocialProof from '../components/home/SocialProof'
 import Insights from '../components/home/Insights'
+import Partner from '../components/home/Partner'
 
 
 function HomePage() {
@@ -16,6 +17,7 @@ function HomePage() {
       <Services />
       <Leadership />
       <SocialProof />
+      <Partner />
       <Insights />
     
     </main>

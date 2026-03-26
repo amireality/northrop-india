@@ -18,18 +18,24 @@ function Insights() {
         {/* Blog Grid: Featured + Sidebar */}
         <div className="grid gap-10 lg:grid-cols-[1.2fr_1fr]">
           
-          {/* Featured Article (Left Side) */}
+          {/* Featured Article (Left Side) - Using your BIS Image */}
           {insights?.[0] && (
             <article className="group flex flex-col bg-white border border-gray-100 shadow-sm transition-all hover:shadow-md">
-              <div className="relative aspect-video overflow-hidden bg-gray-200">
-                {/* Image Placeholder - Replace with actual thumbnail if available */}
-                <div className="h-full w-full bg-gradient-to-br from-[#001f3f] to-[#1a3760] opacity-90 transition-transform duration-500 group-hover:scale-105" />
-                <div className="absolute inset-0 flex items-center justify-center text-white/10 font-black text-6xl select-none">
-                  INSIGHT
-                </div>
+              <div className="relative aspect-video overflow-hidden">
+                <img 
+                  src="/homepageimg/BIS Registration Outdoor Barbecue in India (1).png" 
+                  alt={insights[0].title}
+                  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                />
+                {/* Overlay decoration */}
+                <div className="absolute inset-0 bg-[#001f3f]/10 group-hover:bg-transparent transition-colors duration-500" />
               </div>
               
               <div className="p-8">
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="bg-[#c5a044] px-3 py-1 text-[10px] font-bold text-white uppercase tracking-widest">Featured</span>
+                  <span className="text-gray-400 text-[12px]">March 2026</span>
+                </div>
                 <h3 className="text-[28px] font-bold leading-tight text-[#001f3f] transition-colors group-hover:text-[#c5a044]">
                   {insights[0].title}
                 </h3>
@@ -49,7 +55,11 @@ function Insights() {
               <article key={item.title} className="group flex gap-5 bg-white p-5 border border-gray-100 transition-all hover:border-[#c5a044]/30 shadow-sm">
                 {/* Small Thumbnail */}
                 <div className="hidden sm:block h-24 w-32 flex-shrink-0 overflow-hidden bg-gray-100">
-                   <div className="h-full w-full bg-[#001f3f]/10 group-hover:bg-[#c5a044]/10 transition-colors" />
+                   <img 
+                      src="/homepageimg/BIS Registration Outdoor Barbecue in India (1).png" 
+                      alt="Insight"
+                      className="h-full w-full object-cover transition-all duration-500"
+                   />
                 </div>
 
                 <div className="flex flex-col justify-between">

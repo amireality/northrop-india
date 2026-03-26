@@ -6,11 +6,11 @@ import 'swiper/css/pagination'
 
 function SocialProof() {
   return (
-    <section className="bg-white px-6 py-24 md:px-10 lg:px-20">
-      <div className="mx-auto w-full max-w-[1400px]">
+    <section className="bg-white px-6 py-10 md:px-10 lg:px-10">
+      <div className="mx-auto w-full">
         
         {/* 1. Testimonial Section */}
-        <div className="mb-24 text-center">
+        <div className="mb-10 text-center">
           <h2 className="mb-16 text-4xl font-bold tracking-tight text-[#001f3f] md:text-[44px]">
             What Our <span className="text-[#c5a044]">Clients Say</span>
           </h2>
@@ -65,26 +65,7 @@ function SocialProof() {
           </div>
         </div>
 
-        {/* 2. Trusted Partners (Logo Bar) */}
-        <div className="pt-12 border-t border-gray-100">
-          <h3 className="mb-12 text-center text-[13px] font-bold uppercase tracking-[0.4em] text-gray-400">
-            Trusted Partners
-          </h3>
-          
-          <div className="flex flex-wrap items-center justify-center gap-10 md:gap-16 opacity-60">
-            {partners?.map((partner) => (
-              <div 
-                key={partner} 
-                className="text-[18px] font-black tracking-tighter text-[#001f3f] grayscale hover:grayscale-0 hover:opacity-100 transition-all cursor-default"
-              >
-                {/* If you have actual logo images, use:
-                   <img src={`/logos/${partner}.png`} alt={partner} className="h-8 object-contain" />
-                */}
-                {partner}
-              </div>
-            ))}
-          </div>
-        </div>
+       
 
       </div>
 

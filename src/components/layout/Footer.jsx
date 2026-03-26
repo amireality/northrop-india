@@ -1,6 +1,6 @@
 import { footerLinks } from '../../data/homeContent'
 
-function ContactFooter() {
+function Footer() {
   return (
     <footer 
       className="bg-cover bg-center bg-no-repeat px-6 py-20 text-white md:px-10 lg:px-20"
@@ -104,4 +104,4 @@ function ContactFooter() {
   )
 }
 
-export default ContactFooter
+export default Footer
