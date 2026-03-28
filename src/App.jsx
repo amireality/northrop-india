@@ -10,7 +10,7 @@ import Services from './pages/Services'
 import Industry from './pages/Industry'
 import Alliances from './pages/Alliances'
 import CaseStudies from './pages/CaseStudies'
-import DynamicSubPage from './pages/DynamicSubPage'
+// import DynamicSubPage from './pages/DynamicSubPage'
 import InstitutePage from './pages/Institute'
 
 // Services Imports
@@ -26,7 +26,6 @@ import RiskRegulatoryForensic from './pages/services/RiskRegulatoryForensic'
 import Legal from './pages/services/Legal'
 import Operate from './pages/services/Operate'
 import Tax from './pages/services/Tax'
-import DeloittePrivate from './pages/services/DeloittePrivate'
 import EngineeringAiData from './pages/services/EngineeringAiData'
 import EnterpriseTechnologyPerformance from './pages/services/EnterpriseTechnologyPerformance'
 import GenerativeAI from './pages/services/GenerativeAI'
@@ -94,7 +93,6 @@ function App() {
           <Route path="/services/legal" element={<Legal />} />
           <Route path="/services/operate" element={<Operate />} />
           <Route path="/services/tax" element={<Tax />} />
-          <Route path="/services/deloitte-private" element={<DeloittePrivate />} />
           <Route path="/services/engineering-ai-data" element={<EngineeringAiData />} />
           <Route path="/services/enterprise-technology-performance" element={<EnterpriseTechnologyPerformance />} />
           <Route path="/services/generative-ai" element={<GenerativeAI />} />
@@ -133,7 +131,7 @@ function App() {
           <Route path="/case-studies/by-service" element={<ByService />} />
 
           {/* Dynamic Catch-all (Optional backup if new data added) */}
-          <Route path="/:category/:slug" element={<DynamicSubPage />} />
+          {/* <Route path="/:category/:slug" element={<DynamicSubPage />} /> */}
         </Routes>
       </main>
       <Footer />

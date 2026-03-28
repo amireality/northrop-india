@@ -42,7 +42,7 @@ export default function Header() {
       className="relative w-full bg-white border-b border-gray-200 font-sans text-[#001f3f] select-none"
       onMouseLeave={() => setIsMegaMenuOpen(false)}
     >
-      <nav className="flex h-[80px] items-center justify-between px-6 lg:px-12">
+      <nav className="flex h-[50px] items-center justify-between px-6 lg:px-12">
         <div className="flex items-center gap-10 h-full">
           {/* <Link to="/" className="flex items-center h-full">
             <img src="/Logo.jpeg" alt="Northrop Logo" className="h-[60px] w-auto object-contain" />
@@ -85,15 +85,11 @@ export default function Header() {
         </div>
 
         <div className="flex items-center gap-5 text-gray-600 h-full" onMouseEnter={() => setIsMegaMenuOpen(false)}>
-          <button className="flex items-center gap-2 text-[14px] hover:text-[#001f3f]">
+          {/* <button className="flex items-center gap-2 text-[14px] hover:text-[#001f3f]">
             <Search size={20} strokeWidth={1.5} /><span className="hidden lg:inline">Search</span>
-          </button>
+          </button> */}
           <div className="hidden md:flex items-center gap-5">
-            <button className="flex items-center gap-1 text-[14px] hover:text-[#001f3f]">
-              <Globe size={20} strokeWidth={1.5} /><span className="hidden lg:inline uppercase">IN - EN</span><ChevronDown size={14} />
-            </button>
             <Mail size={20} strokeWidth={1.5} className="cursor-pointer hover:text-[#001f3f]" />
-            <User size={22} strokeWidth={1.5} className="cursor-pointer hover:text-[#001f3f]" />
           </div>
           <button className="md:hidden flex items-center text-gray-800" onClick={() => setIsMobileMenuOpen(true)}>
             <Menu size={28} />
