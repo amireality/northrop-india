@@ -11,6 +11,7 @@ import Industry from './pages/Industry'
 import Alliances from './pages/Alliances'
 import CaseStudies from './pages/CaseStudies'
 import DynamicSubPage from './pages/DynamicSubPage'
+import InstitutePage from './pages/Institute'
 
 // Services Imports
 import Audit from './pages/services/Audit'
@@ -78,7 +79,8 @@ function App() {
           <Route path="/industry" element={<Industry />} />
           <Route path="/alliances" element={<Alliances />} />
           <Route path="/case-studies" element={<CaseStudies />} />
-          
+          <Route path="/institute" element={<InstitutePage />} />
+
           {/* Services Sub-routes */}
           <Route path="/services/audit" element={<Audit />} />
           <Route path="/services/assurance" element={<Assurance />} />

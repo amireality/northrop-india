@@ -27,7 +27,7 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSubMenu, setActiveSubMenu] = useState(null);
   const [activeCategory, setActiveCategory] = useState(null); // For 3rd level mobile menu
-  const [activeTab, setActiveTab] = useState('Services');
+  const [activeTab, setActiveTab] = useState('Financial Reporting');
   const location = useLocation();
 
   useEffect(() => {
@@ -44,9 +44,9 @@ export default function Header() {
     >
       <nav className="flex h-[80px] items-center justify-between px-6 lg:px-12">
         <div className="flex items-center gap-10 h-full">
-          <Link to="/" className="flex items-center h-full">
+          {/* <Link to="/" className="flex items-center h-full">
             <img src="/Logo.jpeg" alt="Northrop Logo" className="h-[60px] w-auto object-contain" />
-          </Link>
+          </Link> */}
 
           <div className="hidden h-full items-center gap-8 md:flex">
             <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
@@ -104,36 +104,38 @@ export default function Header() {
       {/* Mega Menu Overlay (Desktop) */}
       {isMegaMenuOpen && (
         <div className="absolute left-0 top-full z-50 flex w-full bg-[#061a3a] shadow-2xl">
-          <aside className="w-[18%] min-w-[200px] border-r border-white/10 bg-[#0b1a31]">
+          <aside className="w-[20%] min-w-[280px] max-w-[320px] border-r border-white/10 bg-[#0b1a31]">
             <ul className="py-4">
               {sidebarLinks.map((link) => (
                 <li key={link.label}>
                   <button
                     onClick={() => setActiveTab(link.label)}
-                    className={`w-full flex items-center justify-between px-8 py-5 text-[20px] transition-colors outline-none ${
+                    className={`w-full flex items-center justify-between px-8 py-3 text-[17px] text-left transition-colors outline-none ${
                       activeTab === link.label ? 'bg-[#061a3a] text-[#c5a044]' : 'text-gray-400 hover:text-white'
                     }`}
                   >
-                    {link.label}
-                    {link.hasArrow && <ChevronRight size={16} className={activeTab === link.label ? 'text-[#c5a044]' : 'text-gray-600'} />}
+                    <span className="flex-1 pr-4">{link.label}</span>
+                    {link.hasArrow && <ChevronRight size={16} className={`flex-shrink-0 ${activeTab === link.label ? 'text-[#c5a044]' : 'text-gray-600'}`} />}
                   </button>
                 </li>
               ))}
             </ul>
           </aside>
-          <main className="flex-1 px-12 py-10 min-h-[500px]">
-            <div className="grid grid-cols-1 gap-x-12 gap-y-8 md:grid-cols-3">
-              {menuContent[activeTab]?.map((col, idx) => (
-                <div key={idx} className="flex flex-col gap-6">
-                  {col.map((item) => (
-                    <Link key={item.label} to={item.href} onClick={() => setIsMegaMenuOpen(false)} className="text-[17px] font-light text-gray-400 hover:text-white">
-                      {item.label}
-                    </Link>
-                  ))}
-                </div>
-              ))}
-            </div>
-          </main>
+          <div className="flex-1 relative">
+            <main className="absolute inset-0 px-12 py-10 overflow-y-auto bg-[#061a3a]">
+              <div className="grid grid-cols-1 gap-x-12 gap-y-8 md:grid-cols-3">
+                {menuContent[activeTab]?.map((col, idx) => (
+                  <div key={idx} className="flex flex-col gap-6">
+                    {col.map((item) => (
+                      <Link key={item.label} to={item.href} onClick={() => setIsMegaMenuOpen(false)} className="text-[17px] font-light text-gray-400 hover:text-white">
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            </main>
+          </div>
         </div>
       )}
 
