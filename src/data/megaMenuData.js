@@ -13,46 +13,56 @@ const slugify = (text) => text.toLowerCase().replace(/ & /g, '-').replace(/, /g,
 export const menuContent = {
   'Financial Reporting': [
     [
-      { label: 'Audit & Assurance', href: '/services/audit' },
-      { label: 'IFRS Advisory', href: '/services/ifrs' },
-      { label: 'Accounting Advisory', href: '/services/accounting-advisory' }
+      { label: 'Risk Audit and Assurance Consulting', href: '/services/risk-audit-assurance' },
+      { label: 'Accounting Advisory Services', href: '/services/accounting-advisory-services' },
+      { label: 'Financial Statement Preparation Services', href: '/services/financial-statement-preparation' }
     ],
     [
-      { label: 'Corporate Reporting', href: '/services/corporate-reporting' },
-      { label: 'Consolidation Services', href: '/services/consolidation' }
+      { label: 'International Financial Reporting Standards (IFRS) & IND-AS Implementation', href: '/services/ifrs-ind-as-implementation' },
+      { label: 'Agreed Upon Procedures Management Reporting', href: '/services/agreed-upon-procedures' },
+      { label: 'Ind AS Applicability Compliance Consultants', href: '/services/ind-as-applicability' }
     ]
   ],
   'Risk Management': [
     [
-      { label: 'Enterprise Risk Management', href: '/services/erm' },
       { label: 'Internal Audit', href: '/services/internal-audit' },
-      { label: 'IT Risk & Cyber Security', href: '/services/cyber' }
+      { label: 'Internal Audit Transformation Service', href: '/services/internal-audit-transformation' },
+      { label: 'Enterprise Risk Management Services', href: '/services/enterprise-risk-management' }
     ],
     [
-      { label: 'Regulatory Compliance', href: '/services/regulatory' },
-      { label: 'Third-Party Risk', href: '/services/third-party-risk' }
+      { label: 'Risk and Control Registers Consulting', href: '/services/risk-control-registers' },
+      { label: 'IFC/ICFR in India', href: '/services/ifc-icfr-india' },
+      { label: 'Process Designing and Documentation Services', href: '/services/process-design-documentation' }
     ]
   ],
   'Due Diligence': [
     [
-      { label: 'Financial Due Diligence', href: '/services/financial-dd' },
-      { label: 'Tax Due Diligence', href: '/services/tax-dd' },
-      { label: 'Commercial Due Diligence', href: '/services/commercial-dd' }
+      { label: 'Buy-Side FDD', href: '/services/buy-side-fdd' },
+      { label: 'Sell-Side FDD', href: '/services/sell-side-fdd' },
+      { label: 'Vendor DD (VDD)', href: '/services/vendor-dd' },
+      { label: 'Lender Due Diligence', href: '/services/lender-due-diligence' },
+      { label: 'Red Flag Report', href: '/services/red-flag-report' }
     ],
     [
-      { label: 'IT Due Diligence', href: '/services/it-dd' },
-      { label: 'HR Due Diligence', href: '/services/hr-dd' }
+      { label: 'Fraud Indicators', href: '/services/fraud-indicators' },
+      { label: 'Missing Docs Report', href: '/services/missing-docs-report' },
+      { label: 'Mgmt Account Scrutiny', href: '/services/mgmt-account-scrutiny' },
+      { label: 'Related Party Review', href: '/services/related-party-review' },
+      { label: 'Quality of Earnings', href: '/services/quality-of-earnings' }
     ]
   ],
   'Forensic Investigations': [
     [
-      { label: 'Fraud Investigations', href: '/services/fraud' },
-      { label: 'Dispute Advisory', href: '/services/dispute-advisory' },
-      { label: 'Digital Forensics', href: '/services/digital-forensics' }
+      { label: 'Forensic Accounting Fraud Investigations Service', href: '/services/forensic-accounting-fraud' },
+      { label: 'Law Enforcement Support Services', href: '/services/law-enforcement-support' },
+      { label: 'Forensic Audit Services Under RBI', href: '/services/forensic-audit-rbi' },
+      { label: 'Transaction Audit under IBC', href: '/services/transaction-audit-ibc' }
     ],
     [
-      { label: 'Anti-Bribery & Corruption', href: '/services/anti-bribery' },
-      { label: 'Asset Tracing', href: '/services/asset-tracing' }
+      { label: 'Anti-Bribery and Corruption Services', href: '/services/anti-bribery-corruption' },
+      { label: 'Asset Tracing Investigation Services India', href: '/services/asset-tracing-investigation' },
+      { label: 'AML KYC & Sanctions Consulting Review services', href: '/services/aml-kyc-sanctions' },
+      { label: 'Digital Forensic Investigation', href: '/services/digital-forensic' }
     ]
   ],
   'Taxation': [
@@ -80,13 +90,15 @@ export const menuContent = {
   ],
   'Grant & Funding': [
     [
-      { label: 'Debt Syndication', href: '/services/debt-syndication' },
-      { label: 'Private Equity Raising', href: '/services/pe-raising' },
-      { label: 'Venture Capital', href: '/services/vc-funding' }
+      { label: 'Business Strategy and Consulting', href: '/services/business-strategy-consulting' },
+      { label: 'Impact Assessment Services', href: '/services/impact-assessment' },
+      { label: 'Program Management Consulting', href: '/services/program-management-consulting' },
+      { label: 'Corporate Social Responsibility Consulting', href: '/services/csr-consulting' }
     ],
     [
-      { label: 'Government Grants', href: '/services/government-grants' },
-      { label: 'Project Finance', href: '/services/project-finance' }
-  ]
+      { label: 'Research & Documentation Services', href: '/services/research-documentation' },
+      { label: 'Grant Management & Utilisation Services', href: '/services/grant-management-utilisation' },
+      { label: 'GRC Control and Compliance Services', href: '/services/grc-control-compliance' }
+    ]
   ]
 }

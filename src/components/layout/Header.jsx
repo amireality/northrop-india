@@ -119,16 +119,19 @@ export default function Header() {
           </aside>
           <div className="flex-1 relative">
             <main className="absolute inset-0 px-12 py-10 overflow-y-auto bg-[#061a3a]">
-              <div className="grid grid-cols-1 gap-x-12 gap-y-8 md:grid-cols-3">
-                {menuContent[activeTab]?.map((col, idx) => (
-                  <div key={idx} className="flex flex-col gap-6">
-                    {col.map((item) => (
-                      <Link key={item.label} to={item.href} onClick={() => setIsMegaMenuOpen(false)} className="text-[17px] font-light text-gray-400 hover:text-white">
+              <div className="grid grid-cols-2 gap-x-24 gap-y-8 w-full max-w-5xl items-start">
+                {Array.from({ length: Math.max(...(menuContent[activeTab]?.map(c => c.length) || [0]), 0) }).flatMap((_, rowIdx) =>
+                  (menuContent[activeTab] || []).map((col, colIdx) => {
+                    const item = col[rowIdx];
+                    return item ? (
+                      <Link key={item.label} to={item.href} onClick={() => setIsMegaMenuOpen(false)} className="text-[17px] font-light text-gray-400 hover:text-white leading-snug block">
                         {item.label}
                       </Link>
-                    ))}
-                  </div>
-                ))}
+                    ) : (
+                      <div key={`empty-${colIdx}-${rowIdx}`} />
+                    );
+                  })
+                )}
               </div>
             </main>
           </div>
