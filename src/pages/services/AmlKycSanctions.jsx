@@ -14,11 +14,11 @@ import {
   ArrowRight
 } from 'lucide-react';
 
-const AuditPage = () => {
+const AmlKycSanctionsPage = () => {
   const breadcrumbs = [
     { name: "Home", link: "/" },
     { name: "Services", link: "/services" },
-    { name: "Audit & Assurance", link: null }
+    { name: "Aml Kyc Sanctions", link: null }
   ];
 
   const processSteps = [
@@ -55,7 +55,7 @@ const AuditPage = () => {
           </nav>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight">
-            Audit & <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Assurance</span>
+            Aml <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Kyc Sanctions</span>
           </h1>
           <p className="text-xl md:text-2xl font-light text-slate-300 leading-relaxed max-w-3xl mb-10">
             Driving transparency, building stakeholder trust, and illuminating operational truths through human intelligence and AI-powered precision.
@@ -240,4 +240,4 @@ const ServiceCard = ({ title, detail }) => (
   </div>
 );
 
-export default AuditPage;
+export default AmlKycSanctionsPage;

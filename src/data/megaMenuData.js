@@ -1,84 +1,104 @@
 export const sidebarLinks = [
-  { label: 'Services', hasArrow: true, href: '/services' },
-  { label: 'Industry', hasArrow: true, href: '/industry' },
-  { label: 'Alliances', hasArrow: true, href: '/alliances' },
-  { label: 'Case studies', hasArrow: false, href: '/case-studies' },
+  { label: 'Financial Reporting', hasArrow: true, href: '/services/financial-reporting' },
+  { label: 'Risk Management', hasArrow: true, href: '/services/risk-management' },
+  { label: 'Due Diligence', hasArrow: true, href: '/services/due-diligence' },
+  { label: 'Forensic Investigations', hasArrow: true, href: '/services/forensic-investigations' },
+  { label: 'Taxation', hasArrow: true, href: '/services/taxation' },
+  { label: 'Transaction Advisory', hasArrow: true, href: '/services/transaction-advisory' },
+  { label: 'Grant & Funding', hasArrow: true, href: '/services/grant-funding' },
 ]
 
 const slugify = (text) => text.toLowerCase().replace(/ & /g, '-').replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-');
 
 export const menuContent = {
-  'Services': [
+  'Financial Reporting': [
     [
-      { label: 'Audit', href: '/services/audit' },
-      { label: 'Assurance', href: '/services/assurance' },
-      { label: 'Business Process Solutions', href: '/services/business-process-solutions' },
-      { label: 'Customer', href: '/services/customer' },
-      { label: 'Cyber', href: '/services/cyber' },
-      { label: 'Human Capital', href: '/services/human-capital' },
-      { label: 'Strategy & Transactions', href: '/services/strategy-transactions' }
+      { label: 'Risk Audit and Assurance Consulting', href: '/services/risk-audit-assurance' },
+      { label: 'Accounting Advisory Services', href: '/services/accounting-advisory-services' },
+      { label: 'Financial Statement Preparation Services', href: '/services/financial-statement-preparation' }
     ],
     [
-      { label: 'Sustainability', href: '/services/sustainability' },
-      { label: 'Risk, Regulatory & Forensic', href: '/services/risk-regulatory-forensic' },
-      { label: 'Legal', href: '/services/legal' },
-      { label: 'Operate', href: '/services/operate' },
-      { label: 'Tax', href: '/services/tax' },
-      { label: 'Deloitte Private', href: '/services/deloitte-private' },
-      { label: 'Engineering, AI & Data', href: '/services/engineering-ai-data' }
-    ],
-    [
-      { label: 'Enterprise Technology & Performance', href: '/services/enterprise-technology-performance' },
-      { label: 'Generative AI', href: '/services/generative-ai' },
-      { label: 'Global Employer Services', href: '/services/global-employer-services' }
+      { label: 'International Financial Reporting Standards (IFRS) & IND-AS Implementation', href: '/services/ifrs-ind-as-implementation' },
+      { label: 'Agreed Upon Procedures Management Reporting', href: '/services/agreed-upon-procedures' },
+      { label: 'Ind AS Applicability Compliance Consultants', href: '/services/ind-as-applicability' }
     ]
   ],
-  'Industry': [
+  'Risk Management': [
     [
-      { label: 'Consumer', href: '/industry/consumer' },
-      { label: 'Energy, Resources & Industrials', href: '/industry/energy-resources-industrials' },
-      { label: 'Financial Services', href: '/industry/financial-services' },
-      { label: 'Government & Public Services', href: '/industry/government-public-services' }
+      { label: 'Internal Audit', href: '/services/internal-audit' },
+      { label: 'Internal Audit Transformation Service', href: '/services/internal-audit-transformation' },
+      { label: 'Enterprise Risk Management Services', href: '/services/enterprise-risk-management' }
     ],
     [
-      { label: 'Life Sciences & Health Care', href: '/industry/life-sciences-health-care' },
-      { label: 'Technology, Media & Telecommunications', href: '/industry/technology-media-telecommunications' },
-      { label: 'Aerospace & Defense', href: '/industry/aerospace-defense' },
-      { label: 'Automotive', href: '/industry/automotive' }
-    ],
-    [
-      { label: 'Real Estate', href: '/industry/real-estate' },
-      { label: 'Logistics', href: '/industry/logistics' },
-      { label: 'Retail', href: '/industry/retail' }
+      { label: 'Risk and Control Registers Consulting', href: '/services/risk-control-registers' },
+      { label: 'IFC/ICFR in India', href: '/services/ifc-icfr-india' },
+      { label: 'Process Designing and Documentation Services', href: '/services/process-design-documentation' }
     ]
   ],
-  'Alliances': [
+  'Due Diligence': [
     [
-      { label: 'SAP Alliance', href: '/alliances/sap' },
-      { label: 'Oracle Alliance', href: '/alliances/oracle' },
-      { label: 'Microsoft Alliance', href: '/alliances/microsoft' },
-      { label: 'AWS Alliance', href: '/alliances/aws' }
+      { label: 'Buy-Side FDD', href: '/services/buy-side-fdd' },
+      { label: 'Sell-Side FDD', href: '/services/sell-side-fdd' },
+      { label: 'Vendor DD (VDD)', href: '/services/vendor-dd' },
+      { label: 'Lender Due Diligence', href: '/services/lender-due-diligence' },
+      { label: 'Red Flag Report', href: '/services/red-flag-report' }
     ],
     [
-      { label: 'Google Cloud Alliance', href: '/alliances/google-cloud' },
-      { label: 'Salesforce Alliance', href: '/alliances/salesforce' },
-      { label: 'ServiceNow Alliance', href: '/alliances/servicenow' }
-    ],
-    [
-      { label: 'Workday Alliance', href: '/alliances/workday' },
-      { label: 'NVIDIA Alliance', href: '/alliances/nvidia' },
-      { label: 'Adobe Alliance', href: '/alliances/adobe' }
+      { label: 'Fraud Indicators', href: '/services/fraud-indicators' },
+      { label: 'Missing Docs Report', href: '/services/missing-docs-report' },
+      { label: 'Mgmt Account Scrutiny', href: '/services/mgmt-account-scrutiny' },
+      { label: 'Related Party Review', href: '/services/related-party-review' },
+      { label: 'Quality of Earnings', href: '/services/quality-of-earnings' }
     ]
   ],
-  'Case studies': [
+  'Forensic Investigations': [
     [
-      { label: 'Success Stories', href: '/case-studies/success-stories' },
-      { label: 'Client Testimonials', href: '/case-studies/testimonials' },
-      { label: 'Resource Library', href: '/case-studies/resources' }
+      { label: 'Forensic Accounting Fraud Investigations Service', href: '/services/forensic-accounting-fraud' },
+      { label: 'Law Enforcement Support Services', href: '/services/law-enforcement-support' },
+      { label: 'Forensic Audit Services Under RBI', href: '/services/forensic-audit-rbi' },
+      { label: 'Transaction Audit under IBC', href: '/services/transaction-audit-ibc' }
     ],
     [
-      { label: 'Browse by Industry', href: '/case-studies/by-industry' },
-      { label: 'Browse by Service', href: '/case-studies/by-service' }
+      { label: 'Anti-Bribery and Corruption Services', href: '/services/anti-bribery-corruption' },
+      { label: 'Asset Tracing Investigation Services India', href: '/services/asset-tracing-investigation' },
+      { label: 'AML KYC & Sanctions Consulting Review services', href: '/services/aml-kyc-sanctions' },
+      { label: 'Digital Forensic Investigation', href: '/services/digital-forensic' }
+    ]
+  ],
+  'Taxation': [
+    [
+      { label: 'Corporate Tax', href: '/services/corporate-tax' },
+      { label: 'International Tax', href: '/services/international-tax' },
+      { label: 'Transfer Pricing', href: '/services/transfer-pricing' }
+    ],
+    [
+      { label: 'Indirect Tax (GST)', href: '/services/indirect-tax' },
+      { label: 'Personal Tax', href: '/services/personal-tax' },
+      { label: 'Tax Controversy', href: '/services/tax-controversy' }
+    ]
+  ],
+  'Transaction Advisory': [
+    [
+      { label: 'M&A Advisory', href: '/services/m-a-advisory' },
+      { label: 'Valuation Modeling', href: '/services/valuation' },
+      { label: 'Capital Structuring', href: '/services/capital-structuring' }
+    ],
+    [
+      { label: 'Restructuring', href: '/services/restructuring' },
+      { label: 'Post-Merger Integration', href: '/services/pmi' }
+    ]
+  ],
+  'Grant & Funding': [
+    [
+      { label: 'Business Strategy and Consulting', href: '/services/business-strategy-consulting' },
+      { label: 'Impact Assessment Services', href: '/services/impact-assessment' },
+      { label: 'Program Management Consulting', href: '/services/program-management-consulting' },
+      { label: 'Corporate Social Responsibility Consulting', href: '/services/csr-consulting' }
+    ],
+    [
+      { label: 'Research & Documentation Services', href: '/services/research-documentation' },
+      { label: 'Grant Management & Utilisation Services', href: '/services/grant-management-utilisation' },
+      { label: 'GRC Control and Compliance Services', href: '/services/grc-control-compliance' }
     ]
   ]
 }

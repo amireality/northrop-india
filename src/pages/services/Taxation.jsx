@@ -14,11 +14,11 @@ import {
   ArrowRight
 } from 'lucide-react';
 
-const AuditPage = () => {
+const TaxationPage = () => {
   const breadcrumbs = [
     { name: "Home", link: "/" },
     { name: "Services", link: "/services" },
-    { name: "Audit & Assurance", link: null }
+    { name: "Taxation", link: null }
   ];
 
   const processSteps = [
@@ -47,7 +47,7 @@ const AuditPage = () => {
                 {crumb.link ? (
                   <a href={crumb.link} className="hover:text-blue-400 transition-colors">{crumb.name}</a>
                 ) : (
-                  <span className="text-slate-200 font-medium">{crumb.name}</span>
+                  <span className="text-slate-200 font-medium">{crumb.name}Taxation</span>
                 )}
                 {index < breadcrumbs.length - 1 && <ChevronRight size={14} />}
               </React.Fragment>
@@ -55,7 +55,7 @@ const AuditPage = () => {
           </nav>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight">
-            Audit & <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Assurance</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400"></span>
           </h1>
           <p className="text-xl md:text-2xl font-light text-slate-300 leading-relaxed max-w-3xl mb-10">
             Driving transparency, building stakeholder trust, and illuminating operational truths through human intelligence and AI-powered precision.
@@ -240,4 +240,4 @@ const ServiceCard = ({ title, detail }) => (
   </div>
 );
 
-export default AuditPage;
+export default TaxationPage;

@@ -10,9 +10,54 @@ import Services from './pages/Services'
 import Industry from './pages/Industry'
 import Alliances from './pages/Alliances'
 import CaseStudies from './pages/CaseStudies'
-import DynamicSubPage from './pages/DynamicSubPage'
+// import DynamicSubPage from './pages/DynamicSubPage'
+import InstitutePage from './pages/Institute'
 
 // Services Imports
+import FinancialReporting from './pages/services/FinancialReporting'
+import RiskManagement from './pages/services/RiskManagement'
+import DueDiligence from './pages/services/DueDiligence'
+import ForensicInvestigations from './pages/services/ForensicInvestigations'
+import Taxation from './pages/services/Taxation'
+import TransactionAdvisory from './pages/services/TransactionAdvisory'
+import GrantFunding from './pages/services/GrantFunding'
+import RiskAuditAssurance from './pages/services/RiskAuditAssurance'
+import AccountingAdvisoryServices from './pages/services/AccountingAdvisoryServices'
+import FinancialStatementPreparation from './pages/services/FinancialStatementPreparation'
+import IfrsIndAsImplementation from './pages/services/IfrsIndAsImplementation'
+import AgreedUponProcedures from './pages/services/AgreedUponProcedures'
+import IndAsApplicability from './pages/services/IndAsApplicability'
+import InternalAudit from './pages/services/InternalAudit'
+import InternalAuditTransformation from './pages/services/InternalAuditTransformation'
+import EnterpriseRiskManagement from './pages/services/EnterpriseRiskManagement'
+import RiskControlRegisters from './pages/services/RiskControlRegisters'
+import IfcIcfrIndia from './pages/services/IfcIcfrIndia'
+import ProcessDesignDocumentation from './pages/services/ProcessDesignDocumentation'
+import BuySideFdd from './pages/services/BuySideFdd'
+import SellSideFdd from './pages/services/SellSideFdd'
+import VendorDd from './pages/services/VendorDd'
+import LenderDueDiligence from './pages/services/LenderDueDiligence'
+import RedFlagReport from './pages/services/RedFlagReport'
+import FraudIndicators from './pages/services/FraudIndicators'
+import MissingDocsReport from './pages/services/MissingDocsReport'
+import MgmtAccountScrutiny from './pages/services/MgmtAccountScrutiny'
+import RelatedPartyReview from './pages/services/RelatedPartyReview'
+import QualityOfEarnings from './pages/services/QualityOfEarnings'
+import ForensicAccountingFraud from './pages/services/ForensicAccountingFraud'
+import LawEnforcementSupport from './pages/services/LawEnforcementSupport'
+import ForensicAuditRbi from './pages/services/ForensicAuditRbi'
+import TransactionAuditIbc from './pages/services/TransactionAuditIbc'
+import AntiBriberyCorruption from './pages/services/AntiBriberyCorruption'
+import AssetTracingInvestigation from './pages/services/AssetTracingInvestigation'
+import AmlKycSanctions from './pages/services/AmlKycSanctions'
+import DigitalForensic from './pages/services/DigitalForensic'
+import BusinessStrategyConsulting from './pages/services/BusinessStrategyConsulting'
+import ImpactAssessment from './pages/services/ImpactAssessment'
+import ProgramManagementConsulting from './pages/services/ProgramManagementConsulting'
+import CsrConsulting from './pages/services/CsrConsulting'
+import ResearchDocumentation from './pages/services/ResearchDocumentation'
+import GrantManagementUtilisation from './pages/services/GrantManagementUtilisation'
+import GrcControlCompliance from './pages/services/GrcControlCompliance'
 import Audit from './pages/services/Audit'
 import Assurance from './pages/services/Assurance'
 import BusinessProcessSolutions from './pages/services/BusinessProcessSolutions'
@@ -25,7 +70,6 @@ import RiskRegulatoryForensic from './pages/services/RiskRegulatoryForensic'
 import Legal from './pages/services/Legal'
 import Operate from './pages/services/Operate'
 import Tax from './pages/services/Tax'
-import DeloittePrivate from './pages/services/DeloittePrivate'
 import EngineeringAiData from './pages/services/EngineeringAiData'
 import EnterpriseTechnologyPerformance from './pages/services/EnterpriseTechnologyPerformance'
 import GenerativeAI from './pages/services/GenerativeAI'
@@ -78,8 +122,53 @@ function App() {
           <Route path="/industry" element={<Industry />} />
           <Route path="/alliances" element={<Alliances />} />
           <Route path="/case-studies" element={<CaseStudies />} />
-          
+          <Route path="/institute" element={<InstitutePage />} />
+
           {/* Services Sub-routes */}
+          <Route path="/services/financial-reporting" element={<FinancialReporting />} />
+          <Route path="/services/risk-management" element={<RiskManagement />} />
+          <Route path="/services/due-diligence" element={<DueDiligence />} />
+          <Route path="/services/forensic-investigations" element={<ForensicInvestigations />} />
+          <Route path="/services/taxation" element={<Taxation />} />
+          <Route path="/services/transaction-advisory" element={<TransactionAdvisory />} />
+          <Route path="/services/grant-funding" element={<GrantFunding />} />
+          <Route path="/services/risk-audit-assurance" element={<RiskAuditAssurance />} />
+          <Route path="/services/accounting-advisory-services" element={<AccountingAdvisoryServices />} />
+          <Route path="/services/financial-statement-preparation" element={<FinancialStatementPreparation />} />
+          <Route path="/services/ifrs-ind-as-implementation" element={<IfrsIndAsImplementation />} />
+          <Route path="/services/agreed-upon-procedures" element={<AgreedUponProcedures />} />
+          <Route path="/services/ind-as-applicability" element={<IndAsApplicability />} />
+          <Route path="/services/internal-audit" element={<InternalAudit />} />
+          <Route path="/services/internal-audit-transformation" element={<InternalAuditTransformation />} />
+          <Route path="/services/enterprise-risk-management" element={<EnterpriseRiskManagement />} />
+          <Route path="/services/risk-control-registers" element={<RiskControlRegisters />} />
+          <Route path="/services/ifc-icfr-india" element={<IfcIcfrIndia />} />
+          <Route path="/services/process-design-documentation" element={<ProcessDesignDocumentation />} />
+          <Route path="/services/buy-side-fdd" element={<BuySideFdd />} />
+          <Route path="/services/sell-side-fdd" element={<SellSideFdd />} />
+          <Route path="/services/vendor-dd" element={<VendorDd />} />
+          <Route path="/services/lender-due-diligence" element={<LenderDueDiligence />} />
+          <Route path="/services/red-flag-report" element={<RedFlagReport />} />
+          <Route path="/services/fraud-indicators" element={<FraudIndicators />} />
+          <Route path="/services/missing-docs-report" element={<MissingDocsReport />} />
+          <Route path="/services/mgmt-account-scrutiny" element={<MgmtAccountScrutiny />} />
+          <Route path="/services/related-party-review" element={<RelatedPartyReview />} />
+          <Route path="/services/quality-of-earnings" element={<QualityOfEarnings />} />
+          <Route path="/services/forensic-accounting-fraud" element={<ForensicAccountingFraud />} />
+          <Route path="/services/law-enforcement-support" element={<LawEnforcementSupport />} />
+          <Route path="/services/forensic-audit-rbi" element={<ForensicAuditRbi />} />
+          <Route path="/services/transaction-audit-ibc" element={<TransactionAuditIbc />} />
+          <Route path="/services/anti-bribery-corruption" element={<AntiBriberyCorruption />} />
+          <Route path="/services/asset-tracing-investigation" element={<AssetTracingInvestigation />} />
+          <Route path="/services/aml-kyc-sanctions" element={<AmlKycSanctions />} />
+          <Route path="/services/digital-forensic" element={<DigitalForensic />} />
+          <Route path="/services/business-strategy-consulting" element={<BusinessStrategyConsulting />} />
+          <Route path="/services/impact-assessment" element={<ImpactAssessment />} />
+          <Route path="/services/program-management-consulting" element={<ProgramManagementConsulting />} />
+          <Route path="/services/csr-consulting" element={<CsrConsulting />} />
+          <Route path="/services/research-documentation" element={<ResearchDocumentation />} />
+          <Route path="/services/grant-management-utilisation" element={<GrantManagementUtilisation />} />
+          <Route path="/services/grc-control-compliance" element={<GrcControlCompliance />} />
           <Route path="/services/audit" element={<Audit />} />
           <Route path="/services/assurance" element={<Assurance />} />
           <Route path="/services/business-process-solutions" element={<BusinessProcessSolutions />} />
@@ -92,7 +181,6 @@ function App() {
           <Route path="/services/legal" element={<Legal />} />
           <Route path="/services/operate" element={<Operate />} />
           <Route path="/services/tax" element={<Tax />} />
-          <Route path="/services/deloitte-private" element={<DeloittePrivate />} />
           <Route path="/services/engineering-ai-data" element={<EngineeringAiData />} />
           <Route path="/services/enterprise-technology-performance" element={<EnterpriseTechnologyPerformance />} />
           <Route path="/services/generative-ai" element={<GenerativeAI />} />
@@ -131,7 +219,7 @@ function App() {
           <Route path="/case-studies/by-service" element={<ByService />} />
 
           {/* Dynamic Catch-all (Optional backup if new data added) */}
-          <Route path="/:category/:slug" element={<DynamicSubPage />} />
+          {/* <Route path="/:category/:slug" element={<DynamicSubPage />} /> */}
         </Routes>
       </main>
       <Footer />
