@@ -106,6 +106,7 @@ import Testimonials from './pages/case-studies/Testimonials'
 import Resources from './pages/case-studies/Resources'
 import ByIndustry from './pages/case-studies/ByIndustry'
 import ByService from './pages/case-studies/ByService'
+import Foundation from './pages/Foundation'
 
 function App() {
   return (
@@ -123,6 +124,7 @@ function App() {
           <Route path="/alliances" element={<Alliances />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/institute" element={<InstitutePage />} />
+          <Route path="/foundation" element={<Foundation />} />
 
           {/* Services Sub-routes */}
           <Route path="/services/financial-reporting" element={<FinancialReporting />} />
