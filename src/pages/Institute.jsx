@@ -1,282 +1,205 @@
-import React from 'react';
-import { 
-  BookOpen, 
-  Brain, 
-  TrendingUp, 
-  Globe, 
-  Lightbulb, 
-  Users, 
-  ChevronRight,
-  ArrowRight,
-  ShieldAlert,
-  BarChart,
-  Briefcase,
-  Target,
-  Banknote,
-  LineChart,
-  Landmark,
-  CircleDollarSign,
-  PieChart,
-  Calculator
-} from 'lucide-react';
+import React, { useEffect } from 'react';
 
-const InstitutePage = () => {
-  const programs = [
-    {
-      id: "01",
-      title: "Investment Banking & Mergers and Acquisitions",
-      desc: "Understanding how investment banks structure deals, evaluate companies, and execute complex corporate transactions.",
-      icon: <Briefcase className="text-blue-500" size={24} />,
-      topics: ["Financial statement analysis", "Valuation methodologies (DCF, comps, precedent)", "Leveraged buyouts (LBO)", "M&A strategy", "Deal structuring and negotiations", "Transaction lifecycle and execution"]
-    },
-    {
-      id: "02",
-      title: "Private Equity & Venture Capital",
-      desc: "How private capital is raised, deployed, and managed to build long-term enterprise value.",
-      icon: <Target className="text-indigo-500" size={24} />,
-      topics: ["Fund structures and limited partner models", "Deal sourcing and investment screening", "Portfolio management", "Value creation strategies", "Exit strategies and secondary markets"]
-    },
-    {
-      id: "03",
-      title: "Hedge Funds & Advanced Investment Strategies",
-      desc: "Institutional investment strategies used by hedge funds and global asset managers.",
-      icon: <LineChart className="text-teal-500" size={24} />,
-      topics: ["Macro investing", "Long/short equity strategies", "Event-driven strategies", "Portfolio construction", "Risk management frameworks", "Derivatives and hedging techniques"]
-    },
-    {
-      id: "04",
-      title: "Global Capital Markets",
-      desc: "Understanding the structure and functioning of global financial markets.",
-      icon: <Globe className="text-cyan-500" size={24} />,
-      topics: ["Equity markets", "Debt markets", "Derivatives markets", "Institutional investors", "Liquidity and market structure"]
-    },
-    {
-      id: "05",
-      title: "Fixed Income, Bonds & Credit Markets",
-      desc: "Understanding how debt markets function and how governments and corporations raise capital.",
-      icon: <Banknote className="text-emerald-500" size={24} />,
-      topics: ["Bond markets", "Yield curves", "Credit risk", "Sovereign debt", "Corporate debt markets", "Interest rate dynamics"]
-    },
-    {
-      id: "06",
-      title: "Global Macro & Central Banking",
-      desc: "How macroeconomic forces shape financial markets.",
-      icon: <Landmark className="text-green-500" size={24} />,
-      topics: ["Monetary policy", "Interest rate cycles", "Inflation dynamics", "Global liquidity cycles", "Central bank policy frameworks", "Economic indicators and forecasting"]
-    },
-    {
-      id: "07",
-      title: "Forex & Currency Markets",
-      desc: "Understanding how global currency markets operate.",
-      icon: <CircleDollarSign className="text-lime-500" size={24} />,
-      topics: ["Foreign exchange market structure", "Central bank intervention", "Currency valuation", "Macroeconomic drivers of exchange rates", "Global capital flows"]
-    },
-    {
-      id: "08",
-      title: "Capital Allocation & Financial Strategy",
-      desc: "How businesses and investors make capital decisions that determine long-term growth.",
-      icon: <PieChart className="text-orange-500" size={24} />,
-      topics: ["Capital allocation frameworks", "Investment decision-making", "Corporate finance strategy", "Risk-adjusted returns", "Long-term value creation"]
-    },
-    {
-      id: "09",
-      title: "Advanced Financial Modeling",
-      desc: "Building financial models used by investment banks and private equity firms.",
-      icon: <Calculator className="text-amber-500" size={24} />,
-      topics: ["Financial modeling frameworks", "LBO models", "Valuation models", "Scenario analysis", "Deal modeling"]
-    }
-  ];
-
-  const insights = [
-    { title: "How Private Equity Actually Makes Money", category: "Research Paper" },
-    { title: "Why Most Startups Misallocate Capital", category: "Market Analysis" },
-    { title: "The Real Economics of Hedge Funds", category: "Strategy Insight" },
-    { title: "India�s Next Capital Cycle", category: "Macro View" }
-  ];
+const Institute = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
-    <div className="min-h-screen font-sans bg-slate-50 selection:bg-blue-200">
+    <div className="font-sans bg-[#080808] text-white leading-[1.6] overflow-x-hidden">
       
-      {/* HERO SECTION */}
-      <section className="relative bg-slate-900 text-white min-h-[85vh] flex items-center pt-24 pb-16 px-6 md:px-20 overflow-hidden">
-        {/* Background Accents */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute -top-[20%] -right-[10%] w-[900px] h-[900px] rounded-full bg-gradient-to-br from-blue-700/20 to-indigo-600/10 blur-3xl" />
-          <div className="absolute top-[40%] -left-[10%] w-[600px] h-[600px] rounded-full bg-gradient-to-tr from-cyan-900/40 to-transparent blur-3xl" />
-          {/* Subtle Grid overlay */}
-          <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))] opacity-10" />
+    
+
+      {/* HERO */}
+      <section id="hero" className="relative min-h-screen flex flex-col justify-end px-[20px] md:px-[80px] pb-[110px] overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-center bg-cover bg-no-repeat"
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1920&q=85')" }}
+        ></div>
+        <div 
+          className="absolute inset-0"
+          style={{ background: "linear-gradient(to bottom, rgba(8,8,8,0.25) 0%, rgba(8,8,8,0.45) 40%, rgba(8,8,8,0.88) 75%, rgba(8,8,8,1.00) 100%)" }}
+        ></div>
+        
+        <div className="absolute left-[20px] md:left-[80px] bottom-[44px] z-[2] hidden md:flex flex-col items-center gap-[8px]">
+          <div className="w-[1px] h-[52px]" style={{ background: "linear-gradient(to bottom, rgba(255,255,255,0.55), transparent)" }}></div>
+          <span className="text-[9px] tracking-[2.5px] uppercase text-[rgba(255,255,255,0.35)]" style={{ writingMode: 'vertical-rl' }}>Scroll</span>
         </div>
 
-        <div className="relative z-10 max-w-6xl mx-auto w-full">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 text-blue-300 font-medium text-sm mb-8 border border-blue-500/20">
-            <BookOpen size={16} /> A research and education initiative
+        <div className="relative z-[2] max-w-[820px]">
+          <div className="flex items-center gap-[10px] mb-[26px]">
+            <div className="flex-1 max-w-[40px] h-[1px] bg-[#7B5CE5]"></div>
+            <span className="text-[10.5px] font-[700] tracking-[3px] uppercase text-[#7B5CE5]">A Research & Education Initiative · Northrop Management Pvt. Ltd.</span>
           </div>
-
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight max-w-4xl">
-            Northrop Institute of <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-teal-400">
-              Global Finance
-            </span>
+          <h1 className="text-white font-[900] leading-[1.02] tracking-[-3px] mb-[26px]" style={{ fontSize: 'clamp(46px, 6.5vw, 86px)' }}>
+            Northrop Institute<br/>of <em className="not-italic text-[#7B5CE5]">Global Finance</em>
           </h1>
-          
-          <p className="text-xl md:text-2xl font-light text-slate-300 leading-relaxed max-w-3xl mb-12">
-            Where capital theory meets market reality. Developing the clarity of thinking required to evaluate capital decisions and operate with confidence in complex financial environments.
+          <p className="text-[17px] font-[300] text-[rgba(255,255,255,0.60)] max-w-[500px] leading-[1.8] mb-[48px] tracking-[0.1px]">
+            Developing the clarity of thinking required to understand markets,<br className="hidden md:block" />
+            evaluate capital decisions, and operate with confidence.
           </p>
-          
-          <div className="flex flex-wrap gap-4">
-            <a href="#programs" className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-full font-medium transition-all shadow-lg hover:shadow-blue-500/25 flex items-center gap-2">
-              Explore Programs <ArrowRight size={18} />
+          <div className="flex flex-col sm:flex-row gap-[14px]">
+            <a href="#programs" className="text-center bg-[#7B5CE5] hover:bg-[#6344d4] text-white text-[13.5px] font-[600] px-[38px] py-[15px] tracking-[0.3px] transition-colors duration-200">
+              Explore Programs
             </a>
-            <a href="#philosophy" className="bg-white/5 hover:bg-white/10 border border-white/10 text-white px-8 py-4 rounded-full font-medium transition-all backdrop-blur-sm">
-              Read Our Philosophy
+            <a href="#philosophy" className="text-center bg-transparent hover:bg-[rgba(255,255,255,0.06)] border border-[rgba(255,255,255,0.50)] hover:border-white text-white text-[13.5px] font-[500] px-[38px] py-[15px] tracking-[0.3px] transition-all duration-200">
+              Our Philosophy
             </a>
           </div>
         </div>
       </section>
 
-      {/* 1. PHILOSOPHY SECTION */}
-      <section id="philosophy" className="py-24 px-6 md:px-20 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-16">
-            
-            <div className="lg:col-span-5">
-              <h2 className="text-4xl font-bold mb-6 text-slate-900 leading-tight">Our Philosophy</h2>
-              <p className="text-xl text-blue-600 font-medium mb-8 leading-relaxed">
-                Finance today moves faster than most professionals are trained to understand.
-              </p>
-              
-              <div className="prose prose-lg text-slate-600">
-                <p>
-                  Capital flows across markets, businesses scale rapidly, and decisions often need to be made with incomplete information and real consequences.
-                </p>
-                <p>
-                  Yet much of financial education remains overly theoretical�focused on models, presentations, and credentials rather than the discipline of making sound decisions when uncertainty is real.
-                </p>
-                <p className="font-semibold text-slate-800 border-l-4 border-blue-500 pl-4 py-1">
-                  The Northrop Institute of Global Finance was created to address this gap.
-                </p>
-                <p>
-                  Our focus is simple: to help professionals develop the clarity of thinking required to understand markets, evaluate capital decisions, and operate with confidence in complex financial environments.
-                </p>
-                <p>
-                  Because in the real world, success in finance is rarely determined by how much theory someone knows, but by how well they think when the stakes are high.
-                </p>
-              </div>
-            </div>
+      {/* PHILOSOPHY */}
+      <section id="philosophy" className="relative grid grid-cols-1 md:grid-cols-2 min-h-[640px] overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-center bg-cover bg-no-repeat"
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=85')" }}
+        ></div>
+        <div 
+          className="absolute inset-0"
+          style={{ background: "linear-gradient(to right, rgba(8,8,8,0.97) 50%, rgba(8,8,8,0.82) 100%)" }}
+        ></div>
+        
+        <div className="relative z-[2] py-[100px] px-[40px] md:px-[80px] flex flex-col justify-center border-b md:border-b-0 md:border-r border-[rgba(255,255,255,0.10)]">
+          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">01 — Our Philosophy</div>
+          <h2 className="font-[900] leading-[1.08] tracking-[-1.5px] text-white" style={{ fontSize: 'clamp(30px, 3.8vw, 50px)' }}>
+            Finance demands clarity,<br/>not just credentials.
+          </h2>
+        </div>
+        
+        <div className="relative z-[2] py-[100px] px-[40px] md:px-[80px] flex flex-col justify-center gap-[22px]">
+          <p className="text-[14.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9] tracking-[0.1px]">
+            Finance today moves faster than most professionals are trained to understand. Capital flows across markets, businesses scale rapidly, and decisions must often be made with incomplete information and real consequences.
+          </p>
+          <p className="text-[14.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9] tracking-[0.1px]">
+            Yet much of financial education remains overly theoretical — focused on models, presentations, and credentials rather than <strong className="text-white font-[600]">the discipline of making sound decisions when uncertainty is real.</strong>
+          </p>
+          <p className="text-[14.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9] tracking-[0.1px]">
+            The Northrop Institute of Global Finance was created to address this gap. Our focus: helping professionals develop the clarity of thinking required to understand markets, evaluate capital, and operate with confidence in complex environments.
+          </p>
+          <p className="text-[14.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9] tracking-[0.1px]">
+            Because in the real world, success in finance is rarely about how much theory you know — it is about <strong className="text-white font-[600]">how clearly you think when the stakes are high.</strong>
+          </p>
+          <a href="#programs" className="inline-flex items-center gap-[8px] w-fit text-white text-[12.5px] font-[500] border-b border-[rgba(255,255,255,0.25)] hover:border-[#7B5CE5] hover:text-[#7B5CE5] pb-[2px] mt-[6px] transition-colors duration-200">
+            Explore Programs →
+          </a>
+        </div>
+      </section>
 
-            <div className="lg:col-span-7">
-              <div className="bg-slate-50 rounded-3xl p-8 md:p-12 border border-slate-200">
-                <div className="flex items-center gap-3 mb-6">
-                  <ShieldAlert className="text-amber-500" size={28} />
-                  <h3 className="text-2xl font-bold text-slate-900">Who This Program Is <span className="text-slate-500">Not</span> For</h3>
-                </div>
-                
-                <p className="text-slate-600 mb-8">
-                  The programs at the Northrop Institute of Global Finance are designed for individuals who are serious about understanding how finance, capital, and markets actually work. For this reason, the program may not be suitable for everyone.
-                </p>
-                
-                <p className="font-medium text-slate-800 mb-4">This program is not designed for:</p>
-                <ul className="space-y-4 mb-8">
-                  {[
-                    "Individuals looking for quick financial shortcuts or trading tips",
-                    "People seeking certificates rather than real understanding",
-                    "Those who expect passive learning without active engagement",
-                    "Individuals uncomfortable with challenging discussions and honest feedback",
-                    "Participants who are not willing to invest time and effort in developing their financial thinking"
-                  ].map((item, i) => (
-                    <li key={i} className="flex items-start gap-3 text-slate-600">
-                      <div className="min-w-6 h-6 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 mt-0.5">
-                        <span className="text-red-600 font-bold text-xs">?</span>
-                      </div>
-                      <span dangerouslySetInnerHTML={{ __html: item }} />
-                    </li>
-                  ))}
-                </ul>
-                
-                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm">
-                  <p className="text-slate-700 italic">
-                    "Our goal is not to maximize the number of participants, but to ensure that each cohort consists of individuals who genuinely want to develop their understanding of capital markets and financial decision-making."
-                  </p>
-                </div>
-              </div>
-            </div>
+      {/* NOT FOR */}
+      <section id="not-for" className="bg-[#f2f2f2] text-[#080808] grid grid-cols-1 md:grid-cols-2 min-h-[560px]">
+        <div className="py-[100px] px-[40px] md:px-[80px] border-b md:border-b-0 md:border-r border-[rgba(0,0,0,0.10)] flex flex-col justify-center">
+          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">02 — Candidacy</div>
+          <h2 className="font-[900] leading-[1.1] tracking-[-1.2px] text-[#0a0a0a]" style={{ fontSize: 'clamp(28px, 3.5vw, 46px)' }}>
+            Who This Program<br/>Is Not For
+          </h2>
+        </div>
+        <div className="py-[100px] px-[40px] md:px-[80px] flex flex-col justify-center">
+          <p className="text-[14.5px] text-[#555] leading-[1.85] mb-[32px] font-[300]">
+            Our programs are designed for individuals serious about understanding how finance, capital, and markets actually work. For this reason, the program may not be suitable for everyone.
+          </p>
+          <ul className="flex flex-col gap-[15px]">
+            {[
+              "Individuals looking for quick financial shortcuts or trading tips",
+              "People seeking certificates rather than real understanding",
+              "Those who expect passive learning without active engagement",
+              "Individuals uncomfortable with challenging discussions and honest feedback",
+              "Participants not willing to invest time and effort in developing financial thinking"
+            ].map((item, i) => (
+              <li key={i} className="flex items-start gap-[16px] text-[14px] text-[#333] leading-[1.65] font-[400]">
+                <span className="text-[#7B5CE5] font-[700] shrink-0 pt-[1px]">—</span> {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
 
+      {/* ABOUT */}
+      <section id="about" className="relative grid grid-cols-1 md:grid-cols-2 min-h-[680px] overflow-hidden">
+        <div className="relative overflow-hidden min-h-[300px] md:min-h-full">
+          <img 
+            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=960&q=85" 
+            alt="Global Finance"
+            className="w-full h-full object-cover block"
+            style={{ filter: "brightness(0.65) contrast(1.1)" }}
+          />
+        </div>
+        <div className="bg-[#0e0e0e] py-[100px] px-[40px] md:px-[80px] flex flex-col justify-center gap-[24px] border-l border-[rgba(255,255,255,0.10)]">
+          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5]">About the Institute</div>
+          <h2 className="font-[900] leading-[1.1] tracking-[-1.2px] text-white" style={{ fontSize: 'clamp(28px, 3.2vw, 44px)' }}>
+            About Northrop<br/>Institute of Global<br/>Finance
+          </h2>
+          <p className="text-[16px] font-[300] text-[rgba(255,255,255,0.55)] leading-[1.75]">
+            We aim to empower professionals to navigate the world of capital with confidence and clarity.
+          </p>
+          <div className="w-[36px] h-[2px] bg-[#7B5CE5]"></div>
+          <p className="text-[14.5px] font-[300] text-[rgba(255,255,255,0.58)] leading-[1.9]">
+            Northrop Institute of Global Finance is a research and education initiative of <strong className="text-white font-[600]">Northrop Management Private Limited</strong>. We do not aim to maximise the number of participants — we aim to ensure that each cohort consists of individuals who genuinely want to develop their understanding of capital markets and financial decision-making.
+          </p>
+          <p className="text-[14.5px] font-[300] text-[rgba(255,255,255,0.58)] leading-[1.9]">
+            Our goal is not to produce credential-holders. <strong className="text-white font-[600]">Our goal is to produce sharp financial thinkers.</strong>
+          </p>
+          <a href="#programs" className="inline-block border border-[rgba(255,255,255,0.28)] hover:border-[#7B5CE5] hover:text-[#7B5CE5] text-white text-[12.5px] font-[500] px-[30px] py-[13px] w-fit tracking-[0.3px] transition-all duration-200">
+            Read More
+          </a>
+        </div>
+      </section>
+
+      {/* FELLOWS */}
+      <section id="fellows" className="bg-[#0e0e0e] py-[110px] px-[20px] md:px-[80px]">
+        <div className="max-w-[1080px] mx-auto">
+          <div className="mb-[60px]">
+            <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">03 — Northrop Fellows & Contributors</div>
+            <h2 className="font-[900] leading-[1.08] tracking-[-1.5px] text-white" style={{ fontSize: 'clamp(30px, 3.8vw, 50px)' }}>The minds behind<br/>the Institute.</h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1px] bg-[rgba(255,255,255,0.10)]">
+            {[
+              { in: "AC", name: "Ashish Chaudhary", role: "Founder", desc: "Founder — Northrop Institute of Global Finance. Managing Director — Northrop Management Private Limited." },
+              { in: "SR", name: "CA Sudhanshu Rao", role: "Senior Fellow", desc: "IPO specialist and India–US GAAP professional with deep expertise in cross-border financial reporting and capital markets." },
+              { in: "PM", name: "Pranav Mishra", role: "Research Fellow", desc: "IIT Patna — Electronics & Systems Design. Focused on the next phase of structural development of finance and the role of technology." },
+              { in: "PR", name: "Prerna", role: "Social Impact Fellow", desc: "10+ years in social work. Working with Shiksha for over a decade across international programmes and grassroots community finance." }
+            ].map((f, i) => (
+              <div key={i} className="bg-[#0e0e0e] hover:bg-[#1c1c1c] p-[48px] px-[38px] border border-[rgba(255,255,255,0.10)] hover:border-[rgba(123,92,229,0.45)] transition-colors duration-250">
+                <div className="w-[54px] h-[54px] rounded-full bg-gradient-to-br from-[#7B5CE5] to-[#4f32bb] flex items-center justify-center text-[17px] font-[800] text-white mb-[26px] tracking-[-0.5px]">
+                  {f.in}
+                </div>
+                <div className="text-[15.5px] font-[700] mb-[6px] tracking-[-0.2px] text-white">{f.name}</div>
+                <div className="text-[10.5px] font-[700] tracking-[1.5px] uppercase text-[#7B5CE5] mb-[14px]">{f.role}</div>
+                <div className="text-[13px] font-[300] text-[rgba(255,255,255,0.50)] leading-[1.75]">{f.desc}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* 5. TRUTH PILL & PROMISE SECTION */}
-      <section className="py-24 px-6 md:px-20 bg-slate-900 text-white relative">
-        <div className="absolute inset-0 bg-blue-900/10"></div>
-        <div className="max-w-4xl mx-auto text-center relative z-10">
-          <Brain className="mx-auto text-blue-400 mb-6" size={48} />
-          <h2 className="text-4xl font-bold mb-8">The Reality of Finance & Our Promise</h2>
+      {/* RESEARCH */}
+      <section id="research" className="bg-[#f2f2f2] text-[#080808] py-[110px] px-[20px] md:px-[80px]">
+        <div className="max-w-[1080px] mx-auto">
+          <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-[56px] gap-[20px]">
+            <div>
+              <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">04 — Northrop Global Finance Insights</div>
+              <h2 className="font-[900] leading-[1.1] tracking-[-1.2px] text-[#0a0a0a]" style={{ fontSize: 'clamp(28px, 3.5vw, 46px)' }}>Research &<br/>Insights</h2>
+              <p className="text-[14.5px] text-[#555] max-w-[380px] mt-[14px] leading-[1.75] font-[300]">Expand your knowledge of capital, markets, and financial systems through our research publications.</p>
+            </div>
+            <a href="#" className="border border-[#1a1a1a] hover:bg-[#111] text-[#111] hover:text-white text-[12.5px] font-[500] px-[30px] py-[13px] tracking-[0.3px] transition-colors duration-200 whitespace-nowrap">View All Papers</a>
+          </div>
           
-          <div className="space-y-6 text-lg text-slate-300 leading-relaxed mb-12 text-left md:text-center">
-            <p>
-              Many young professionals enter the world of finance believing that degrees, certifications, and technical knowledge will prepare them for the realities of markets and business. Very quickly, they discover something unsettling.
-            </p>
-            <p className="text-2xl font-medium text-white my-8">
-              The real world does not operate like textbooks.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center my-10">
-              <div className="bg-white/5 p-6 rounded-xl border border-white/10">
-                <p className="font-medium">Decisions must often be made with incomplete information.</p>
-              </div>
-              <div className="bg-white/5 p-6 rounded-xl border border-white/10">
-                <p className="font-medium">Markets move faster than models.</p>
-              </div>
-              <div className="bg-white/5 p-6 rounded-xl border border-white/10">
-                <p className="font-medium">Capital is unforgiving when judgment is weak.</p>
-              </div>
-            </div>
-            <p>
-              At the Northrop Institute of Global Finance, our promise is simple: We will not teach finance as a collection of formulas or presentations. We will focus on developing the clarity of thinking required to navigate real financial environments � where uncertainty, risk, and responsibility are constant.
-            </p>
-            <p className="font-medium text-blue-300 text-xl pt-6">
-              If participants leave with sharper judgment, deeper understanding of capital, and greater confidence in making difficult decisions, the program has done its job. Because in finance, the difference between success and failure is rarely knowledge alone � it is the ability to think clearly when the stakes are real.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* 4. PROGRAMS SECTION */}
-      <section id="programs" className="py-24 px-6 md:px-20 bg-slate-50">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-4xl font-bold mb-6 text-slate-900">Institute Programs</h2>
-            <p className="text-lg text-slate-600">
-              Rigorous, intensive explorations into the core domains of high finance.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {programs.map((program) => (
-              <div key={program.id} className="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group flex flex-col">
-                <div className="flex justify-between items-start mb-6">
-                  <div className="w-14 h-14 rounded-xl bg-slate-50 flex items-center justify-center border border-slate-100 group-hover:bg-blue-50 transition-colors">
-                    {program.icon}
-                  </div>
-                  <span className="text-slate-300 font-black text-2xl">{program.id}</span>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px]">
+            {[
+              { img: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80", meta: "Northrop Insights · 8 min read", title: "How Private Equity Actually Makes Money", excerpt: "Behind the returns: a clear-eyed look at the mechanics of value creation, leverage, and exit strategy in modern private equity." },
+              { img: "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=800&q=80", meta: "Northrop Insights · 6 min read", title: "Why Most Startups Misallocate Capital", excerpt: "The hidden cost of growth-at-all-costs thinking — and how founders and investors repeatedly misread unit economics." },
+              { img: "https://images.unsplash.com/photo-1642790551116-18e4f04a3c5a?auto=format&fit=crop&w=800&q=80", meta: "Northrop Insights · 7 min read", title: "The Real Economics of Hedge Funds", excerpt: "Demystifying fee structures, alpha generation, and why most hedge funds underperform their own benchmarks over time." },
+              { img: "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=800&q=80", meta: "Northrop Insights · 9 min read", title: "India's Next Capital Cycle", excerpt: "An analysis of where institutional capital is flowing in India — and what the next decade of market structure looks like." },
+              { img: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800&q=80", meta: "Northrop Insights · 5 min read", title: "Central Banks & the Limits of Monetary Policy", excerpt: "What history tells us about when central banks succeed, when they fail, and what comes after a decade of easy money." }
+            ].map((r, i) => (
+              <div key={i} className="bg-white overflow-hidden group hover:cursor-pointer">
+                <div className="h-[210px] overflow-hidden relative">
+                  <img src={r.img} alt={r.title} className="w-full h-full object-cover block transition-transform duration-500 group-hover:scale-[1.04]" style={{ filter: "brightness(0.75) contrast(1.05)" }} />
                 </div>
-                
-                <h3 className="text-xl font-bold mb-3 text-slate-900 group-hover:text-blue-600 transition-colors">{program.title}</h3>
-                <p className="text-slate-600 mb-6 flex-grow">{program.desc}</p>
-                
-                <div className="pt-6 border-t border-slate-100">
-                  <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Key Topics</p>
-                  <ul className="space-y-2">
-                    {program.topics.slice(0, 4).map((topic, idx) => (
-                      <li key={idx} className="text-sm text-slate-600 flex items-start gap-2">
-                        <span className="text-blue-500 mt-1">�</span> {topic}
-                      </li>
-                    ))}
-                    {program.topics.length > 4 && (
-                      <li className="text-sm text-slate-400 italic pl-3">
-                        + {program.topics.length - 4} more topics
-                      </li>
-                    )}
-                  </ul>
+                <div className="p-[28px] pb-[36px]">
+                  <div className="text-[11px] text-[#999] mb-[10px] tracking-[0.3px]">{r.meta}</div>
+                  <div className="text-[16.5px] font-[700] text-[#0f0f0f] leading-[1.35] mb-[10px] tracking-[-0.3px]">{r.title}</div>
+                  <div className="text-[13px] text-[#666] leading-[1.7] font-[300]">{r.excerpt}</div>
                 </div>
               </div>
             ))}
@@ -284,73 +207,94 @@ const InstitutePage = () => {
         </div>
       </section>
 
-      {/* 2 & 3. FELLOWS AND RESEARCH COMBINED SECTION */}
-      <section className="py-24 px-6 md:px-20 bg-white border-t border-slate-200">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            
-            {/* Fellows */}
-            <div>
-              <h2 className="text-3xl font-bold mb-8 text-slate-900 flex items-center gap-3">
-                <Users className="text-blue-600" /> Fellows & Contributors
-              </h2>
-              
-              <div className="bg-slate-50 rounded-2xl p-8 border border-slate-100 mb-6">
-                <h4 className="text-xl font-bold text-slate-900 mb-1">Ashish Chaudhary</h4>
-                <p className="text-blue-600 font-medium text-sm mb-4">Founder � Northrop Institute of Global Finance</p>
-                <p className="text-slate-500 text-sm">Managing Director � Northrop Management Private Limited</p>
+      {/* PROGRAMS */}
+      <section id="programs" className="relative py-[110px] px-[20px] md:px-[80px] overflow-hidden">
+        <div 
+          className="absolute inset-0 bg-center bg-cover bg-no-repeat"
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1444723121867-7a241cacace9?auto=format&fit=crop&w=1920&q=85')" }}
+        ></div>
+        <div className="absolute inset-0 bg-[rgba(8,8,8,0.93)]"></div>
+        
+        <div className="relative z-[2] max-w-[1080px] mx-auto w-full">
+          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">05 — Programs</div>
+          <h2 className="font-[900] leading-[1.08] tracking-[-1.5px] text-white" style={{ fontSize: 'clamp(30px, 3.8vw, 50px)' }}>Nine tracks.<br/>One discipline: financial thinking.</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1px] bg-[rgba(255,255,255,0.10)] mt-[56px]">
+            {[
+              { num: "01", title: "Investment Banking & Mergers and Acquisitions", desc: "How investment banks structure deals, evaluate companies, and execute complex corporate transactions.", tags: ["DCF & Valuation", "LBO", "M&A Strategy"] },
+              { num: "02", title: "Private Equity & Venture Capital", desc: "How private capital is raised, deployed, and managed to build long-term enterprise value.", tags: ["Fund Structures", "Portfolio Mgmt", "Exit Strategy"] },
+              { num: "03", title: "Hedge Funds & Advanced Investment Strategies", desc: "Institutional investment strategies used by hedge funds and global asset managers worldwide.", tags: ["Macro", "Long/Short", "Derivatives"] },
+              { num: "04", title: "Global Capital Markets", desc: "The structure and functioning of global financial markets — equity, debt, and derivatives.", tags: ["Equity Markets", "Derivatives", "Liquidity"] },
+              { num: "05", title: "Fixed Income, Bonds & Credit Markets", desc: "How debt markets function and how governments and corporations raise capital through bonds.", tags: ["Yield Curves", "Credit Risk", "Sovereign Debt"] },
+              { num: "06", title: "Global Macro & Central Banking", desc: "How macroeconomic forces shape financial markets and drive capital allocation globally.", tags: ["Monetary Policy", "Inflation", "Forecasting"] },
+              { num: "07", title: "Forex & Currency Markets", desc: "How global currency markets operate and the forces that drive exchange rate movements.", tags: ["FX Structure", "Central Banks", "Capital Flows"] },
+              { num: "08", title: "Capital Allocation & Financial Strategy", desc: "How businesses and investors make capital decisions that determine long-term growth and value.", tags: ["Corp Finance", "Risk-Adj Returns", "Value Creation"] },
+              { num: "09", title: "Advanced Financial Modeling", desc: "Building financial models used by investment banks and private equity firms in live transactions.", tags: ["LBO Models", "Valuation", "Scenario Analysis"] }
+            ].map((p, i) => (
+              <div key={i} className="bg-[rgba(14,14,14,0.97)] hover:bg-[rgba(123,92,229,0.07)] p-[44px] px-[36px] flex flex-col gap-[14px] border border-[rgba(255,255,255,0.10)] hover:border-[rgba(123,92,229,0.35)] relative overflow-hidden transition-colors duration-250 group">
+                <div className="absolute top-0 left-0 right-0 h-[2px] bg-[#7B5CE5] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="text-[10px] font-[700] tracking-[2.5px] text-[#7B5CE5]">{p.num}</div>
+                <div className="text-[16.5px] font-[700] leading-[1.3] tracking-[-0.3px] text-white">{p.title}</div>
+                <div className="text-[13px] font-[300] text-[rgba(255,255,255,0.48)] leading-[1.75] flex-1">{p.desc}</div>
+                <div className="flex flex-wrap gap-[6px] mt-[4px]">
+                  {p.tags.map((t, idx) => (
+                    <span key={idx} className="text-[9.5px] font-[600] tracking-[0.8px] uppercase text-[rgba(255,255,255,0.35)] border border-[rgba(255,255,255,0.10)] px-[10px] py-[4px]">{t}</span>
+                  ))}
+                </div>
+                <a href="#" className="inline-flex items-center gap-[8px] w-fit text-[11.5px] font-[600] tracking-[1px] uppercase text-[#7B5CE5] hover:text-white mt-[4px] border border-[rgba(123,92,229,0.35)] hover:border-[#7B5CE5] px-[20px] py-[10px] bg-[rgba(123,92,229,0.08)] hover:bg-[#7B5CE5] transition-colors duration-200">
+                  View Details →
+                </a>
               </div>
-              
-              <div className="p-6 border border-dashed border-slate-300 rounded-xl bg-slate-50/50">
-                <p className="text-sm text-slate-500 font-medium mb-4 uppercase tracking-wide">Future Network Additions</p>
-                <ul className="space-y-3">
-                  <li className="flex items-center gap-3 text-slate-600"><div className="w-1.5 h-1.5 rounded-full bg-slate-400"></div> Industry Guests</li>
-                  <li className="flex items-center gap-3 text-slate-600"><div className="w-1.5 h-1.5 rounded-full bg-slate-400"></div> Visiting Professionals</li>
-                  <li className="flex items-center gap-3 text-slate-600"><div className="w-1.5 h-1.5 rounded-full bg-slate-400"></div> Guest Speakers</li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Research */}
-            <div>
-              <h2 className="text-3xl font-bold mb-8 text-slate-900 flex items-center gap-3">
-                <Lightbulb className="text-amber-500" /> Northrop Global Finance Insights
-              </h2>
-              
-              <div className="space-y-4">
-                {insights.map((insight, idx) => (
-                  <div key={idx} className="group flex items-center justify-between p-5 rounded-xl border border-slate-200 hover:border-blue-300 hover:bg-blue-50/50 transition-all cursor-pointer">
-                    <div>
-                      <p className="text-xs font-bold text-blue-500 uppercase tracking-widest mb-1">{insight.category}</p>
-                      <h4 className="text-lg font-bold text-slate-800 group-hover:text-blue-700 transition-colors">{insight.title}</h4>
-                    </div>
-                    <ChevronRight className="text-slate-400 group-hover:text-blue-500 transition-colors" />
-                  </div>
-                ))}
-              </div>
-              
-              <button className="mt-8 text-blue-600 font-bold flex items-center gap-2 hover:gap-3 transition-all">
-                View all insights <ArrowRight size={16} />
-              </button>
-            </div>
-
+            ))}
           </div>
         </div>
       </section>
 
-      {/* CTA / FOOTER PORTION FOR INSTITUTE */}
-      <section className="py-20 px-6 bg-blue-600 text-white text-center">
-        <h2 className="text-3xl font-bold mb-6">Ready to elevate your financial decision-making?</h2>
-        <p className="text-blue-100 max-w-2xl mx-auto mb-10 text-lg">
-          Join a cohort of driven professionals committed to understanding how global markets and capital truly operate.
-        </p>
-        <button className="bg-white text-blue-900 hover:bg-slate-100 px-10 py-4 rounded-full font-bold transition-all shadow-xl text-lg">
-          Inquire About Admissions
-        </button>
+      {/* PROMISE */}
+      <section id="promise" className="relative overflow-hidden py-[140px] px-[20px] md:px-[80px]">
+        <div 
+          className="absolute inset-0 bg-no-repeat"
+          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1920&q=85')", backgroundPosition: "center 30%", backgroundSize: "cover" }}
+        ></div>
+        <div 
+          className="absolute inset-0"
+          style={{ background: "linear-gradient(135deg, rgba(8,8,8,0.97) 0%, rgba(8,8,8,0.88) 50%, rgba(30,20,70,0.85) 100%)" }}
+        ></div>
+        
+        <div className="relative z-[2] max-w-[860px] mx-auto text-center flex flex-col items-center">
+          <span className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] block mb-[44px]">06 — Our Promise</span>
+          <h2 className="font-[900] tracking-[-2px] leading-[1.05] mb-[54px] text-white" style={{ fontSize: 'clamp(34px, 5vw, 64px)' }}>
+            The Truth About<br/>Finance Education.
+          </h2>
+          <div className="text-left flex flex-col gap-[20px] max-w-[680px] w-full mx-auto mb-[50px]">
+            <p className="text-[15.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9]">
+              Many young professionals enter the world of finance believing that degrees, certifications, and technical knowledge will prepare them for the realities of markets and business.
+            </p>
+            <p className="text-[15.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9]">
+              Very quickly, they discover something unsettling.
+            </p>
+            <div className="w-[36px] h-[2px] bg-[#7B5CE5] my-[6px]"></div>
+            <p className="text-[15.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9]">
+              <strong className="text-white font-[600]">The real world does not operate like textbooks.</strong> Decisions must often be made with incomplete information. Markets move faster than models. Capital is unforgiving when judgment is weak.
+            </p>
+            <div className="w-[36px] h-[2px] bg-[#7B5CE5] my-[6px]"></div>
+            <p className="text-[15.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9]">
+              At the Northrop Institute, our promise is simple. We will not teach finance as a collection of formulas or presentations. We will focus on developing the clarity of thinking required to navigate real financial environments — where uncertainty, risk, and responsibility are constant.
+            </p>
+            <p className="text-[15.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9]">
+              If participants leave with <strong className="text-white font-[600]">sharper judgment, deeper understanding of capital, and greater confidence in making difficult decisions</strong>, the program has done its job.
+            </p>
+          </div>
+          <p className="border-t border-[rgba(255,255,255,0.10)] pt-[44px] text-[20px] font-[400] italic text-[rgba(255,255,255,0.80)] leading-[1.7] max-w-[640px] w-full mx-auto tracking-[-0.3px]">
+            "In finance, the difference between success and failure is rarely knowledge alone —<br/>
+            it is the ability to think clearly when the stakes are real."
+          </p>
+        </div>
       </section>
+
       
     </div>
   );
 };
 
-export default InstitutePage;
+export default Institute;
