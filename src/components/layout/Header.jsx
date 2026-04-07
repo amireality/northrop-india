@@ -81,6 +81,11 @@ export default function Header() {
             <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
               <NavItem label="Northrop Foundation" href="/foundation" hasDropdown={false} />
             </div>
+
+            <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
+              <NavItem label="Contact" href="/contact" hasDropdown={false} />
+            </div>
+
           </div>
         </div>
 

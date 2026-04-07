@@ -7,20 +7,20 @@ const Institute = () => {
 
   return (
     <div className="font-sans bg-[#080808] text-white leading-[1.6] overflow-x-hidden">
-      
-    
+
+
 
       {/* HERO */}
       <section id="hero" className="relative min-h-screen flex flex-col justify-end px-[20px] md:px-[80px] pb-[110px] overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=1920&q=85')" }}
+          style={{ backgroundImage: "url('/insituted/bannerinsituted.avif')" }}
         ></div>
-        <div 
+        <div
           className="absolute inset-0"
           style={{ background: "linear-gradient(to bottom, rgba(8,8,8,0.25) 0%, rgba(8,8,8,0.45) 40%, rgba(8,8,8,0.88) 75%, rgba(8,8,8,1.00) 100%)" }}
         ></div>
-        
+
         <div className="absolute left-[20px] md:left-[80px] bottom-[44px] z-[2] hidden md:flex flex-col items-center gap-[8px]">
           <div className="w-[1px] h-[52px]" style={{ background: "linear-gradient(to bottom, rgba(255,255,255,0.55), transparent)" }}></div>
           <span className="text-[9px] tracking-[2.5px] uppercase text-[rgba(255,255,255,0.35)]" style={{ writingMode: 'vertical-rl' }}>Scroll</span>
@@ -32,7 +32,7 @@ const Institute = () => {
             <span className="text-[10.5px] font-[700] tracking-[3px] uppercase text-[#7B5CE5]">A Research & Education Initiative · Northrop Management Pvt. Ltd.</span>
           </div>
           <h1 className="text-white font-[900] leading-[1.02] tracking-[-3px] mb-[26px]" style={{ fontSize: 'clamp(46px, 6.5vw, 86px)' }}>
-            Northrop Institute<br/>of <em className="not-italic text-[#7B5CE5]">Global Finance</em>
+            Northrop Institute<br />of <em className="not-italic text-[#7B5CE5]">Global Finance</em>
           </h1>
           <p className="text-[17px] font-[300] text-[rgba(255,255,255,0.60)] max-w-[500px] leading-[1.8] mb-[48px] tracking-[0.1px]">
             Developing the clarity of thinking required to understand markets,<br className="hidden md:block" />
@@ -51,22 +51,22 @@ const Institute = () => {
 
       {/* PHILOSOPHY */}
       <section id="philosophy" className="relative grid grid-cols-1 md:grid-cols-2 min-h-[640px] overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1920&q=85')" }}
+          style={{ backgroundImage: "url('/insituted/photo-1477959858617-67f85cf4f1df.avif')" }}
         ></div>
-        <div 
+        <div
           className="absolute inset-0"
           style={{ background: "linear-gradient(to right, rgba(8,8,8,0.97) 50%, rgba(8,8,8,0.82) 100%)" }}
         ></div>
-        
+
         <div className="relative z-[2] py-[100px] px-[40px] md:px-[80px] flex flex-col justify-center border-b md:border-b-0 md:border-r border-[rgba(255,255,255,0.10)]">
           <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">01 — Our Philosophy</div>
           <h2 className="font-[900] leading-[1.08] tracking-[-1.5px] text-white" style={{ fontSize: 'clamp(30px, 3.8vw, 50px)' }}>
-            Finance demands clarity,<br/>not just credentials.
+            Finance demands clarity,<br />not just credentials.
           </h2>
         </div>
-        
+
         <div className="relative z-[2] py-[100px] px-[40px] md:px-[80px] flex flex-col justify-center gap-[22px]">
           <p className="text-[14.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9] tracking-[0.1px]">
             Finance today moves faster than most professionals are trained to understand. Capital flows across markets, businesses scale rapidly, and decisions must often be made with incomplete information and real consequences.
@@ -91,7 +91,7 @@ const Institute = () => {
         <div className="py-[100px] px-[40px] md:px-[80px] border-b md:border-b-0 md:border-r border-[rgba(0,0,0,0.10)] flex flex-col justify-center">
           <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">02 — Candidacy</div>
           <h2 className="font-[900] leading-[1.1] tracking-[-1.2px] text-[#0a0a0a]" style={{ fontSize: 'clamp(28px, 3.5vw, 46px)' }}>
-            Who This Program<br/>Is Not For
+            Who This Program<br />Is Not For
           </h2>
         </div>
         <div className="py-[100px] px-[40px] md:px-[80px] flex flex-col justify-center">
@@ -117,8 +117,8 @@ const Institute = () => {
       {/* ABOUT */}
       <section id="about" className="relative grid grid-cols-1 md:grid-cols-2 min-h-[680px] overflow-hidden">
         <div className="relative overflow-hidden min-h-[300px] md:min-h-full">
-          <img 
-            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=960&q=85" 
+          <img
+            src="/insituted/photo-1.avif"
             alt="Global Finance"
             className="w-full h-full object-cover block"
             style={{ filter: "brightness(0.65) contrast(1.1)" }}
@@ -127,7 +127,7 @@ const Institute = () => {
         <div className="bg-[#0e0e0e] py-[100px] px-[40px] md:px-[80px] flex flex-col justify-center gap-[24px] border-l border-[rgba(255,255,255,0.10)]">
           <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5]">About the Institute</div>
           <h2 className="font-[900] leading-[1.1] tracking-[-1.2px] text-white" style={{ fontSize: 'clamp(28px, 3.2vw, 44px)' }}>
-            About Northrop<br/>Institute of Global<br/>Finance
+            About Northrop<br />Institute of Global<br />Finance
           </h2>
           <p className="text-[16px] font-[300] text-[rgba(255,255,255,0.55)] leading-[1.75]">
             We aim to empower professionals to navigate the world of capital with confidence and clarity.
@@ -150,7 +150,7 @@ const Institute = () => {
         <div className="max-w-[1080px] mx-auto">
           <div className="mb-[60px]">
             <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">03 — Northrop Fellows & Contributors</div>
-            <h2 className="font-[900] leading-[1.08] tracking-[-1.5px] text-white" style={{ fontSize: 'clamp(30px, 3.8vw, 50px)' }}>The minds behind<br/>the Institute.</h2>
+            <h2 className="font-[900] leading-[1.08] tracking-[-1.5px] text-white" style={{ fontSize: 'clamp(30px, 3.8vw, 50px)' }}>The minds behind<br />the Institute.</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1px] bg-[rgba(255,255,255,0.10)]">
             {[
@@ -178,19 +178,19 @@ const Institute = () => {
           <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-[56px] gap-[20px]">
             <div>
               <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">04 — Northrop Global Finance Insights</div>
-              <h2 className="font-[900] leading-[1.1] tracking-[-1.2px] text-[#0a0a0a]" style={{ fontSize: 'clamp(28px, 3.5vw, 46px)' }}>Research &<br/>Insights</h2>
+              <h2 className="font-[900] leading-[1.1] tracking-[-1.2px] text-[#0a0a0a]" style={{ fontSize: 'clamp(28px, 3.5vw, 46px)' }}>Research &<br />Insights</h2>
               <p className="text-[14.5px] text-[#555] max-w-[380px] mt-[14px] leading-[1.75] font-[300]">Expand your knowledge of capital, markets, and financial systems through our research publications.</p>
             </div>
             <a href="#" className="border border-[#1a1a1a] hover:bg-[#111] text-[#111] hover:text-white text-[12.5px] font-[500] px-[30px] py-[13px] tracking-[0.3px] transition-colors duration-200 whitespace-nowrap">View All Papers</a>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2px]">
             {[
-              { img: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&q=80", meta: "Northrop Insights · 8 min read", title: "How Private Equity Actually Makes Money", excerpt: "Behind the returns: a clear-eyed look at the mechanics of value creation, leverage, and exit strategy in modern private equity." },
-              { img: "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=800&q=80", meta: "Northrop Insights · 6 min read", title: "Why Most Startups Misallocate Capital", excerpt: "The hidden cost of growth-at-all-costs thinking — and how founders and investors repeatedly misread unit economics." },
-              { img: "https://images.unsplash.com/photo-1642790551116-18e4f04a3c5a?auto=format&fit=crop&w=800&q=80", meta: "Northrop Insights · 7 min read", title: "The Real Economics of Hedge Funds", excerpt: "Demystifying fee structures, alpha generation, and why most hedge funds underperform their own benchmarks over time." },
-              { img: "https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?auto=format&fit=crop&w=800&q=80", meta: "Northrop Insights · 9 min read", title: "India's Next Capital Cycle", excerpt: "An analysis of where institutional capital is flowing in India — and what the next decade of market structure looks like." },
-              { img: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800&q=80", meta: "Northrop Insights · 5 min read", title: "Central Banks & the Limits of Monetary Policy", excerpt: "What history tells us about when central banks succeed, when they fail, and what comes after a decade of easy money." }
+              { img: "/insituted/reserch1.avif", meta: "Northrop Insights · 8 min read", title: "How Private Equity Actually Makes Money", excerpt: "Behind the returns: a clear-eyed look at the mechanics of value creation, leverage, and exit strategy in modern private equity." },
+              { img: "/insituted/reserch2.avif", meta: "Northrop Insights · 6 min read", title: "Why Most Startups Misallocate Capital", excerpt: "The hidden cost of growth-at-all-costs thinking — and how founders and investors repeatedly misread unit economics." },
+              { img: "/insituted/reserch3.avif", meta: "Northrop Insights · 7 min read", title: "The Real Economics of Hedge Funds", excerpt: "Demystifying fee structures, alpha generation, and why most hedge funds underperform their own benchmarks over time." },
+              { img: "/insituted/reserch4.avif", meta: "Northrop Insights · 9 min read", title: "India's Next Capital Cycle", excerpt: "An analysis of where institutional capital is flowing in India — and what the next decade of market structure looks like." },
+              { img: "/insituted/reserch5.avif", meta: "Northrop Insights · 5 min read", title: "Central Banks & the Limits of Monetary Policy", excerpt: "What history tells us about when central banks succeed, when they fail, and what comes after a decade of easy money." }
             ].map((r, i) => (
               <div key={i} className="bg-white overflow-hidden group hover:cursor-pointer">
                 <div className="h-[210px] overflow-hidden relative">
@@ -209,16 +209,16 @@ const Institute = () => {
 
       {/* PROGRAMS */}
       <section id="programs" className="relative py-[110px] px-[20px] md:px-[80px] overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-center bg-cover bg-no-repeat"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1444723121867-7a241cacace9?auto=format&fit=crop&w=1920&q=85')" }}
+          style={{ backgroundImage: "url('/insituted/our promise.avif')" }}
         ></div>
         <div className="absolute inset-0 bg-[rgba(8,8,8,0.93)]"></div>
-        
+
         <div className="relative z-[2] max-w-[1080px] mx-auto w-full">
           <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">05 — Programs</div>
-          <h2 className="font-[900] leading-[1.08] tracking-[-1.5px] text-white" style={{ fontSize: 'clamp(30px, 3.8vw, 50px)' }}>Nine tracks.<br/>One discipline: financial thinking.</h2>
-          
+          <h2 className="font-[900] leading-[1.08] tracking-[-1.5px] text-white" style={{ fontSize: 'clamp(30px, 3.8vw, 50px)' }}>Nine tracks.<br />One discipline: financial thinking.</h2>
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1px] bg-[rgba(255,255,255,0.10)] mt-[56px]">
             {[
               { num: "01", title: "Investment Banking & Mergers and Acquisitions", desc: "How investment banks structure deals, evaluate companies, and execute complex corporate transactions.", tags: ["DCF & Valuation", "LBO", "M&A Strategy"] },
@@ -252,19 +252,19 @@ const Institute = () => {
 
       {/* PROMISE */}
       <section id="promise" className="relative overflow-hidden py-[140px] px-[20px] md:px-[80px]">
-        <div 
+        <div
           className="absolute inset-0 bg-no-repeat"
-          style={{ backgroundImage: "url('https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1920&q=85')", backgroundPosition: "center 30%", backgroundSize: "cover" }}
+          style={{ backgroundImage: "url('/insituted/PROGRAMS.avif')", backgroundPosition: "center 30%", backgroundSize: "cover" }}
         ></div>
-        <div 
+        <div
           className="absolute inset-0"
           style={{ background: "linear-gradient(135deg, rgba(8,8,8,0.97) 0%, rgba(8,8,8,0.88) 50%, rgba(30,20,70,0.85) 100%)" }}
         ></div>
-        
+
         <div className="relative z-[2] max-w-[860px] mx-auto text-center flex flex-col items-center">
           <span className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] block mb-[44px]">06 — Our Promise</span>
           <h2 className="font-[900] tracking-[-2px] leading-[1.05] mb-[54px] text-white" style={{ fontSize: 'clamp(34px, 5vw, 64px)' }}>
-            The Truth About<br/>Finance Education.
+            The Truth About<br />Finance Education.
           </h2>
           <div className="text-left flex flex-col gap-[20px] max-w-[680px] w-full mx-auto mb-[50px]">
             <p className="text-[15.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9]">
@@ -286,13 +286,13 @@ const Institute = () => {
             </p>
           </div>
           <p className="border-t border-[rgba(255,255,255,0.10)] pt-[44px] text-[20px] font-[400] italic text-[rgba(255,255,255,0.80)] leading-[1.7] max-w-[640px] w-full mx-auto tracking-[-0.3px]">
-            "In finance, the difference between success and failure is rarely knowledge alone —<br/>
+            "In finance, the difference between success and failure is rarely knowledge alone —<br />
             it is the ability to think clearly when the stakes are real."
           </p>
         </div>
       </section>
 
-      
+
     </div>
   );
 };
