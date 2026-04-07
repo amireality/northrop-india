@@ -144,8 +144,6 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* FOOTER CTA MOCKUP (Since the real footer is in App.jsx) */}
-      {/* We could add an extra section here if needed */}
 
     </div>
   );

@@ -13,6 +13,7 @@ import CaseStudies from './pages/CaseStudies'
 // import DynamicSubPage from './pages/DynamicSubPage'
 import InstitutePage from './pages/Institute'
 import Contact from './pages/Contact'
+import Insights from './pages/Insights'
 
 
 // Services Imports
@@ -109,6 +110,7 @@ import Resources from './pages/case-studies/Resources'
 import ByIndustry from './pages/case-studies/ByIndustry'
 import ByService from './pages/case-studies/ByService'
 import Foundation from './pages/Foundation'
+import About from './components/home/About'
 
 function App() {
   return (
@@ -128,6 +130,8 @@ function App() {
           <Route path="/institute" element={<InstitutePage />} />
           <Route path="/foundation" element={<Foundation />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/insights" element={<Insights />} />
 
 
           {/* Services Sub-routes */}
