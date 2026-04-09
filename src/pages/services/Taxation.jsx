@@ -29,7 +29,7 @@ const TaxationPage = () => {
   ];
 
   return (
-    <div className="min-h-screen font-sans bg-slate-50 selection:bg-blue-200">
+    <div className="min-h-screen bg-slate-50 selection:bg-blue-200">
       
       {/* HERO SECTION */}
       <section className="relative bg-slate-900 text-white min-h-[70vh] flex items-center pt-24 pb-16 px-6 md:px-20 overflow-hidden">

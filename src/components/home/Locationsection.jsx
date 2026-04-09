@@ -33,9 +33,9 @@ export default function LocationsSection() {
   ];
 
   return (
-    <section className="w-full font-sans">
+    <section className="w-full  ">
       {/* Top Banner Section */}
-      <div 
+      <div
         className="relative h-[300px] w-full bg-cover bg-center flex flex-col items-center justify-center text-white"
         style={{ backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("/homepageimg/photo-divider.jpg")' }}
       >
@@ -67,11 +67,10 @@ export default function LocationsSection() {
           {/* Locations Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-8 lg:gap-12">
             {locations.map((loc, index) => (
-              <div 
-                key={index} 
-                className={`flex flex-col border-l border-[#ffffff15] pl-6 h-full ${
-                  !loc.isActive ? 'opacity-50' : ''
-                }`}
+              <div
+                key={index}
+                className={`flex flex-col border-l border-[#ffffff15] pl-6 h-full ${!loc.isActive ? 'opacity-50' : ''
+                  }`}
               >
                 <div className="flex items-center gap-2 mb-4">
                   {loc.isActive ? (
@@ -79,9 +78,8 @@ export default function LocationsSection() {
                   ) : (
                     <div className="w-1.5 h-1.5 rounded-full border border-gray-400"></div>
                   )}
-                  <span className={`text-[10px] tracking-widest font-semibold ${
-                    loc.isActive ? 'text-[#c5a044]' : 'text-gray-400'
-                  }`}>
+                  <span className={`text-[10px] tracking-widest font-semibold ${loc.isActive ? 'text-[#c5a044]' : 'text-gray-400'
+                    }`}>
                     {loc.status}
                   </span>
                 </div>

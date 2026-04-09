@@ -1,10 +1,10 @@
 import React from 'react';
-import { 
-  ShieldCheck, 
-  Search, 
-  BarChart3, 
-  FileText, 
-  Scale, 
+import {
+  ShieldCheck,
+  Search,
+  BarChart3,
+  FileText,
+  Scale,
   TrendingUp,
   ChevronRight,
   CheckCircle,
@@ -29,8 +29,8 @@ const RiskManagementPage = () => {
   ];
 
   return (
-    <div className="min-h-screen font-sans bg-slate-50 selection:bg-blue-200">
-      
+    <div className="min-h-screen   bg-slate-50 selection:bg-blue-200">
+
       {/* HERO SECTION */}
       <section className="relative bg-slate-900 text-white min-h-[70vh] flex items-center pt-24 pb-16 px-6 md:px-20 overflow-hidden">
         {/* Background Accents */}
@@ -53,14 +53,14 @@ const RiskManagementPage = () => {
               </React.Fragment>
             ))}
           </nav>
-          
+
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight">
             Risk <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Management</span>
           </h1>
           <p className="text-xl md:text-2xl font-light text-slate-300 leading-relaxed max-w-3xl mb-10">
             Driving transparency, building stakeholder trust, and illuminating operational truths through human intelligence and AI-powered precision.
           </p>
-          
+
           <div className="flex flex-wrap gap-4">
             <button className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-full font-medium transition-all shadow-lg hover:shadow-blue-500/25 flex items-center gap-2">
               Speak with an auditor <ArrowRight size={18} />
@@ -80,7 +80,7 @@ const RiskManagementPage = () => {
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 font-medium text-sm mb-6">
                 <Search size={16} /> Overview
               </div>
-              <h2 className="text-4xl font-bold mb-6 text-slate-900 leading-tight">Beyond Compliance: <br/>The Value of a Modern Audit</h2>
+              <h2 className="text-4xl font-bold mb-6 text-slate-900 leading-tight">Beyond Compliance: <br />The Value of a Modern Audit</h2>
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
                 An audit is more than a statutory obligation - it's a powerful tool for discovering hidden value. We provide independent, objective evaluations of financial information, operational processes, and compliance frameworks to give you a clear picture of your organization's health.
               </p>
@@ -99,27 +99,27 @@ const RiskManagementPage = () => {
                 </li>
               </ul>
             </div>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <WhyCard 
+              <WhyCard
                 title="Verification"
                 description="Confirming absolute accuracy of your complex financial records."
-                icon={<BarChart3 size={28}/>}
+                icon={<BarChart3 size={28} />}
               />
-              <WhyCard 
+              <WhyCard
                 title="Compliance"
                 description="Ensuring alignment with evolving global and local legal standards."
-                icon={<Scale size={28}/>}
+                icon={<Scale size={28} />}
               />
-              <WhyCard 
+              <WhyCard
                 title="Fraud Prevention"
                 description="Acting as a powerful deterrent against internal and external fraud."
-                icon={<ShieldCheck size={28}/>}
+                icon={<ShieldCheck size={28} />}
               />
-              <WhyCard 
+              <WhyCard
                 title="Operational Edge"
                 description="Turning regulatory audits into actionable business intelligence."
-                icon={<TrendingUp size={28}/>}
+                icon={<TrendingUp size={28} />}
               />
             </div>
           </div>
@@ -137,19 +137,19 @@ const RiskManagementPage = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <ServiceCard 
+            <ServiceCard
               title="Financial Statement"
               detail="Ensuring your financial reports align meticulously with standards like GAAP, IFRS, and local regulations."
             />
-            <ServiceCard 
+            <ServiceCard
               title="Internal Audit"
               detail="A proactive consulting approach designed to add value, improve operations, and fortify risk management."
             />
-            <ServiceCard 
+            <ServiceCard
               title="IT & Cybersecurity"
               detail="Evaluating the security, integrity, and resilience of your data systems against modern digital threats."
             />
-            <ServiceCard 
+            <ServiceCard
               title="ESG & Sustainability"
               detail="Verifying non-financial disclosures regarding environmental impact, social responsibility, and governance."
             />

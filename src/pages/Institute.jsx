@@ -6,7 +6,7 @@ const Institute = () => {
   }, []);
 
   return (
-    <div className="font-sans bg-[#080808] text-white leading-[1.6] overflow-x-hidden">
+    <div className="  bg-[#080808] text-white leading-[1.6] overflow-x-hidden">
 
 
 

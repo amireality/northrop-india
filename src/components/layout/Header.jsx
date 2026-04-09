@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import {  Mail, User, ChevronDown, ChevronRight, Menu, X, ChevronLeft } from 'lucide-react';
+import { Mail, User, ChevronDown, ChevronRight, Menu, X, ChevronLeft } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { sidebarLinks, menuContent } from '../../data/megaMenuData'
 
@@ -23,7 +23,7 @@ const mobileMenuData = {
 };
 
 export default function Header() {
-  const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false); 
+  const [isMegaMenuOpen, setIsMegaMenuOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [activeSubMenu, setActiveSubMenu] = useState(null);
   const [activeCategory, setActiveCategory] = useState(null); // For 3rd level mobile menu
@@ -38,8 +38,8 @@ export default function Header() {
   }, [location]);
 
   return (
-    <header 
-      className="relative w-full bg-white border-b border-gray-200 font-sans text-[#001f3f] select-none"
+    <header
+      className="relative w-full bg-white border-b border-gray-200   text-[#001f3f] select-none"
       onMouseLeave={() => setIsMegaMenuOpen(false)}
     >
       <nav className="flex h-[50px] items-center justify-between px-6 lg:px-12">
@@ -49,14 +49,17 @@ export default function Header() {
           </Link> */}
 
           <div className="hidden h-full items-center gap-8 md:flex">
+
+            <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
+              <NavItem label="Home" href="/" hasDropdown={false} />
+            </div>
             <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
               <NavItem label="Who we are" href="/who-we-are" hasDropdown={false} />
             </div>
-            
-            <div 
-              className={`flex h-full items-center gap-1.5 px-2 text-[15px] cursor-pointer transition-all ${
-                isMegaMenuOpen ? 'border-[1px] border-dotted border-[#c5a044] text-[#c5a044]' : 'text-[#001f3f] hover:text-gray-600'
-              }`}
+
+            <div
+              className={`flex h-full items-center gap-1.5 px-2 text-[15px] cursor-pointer transition-all ${isMegaMenuOpen ? 'border-[1px] border-dotted border-[#c5a044] text-[#c5a044]' : 'text-[#001f3f] hover:text-gray-600'
+                }`}
               onMouseEnter={() => setIsMegaMenuOpen(true)}
               onClick={() => setIsMegaMenuOpen(!isMegaMenuOpen)}
             >
@@ -112,9 +115,8 @@ export default function Header() {
                   <button
                     onClick={() => setActiveTab(link.label)}
                     onMouseEnter={() => setActiveTab(link.label)}
-                    className={`w-full flex items-center justify-between px-8 py-3 text-[17px] text-left transition-colors outline-none ${
-                      activeTab === link.label ? 'bg-[#061a3a] text-[#c5a044]' : 'text-gray-400 hover:text-white'
-                    }`}
+                    className={`w-full flex items-center justify-between px-8 py-3 text-[17px] text-left transition-colors outline-none ${activeTab === link.label ? 'bg-[#061a3a] text-[#c5a044]' : 'text-gray-400 hover:text-white'
+                      }`}
                   >
                     <span className="flex-1 pr-4">{link.label}</span>
                     {link.hasArrow && <ChevronRight size={16} className={`flex-shrink-0 ${activeTab === link.label ? 'text-[#c5a044]' : 'text-gray-600'}`} />}

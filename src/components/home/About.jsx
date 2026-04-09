@@ -28,7 +28,7 @@ export default function About() {
   }, []);
 
   const Pillar = ({ num, name, text, delay }) => (
-    <div 
+    <div
       ref={addToRefs}
       className={`p-10 border-r border-[#0E0E0E]/10 last:border-r-0 relative group transition-all duration-700 opacity-0 translate-y-10 ${delay}`}
     >
@@ -43,17 +43,17 @@ export default function About() {
     <section className="bg-[#FAF8F3] py-20 lg:py-32 overflow-hidden">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-20">
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-16 items-start mb-24">
-          
+
           {/* LEFT: Image Section */}
           <div ref={addToRefs} className="relative h-[600px] lg:h-[800px] opacity-0 translate-y-10 transition-all duration-1000">
-            <div 
-              className="absolute inset-0 bg-cover bg-center " 
+            <div
+              className="absolute inset-0 bg-cover bg-center "
               style={{ backgroundImage: "url('/homepageimg/download.jpeg')" }}
             ></div>
-           
+
             {/* Caption Badge */}
             <div className="absolute bottom-8 left-8 bg-[#2A2319]/90  px-4 py-1 border border-white/10">
-              <span className="text-white/40 text-[9px] tracking-[0.2em] font-medium uppercase font-sans">
+              <span className="text-white/40 text-[9px] tracking-[0.2em] font-medium uppercase  ">
                 Nalanda University Ruins · Bihar
               </span>
             </div>
@@ -64,7 +64,7 @@ export default function About() {
             <div ref={addToRefs} className="flex items-center gap-4 text-[11px] font-medium tracking-[0.25em] uppercase text-[#C4973B] mb-8 opacity-0 translate-y-10 transition-all duration-700">
               <span className="w-8 h-px bg-[#C4973B]"></span> About Northrop
             </div>
-            
+
             <h2 ref={addToRefs} className="font-serif text-[42px] lg:text-[62px] leading-[1.05] text-[#0E0E0E] tracking-tight mb-12 opacity-0 translate-y-10 transition-all duration-700 delay-100">
               The Standard<br />We Hold<br /><em className="text-[#C4973B] italic">Ourselves To.</em>
             </h2>
@@ -85,27 +85,27 @@ export default function About() {
 
         {/* PILLARS GRID */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 border-t border-[#0E0E0E]/10">
-          <Pillar 
-            num="01" 
-            name="CA · CFA · IIT · MBA" 
+          <Pillar
+            num="01"
+            name="CA · CFA · IIT · MBA"
             text="Every Northrop engagement is led by a qualified professional with real transaction experience. You work with credentialed seniors, not trainees."
             delay="delay-300"
           />
-          <Pillar 
-            num="02" 
-            name="Real-World Trust" 
+          <Pillar
+            num="02"
+            name="Real-World Trust"
             text="India's founders need advisors who understand regulatory realities, capital constraints, and relationship dynamics."
             delay="delay-400"
           />
-          <Pillar 
-            num="03" 
-            name="Institutional Rigour" 
+          <Pillar
+            num="03"
+            name="Institutional Rigour"
             text="ERM frameworks and compliance infrastructure that banks and investors trust completely — at every stage of your lifecycle."
             delay="delay-500"
           />
-          <Pillar 
-            num="04" 
-            name="Delivered. Every Time." 
+          <Pillar
+            num="04"
+            name="Delivered. Every Time."
             text="Board-ready reports in 21 days. Written accountability at every milestone. No vague consulting. When we take on a mandate, we see it through."
             delay="delay-600"
           />

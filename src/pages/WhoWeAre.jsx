@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { 
-  Globe, MapPin, Handshake, Factory, Wallet, Users, HeartPulse, Sprout, 
-  Compass, Landmark, Shield, FileText, Merge, Database, Sparkles 
+import {
+  Globe, MapPin, Handshake, Factory, Wallet, Users, HeartPulse, Sprout,
+  Compass, Landmark, Shield, FileText, Merge, Database, Sparkles
 } from 'lucide-react';
 
 const valuesData = [
@@ -48,8 +48,8 @@ export default function WhoWeAre() {
   }, []);
 
   return (
-    <div className="bg-[#f9f9ff] text-[#131c2a] font-sans selection:bg-[#ffd573] selection:text-[#785b00]">
-      
+    <div className="bg-[#f9f9ff] text-[#131c2a]   selection:bg-[#ffd573] selection:text-[#785b00]">
+
 
       {/* Hero Section: The Founder's Mandate */}
       <section className="max-w-[1440px] mx-auto px-[32px] md:px-[96px] pt-[80px] pb-[160px]">
@@ -81,9 +81,9 @@ export default function WhoWeAre() {
           </div>
           <div className="col-span-1 lg:col-span-5 order-1 lg:order-2">
             <div className="relative aspect-[3/4] overflow-hidden bg-[#e7eeff]">
-              <img 
-                alt="Portrait of Ashish Chaudhary" 
-                className="w-full h-full object-cover grayscale contrast-110 brightness-90" 
+              <img
+                alt="Portrait of Ashish Chaudhary"
+                className="w-full h-full object-cover grayscale contrast-110 brightness-90"
                 src="/whoweare/unnamed.jpg"
               />
               <div className="absolute inset-0 ring-[1px] ring-inset ring-black/5"></div>
@@ -106,7 +106,7 @@ export default function WhoWeAre() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[32px]">
             {valuesData.map((val, idx) => (
               <div key={idx} className="border-l border-white/10 pl-[32px] py-[16px] hover:border-[#C4973B] transition-colors duration-500">
-                <h3 className="text-[#C4973B] font-sans text-[10px] tracking-[0.3em] uppercase mb-[16px]">{val.subtitle}</h3>
+                <h3 className="text-[#C4973B]   text-[10px] tracking-[0.3em] uppercase mb-[16px]">{val.subtitle}</h3>
                 <p className="font-playfair text-[24px]">{val.title}</p>
                 <p className="text-white/40 text-[14px] mt-[16px] font-[300] leading-[1.6]">{val.description}</p>
               </div>
@@ -177,7 +177,7 @@ export default function WhoWeAre() {
               <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[12px] block">Institutional Trust</span>
               <h2 className="font-playfair text-[36px] md:text-[48px] text-[#001f3f] tracking-[0px]">Strategic Client Profile</h2>
             </div>
-            <p className="text-[#43474e] font-sans text-[10px] tracking-[0.3em] uppercase opacity-60 mt-[16px] md:mt-0">
+            <p className="text-[#43474e]   text-[10px] tracking-[0.3em] uppercase opacity-60 mt-[16px] md:mt-0">
               Serving the Caliber of Global Industry
             </p>
           </div>
@@ -202,7 +202,7 @@ export default function WhoWeAre() {
               <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[12px] block">Institutional Engine</span>
               <h2 className="font-playfair text-[36px] md:text-[48px] text-[#001f3f] tracking-[0px]">The Eight Pillars of Scale.</h2>
             </div>
-            <div className="text-[#43474e] font-sans text-[10px] tracking-[0.4em] uppercase mt-[24px] md:mt-0 opacity-60 flex items-center">
+            <div className="text-[#43474e]   text-[10px] tracking-[0.4em] uppercase mt-[24px] md:mt-0 opacity-60 flex items-center">
               Precision <span className="mx-[12px] text-[#C4973B]">|</span> Protocol <span className="mx-[12px] text-[#C4973B]">|</span> Performance
             </div>
           </div>
@@ -231,7 +231,7 @@ export default function WhoWeAre() {
               <div key={idx}>
                 <div className="flex items-center gap-[16px] mb-[32px]">
                   <div className="w-[32px] h-[1px] bg-[#C4973B]/40"></div>
-                  <div className="text-[#C4973B] font-sans text-[10px] tracking-[0.3em] uppercase">{mandate.subtitle}</div>
+                  <div className="text-[#C4973B]   text-[10px] tracking-[0.3em] uppercase">{mandate.subtitle}</div>
                 </div>
                 <h4 className="font-playfair text-[24px] mb-[16px]">{mandate.title}</h4>
                 <p className="text-white/60 font-[300] leading-[1.6] text-[14px]">{mandate.description}</p>

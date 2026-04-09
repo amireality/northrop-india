@@ -1,243 +1,133 @@
+
 import React from 'react';
-import { 
-  ShieldCheck, 
-  Search, 
-  BarChart3, 
-  FileText, 
-  Scale, 
-  TrendingUp,
-  ChevronRight,
-  CheckCircle,
-  Users,
-  Target,
-  Globe,
-  ArrowRight
-} from 'lucide-react';
+import { ArrowRight, Check } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import DueDiligenceBanner from '../../components/services/DueDiligenceBanner';
 
 const FraudIndicatorsPage = () => {
-  const breadcrumbs = [
-    { name: "Home", link: "/" },
-    { name: "Services", link: "/services" },
-    { name: "Fraud Indicators", link: null }
-  ];
-
-  const processSteps = [
-    { id: "01", title: "Planning & Risk Assessment", desc: "We evaluate your business environment and identify key risk areas to tailor our audit approach." },
-    { id: "02", title: "Internal Controls Evaluation", desc: "Testing the effectiveness of your internal systems to ensure data integrity and safeguard assets." },
-    { id: "03", title: "Substantive Testing", desc: "Rigorous examination of financial records, transactions, and operational data for complete accuracy." },
-    { id: "04", title: "Reporting & Insights", desc: "Delivering transparent, independent audit reports with actionable insights for management." }
-  ];
-
   return (
-    <div className="min-h-screen font-sans bg-slate-50 selection:bg-blue-200">
-      
-      {/* HERO SECTION */}
-      <section className="relative bg-slate-900 text-white min-h-[70vh] flex items-center pt-24 pb-16 px-6 md:px-20 overflow-hidden">
-        {/* Background Accents */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute -top-[20%] -right-[10%] w-[800px] h-[800px] rounded-full bg-gradient-to-br from-blue-600/20 to-teal-500/10 blur-3xl" />
-          <div className="absolute bottom-[10%] -left-[10%] w-[600px] h-[600px] rounded-full bg-gradient-to-tr from-slate-700/40 to-transparent blur-3xl" />
-        </div>
+    <div className="bg-white text-[#1E2D3D]  ">
+      <DueDiligenceBanner />
 
-        <div className="relative z-10 max-w-5xl mx-auto w-full">
-          {/* Breadcrumbs */}
-          <nav className="flex items-center space-x-2 text-sm text-slate-400 mb-8">
-            {breadcrumbs.map((crumb, index) => (
-              <React.Fragment key={index}>
-                {crumb.link ? (
-                  <a href={crumb.link} className="hover:text-blue-400 transition-colors">{crumb.name}</a>
-                ) : (
-                  <span className="text-slate-200 font-medium">{crumb.name}</span>
-                )}
-                {index < breadcrumbs.length - 1 && <ChevronRight size={14} />}
-              </React.Fragment>
-            ))}
-          </nav>
-          
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight">
-            Fraud <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Indicators</span>
-          </h1>
-          <p className="text-xl md:text-2xl font-light text-slate-300 leading-relaxed max-w-3xl mb-10">
-            Driving transparency, building stakeholder trust, and illuminating operational truths through human intelligence and AI-powered precision.
-          </p>
-          
-          <div className="flex flex-wrap gap-4">
-            <button className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-full font-medium transition-all shadow-lg hover:shadow-blue-500/25 flex items-center gap-2">
-              Speak with an auditor <ArrowRight size={18} />
-            </button>
-            <button className="bg-white/10 hover:bg-white/20 border border-white/20 text-white px-8 py-4 rounded-full font-medium transition-all backdrop-blur-sm">
-              Explore Our Insights
-            </button>
+      {/* ══ DYNAMIC SERVICE CONTENT ══ */}
+      <section id="service-content" className="py-[48px] lg:py-[80px] px-4 md:px-[6vw] border-b border-[#E8E5DE] bg-white">
+        <div className="max-w-[1080px] mx-auto">
+          <div className="flex flex-wrap items-center gap-[10px] md:gap-[14px] mb-[20px] md:mb-[24px]">
+            <span className="font-serif text-[13px] md:text-[14px] font-semibold text-[#5C6B7A] tracking-[0.05em]">06 /</span>
+            <span className="text-[10px] md:text-[11px] font-bold tracking-[0.18em] uppercase text-[#1E4D8C] bg-[#EBF0F7] px-[10px] md:px-[12px] py-[4px]">
+              Fraud Indicators Analysis
+            </span>
           </div>
-        </div>
-      </section>
 
-      {/* INTRODUCTION & WHY AUDIT */}
-      <section className="py-24 px-6 md:px-20 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
-            <div>
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 font-medium text-sm mb-6">
-                <Search size={16} /> Overview
-              </div>
-              <h2 className="text-4xl font-bold mb-6 text-slate-900 leading-tight">Beyond Compliance: <br/>The Value of a Modern Audit</h2>
-              <p className="text-lg text-slate-600 leading-relaxed mb-6">
-                An audit is more than a statutory obligation - it's a powerful tool for discovering hidden value. We provide independent, objective evaluations of financial information, operational processes, and compliance frameworks to give you a clear picture of your organization's health.
-              </p>
-              <ul className="space-y-4 text-slate-700">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-blue-600 flex-shrink-0 mt-1" size={20} />
-                  <span><strong>Enhance Stakeholder Trust:</strong> Assure investors and regulators with validated financial data.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-blue-600 flex-shrink-0 mt-1" size={20} />
-                  <span><strong>Identify Inefficiencies:</strong> Uncover process bottlenecks and optimize workflows.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-blue-600 flex-shrink-0 mt-1" size={20} />
-                  <span><strong>Mitigate Risks:</strong> Strengthen internal controls to prevent fraud and errors.</span>
-                </li>
-              </ul>
+          <h2
+            className="font-serif text-[clamp(32px,3.2vw,44px)] font-bold leading-[1.15] text-[#0B1929] max-w-[780px] mb-[20px] md:mb-[24px]"
+            dangerouslySetInnerHTML={{ __html: `Fraud never announces itself.<br/>It hides in the <em class="italic text-[#1E4D8C]">ordinary.</em>` }}
+          />
+
+          <p
+            className="font-serif text-[18px] md:text-[20px] italic font-medium text-[#1E2D3D] leading-[1.5] md:leading-[1.65] max-w-[680px] mb-[36px] md:mb-[48px] pl-[16px] md:pl-[22px] border-l-[3px] border-[#1E4D8C]"
+            dangerouslySetInnerHTML={{ __html: `Most financial fraud doesn't look dramatic. It looks like a slightly unusual creditor balance, a vendor nobody has ever met, and a year-end journal entry nobody questions.` }}
+          />
+
+          {/* ══ PAIN BLOCK ══ */}
+          <div className="mb-[40px] md:mb-[56px] max-w-[820px] bg-[#FBF0EF] border border-[#FBF0EF] border-l-[4px] border-l-[#7A1E1E] p-[24px] md:p-[32px]">
+            <div className="flex items-center gap-[8px] text-[10px] md:text-[11px] font-bold tracking-[0.16em] uppercase text-[#7A1E1E] mb-[16px] md:mb-[18px]">
+              <span className="w-[6px] h-[6px] bg-[#7A1E1E] rounded-full shrink-0"></span>
+              The patterns that precede every major fraud
             </div>
-            
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <WhyCard 
-                title="Verification"
-                description="Confirming absolute accuracy of your complex financial records."
-                icon={<BarChart3 size={28}/>}
-              />
-              <WhyCard 
-                title="Compliance"
-                description="Ensuring alignment with evolving global and local legal standards."
-                icon={<Scale size={28}/>}
-              />
-              <WhyCard 
-                title="Fraud Prevention"
-                description="Acting as a powerful deterrent against internal and external fraud."
-                icon={<ShieldCheck size={28}/>}
-              />
-              <WhyCard 
-                title="Operational Edge"
-                description="Turning regulatory audits into actionable business intelligence."
-                icon={<TrendingUp size={28}/>}
-              />
+            <ul className="flex flex-col">
+
+              <li className="grid grid-cols-[20px_1fr] md:grid-cols-[28px_1fr] py-[10px] md:py-[13px] border-b border-[#7A1E1E]/10 last:border-0 last:pb-0 first:pt-0 text-[14px] md:text-[15px] font-normal text-[#0B1929] leading-[1.5] md:leading-[1.65]">
+                <span className="text-[#7A1E1E] font-bold text-[13px] md:text-[14px] pt-[2px] md:pt-[1px]">→</span>
+                <span>Sundry creditors ballooning with no corresponding inventory — classic diversion signal</span>
+              </li>
+              <li className="grid grid-cols-[20px_1fr] md:grid-cols-[28px_1fr] py-[10px] md:py-[13px] border-b border-[#7A1E1E]/10 last:border-0 last:pb-0 first:pt-0 text-[14px] md:text-[15px] font-normal text-[#0B1929] leading-[1.5] md:leading-[1.65]">
+                <span className="text-[#7A1E1E] font-bold text-[13px] md:text-[14px] pt-[2px] md:pt-[1px]">→</span>
+                <span>Round-number transactions clustering near quarter-end or financial year close</span>
+              </li>
+              <li className="grid grid-cols-[20px_1fr] md:grid-cols-[28px_1fr] py-[10px] md:py-[13px] border-b border-[#7A1E1E]/10 last:border-0 last:pb-0 first:pt-0 text-[14px] md:text-[15px] font-normal text-[#0B1929] leading-[1.5] md:leading-[1.65]">
+                <span className="text-[#7A1E1E] font-bold text-[13px] md:text-[14px] pt-[2px] md:pt-[1px]">→</span>
+                <span>Vendor concentration: 70-80% of purchases from entities sharing a promoter's PIN code</span>
+              </li>
+              <li className="grid grid-cols-[20px_1fr] md:grid-cols-[28px_1fr] py-[10px] md:py-[13px] border-b border-[#7A1E1E]/10 last:border-0 last:pb-0 first:pt-0 text-[14px] md:text-[15px] font-normal text-[#0B1929] leading-[1.5] md:leading-[1.65]">
+                <span className="text-[#7A1E1E] font-bold text-[13px] md:text-[14px] pt-[2px] md:pt-[1px]">→</span>
+                <span>Fixed asset additions that do not appear in any physical verification exercise</span>
+              </li>
+              <li className="grid grid-cols-[20px_1fr] md:grid-cols-[28px_1fr] py-[10px] md:py-[13px] border-b border-[#7A1E1E]/10 last:border-0 last:pb-0 first:pt-0 text-[14px] md:text-[15px] font-normal text-[#0B1929] leading-[1.5] md:leading-[1.65]">
+                <span className="text-[#7A1E1E] font-bold text-[13px] md:text-[14px] pt-[2px] md:pt-[1px]">→</span>
+                <span>Transactions booked outside business hours, on public holidays, by a single user ID</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* ══ DELIVERABLES ══ */}
+          <div className="flex items-center gap-[10px] text-[10px] md:text-[11px] font-bold tracking-[0.16em] uppercase text-[#1E4D8C] mb-[16px] md:mb-[20px]">
+            What we deliver
+            <div className="flex-1 max-w-[60px] h-[2px] bg-[#B8CCE4]"></div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-auto-fit gap-[1px] bg-[#D4D0C8] border border-[#D4D0C8] max-w-[900px] mb-[40px] md:mb-[48px]" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))' }}>
+
+            <div className="relative bg-white p-[20px] md:p-[28px_26px]">
+              <div className="absolute top-0 left-0 w-[3px] h-full bg-[#1E4D8C]"></div>
+              <h4 className="  text-[13px] md:text-[14px] font-bold text-[#0B1929] mb-[8px] md:mb-[10px] leading-[1.3] md:leading-[1.4]">Data Analytics & Pattern Recognition</h4>
+              <p className="text-[13px] font-normal text-[#5C6B7A] leading-[1.6] md:leading-[1.7]">Full-dataset transaction analysis — not samples. Benford's Law testing, outlier detection, and temporal clustering.</p>
+            </div>
+            <div className="relative bg-white p-[20px] md:p-[28px_26px]">
+              <div className="absolute top-0 left-0 w-[3px] h-full bg-[#1E4D8C]"></div>
+              <h4 className="  text-[13px] md:text-[14px] font-bold text-[#0B1929] mb-[8px] md:mb-[10px] leading-[1.3] md:leading-[1.4]">Related Party Transaction Mapping</h4>
+              <p className="text-[13px] font-normal text-[#5C6B7A] leading-[1.6] md:leading-[1.7]">Identifying circular transactions, sham invoicing, and diversion routes through comprehensive entity relationship mapping.</p>
+            </div>
+            <div className="relative bg-white p-[20px] md:p-[28px_26px]">
+              <div className="absolute top-0 left-0 w-[3px] h-full bg-[#1E4D8C]"></div>
+              <h4 className="  text-[13px] md:text-[14px] font-bold text-[#0B1929] mb-[8px] md:mb-[10px] leading-[1.3] md:leading-[1.4]">Control Environment Assessment</h4>
+              <p className="text-[13px] font-normal text-[#5C6B7A] leading-[1.6] md:leading-[1.7]">Evaluating the gaps that allowed fraud to occur — and recommending structural controls to prevent recurrence.</p>
+            </div>
+            <div className="relative bg-white p-[20px] md:p-[28px_26px]">
+              <div className="absolute top-0 left-0 w-[3px] h-full bg-[#1E4D8C]"></div>
+              <h4 className="  text-[13px] md:text-[14px] font-bold text-[#0B1929] mb-[8px] md:mb-[10px] leading-[1.3] md:leading-[1.4]">Forensic Report for Legal Action</h4>
+              <p className="text-[13px] font-normal text-[#5C6B7A] leading-[1.6] md:leading-[1.7]">Court-admissible documentation structured for submission to lenders, forensic committees, or the NCLT.</p>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* CORE TOPICS / SERVICES */}
-      <section className="py-24 px-6 md:px-20 bg-slate-900 border-y border-slate-800">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="text-4xl font-bold mb-6 text-white">Comprehensive Audit Services</h2>
-            <p className="text-lg text-slate-400">
-              From financial statements to specialized IT assurance, our multi-disciplinary teams cover all dimensions of corporate auditing.
+          {/* ══ OUTCOMES ══ */}
+          <div className="flex flex-wrap gap-[8px] md:gap-[10px] mb-[36px] md:mb-[44px] max-w-[820px]">
+
+            <div className="flex items-center gap-[6px] md:gap-[7px] text-[11px] md:text-[11.5px] font-semibold tracking-[0.05em] text-[#1B3F6E] bg-[#EBF0F7] border border-[#B8CCE4] px-[12px] md:px-[16px] py-[6px] md:py-[7px]">
+              <span className="font-bold text-[#1E4D8C] text-[12px] md:text-[13px]">✓</span> Quantified Loss Estimation
+            </div>
+            <div className="flex items-center gap-[6px] md:gap-[7px] text-[11px] md:text-[11.5px] font-semibold tracking-[0.05em] text-[#1B3F6E] bg-[#EBF0F7] border border-[#B8CCE4] px-[12px] md:px-[16px] py-[6px] md:py-[7px]">
+              <span className="font-bold text-[#1E4D8C] text-[12px] md:text-[13px]">✓</span> Legal-Grade Evidence
+            </div>
+            <div className="flex items-center gap-[6px] md:gap-[7px] text-[11px] md:text-[11.5px] font-semibold tracking-[0.05em] text-[#1B3F6E] bg-[#EBF0F7] border border-[#B8CCE4] px-[12px] md:px-[16px] py-[6px] md:py-[7px]">
+              <span className="font-bold text-[#1E4D8C] text-[12px] md:text-[13px]">✓</span> Lender Submission Ready
+            </div>
+            <div className="flex items-center gap-[6px] md:gap-[7px] text-[11px] md:text-[11.5px] font-semibold tracking-[0.05em] text-[#1B3F6E] bg-[#EBF0F7] border border-[#B8CCE4] px-[12px] md:px-[16px] py-[6px] md:py-[7px]">
+              <span className="font-bold text-[#1E4D8C] text-[12px] md:text-[13px]">✓</span> Board-Level Reporting
+            </div>
+          </div>
+
+          {/* ══ SECTION CTA ══ */}
+          <div className="flex flex-col sm:flex-row flex-wrap items-center gap-[16px] sm:gap-[24px]">
+            <Link to="/contact" className="inline-flex justify-center items-center bg-[#0B1929] hover:bg-[#1B3F6E] transition-colors text-white text-[11px] md:text-[12px] font-semibold tracking-[0.1em] uppercase px-[24px] md:px-[28px] py-[12px] md:py-[13px] w-full sm:w-auto">
+              Commission Fraud Analysis
+            </Link>
+            <Link to="/contact" className="inline-flex justify-center items-center border-[1.5px] border-[#D4D0C8] hover:border-[#1E4D8C] hover:text-[#1E4D8C] transition-colors text-[#0B1929] text-[11px] md:text-[12px] font-semibold tracking-[0.08em] uppercase px-[20px] md:px-[24px] py-[11px] md:py-[12px] w-full sm:w-auto">
+              Confidential Inquiry
+            </Link>
+          </div>
+
+          {true && (
+            <p className="mt-[20px] text-[12px] md:text-[13px] font-normal italic text-[#5C6B7A] leading-[1.5] md:leading-[1.65] max-w-[600px] pl-[12px] md:pl-[14px] border-l-[2px] border-[#D4D0C8]">
+              Fund diversion, shell entities, over-invoicing, and circular transactions identified across 8+ forensic mandates for PSU lenders.
             </p>
-          </div>
+          )}
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <ServiceCard 
-              title="Financial Statement"
-              detail="Ensuring your financial reports align meticulously with standards like GAAP, IFRS, and local regulations."
-            />
-            <ServiceCard 
-              title="Internal Audit"
-              detail="A proactive consulting approach designed to add value, improve operations, and fortify risk management."
-            />
-            <ServiceCard 
-              title="IT & Cybersecurity"
-              detail="Evaluating the security, integrity, and resilience of your data systems against modern digital threats."
-            />
-            <ServiceCard 
-              title="ESG & Sustainability"
-              detail="Verifying non-financial disclosures regarding environmental impact, social responsibility, and governance."
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* OUR PROCESS */}
-      <section className="py-24 px-6 md:px-20 bg-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
-            <div className="max-w-2xl">
-              <h2 className="text-4xl font-bold mb-6 text-slate-900">Our Audit Methodology</h2>
-              <p className="text-lg text-slate-600">
-                A structured, technology-enabled approach that minimizes disruption to your daily operations while maximizing analytical depth.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {processSteps.map((step, idx) => (
-              <div key={idx} className="relative class-step">
-                <div className="text-6xl font-black text-slate-100 mb-6">{step.id}</div>
-                <h4 className="text-xl font-bold text-slate-900 mb-4">{step.title}</h4>
-                <p className="text-slate-600 leading-relaxed">{step.desc}</p>
-                {/* Connector line for large screens */}
-                {idx < processSteps.length - 1 && (
-                  <div className="hidden lg:block absolute top-10 w-full left-1/2 h-[2px] bg-slate-100 z-0" />
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* WHY CHOOSE US / CTA */}
-      <section className="py-24 px-6 md:px-20 bg-gradient-to-br from-blue-700 to-blue-900 text-white">
-        <div className="max-w-5xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-8">Ready to elevate your assurance standards?</h2>
-          <p className="text-xl text-blue-100 mb-12 max-w-3xl mx-auto">
-            Partner with our global experts to experience an audit that goes beyond the numbers, delivering real strategic value to your board and management.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 text-left">
-            <div className="bg-white/10 p-6 rounded-2xl backdrop-blur-sm border border-white/10">
-              <Users className="mb-4 text-blue-300" size={32} />
-              <h4 className="font-bold text-lg mb-2">Industry Leaders</h4>
-              <p className="text-sm text-blue-100">Teams specialized by sector to understand your unique regulatory landscape.</p>
-            </div>
-            <div className="bg-white/10 p-6 rounded-2xl backdrop-blur-sm border border-white/10">
-              <Target className="mb-4 text-blue-300" size={32} />
-              <h4 className="font-bold text-lg mb-2">Tech-Enabled</h4>
-              <p className="text-sm text-blue-100">Harnessing AI, big data, and automation for deeper, faster insights.</p>
-            </div>
-            <div className="bg-white/10 p-6 rounded-2xl backdrop-blur-sm border border-white/10">
-              <Globe className="mb-4 text-blue-300" size={32} />
-              <h4 className="font-bold text-lg mb-2">Global Reach</h4>
-              <p className="text-sm text-blue-100">Consistent audit quality delivered seamlessly across international borders.</p>
-            </div>
-          </div>
-          <button className="bg-white text-blue-900 hover:bg-slate-50 px-10 py-4 rounded-full font-bold transition-all shadow-xl text-lg">
-            Schedule a Consultation
-          </button>
         </div>
       </section>
 
     </div>
   );
 };
-
-// Sub-components
-const WhyCard = ({ title, description, icon }) => (
-  <div className="p-8 border border-slate-100 rounded-2xl hover:shadow-lg hover:border-blue-100 transition-all bg-slate-50 hover:bg-white group">
-    <div className="w-14 h-14 bg-white shadow-sm text-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
-      {icon}
-    </div>
-    <h3 className="text-xl font-bold mb-3 text-slate-800">{title}</h3>
-    <p className="text-slate-600 leading-relaxed text-sm">{description}</p>
-  </div>
-);
-
-const ServiceCard = ({ title, detail }) => (
-  <div className="p-8 rounded-2xl bg-slate-800/50 border border-slate-700 hover:bg-slate-800 hover:border-blue-500/50 transition-all group">
-    <div className="w-12 h-12 bg-slate-900 border border-slate-700 rounded-lg flex items-center justify-center mb-6 text-blue-400 group-hover:text-blue-300">
-      <FileText size={24} />
-    </div>
-    <h4 className="text-xl font-bold mb-3 text-white">{title}</h4>
-    <p className="text-slate-400 text-sm leading-relaxed">{detail}</p>
-  </div>
-);
 
 export default FraudIndicatorsPage;

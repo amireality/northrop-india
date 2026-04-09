@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'Segoe UI', 'Roboto', 'Arial', 'sans-serif'],
+        sans: ['"Playfair Display"', 'serif'],
+        serif: ['"Playfair Display"', 'serif'],
+        inter: ['Inter', 'sans-serif'],
       },
     },
   },

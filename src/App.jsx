@@ -117,7 +117,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <main className="min-h-screen font-sans antialiased text-[#001f3f]">
+      <main className="min-h-screen   antialiased text-[#001f3f]">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/who-we-are" element={<WhoWeAre />} />
@@ -230,7 +230,7 @@ function App() {
           <Route path="/case-studies/by-industry" element={<ByIndustry />} />
           <Route path="/case-studies/by-service" element={<ByService />} />
 
-         
+
         </Routes>
       </main>
       <Footer />

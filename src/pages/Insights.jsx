@@ -56,8 +56,8 @@ export default function Insights() {
   }, []);
 
   return (
-    <div className="bg-[#f9f9ff] text-[#131c2a] font-sans">
-      
+    <div className="bg-[#f9f9ff] text-[#131c2a]  ">
+
 
       <main className="pt-[140px] pb-[96px] px-[32px] max-w-[1536px] mx-auto">
         {/* Hero Section */}
@@ -88,9 +88,9 @@ export default function Insights() {
             {/* Featured Article */}
             <article className="md:col-span-8 group relative overflow-hidden bg-white p-[32px] flex flex-col justify-between min-h-[500px]">
               <div className="absolute inset-0 z-0 opacity-10 group-hover:opacity-20 transition-opacity duration-500">
-                <img 
-                  className="w-full h-full object-cover" 
-                  src={insightsData.featuredArticle.image} 
+                <img
+                  className="w-full h-full object-cover"
+                  src={insightsData.featuredArticle.image}
                   alt="Market Deep-Dive"
                 />
               </div>
@@ -121,9 +121,9 @@ export default function Insights() {
             {/* Side Article 1 */}
             <article className="md:col-span-4 bg-[#f0f3ff] p-[32px] flex flex-col group">
               <div className="aspect-[4/3] mb-[24px] overflow-hidden">
-                <img 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  src={insightsData.sideArticles[0].image} 
+                <img
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  src={insightsData.sideArticles[0].image}
                   alt="Strategy Ledger"
                 />
               </div>
@@ -153,9 +153,9 @@ export default function Insights() {
                 {insightsData.sideArticles[1].description}
               </p>
               <div className="aspect-video mb-[24px] overflow-hidden">
-                <img 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  src={insightsData.sideArticles[1].image} 
+                <img
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  src={insightsData.sideArticles[1].image}
                   alt="Capital Allocation"
                 />
               </div>
@@ -228,9 +228,9 @@ export default function Insights() {
 
             <div className="lg:col-span-2 bg-[#e7eeff] flex flex-col md:flex-row overflow-hidden group">
               <div className="md:w-1/2 h-full min-h-[300px]">
-                <img 
-                  className="w-full h-full object-cover" 
-                  src={insightsData.mandateHighlight.image} 
+                <img
+                  className="w-full h-full object-cover"
+                  src={insightsData.mandateHighlight.image}
                   alt="Chairman's Mandate"
                 />
               </div>

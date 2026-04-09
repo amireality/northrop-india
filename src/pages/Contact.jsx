@@ -9,7 +9,7 @@ const Contact = () => {
 
 
 
-   const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
@@ -79,18 +79,18 @@ const Contact = () => {
   };
 
   return (
-    <div className="font-sans bg-white text-[#001f3f] leading-[1.6] overflow-x-hidden">
-      
+    <div className="  bg-white text-[#001f3f] leading-[1.6] overflow-x-hidden">
+
       {/* BANNER SECTION */}
       <section className="relative h-[60vh] flex flex-col justify-center px-[20px] md:px-[80px] overflow-hidden">
-        <div 
+        <div
           className="absolute inset-0 bg-center bg-cover bg-no-repeat"
           style={{ backgroundImage: "url('/contactusimg.avif')" }}
         ></div>
-        <div 
+        <div
           className="absolute inset-0 bg-black/60"
         ></div>
-        
+
         <div className="relative z-10 max-w-[900px]">
           <div className="flex items-center gap-[10px] mb-[26px]">
             <div className="w-[40px] h-[1px] bg-[#C4973B]"></div>
@@ -108,12 +108,12 @@ const Contact = () => {
       {/* CONTACT CONTENT SECTION */}
       <section className="py-[100px] px-[20px] md:px-[80px] max-w-[1400px] mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[80px] lg:gap-[120px]">
-          
+
           {/* Left Column: Text & Info */}
           <div className="flex flex-col justify-start">
             <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#C4973B] mb-[20px]">Advisory Intake</div>
             <h2 className="font-[900] leading-[1.1] tracking-[-1.2px] text-[#001f3f] mb-[32px]" style={{ fontSize: 'clamp(32px, 3.5vw, 48px)' }}>
-              How can we help<br/>your business?
+              How can we help<br />your business?
             </h2>
             <div className="space-y-[24px]">
               <p className="text-[16px] text-gray-500 leading-[1.8] font-[300]">
@@ -152,7 +152,7 @@ const Contact = () => {
                 <div>
                   <div className="text-[11px] font-[700] tracking-[1.5px] uppercase text-gray-400 mb-[4px]">Headquarters</div>
                   <div className="text-[18px] font-[400] text-[#001f3f] leading-[1.5]">
-                    Connaught Place, New Delhi — 110001,<br/>India
+                    Connaught Place, New Delhi — 110001,<br />India
                   </div>
                 </div>
               </div>
@@ -162,13 +162,13 @@ const Contact = () => {
           {/* Right Column: The Form */}
           <div className="bg-[#fcfcfa] p-[40px] md:p-[60px] border border-gray-100 shadow-sm relative overflow-hidden group">
             <div className="absolute top-0 right-0 w-[4px] h-0 bg-[#C4973B] transition-all duration-700 group-hover:h-full"></div>
-            
+
             <form className="space-y-[32px]" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-[32px]">
                 <div className="flex flex-col gap-[10px]">
                   <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Full Name</label>
-                  <input 
-                    type="text" 
+                  <input
+                    type="text"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
@@ -178,8 +178,8 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col gap-[10px]">
                   <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Email Address</label>
-                  <input 
-                    type="email" 
+                  <input
+                    type="email"
                     name="email"
                     value={formData.email}
                     onChange={handleChange}
@@ -191,8 +191,8 @@ const Contact = () => {
 
               <div className="flex flex-col gap-[10px]">
                 <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Phone Number</label>
-                <input 
-                  type="tel" 
+                <input
+                  type="tel"
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
@@ -207,7 +207,7 @@ const Contact = () => {
 
               <div className="flex flex-col gap-[10px]">
                 <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Message / Inquiry</label>
-                <textarea 
+                <textarea
                   rows="4"
                   name="message"
                   value={formData.message}
@@ -217,13 +217,13 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              <button 
+              <button
                 type="submit"
                 className="w-full bg-[#001f3f] text-white text-[13px] font-[600] tracking-[1.5px] uppercase py-[18px] hover:bg-[#C4973B] transition-all duration-300 transform active:scale-[0.98]"
               >
                 Send Message →
               </button>
-              
+
               <p className="text-[11px] text-gray-400 text-center font-[300]">
                 We typically respond to strategic inquiries within 24–48 business hours.
               </p>
