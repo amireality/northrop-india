@@ -12,6 +12,7 @@ import Alliances from './pages/Alliances'
 import CaseStudies from './pages/CaseStudies'
 // import DynamicSubPage from './pages/DynamicSubPage'
 import InstitutePage from './pages/Institute'
+import Advisory from './pages/Advisory'
 import Contact from './pages/Contact'
 import Insights from './pages/Insights'
 
@@ -128,6 +129,7 @@ function App() {
           <Route path="/alliances" element={<Alliances />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/institute" element={<InstitutePage />} />
+          <Route path="/advisory" element={<Advisory />} />
           <Route path="/foundation" element={<Foundation />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
@@ -228,8 +230,7 @@ function App() {
           <Route path="/case-studies/by-industry" element={<ByIndustry />} />
           <Route path="/case-studies/by-service" element={<ByService />} />
 
-          {/* Dynamic Catch-all (Optional backup if new data added) */}
-          {/* <Route path="/:category/:slug" element={<DynamicSubPage />} /> */}
+         
         </Routes>
       </main>
       <Footer />

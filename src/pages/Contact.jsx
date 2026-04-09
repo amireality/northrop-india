@@ -1,9 +1,82 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+
+
+   const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    if (name === "phone") {
+      // Restrict phone input to only numbers and max 10 digits
+      const numericValue = value.replace(/\D/g, "").slice(0, 10);
+      setFormData({ ...formData, [name]: numericValue });
+    } else {
+      setFormData({ ...formData, [name]: value });
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Validation
+    if (!formData.name || !formData.email || !formData.phone || !formData.message) {
+      alert("Please fill in all required fields.");
+      return;
+    }
+
+    if (!/^\d{10}$/.test(formData.phone)) {
+      alert("Please enter a valid 10-digit phone number.");
+      return;
+    }
+
+    // Send via EmailJS
+    emailjs
+      .send(
+        "service_2ngar93", // ✅ Your EmailJS Service ID
+        "template_yf9elb7", // ✅ Your EmailJS Template ID
+        {
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone,
+          message: formData.message,
+        },
+        "E80We4fZTrb_w0oj5" // ✅ Your Public Key
+      )
+      .then(
+        (response) => {
+          console.log("Email sent successfully!", response.status, response.text);
+          alert("Message sent successfully!");
+
+          // Reset form
+          setFormData({
+            name: "",
+            email: "",
+            phone: "",
+            message: "",
+          });
+        },
+        (error) => {
+          console.error("Error sending email:", error);
+          alert("Failed to send the message. Please try again.");
+        }
+      )
+      .catch((error) => {
+        console.error("Network or email service error:", error);
+        alert("Failed to send the message. Please try again.");
+      });
+  };
 
   return (
     <div className="font-sans bg-white text-[#001f3f] leading-[1.6] overflow-x-hidden">
@@ -90,13 +163,16 @@ const Contact = () => {
           <div className="bg-[#fcfcfa] p-[40px] md:p-[60px] border border-gray-100 shadow-sm relative overflow-hidden group">
             <div className="absolute top-0 right-0 w-[4px] h-0 bg-[#C4973B] transition-all duration-700 group-hover:h-full"></div>
             
-            <form className="space-y-[32px]">
+            <form className="space-y-[32px]" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-[32px]">
                 <div className="flex flex-col gap-[10px]">
                   <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Full Name</label>
                   <input 
                     type="text" 
-                    placeholder="John Doe"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    placeholder="Enter Full Name"
                     className="bg-transparent border-b border-gray-200 py-[12px] text-[15px] outline-none focus:border-[#C4973B] transition-all"
                   />
                 </div>
@@ -104,7 +180,10 @@ const Contact = () => {
                   <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Email Address</label>
                   <input 
                     type="email" 
-                    placeholder="john@example.com"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    placeholder="Enter Email Address"
                     className="bg-transparent border-b border-gray-200 py-[12px] text-[15px] outline-none focus:border-[#C4973B] transition-all"
                   />
                 </div>
@@ -114,7 +193,14 @@ const Contact = () => {
                 <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Phone Number</label>
                 <input 
                   type="tel" 
-                  placeholder="+91 XXXXX XXXXX"
+                  name="phone"
+                  value={formData.phone}
+                  onChange={handleChange}
+                  minLength="10"
+                  maxLength="10"
+                  pattern="\d{10}"
+                  required
+                  placeholder="Enter 10-digit number"
                   className="bg-transparent border-b border-gray-200 py-[12px] text-[15px] outline-none focus:border-[#C4973B] transition-all"
                 />
               </div>
@@ -123,7 +209,10 @@ const Contact = () => {
                 <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Message / Inquiry</label>
                 <textarea 
                   rows="4"
-                  placeholder="Tell us about your requirements or inquiry..."
+                  name="message"
+                  value={formData.message}
+                  onChange={handleChange}
+                  placeholder="Enter Your Message"
                   className="bg-transparent border-b border-gray-200 py-[12px] text-[15px] outline-none focus:border-[#C4973B] transition-all resize-none"
                 ></textarea>
               </div>

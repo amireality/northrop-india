@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Search, Globe, Mail, User, ChevronDown, ChevronRight, Menu, X, ChevronLeft } from 'lucide-react';
+import {  Mail, User, ChevronDown, ChevronRight, Menu, X, ChevronLeft } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { sidebarLinks, menuContent } from '../../data/megaMenuData'
 
