@@ -13,15 +13,15 @@ function Footer() {
           <div className="space-y-6">
             <div className="flex items-center text-3xl font-bold tracking-tighter">
               <span>NORTHROP</span>
-              <span className="ml-1 h-2 w-2 rounded-full bg-[#c5a044]" />
+           
             </div>
             <p className="text-[14px] leading-relaxed text-gray-400 font-light">
               Providing precision knowledge and insightful solutions for global enterprises since 1995.
             </p>
           </div>
-
+   {/* <span className="ml-1 h-2 w-2 rounded-full bg-[#c5a044]" /> */}
           {/* Links and Form Grid */}
-          <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-4">
+          <div className="grid gap-10 md:grid-cols-2 xl:grid-cols-3">
             {/* Links Columns */}
             <div>
               <h3 className="mb-6 text-[12px] font-bold uppercase tracking-[0.2em] text-[#c5a044]">
@@ -49,18 +49,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div>
-              <h3 className="mb-6 text-[12px] font-bold uppercase tracking-[0.2em] text-[#c5a044]">
-                Group Websites
-              </h3>
-              <ul className="space-y-3 text-[14px] font-light text-gray-300">
-                {footerLinks?.groupWebsite?.map((link) => (
-                  <li key={link}>
-                    <a href="#" className="transition-colors hover:text-[#c5a044]">{link}</a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+         
 
             {/* Newsletter Column */}
             <div>

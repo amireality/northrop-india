@@ -117,7 +117,7 @@ export const insights = [
 ]
 
 export const footerLinks = {
-  important: ['Home', 'About Us', 'Blog', 'Career', 'Contact Us', 'ASC Scanner'],
-  support: ['Corporate Profile', 'CSR Policy', 'Privacy Policy', 'Anti-Bribery Policy'],
-  groupWebsite: ['northropindia.com', 'northropglobal.com', 'northropventures.com'],
+  important: ['Home', 'About Us', 'Blog', 'Career', 'Contact Us'],
+  support: ['Corporate Profile', 'Privacy Policy', ],
+  // groupWebsite: ['northropindia.com', 'northropglobal.com', 'northropventures.com'],
 }

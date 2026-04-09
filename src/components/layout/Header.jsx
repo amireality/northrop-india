@@ -50,7 +50,7 @@ export default function Header() {
 
           <div className="hidden h-full items-center gap-8 md:flex">
             <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
-              <NavItem label="Who we are" href="/who-we-are" />
+              <NavItem label="Who we are" href="/who-we-are" hasDropdown={false} />
             </div>
             
             <div 
@@ -111,6 +111,7 @@ export default function Header() {
                 <li key={link.label}>
                   <button
                     onClick={() => setActiveTab(link.label)}
+                    onMouseEnter={() => setActiveTab(link.label)}
                     className={`w-full flex items-center justify-between px-8 py-3 text-[17px] text-left transition-colors outline-none ${
                       activeTab === link.label ? 'bg-[#061a3a] text-[#c5a044]' : 'text-gray-400 hover:text-white'
                     }`}
@@ -148,7 +149,7 @@ export default function Header() {
         <div className="fixed inset-0 z-[60] flex flex-col bg-black text-white overflow-y-auto md:hidden">
           <div className="flex h-[80px] items-center justify-between px-6 border-b border-gray-800">
             <Link to="/" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center text-2xl font-bold tracking-tighter">
-              <span>Northrop</span><span className="ml-0.5 h-2 w-2 rounded-full bg-[#c5a044]" />
+              <span>Northrop</span>
             </Link>
             <button onClick={() => setIsMobileMenuOpen(false)}><X size={32} /></button>
           </div>
@@ -157,7 +158,7 @@ export default function Header() {
             {/* Level 1: Main Menu */}
             {!activeSubMenu && (
               <div className="flex flex-col gap-10 mt-4">
-                <MobileNavItem label="Who we are" onClick={() => setActiveSubMenu("Who we are")} hasArrow />
+                <MobileNavItem label="Who we are" href="/who-we-are" onClick={() => setIsMobileMenuOpen(false)} />
                 <MobileNavItem label="What we do" onClick={() => setActiveSubMenu("What we do")} hasArrow />
                 <MobileNavItem label="Northrop Institute of Global Finance" href="/institute" onClick={() => setIsMobileMenuOpen(false)} />
                 <MobileNavItem label="Insights" href="/insights" onClick={() => setIsMobileMenuOpen(false)} />
@@ -222,6 +223,6 @@ function MobileNavItem({ label, href, onClick, hasArrow }) {
       <span>{label}</span>{hasArrow && <ChevronRight size={24} />}
     </div>
   );
-  if (href) return <Link to={href} className="block w-full">{content}</Link>;
+  if (href) return <Link to={href} onClick={onClick} className="block w-full">{content}</Link>;
   return <button onClick={onClick} className="block w-full text-left">{content}</button>;
 }
