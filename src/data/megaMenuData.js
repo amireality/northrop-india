@@ -1,5 +1,5 @@
 export const sidebarLinks = [
-  { label: 'Financial Reporting', hasArrow: true, href: '/services/financial-reporting' },
+  { label: 'Financial Reporting', hasArrow: true },
   { label: 'Risk Management', hasArrow: true, href: '/services/risk-management' },
   { label: 'Due Diligence', hasArrow: true, href: '/services/due-diligence' },
   { label: 'Forensic Investigations', hasArrow: true, href: '/services/forensic-investigations' },
@@ -85,7 +85,7 @@ export const menuContent = {
     ],
     [
       { label: 'Restructuring', href: '/services/restructuring' },
-      { label: 'Post-Merger Integration', href: '/services/pmi' }
+      { label: 'Post-Merger Integration', href: '/services/post-merger-integration' }
     ]
   ],
   'Grant & Funding': [

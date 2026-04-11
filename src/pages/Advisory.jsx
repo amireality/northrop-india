@@ -1,6 +1,13 @@
+
+import { Helmet } from 'react-helmet-async';
+
 const Advisory = () => {
-    return (
-        <main className=" bg-surface text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container min-h-screen">
+  return (
+    <main className=" bg-surface text-on-surface font-body selection:bg-secondary-container selection:text-on-secondary-container min-h-screen">
+      <Helmet>
+        <title>Integrated Advisory Excellence | The Northrop Mandate</title>
+        <meta name="description" content="Explore Northrop's multidisciplinary advisory mastery. We provide strategic blueprints, capital advisory, and financial controls for institutional growth." />
+      </Helmet>
             {/* Hero Section */}
             <header className="relative min-h-[600px] md:min-h-[870px] flex items-center px-6 md:px-12 py-20 overflow-hidden bg-primary">
                 <div className="absolute inset-0 opacity-40">

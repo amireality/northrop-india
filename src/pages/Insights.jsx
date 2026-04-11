@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { ArrowRight } from 'lucide-react';
 
 const insightsData = {
@@ -57,6 +58,10 @@ export default function Insights() {
 
   return (
     <div className="bg-[#f9f9ff] text-[#131c2a]  ">
+      <Helmet>
+        <title>Insights & Mandate Reports | Global Financial Intelligence | Northrop India</title>
+        <meta name="description" content="Access Northrop's proprietary research, macroeconomic mandates, and institutional perspectives. Deep-dives into capital markets, private equity, and global finance." />
+      </Helmet>
 
 
       <main className="pt-[140px] pb-[96px] px-[32px] max-w-[1536px] mx-auto">

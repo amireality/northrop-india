@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 function Foundation() {
   const starsRef = useRef(null);
@@ -25,7 +26,11 @@ function Foundation() {
 
   return (
     <>
-      <section className="relative w-full min-h-screen   bg-[#2a3036] overflow-hidden flex flex-col items-center justify-center">
+      <Helmet>
+        <title>Northrop Foundation | Impacting Communities through Finance</title>
+        <meta name="description" content="Northrop Foundation is dedicated to driving social impact and financial literacy, supporting sustainable growth and community development." />
+      </Helmet>
+      <section className="relative w-full min-h-screen bg-[#2a3036] overflow-hidden flex flex-col items-center justify-center">
         {/* Sky Background Gradients */}
         <div className="absolute inset-0 bg-gradient-to-b from-[#111a22] via-[#2a3036] to-[#454f50] opacity-90 pointer-events-none"></div>
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(200,144,42,0.12)_0%,transparent_60%)] pointer-events-none"></div>

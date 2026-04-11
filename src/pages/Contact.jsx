@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -79,7 +80,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="  bg-white text-[#001f3f] leading-[1.6] overflow-x-hidden">
+    <div className="bg-white text-[#001f3f] leading-[1.6] overflow-x-hidden">
+      <Helmet>
+        <title>Contact Us | Speak with an Expert Advisor | Northrop India</title>
+        <meta name="description" content="Get in touch with Northrop's specialist advisors. Schedule a confidential consultation for financial reporting, risk management, or transaction advisory." />
+      </Helmet>
 
       {/* BANNER SECTION */}
       <section className="relative h-[60vh] flex flex-col justify-center px-[20px] md:px-[80px] overflow-hidden">

@@ -15,6 +15,7 @@ import InstitutePage from './pages/Institute'
 import Advisory from './pages/Advisory'
 import Contact from './pages/Contact'
 import Insights from './pages/Insights'
+import NotFound from './pages/NotFound'
 
 
 // Services Imports
@@ -112,6 +113,11 @@ import ByIndustry from './pages/case-studies/ByIndustry'
 import ByService from './pages/case-studies/ByService'
 import Foundation from './pages/Foundation'
 import About from './components/home/About'
+import MaAdvisory from './pages/Transaction Advisory/MaAdvisory'
+import Restructuring from './pages/Transaction Advisory/Restructuring'
+import ValuationModling from './pages/Transaction Advisory/ValuationModling'
+import PostMergeintregetion from './pages/Transaction Advisory/PostMergeintregetion'
+import CapitalStructuring from './pages/Transaction Advisory/Capital-Structuring'
 
 function App() {
   return (
@@ -137,7 +143,7 @@ function App() {
 
 
           {/* Services Sub-routes */}
-          <Route path="/services/financial-reporting" element={<FinancialReporting />} />
+          {/* <Route path="/services/financial-reporting" element={<FinancialReporting />} /> */}
           <Route path="/services/risk-management" element={<RiskManagement />} />
           <Route path="/services/due-diligence" element={<DueDiligence />} />
           <Route path="/services/forensic-investigations" element={<ForensicInvestigations />} />
@@ -198,8 +204,15 @@ function App() {
           <Route path="/services/generative-ai" element={<GenerativeAI />} />
           <Route path="/services/global-employer-services" element={<GlobalEmployerServices />} />
 
+
+          <Route path="/services/restructuring" element={<Restructuring />} />
+          <Route path="/services/m-a-advisory" element={<MaAdvisory />} />
+          <Route path="/services/valuation" element={<ValuationModling />} />
+          <Route path="/services/post-merger-integration" element={<PostMergeintregetion />} />
+          <Route path="/services/capital-structuring" element={<CapitalStructuring />} />
+
           {/* Industry Sub-routes */}
-          <Route path="/industry/consumer" element={<Consumer />} />
+          {/* <Route path="/industry/consumer" element={<Consumer />} />
           <Route path="/industry/energy-resources-industrials" element={<EnergyResourcesIndustrials />} />
           <Route path="/industry/financial-services" element={<FinancialServices />} />
           <Route path="/industry/government-public-services" element={<GovernmentPublicServices />} />
@@ -209,10 +222,10 @@ function App() {
           <Route path="/industry/automotive" element={<Automotive />} />
           <Route path="/industry/real-estate" element={<RealEstate />} />
           <Route path="/industry/logistics" element={<Logistics />} />
-          <Route path="/industry/retail" element={<Retail />} />
+          <Route path="/industry/retail" element={<Retail />} /> */}
 
           {/* Alliances Sub-routes */}
-          <Route path="/alliances/sap" element={<SAP />} />
+          {/* <Route path="/alliances/sap" element={<SAP />} />
           <Route path="/alliances/oracle" element={<Oracle />} />
           <Route path="/alliances/microsoft" element={<Microsoft />} />
           <Route path="/alliances/aws" element={<AWS />} />
@@ -221,16 +234,18 @@ function App() {
           <Route path="/alliances/servicenow" element={<ServiceNow />} />
           <Route path="/alliances/workday" element={<Workday />} />
           <Route path="/alliances/nvidia" element={<NVIDIA />} />
-          <Route path="/alliances/adobe" element={<Adobe />} />
+          <Route path="/alliances/adobe" element={<Adobe />} /> */}
 
           {/* Case Studies Sub-routes */}
+          {/* 
           <Route path="/case-studies/success-stories" element={<SuccessStories />} />
           <Route path="/case-studies/testimonials" element={<Testimonials />} />
           <Route path="/case-studies/resources" element={<Resources />} />
           <Route path="/case-studies/by-industry" element={<ByIndustry />} />
-          <Route path="/case-studies/by-service" element={<ByService />} />
+          <Route path="/case-studies/by-service" element={<ByService />} /> 
+          */}
 
-
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

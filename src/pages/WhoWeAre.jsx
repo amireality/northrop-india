@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import {
   Globe, MapPin, Handshake, Factory, Wallet, Users, HeartPulse, Sprout,
   Compass, Landmark, Shield, FileText, Merge, Database, Sparkles
@@ -48,7 +49,11 @@ export default function WhoWeAre() {
   }, []);
 
   return (
-    <div className="bg-[#f9f9ff] text-[#131c2a]   selection:bg-[#ffd573] selection:text-[#785b00]">
+    <div className="bg-[#f9f9ff] text-[#131c2a] selection:bg-[#ffd573] selection:text-[#785b00]">
+      <Helmet>
+        <title>Who We Are | Purpose, Values & Leadership | Northrop India</title>
+        <meta name="description" content="Discover Northrop's commitment to integrity, transparency, and technical excellence. Meet our leadership team and learn about our mission to drive institutional clarity." />
+      </Helmet>
 
 
       {/* Hero Section: The Founder's Mandate */}

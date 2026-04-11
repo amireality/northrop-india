@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const Institute = () => {
   useEffect(() => {
@@ -7,6 +8,10 @@ const Institute = () => {
 
   return (
     <div className="  bg-[#080808] text-white leading-[1.6] overflow-x-hidden">
+      <Helmet>
+        <title>Northrop Institute of Global Finance | Intelligence & Research</title>
+        <meta name="description" content="The Northrop Institute of Global Finance delivers research, intelligence, and thought leadership for the evolving global financial landscape." />
+      </Helmet>
 
 
 
