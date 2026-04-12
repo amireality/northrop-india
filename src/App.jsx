@@ -32,8 +32,8 @@ import FinancialStatementPreparation from './pages/services/FinancialStatementPr
 import IfrsIndAsImplementation from './pages/services/IfrsIndAsImplementation'
 import AgreedUponProcedures from './pages/services/AgreedUponProcedures'
 import IndAsApplicability from './pages/services/IndAsApplicability'
-import InternalAudit from './pages/services/InternalAudit'
-import InternalAuditTransformation from './pages/services/InternalAuditTransformation'
+import InternalAudit from './pages/riskmanagment/InternalAudit'
+import InternalAuditTransformation from './pages/riskmanagment/InternalAuditTransformation'
 import EnterpriseRiskManagement from './pages/services/EnterpriseRiskManagement'
 import RiskControlRegisters from './pages/services/RiskControlRegisters'
 import IfcIcfrIndia from './pages/services/IfcIcfrIndia'
@@ -57,11 +57,8 @@ import AssetTracingInvestigation from './pages/services/AssetTracingInvestigatio
 import AmlKycSanctions from './pages/services/AmlKycSanctions'
 import DigitalForensic from './pages/services/DigitalForensic'
 
-import ProgramManagementConsulting from './pages/services/ProgramManagementConsulting'
-import CsrConsulting from './pages/services/CsrConsulting'
-import ResearchDocumentation from './pages/services/ResearchDocumentation'
-import GrantManagementUtilisation from './pages/services/GrantManagementUtilisation'
-import GrcControlCompliance from './pages/services/GrcControlCompliance'
+
+
 import Audit from './pages/services/Audit'
 import Assurance from './pages/services/Assurance'
 import BusinessProcessSolutions from './pages/services/BusinessProcessSolutions'
@@ -126,6 +123,12 @@ import TaxControversy from './pages/taxaction/TaxControversy'
 
 import BusinessStrategyConsulting from './pages/grandfunding/BusinessStrategyConsulting'
 import ImpactAssessmentPage from './pages/grandfunding/ImpactAssessment'
+import ResearchDocumentationPage from './pages/grandfunding/ResearchDocumentation'
+import GrantManagementUtilisationPage from './pages/grandfunding/GrantManagementUtilisation'
+import ProgramManagementConsulting from './pages/grandfunding/ProgramManagementConsulting'
+import CsrConsulting from './pages/grandfunding/CsrConsulting'
+import GrcControlCompliance from './pages/grandfunding/GrcControlCompliance'
+
 
 function App() {
   return (
@@ -164,8 +167,8 @@ function App() {
           <Route path="/services/ifrs-ind-as-implementation" element={<IfrsIndAsImplementation />} />
           <Route path="/services/agreed-upon-procedures" element={<AgreedUponProcedures />} />
           <Route path="/services/ind-as-applicability" element={<IndAsApplicability />} />
-          <Route path="/services/internal-audit" element={<InternalAudit />} />
-          <Route path="/services/internal-audit-transformation" element={<InternalAuditTransformation />} />
+        
+         
           <Route path="/services/enterprise-risk-management" element={<EnterpriseRiskManagement />} />
           <Route path="/services/risk-control-registers" element={<RiskControlRegisters />} />
           <Route path="/services/ifc-icfr-india" element={<IfcIcfrIndia />} />
@@ -188,13 +191,19 @@ function App() {
           <Route path="/services/asset-tracing-investigation" element={<AssetTracingInvestigation />} />
           <Route path="/services/aml-kyc-sanctions" element={<AmlKycSanctions />} />
           <Route path="/services/digital-forensic" element={<DigitalForensic />} />
-         
-          
-          <Route path="/services/program-management-consulting" element={<ProgramManagementConsulting />} />
-          <Route path="/services/csr-consulting" element={<CsrConsulting />} />
-          <Route path="/services/research-documentation" element={<ResearchDocumentation />} />
-          <Route path="/services/grant-management-utilisation" element={<GrantManagementUtilisation />} />
-          <Route path="/services/grc-control-compliance" element={<GrcControlCompliance />} />
+
+
+
+
+            <Route path="/services/internal-audit" element={<InternalAudit />} />
+
+             <Route path="/services/internal-audit-transformation" element={<InternalAuditTransformation />} />
+
+
+
+
+
+
           <Route path="/services/audit" element={<Audit />} />
           <Route path="/services/assurance" element={<Assurance />} />
           <Route path="/services/business-process-solutions" element={<BusinessProcessSolutions />} />
@@ -230,12 +239,13 @@ function App() {
 
           <Route path="/services/business-strategy-consulting" element={<BusinessStrategyConsulting />} />
           <Route path="/services/impact-assessment" element={<ImpactAssessmentPage />} />
-
-          {/* <Route path="/services/impact-assessment" element={<ImpactAssessment />} />
+          <Route path="/services/research-documentation" element={<ResearchDocumentationPage />} />
+          <Route path="/services/grant-management-utilisation" element={<GrantManagementUtilisationPage />} />
           <Route path="/services/program-management-consulting" element={<ProgramManagementConsulting />} />
           <Route path="/services/csr-consulting" element={<CsrConsulting />} />
-          <Route path="/services/research-documentation" element={<ResearchDocumentation />} />
-          <Route path="/services/grant-management-utilisation" element={<GrantManagementUtilisation />} /> */}
+          
+          <Route path="/services/grc-control-compliance" element={<GrcControlCompliance />} />
+
 
 
           {/* Industry Sub-routes */}
