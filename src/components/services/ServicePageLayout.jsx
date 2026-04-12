@@ -52,15 +52,15 @@ const ServicePageLayout = ({
 
         {/* SERVICE HEADER */}
         <div className="flex items-center gap-[14px] mb-[20px]">
-          <span className="font-serif text-[13.6px] font-semibold text-slate-400">{svcNum}</span>
+          <span className=" text-[13.6px] font-semibold text-slate-400">{svcNum}</span>
           <span className="text-[10.7px] font-bold tracking-[0.18em] uppercase text-blue-600 bg-blue-50 px-3 py-1">{svcTag}</span>
         </div>
 
-        <h2 className="font-serif text-[clamp(1.9rem,3vw,2.8rem)] font-bold leading-[1.1] text-[#111a22] max-w-[760px] mb-[22px]">
+        <h2 className=" text-[clamp(1.9rem,3vw,2.8rem)] font-bold leading-[1.1] text-[#111a22] max-w-[760px] mb-[22px]">
           {svcH2}
         </h2>
 
-        <p className="font-serif text-[19.2px] italic font-medium text-slate-700 leading-[1.65] max-w-[660px] mb-[48px] pl-5 border-l-[3px] border-blue-600">
+        <p className=" text-[19.2px] italic font-medium text-slate-700 leading-[1.65] max-w-[660px] mb-[48px] pl-5 border-l-[3px] border-blue-600">
           {hookText}
         </p>
 
@@ -89,7 +89,7 @@ const ServicePageLayout = ({
         <div className="grid grid-cols-1 md:grid-cols-3 max-w-[1000px] mb-[44px] border border-slate-200">
           {delGrid.map((card, idx) => (
             <div key={idx} className="p-[40px_30px] bg-white border-r border-b border-slate-200 relative border-l-[3px] border-l-blue-600">
-              <h4 className="text-[16px] font-bold text-[#111a22] mb-[15px] leading-tight font-serif">{card.title}</h4>
+              <h4 className="text-[16px] font-bold text-[#111a22] mb-[15px] leading-tight ">{card.title}</h4>
               <p className="text-[14.5px] text-slate-500 leading-relaxed font-light">{card.desc}</p>
             </div>
           ))}

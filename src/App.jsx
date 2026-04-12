@@ -56,8 +56,7 @@ import AntiBriberyCorruption from './pages/services/AntiBriberyCorruption'
 import AssetTracingInvestigation from './pages/services/AssetTracingInvestigation'
 import AmlKycSanctions from './pages/services/AmlKycSanctions'
 import DigitalForensic from './pages/services/DigitalForensic'
-import BusinessStrategyConsulting from './pages/services/BusinessStrategyConsulting'
-import ImpactAssessment from './pages/services/ImpactAssessment'
+
 import ProgramManagementConsulting from './pages/services/ProgramManagementConsulting'
 import CsrConsulting from './pages/services/CsrConsulting'
 import ResearchDocumentation from './pages/services/ResearchDocumentation'
@@ -118,6 +117,15 @@ import Restructuring from './pages/Transaction Advisory/Restructuring'
 import ValuationModling from './pages/Transaction Advisory/ValuationModling'
 import PostMergeintregetion from './pages/Transaction Advisory/PostMergeintregetion'
 import CapitalStructuring from './pages/Transaction Advisory/Capital-Structuring'
+import CorporateTax from './pages/taxaction/CorporateTax'
+import InternationalTax from './pages/taxaction/InternationalTax'
+import TransferPricing from './pages/taxaction/TransferPricing'
+import IndirectTax from './pages/taxaction/IndirectTax'
+import PersonalTax from './pages/taxaction/PersonalTax'
+import TaxControversy from './pages/taxaction/TaxControversy'
+
+import BusinessStrategyConsulting from './pages/grandfunding/BusinessStrategyConsulting'
+import ImpactAssessmentPage from './pages/grandfunding/ImpactAssessment'
 
 function App() {
   return (
@@ -180,8 +188,8 @@ function App() {
           <Route path="/services/asset-tracing-investigation" element={<AssetTracingInvestigation />} />
           <Route path="/services/aml-kyc-sanctions" element={<AmlKycSanctions />} />
           <Route path="/services/digital-forensic" element={<DigitalForensic />} />
-          <Route path="/services/business-strategy-consulting" element={<BusinessStrategyConsulting />} />
-          <Route path="/services/impact-assessment" element={<ImpactAssessment />} />
+         
+          
           <Route path="/services/program-management-consulting" element={<ProgramManagementConsulting />} />
           <Route path="/services/csr-consulting" element={<CsrConsulting />} />
           <Route path="/services/research-documentation" element={<ResearchDocumentation />} />
@@ -205,11 +213,30 @@ function App() {
           <Route path="/services/global-employer-services" element={<GlobalEmployerServices />} />
 
 
+          <Route path="/services/corporate-tax" element={<CorporateTax />} />
+          <Route path="/services/international-tax" element={<InternationalTax />} />
+          <Route path="/services/transfer-pricing" element={<TransferPricing />} />
+          <Route path="/services/indirect-tax" element={<IndirectTax />} />
+          <Route path="/services/personal-tax" element={<PersonalTax />} />
+          <Route path="/services/tax-controversy" element={<TaxControversy />} />
+
+
           <Route path="/services/restructuring" element={<Restructuring />} />
           <Route path="/services/m-a-advisory" element={<MaAdvisory />} />
           <Route path="/services/valuation" element={<ValuationModling />} />
           <Route path="/services/post-merger-integration" element={<PostMergeintregetion />} />
           <Route path="/services/capital-structuring" element={<CapitalStructuring />} />
+
+
+          <Route path="/services/business-strategy-consulting" element={<BusinessStrategyConsulting />} />
+          <Route path="/services/impact-assessment" element={<ImpactAssessmentPage />} />
+
+          {/* <Route path="/services/impact-assessment" element={<ImpactAssessment />} />
+          <Route path="/services/program-management-consulting" element={<ProgramManagementConsulting />} />
+          <Route path="/services/csr-consulting" element={<CsrConsulting />} />
+          <Route path="/services/research-documentation" element={<ResearchDocumentation />} />
+          <Route path="/services/grant-management-utilisation" element={<GrantManagementUtilisation />} /> */}
+
 
           {/* Industry Sub-routes */}
           {/* <Route path="/industry/consumer" element={<Consumer />} />
