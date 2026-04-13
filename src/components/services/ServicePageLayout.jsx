@@ -66,19 +66,27 @@ const ServicePageLayout = ({
         </p>
 
         {/* PAIN BLOCK */}
-        <div className="mb-[52px] max-w-[820px] border border-red-900/15 border-l-4 border-l-red-600 bg-red-50/50 p-[26px_30px]">
-          <div className="text-[10.7px] font-bold tracking-[0.16em] uppercase text-red-600 mb-[16px] flex items-center gap-2">
-            <span className="w-1.5 h-1.5 bg-red-600 rounded-full inline-block"></span>
-            {painLabel}
+        <div className="mb-[60px] max-w-[1240px]">
+          <div className="flex items-center gap-[10px] mb-[30px]">
+            <div className="text-[12px] font-bold tracking-[0.16em] uppercase text-red-600 flex items-center gap-2">
+              <span className="w-1.5 h-1.5 bg-red-600 rounded-full inline-block"></span>
+              {painLabel}
+            </div>
+            <div className="flex-1 max-w-[120px] h-[1px] bg-red-200"></div>
           </div>
-          <ul className="list-none m-0 p-0">
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {painList.map((item, idx) => (
-              <li key={idx} className="grid grid-cols-[26px_1fr] py-3 border-b last:border-b-0 border-red-900/10 text-[14.7px] text-slate-800 leading-[1.65]">
-                <span className="text-red-600 font-bold mt-0.5">→</span>
-                <span><strong className="font-bold">{item.label}:</strong> {item.text}</span>
-              </li>
+              <div key={idx} className="p-[30px] bg-white shadow-md hover:shadow-xl border border-slate-100 relative border-l-[3px] border-l-red-600 transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
+                <h4 className="text-[16px] font-bold text-[#111a22] mb-[12px] leading-tight flex gap-2">
+                  {item.label}
+                </h4>
+                <p className="text-[14.5px] text-slate-500 leading-relaxed font-light">
+                  {item.text}
+                </p>
+              </div>
             ))}
-          </ul>
+          </div>
         </div>
 
         {/* DELIVERABLES */}
