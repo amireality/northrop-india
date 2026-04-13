@@ -11,6 +11,7 @@ const ServicePageLayout = ({
   breadcrumbs,
   bannerTitle,
   bannerDescription,
+  bannerImage,
   primaryBtnText,
   secondaryBtnText,
   svcNum,
@@ -44,6 +45,7 @@ const ServicePageLayout = ({
         description={bannerDescription}
         primaryBtnText={primaryBtnText}
         secondaryBtnText={secondaryBtnText}
+        bgImage={bannerImage}
       />
 
       {/* MAIN CONTENT AREA */}
@@ -85,16 +87,12 @@ const ServicePageLayout = ({
           <div className="flex-1 max-w-[120px] h-[1px] bg-blue-100"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 max-w-[1000px] mb-[44px] border border-slate-200">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1240px] mb-[44px]">
           {delGrid.map((card, idx) => (
-            <div key={idx} className="p-[40px_30px] bg-white border-r border-b border-slate-200 relative border-l-[3px] border-l-blue-600">
+            <div key={idx} className="p-[40px_30px] bg-white shadow-md hover:shadow-xl border border-slate-100 relative border-l-[3px] border-l-blue-600 transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
               <h4 className="text-[16px] font-bold text-[#111a22] mb-[15px] leading-tight ">{card.title}</h4>
               <p className="text-[14.5px] text-slate-500 leading-relaxed font-light">{card.desc}</p>
             </div>
-          ))}
-          {/* Fill empty spots for 3-column grid consistency */}
-          {delGrid.length % 3 !== 0 && Array(3 - (delGrid.length % 3)).fill(0).map((_, i) => (
-             <div key={`empty-del-${i}`} className="bg-[#dbd9d0] border-b border-slate-200 hidden md:block"></div>
           ))}
         </div>
 
@@ -113,15 +111,12 @@ const ServicePageLayout = ({
           <div className="flex-1 max-w-[120px] h-[1px] bg-blue-100"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 max-w-[1000px] mb-[80px] border border-slate-200">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1240px] mb-[80px]">
           {whoGrid.map((card, idx) => (
-            <div key={idx} className="p-[40px_30px] bg-white border-r border-b border-slate-200 relative border-l-[3px] border-l-[#111a22]">
+            <div key={idx} className="p-[40px_30px] bg-white shadow-md hover:shadow-xl border border-slate-100 relative border-l-[3px] border-l-[#111a22] transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
               <h4 className="text-[16px] font-bold text-[#111a22] mb-[15px] leading-tight">{card.title}</h4>
               <p className="text-[14.5px] text-slate-500 leading-relaxed font-light">{card.desc}</p>
             </div>
-          ))}
-          {whoGrid.length % 3 !== 0 && Array(3 - (whoGrid.length % 3)).fill(0).map((_, i) => (
-             <div key={`empty-who-${i}`} className="bg-[#dbd9d0] border-b border-slate-200 hidden md:block"></div>
           ))}
         </div>
 

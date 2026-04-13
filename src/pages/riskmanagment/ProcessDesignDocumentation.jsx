@@ -11,6 +11,7 @@ const ProcessDesignDocumentation = () => {
     ],
     bannerTitle: <>Your business runs on <br /> processes<br /> that exist only in<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">one person's head.</span></>,
     bannerDescription: "When processes are undocumented, key-person risk is total. When a critical employee leaves, gets sick, or is found to be committing fraud — there is no record of what they were doing, how they were doing it, or how to continue without them.",
+    bannerImage: "/contactusimg.avif",
     primaryBtnText: "Document and Design Your Processes",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "RM — 06 /",

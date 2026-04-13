@@ -151,10 +151,7 @@ const AccountingAdvisoryServicesPage = () => {
         description="Every engagement begins with a confidential technical discussion. No obligation — just clarity on where your accounting exposure sits and how to address it."
       />
 
-      <footer className="py-[30px] px-[6vw] border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 bg-white">
-        <div className="text-[11.7px] font-bold tracking-[0.1em] uppercase text-[#111a22]">Northrop Management Private Limited</div>
-        <div className="text-[11.7px] text-slate-400">CIN: U70200DC2026PTC469133 · Connaught Place, New Delhi · © 2026</div>
-      </footer>
+    
 
     </div>
   );

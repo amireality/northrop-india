@@ -146,7 +146,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <div className="text-[11px] font-[700] tracking-[1.5px] uppercase text-gray-400 mb-[4px]">Regional Phone</div>
-                  <div className="text-[18px] font-[400] text-[#001f3f]">+91 93155 18112</div>
+                  <div className="text-[18px] font-[400] text-[#001f3f]"> +91 9289925657</div>
                 </div>
               </div>
 

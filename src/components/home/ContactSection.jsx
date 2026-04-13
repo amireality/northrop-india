@@ -31,8 +31,8 @@ export default function ContactSection() {
     <section id="contact" className="min-h-screen grid grid-cols-1 lg:grid-cols-2 bg-[#141414]">
       {/* Left side: Image & Quote */}
       <div className="hidden lg:block relative overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center grayscale brightness-[0.35] saturate-[0.5]" 
+        <div
+          className="absolute inset-0 bg-cover bg-center grayscale brightness-[0.35] saturate-[0.5]"
           style={{ backgroundImage: "url('/homepageimg/photo-lastsection.jpg')", }}
         ></div>
         <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#141414]"></div>
@@ -55,16 +55,16 @@ export default function ContactSection() {
           The right engagement<br />starts with one<br /><em className="text-[#D9AF58] italic">trusted conversation.</em>
         </h2>
         <p ref={addToRefs} className="text-[14px] font-light leading-relaxed text-white/35 max-w-[450px] mb-12 opacity-0 translate-y-10 transition-all duration-700 delay-200">
-        We do not pitch before we understand your situation. Every engagement begins with a direct, confidential conversation — no junior intermediaries. Real advisory, from day one.
+          We do not pitch before we understand your situation. Every engagement begins with a direct, confidential conversation — no junior intermediaries. Real advisory, from day one.
         </p>
 
         <div className="space-y-2 mb-16 max-w-[500px]">
           {[
             { label: "Email", value: "Business@NorthropIndia.com", href: "mailto:Business@NorthropIndia.com" },
-            { label: "Phone", value: "+91 93155 18112", href: "tel:+919315518112" },
+            { label: "Phone", value: " +91 9289925657", href: "tel:+919315518112" },
             { label: "Office", value: "Connaught Place, New Delhi — 110001" }
           ].map((item, i) => (
-            <div 
+            <div
               key={item.label}
               ref={addToRefs}
               className={`flex py-6 border-b border-white/10 opacity-0 translate-y-10 transition-all duration-700 delay-${300 + i * 100}`}

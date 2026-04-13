@@ -26,12 +26,12 @@ import ForensicInvestigations from './pages/services/ForensicInvestigations'
 import Taxation from './pages/services/Taxation'
 import TransactionAdvisory from './pages/services/TransactionAdvisory'
 import GrantFunding from './pages/services/GrantFunding'
-import RiskAuditAssurance from './pages/services/RiskAuditAssurance'
-import AccountingAdvisoryServices from './pages/services/AccountingAdvisoryServices'
-import FinancialStatementPreparation from './pages/services/FinancialStatementPreparation'
-import IfrsIndAsImplementation from './pages/services/IfrsIndAsImplementation'
-import AgreedUponProcedures from './pages/services/AgreedUponProcedures'
-import IndAsApplicability from './pages/services/IndAsApplicability'
+import RiskAuditAssurance from './pages/financialreport/RiskAuditAssurance'
+import AccountingAdvisoryServices from './pages/financialreport/AccountingAdvisoryServices'
+import FinancialStatementPreparation from './pages/financialreport/FinancialStatementPreparation'
+import IfrsIndAsImplementation from './pages/financialreport/IfrsIndAsImplementation'
+import AgreedUponProcedures from './pages/financialreport/AgreedUponProcedures'
+import IndAsApplicability from './pages/financialreport/IndAsApplicability'
 import InternalAudit from './pages/riskmanagment/InternalAudit'
 import InternalAuditTransformation from './pages/riskmanagment/InternalAuditTransformation'
 import EnterpriseRiskManagement from './pages/riskmanagment/EnterpriseRiskManagement'
@@ -48,14 +48,14 @@ import MissingDocsReport from './pages/services/MissingDocsReport'
 import MgmtAccountScrutiny from './pages/services/MgmtAccountScrutiny'
 import RelatedPartyReview from './pages/services/RelatedPartyReview'
 import QualityOfEarnings from './pages/services/QualityOfEarnings'
-import ForensicAccountingFraud from './pages/services/ForensicAccountingFraud'
-import LawEnforcementSupport from './pages/services/LawEnforcementSupport'
-import ForensicAuditRbi from './pages/services/ForensicAuditRbi'
-import TransactionAuditIbc from './pages/services/TransactionAuditIbc'
-import AntiBriberyCorruption from './pages/services/AntiBriberyCorruption'
-import AssetTracingInvestigation from './pages/services/AssetTracingInvestigation'
-import AmlKycSanctions from './pages/services/AmlKycSanctions'
-import DigitalForensic from './pages/services/DigitalForensic'
+import ForensicAccountingFraud from './pages/forencisinvestigation/ForensicAccountingFraud'
+import LawEnforcementSupport from './pages/forencisinvestigation/LawEnforcementSupport'
+import ForensicAuditRbi from './pages/forencisinvestigation/ForensicAuditRbi'
+import TransactionAuditIbc from './pages/forencisinvestigation/TransactionAuditIbc'
+import AntiBriberyCorruption from './pages/forencisinvestigation/AntiBriberyCorruption'
+import AssetTracingInvestigation from './pages/forencisinvestigation/AssetTracingInvestigation'
+import AmlKycSanctions from './pages/forencisinvestigation/AmlKycSanctions'
+import DigitalForensic from './pages/forencisinvestigation/DigitalForensic'
 
 
 
@@ -76,37 +76,11 @@ import EnterpriseTechnologyPerformance from './pages/services/EnterpriseTechnolo
 import GenerativeAI from './pages/services/GenerativeAI'
 import GlobalEmployerServices from './pages/services/GlobalEmployerServices'
 
-// Industry Imports
-import Consumer from './pages/industry/Consumer'
-import EnergyResourcesIndustrials from './pages/industry/EnergyResourcesIndustrials'
-import FinancialServices from './pages/industry/FinancialServices'
-import GovernmentPublicServices from './pages/industry/GovernmentPublicServices'
-import LifeSciencesHealthCare from './pages/industry/LifeSciencesHealthCare'
-import TechnologyMediaTelecommunications from './pages/industry/TechnologyMediaTelecommunications'
-import AerospaceDefense from './pages/industry/AerospaceDefense'
-import Automotive from './pages/industry/Automotive'
-import RealEstate from './pages/industry/RealEstate'
-import Logistics from './pages/industry/Logistics'
-import Retail from './pages/industry/Retail'
 
-// Alliances Imports
-import SAP from './pages/alliances/SAP'
-import Oracle from './pages/alliances/Oracle'
-import Microsoft from './pages/alliances/Microsoft'
-import AWS from './pages/alliances/AWS'
-import GoogleCloud from './pages/alliances/GoogleCloud'
-import Salesforce from './pages/alliances/Salesforce'
-import ServiceNow from './pages/alliances/ServiceNow'
-import Workday from './pages/alliances/Workday'
-import NVIDIA from './pages/alliances/NVIDIA'
-import Adobe from './pages/alliances/Adobe'
 
-// Case Studies Imports
-import SuccessStories from './pages/case-studies/SuccessStories'
-import Testimonials from './pages/case-studies/Testimonials'
-import Resources from './pages/case-studies/Resources'
-import ByIndustry from './pages/case-studies/ByIndustry'
-import ByService from './pages/case-studies/ByService'
+
+
+
 import Foundation from './pages/Foundation'
 import About from './components/home/About'
 import MaAdvisory from './pages/Transaction Advisory/MaAdvisory'
@@ -157,12 +131,15 @@ function App() {
 
           {/* Services Sub-routes */}
           {/* <Route path="/services/financial-reporting" element={<FinancialReporting />} /> */}
+          
           <Route path="/services/risk-management" element={<RiskManagement />} />
           <Route path="/services/due-diligence" element={<DueDiligence />} />
           <Route path="/services/forensic-investigations" element={<ForensicInvestigations />} />
           <Route path="/services/taxation" element={<Taxation />} />
           <Route path="/services/transaction-advisory" element={<TransactionAdvisory />} />
           <Route path="/services/grant-funding" element={<GrantFunding />} />
+
+
           <Route path="/services/risk-audit-assurance" element={<RiskAuditAssurance />} />
           <Route path="/services/accounting-advisory-services" element={<AccountingAdvisoryServices />} />
           <Route path="/services/financial-statement-preparation" element={<FinancialStatementPreparation />} />
@@ -185,6 +162,8 @@ function App() {
           <Route path="/services/mgmt-account-scrutiny" element={<MgmtAccountScrutiny />} />
           <Route path="/services/related-party-review" element={<RelatedPartyReview />} />
           <Route path="/services/quality-of-earnings" element={<QualityOfEarnings />} />
+
+
           <Route path="/services/forensic-accounting-fraud" element={<ForensicAccountingFraud />} />
           <Route path="/services/law-enforcement-support" element={<LawEnforcementSupport />} />
           <Route path="/services/forensic-audit-rbi" element={<ForensicAuditRbi />} />
@@ -253,39 +232,6 @@ function App() {
 
 
 
-          {/* Industry Sub-routes */}
-          {/* <Route path="/industry/consumer" element={<Consumer />} />
-          <Route path="/industry/energy-resources-industrials" element={<EnergyResourcesIndustrials />} />
-          <Route path="/industry/financial-services" element={<FinancialServices />} />
-          <Route path="/industry/government-public-services" element={<GovernmentPublicServices />} />
-          <Route path="/industry/life-sciences-health-care" element={<LifeSciencesHealthCare />} />
-          <Route path="/industry/technology-media-telecommunications" element={<TechnologyMediaTelecommunications />} />
-          <Route path="/industry/aerospace-defense" element={<AerospaceDefense />} />
-          <Route path="/industry/automotive" element={<Automotive />} />
-          <Route path="/industry/real-estate" element={<RealEstate />} />
-          <Route path="/industry/logistics" element={<Logistics />} />
-          <Route path="/industry/retail" element={<Retail />} /> */}
-
-          {/* Alliances Sub-routes */}
-          {/* <Route path="/alliances/sap" element={<SAP />} />
-          <Route path="/alliances/oracle" element={<Oracle />} />
-          <Route path="/alliances/microsoft" element={<Microsoft />} />
-          <Route path="/alliances/aws" element={<AWS />} />
-          <Route path="/alliances/google-cloud" element={<GoogleCloud />} />
-          <Route path="/alliances/salesforce" element={<Salesforce />} />
-          <Route path="/alliances/servicenow" element={<ServiceNow />} />
-          <Route path="/alliances/workday" element={<Workday />} />
-          <Route path="/alliances/nvidia" element={<NVIDIA />} />
-          <Route path="/alliances/adobe" element={<Adobe />} /> */}
-
-          {/* Case Studies Sub-routes */}
-          {/* 
-          <Route path="/case-studies/success-stories" element={<SuccessStories />} />
-          <Route path="/case-studies/testimonials" element={<Testimonials />} />
-          <Route path="/case-studies/resources" element={<Resources />} />
-          <Route path="/case-studies/by-industry" element={<ByIndustry />} />
-          <Route path="/case-studies/by-service" element={<ByService />} /> 
-          */}
 
           <Route path="*" element={<NotFound />} />
         </Routes>

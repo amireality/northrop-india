@@ -24,6 +24,7 @@ const RiskAuditAssurancePage = () => {
         breadcrumbs={breadcrumbs}
         title={<>Your auditor signs off.<br />Your board sleeps well.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Your risk is still there.</span></>}
         description="A statutory audit confirms compliance. It does not tell you where your business is bleeding, where controls are failing, or what will surface in the next RBI or regulatory inspection. Risk Audit and Assurance does."
+        bgImage="/contactusimg.avif"
         primaryBtnText="Request an Assurance Review"
         secondaryBtnText="What's at stake"
       />
@@ -73,7 +74,7 @@ const RiskAuditAssurancePage = () => {
           <div className="flex-1 max-w-[120px] h-[1px] bg-blue-100"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 max-w-[1000px] mb-[44px] border border-slate-200">
+        <div className="grid grid-cols-1 md:grid-cols-4  mb-[44px] border border-slate-200">
           {[
             { title: "Risk-Based Internal Audit", desc: "Audit scope built around your highest-risk areas — not a generic checklist. Every finding is ranked by financial impact and probability." },
             { title: "Control Framework Design", desc: "Identifying where controls are missing, weak, or bypassed — and designing replacements that are operationally practical, not just theoretically sound." },
@@ -85,9 +86,7 @@ const RiskAuditAssurancePage = () => {
               <p className="text-[14.5px] text-slate-500 leading-relaxed font-light">{card.desc}</p>
             </div>
           ))}
-          {/* Empty placeholders to match the image's grid structure */}
-          <div className="bg-[#dbd9d0] border-b border-slate-200 hidden md:block"></div>
-          <div className="bg-[#dbd9d0] border-b border-slate-200 hidden md:block"></div>
+    
         </div>
 
         {/* OUTCOMES */}
@@ -112,7 +111,7 @@ const RiskAuditAssurancePage = () => {
           <div className="flex-1 max-w-[120px] h-[1px] bg-blue-100"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 max-w-[1000px] mb-[80px] border border-slate-200">
+        <div className="grid grid-cols-1 md:grid-cols-4  mb-[80px] border border-slate-200">
           {[
             { title: "Boards & Audit Committees", desc: "Seeking independent assurance beyond the statutory auditor — a second opinion that protects board members personally." },
             { title: "CFOs & Finance Heads", desc: "Who want to close control gaps before they are found by auditors, regulators, or a lender's diligence team." },
@@ -124,9 +123,7 @@ const RiskAuditAssurancePage = () => {
               <p className="text-[14.5px] text-slate-500 leading-relaxed font-light">{card.desc}</p>
             </div>
           ))}
-          {/* Empty placeholders to match the image's grid structure */}
-          <div className="bg-[#dbd9d0] border-b border-slate-200 hidden md:block"></div>
-          <div className="bg-[#dbd9d0] border-b border-slate-200 hidden md:block"></div>
+          
         </div>
 
         {/* CTA */}

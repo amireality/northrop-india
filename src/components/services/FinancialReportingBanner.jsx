@@ -8,48 +8,58 @@ const FinancialReportingBanner = ({
   primaryBtnText = "Get Started", 
   secondaryBtnText = "Learn More",
   onPrimaryClick,
-  onSecondaryClick
+  onSecondaryClick,
+  bgImage = "/contactusimg.avif"
 }) => {
   return (
-    <section className="relative bg-[#111a22] text-white flex items-center pt-14 pb-10 px-6 md:px-20 overflow-hidden">
-      {/* Background Accents */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-[20%] -right-[10%] w-[800px] h-[800px] rounded-full bg-gradient-to-br from-blue-600/20 to-teal-500/10 blur-3xl opacity-50" />
-        <div className="absolute bottom-[10%] -left-[10%] w-[600px] h-[600px] rounded-full bg-gradient-to-tr from-slate-700/40 to-transparent blur-3xl opacity-50" />
+    <section className="relative bg-[#0a0f14] text-white flex items-center pt-24 pb-16 px-6 md:px-20 overflow-hidden min-h-[60vh]">
+      {/* Background Image with Overlay */}
+      <div className="absolute inset-0 z-0">
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${bgImage})` }}
+        />
+        <div className="absolute inset-0 bg-black/70 bg-gradient-to-r from-black/80 to-transparent" />
+      </div>
+
+      {/* Background Accents (Kept for depth) */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none z-1">
+        <div className="absolute -top-[20%] -right-[10%] w-[800px] h-[800px] rounded-full bg-gradient-to-br from-blue-600/10 to-teal-500/5 blur-3xl opacity-30" />
       </div>
 
       <div className="relative z-10 mx-auto w-full">
         {/* Breadcrumbs */}
-        <nav className="flex items-center space-x-2 text-[12px] text-slate-400 mb-8 uppercase tracking-widest font-medium">
+        <nav className="flex items-center space-x-2 text-[11px] text-blue-400 mb-8 uppercase tracking-[0.2em] font-bold">
           {breadcrumbs.map((crumb, index) => (
             <React.Fragment key={index}>
               {crumb.link ? (
-                <a href={crumb.link} className="hover:text-blue-400 transition-colors duration-300">{crumb.name}</a>
+                <a href={crumb.link} className="hover:text-white transition-colors duration-300">{crumb.name}</a>
               ) : (
-                <span className="text-slate-200">{crumb.name}</span>
+                <span className="text-slate-400">{crumb.name}</span>
               )}
-              {index < breadcrumbs.length - 1 && <ChevronRight size={12} className="opacity-50" />}
+              {index < breadcrumbs.length - 1 && <ChevronRight size={12} className="opacity-40 text-white" />}
             </React.Fragment>
           ))}
         </nav>
 
-        <h1 className="text-[40px] md:text-[60px] font-bold mb-6 tracking-tight leading-[1.1]">
+        <h1 className="text-[42px] md:text-[64px] font-bold mb-6 tracking-tight leading-[1.05] max-w-4xl">
           {title}
         </h1>
-        <p className="text-[15px] md:text-[17px] font-light text-slate-300 leading-relaxed max-w-3xl mb-10">
+        <p className="text-[16px] md:text-[19px] font-light text-slate-200 leading-relaxed max-w-2xl mb-12 opacity-90">
           {description}
         </p>
 
         <div className="flex flex-wrap gap-5">
           <button 
             onClick={onPrimaryClick}
-            className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-full font-bold tracking-wide transition-all shadow-xl hover:shadow-blue-500/25 flex items-center gap-2 text-[13px] uppercase"
+            className="bg-blue-600 hover:bg-blue-500 text-white px-10 py-4 rounded-sm font-bold tracking-widest transition-all shadow-2xl hover:shadow-blue-500/20 flex items-center gap-2 text-[12px] uppercase"
           >
             {primaryBtnText}
+            <ArrowRight size={16} />
           </button>
           <button 
             onClick={onSecondaryClick}
-            className="bg-white/5 hover:bg-white/10 border border-white/20 text-white px-8 py-4 rounded-full font-bold tracking-wide transition-all backdrop-blur-sm text-[13px] uppercase"
+            className="bg-white/5 hover:bg-white/10 border border-white/20 text-white px-10 py-4 rounded-sm font-bold tracking-widest transition-all backdrop-blur-md text-[12px] uppercase"
           >
             {secondaryBtnText}
           </button>
