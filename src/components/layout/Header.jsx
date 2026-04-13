@@ -97,7 +97,13 @@ export default function Header() {
             <Search size={20} strokeWidth={1.5} /><span className="hidden lg:inline">Search</span>
           </button> */}
           <div className="hidden md:flex items-center gap-5">
-            <Mail size={20} strokeWidth={1.5} className="cursor-pointer hover:text-[#001f3f]" />
+            <a href="mailto:business@northropindia.com">
+              <Mail
+                size={20}
+                strokeWidth={1.5}
+                className="cursor-pointer hover:text-[#001f3f]"
+              />
+            </a>
           </div>
           <button className="md:hidden flex items-center text-gray-800" onClick={() => setIsMobileMenuOpen(true)}>
             <Menu size={28} />

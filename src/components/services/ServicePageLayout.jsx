@@ -107,7 +107,7 @@ const ServicePageLayout = ({
         {/* OUTCOMES */}
         <div className="flex flex-wrap gap-[9px] mb-[40px] max-w-[820px]">
           {outcomes.map((outcome, idx) => (
-            <span key={idx} className="text-[11.2px] font-semibold tracking-wide text-blue-700 bg-blue-50 border border-blue-100 px-[15px] py-[7px] flex items-center gap-1.5">
+            <span key={idx} className="text-[11.2px] font-semibold tracking-wide text-blue-700 bg-blue-50 border border-blue-100 px-[15px] py-[7px] flex items-center gap-1.5 transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:bg-blue-100 cursor-pointer">
               <CheckCircle size={12} className="text-blue-600" /> {outcome}
             </span>
           ))}
@@ -129,17 +129,19 @@ const ServicePageLayout = ({
         </div>
 
         {/* CTA */}
-        <div className="flex flex-wrap items-center gap-5 mb-5">
-          <button className="bg-[#111a22] hover:bg-blue-700 text-white text-[11.7px] font-bold tracking-[0.1em] uppercase px-7 py-[13px] transition-all">
-            {ctaPrimaryText}
-          </button>
-          <button className="border-[1.5px] border-slate-200 text-[#111a22] hover:border-blue-600 hover:text-blue-600 text-[11.7px] font-semibold tracking-[0.07em] uppercase px-[22px] py-[12px] transition-all">
-            {ctaSecondaryText}
-          </button>
+        <div className="flex flex-col items-center mt-10 mb-8">
+          <div className="flex flex-wrap justify-center gap-5 mb-5">
+            <button className="bg-[#111a22] hover:bg-blue-700 text-white text-[11.7px] font-bold tracking-[0.1em] uppercase px-7 py-[13px] transition-all">
+              {ctaPrimaryText}
+            </button>
+            <button className="border-[1.5px] border-slate-200 text-[#111a22] hover:border-blue-600 hover:text-blue-600 text-[11.7px] font-semibold tracking-[0.07em] uppercase px-[22px] py-[12px] transition-all">
+              {ctaSecondaryText}
+            </button>
+          </div>
+          <p className="mt-[18px] text-[12.6px] italic text-slate-500 leading-relaxed max-w-[560px] pl-[14px] border-l-2 border-slate-200 text-left">
+            {trustNote}
+          </p>
         </div>
-        <p className="mt-[18px] text-[12.6px] italic text-slate-500 leading-relaxed max-w-[560px] pl-[14px] border-l-2 border-slate-200">
-          {trustNote}
-        </p>
 
       </div>
 

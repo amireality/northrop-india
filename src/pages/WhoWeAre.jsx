@@ -57,7 +57,7 @@ export default function WhoWeAre() {
 
 
       {/* Hero Section: The Founder's Mandate */}
-      <section className="max-w-[1440px] mx-auto px-[32px] md:px-[96px] pt-[80px] pb-[160px]">
+      <section className="max-w-[1440px] mx-auto px-[32px] md:px-[40px] pt-[40px] pb-[10px]">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-[40px]">
           <div className="col-span-1 lg:col-span-7 flex flex-col justify-center order-2 lg:order-1 mt-[64px] lg:mt-0">
             <div className="max-w-[576px]">
@@ -85,14 +85,13 @@ export default function WhoWeAre() {
             </div>
           </div>
           <div className="col-span-1 lg:col-span-5 order-1 lg:order-2">
-            <div className="relative aspect-[3/4] overflow-hidden bg-[#e7eeff]">
+            <div className="relative aspect-[3/4] overflow-hidden">
               <img
                 alt="Portrait of Ashish Chaudhary"
-                className="w-full h-full object-cover grayscale contrast-110 brightness-90"
+                className="w-full h-full object-contain"
                 src="/whoweare/unnamed.jpg"
               />
-              <div className="absolute inset-0 ring-[1px] ring-inset ring-black/5"></div>
-              <div class="absolute bottom-[-40px] right-[-40px] w-[160px] h-[160px] bg-[#C4973B]/10 -z-10"></div>
+              
             </div>
             <div className="mt-[32px] text-right">
               <p className="text-[10px] tracking-[0.3em] uppercase text-[#43474e]/60">Forensic Stewardship / Strategic Foresight</p>
@@ -102,8 +101,8 @@ export default function WhoWeAre() {
       </section>
 
       {/* Sovereign Values Section */}
-      <section className="bg-[#001f3f] py-[128px] text-white">
-        <div className="max-w-[1440px] mx-auto px-[32px] md:px-[96px]">
+      <section className="bg-[#001f3f] py-[28px] text-white">
+        <div className="max-w-[1440px] mx-auto px-[32px] md:px-[40px]">
           <div className="mb-[80px]">
             <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[12px] block">Foundation of Trust</span>
             <h2 className="font-playfair text-[36px] md:text-[48px] tracking-[0px]">Sovereign Values</h2>
@@ -121,8 +120,8 @@ export default function WhoWeAre() {
       </section>
 
       {/* Vision & Mission Section */}
-      <section className="py-[128px] bg-white">
-        <div className="max-w-[1440px] mx-auto px-[32px] md:px-[96px]">
+      <section className="py-[28px] bg-white">
+        <div className="max-w-[1440px] mx-auto px-[12px] md:px-[40px]">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-[64px] items-center">
             <div className="lg:col-span-5">
               <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[16px] block">Institutional Horizon</span>
@@ -151,8 +150,8 @@ export default function WhoWeAre() {
       </section>
 
       {/* Global Influence Section */}
-      <section className="py-[128px] border-y border-gray-200 bg-white">
-        <div className="max-w-[1440px] mx-auto px-[32px] md:px-[96px] text-center">
+      <section className="py-[28px] border-y border-gray-200 bg-white">
+        <div className="max-w-[1440px] mx-auto px-[32px] md:px-[40px] text-center">
           <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[16px] block">International Standards</span>
           <h2 className="font-playfair text-[36px] md:text-[48px] text-[#001f3f] mb-[48px] tracking-[0px]">Global Influence. Local Mastery.</h2>
           <div className="max-w-[896px] mx-auto">
@@ -175,8 +174,8 @@ export default function WhoWeAre() {
       </section>
 
       {/* Strategic Client Profile Section */}
-      <section className="py-[128px] bg-[#f0f3ff]">
-        <div className="max-w-[1440px] mx-auto px-[32px] md:px-[96px]">
+      <section className="py-[28px] bg-[#f0f3ff]">
+        <div className="max-w-[1440px] mx-auto px-[12px] md:px-[20px]">
           <div className="flex flex-col md:flex-row justify-between items-end mb-[64px]">
             <div>
               <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[12px] block">Institutional Trust</span>
@@ -200,9 +199,9 @@ export default function WhoWeAre() {
       </section>
 
       {/* Services Highlight: Eight Pillars */}
-      <section className="bg-[#f0f3ff] py-[128px] border-t border-gray-200">
-        <div className="max-w-[1440px] mx-auto px-[32px] md:px-[96px]">
-          <div className="flex flex-col md:flex-row justify-between items-baseline mb-[96px] border-b border-gray-200 pb-[48px]">
+      <section className="bg-[#f0f3ff] py-[28px] border-t border-gray-200">
+        <div className="max-w-[1440px] mx-auto px-[12px] md:px-[20px]">
+          <div className="flex flex-col md:flex-row justify-between items-baseline mb-[46px] border-b border-gray-200 pb-[48px]">
             <div className="max-w-[768px]">
               <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[12px] block">Institutional Engine</span>
               <h2 className="font-playfair text-[36px] md:text-[48px] text-[#001f3f] tracking-[0px]">The Eight Pillars of Scale.</h2>
@@ -224,9 +223,9 @@ export default function WhoWeAre() {
       </section>
 
       {/* Sovereign Impact Section */}
-      <section className="bg-[#001f3f] py-[160px] text-white overflow-hidden relative">
+      <section className="bg-[#001f3f] py-[28px] text-white overflow-hidden relative">
         <div className="absolute inset-0 sovereign-pattern opacity-10"></div>
-        <div className="max-w-[1440px] mx-auto px-[32px] md:px-[96px] relative z-10 text-center">
+        <div className="max-w-[1440px] mx-auto px-[12px] md:px-[20px] relative z-10 text-center">
           <span className="text-[#C4973B] font-playfair italic text-[20px] mb-[24px] block tracking-[0px]">Sovereign Mandate</span>
           <h2 className="font-playfair text-[48px] md:text-[84px] mb-[64px] max-w-[1024px] mx-auto leading-[0.95] tracking-tighter">
             National Resilience Through Financial Integrity.

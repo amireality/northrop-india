@@ -1,4 +1,5 @@
 import { footerLinks } from '../../data/homeContent'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -16,7 +17,7 @@ function Footer() {
            
             </div>
             <p className="text-[14px] leading-relaxed text-gray-400 font-light">
-              Providing precision knowledge and insightful solutions for global enterprises since 1995.
+              Providing precision knowledge and insightful solutions for global enterprises since 2022.
             </p>
           </div>
    {/* <span className="ml-1 h-2 w-2 rounded-full bg-[#c5a044]" /> */}
@@ -28,9 +29,9 @@ function Footer() {
                 Important Links
               </h3>
               <ul className="space-y-3 text-[14px] font-light text-gray-300">
-                {footerLinks?.important?.map((link) => (
-                  <li key={link}>
-                    <a href="#" className="transition-colors hover:text-[#c5a044]">{link}</a>
+                {footerLinks?.important?.map((item) => (
+                  <li key={item.title}>
+                    <Link to={item.link} className="transition-colors hover:text-[#c5a044]">{item.title}</Link>
                   </li>
                 ))}
               </ul>
@@ -41,9 +42,9 @@ function Footer() {
                 Support
               </h3>
               <ul className="space-y-3 text-[14px] font-light text-gray-300">
-                {footerLinks?.support?.map((link) => (
-                  <li key={link}>
-                    <a href="#" className="transition-colors hover:text-[#c5a044]">{link}</a>
+                {footerLinks?.support?.map((item) => (
+                  <li key={item.title}>
+                    <Link to={item.link} className="transition-colors hover:text-[#c5a044]">{item.title}</Link>
                   </li>
                 ))}
               </ul>

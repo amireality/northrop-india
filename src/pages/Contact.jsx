@@ -1,5 +1,4 @@
-import { useEffect } from 'react';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import emailjs from '@emailjs/browser';
 
@@ -8,12 +7,13 @@ const Contact = () => {
     window.scrollTo(0, 0);
   }, []);
 
-
-
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
+    company: "",
+    industry: "",
+    purpose: "",
     message: "",
   });
 
@@ -32,7 +32,7 @@ const Contact = () => {
     e.preventDefault();
 
     // Validation
-    if (!formData.name || !formData.email || !formData.phone || !formData.message) {
+    if (!formData.name || !formData.email || !formData.phone || !formData.company || !formData.industry || !formData.purpose) {
       alert("Please fill in all required fields.");
       return;
     }
@@ -51,6 +51,9 @@ const Contact = () => {
           name: formData.name,
           email: formData.email,
           phone: formData.phone,
+          company: formData.company,
+          industry: formData.industry,
+          purpose: formData.purpose,
           message: formData.message,
         },
         "E80We4fZTrb_w0oj5" // ✅ Your Public Key
@@ -58,15 +61,8 @@ const Contact = () => {
       .then(
         (response) => {
           console.log("Email sent successfully!", response.status, response.text);
-          alert("Message sent successfully!");
-
-          // Reset form
-          setFormData({
-            name: "",
-            email: "",
-            phone: "",
-            message: "",
-          });
+          alert("Thank you! Your enquiry has been received. Our team will reach out within 24 hours.");
+          window.location.reload();
         },
         (error) => {
           console.error("Error sending email:", error);
@@ -92,9 +88,7 @@ const Contact = () => {
           className="absolute inset-0 bg-center bg-cover bg-no-repeat"
           style={{ backgroundImage: "url('/contactusimg.avif')" }}
         ></div>
-        <div
-          className="absolute inset-0 bg-black/60"
-        ></div>
+        <div className="absolute inset-0 bg-black/60"></div>
 
         <div className="relative z-10 max-w-[900px]">
           <div className="flex items-center gap-[10px] mb-[26px]">
@@ -102,7 +96,7 @@ const Contact = () => {
             <span className="text-[11px] font-[700] tracking-[3px] uppercase text-[#C4973B]">Connect with us</span>
           </div>
           <h1 className="text-white font-[900] leading-[1.05] tracking-[-2px] mb-[20px]" style={{ fontSize: 'clamp(40px, 5.5vw, 72px)' }}>
-            Start a <em className="not-italic text-[#C4973B]">trusted conversation</em>.
+            Start a <em className="not-italic text-[#C4973B]">trusted conversation</em>
           </h1>
           <p className="text-[18px] font-[300] text-white/70 max-w-[600px] leading-[1.7]">
             Whether you are looking for strategic advisory, institutional partnerships, or a discussion on the global finance landscape—we are here to engage.
@@ -112,7 +106,7 @@ const Contact = () => {
 
       {/* CONTACT CONTENT SECTION */}
       <section className="py-[100px] px-[20px] md:px-[80px] max-w-[1400px] mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-[80px] lg:gap-[120px]">
+        <div className="grid grid-cols-1 xl:grid-cols-2 gap-[80px] lg:gap-[120px]">
 
           {/* Left Column: Text & Info */}
           <div className="flex flex-col justify-start">
@@ -163,81 +157,116 @@ const Contact = () => {
               </div>
             </div>
           </div>
-
           {/* Right Column: The Form */}
-          <div className="bg-[#fcfcfa] p-[40px] md:p-[60px] border border-gray-100 shadow-sm relative overflow-hidden group">
-            <div className="absolute top-0 right-0 w-[4px] h-0 bg-[#C4973B] transition-all duration-700 group-hover:h-full"></div>
+          <div className="bg-[#0B1629] border border-[#2A3A5C] rounded-[12px] overflow-hidden shadow-2xl relative h-fit font-sans">
+            <div className="px-[28px] py-[24px] border-b border-[#1E2E4A]">
+              <div className="text-[20px] font-[500] text-[#E8D5A0] mb-[4px]">Get in Touch</div>
+              <div className="text-[13px] text-[#6B7A99]">Tell us about your business and we'll connect you with the right team.</div>
+            </div>
 
-            <form className="space-y-[32px]" onSubmit={handleSubmit}>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-[32px]">
-                <div className="flex flex-col gap-[10px]">
-                  <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Full Name</label>
+            <form className="p-[28px] space-y-[16px]" onSubmit={handleSubmit}>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-[12px]">
+                <div className="flex flex-col gap-[6px]">
+                  <label className="text-[11px] tracking-[1px] uppercase text-[#B8962E] font-[500]">Full Name</label>
                   <input
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    placeholder="Enter Full Name"
-                    className="bg-transparent border-b border-gray-200 py-[12px] text-[15px] outline-none focus:border-[#C4973B] transition-all"
+                    type="text" name="name" value={formData.name} onChange={handleChange} required
+                    placeholder="Enter your full name"
+                    className="bg-[#0F1E38] border border-[#2A3A5C] rounded-[6px] py-[10px] px-[12px] text-[14px] text-[#D4C5A0] outline-none focus:border-[#B8962E] placeholder-[#3A4A66] transition-colors w-full"
                   />
                 </div>
-                <div className="flex flex-col gap-[10px]">
-                  <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Email Address</label>
+                <div className="flex flex-col gap-[6px]">
+                  <label className="text-[11px] tracking-[1px] uppercase text-[#B8962E] font-[500]">Phone Number</label>
                   <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    placeholder="Enter Email Address"
-                    className="bg-transparent border-b border-gray-200 py-[12px] text-[15px] outline-none focus:border-[#C4973B] transition-all"
+                    type="tel" name="phone" value={formData.phone} onChange={handleChange} required
+                    placeholder="Enter your phone number" minLength="10" maxLength="10"
+                    className="bg-[#0F1E38] border border-[#2A3A5C] rounded-[6px] py-[10px] px-[12px] text-[14px] text-[#D4C5A0] outline-none focus:border-[#B8962E] placeholder-[#3A4A66] transition-colors w-full"
                   />
                 </div>
               </div>
 
-              <div className="flex flex-col gap-[10px]">
-                <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Phone Number</label>
+              <div className="flex flex-col gap-[6px]">
+                <label className="text-[11px] tracking-[1px] uppercase text-[#B8962E] font-[500]">Email Address</label>
                 <input
-                  type="tel"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  minLength="10"
-                  maxLength="10"
-                  pattern="\d{10}"
-                  required
-                  placeholder="Enter 10-digit number"
-                  className="bg-transparent border-b border-gray-200 py-[12px] text-[15px] outline-none focus:border-[#C4973B] transition-all"
+                  type="email" name="email" value={formData.email} onChange={handleChange} required
+                  placeholder="Enter your email address"
+                  className="bg-[#0F1E38] border border-[#2A3A5C] rounded-[6px] py-[10px] px-[12px] text-[14px] text-[#D4C5A0] outline-none focus:border-[#B8962E] placeholder-[#3A4A66] transition-colors w-full"
                 />
               </div>
 
-              <div className="flex flex-col gap-[10px]">
-                <label className="text-[11px] font-[700] tracking-[1.5px] uppercase text-[#001f3f]">Message / Inquiry</label>
+              <div className="flex flex-col gap-[6px]">
+                <label className="text-[11px] tracking-[1px] uppercase text-[#B8962E] font-[500]">Company Name</label>
+                <input
+                  type="text" name="company" value={formData.company} onChange={handleChange} required
+                  placeholder="Enter your company name"
+                  className="bg-[#0F1E38] border border-[#2A3A5C] rounded-[6px] py-[10px] px-[12px] text-[14px] text-[#D4C5A0] outline-none focus:border-[#B8962E] placeholder-[#3A4A66] transition-colors w-full"
+                />
+              </div>
+
+              <div className="h-[1px] bg-[#1E2E4A] my-[16px]"></div>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-[12px]">
+                <div className="flex flex-col gap-[6px]">
+                  <label className="text-[11px] tracking-[1px] uppercase text-[#B8962E] font-[500]">Industry</label>
+                  <select
+                    name="industry" value={formData.industry} onChange={handleChange} required
+                    className="bg-[#0F1E38] border border-[#2A3A5C] rounded-[6px] py-[10px] px-[12px] text-[14px] text-[#D4C5A0] outline-none focus:border-[#B8962E] transition-colors w-full appearance-none cursor-pointer"
+                    style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23B8962E' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E\")", backgroundRepeat: "no-repeat", backgroundPosition: "right 12px center", paddingRight: "32px" }}
+                  >
+                    <option value="" disabled>Select industry</option>
+                    <option value="Services">Services</option>
+                    <option value="Manufacturing">Manufacturing</option>
+                    <option value="NGO / Non-Profit">NGO / Non-Profit</option>
+                    <option value="Insurance">Insurance</option>
+                    <option value="Trading">Trading</option>
+                    <option value="Banking & Financial Institution">Banking & Financial Institution</option>
+                    <option value="Individual / HNI">Individual / HNI</option>
+                  </select>
+                </div>
+                <div className="flex flex-col gap-[6px]">
+                  <label className="text-[11px] tracking-[1px] uppercase text-[#B8962E] font-[500]">Purpose</label>
+                  <select
+                    name="purpose" value={formData.purpose} onChange={handleChange} required
+                    className="bg-[#0F1E38] border border-[#2A3A5C] rounded-[6px] py-[10px] px-[12px] text-[14px] text-[#D4C5A0] outline-none focus:border-[#B8962E] transition-colors w-full appearance-none cursor-pointer"
+                    style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23B8962E' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E\")", backgroundRepeat: "no-repeat", backgroundPosition: "right 12px center", paddingRight: "32px" }}
+                  >
+                    <option value="" disabled>Select purpose</option>
+                    <option value="Strategy & Advisory">Strategy & Advisory</option>
+                    <option value="Due Diligence">Due Diligence</option>
+                    <option value="Tax & Compliance">Tax & Compliance</option>
+                    <option value="Forensic & Risk">Forensic & Risk</option>
+                    <option value="Grant Advisory">Grant Advisory</option>
+                    <option value="Compliance & Regulatory">Compliance & Regulatory</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+              <div className="flex flex-col gap-[6px] mt-[4px]">
+                <label className="text-[11px] tracking-[1px] uppercase text-[#B8962E] font-[500]">Brief Message <span className="text-[#3A4A66] text-[10px] normal-case tracking-normal">(optional)</span></label>
                 <textarea
-                  rows="4"
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  placeholder="Enter Your Message"
-                  className="bg-transparent border-b border-gray-200 py-[12px] text-[15px] outline-none focus:border-[#C4973B] transition-all resize-none"
+                  name="message" value={formData.message} onChange={handleChange}
+                  placeholder="Briefly describe what you need help with..."
+                  className="bg-[#0F1E38] border border-[#2A3A5C] rounded-[6px] py-[10px] px-[12px] text-[14px] text-[#D4C5A0] outline-none focus:border-[#B8962E] placeholder-[#3A4A66] transition-colors w-full"
                 ></textarea>
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-[#001f3f] text-white text-[13px] font-[600] tracking-[1.5px] uppercase py-[18px] hover:bg-[#C4973B] transition-all duration-300 transform active:scale-[0.98]"
+                className="w-full mt-[4px] py-[13px] bg-[#B8962E] hover:bg-[#C9A84C] text-[#0B1629] text-[14px] font-[600] tracking-[0.5px] rounded-[6px] transition-all cursor-pointer border-none font-sans"
               >
-                Send Message →
+                Submit Enquiry
               </button>
 
-              <p className="text-[11px] text-gray-400 text-center font-[300]">
-                We typically respond to strategic inquiries within 24–48 business hours.
-              </p>
+              <div className="mt-[12px] p-[10px_12px] bg-[#0F1E38] rounded-[6px] border-l-[2px] border-[#B8962E] flex items-center gap-[8px]">
+                <span className="text-[12px] text-[#6B7A99]">
+                  We typically respond within 24 hours. For urgent matters, call <strong className="text-[#B8962E] font-[500]">+91 93155 18112</strong>
+                </span>
+              </div>
             </form>
           </div>
 
         </div>
       </section>
-
 
     </div>
   );

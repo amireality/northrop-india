@@ -104,6 +104,7 @@ import CsrConsulting from './pages/grandfunding/CsrConsulting'
 import GrcControlCompliance from './pages/grandfunding/GrcControlCompliance'
 import IfcIcfrIndia from './pages/riskmanagment/IfcIcfrIndia'
 import ProcessDesignDocumentation from './pages/riskmanagment/ProcessDesignDocumentation'
+import Companyprofile from './pages/Companyprofile'
 
 
 function App() {
@@ -127,6 +128,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/insights" element={<Insights />} />
+          <Route path="/company-profile" element={<Companyprofile />} />
 
 
           {/* Services Sub-routes */}

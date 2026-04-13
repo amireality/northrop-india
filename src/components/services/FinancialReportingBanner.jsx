@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronRight, ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const FinancialReportingBanner = ({ 
   breadcrumbs = [], 
@@ -11,6 +12,8 @@ const FinancialReportingBanner = ({
   onSecondaryClick,
   bgImage = "/contactusimg.avif"
 }) => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative bg-[#0a0f14] text-white flex items-center pt-24 pb-16 px-6 md:px-20 overflow-hidden min-h-[60vh]">
       {/* Background Image with Overlay */}
@@ -51,8 +54,8 @@ const FinancialReportingBanner = ({
 
         <div className="flex flex-wrap gap-5">
           <button 
-            onClick={onPrimaryClick}
-            className="bg-blue-600 hover:bg-blue-500 text-white px-10 py-4 rounded-sm font-bold tracking-widest transition-all shadow-2xl hover:shadow-blue-500/20 flex items-center gap-2 text-[12px] uppercase"
+            onClick={onPrimaryClick || (() => navigate('/contact'))}
+            className="bg-blue-600 hover:bg-blue-500 text-white px-10 py-4 rounded-sm font-bold tracking-widest transition-all shadow-2xl hover:shadow-blue-500/20 flex items-center gap-2 text-[12px] uppercase cursor-pointer"
           >
             {primaryBtnText}
             <ArrowRight size={16} />

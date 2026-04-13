@@ -30,15 +30,12 @@ function HomePage() {
       <Services />
       <Institute/>
       <Foundation/>
-      <Insights />
+      {/* <Insights /> */}
 
       <LocationsSection/>
       
       <ContactSection />
-      {/* <Leadership /> */}
-      {/* <SocialProof /> */}
-      {/* <Partner /> */}
-      {/* <Insights /> */}
+   
     
     </main>
   )
