@@ -22,7 +22,7 @@ const FinancialReportingClosing = ({
       <div className="flex flex-wrap gap-[14px] justify-center">
         <a 
           href={primaryBtnLink || `mailto:${email}`} 
-          className="bg-[#c8902a] hover:bg-[#efc266] text-[#111a22] text-[11.7px] font-bold tracking-[0.1em] uppercase px-[34px] py-[14px] transition-all"
+          className="bg-[#c8902a] hover:bg-[#efc266] text-[#ffff] text-[11.7px] font-bold tracking-[0.1em] uppercase px-[34px] py-[14px] transition-all"
         >
           {primaryBtnText || email}
         </a>

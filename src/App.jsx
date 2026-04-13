@@ -34,10 +34,10 @@ import AgreedUponProcedures from './pages/services/AgreedUponProcedures'
 import IndAsApplicability from './pages/services/IndAsApplicability'
 import InternalAudit from './pages/riskmanagment/InternalAudit'
 import InternalAuditTransformation from './pages/riskmanagment/InternalAuditTransformation'
-import EnterpriseRiskManagement from './pages/services/EnterpriseRiskManagement'
-import RiskControlRegisters from './pages/services/RiskControlRegisters'
-import IfcIcfrIndia from './pages/services/IfcIcfrIndia'
-import ProcessDesignDocumentation from './pages/services/ProcessDesignDocumentation'
+import EnterpriseRiskManagement from './pages/riskmanagment/EnterpriseRiskManagement'
+import RiskControlRegisters from './pages/riskmanagment/RiskControlRegisters'
+
+
 import BuySideFdd from './pages/services/BuySideFdd'
 import SellSideFdd from './pages/services/SellSideFdd'
 import VendorDd from './pages/services/VendorDd'
@@ -128,6 +128,8 @@ import GrantManagementUtilisationPage from './pages/grandfunding/GrantManagement
 import ProgramManagementConsulting from './pages/grandfunding/ProgramManagementConsulting'
 import CsrConsulting from './pages/grandfunding/CsrConsulting'
 import GrcControlCompliance from './pages/grandfunding/GrcControlCompliance'
+import IfcIcfrIndia from './pages/riskmanagment/IfcIcfrIndia'
+import ProcessDesignDocumentation from './pages/riskmanagment/ProcessDesignDocumentation'
 
 
 function App() {
@@ -167,12 +169,12 @@ function App() {
           <Route path="/services/ifrs-ind-as-implementation" element={<IfrsIndAsImplementation />} />
           <Route path="/services/agreed-upon-procedures" element={<AgreedUponProcedures />} />
           <Route path="/services/ind-as-applicability" element={<IndAsApplicability />} />
-        
-         
-          <Route path="/services/enterprise-risk-management" element={<EnterpriseRiskManagement />} />
-          <Route path="/services/risk-control-registers" element={<RiskControlRegisters />} />
-          <Route path="/services/ifc-icfr-india" element={<IfcIcfrIndia />} />
-          <Route path="/services/process-design-documentation" element={<ProcessDesignDocumentation />} />
+
+
+
+
+
+          
           <Route path="/services/buy-side-fdd" element={<BuySideFdd />} />
           <Route path="/services/sell-side-fdd" element={<SellSideFdd />} />
           <Route path="/services/vendor-dd" element={<VendorDd />} />
@@ -195,9 +197,12 @@ function App() {
 
 
 
-            <Route path="/services/internal-audit" element={<InternalAudit />} />
-
-             <Route path="/services/internal-audit-transformation" element={<InternalAuditTransformation />} />
+          <Route path="/services/internal-audit" element={<InternalAudit />} />
+          <Route path="/services/internal-audit-transformation" element={<InternalAuditTransformation />} />
+          <Route path="/services/enterprise-risk-management" element={<EnterpriseRiskManagement />} />
+          <Route path="/services/risk-control-registers" element={<RiskControlRegisters />} />
+          <Route path="/services/ifc-icfr-india" element={<IfcIcfrIndia />} />
+          <Route path="/services/process-design-documentation" element={<ProcessDesignDocumentation />} />
 
 
 
@@ -243,7 +248,7 @@ function App() {
           <Route path="/services/grant-management-utilisation" element={<GrantManagementUtilisationPage />} />
           <Route path="/services/program-management-consulting" element={<ProgramManagementConsulting />} />
           <Route path="/services/csr-consulting" element={<CsrConsulting />} />
-          
+
           <Route path="/services/grc-control-compliance" element={<GrcControlCompliance />} />
 
 

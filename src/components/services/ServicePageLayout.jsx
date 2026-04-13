@@ -1,4 +1,3 @@
-
 import { Helmet } from 'react-helmet-async';
 import {
   CheckCircle,
@@ -60,7 +59,7 @@ const ServicePageLayout = ({
           {svcH2}
         </h2>
 
-        <p className=" text-[19.2px] italic font-medium text-slate-700 leading-[1.65] max-w-[660px] mb-[48px] pl-5 border-l-[3px] border-blue-600">
+        <p className=" text-[17.2px] italic font-medium text-slate-700 leading-[1.65] max-w-[660px] mb-[48px] pl-5 border-l-[3px] border-blue-600">
           {hookText}
         </p>
 
@@ -147,10 +146,6 @@ const ServicePageLayout = ({
         description={closingDescription}
       />
 
-      <footer className="py-[30px] px-[6vw] border-t border-slate-100 flex flex-wrap items-center justify-between gap-3 bg-white">
-        <div className="text-[11.7px] font-bold tracking-[0.1em] uppercase text-[#111a22]">Northrop Management Private Limited</div>
-        <div className="text-[11.7px] text-slate-400">CIN: U70200DC2026PTC469133 · Connaught Place, New Delhi · © 2026</div>
-      </footer>
 
     </div>
   );

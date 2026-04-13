@@ -33,23 +33,23 @@ const FinancialReportingBanner = ({
           ))}
         </nav>
 
-        <h1 className="text-[40px] md:text-[68px] font-bold mb-6 tracking-tight leading-[1.1]">
+        <h1 className="text-[40px] md:text-[60px] font-bold mb-6 tracking-tight leading-[1.1]">
           {title}
         </h1>
-        <p className="text-[18px] md:text-[22px] font-light text-slate-300 leading-relaxed max-w-3xl mb-10">
+        <p className="text-[15px] md:text-[17px] font-light text-slate-300 leading-relaxed max-w-3xl mb-10">
           {description}
         </p>
 
         <div className="flex flex-wrap gap-5">
           <button 
             onClick={onPrimaryClick}
-            className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-full font-bold tracking-wide transition-all shadow-xl hover:shadow-blue-500/25 flex items-center gap-2 text-[14px] uppercase"
+            className="bg-blue-600 hover:bg-blue-500 text-white px-8 py-4 rounded-full font-bold tracking-wide transition-all shadow-xl hover:shadow-blue-500/25 flex items-center gap-2 text-[13px] uppercase"
           >
             {primaryBtnText}
           </button>
           <button 
             onClick={onSecondaryClick}
-            className="bg-white/5 hover:bg-white/10 border border-white/20 text-white px-8 py-4 rounded-full font-bold tracking-wide transition-all backdrop-blur-sm text-[14px] uppercase"
+            className="bg-white/5 hover:bg-white/10 border border-white/20 text-white px-8 py-4 rounded-full font-bold tracking-wide transition-all backdrop-blur-sm text-[13px] uppercase"
           >
             {secondaryBtnText}
           </button>
