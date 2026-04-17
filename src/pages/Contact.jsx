@@ -259,7 +259,7 @@ const Contact = () => {
 
               <div className="mt-[12px] p-[10px_12px] bg-[#0F1E38] rounded-[6px] border-l-[2px] border-[#B8962E] flex items-center gap-[8px]">
                 <span className="text-[12px] text-[#6B7A99]">
-                  We typically respond within 24 hours. For urgent matters, call <strong className="text-[#B8962E] font-[500]">+91 93155 18112</strong>
+                  We typically respond within 24 hours. For urgent matters, call <strong className="text-[#B8962E] font-[500]">+91 92899 25657</strong>
                 </span>
               </div>
             </form>
