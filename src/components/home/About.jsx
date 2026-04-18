@@ -33,9 +33,9 @@ export default function About() {
       className={`p-10 border-r border-[#0E0E0E]/10 last:border-r-0 relative group transition-all duration-700 opacity-0 translate-y-10 ${delay}`}
     >
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-[#C4973B] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
-      <div className="text-[10px] font-medium tracking-widest text-[#C4973B] mb-5">{num}</div>
+      <div className="text-[20px] font-medium tracking-widest text-[#C4973B] mb-5">{num}</div>
       <div className="font-serif text-[18px] text-[#0E0E0E] mb-4 leading-tight">{name}</div>
-      <div className="text-[13px] font-light leading-relaxed text-[#5A5550]">{text}</div>
+      <div className="text-[15px] font-light leading-relaxed text-[#111111]">{text}</div>
     </div>
   );
 
@@ -61,7 +61,7 @@ export default function About() {
 
           {/* RIGHT: Content Section */}
           <div className="lg:pl-10 pt-10 lg:pt-20">
-            <div ref={addToRefs} className="flex items-center gap-4 text-[11px] font-medium tracking-[0.25em] uppercase text-[#C4973B] mb-8 opacity-0 translate-y-10 transition-all duration-700">
+            <div ref={addToRefs} className="flex items-center gap-4 text-[15px] font-bold tracking-[0.25em] uppercase text-[#C4973B] mb-8 opacity-0 translate-y-10 transition-all duration-700">
               <span className="w-8 h-px bg-[#C4973B]"></span> About Northrop
             </div>
 
@@ -69,7 +69,7 @@ export default function About() {
               The Standard<br />We Hold<br /><em className="text-[#C4973B] italic">Ourselves To.</em>
             </h2>
 
-            <div ref={addToRefs} className="text-[16px] font-light leading-[1.8] text-[#4A4540] space-y-8 opacity-0 translate-y-10 transition-all duration-700 delay-200">
+            <div ref={addToRefs} className="text-[16px] font-light leading-[1.8] text-[#111111] space-y-8 opacity-0 translate-y-10 transition-all duration-700 delay-200">
               <p>
                 Northrop is built on practitioners, not presenters. Our team comprises Chartered Accountants, CFA professionals, and specialists with post-graduate training — people who have worked on live IBC mandates before the <strong>Hon'ble NCLT</strong>, conducted forensic audits for public sector banks, and managed continuous risk surveillance on some of India's largest listed borrowers.
               </p>

@@ -1,6 +1,7 @@
 
 
 import  { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 const services = [
   {
@@ -68,7 +69,7 @@ export default function Services() {
               Advisory Across<br />Every <em className="text-[#C4973B] italic">Critical Domain.</em>
             </h2>
           </div>
-          <p ref={addToRefs} className="text-[14px] font-light leading-relaxed text-white/40 opacity-0 translate-y-10 transition-all duration-700 delay-200">
+          <p ref={addToRefs} className="text-[14px] font-light leading-relaxed text-white opacity-0 translate-y-10 transition-all duration-700 delay-200">
             Twelve service verticals. One senior relationship. Backed by practitioners with real mandates — rigour and precision at every level of complexity.
           </p>
         </div>
@@ -81,19 +82,19 @@ export default function Services() {
               className={`p-10 border-b border-r border-white/5 last:border-r-0 md:nth-child(2n):border-r-0 lg:nth-child(3n):border-r-0 group hover:bg-white/5 transition-all duration-700 opacity-0 translate-y-10 delay-${(i % 3 + 1) * 100}`}
             >
               <div className="w-6 h-px bg-[#C4973B] mb-6 group-hover:w-12 transition-all duration-500"></div>
-              <h3 className="font-serif text-[17px] text-white mb-3">{svc.name}</h3>
-              <p className="text-[12.5px] font-light leading-relaxed text-white/35">{svc.desc}</p>
+              <h3 className="font-serif text-[17px] text-[#C4973B] mb-3 underline">{svc.name}</h3>
+              <p className="text-[12.5px] font-light leading-relaxed text-white">{svc.desc}</p>
             </div>
           ))}
         </div>
 
         <div ref={addToRefs} className="mt-16 pt-10 border-t border-white/10 flex flex-col md:flex-row justify-between items-start md:items-center gap-8 opacity-0 translate-y-10 transition-all duration-700 delay-500">
-          <p className="text-[13px] font-light text-white/30 max-w-[540px]">
-            Also covering: <strong className="text-white/50 font-normal">Tax · Risk & Compliance · Digital & AI · HR Advisory · Operations Excellence · Government Advisory · Managed Services</strong>
+          <p className="text-[13px] font-light text-[#C4973B] max-w-[540px]">
+            Also covering: <strong className="text-white font-normal">Tax · Risk & Compliance · Digital & AI · HR Advisory · Operations Excellence · Government Advisory · Managed Services</strong>
           </p>
-          <a href="mailto:Business@NorthropIndia.com" className="flex items-center gap-3 text-[11px] font-medium tracking-widest uppercase text-[#C4973B] group transition-all">
+          <Link to="/contact" className="flex items-center gap-3 text-[11px] font-medium tracking-widest uppercase text-[#C4973B] group transition-all">
             Discuss a Mandate <span className="text-lg group-hover:ml-4 transition-all">→</span>
-          </a>
+          </Link>
         </div>
       </div>
     </section>

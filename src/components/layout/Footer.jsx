@@ -16,7 +16,7 @@ function Footer() {
               <span>NORTHROP</span>
            
             </div>
-            <p className="text-[14px] leading-relaxed text-gray-400 font-light">
+            <p className="text-[14px] leading-relaxed text-gray-300 font-light">
               Providing precision knowledge and insightful solutions for global enterprises since 2022.
             </p>
           </div>
@@ -80,7 +80,7 @@ function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-20 flex flex-col items-center justify-between border-t border-gray-800 pt-8 text-[12px] text-gray-500 md:flex-row">
+        <div className="mt-20 flex flex-col items-center justify-between border-t border-gray-300 pt-8 text-[12px] text-gray-300 md:flex-row">
           <p>© 2026 Northrop Management Private Limited. All Rights Reserved.</p>
           <div className="mt-4 flex gap-6 md:mt-0">
             <a href="#" className="hover:text-white">Privacy Policy</a>

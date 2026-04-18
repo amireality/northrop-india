@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -26,7 +27,7 @@ export default function Hero() {
         </h1>
 
         {/* DESCRIPTION */}
-        <p className="text-[15px] font-light leading-[1.85] text-white/40 max-w-[480px] mb-12">
+        <p className="text-[15px] font-light leading-[1.85] text-white max-w-[480px] mb-12">
           Northrop Management is a senior-led strategic advisory firm
           headquartered at Connaught Place, New Delhi — serving founders,
           institutions, and enterprises that demand rigour, speed, and complete
@@ -35,50 +36,50 @@ export default function Hero() {
 
         {/* BUTTONS */}
         <div className="flex flex-wrap gap-4 mb-20">
-          <a
-            href="mailto:Business@NorthropIndia.com"
+          <Link
+            to="/contact"
             className="bg-[#C4973B] text-[#0E0E0E] text-[10.5px] font-medium tracking-[0.14em] uppercase px-8 py-4 transition-all hover:bg-[#D9AF58] hover:-translate-y-0.5"
           >
             Engage With Us
-          </a>
+          </Link>
 
-          <a
-            href="#about"
-            className="text-white/40 text-[10.5px] uppercase tracking-[0.1em] flex items-center gap-2 hover:text-white transition-all group"
+          <Link
+            to="/who-we-are"
+            className="text-white text-[10.5px] uppercase tracking-[0.1em] flex items-center gap-2 hover:text-white transition-all group"
           >
             Our Approach
             <span className="text-lg transition-all group-hover:ml-2">
               →
             </span>
-          </a>
+          </Link>
         </div>
 
         {/* STATS */}
         <div className="pt-10 border-t border-white/10 flex flex-wrap gap-10">
           <div>
             <div className="font-serif text-3xl text-[#D9AF58]">12</div>
-            <div className="text-[9.5px] uppercase tracking-widest text-white/30 mt-2">
+            <div className="text-[9.5px] uppercase tracking-widest text-white mt-2">
               Service Verticals
             </div>
           </div>
 
           <div>
             <div className="font-serif text-3xl text-[#D9AF58]">5+</div>
-            <div className="text-[9.5px] uppercase tracking-widest text-white/30 mt-2">
+            <div className="text-[9.5px] uppercase tracking-widest text-white mt-2">
               Sectors Covered
             </div>
           </div>
 
           <div>
-            <div className="font-serif text-xl text-[#D9AF58]">₹60K Cr</div>
-            <div className="text-[9.5px] uppercase tracking-widest text-white/30 mt-2">
+            <div className="font-serif text-3xl text-[#D9AF58]">₹60K Cr</div>
+            <div className="text-[9.5px] uppercase tracking-widest text-white mt-2">
               Balance Sheets
             </div>
           </div>
 
           <div>
             <div className="font-serif text-3xl text-[#D9AF58]">PSU</div>
-            <div className="text-[9.5px] uppercase tracking-widest text-white/30 mt-2">
+            <div className="text-[9.5px] uppercase tracking-widest text-white mt-2">
               Bank Mandates
             </div>
           </div>
@@ -105,7 +106,7 @@ export default function Hero() {
         <div className="absolute bottom-20 left-10 w-24 h-24 border border-[#C4973B]/10 rounded-full"></div>
 
         {/* BADGE */}
-        <div className="absolute bottom-10 right-10 border border-[#C4973B]/30 bg-[#0E0E0E]/50 backdrop-blur-md px-5 py-3 text-white/40 text-[10px] tracking-[0.14em] uppercase">
+        <div className="absolute bottom-10 right-10 border border-[#C4973B]/30 bg-[#0E0E0E]/50 backdrop-blur-md px-5 py-3 text-white text-[10px] tracking-[0.14em] uppercase">
           Mumbai · Delhi · Pan-India
         </div>
       </div>
