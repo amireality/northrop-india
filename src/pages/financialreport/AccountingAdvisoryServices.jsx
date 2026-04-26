@@ -9,13 +9,13 @@ const AccountingAdvisoryServicesPage = () => {
       { name: "Home", link: "/" },
       { name: "Accounting Advisory", link: null }
     ],
-    bannerTitle: <>Your accounting tells a  <br /> story.<br />Make sure it's <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">the right one.</span></>,
+    bannerTitle: <>Your accounting tells a  <br /> story.<br />Make sure it's <span className=" text-[#C4973B]">the right one.</span></>,
     bannerDescription: "Accounting decisions made at inception — revenue recognition policies, capitalisation choices, provisioning approaches — compound over years. The wrong call today becomes a restatement, a regulatory notice, or a deal-breaker in due diligence tomorrow.",
     primaryBtnText: "Get Accounting Clarity",
     secondaryBtnText: "See where it goes wrong ↓",
     svcNum: "FR — 02 /",
     svcTag: "Accounting Advisory Services",
-    svcH2: <>The policy seemed reasonable when you adopted it. <em className="italic text-blue-600 not-italic font-serif">It doesn't hold up in a deal room.</em></>,
+    svcH2: <>The policy seemed reasonable when you adopted it. <em className="italic text-blue-600 not-italic">It doesn't hold up in a deal room.</em></>,
     hookText: "Accounting is not just bookkeeping — it is the language in which your business communicates its value to investors, lenders, and regulators. If that language is imprecise, the consequences follow you.",
     painLabel: "Industry-specific accounting failures — and their cost",
     painList: [

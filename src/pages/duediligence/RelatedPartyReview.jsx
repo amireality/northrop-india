@@ -11,7 +11,7 @@ const RelatedPartyReview = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Related Party Review", link: null }
     ],
-    bannerTitle: <>Related Party <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Review</span></>,
+    bannerTitle: <>Related Party <br /><span className=" text-[#C4973B]">Review</span></>,
     bannerDescription: "Uncovering undisclosed relationships and structurally embedded value leakage.",
     primaryBtnText: "Commission Related Party Review",
     secondaryBtnText: "IBC / NCLT Inquiry",

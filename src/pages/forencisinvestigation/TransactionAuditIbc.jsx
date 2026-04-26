@@ -9,7 +9,7 @@ const TransactionAuditIbcPage = () => {
       { name: "Home", link: "/" },
       { name: "Forensic Investigations", link: null }
     ],
-    bannerTitle: <>The company is in CIRP.<br />Assets were moved before admission.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Where did they go?</span></>,
+    bannerTitle: <>The company is in CIRP.<br />Assets were moved before admission.<br /> <span className="text-[#C4973B]">Where did they go?</span></>,
     bannerDescription: "Under the Insolvency and Bankruptcy Code 2016, Resolution Professionals and Liquidators are required to examine transactions in the two-year look-back period for Preferential, Undervalued, Fraudulent, and Extortionate transactions. What is recovered in this process can be the difference between creditor recovery and total loss.",
     primaryBtnText: "Commission IBC Transaction Audit",
     secondaryBtnText: "See what's at risk ↓",

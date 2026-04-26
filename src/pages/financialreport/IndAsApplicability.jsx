@@ -9,7 +9,7 @@ const IndAsApplicabilityPage = () => {
       { name: "Home", link: "/" },
       { name: "Ind-AS Applicability", link: null }
     ],
-    bannerTitle: <>You may already be<br />required <br />to comply with Ind-AS.  <br />  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Are you sure you're not?</span></>,
+    bannerTitle: <>You may already be<br />required <br />to comply with Ind-AS.  <br />  <span className="text-[#C4973B]">Are you sure you're not?</span></>,
     bannerDescription: "Ind-AS applicability thresholds are triggered by net worth, turnover, listing status, and group structures — often without the company realising they've crossed them. Non-compliance is not a grey area. It is an MCA violation with penalties, and a qualification from your auditor.",
     primaryBtnText: "Assess Your Ind-AS Applicability",
     secondaryBtnText: "Understand what triggers it ↓",

@@ -9,7 +9,7 @@ const RiskControlRegister = () => {
       { name: "Risk Management", link: "/risk-management" },
       { name: "Risk & Control Registers", link: null }
     ],
-    bannerTitle: <>Your controls are <br /> documented.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">None of them are tested.</span></>,
+    bannerTitle: <>Your controls are <br /> documented.<br /> <span className="text-[#C4973B]">None of them are tested.</span></>,
     bannerDescription: "A Risk and Control Register (RCR) maps every significant risk to the specific control designed to mitigate it — and tests whether that control is actually operating. Without it, your assurance framework is a narrative. With it, it's a system.",
     primaryBtnText: "Build Your Risk & Control Register",
     secondaryBtnText: "See what's at risk ↓",

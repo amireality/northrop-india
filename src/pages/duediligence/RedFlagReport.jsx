@@ -11,7 +11,7 @@ const RedFlagReport = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Red Flag Report", link: null }
     ],
-    bannerTitle: <>Red Flag <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Report</span></>,
+    bannerTitle: <>Red Flag <br /><span className=" text-[#C4973B]">Report</span></>,
     bannerDescription: "Rapid, focused assessments for critical go/no-go decisions.",
     primaryBtnText: "Order a Red Flag Report",
     secondaryBtnText: "Urgent Inquiry",

@@ -9,7 +9,7 @@ const FinancialStatementPreparationPage = () => {
       { name: "Home", link: "/" },
       { name: "Financial Statement Preparation", link: null }
     ],
-    bannerTitle: <>Your financials represent<br />your business <br /> to everyone who  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">matters.</span></>,
+    bannerTitle: <>Your financials represent<br />your business <br /> to everyone who  <span className=" text-[#C4973B]">matters.</span></>,
     bannerDescription: "Lenders, investors, acquirers, and regulators all make decisions based on your financial statements. If those statements are incomplete, inconsistently prepared, or non-compliant — the decisions they lead to will not be in your favour.",
     primaryBtnText: "Commission Statement Preparation",
     secondaryBtnText: "See what's at risk ↓",

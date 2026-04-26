@@ -8,7 +8,7 @@ const ResearchDocumentationPage = () => {
       { name: "Home", link: "/" },
       { name: "Research & Documentation", link: null }
     ],
-    bannerTitle: <>The grant application asks for evidence.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">You have experience. You don't have documentation.</span></>,
+    bannerTitle: <>The grant application asks for evidence.<br /> <span className="text-[#C4973B]">You have experience. You don't have documentation.</span></>,
     bannerDescription: "In the competitive world of institutional grants — government, bilateral, CSR, and philanthropic — documentation quality is the difference between funded and rejected. Research that is not documented is experience that cannot be verified. And experience that cannot be verified is experience that doesn't count.",
     primaryBtnText: "Commission Research & Documentation",
     secondaryBtnText: "See what's at risk ↓",

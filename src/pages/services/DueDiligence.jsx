@@ -55,7 +55,7 @@ const DueDiligencePage = () => {
           </nav>
 
           <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight">
-            Due <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Diligence</span>
+            Due <span className="text-[#C4973B]">Diligence</span>
           </h1>
           <p className="text-xl md:text-2xl font-light text-slate-300 leading-relaxed max-w-3xl mb-10">
             Driving transparency, building stakeholder trust, and illuminating operational truths through human intelligence and AI-powered precision.

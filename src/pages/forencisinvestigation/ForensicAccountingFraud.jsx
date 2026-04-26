@@ -9,7 +9,7 @@ const ForensicAccountingFraudPage = () => {
       { name: "Home", link: "/" },
       { name: "Forensic Investigations", link: null }
     ],
-    bannerTitle: <>Someone in your   <br /> organisation is  <br /> stealing from it.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">The question is how much.</span></>,
+    bannerTitle: <>Someone in your   <br /> organisation is  <br /> stealing from it.<br /> <span className="text-[#C4973B]">The question is how much.</span></>,
     bannerDescription: "Financial fraud in Indian organisations rarely looks dramatic. It looks like slightly unusual creditor balances, vendors you've never verified, and year-end journals that nobody questions. By the time it's visible, it's been happening for years.",
     primaryBtnText: "Commission a Fraud Investigation",
     secondaryBtnText: "See what's at risk ↓",

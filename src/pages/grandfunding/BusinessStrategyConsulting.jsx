@@ -8,7 +8,7 @@ const BusinessStrategyConsulting = () => {
       { name: "Home", link: "/" },
       { name: "Business Strategy & Consulting", link: null }
     ],
-    bannerTitle: <>Your organisation does <br /> important work. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">But you can't fund what you <br /> can't articulate strategically.</span></>,
+    bannerTitle: <>Your organisation does <br /> important work. <br /> <span className="text-[#C4973B]">But you can't fund what you <br /> can't articulate strategically.</span></>,
     bannerDescription: "For NGOs, social enterprises, and mission-driven organisations, strategy is not about competitive advantage — it is about mission clarity, resource allocation, and organisational resilience. Without it, even the most impactful work becomes unsustainable.",
     primaryBtnText: "Build Your Strategy",
     secondaryBtnText: "See what's at risk ↓",

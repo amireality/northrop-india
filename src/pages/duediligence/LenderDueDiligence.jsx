@@ -11,7 +11,7 @@ const LenderDueDiligence = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Lender DD", link: null }
     ],
-    bannerTitle: <>Lender <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">DD</span></>,
+    bannerTitle: <>Lender <br /><span className=" text-[#C4973B]">DD</span></>,
     bannerDescription: "Robust financial evaluation to satisfy credit committees and structure appropriate debt facilities.",
     primaryBtnText: "Commission Lender FDD",
     secondaryBtnText: "Credit Surveillance Inquiry",

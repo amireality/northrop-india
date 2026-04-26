@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, } from 'react-router-dom'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import HomePage from './pages/HomePage'
@@ -107,11 +107,12 @@ import ProcessDesignDocumentation from './pages/riskmanagment/ProcessDesignDocum
 import Companyprofile from './pages/Companyprofile'
 
 
+
 function App() {
   return (
     <BrowserRouter>
       <Header />
-      <main className="min-h-screen   antialiased text-[#001f3f]">
+      <main className="min-h-screen   antialiased">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/who-we-are" element={<WhoWeAre />} />
@@ -238,6 +239,11 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+
+
+
+
+
       <Footer />
     </BrowserRouter>
   )

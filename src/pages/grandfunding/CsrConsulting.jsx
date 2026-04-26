@@ -8,7 +8,7 @@ const CsrConsultingPage = () => {
       { name: "Home", link: "/" },
       { name: "CSR Consulting", link: null }
     ],
-    bannerTitle: <>Your company is spending <br /> ₹2 Cr on CSR. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">You're not sure any of it <br /> is creating impact.</span></>,
+    bannerTitle: <>Your company is spending <br /> ₹2 Cr on CSR. <br /> <span className="text-[#C4973B]">You're not sure any of it <br /> is creating impact.</span></>,
     bannerDescription: "Corporate Social Responsibility is a legal obligation for applicable companies — but also a reputational and governance asset when done well. Done poorly, it creates compliance risk, reputational exposure, and wasted capital.",
     primaryBtnText: "Get CSR Advisory",
     secondaryBtnText: "See what's at risk ↓",

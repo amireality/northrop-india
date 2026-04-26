@@ -9,7 +9,7 @@ const DigitalForensicPage = () => {
       { name: "Home", link: "/" },
       { name: "Forensic Investigations", link: null }
     ],
-    bannerTitle: <>The evidence is in the <br /> system.<br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">It's been deleted. Can you still find it?</span></>,
+    bannerTitle: <>The evidence is in the <br /> system.<br /><span className="text-[#C4973B]">It's been deleted. Can you still find it?</span></>,
     bannerDescription: "Digital forensic investigation recovers, preserves, and analyses electronic evidence from computers, servers, mobile devices, and cloud systems — in a manner that maintains its admissibility in legal proceedings and regulatory investigations.",
     primaryBtnText: "Commission Digital Forensics",
     secondaryBtnText: "See what's at risk ↓",

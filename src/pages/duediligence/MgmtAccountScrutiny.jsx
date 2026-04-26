@@ -11,7 +11,7 @@ const MgmtAccountScrutiny = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Management Account Scrutiny", link: null }
     ],
-    bannerTitle: <>Management Account <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Scrutiny</span></>,
+    bannerTitle: <>Management Account <br /><span className=" text-[#C4973B]">Scrutiny</span></>,
     bannerDescription: "Bridge the gap between management reports and audited reality.",
     primaryBtnText: "Scrutinise Management Accounts",
     secondaryBtnText: "Scope a Review",

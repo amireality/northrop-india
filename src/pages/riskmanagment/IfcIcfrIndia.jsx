@@ -9,7 +9,7 @@ const IfcIcfrIndia = () => {
       { name: "Risk Management", link: "/risk-management" },
       { name: "IFC / ICFR", link: null }
     ],
-    bannerTitle: <>Your auditor has flagged a  <br />  material weakness<br /> in Internal Financial  <br /> Controls.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Now what?</span></>,
+    bannerTitle: <>Your auditor has flagged a  <br />  material weakness<br /> in Internal Financial  <br /> Controls.<br /> <span className="text-[#C4973B]">Now what?</span></>,
     bannerDescription: "Internal Financial Controls (IFC) and Internal Controls over Financial Reporting (ICFR) are mandatory requirements under the Companies Act 2013 for applicable companies. A material weakness is not just an audit observation — it is a potential D&O liability, a lender concern, and a market signal that something is wrong.",
     primaryBtnText: "Strengthen Your IFC / ICFR",
     secondaryBtnText: "See what's at risk ↓",

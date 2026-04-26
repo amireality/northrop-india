@@ -8,7 +8,7 @@ const ImpactAssessmentPage = () => {
       { name: "Home", link: "/" },
       { name: "Impact Assessment", link: null }
     ],
-    bannerTitle: <>Your programme is changing lives. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">But your funder wants numbers.</span></>,
+    bannerTitle: <>Your programme is changing lives. <br /> <span className="text-[#C4973B]">But your funder wants numbers.</span></>,
     bannerDescription: "Impact assessment is the systematic measurement of whether your programmes are achieving the outcomes they set out to achieve — and by how much. Without it, renewal funding is at risk, and your organisation's credibility in the funding ecosystem is limited.",
     primaryBtnText: "Commission an Impact Assessment",
     secondaryBtnText: "See what's at risk ↓",

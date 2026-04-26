@@ -8,7 +8,7 @@ const IndirectTax = () => {
             { name: "Home", link: "/" },
             { name: "Indirect Tax (GST) Advisory", link: null }
         ],
-        bannerTitle: <>Your GST returns are filed <br /> every month. <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Your ITC position has never <br /> been reconciled.</span></>,
+        bannerTitle: <>Your GST returns are filed <br /> every month. <br /><span className="text-[#C4973B]">Your ITC position has never <br /> been reconciled.</span></>,
         bannerDescription: "GST is the largest single compliance obligation for most Indian businesses — and the one with the highest ongoing risk of error. ITC mismatches, reverse charge failures, and classification disputes create demands that accumulate quietly until they cannot be ignored.",
         primaryBtnText: "Get GST Advisory",
         secondaryBtnText: "See what's at risk ↓",

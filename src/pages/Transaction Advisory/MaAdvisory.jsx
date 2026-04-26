@@ -9,7 +9,7 @@ const MaAdvisory = () => {
       { name: "Home", link: "/" },
       { name: "M&A Advisory", link: null }
     ],
-    bannerTitle: <>You've found the right <br />target. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Now make sure you're right <br /> about it.</span></>,
+    bannerTitle: <>You've found the right <br />target. <br /> <span className="text-[#C4973B]">Now make sure you're right <br /> about it.</span></>,
     bannerDescription: "M&A is the highest-stakes financial decision most organisations make. The difference between a value-creating acquisition and a value-destroying one is almost always the quality of the advisory process — not the quality of the idea.",
     primaryBtnText: "Engage M&A Advisory",
     secondaryBtnText: "See what's at risk ↓",

@@ -71,16 +71,16 @@ const ServicePageLayout = ({
         {/* PAIN BLOCK */}
         <div className="mb-[60px] max-w-[1240px]">
           <div className="flex items-center gap-[10px] mb-[30px]">
-            <div className="text-[12px] font-bold tracking-[0.16em] uppercase text-red-600 flex items-center gap-2">
-              <span className="w-1.5 h-1.5 bg-red-600 rounded-full inline-block"></span>
+            <div className="text-[12px] font-bold tracking-[0.16em] uppercase text-[#c4973b] flex items-center gap-2">
+              <span className="w-1.5 h-1.5 bg-[#c4973b] rounded-full inline-block"></span>
               {painLabel}
             </div>
-            <div className="flex-1 max-w-[120px] h-[1px] bg-red-200"></div>
+            <div className="flex-1 max-w-[120px] h-[1px] bg-[#c4973b]"></div>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {painList.map((item, idx) => (
-              <div key={idx} className="p-[30px] bg-white shadow-md hover:shadow-xl border border-slate-100 relative border-l-[3px] border-l-red-600 transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
+              <div key={idx} className="p-[30px] bg-white shadow-md hover:shadow-xl border border-slate-100 relative border-l-[3px] border-l-[#c4973b] transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
                 <h4 className="text-[16px] font-bold text-[#111a22] mb-[12px] leading-tight flex gap-2 underline">
                   {item.label}
                 </h4>

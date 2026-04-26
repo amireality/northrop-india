@@ -9,7 +9,7 @@ const ForensicAuditRbiPage = () => {
       { name: "Home", link: "/" },
       { name: "Forensic Investigations", link: null }
     ],
-    bannerTitle: <>The RBI has directed a<br />forensic audit <br /> of  your borrower account.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">You have 30 days.</span></>,
+    bannerTitle: <>The RBI has directed a<br />forensic audit <br /> of  your borrower account.<br /> <span className="text-[#C4973B]">You have 30 days.</span></>,
     bannerDescription: "RBI-mandated forensic audits are triggered for accounts classified as fraud or where suspected wilful default is detected. They are not voluntary. They are not advisory. They are a formal regulatory process — and the findings go to the RBI, the CBI, and the borrower's entire banking consortium.",
     primaryBtnText: "Engage for RBI Forensic Audit",
     secondaryBtnText: "See what's at risk ↓",

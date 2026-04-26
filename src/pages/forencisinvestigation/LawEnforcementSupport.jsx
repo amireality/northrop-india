@@ -9,7 +9,7 @@ const LawEnforcementSupportPage = () => {
       { name: "Home", link: "/" },
       { name: "Forensic Investigations", link: null }
     ],
-    bannerTitle: <>You have the allegation.<br />You need the evidence<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">that makes it stand up in court.</span></>,
+    bannerTitle: <>You have the allegation.<br />You need the evidence<br /> <span className="text-[#C4973B]">that makes it stand up in court.</span></>,
     bannerDescription: "Law enforcement agencies, regulatory bodies, and legal counsel increasingly need forensic accounting experts to translate complex financial transactions into evidence that investigators, prosecutors, and judges can understand and act upon.",
     primaryBtnText: "Engage Forensic Support",
     secondaryBtnText: "See what's at risk ↓",

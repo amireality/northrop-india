@@ -8,7 +8,7 @@ const TaxControversy = () => {
             { name: "Home", link: "/" },
             { name: "Tax Controversy & Dispute Resolution", link: null }
         ],
-        bannerTitle: <>The demand notice arrived. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">How you respond in the next <br /> 30 days determines everything.</span></>,
+        bannerTitle: <>The demand notice arrived. <br /> <span className="text-[#C4973B]">How you respond in the next <br /> 30 days determines everything.</span></>,
         bannerDescription: "Tax controversy — from assessment notices to ITAT appeals — requires a combination of technical knowledge, procedural expertise, and strategic judgement. The first response to a notice often sets the trajectory of the entire dispute.",
         primaryBtnText: "Get Tax Controversy Support",
         secondaryBtnText: "See what's at risk ↓",

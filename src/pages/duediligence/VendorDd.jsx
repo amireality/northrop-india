@@ -11,7 +11,7 @@ const VendorDd = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Vendor DD", link: null }
     ],
-    bannerTitle: <>Vendor <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Due Diligence</span></>,
+    bannerTitle: <>Vendor <br /><span className=" text-[#C4973B]">Due Diligence</span></>,
     bannerDescription: "Independent reports evaluating your business on an objective basis to accelerate M&A and give potential buyers confidence.",
     primaryBtnText: "Vet Your Vendor Base",
     secondaryBtnText: "Request a Scope Call",

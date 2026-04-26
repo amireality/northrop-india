@@ -11,7 +11,7 @@ const BuySideFdd = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Buy-Side FDD", link: null }
     ],
-    bannerTitle: <>Buy-Side <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">FDD</span></>,
+    bannerTitle: <>Buy-Side <br /><span className=" text-[#C4973B]">FDD</span></>,
     bannerDescription: "Ensure that what you see is what you get. Evaluating target companies for financial robustness and potential risks before acquisition.",
     primaryBtnText: "Start Buy-Side FDD",
     secondaryBtnText: "Download Sample Report",

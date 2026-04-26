@@ -9,7 +9,7 @@ const AmlKycSanctionsPage = () => {
       { name: "Home", link: "/" },
       { name: "Forensic Investigations", link: null }
     ],
-    bannerTitle: <>Your KYC is completed at onboarding.<br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Your customer has changed significantly since then.</span></>,
+    bannerTitle: <>Your KYC is completed at onboarding.<br /><span className="text-[#C4973B]">Your customer has changed significantly since then.</span></>,
     bannerDescription: "Anti-Money Laundering compliance is not a one-time customer verification exercise. It is a continuous monitoring obligation — one where gaps create regulatory exposure, enforcement risk, and reputational damage that no KYC form can protect you from retrospectively.",
     primaryBtnText: "Commission AML / KYC Assessment",
     secondaryBtnText: "See what's at risk ↓",

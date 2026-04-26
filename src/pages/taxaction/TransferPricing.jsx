@@ -8,7 +8,7 @@ const TransferPricing = () => {
             { name: "Home", link: "/" },
             { name: "Transfer Pricing Advisory", link: null }
         ],
-        bannerTitle: <>Your intercompany transactions <br /> need to be at arm's length. <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Can you prove they are?</span></>,
+        bannerTitle: <>Your intercompany transactions <br /> need to be at arm's length. <br /><span className="text-[#C4973B]">Can you prove they are?</span></>,
         bannerDescription: "Transfer pricing is the single largest source of tax disputes for companies with related-party transactions across borders — or even across states. The burden of proof is on the taxpayer. Without documentation, the adjustment is automatic.",
         primaryBtnText: "Get Transfer Pricing Support",
         secondaryBtnText: "See what's at risk ↓",

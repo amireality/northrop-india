@@ -11,7 +11,7 @@ const FraudIndicators = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Fraud Indicators Analysis", link: null }
     ],
-    bannerTitle: <>Fraud <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Indicators Assessment</span></>,
+    bannerTitle: <>Fraud <br /><span className=" text-[#C4973B]">Indicators Assessment</span></>,
     bannerDescription: "Data-driven detection of anomalies, diversion, and complex financial fraud.",
     primaryBtnText: "Commission Fraud Analysis",
     secondaryBtnText: "Confidential Inquiry",

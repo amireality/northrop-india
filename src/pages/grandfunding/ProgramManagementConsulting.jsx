@@ -8,7 +8,7 @@ const ProgramManagementConsulting = () => {
       { name: "Home", link: "/" },
       { name: "Program Management Consulting", link: null }
     ],
-    bannerTitle: <>The grant was received. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">The implementation is <br /> running six months behind.</span></>,
+    bannerTitle: <>The grant was received. <br /> <span className="text-[#C4973B]">The implementation is <br /> running six months behind.</span></>,
     bannerDescription: "Programme management for development organisations requires a different discipline than commercial project management — navigating community dynamics, government coordination, and funder reporting simultaneously, while keeping the programme on track for impact.",
     primaryBtnText: "Get Program Management Support",
     secondaryBtnText: "See what's at risk ↓",

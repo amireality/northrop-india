@@ -9,7 +9,7 @@ const CapitalStructuring = () => {
             { name: "Home", link: "/" },
             { name: "Capital Structuring", link: null }
         ],
-        bannerTitle: <>Your balance sheet is <br />carrying debt<br /> that is costing you more <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">than your business earns.</span></>,
+        bannerTitle: <>Your balance sheet is <br />carrying debt<br /> that is costing you more <br /> <span className="text-[#C4973B]">than your business earns.</span></>,
         bannerDescription: "Capital structure — the mix of debt, equity, and instruments between them — determines the financial resilience of your business in good times and its survival in bad ones. Getting it wrong is expensive. Getting it right is a competitive advantage.",
         primaryBtnText: "Get Capital Structuring Advisory",
         secondaryBtnText: "See what's at risk ↓",

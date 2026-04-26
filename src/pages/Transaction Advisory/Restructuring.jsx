@@ -9,7 +9,7 @@ const Restructuring = () => {
       { name: "Home", link: "/" },
       { name: "Restructuring Advisory", link: null }
     ],
-    bannerTitle: <>The business is viable. <br />The debt structure is not. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">There is a difference.</span></>,
+    bannerTitle: <>The business is viable. <br />The debt structure is not. <br /> <span className="text-[#C4973B]">There is a difference.</span></>,
     bannerDescription: "Business restructuring — whether financial, operational, or legal — is the process of rebuilding a business around what works, shedding what doesn't, and restoring the conditions for sustainable performance. Done early, it preserves value. Done late, it accelerates loss.",
     primaryBtnText: "Engage Restructuring Advisory",
     secondaryBtnText: "See what's at risk ↓",

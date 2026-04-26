@@ -49,7 +49,7 @@ export default function WhoWeAre() {
   }, []);
 
   return (
-    <div className="bg-[#f9f9ff] text-[#131c2a] selection:bg-[#ffd573] selection:text-[#785b00]">
+    <div className="bg-[#f9f9ff] text-[#131c2a] ">
       <Helmet>
         <title>Who We Are | Purpose, Values & Leadership | Northrop India</title>
         <meta name="description" content="Discover Northrop's commitment to integrity, transparency, and technical excellence. Meet our leadership team and learn about our mission to drive institutional clarity." />
@@ -65,10 +65,10 @@ export default function WhoWeAre() {
               <h1 className="font-playfair text-[60px] md:text-[84px] text-[#001f3f] leading-[0.9] mb-[48px] tracking-tighter">The Clarity of Thinking.</h1>
               <div className="space-y-[32px] text-[#43474e] leading-[1.8] text-[18px] font-[300]">
                 <p className="text-justify">
-                  In an era of performative complexity, we prioritize <span className="text-[#001f3f] font-[500] italic">Structural Integrity</span>. For too long, the Indian enterprise has been navigated through the fog of gut feelings and opaque jargon. We believe that national resilience begins with institutional transparency.
+                  In an era of performative complexity, we prioritize <span className="text-[#001f3f] ">Structural Integrity</span>. For too long, the Indian enterprise has been navigated through the fog of gut feelings and opaque jargon. We believe that national resilience begins with institutional transparency.
                 </p>
-                <blockquote className="font-playfair italic text-[30px] text-[#001f3f] leading-[1.3] py-[24px] relative">
-                  <span className="absolute left-[-32px] top-0 text-[60px] text-[#C4973B]/20 font-serif">“</span>
+                <blockquote className="font-playfair text-[30px] text-[#001f3f] leading-[1.3] py-[24px] relative">
+                  <span className="absolute left-[-32px] top-0 text-[60px] text-[#C4973B]/20">“</span>
                   India’s economy is fundamentally stronger when every business has access to clear, structured, and honest advisory.
                 </blockquote>
                 <p className="text-justify">
@@ -79,7 +79,7 @@ export default function WhoWeAre() {
                 <div className="h-[1px] w-[48px] bg-[#C4973B]/40"></div>
                 <div>
                   <div className="text-[#001f3f] font-[700] uppercase tracking-[0.3em] text-[11px] mb-[4px]">Ashish Chaudhary</div>
-                  <div className="text-[#C4973B] font-playfair italic text-[14px]">Founder & Managing Director</div>
+                  <div className="text-[#C4973B] font-playfair text-[14px]">Founder & Managing Director</div>
                 </div>
               </div>
             </div>
@@ -89,7 +89,9 @@ export default function WhoWeAre() {
               <img
                 alt="Portrait of Ashish Chaudhary"
                 className="w-full h-full object-contain"
-                src="/whoweare/unnamed.jpg"
+                // src="/whoweare/unnamed.jpg"
+
+                 src="/whoweare/bannner.jpeg"
               />
               
             </div>
@@ -111,8 +113,8 @@ export default function WhoWeAre() {
             {valuesData.map((val, idx) => (
               <div key={idx} className="border-l border-white/10 pl-[32px] py-[16px] hover:border-[#C4973B] transition-colors duration-500">
                 <h3 className="text-[#C4973B]   text-[15px] tracking-[0.3em] uppercase mb-[16px] font-bold">{val.subtitle}</h3>
-                <p className="font-playfair text-[24px]">{val.title}</p>
-                <p className="text-white text-[14px] mt-[16px] font-[300] leading-[1.6]">{val.description}</p>
+                <p className=" text-[24px]">{val.title}</p>
+                <p className="text-white text-[14px] mt-[16px] font-[300] leading-[1.6] font-playfair">{val.description}</p>
               </div>
             ))}
           </div>

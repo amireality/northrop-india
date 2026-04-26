@@ -11,7 +11,7 @@ const QualityOfEarnings = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Quality of Earnings", link: null }
     ],
-    bannerTitle: <>Quality of <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Earnings</span></>,
+    bannerTitle: <>Quality of <br /><span className=" text-[#C4973B]">Earnings</span></>,
     bannerDescription: "Ensure that the EBITDA you are paying for actually exists sustainably.",
     primaryBtnText: "Commission QoE Analysis",
     secondaryBtnText: "Download QoE Overview",

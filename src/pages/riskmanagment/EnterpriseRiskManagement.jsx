@@ -9,7 +9,7 @@ const EnterpriseRiskManagement = () => {
       { name: "Risk Management", link: "/risk-management" },
       { name: "ERM", link: null }
     ],
-    bannerTitle: <>Your business has a risk  <br />  register.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Nobody has updated it since <br />  2022.</span></>,
+    bannerTitle: <>Your business has a risk  <br />  register.<br /> <span className="text-[#C4973B]">Nobody has updated it since <br />  2022.</span></>,
     bannerDescription: "Enterprise Risk Management is not a document exercise. It is a living framework that connects your highest-probability risks to specific owners, response plans, and board-level visibility — before those risks become crises.",
     primaryBtnText: "Build Your ERM Framework",
     secondaryBtnText: "See what's at risk ↓",

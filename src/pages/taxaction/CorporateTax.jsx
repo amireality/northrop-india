@@ -8,7 +8,7 @@ const CorporateTax = () => {
             { name: "Home", link: "/" },
             { name: "Corporate Tax Advisory", link: null }
         ],
-        bannerTitle: <>Your tax return was filed on <br /> time. <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Was it filed correctly?</span></>,
+        bannerTitle: <>Your tax return was filed on <br /> time. <br /><span className="text-[#C4973B]">Was it filed correctly?</span></>,
         bannerDescription: "Corporate tax in India is not a filing exercise. It is a strategic decision with permanent consequences — on transaction structuring, inter-company pricing, depreciation claims, and provisions. Errors compound. Tax notices arrive 3–6 years later, with interest and penalties.",
         primaryBtnText: "Get Corporate Tax Advisory",
         secondaryBtnText: "See what's at risk ↓",

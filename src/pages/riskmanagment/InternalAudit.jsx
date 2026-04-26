@@ -9,7 +9,7 @@ const InternalAuditPage = () => {
       { name: "Risk Management", link: "/risk-management" },
       { name: "Internal Audit", link: null }
     ],
-    bannerTitle: <>Your internal audit <br /> function reports to <br /> management.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Who is auditing management?</span></>,
+    bannerTitle: <>Your internal audit <br /> function reports to <br /> management.<br /> <span className="text-[#C4973B]">Who is auditing management?</span></>,
     bannerDescription: "An internal audit that exists to satisfy a checkbox protects no one. A genuinely independent, risk-based internal audit function is the earliest warning system between your business and a material failure.",
     primaryBtnText: "Commission an Internal Audit",
     secondaryBtnText: "See what's at risk ↓",

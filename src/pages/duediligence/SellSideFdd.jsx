@@ -11,7 +11,7 @@ const SellSideFdd = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Sell-Side FDD", link: null }
     ],
-    bannerTitle: <>Sell-Side <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">FDD</span></>,
+    bannerTitle: <>Sell-Side <br /><span className=" text-[#C4973B]">FDD</span></>,
     bannerDescription: "Maximize your valuation and minimize disruptions during your exit process with proactive financial due diligence.",
     primaryBtnText: "Prepare for Sale",
     secondaryBtnText: "Speak to an Advisor",

@@ -11,7 +11,7 @@ const MissingDocsReport = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Missing Docs Report", link: null }
     ],
-    bannerTitle: <>Missing Docs <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Report</span></>,
+    bannerTitle: <>Missing Docs <br /><span className=" text-[#C4973B]">Report</span></>,
     bannerDescription: "Identify missing critical legal, financial, and operational documents before deal closure.",
     primaryBtnText: "Start Document Review",
     secondaryBtnText: "Speak to an Advisor",
