@@ -14,7 +14,7 @@ const IndirectTax = () => {
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TX — 04 /",
         svcTag: "Indirect Tax (GST) Advisory",
-        svcH2: <>The GST department audit found ₹4 Cr in ITC claimed on invoices that don't appear in GSTR-2B. <em className="italic text-blue-600 not-italic font-serif">The supplier had defaulted on their returns.</em></>,
+        svcH2: <>The GST department audit found ₹4 Cr in ITC claimed on invoices that don't appear in GSTR-2B. <em className="italic text-[#C4973B] not-italic font-serif">The supplier had defaulted on their returns.</em></>,
         hookText: "GST compliance is a continuous obligation — not a monthly filing. GSTR-2B mismatches, ITC reversals on exempt supplies, and RCM defaults compound month after month. The cumulative liability at the time of an audit is rarely what the company anticipated.",
         painLabel: "Where GST exposure accumulates — by industry",
         painList: [

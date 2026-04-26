@@ -15,7 +15,7 @@ const AmlKycSanctionsPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "FI — 07 /",
     svcTag: "AML KYC & Sanctions Consulting Review Services",
-    svcH2: <>The RBI inspection found SAR filing deficiencies across 340 customer accounts. <em className="italic text-blue-600 not-italic font-serif">The KYC was complete. The monitoring wasn't.</em></>,
+    svcH2: <>The RBI inspection found SAR filing deficiencies across 340 customer accounts. <em className="italic text-[#C4973B] not-italic font-serif">The KYC was complete. The monitoring wasn't.</em></>,
     hookText: "AML compliance failure is the fastest path to regulatory action for financial institutions — and increasingly for fintech, real estate, and professional service firms. The question is never whether your KYC forms were complete. It is whether your monitoring caught what the KYC missed.",
     painLabel: "AML / KYC failures that trigger enforcement — by regulated sector",
     painList: [

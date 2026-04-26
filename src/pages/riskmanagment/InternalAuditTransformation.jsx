@@ -15,7 +15,7 @@ const InternalAuditTransformationPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "RM — 02 /",
     svcTag: "Internal Audit Transformation",
-    svcH2: <>The audit team files 12 reports a year. <em className="italic text-blue-600 not-italic">The board has actioned findings from two of them.</em></>,
+    svcH2: <>The audit team files 12 reports a year. <em className="italic text-[#C4973B] not-italic">The board has actioned findings from two of them.</em></>,
     hookText: "Internal audit transformation is about building an IA function that matters — with the right risk framework, the right reporting cadence, and findings calibrated to decisions, not documentation.",
     painLabel: "Signs your internal audit function needs transformation",
     painList: [

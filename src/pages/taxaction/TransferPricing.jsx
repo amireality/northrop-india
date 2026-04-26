@@ -14,7 +14,7 @@ const TransferPricing = () => {
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TX — 03 /",
         svcTag: "Transfer Pricing Advisory",
-        svcH2: <>The TPO rejected the CUP method and applied TNMM. <em className="italic text-blue-600 not-italic font-serif">The adjustment was ₹18 Cr. The penalty was another ₹9 Cr.</em></>,
+        svcH2: <>The TPO rejected the CUP method and applied TNMM. <em className="italic text-[#C4973B] not-italic font-serif">The adjustment was ₹18 Cr. The penalty was another ₹9 Cr.</em></>,
         hookText: "Transfer pricing adjustments are not theoretical. They are quantified, penalised, and enforced. The only protection is contemporaneous documentation — prepared at the time of the transaction, not after the notice arrives.",
         painLabel: "Where transfer pricing disputes originate",
         painList: [

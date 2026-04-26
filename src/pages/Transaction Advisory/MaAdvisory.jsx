@@ -15,7 +15,7 @@ const MaAdvisory = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "TA — 01 /",
     svcTag: "M&A Advisory",
-    svcH2: <>The deal closed at ₹80 Cr. Eighteen months later, the business was worth ₹30 Cr. <em className="italic text-blue-600 not-italic font-serif">The issues were visible in the data room.</em></>,
+    svcH2: <>The deal closed at ₹80 Cr. Eighteen months later, the business was worth ₹30 Cr. <em className="italic text-[#C4973B] not-italic font-serif">The issues were visible in the data room.</em></>,
     hookText: "Most acquisitions fail to create value. The research is consistent — between 50% and 70% of M&A transactions fail to meet their stated objectives. The reasons are almost always identifiable in advance: overpayment, hidden liabilities, integration failure, or key-man risk.",
     painLabel: "Where M&A value destruction happens",
     painList: [

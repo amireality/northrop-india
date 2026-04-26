@@ -15,7 +15,7 @@ const AntiBriberyCorruptionPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "FI — 05 /",
     svcTag: "Anti-Bribery & Corruption Services",
-    svcH2: <>The whistleblower report said bribes were being paid<br />to win government contracts. <em className="italic text-blue-600 not-italic font-serif">The board had no framework to investigate.</em></>,
+    svcH2: <>The whistleblower report said bribes were being paid<br />to win government contracts. <em className="italic text-[#C4973B] not-italic font-serif">The board had no framework to investigate.</em></>,
     hookText: "Anti-bribery and corruption work operates on two levels: the preventive (building the policies, controls, and culture that reduce exposure) and the reactive (investigating allegations when they arise, before they become criminal exposure for the organisation or its directors).",
     painLabel: "Where bribery and corruption risk is highest — by sector",
     painList: [

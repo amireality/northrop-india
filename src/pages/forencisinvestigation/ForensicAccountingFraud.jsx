@@ -15,7 +15,7 @@ const ForensicAccountingFraudPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "FI — 01 /",
     svcTag: "Forensic Accounting Fraud Investigations",
-    svcH2: <>The irregularity was first noticed two years ago. <em className="italic text-blue-600 not-italic font-serif">It was dismissed as a data entry error.</em></>,
+    svcH2: <>The irregularity was first noticed two years ago. <em className="italic text-[#C4973B] not-italic font-serif">It was dismissed as a data entry error.</em></>,
     hookText: "Fraud follows patterns. Round numbers. Clustered timing. Related-party coincidences. Northrop's forensic investigators are trained to find those patterns in data that looks normal — and translate them into evidence that holds up in court.",
     painLabel: "How fraud manifests — by industry",
     painList: [

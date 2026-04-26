@@ -15,7 +15,7 @@ const PostMergeintregetion = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "TA — 05 /",
     svcTag: "Post-Merger Integration",
-    svcH2: <>The cultural clash was visible in the first week. <em className="italic text-blue-600 not-italic font-serif">The integration plan assumed it would resolve itself. It didn't.</em></>,
+    svcH2: <>The cultural clash was visible in the first week. <em className="italic text-[#C4973B] not-italic font-serif">The integration plan assumed it would resolve itself. It didn't.</em></>,
     hookText: "Integration failures are not random. They are predictable — and preventable — with the right planning before day one. The companies that create value from acquisitions are the ones that treat integration as a parallel workstream to deal closing, not an afterthought.",
     painLabel: "How post-merger integration goes wrong",
     painList: [

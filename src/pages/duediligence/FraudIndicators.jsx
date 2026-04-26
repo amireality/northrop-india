@@ -17,7 +17,9 @@ const FraudIndicators = () => {
     secondaryBtnText: "Confidential Inquiry",
     svcNum: "06 /",
     svcTag: "Fraud Indicators Analysis",
-    svcH2: "Fraud never announces itself.<br/>It hides in the <em class=\"italic text-[#1E4D8C]\">ordinary.</em>",
+   svcH2:     <span dangerouslySetInnerHTML={{ __html: `Fraud never announces itself.<br/>It hides in the <em class="italic text-[#C4973B] not-italic font-serif">ordinary.</em>` }} />,
+
+
     hookText: "Most financial fraud doesn't look dramatic. It looks like a slightly unusual creditor balance, a vendor nobody has ever met, and a year-end journal entry nobody questions.",
     painLabel: "The patterns that precede every major fraud",
     painList: [

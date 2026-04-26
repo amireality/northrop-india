@@ -15,7 +15,7 @@ const RiskControlRegister = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "RM — 04 /",
     svcTag: "Risk & Control Registers Consulting",
-    svcH2: <>The control was in the register. <em className="italic text-blue-600 not-italic">It had never been tested. It didn't work.</em></>,
+    svcH2: <>The control was in the register. <em className="italic text-[#C4973B] not-italic">It had never been tested. It didn't work.</em></>,
     hookText: "Most organisations can tell you what controls exist. Almost none can tell you whether those controls are operating effectively today. The Risk and Control Register closes that gap — linking risk to control to evidence.",
     painLabel: "Where RCR gaps create real exposure",
     painList: [

@@ -15,7 +15,7 @@ const IndAsApplicabilityPage = () => {
     secondaryBtnText: "Understand what triggers it ↓",
     svcNum: "FR — 06 /",
     svcTag: "Ind-AS Applicability Compliance Consultants",
-    svcH2: <>The MCA notice arrived. Your auditor<br />issued a qualification. <em className="italic text-blue-600 not-italic font-serif">You didn't know you needed Ind-AS.</em></>,
+    svcH2: <>The MCA notice arrived. Your auditor<br />issued a qualification. <em className="italic text-[#C4973B] not-italic font-serif">You didn't know you needed Ind-AS.</em></>,
     hookText: "Ind-AS applicability is determined by thresholds that change as your business grows — and subsidiaries of Ind-AS companies are drawn in automatically, regardless of their own size. Ignorance of applicability is not a defence.",
     painLabel: "How companies get caught — by industry and structure",
     painList: [

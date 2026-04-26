@@ -14,7 +14,7 @@ const TaxControversy = () => {
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TX — 06 /",
         svcTag: "Tax Controversy & Dispute Resolution",
-        svcH2: <>The company paid the demand to avoid interest. <em className="italic text-blue-600 not-italic font-serif">It should have appealed. The position was defensible.</em></>,
+        svcH2: <>The company paid the demand to avoid interest. <em className="italic text-[#C4973B] not-italic font-serif">It should have appealed. The position was defensible.</em></>,
         hookText: "Not every tax demand is correct. Not every assessment position taken by an Assessing Officer is sustainable. The difference between a company that pays ₹8 Cr it didn't owe and one that recovers it is the quality of its tax controversy representation.",
         painLabel: "Where tax disputes go wrong — without expert management",
         painList: [

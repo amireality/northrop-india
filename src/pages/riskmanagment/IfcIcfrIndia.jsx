@@ -15,7 +15,7 @@ const IfcIcfrIndia = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "RM — 05 /",
     svcTag: "IFC / ICFR in India",
-    svcH2: <>The board signed the IFC declaration. <em className="italic text-blue-600 not-italic">Nobody had actually tested the controls.</em></>,
+    svcH2: <>The board signed the IFC declaration. <em className="italic text-[#C4973B] not-italic">Nobody had actually tested the controls.</em></>,
     hookText: "Directors sign off on the adequacy of Internal Financial Controls every year. Most have never seen the underlying testing documentation. When a material weakness surfaces — in audit, in due diligence, or in a regulatory review — the personal liability lands with the board.",
     painLabel: "Where IFC / ICFR failures create serious consequences",
     painList: [

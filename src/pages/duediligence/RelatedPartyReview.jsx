@@ -17,7 +17,7 @@ const RelatedPartyReview = () => {
     secondaryBtnText: "IBC / NCLT Inquiry",
     svcNum: "09 /",
     svcTag: "Related Party Review",
-    svcH2: "The most expensive transactions in your<br/>target's history were with <em class=\"italic text-[#1E4D8C]\">entities the promoter owns.</em>",
+    svcH2:    <span dangerouslySetInnerHTML={{ __html:  `The most expensive transactions in your<br/>target's history were with <em class="italic text-[#C4973B]">entities the promoter owns.</em>`}} />,
     hookText: "Related party transactions are the single most common vehicle for value extraction in Indian mid-market companies. They are legal, disclosed — and they can destroy deal economics post-acquisition.",
     painLabel: "What related party transactions actually look like",
     painList: [

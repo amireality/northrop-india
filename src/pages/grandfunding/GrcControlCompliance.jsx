@@ -14,7 +14,7 @@ const GrcControlCompliance = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "GF — 07 /",
     svcTag: "GRC Control & Compliance Services",
-    svcH2: <>The due diligence questionnaire asked about governance structures, risk management, and compliance. <em className="italic text-blue-600 not-italic">The organisation could only answer three of the twelve questions.</em></>,
+    svcH2: <>The due diligence questionnaire asked about governance structures, risk management, and compliance. <em className="italic text-[#C4973B] not-italic">The organisation could only answer three of the twelve questions.</em></>,
     hookText: "International funders, bilateral donors, and sophisticated CSR committees conduct organisational due diligence before making grants. They are specifically looking for governance quality, risk awareness, and compliance credibility.",
     painLabel: "Where GRC gaps block organisational growth",
     painList: [

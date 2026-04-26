@@ -17,7 +17,7 @@ const RedFlagReport = () => {
     secondaryBtnText: "Urgent Inquiry",
     svcNum: "05 /",
     svcTag: "Red Flag Report",
-    svcH2: "You don't need a 200-page report.<br/>You need to know <em class=\"italic text-[#1E4D8C]\">if something is wrong.</em>",
+    svcH2:    <span dangerouslySetInnerHTML={{ __html:  `You don't need a 200-page report.<br/>You need to know <em class="italic text-[#C4973B]">if something is wrong.</em>`}} />,
     hookText: "The Red Flag Report is designed for speed. When a deal, a credit, or a partnership raises a question — we answer it within 5-7 business days with a focused, actionable assessment.",
     painLabel: "When you need a Red Flag Report — immediately",
     painList: [

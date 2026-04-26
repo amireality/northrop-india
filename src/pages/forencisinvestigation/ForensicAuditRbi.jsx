@@ -15,7 +15,7 @@ const ForensicAuditRbiPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "FI — 03 /",
     svcTag: "Forensic Audit Services Under RBI",
-    svcH2: <>The consortium bank ordered the forensic audit. <em className="italic text-blue-600 not-italic font-serif">The findings will determine your recovery strategy.</em></>,
+    svcH2: <>The consortium bank ordered the forensic audit. <em className="italic text-[#C4973B] not-italic font-serif">The findings will determine your recovery strategy.</em></>,
     hookText: "RBI's Master Directions on Fraud Classification require forensic audits for accounts above ₹3 Cr where fraud is suspected. The forensic auditor's report triggers fraud classification, CRILC reporting, and CBI referral. Getting it right — or challenging findings that are wrong — requires deep regulatory expertise.",
     painLabel: "What RBI forensic audits uncover — and what's at stake",
     painList: [

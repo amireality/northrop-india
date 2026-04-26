@@ -85,10 +85,10 @@ export default function WhoWeAre() {
             </div>
           </div>
           <div className="col-span-1 lg:col-span-5 order-1 lg:order-2">
-            <div className="relative aspect-[3/4] overflow-hidden">
+            <div className="relative aspect-[4/4] overflow-hidden">
               <img
                 alt="Portrait of Ashish Chaudhary"
-                className="w-full h-full object-contain"
+                className="w-full  object-contain"
                 // src="/whoweare/unnamed.jpg"
 
                  src="/whoweare/bannner.jpeg"

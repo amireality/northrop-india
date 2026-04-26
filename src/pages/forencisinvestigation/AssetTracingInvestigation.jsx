@@ -15,7 +15,7 @@ const AssetTracingInvestigationPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "FI — 06 /",
     svcTag: "Asset Tracing Investigation Services India",
-    svcH2: <>The borrower said he had no assets.<br /><em className="italic text-blue-600 not-italic font-serif">The asset trace found three properties and a holding company in Mauritius.</em></>,
+    svcH2: <>The borrower said he had no assets.<br /><em className="italic text-[#C4973B] not-italic font-serif">The asset trace found three properties and a holding company in Mauritius.</em></>,
     hookText: "Fraudsters don't keep stolen money in one place. They layer it through multiple accounts, entities, and sometimes jurisdictions. Asset tracing reconstructs that journey — identifying assets that can be attached, frozen, and ultimately recovered.",
     painLabel: "When asset tracing becomes critical",
     painList: [

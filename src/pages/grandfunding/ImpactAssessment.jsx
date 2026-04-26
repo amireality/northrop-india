@@ -14,7 +14,7 @@ const ImpactAssessmentPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "GF — 02 /",
     svcTag: "Impact Assessment Services",
-    svcH2: <>The three-year grant ended. <em className="italic text-blue-600 not-italic">The funder wanted impact data before renewing. The organisation had anecdotes.</em></>,
+    svcH2: <>The three-year grant ended. <em className="italic text-[#C4973B] not-italic">The funder wanted impact data before renewing. The organisation had anecdotes.</em></>,
     hookText: "Funders have become significantly more sophisticated in their impact requirements. Anecdotes and activity counts are no longer sufficient. Social return on investment, outcome harvesting, and theory of change verification are increasingly standard requirements.",
     painLabel: "Where inadequate impact measurement creates funding risk",
     painList: [

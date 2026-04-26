@@ -14,7 +14,7 @@ const CsrConsultingPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "GF — 04 /",
     svcTag: "Corporate Social Responsibility Consulting",
-    svcH2: <>The CSR audit found that 40% of the spending did not qualify under Schedule VII. <em className="italic text-blue-600 not-italic">The shortfall is now a penalty plus mandatory catch-up expenditure.</em></>,
+    svcH2: <>The CSR audit found that 40% of the spending did not qualify under Schedule VII. <em className="italic text-[#C4973B] not-italic">The shortfall is now a penalty plus mandatory catch-up expenditure.</em></>,
     hookText: "CSR compliance under the Companies Act 2013 is more complex than it appears — qualifying activities, implementing agency governance, utilisation certification, and CSR-1 compliance create a compliance architecture that many companies do not have in place.",
     painLabel: "Where CSR compliance creates corporate risk",
     painList: [

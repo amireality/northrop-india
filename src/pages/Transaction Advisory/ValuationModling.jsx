@@ -15,7 +15,7 @@ const ValuationModling = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "TA — 02 /",
     svcTag: "Valuation Modeling",
-    svcH2: <>The valuation report said ₹120 Cr. The buyer's FDD found earnings of half the projected amount. <em className="italic text-blue-600 not-italic font-serif">The valuation was built on assumptions that didn't hold.</em></>,
+    svcH2: <>The valuation report said ₹120 Cr. The buyer's FDD found earnings of half the projected amount. <em className="italic text-[#C4973B] not-italic font-serif">The valuation was built on assumptions that didn't hold.</em></>,
     hookText: "Regulatory, transactional, and litigation valuations are all different in scope and methodology — but they share one requirement: the assumptions must be defensible, the method must be appropriate, and the conclusion must survive scrutiny.",
     painLabel: "Where valuation failures create real-world consequences",
     painList: [

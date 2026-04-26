@@ -17,7 +17,7 @@ const LenderDueDiligence = () => {
     secondaryBtnText: "Credit Surveillance Inquiry",
     svcNum: "04 /",
     svcTag: "Lender Due Diligence",
-    svcH2: <span dangerouslySetInnerHTML={{ __html: `The borrower's financials looked strong<br/>at sanction. <em class="italic text-blue-600 not-italic font-serif">The NPA happened anyway.</em>` }} />,
+    svcH2: <span dangerouslySetInnerHTML={{ __html: `The borrower's financials looked strong<br/>at sanction. <em class="italic text-[#C4973B] not-italic font-serif">The NPA happened anyway.</em>` }} />,
     hookText: "Lender due diligence is not a compliance checkbox. It is the last independent verification between your capital and a borrower's ability to construct a convincing story.",
     painLabel: "What lenders miss at the appraisal stage",
     painList: [

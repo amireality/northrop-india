@@ -17,7 +17,7 @@ const QualityOfEarnings = () => {
     secondaryBtnText: "Download QoE Overview",
     svcNum: "10 /",
     svcTag: "Quality of Earnings",
-    svcH2: "You are valuing a business on EBITDA<br/>that <em class=\"italic text-[#1E4D8C]\">doesn't actually exist.</em>",
+    svcH2:    <span dangerouslySetInnerHTML={{ __html:  `You are valuing a business on EBITDA<br/>that <em class="italic text-[#C4973B]">doesn't actually exist.</em>`}} />,
     hookText: "Quality of Earnings is the most important number in any deal — and the most manipulated. Every valuation multiple you apply is stacked on top of earnings that may be inflated, unsustainable, or constructed.",
     painLabel: "How EBITDA gets manufactured before a sale",
     painList: [

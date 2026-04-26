@@ -15,7 +15,7 @@ const EnterpriseRiskManagement = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "RM — 03 /",
     svcTag: "Enterprise Risk Management Services",
-    svcH2: <>The risk was identified. It was on the register. <em className="italic text-blue-600 not-italic">Nobody owned the response plan.</em></>,
+    svcH2: <>The risk was identified. It was on the register. <em className="italic text-[#C4973B] not-italic">Nobody owned the response plan.</em></>,
     hookText: "Most risk registers are written once, approved by the board, and never touched again. Enterprise risk management done right is a continuous process — with quarterly reviews, escalation triggers, and risk owners who are accountable.",
     painLabel: "What ERM failures look like — by industry",
     painList: [

@@ -14,7 +14,7 @@ const PersonalTax = () => {
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TX — 05 /",
         svcTag: "Personal Tax Advisory",
-        svcH2: <>The income tax notice was for undisclosed foreign assets. <em className="italic text-blue-600 not-italic font-serif">The penalty was 300% of the undisclosed amount.</em></>,
+        svcH2: <>The income tax notice was for undisclosed foreign assets. <em className="italic text-[#C4973B] not-italic font-serif">The penalty was 300% of the undisclosed amount.</em></>,
         hookText: "Personal tax in India is increasingly complex for business owners, senior executives, and HNIs — with ESOPs, capital gains, foreign assets, TDS obligations, and Equalisation Levy creating a compliance landscape that requires expert navigation.",
         painLabel: "Where personal tax exposure is highest",
         painList: [

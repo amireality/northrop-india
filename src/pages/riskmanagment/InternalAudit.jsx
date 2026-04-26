@@ -15,7 +15,7 @@ const InternalAuditPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "RM — 01 /",
     svcTag: "Internal Audit",
-    svcH2: <>The control failure was flagged in the internal audit draft. <em className="italic text-blue-600 not-italic">It never made it to the board.</em></>,
+    svcH2: <>The control failure was flagged in the internal audit draft. <em className="italic text-[#C4973B] not-italic">It never made it to the board.</em></>,
     hookText: "Independence is not a formality. When internal audit reports to the CFO whose budgets are being reviewed, findings that matter quietly disappear. Northrop conducts internal audit as an independent mandate — findings reach the board, every time.",
     painLabel: "What happens when internal audit isn't truly independent",
     painList: [

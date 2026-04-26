@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Footer() {
   return (
     <footer
-      className="bg-cover bg-center bg-no-repeat px-6 py-20 text-white md:px-10 lg:px-20 bg-[#0E0E0E]"
+      className="bg-cover bg-center bg-no-repeat px-6 py-10 text-white md:px-10 lg:px-20 bg-[#0E0E0E]"
     >
       <div className="mx-auto w-full max-w-[1400px]">
         {/* Main Grid: Logo + Links + Form */}
@@ -80,7 +80,7 @@ function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-10 flex flex-col md:flex-row items-center justify-between border-b border-gray-300 py-4 text-[12px] text-gray-300">
+        <div className="mt-10 flex flex-col md:flex-row items-center justify-between border-t border-gray-300 py-4 text-[12px] text-gray-300">
           <p>© 2026 Northrop Management Private Limited. All Rights Reserved.</p>
 
           <div className="flex gap-6 mt-4 md:mt-0">

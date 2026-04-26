@@ -17,7 +17,7 @@ const MissingDocsReport = () => {
     secondaryBtnText: "Speak to an Advisor",
     svcNum: "07 /",
     svcTag: "Missing Docs Report",
-    svcH2: "The document you couldn't find<br/>is the one that <em class=\"italic text-[#1E4D8C]\">kills the deal.</em>",
+    svcH2:    <span dangerouslySetInnerHTML={{ __html:  `The document you couldn't find<br/>is the one that <em class="italic text-[#C4973B]">kills the deal.</em>`}} />,
     hookText: "A structured missing documents report ensures that nothing can come back after signing to invalidate your reps, your warranties, or your valuation.",
     painLabel: "What missing documents actually cost you",
     painList: [

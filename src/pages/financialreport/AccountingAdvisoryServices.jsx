@@ -15,7 +15,7 @@ const AccountingAdvisoryServicesPage = () => {
     secondaryBtnText: "See where it goes wrong ↓",
     svcNum: "FR — 02 /",
     svcTag: "Accounting Advisory Services",
-    svcH2: <>The policy seemed reasonable when you adopted it. <em className="italic text-blue-600 not-italic">It doesn't hold up in a deal room.</em></>,
+    svcH2: <>The policy seemed reasonable when you adopted it. <em className="italic text-[#C4973B] not-italic">It doesn't hold up in a deal room.</em></>,
     hookText: "Accounting is not just bookkeeping — it is the language in which your business communicates its value to investors, lenders, and regulators. If that language is imprecise, the consequences follow you.",
     painLabel: "Industry-specific accounting failures — and their cost",
     painList: [

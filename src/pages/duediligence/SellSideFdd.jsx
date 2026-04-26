@@ -17,7 +17,7 @@ const SellSideFdd = () => {
     secondaryBtnText: "Speak to an Advisor",
     svcNum: "02 /",
     svcTag: "Sell-Side FDD",
-    svcH2: <span dangerouslySetInnerHTML={{ __html: `Your buyer's FDD team is about to find<br/>everything you <em class="italic text-blue-600 not-italic font-serif">hoped they wouldn't.</em>` }} />,
+    svcH2: <span dangerouslySetInnerHTML={{ __html: `Your buyer's FDD team is about to find<br/>everything you <em class="italic text-[#C4973B] not-italic font-serif">hoped they wouldn't.</em>` }} />,
     hookText: "Sell-side FDD is not about concealment. It is about finding the problems first — so you control the narrative, the timeline, and the price.",
     painLabel: "How deals collapse in the final stretch",
     painList: [

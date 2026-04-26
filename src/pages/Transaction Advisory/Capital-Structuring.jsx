@@ -15,7 +15,7 @@ const CapitalStructuring = () => {
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TA — 03 /",
         svcTag: "Capital Structuring",
-        svcH2: <>The term loan seemed manageable at ₹8 Cr annual repayment. <em className="italic text-blue-600 not-italic font-serif">When EBITDA fell 30%, the debt service consumed the entire free cash flow.</em></>,
+        svcH2: <>The term loan seemed manageable at ₹8 Cr annual repayment. <em className="italic text-[#C4973B] not-italic font-serif">When EBITDA fell 30%, the debt service consumed the entire free cash flow.</em></>,
         hookText: "Capital structure is not just about finding the cheapest source of funds — it is about designing a financial architecture that is sustainable across business cycles, supports your growth plans, and preserves optionality for future decisions.",
         painLabel: "Where capital structure creates lasting problems",
         painList: [

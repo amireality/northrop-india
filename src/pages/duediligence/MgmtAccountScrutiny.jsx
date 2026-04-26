@@ -17,7 +17,7 @@ const MgmtAccountScrutiny = () => {
     secondaryBtnText: "Scope a Review",
     svcNum: "08 /",
     svcTag: "Management Account Scrutiny",
-    svcH2: "Management accounts show ₹8 Cr EBITDA.<br/>Audited accounts show <em class=\"italic text-[#1E4D8C]\">₹4.2 Cr.</em>",
+    svcH2:    <span dangerouslySetInnerHTML={{ __html:  `Management accounts show ₹8 Cr EBITDA.<br/>Audited accounts show <em class="italic text-[#C4973B]">₹4.2 Cr.</em>`}} />,
     hookText: "The gap between management accounts and audited financials is where deals unravel, credit decisions collapse, and boards get blindsided. Management Account Scrutiny closes that gap.",
     painLabel: "Why management accounts cannot be trusted at face value",
     painList: [

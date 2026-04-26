@@ -14,7 +14,7 @@ const InternationalTax = () => {
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TX — 02 /",
         svcTag: "International Tax Advisory",
-        svcH2: <>The holding structure made commercial sense. <em className="italic text-blue-600 not-italic font-serif">POEM rules meant the Indian tax authority treated it as resident in India anyway.</em></>,
+        svcH2: <>The holding structure made commercial sense. <em className="italic text-[#C4973B] not-italic font-serif">POEM rules meant the Indian tax authority treated it as resident in India anyway.</em></>,
         hookText: "International tax structures that were standard practice five years ago are increasingly being challenged — through POEM, GAAR, treaty denial, and beneficial ownership challenges. Northrop helps Indian companies and multinationals navigate this environment with positions that hold up.",
         painLabel: "Where international tax exposure is highest",
         painList: [

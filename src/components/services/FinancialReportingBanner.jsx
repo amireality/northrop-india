@@ -55,7 +55,7 @@ const FinancialReportingBanner = ({
         <div className="flex flex-wrap gap-5">
           <button 
             onClick={onPrimaryClick || (() => navigate('/contact'))}
-            className="bg-[#C4973B] hover:bg-blue-500 text-white px-10 py-4 rounded-sm font-bold tracking-widest transition-all shadow-2xl hover:shadow-blue-500/20 flex items-center gap-2 text-[12px] uppercase cursor-pointer"
+            className="bg-[#C4973B] text-white px-10 py-4 rounded-sm font-bold tracking-widest transition-all shadow-2xl hover:shadow-blue-500/20 flex items-center gap-2 text-[12px] uppercase cursor-pointer"
           >
             {primaryBtnText}
             <ArrowRight size={16} />

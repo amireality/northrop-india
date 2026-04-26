@@ -15,7 +15,7 @@ const Restructuring = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "TA — 04 /",
     svcTag: "Restructuring Advisory",
-    svcH2: <>The company had ₹80 Cr of enterprise value and ₹110 Cr of debt. <em className="italic text-blue-600 not-italic font-serif">Restructuring recovered ₹60 Cr for creditors. Liquidation would have recovered ₹20 Cr.</em></>,
+    svcH2: <>The company had ₹80 Cr of enterprise value and ₹110 Cr of debt. <em className="italic text-[#C4973B] not-italic font-serif">Restructuring recovered ₹60 Cr for creditors. Liquidation would have recovered ₹20 Cr.</em></>,
     hookText: "Restructuring is not the same as insolvency. Most businesses that successfully restructure never enter IBC proceedings. The difference is the quality and timing of the restructuring advisory — and the ability to create a credible plan that lenders will accept.",
     painLabel: "When restructuring becomes necessary — and the cost of waiting",
     painList: [

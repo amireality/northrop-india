@@ -14,7 +14,7 @@ const GrantManagementUtilisationPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "GF — 06 /",
     svcTag: "Grant Management & Utilisation Services",
-    svcH2: <>The funder commissioned an audit. <em className="italic text-blue-600 not-italic">The implementing organisation could not reconcile grant expenditure to activities. The grant was recalled.</em></>,
+    svcH2: <>The funder commissioned an audit. <em className="italic text-[#C4973B] not-italic">The implementing organisation could not reconcile grant expenditure to activities. The grant was recalled.</em></>,
     hookText: "Grant management failure is more common than funders publicly acknowledge. Funds not tracked to activities, utilisation certificates not obtained, reporting timelines missed — each failure erodes the funder relationship and creates financial risk for the organisation.",
     painLabel: "Where grant management failures create serious consequences",
     painList: [

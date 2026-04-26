@@ -15,7 +15,7 @@ const LawEnforcementSupportPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "FI — 02 /",
     svcTag: "Law Enforcement Support Services",
-    svcH2: <>The case collapsed. <em className="italic text-blue-600 not-italic font-serif">The financial evidence wasn't in a form the court could use.</em></>,
+    svcH2: <>The case collapsed. <em className="italic text-[#C4973B] not-italic font-serif">The financial evidence wasn't in a form the court could use.</em></>,
     hookText: "Financial fraud cases fail not because the fraud didn't happen — but because the forensic evidence wasn't structured correctly. Northrop provides the financial forensic backbone that makes complex fraud cases prosecutable.",
     painLabel: "Where financial evidence fails law enforcement",
     painList: [

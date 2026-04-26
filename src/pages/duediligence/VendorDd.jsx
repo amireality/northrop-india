@@ -17,7 +17,7 @@ const VendorDd = () => {
     secondaryBtnText: "Request a Scope Call",
     svcNum: "03 /",
     svcTag: "Vendor Due Diligence",
-    svcH2: <span dangerouslySetInnerHTML={{ __html: `Your largest vendor accounts for 40% of<br/>your cost base. <em class="italic text-blue-600 not-italic font-serif">Do you actually know them?</em>` }} />,
+    svcH2: <span dangerouslySetInnerHTML={{ __html: `Your largest vendor accounts for 40% of<br/>your cost base. <em class="italic text-[#C4973B] not-italic font-serif">Do you actually know them?</em>` }} />,
     hookText: "Vendor fraud, inflated invoicing, and shell-company intermediaries are endemic in Indian supply chains. VDD is the firewall between your business and its biggest operational blind spot.",
     painLabel: "What goes wrong with unvetted vendors",
     painList: [

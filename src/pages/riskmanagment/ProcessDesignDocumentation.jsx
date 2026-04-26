@@ -16,7 +16,7 @@ const ProcessDesignDocumentation = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "RM — 06 /",
     svcTag: "Process Designing & Documentation Services",
-    svcH2: <>The CFO resigned. <em className="italic text-blue-600 not-italic">Six months later, nobody could explain how the month-end close worked.</em></>,
+    svcH2: <>The CFO resigned. <em className="italic text-[#C4973B] not-italic">Six months later, nobody could explain how the month-end close worked.</em></>,
     hookText: "Process documentation is not bureaucracy — it is institutional memory. It is the foundation on which controls are built, audits are conducted, and businesses scale without catastrophic dependence on specific individuals.",
     painLabel: "What undocumented processes cost — across industries",
     painList: [

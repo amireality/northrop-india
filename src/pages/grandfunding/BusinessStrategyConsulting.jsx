@@ -14,7 +14,7 @@ const BusinessStrategyConsulting = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "GF — 01 /",
     svcTag: "Business Strategy & Consulting",
-    svcH2: <>The funder liked the work. <em className="italic text-blue-600 not-italic">They didn't fund it because the strategy wasn't clear.</em></>,
+    svcH2: <>The funder liked the work. <em className="italic text-[#C4973B] not-italic">They didn't fund it because the strategy wasn't clear.</em></>,
     hookText: "Institutional funders — CSR committees, bilateral donors, government bodies — do not fund impact alone. They fund impact that is articulated clearly, delivered by organisations with a credible strategy, and measured with defensible frameworks.",
     painLabel: "Where strategy gaps cost organisations funding and impact",
     painList: [

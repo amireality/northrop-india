@@ -56,8 +56,8 @@ const ServicePageLayout = ({
 
         {/* SERVICE HEADER */}
         <div className="flex items-center gap-[14px] mb-[20px]">
-          <span className=" text-[13.6px] font-semibold text-slate-400">{svcNum}</span>
-          <span className="text-[10.7px] font-bold tracking-[0.18em] uppercase text-blue-600 bg-blue-50 px-3 py-1">{svcTag}</span>
+          <span className=" text-[13.6px] font-semibold text-[#000000]">{svcNum}</span>
+          <span className="text-[10.7px] font-bold tracking-[0.18em] uppercase text-[#ffff] bg-[#C4973B] px-3 py-1">{svcTag}</span>
         </div>
 
         <h2 className=" text-[clamp(1.9rem,3vw,2.8rem)] font-bold leading-[1.1] text-[#111a22] max-w-[760px] mb-[22px]">
@@ -155,7 +155,7 @@ const ServicePageLayout = ({
         {/* CTA */}
         <div className="flex flex-col items-center mt-10 mb-8">
           <div className="flex flex-wrap justify-center gap-5 mb-5">
-            <button onClick={() => navigate('/contact')} className="bg-[#111a22] hover:bg-blue-700 text-white text-[11.7px] font-bold tracking-[0.1em] uppercase px-7 py-[13px] transition-all">
+            <button onClick={() => navigate('/contact')} className="bg-[#C4973B]  text-white text-[11.7px] font-bold tracking-[0.1em] uppercase px-7 py-[13px] transition-all">
               {ctaPrimaryText}
             </button>
             <button onClick={() => navigate('/contact')} className="border-[1.5px] border-slate-200 text-[#111a22] hover:border-blue-600 hover:text-blue-600 text-[11.7px] font-semibold tracking-[0.07em] uppercase px-[22px] py-[12px] transition-all">

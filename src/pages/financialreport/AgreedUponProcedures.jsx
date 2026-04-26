@@ -15,7 +15,7 @@ const AgreedUponProceduresPage = () => {
     secondaryBtnText: "Understand the gaps ↓",
     svcNum: "FR — 05 /",
     svcTag: "Agreed Upon Procedures & Management Reporting",
-    svcH2: <>Your lender wants specific verification.<br />Your full audit doesn't <em className="italic text-blue-600 not-italic font-serif">cover what they need.</em></>,
+    svcH2: <>Your lender wants specific verification.<br />Your full audit doesn't <em className="italic text-[#C4973B] not-italic font-serif">cover what they need.</em></>,
     hookText: "AUP engagements fill the gap between a full statutory audit and no independent verification at all. They are precise, targeted, and legally defensible — exactly what lenders and investors demand when they need assurance on a specific financial claim.",
     painLabel: "Where AUP and management reporting failures create real problems",
     painList: [

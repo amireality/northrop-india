@@ -15,7 +15,7 @@ const DigitalForensicPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "FI — 08 /",
     svcTag: "Digital Forensic Investigation",
-    svcH2: <>The director said the email never existed. <em className="italic text-blue-600 not-italic font-serif">Digital forensics found it — and 340 others in the same thread.</em></>,
+    svcH2: <>The director said the email never existed. <em className="italic text-[#C4973B] not-italic font-serif">Digital forensics found it — and 340 others in the same thread.</em></>,
     hookText: "In the modern business environment, fraud leaves a digital trail. Deleted files, modified timestamps, WhatsApp messages, and email chains — digital forensics recovers and preserves that trail before it is further corrupted or destroyed.",
     painLabel: "When digital forensics becomes essential",
     painList: [

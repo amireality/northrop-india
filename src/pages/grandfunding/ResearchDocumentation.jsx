@@ -14,7 +14,7 @@ const ResearchDocumentationPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "GF — 05 /",
     svcTag: "Research & Documentation Services",
-    svcH2: <>The application was scored 72 out of 100 on the technical section. <em className="italic text-blue-600 not-italic">The documentation didn't substantiate the claims.</em></>,
+    svcH2: <>The application was scored 72 out of 100 on the technical section. <em className="italic text-[#C4973B] not-italic">The documentation didn't substantiate the claims.</em></>,
     hookText: "Funders receive hundreds of applications. They score them on criteria that heavily weight documented evidence of past performance, baseline data, and context analysis. Without professional research and documentation, your application competes at a disadvantage.",
     painLabel: "Where documentation gaps cost organisations grants",
     painList: [

@@ -15,7 +15,7 @@ const RiskAuditAssurancePage = () => {
     secondaryBtnText: "What's at stake",
     svcNum: "FR — 01 /",
     svcTag: "Risk Audit & Assurance Consulting",
-    svcH2: <>The audit passed. The fraud was discovered <em className="italic text-blue-600 not-italic">six months later.</em></>,
+    svcH2: <>The audit passed. The fraud was discovered <em className="italic text-[#C4973B] not-italic">six months later.</em></>,
     hookText: "Most companies confuse regulatory compliance with actual risk management. They are not the same. One protects you from the regulator. The other protects you from the business.",
     painLabel: "Who gets hurt — and how",
     painList: [

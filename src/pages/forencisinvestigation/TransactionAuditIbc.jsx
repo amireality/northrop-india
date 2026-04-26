@@ -15,7 +15,7 @@ const TransactionAuditIbcPage = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "FI — 04 /",
     svcTag: "Transaction Audit under IBC",
-    svcH2: <>The resolution value was ₹40 Cr. <em className="italic text-blue-600 not-italic font-serif">₹25 Cr had been moved to related parties in the 18 months before CIRP.</em></>,
+    svcH2: <>The resolution value was ₹40 Cr. <em className="italic text-[#C4973B] not-italic font-serif">₹25 Cr had been moved to related parties in the 18 months before CIRP.</em></>,
     hookText: "PUFE transactions represent value that was extracted from the corporate debtor before creditors could protect themselves. The transaction audit is the legal and forensic mechanism to identify, quantify, and recover that value — and Northrop has done this before the NCLT.",
     painLabel: "What PUFE transactions look like — and what they cost creditors",
     painList: [

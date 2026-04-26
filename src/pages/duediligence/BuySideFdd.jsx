@@ -17,7 +17,7 @@ const BuySideFdd = () => {
     secondaryBtnText: "Download Sample Report",
     svcNum: "01 /",
     svcTag: "Buy-Side FDD",
-    svcH2: <span dangerouslySetInnerHTML={{ __html: `You're about to wire crores into a company<br/>you've known for <em class="italic text-blue-600 not-italic font-serif">ninety days.</em>` }} />,
+    svcH2: <span dangerouslySetInnerHTML={{ __html: `You're about to wire crores into a company<br/>you've known for <em class="italic text-[#C4973B] not-italic font-serif">ninety days.</em>` }} />,
     hookText: '"The financials looked clean. The management seemed honest. We didn\'t see it coming." — Every acquirer who skipped rigorous FDD.',
     painLabel: "What acquirers discover too late",
     painList: [

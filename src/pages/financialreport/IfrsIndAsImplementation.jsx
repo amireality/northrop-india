@@ -15,7 +15,7 @@ const IfrsIndAsImplementationPage = () => {
     secondaryBtnText: "Understand the risks ↓",
     svcNum: "FR — 04 /",
     svcTag: "IFRS & IND-AS Implementation",
-    svcH2: <>Your company crossed the Ind-AS threshold<br />two years ago. <em className="italic text-blue-600 not-italic font-serif">Nobody told your accounts team.</em></>,
+    svcH2: <>Your company crossed the Ind-AS threshold<br />two years ago. <em className="italic text-[#C4973B] not-italic font-serif">Nobody told your accounts team.</em></>,
     hookText: "Ind-AS applicability is not optional past certain thresholds. The consequences of delayed or incorrect implementation range from auditor qualifications to MCA penalties to covenant breaches with lenders who expect Ind-AS-compliant statements.",
     painLabel: "Where Ind-AS transition destroys value — by sector",
     painList: [

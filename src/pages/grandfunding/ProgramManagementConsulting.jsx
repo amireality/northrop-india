@@ -14,7 +14,7 @@ const ProgramManagementConsulting = () => {
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "GF — 03 /",
     svcTag: "Program Management Consulting",
-    svcH2: <>The utilisation certificate was due. <em className="italic text-blue-600 not-italic">The programme had spent 40% of the budget and delivered 20% of the promised outcomes.</em></>,
+    svcH2: <>The utilisation certificate was due. <em className="italic text-[#C4973B] not-italic">The programme had spent 40% of the budget and delivered 20% of the promised outcomes.</em></>,
     hookText: "Funder relationships are built on delivery credibility. An organisation that consistently delivers on its programme commitments — on time, within budget, and against stated outcomes — builds a funding relationship that transcends individual grants.",
     painLabel: "Where programme management failures damage organisations",
     painList: [
