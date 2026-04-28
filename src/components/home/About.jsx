@@ -48,7 +48,7 @@ export default function About() {
         <div ref={addToRefs} className="relative overflow-hidden min-h-[500px] opacity-0 translate-y-10 transition-all duration-1000">
           <div
             className="absolute inset-0 bg-cover bg-center"
-            style={{ backgroundImage: "url('/homepageimg/aboutimg.jpeg')" }}
+            style={{ backgroundImage: "url('/homepageimg/about.jpeg')" }}
           ></div>
 
 
