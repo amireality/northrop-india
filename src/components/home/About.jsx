@@ -42,27 +42,25 @@ export default function About() {
     <section id="about" className="bg-[#FAF8F3] overflow-hidden">
 
       {/* MAIN GRID — Left Image / Right Text */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[90vh]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[60vh]">
 
         {/* LEFT — Image */}
-        <div ref={addToRefs} className="relative overflow-hidden min-h-[500px] opacity-0 translate-y-10 transition-all duration-1000">
+        <div ref={addToRefs} className="relative overflow-hidden min-h-[400px] opacity-0 translate-y-10 transition-all duration-1000">
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: "url('/homepageimg/about.jpeg')" }}
           ></div>
 
 
-             {/* OVERLAY */}
-        {/* <div className="absolute inset-0 bg-gradient-to-r from-[#141414] via-[#141414]/80 to-transparent"></div> */}
+          {/* OVERLAY */}
+          {/* <div className="absolute inset-0 bg-gradient-to-r from-[#141414] via-[#141414]/80 to-transparent"></div> */}
 
-          {/* Decorative circles */}
-          <div className="absolute top-16 left-16 w-36 h-36 border border-[#C4973B]/20 rounded-full pointer-events-none"></div>
-          <div className="absolute bottom-16 right-10 w-20 h-20 border border-[#C4973B]/10 rounded-full pointer-events-none"></div>
+
 
           {/* Location badge */}
-          <div className="absolute bottom-10 left-10 border border-[#C4973B]/40 bg-white/80 backdrop-blur-md px-5 py-3 text-[#5A5550] text-[10px] tracking-[0.14em] uppercase">
+          {/* <div className="absolute bottom-10 left-10 border border-[#C4973B]/40 bg-white/80 backdrop-blur-md px-5 py-3 text-[#5A5550] text-[10px] tracking-[0.14em] uppercase">
             New Delhi · Connaught Place
-          </div>
+          </div> */}
         </div>
 
         {/* RIGHT — Content */}
@@ -98,7 +96,7 @@ export default function About() {
           <div ref={addToRefs} className="flex flex-wrap gap-4 opacity-0 translate-y-10 transition-all duration-700 delay-300">
             <a
               href="/who-we-are"
-              className="bg-[#C4973B] text-[#0E0E0E] text-[10.5px] font-medium tracking-[0.14em] uppercase px-8 py-4 transition-all hover:bg-[#D9AF58] hover:-translate-y-0.5"
+              className="bg-[#C4973B] text-[#ffff] text-[10.5px] font-medium tracking-[0.14em] uppercase px-8 py-4 transition-all hover:bg-[#D9AF58] hover:-translate-y-0.5"
             >
               Who We Are
             </a>
@@ -114,7 +112,7 @@ export default function About() {
       </div>
 
       {/* PILLARS GRID */}
-      <div className="border-t border-[#0E0E0E]/10">
+      {/* <div className="border-t border-[#0E0E0E]/10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
           <Pillar
             num="01"
@@ -141,7 +139,7 @@ export default function About() {
             delay="delay-600"
           />
         </div>
-      </div>
+      </div> */}
     </section>
   );
 }

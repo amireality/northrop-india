@@ -100,10 +100,7 @@ export default function Hero() {
         {/* OVERLAY */}
         {/* <div className="absolute inset-0 bg-gradient-to-r from-[#141414] via-[#141414]/80 to-transparent"></div> */}
 
-        {/* DECORATIVE CIRCLES */}
-        <div className="absolute top-20 right-20 w-40 h-40 border border-[#C4973B]/20 rounded-full"></div>
-        <div className="absolute bottom-20 left-10 w-24 h-24 border border-[#C4973B]/10 rounded-full"></div>
-
+  
         {/* BADGE */}
         <div className="absolute bottom-10 right-10 border border-[#C4973B]/30 bg-[#0E0E0E]/50 backdrop-blur-md px-5 py-3 text-white/40 text-[10px] tracking-[0.14em] uppercase">
           Mumbai · Delhi · Pan-India
