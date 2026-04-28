@@ -42,29 +42,21 @@ export default function About() {
     <section id="about" className="bg-[#FAF8F3] overflow-hidden">
 
       {/* MAIN GRID — Left Image / Right Text */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[60vh]">
+      <div className="grid grid-cols-1 lg:grid-cols-2">
 
         {/* LEFT — Image */}
-        <div ref={addToRefs} className="relative overflow-hidden min-h-[400px] opacity-0 translate-y-10 transition-all duration-1000">
+        <div ref={addToRefs} className="relative min-h-[400px] lg:min-h-full opacity-0 translate-y-10 transition-all duration-1000">
           <div
-            className="absolute inset-0 bg-cover bg-center"
+            className="absolute inset-6 lg:inset-16 bg-cover bg-center rounded-sm shadow-2xl"
             style={{ backgroundImage: "url('/homepageimg/about.jpeg')" }}
           ></div>
 
 
-          {/* OVERLAY */}
-          {/* <div className="absolute inset-0 bg-gradient-to-r from-[#141414] via-[#141414]/80 to-transparent"></div> */}
-
-
-
-          {/* Location badge */}
-          {/* <div className="absolute bottom-10 left-10 border border-[#C4973B]/40 bg-white/80 backdrop-blur-md px-5 py-3 text-[#5A5550] text-[10px] tracking-[0.14em] uppercase">
-            New Delhi · Connaught Place
-          </div> */}
+        
         </div>
 
         {/* RIGHT — Content */}
-        <div className="flex flex-col justify-center px-6 py-20 lg:px-16 lg:py-32 border-l border-[#C4973B]/15">
+        <div className="flex flex-col justify-center px-6 py-10 lg:px-16 lg:py-16 border-l border-[#C4973B]/15">
 
           {/* Eyebrow tag */}
           {/* <div ref={addToRefs} className="flex items-center gap-3 text-[10px] font-medium tracking-[0.22em] uppercase text-[#C4973B] mb-8 opacity-0 translate-y-10 transition-all duration-700">
@@ -80,7 +72,7 @@ export default function About() {
           </h2>
 
           {/* Body text */}
-          <div ref={addToRefs} className="text-[15px] font-light leading-[1.85] text-[#4A4540] space-y-6 max-w-[520px] mb-12 opacity-0 translate-y-10 transition-all duration-700 delay-200">
+          <div ref={addToRefs} className="text-[15px] font-light leading-[1.85] text-[#4A4540] space-y-6 max-w-[600px] mb-12 opacity-0 translate-y-10 transition-all duration-700 delay-200">
             <p>
               Northrop is built on practitioners, not presenters. Our team comprises Chartered Accountants, CFA professionals, and specialists with post-graduate training — people who have worked on live IBC mandates before the <strong className="text-[#0E0E0E]">Hon'ble NCLT</strong>, conducted forensic audits for public sector banks, and managed continuous risk surveillance on some of India's largest listed borrowers.
             </p>

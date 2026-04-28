@@ -37,7 +37,7 @@ export default function Hero() {
         <div className="flex flex-wrap gap-4 mb-20">
           <a
             href="mailto:Business@NorthropIndia.com"
-            className="bg-[#C4973B] text-[#0E0E0E] text-[10.5px] font-medium tracking-[0.14em] uppercase px-8 py-4 transition-all hover:bg-[#D9AF58] hover:-translate-y-0.5"
+            className="bg-[#C4973B] text-[#ffff] text-[10.5px] font-medium tracking-[0.14em] uppercase px-8 py-4 transition-all hover:bg-[#D9AF58] hover:-translate-y-0.5"
           >
             Engage With Us
           </a>
