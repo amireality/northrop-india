@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, } from 'react-router-dom'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import HomePage from './pages/HomePage'
@@ -104,13 +104,15 @@ import CsrConsulting from './pages/grandfunding/CsrConsulting'
 import GrcControlCompliance from './pages/grandfunding/GrcControlCompliance'
 import IfcIcfrIndia from './pages/riskmanagment/IfcIcfrIndia'
 import ProcessDesignDocumentation from './pages/riskmanagment/ProcessDesignDocumentation'
+import Companyprofile from './pages/Companyprofile'
+
 
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
-      <main className="min-h-screen   antialiased text-[#001f3f]">
+      <main className="min-h-screen   antialiased">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/who-we-are" element={<WhoWeAre />} />
@@ -127,6 +129,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/insights" element={<Insights />} />
+          <Route path="/company-profile" element={<Companyprofile />} />
 
 
           {/* Services Sub-routes */}
@@ -236,6 +239,11 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
+
+
+
+
+
       <Footer />
     </BrowserRouter>
   )

@@ -8,13 +8,13 @@ const PersonalTax = () => {
             { name: "Home", link: "/" },
             { name: "Personal Tax Advisory", link: null }
         ],
-        bannerTitle: <>Your income tax return <br /> was filed. <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Your offshore assets <br /> weren't disclosed.</span></>,
+        bannerTitle: <>Your income tax return <br /> was filed. <br /><span className="text-[#C4973B]">Your offshore assets <br /> weren't disclosed.</span></>,
         bannerDescription: "Personal taxation for high-net-worth individuals and business owners in India has never been more scrutinised. Black Money Act disclosures, foreign asset reporting under Schedule FA, and beneficial ownership registers have eliminated the grey areas that previously existed.",
         primaryBtnText: "Get Personal Tax Advisory",
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TX — 05 /",
         svcTag: "Personal Tax Advisory",
-        svcH2: <>The income tax notice was for undisclosed foreign assets. <em className="italic text-blue-600 not-italic font-serif">The penalty was 300% of the undisclosed amount.</em></>,
+        svcH2: <>The income tax notice was for undisclosed foreign assets. <em className="italic text-[#C4973B] not-italic font-serif">The penalty was 300% of the undisclosed amount.</em></>,
         hookText: "Personal tax in India is increasingly complex for business owners, senior executives, and HNIs — with ESOPs, capital gains, foreign assets, TDS obligations, and Equalisation Levy creating a compliance landscape that requires expert navigation.",
         painLabel: "Where personal tax exposure is highest",
         painList: [

@@ -33,18 +33,18 @@ const Institute = () => {
 
         <div className="relative z-[2] max-w-[820px]">
           <div className="flex items-center gap-[10px] mb-[26px]">
-            <div className="flex-1 max-w-[40px] h-[1px] bg-[#7B5CE5]"></div>
-            <span className="text-[10.5px] font-[700] tracking-[3px] uppercase text-[#7B5CE5]">A Research & Education Initiative · Northrop Management Pvt. Ltd.</span>
+            <div className="flex-1 max-w-[40px] h-[1px] bg-[#C4973B]"></div>
+            <span className="text-[10.5px] font-[700] tracking-[3px] uppercase text-[#C4973B]">A Research & Education Initiative · Northrop Management Pvt. Ltd.</span>
           </div>
           <h1 className="text-white font-[900] leading-[1.02] tracking-[-3px] mb-[26px]" style={{ fontSize: 'clamp(46px, 6.5vw, 86px)' }}>
-            Northrop Institute<br />of <em className="not-italic text-[#7B5CE5]">Global Finance</em>
+            Northrop Institute<br />of <em className="not-italic text-[#C4973B]">Global Finance</em>
           </h1>
           <p className="text-[17px] font-[300] text-[rgba(255,255,255,0.60)] max-w-[500px] leading-[1.8] mb-[48px] tracking-[0.1px]">
             Developing the clarity of thinking required to understand markets,<br className="hidden md:block" />
             evaluate capital decisions, and operate with confidence.
           </p>
           <div className="flex flex-col sm:flex-row gap-[14px]">
-            <a href="#programs" className="text-center bg-[#7B5CE5] hover:bg-[#6344d4] text-white text-[13.5px] font-[600] px-[38px] py-[15px] tracking-[0.3px] transition-colors duration-200">
+            <a href="#programs" className="text-center bg-[#C4973B] hover:bg-[#6344d4] text-white text-[13.5px] font-[600] px-[38px] py-[15px] tracking-[0.3px] transition-colors duration-200">
               Explore Programs
             </a>
             <a href="#philosophy" className="text-center bg-transparent hover:bg-[rgba(255,255,255,0.06)] border border-[rgba(255,255,255,0.50)] hover:border-white text-white text-[13.5px] font-[500] px-[38px] py-[15px] tracking-[0.3px] transition-all duration-200">
@@ -66,7 +66,7 @@ const Institute = () => {
         ></div>
 
         <div className="relative z-[2] py-[100px] px-[40px] md:px-[80px] flex flex-col justify-center border-b md:border-b-0 md:border-r border-[rgba(255,255,255,0.10)]">
-          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">01 — Our Philosophy</div>
+          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#C4973B] mb-[18px]">01 — Our Philosophy</div>
           <h2 className="font-[900] leading-[1.08] tracking-[-1.5px] text-white" style={{ fontSize: 'clamp(30px, 3.8vw, 50px)' }}>
             Finance demands clarity,<br />not just credentials.
           </h2>
@@ -85,7 +85,7 @@ const Institute = () => {
           <p className="text-[14.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9] tracking-[0.1px]">
             Because in the real world, success in finance is rarely about how much theory you know — it is about <strong className="text-white font-[600]">how clearly you think when the stakes are high.</strong>
           </p>
-          <a href="#programs" className="inline-flex items-center gap-[8px] w-fit text-white text-[12.5px] font-[500] border-b border-[rgba(255,255,255,0.25)] hover:border-[#7B5CE5] hover:text-[#7B5CE5] pb-[2px] mt-[6px] transition-colors duration-200">
+          <a href="#programs" className="inline-flex items-center gap-[8px] w-fit text-white text-[12.5px] font-[500] border-b border-[rgba(255,255,255,0.25)] hover:border-[#C4973B] hover:text-[#C4973B] pb-[2px] mt-[6px] transition-colors duration-200">
             Explore Programs →
           </a>
         </div>
@@ -94,7 +94,7 @@ const Institute = () => {
       {/* NOT FOR */}
       <section id="not-for" className="bg-[#f2f2f2] text-[#080808] grid grid-cols-1 md:grid-cols-2 min-h-[560px]">
         <div className="py-[100px] px-[40px] md:px-[80px] border-b md:border-b-0 md:border-r border-[rgba(0,0,0,0.10)] flex flex-col justify-center">
-          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">02 — Candidacy</div>
+          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#C4973B] mb-[18px]">02 — Candidacy</div>
           <h2 className="font-[900] leading-[1.1] tracking-[-1.2px] text-[#0a0a0a]" style={{ fontSize: 'clamp(28px, 3.5vw, 46px)' }}>
             Who This Program<br />Is Not For
           </h2>
@@ -112,7 +112,7 @@ const Institute = () => {
               "Participants not willing to invest time and effort in developing financial thinking"
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-[16px] text-[14px] text-[#333] leading-[1.65] font-[400]">
-                <span className="text-[#7B5CE5] font-[700] shrink-0 pt-[1px]">—</span> {item}
+                <span className="text-[#C4973B] font-[700] shrink-0 pt-[1px]">—</span> {item}
               </li>
             ))}
           </ul>
@@ -130,21 +130,21 @@ const Institute = () => {
           />
         </div>
         <div className="bg-[#0e0e0e] py-[100px] px-[40px] md:px-[80px] flex flex-col justify-center gap-[24px] border-l border-[rgba(255,255,255,0.10)]">
-          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5]">About the Institute</div>
+          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#C4973B]">About the Institute</div>
           <h2 className="font-[900] leading-[1.1] tracking-[-1.2px] text-white" style={{ fontSize: 'clamp(28px, 3.2vw, 44px)' }}>
             About Northrop<br />Institute of Global<br />Finance
           </h2>
           <p className="text-[16px] font-[300] text-[rgba(255,255,255,0.55)] leading-[1.75]">
             We aim to empower professionals to navigate the world of capital with confidence and clarity.
           </p>
-          <div className="w-[36px] h-[2px] bg-[#7B5CE5]"></div>
+          <div className="w-[36px] h-[2px] bg-[#C4973B]"></div>
           <p className="text-[14.5px] font-[300] text-[rgba(255,255,255,0.58)] leading-[1.9]">
             Northrop Institute of Global Finance is a research and education initiative of <strong className="text-white font-[600]">Northrop Management Private Limited</strong>. We do not aim to maximise the number of participants — we aim to ensure that each cohort consists of individuals who genuinely want to develop their understanding of capital markets and financial decision-making.
           </p>
           <p className="text-[14.5px] font-[300] text-[rgba(255,255,255,0.58)] leading-[1.9]">
             Our goal is not to produce credential-holders. <strong className="text-white font-[600]">Our goal is to produce sharp financial thinkers.</strong>
           </p>
-          <a href="#programs" className="inline-block border border-[rgba(255,255,255,0.28)] hover:border-[#7B5CE5] hover:text-[#7B5CE5] text-white text-[12.5px] font-[500] px-[30px] py-[13px] w-fit tracking-[0.3px] transition-all duration-200">
+          <a href="#programs" className="inline-block border border-[rgba(255,255,255,0.28)] hover:border-[#C4973B] hover:text-[#C4973B] text-white text-[12.5px] font-[500] px-[30px] py-[13px] w-fit tracking-[0.3px] transition-all duration-200">
             Read More
           </a>
         </div>
@@ -154,7 +154,7 @@ const Institute = () => {
       <section id="fellows" className="bg-[#0e0e0e] py-[110px] px-[20px] md:px-[80px]">
         <div className="max-w-[1080px] mx-auto">
           <div className="mb-[60px]">
-            <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">03 — Northrop Fellows & Contributors</div>
+            <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#C4973B] mb-[18px]">03 — Northrop Fellows & Contributors</div>
             <h2 className="font-[900] leading-[1.08] tracking-[-1.5px] text-white" style={{ fontSize: 'clamp(30px, 3.8vw, 50px)' }}>The minds behind<br />the Institute.</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[1px] bg-[rgba(255,255,255,0.10)]">
@@ -165,11 +165,11 @@ const Institute = () => {
               { in: "PR", name: "Prerna", role: "Social Impact Fellow", desc: "10+ years in social work. Working with Shiksha for over a decade across international programmes and grassroots community finance." }
             ].map((f, i) => (
               <div key={i} className="bg-[#0e0e0e] hover:bg-[#1c1c1c] p-[48px] px-[38px] border border-[rgba(255,255,255,0.10)] hover:border-[rgba(123,92,229,0.45)] transition-colors duration-250">
-                <div className="w-[54px] h-[54px] rounded-full bg-gradient-to-br from-[#7B5CE5] to-[#4f32bb] flex items-center justify-center text-[17px] font-[800] text-white mb-[26px] tracking-[-0.5px]">
+                <div className="w-[54px] h-[54px] rounded-full bg-gradient-to-br from-[#C4973B] to-[#4f32bb] flex items-center justify-center text-[17px] font-[800] text-white mb-[26px] tracking-[-0.5px]">
                   {f.in}
                 </div>
                 <div className="text-[15.5px] font-[700] mb-[6px] tracking-[-0.2px] text-white">{f.name}</div>
-                <div className="text-[10.5px] font-[700] tracking-[1.5px] uppercase text-[#7B5CE5] mb-[14px]">{f.role}</div>
+                <div className="text-[10.5px] font-[700] tracking-[1.5px] uppercase text-[#C4973B] mb-[14px]">{f.role}</div>
                 <div className="text-[13px] font-[300] text-[rgba(255,255,255,0.50)] leading-[1.75]">{f.desc}</div>
               </div>
             ))}
@@ -182,7 +182,7 @@ const Institute = () => {
         <div className="max-w-[1080px] mx-auto">
           <div className="flex flex-col md:flex-row items-start md:items-end justify-between mb-[56px] gap-[20px]">
             <div>
-              <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">04 — Northrop Global Finance Insights</div>
+              <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#C4973B] mb-[18px]">04 — Northrop Global Finance Insights</div>
               <h2 className="font-[900] leading-[1.1] tracking-[-1.2px] text-[#0a0a0a]" style={{ fontSize: 'clamp(28px, 3.5vw, 46px)' }}>Research &<br />Insights</h2>
               <p className="text-[14.5px] text-[#555] max-w-[380px] mt-[14px] leading-[1.75] font-[300]">Expand your knowledge of capital, markets, and financial systems through our research publications.</p>
             </div>
@@ -221,7 +221,7 @@ const Institute = () => {
         <div className="absolute inset-0 bg-[rgba(8,8,8,0.93)]"></div>
 
         <div className="relative z-[2] max-w-[1080px] mx-auto w-full">
-          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] mb-[18px]">05 — Programs</div>
+          <div className="text-[10px] font-[700] tracking-[3px] uppercase text-[#C4973B] mb-[18px]">05 — Programs</div>
           <h2 className="font-[900] leading-[1.08] tracking-[-1.5px] text-white" style={{ fontSize: 'clamp(30px, 3.8vw, 50px)' }}>Nine tracks.<br />One discipline: financial thinking.</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1px] bg-[rgba(255,255,255,0.10)] mt-[56px]">
@@ -237,8 +237,8 @@ const Institute = () => {
               { num: "09", title: "Advanced Financial Modeling", desc: "Building financial models used by investment banks and private equity firms in live transactions.", tags: ["LBO Models", "Valuation", "Scenario Analysis"] }
             ].map((p, i) => (
               <div key={i} className="bg-[rgba(14,14,14,0.97)] hover:bg-[rgba(123,92,229,0.07)] p-[44px] px-[36px] flex flex-col gap-[14px] border border-[rgba(255,255,255,0.10)] hover:border-[rgba(123,92,229,0.35)] relative overflow-hidden transition-colors duration-250 group">
-                <div className="absolute top-0 left-0 right-0 h-[2px] bg-[#7B5CE5] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div className="text-[10px] font-[700] tracking-[2.5px] text-[#7B5CE5]">{p.num}</div>
+                <div className="absolute top-0 left-0 right-0 h-[2px] bg-[#C4973B] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <div className="text-[10px] font-[700] tracking-[2.5px] text-[#C4973B]">{p.num}</div>
                 <div className="text-[16.5px] font-[700] leading-[1.3] tracking-[-0.3px] text-white">{p.title}</div>
                 <div className="text-[13px] font-[300] text-[rgba(255,255,255,0.48)] leading-[1.75] flex-1">{p.desc}</div>
                 <div className="flex flex-wrap gap-[6px] mt-[4px]">
@@ -246,7 +246,7 @@ const Institute = () => {
                     <span key={idx} className="text-[9.5px] font-[600] tracking-[0.8px] uppercase text-[rgba(255,255,255,0.35)] border border-[rgba(255,255,255,0.10)] px-[10px] py-[4px]">{t}</span>
                   ))}
                 </div>
-                <a href="#" className="inline-flex items-center gap-[8px] w-fit text-[11.5px] font-[600] tracking-[1px] uppercase text-[#7B5CE5] hover:text-white mt-[4px] border border-[rgba(123,92,229,0.35)] hover:border-[#7B5CE5] px-[20px] py-[10px] bg-[rgba(123,92,229,0.08)] hover:bg-[#7B5CE5] transition-colors duration-200">
+                <a href="#" className="inline-flex items-center gap-[8px] w-fit text-[11.5px] font-[600] tracking-[1px] uppercase text-[#C4973B] hover:text-white mt-[4px] border border-[rgba(123,92,229,0.35)] hover:border-[#C4973B] px-[20px] py-[10px] bg-[rgba(123,92,229,0.08)] hover:bg-[#C4973B] transition-colors duration-200">
                   View Details →
                 </a>
               </div>
@@ -267,7 +267,7 @@ const Institute = () => {
         ></div>
 
         <div className="relative z-[2] max-w-[860px] mx-auto text-center flex flex-col items-center">
-          <span className="text-[10px] font-[700] tracking-[3px] uppercase text-[#7B5CE5] block mb-[44px]">06 — Our Promise</span>
+          <span className="text-[10px] font-[700] tracking-[3px] uppercase text-[#C4973B] block mb-[44px]">06 — Our Promise</span>
           <h2 className="font-[900] tracking-[-2px] leading-[1.05] mb-[54px] text-white" style={{ fontSize: 'clamp(34px, 5vw, 64px)' }}>
             The Truth About<br />Finance Education.
           </h2>
@@ -278,11 +278,11 @@ const Institute = () => {
             <p className="text-[15.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9]">
               Very quickly, they discover something unsettling.
             </p>
-            <div className="w-[36px] h-[2px] bg-[#7B5CE5] my-[6px]"></div>
+            <div className="w-[36px] h-[2px] bg-[#C4973B] my-[6px]"></div>
             <p className="text-[15.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9]">
               <strong className="text-white font-[600]">The real world does not operate like textbooks.</strong> Decisions must often be made with incomplete information. Markets move faster than models. Capital is unforgiving when judgment is weak.
             </p>
-            <div className="w-[36px] h-[2px] bg-[#7B5CE5] my-[6px]"></div>
+            <div className="w-[36px] h-[2px] bg-[#C4973B] my-[6px]"></div>
             <p className="text-[15.5px] font-[300] text-[rgba(255,255,255,0.62)] leading-[1.9]">
               At the Northrop Institute, our promise is simple. We will not teach finance as a collection of formulas or presentations. We will focus on developing the clarity of thinking required to navigate real financial environments — where uncertainty, risk, and responsibility are constant.
             </p>

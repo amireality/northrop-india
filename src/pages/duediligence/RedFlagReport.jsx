@@ -11,13 +11,13 @@ const RedFlagReport = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Red Flag Report", link: null }
     ],
-    bannerTitle: <>Red Flag <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Report</span></>,
+    bannerTitle: <>Red Flag <br /><span className=" text-[#C4973B]">Report</span></>,
     bannerDescription: "Rapid, focused assessments for critical go/no-go decisions.",
     primaryBtnText: "Order a Red Flag Report",
     secondaryBtnText: "Urgent Inquiry",
     svcNum: "05 /",
     svcTag: "Red Flag Report",
-    svcH2: "You don't need a 200-page report.<br/>You need to know <em class=\"italic text-[#1E4D8C]\">if something is wrong.</em>",
+    svcH2:    <span dangerouslySetInnerHTML={{ __html:  `You don't need a 200-page report.<br/>You need to know <em class="italic text-[#C4973B]">if something is wrong.</em>`}} />,
     hookText: "The Red Flag Report is designed for speed. When a deal, a credit, or a partnership raises a question — we answer it within 5-7 business days with a focused, actionable assessment.",
     painLabel: "When you need a Red Flag Report — immediately",
     painList: [

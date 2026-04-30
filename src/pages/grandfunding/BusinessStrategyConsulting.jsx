@@ -8,13 +8,13 @@ const BusinessStrategyConsulting = () => {
       { name: "Home", link: "/" },
       { name: "Business Strategy & Consulting", link: null }
     ],
-    bannerTitle: <>Your organisation does <br /> important work. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">But you can't fund what you <br /> can't articulate strategically.</span></>,
+    bannerTitle: <>Your organisation does <br /> important work. <br /> <span className="text-[#C4973B]">But you can't fund what you <br /> can't articulate strategically.</span></>,
     bannerDescription: "For NGOs, social enterprises, and mission-driven organisations, strategy is not about competitive advantage — it is about mission clarity, resource allocation, and organisational resilience. Without it, even the most impactful work becomes unsustainable.",
     primaryBtnText: "Build Your Strategy",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "GF — 01 /",
     svcTag: "Business Strategy & Consulting",
-    svcH2: <>The funder liked the work. <em className="italic text-blue-600 not-italic">They didn't fund it because the strategy wasn't clear.</em></>,
+    svcH2: <>The funder liked the work. <em className="italic text-[#C4973B] not-italic">They didn't fund it because the strategy wasn't clear.</em></>,
     hookText: "Institutional funders — CSR committees, bilateral donors, government bodies — do not fund impact alone. They fund impact that is articulated clearly, delivered by organisations with a credible strategy, and measured with defensible frameworks.",
     painLabel: "Where strategy gaps cost organisations funding and impact",
     painList: [

@@ -11,13 +11,13 @@ const MgmtAccountScrutiny = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Management Account Scrutiny", link: null }
     ],
-    bannerTitle: <>Management Account <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Scrutiny</span></>,
+    bannerTitle: <>Management Account <br /><span className=" text-[#C4973B]">Scrutiny</span></>,
     bannerDescription: "Bridge the gap between management reports and audited reality.",
     primaryBtnText: "Scrutinise Management Accounts",
     secondaryBtnText: "Scope a Review",
     svcNum: "08 /",
     svcTag: "Management Account Scrutiny",
-    svcH2: "Management accounts show ₹8 Cr EBITDA.<br/>Audited accounts show <em class=\"italic text-[#1E4D8C]\">₹4.2 Cr.</em>",
+    svcH2:    <span dangerouslySetInnerHTML={{ __html:  `Management accounts show ₹8 Cr EBITDA.<br/>Audited accounts show <em class="italic text-[#C4973B]">₹4.2 Cr.</em>`}} />,
     hookText: "The gap between management accounts and audited financials is where deals unravel, credit decisions collapse, and boards get blindsided. Management Account Scrutiny closes that gap.",
     painLabel: "Why management accounts cannot be trusted at face value",
     painList: [

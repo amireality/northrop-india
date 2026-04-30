@@ -9,13 +9,13 @@ const InternalAuditTransformationPage = () => {
       { name: "Risk Management", link: "/risk-management" },
       { name: "Internal Audit Transformation", link: null }
     ],
-    bannerTitle: <>Your internal audit <br /> function costs <br /> ₹40 lakhs a year. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Nobody reads the reports.</span></>,
+    bannerTitle: <>Your internal audit <br /> function costs <br /> ₹40 lakhs a year. <br /> <span className="text-[#C4973B]">Nobody reads the reports.</span></>,
     bannerDescription: "Internal audit transformation converts a compliance function into a genuine business intelligence engine — one that boards actually use, management actually responds to, and that prevents failures rather than documenting them after the fact.",
     primaryBtnText: "Transform Your Internal Audit",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "RM — 02 /",
     svcTag: "Internal Audit Transformation",
-    svcH2: <>The audit team files 12 reports a year. <em className="italic text-blue-600 not-italic">The board has actioned findings from two of them.</em></>,
+    svcH2: <>The audit team files 12 reports a year. <em className="italic text-[#C4973B] not-italic">The board has actioned findings from two of them.</em></>,
     hookText: "Internal audit transformation is about building an IA function that matters — with the right risk framework, the right reporting cadence, and findings calibrated to decisions, not documentation.",
     painLabel: "Signs your internal audit function needs transformation",
     painList: [

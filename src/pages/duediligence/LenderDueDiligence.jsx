@@ -11,13 +11,13 @@ const LenderDueDiligence = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Lender DD", link: null }
     ],
-    bannerTitle: <>Lender <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">DD</span></>,
+    bannerTitle: <>Lender <br /><span className=" text-[#C4973B]">DD</span></>,
     bannerDescription: "Robust financial evaluation to satisfy credit committees and structure appropriate debt facilities.",
     primaryBtnText: "Commission Lender FDD",
     secondaryBtnText: "Credit Surveillance Inquiry",
     svcNum: "04 /",
     svcTag: "Lender Due Diligence",
-    svcH2: <span dangerouslySetInnerHTML={{ __html: `The borrower's financials looked strong<br/>at sanction. <em class="italic text-blue-600 not-italic font-serif">The NPA happened anyway.</em>` }} />,
+    svcH2: <span dangerouslySetInnerHTML={{ __html: `The borrower's financials looked strong<br/>at sanction. <em class="italic text-[#C4973B] not-italic font-serif">The NPA happened anyway.</em>` }} />,
     hookText: "Lender due diligence is not a compliance checkbox. It is the last independent verification between your capital and a borrower's ability to construct a convincing story.",
     painLabel: "What lenders miss at the appraisal stage",
     painList: [

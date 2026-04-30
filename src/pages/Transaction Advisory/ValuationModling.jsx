@@ -9,13 +9,13 @@ const ValuationModling = () => {
       { name: "Home", link: "/" },
       { name: "Valuation Modeling", link: null }
     ],
-    bannerTitle: <>Your business is worth what <br />someone<br />  will pay for it.<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">But are they<br />paying the right price?.</span></>,
+    bannerTitle: <>Your business is worth what <br />someone<br />  will pay for it.<span className="text-[#C4973B]">But are they<br />paying the right price?.</span></>,
     bannerDescription: "Valuation is not an objective exercise. It is a combination of method selection, assumption defensibility, and narrative credibility. The same business can be valued at wildly different numbers depending on who does the work and how they do it.",
     primaryBtnText: "Commission a Valuation",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "TA — 02 /",
     svcTag: "Valuation Modeling",
-    svcH2: <>The valuation report said ₹120 Cr. The buyer's FDD found earnings of half the projected amount. <em className="italic text-blue-600 not-italic font-serif">The valuation was built on assumptions that didn't hold.</em></>,
+    svcH2: <>The valuation report said ₹120 Cr. The buyer's FDD found earnings of half the projected amount. <em className="italic text-[#C4973B] not-italic font-serif">The valuation was built on assumptions that didn't hold.</em></>,
     hookText: "Regulatory, transactional, and litigation valuations are all different in scope and methodology — but they share one requirement: the assumptions must be defensible, the method must be appropriate, and the conclusion must survive scrutiny.",
     painLabel: "Where valuation failures create real-world consequences",
     painList: [

@@ -9,13 +9,13 @@ const PostMergeintregetion = () => {
       { name: "Home", link: "/" },
       { name: "Post-Merger Integration", link: null }
     ],
-    bannerTitle: <>The deal closed six months<br />ago. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">The combined business is <br /> performing worse than either <br /> entity did separately.</span></>,
+    bannerTitle: <>The deal closed six months<br />ago. <br /> <span className="text-[#C4973B]">The combined business is <br /> performing worse than either <br /> entity did separately.</span></>,
     bannerDescription: "Post-merger integration is where M&A value is created or destroyed. Most acquirers invest heavily in due diligence and almost nothing in integration planning — and pay the price in the 12 months after closing.",
     primaryBtnText: "Plan Your Post-Merger Integration",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "TA — 05 /",
     svcTag: "Post-Merger Integration",
-    svcH2: <>The cultural clash was visible in the first week. <em className="italic text-blue-600 not-italic font-serif">The integration plan assumed it would resolve itself. It didn't.</em></>,
+    svcH2: <>The cultural clash was visible in the first week. <em className="italic text-[#C4973B] not-italic font-serif">The integration plan assumed it would resolve itself. It didn't.</em></>,
     hookText: "Integration failures are not random. They are predictable — and preventable — with the right planning before day one. The companies that create value from acquisitions are the ones that treat integration as a parallel workstream to deal closing, not an afterthought.",
     painLabel: "How post-merger integration goes wrong",
     painList: [

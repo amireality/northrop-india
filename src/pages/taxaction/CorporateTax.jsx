@@ -8,13 +8,13 @@ const CorporateTax = () => {
             { name: "Home", link: "/" },
             { name: "Corporate Tax Advisory", link: null }
         ],
-        bannerTitle: <>Your tax return was filed on <br /> time. <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Was it filed correctly?</span></>,
+        bannerTitle: <>Your tax return was filed on <br /> time. <br /><span className="text-[#C4973B]">Was it filed correctly?</span></>,
         bannerDescription: "Corporate tax in India is not a filing exercise. It is a strategic decision with permanent consequences — on transaction structuring, inter-company pricing, depreciation claims, and provisions. Errors compound. Tax notices arrive 3–6 years later, with interest and penalties.",
         primaryBtnText: "Get Corporate Tax Advisory",
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TX — 01 /",
         svcTag: "Corporate Tax Advisory",
-        svcH2: <>The assessment notice arrived for AY 2022-23. <em className="italic text-blue-600 not-italic font-serif">The issue was a provision disallowance they hadn't anticipated.</em></>,
+        svcH2: <>The assessment notice arrived for AY 2022-23. <em className="italic text-[#C4973B] not-italic font-serif">The issue was a provision disallowance they hadn't anticipated.</em></>,
         hookText: "Most companies discover their tax position has a problem when the notice arrives — not when the return is filed. Northrop's corporate tax advisory builds positions that are technically defensible, commercially optimised, and documented to withstand scrutiny.",
         painLabel: "Where corporate tax errors create lasting damage",
         painList: [

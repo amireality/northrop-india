@@ -117,7 +117,16 @@ export const insights = [
 ]
 
 export const footerLinks = {
-  important: ['Home', 'About Us', 'Blog', 'Career', 'Contact Us'],
-  support: ['Corporate Profile', 'Privacy Policy', ],
+  important: [
+    { title: 'Home', link: '/' },
+    { title: 'About us', link: '/who-we-are' },
+    { title: 'Blog', link: '/insights' },
+    { title: 'Careers', link: '/contact' },
+    { title: 'Contact Us', link: '/contact' }
+  ],
+  support: [
+    { title: 'Corporate Profile', link: '/company-profile' },
+    { title: 'Privacy Policy', link: '#' }
+  ],
   // groupWebsite: ['northropindia.com', 'northropglobal.com', 'northropventures.com'],
 }

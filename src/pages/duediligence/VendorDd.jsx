@@ -11,13 +11,13 @@ const VendorDd = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Vendor DD", link: null }
     ],
-    bannerTitle: <>Vendor <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Due Diligence</span></>,
+    bannerTitle: <>Vendor <br /><span className=" text-[#C4973B]">Due Diligence</span></>,
     bannerDescription: "Independent reports evaluating your business on an objective basis to accelerate M&A and give potential buyers confidence.",
     primaryBtnText: "Vet Your Vendor Base",
     secondaryBtnText: "Request a Scope Call",
     svcNum: "03 /",
     svcTag: "Vendor Due Diligence",
-    svcH2: <span dangerouslySetInnerHTML={{ __html: `Your largest vendor accounts for 40% of<br/>your cost base. <em class="italic text-blue-600 not-italic font-serif">Do you actually know them?</em>` }} />,
+    svcH2: <span dangerouslySetInnerHTML={{ __html: `Your largest vendor accounts for 40% of<br/>your cost base. <em class="italic text-[#C4973B] not-italic font-serif">Do you actually know them?</em>` }} />,
     hookText: "Vendor fraud, inflated invoicing, and shell-company intermediaries are endemic in Indian supply chains. VDD is the firewall between your business and its biggest operational blind spot.",
     painLabel: "What goes wrong with unvetted vendors",
     painList: [

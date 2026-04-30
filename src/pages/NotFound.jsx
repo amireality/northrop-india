@@ -29,7 +29,7 @@ const NotFound = () => {
 
         <div className="relative">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-6">
-            Lost in <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Transition.</span>
+            Lost in <span className=" text-[#C4973B]">Transition.</span>
           </h2>
           <p className="text-slate-400 text-lg md:text-xl font-light leading-relaxed mb-12 max-w-lg mx-auto">
             The coordinates you requested are not part of our current mandate. The page may have been moved, renamed, or temporarily archived.

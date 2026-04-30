@@ -8,13 +8,13 @@ const InternationalTax = () => {
             { name: "Home", link: "/" },
             { name: "International Tax Advisory", link: null }
         ],
-        bannerTitle: <>Your subsidiary in Dubai <br /> saves tax. <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">The CBDT disagrees about <br /> whether it should.</span></>,
+        bannerTitle: <>Your subsidiary in Dubai <br /> saves tax. <br /><span className="text-[#C4973B]">The CBDT disagrees about <br /> whether it should.</span></>,
         bannerDescription: "India's international tax environment is among the most scrutinised in the world. GAAR, POEM, CbCR, Pillar Two — the tools available to tax authorities to look through international structures have never been sharper. Getting cross-border tax right is not optional.",
         primaryBtnText: "Get International Tax Advisory",
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TX — 02 /",
         svcTag: "International Tax Advisory",
-        svcH2: <>The holding structure made commercial sense. <em className="italic text-blue-600 not-italic font-serif">POEM rules meant the Indian tax authority treated it as resident in India anyway.</em></>,
+        svcH2: <>The holding structure made commercial sense. <em className="italic text-[#C4973B] not-italic font-serif">POEM rules meant the Indian tax authority treated it as resident in India anyway.</em></>,
         hookText: "International tax structures that were standard practice five years ago are increasingly being challenged — through POEM, GAAR, treaty denial, and beneficial ownership challenges. Northrop helps Indian companies and multinationals navigate this environment with positions that hold up.",
         painLabel: "Where international tax exposure is highest",
         painList: [

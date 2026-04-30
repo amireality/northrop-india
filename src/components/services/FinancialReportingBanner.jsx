@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronRight, ArrowRight } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 
 const FinancialReportingBanner = ({ 
   breadcrumbs = [], 
@@ -11,6 +12,8 @@ const FinancialReportingBanner = ({
   onSecondaryClick,
   bgImage = "/contactusimg.avif"
 }) => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative bg-[#0a0f14] text-white flex items-center pt-24 pb-16 px-6 md:px-20 overflow-hidden min-h-[60vh]">
       {/* Background Image with Overlay */}
@@ -29,13 +32,13 @@ const FinancialReportingBanner = ({
 
       <div className="relative z-10 mx-auto w-full">
         {/* Breadcrumbs */}
-        <nav className="flex items-center space-x-2 text-[11px] text-blue-400 mb-8 uppercase tracking-[0.2em] font-bold">
+        <nav className="flex items-center space-x-2 text-[11px] text-[#C4973B] mb-8 uppercase tracking-[0.2em] font-bold">
           {breadcrumbs.map((crumb, index) => (
             <React.Fragment key={index}>
               {crumb.link ? (
                 <a href={crumb.link} className="hover:text-white transition-colors duration-300">{crumb.name}</a>
               ) : (
-                <span className="text-slate-400">{crumb.name}</span>
+                <span className="text-white">{crumb.name}</span>
               )}
               {index < breadcrumbs.length - 1 && <ChevronRight size={12} className="opacity-40 text-white" />}
             </React.Fragment>
@@ -51,8 +54,8 @@ const FinancialReportingBanner = ({
 
         <div className="flex flex-wrap gap-5">
           <button 
-            onClick={onPrimaryClick}
-            className="bg-blue-600 hover:bg-blue-500 text-white px-10 py-4 rounded-sm font-bold tracking-widest transition-all shadow-2xl hover:shadow-blue-500/20 flex items-center gap-2 text-[12px] uppercase"
+            onClick={onPrimaryClick || (() => navigate('/contact'))}
+            className="bg-[#C4973B] text-white px-10 py-4 rounded-sm font-bold tracking-widest transition-all shadow-2xl hover:shadow-blue-500/20 flex items-center gap-2 text-[12px] uppercase cursor-pointer"
           >
             {primaryBtnText}
             <ArrowRight size={16} />

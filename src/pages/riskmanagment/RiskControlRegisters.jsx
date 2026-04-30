@@ -9,13 +9,13 @@ const RiskControlRegister = () => {
       { name: "Risk Management", link: "/risk-management" },
       { name: "Risk & Control Registers", link: null }
     ],
-    bannerTitle: <>Your controls are <br /> documented.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">None of them are tested.</span></>,
+    bannerTitle: <>Your controls are <br /> documented.<br /> <span className="text-[#C4973B]">None of them are tested.</span></>,
     bannerDescription: "A Risk and Control Register (RCR) maps every significant risk to the specific control designed to mitigate it — and tests whether that control is actually operating. Without it, your assurance framework is a narrative. With it, it's a system.",
     primaryBtnText: "Build Your Risk & Control Register",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "RM — 04 /",
     svcTag: "Risk & Control Registers Consulting",
-    svcH2: <>The control was in the register. <em className="italic text-blue-600 not-italic">It had never been tested. It didn't work.</em></>,
+    svcH2: <>The control was in the register. <em className="italic text-[#C4973B] not-italic">It had never been tested. It didn't work.</em></>,
     hookText: "Most organisations can tell you what controls exist. Almost none can tell you whether those controls are operating effectively today. The Risk and Control Register closes that gap — linking risk to control to evidence.",
     painLabel: "Where RCR gaps create real exposure",
     painList: [

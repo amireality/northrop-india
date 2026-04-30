@@ -9,13 +9,13 @@ const RiskAuditAssurancePage = () => {
       { name: "Home", link: "/" },
       { name: "Risk Audit & Assurance", link: null }
     ],
-    bannerTitle: <>Your auditor signs off.<br />Your board sleeps well.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Your risk is still there.</span></>,
+    bannerTitle: <>Your auditor signs off.<br />Your board sleeps well.<br /> <span className="text-transparent bg-clip-text bg-[#C4973B]">Your risk is still there.</span></>,
     bannerDescription: "A statutory audit confirms compliance. It does not tell you where your business is bleeding, where controls are failing, or what will surface in the next RBI or regulatory inspection. Risk Audit and Assurance does.",
     primaryBtnText: "Request an Assurance Review",
     secondaryBtnText: "What's at stake",
     svcNum: "FR — 01 /",
     svcTag: "Risk Audit & Assurance Consulting",
-    svcH2: <>The audit passed. The fraud was discovered <em className="italic text-blue-600 not-italic font-serif">six months later.</em></>,
+    svcH2: <>The audit passed. The fraud was discovered <em className="italic text-[#C4973B] not-italic">six months later.</em></>,
     hookText: "Most companies confuse regulatory compliance with actual risk management. They are not the same. One protects you from the regulator. The other protects you from the business.",
     painLabel: "Who gets hurt — and how",
     painList: [

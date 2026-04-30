@@ -9,13 +9,13 @@ const FinancialStatementPreparationPage = () => {
       { name: "Home", link: "/" },
       { name: "Financial Statement Preparation", link: null }
     ],
-    bannerTitle: <>Your financials represent<br />your business <br /> to everyone who  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">matters.</span></>,
+    bannerTitle: <>Your financials represent<br />your business <br /> to everyone who  <span className=" text-[#C4973B]">matters.</span></>,
     bannerDescription: "Lenders, investors, acquirers, and regulators all make decisions based on your financial statements. If those statements are incomplete, inconsistently prepared, or non-compliant — the decisions they lead to will not be in your favour.",
     primaryBtnText: "Commission Statement Preparation",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "FR — 03 /",
     svcTag: "Financial Statement Preparation Services",
-    svcH2: <>The bank declined the credit facility.<br />The reason was your <em className="italic text-blue-600 not-italic font-serif">financial statements.</em></>,
+    svcH2: <>The bank declined the credit facility.<br />The reason was your <em className="italic text-[#C4973B] not-italic font-serif">financial statements.</em></>,
     hookText: "Most founders don't realise their financials are communicating something unintended — until a lender declines, an investor loses confidence, or an auditor issues a qualified opinion.",
     painLabel: "What poor financial statement preparation costs — by industry",
     painList: [

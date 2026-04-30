@@ -8,13 +8,13 @@ const ResearchDocumentationPage = () => {
       { name: "Home", link: "/" },
       { name: "Research & Documentation", link: null }
     ],
-    bannerTitle: <>The grant application asks for evidence.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">You have experience. You don't have documentation.</span></>,
+    bannerTitle: <>The grant application asks for evidence.<br /> <span className="text-[#C4973B]">You have experience. You don't have documentation.</span></>,
     bannerDescription: "In the competitive world of institutional grants — government, bilateral, CSR, and philanthropic — documentation quality is the difference between funded and rejected. Research that is not documented is experience that cannot be verified. And experience that cannot be verified is experience that doesn't count.",
     primaryBtnText: "Commission Research & Documentation",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "GF — 05 /",
     svcTag: "Research & Documentation Services",
-    svcH2: <>The application was scored 72 out of 100 on the technical section. <em className="italic text-blue-600 not-italic">The documentation didn't substantiate the claims.</em></>,
+    svcH2: <>The application was scored 72 out of 100 on the technical section. <em className="italic text-[#C4973B] not-italic">The documentation didn't substantiate the claims.</em></>,
     hookText: "Funders receive hundreds of applications. They score them on criteria that heavily weight documented evidence of past performance, baseline data, and context analysis. Without professional research and documentation, your application competes at a disadvantage.",
     painLabel: "Where documentation gaps cost organisations grants",
     painList: [

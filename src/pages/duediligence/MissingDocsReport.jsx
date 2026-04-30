@@ -11,13 +11,13 @@ const MissingDocsReport = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Missing Docs Report", link: null }
     ],
-    bannerTitle: <>Missing Docs <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Report</span></>,
+    bannerTitle: <>Missing Docs <br /><span className=" text-[#C4973B]">Report</span></>,
     bannerDescription: "Identify missing critical legal, financial, and operational documents before deal closure.",
     primaryBtnText: "Start Document Review",
     secondaryBtnText: "Speak to an Advisor",
     svcNum: "07 /",
     svcTag: "Missing Docs Report",
-    svcH2: "The document you couldn't find<br/>is the one that <em class=\"italic text-[#1E4D8C]\">kills the deal.</em>",
+    svcH2:    <span dangerouslySetInnerHTML={{ __html:  `The document you couldn't find<br/>is the one that <em class="italic text-[#C4973B]">kills the deal.</em>`}} />,
     hookText: "A structured missing documents report ensures that nothing can come back after signing to invalidate your reps, your warranties, or your valuation.",
     painLabel: "What missing documents actually cost you",
     painList: [

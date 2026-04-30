@@ -9,13 +9,13 @@ const IfcIcfrIndia = () => {
       { name: "Risk Management", link: "/risk-management" },
       { name: "IFC / ICFR", link: null }
     ],
-    bannerTitle: <>Your auditor has flagged a  <br />  material weakness<br /> in Internal Financial  <br /> Controls.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Now what?</span></>,
+    bannerTitle: <>Your auditor has flagged a  <br />  material weakness<br /> in Internal Financial  <br /> Controls.<br /> <span className="text-[#C4973B]">Now what?</span></>,
     bannerDescription: "Internal Financial Controls (IFC) and Internal Controls over Financial Reporting (ICFR) are mandatory requirements under the Companies Act 2013 for applicable companies. A material weakness is not just an audit observation — it is a potential D&O liability, a lender concern, and a market signal that something is wrong.",
     primaryBtnText: "Strengthen Your IFC / ICFR",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "RM — 05 /",
     svcTag: "IFC / ICFR in India",
-    svcH2: <>The board signed the IFC declaration. <em className="italic text-blue-600 not-italic">Nobody had actually tested the controls.</em></>,
+    svcH2: <>The board signed the IFC declaration. <em className="italic text-[#C4973B] not-italic">Nobody had actually tested the controls.</em></>,
     hookText: "Directors sign off on the adequacy of Internal Financial Controls every year. Most have never seen the underlying testing documentation. When a material weakness surfaces — in audit, in due diligence, or in a regulatory review — the personal liability lands with the board.",
     painLabel: "Where IFC / ICFR failures create serious consequences",
     painList: [

@@ -11,13 +11,13 @@ const SellSideFdd = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Sell-Side FDD", link: null }
     ],
-    bannerTitle: <>Sell-Side <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">FDD</span></>,
+    bannerTitle: <>Sell-Side <br /><span className=" text-[#C4973B]">FDD</span></>,
     bannerDescription: "Maximize your valuation and minimize disruptions during your exit process with proactive financial due diligence.",
     primaryBtnText: "Prepare for Sale",
     secondaryBtnText: "Speak to an Advisor",
     svcNum: "02 /",
     svcTag: "Sell-Side FDD",
-    svcH2: <span dangerouslySetInnerHTML={{ __html: `Your buyer's FDD team is about to find<br/>everything you <em class="italic text-blue-600 not-italic font-serif">hoped they wouldn't.</em>` }} />,
+    svcH2: <span dangerouslySetInnerHTML={{ __html: `Your buyer's FDD team is about to find<br/>everything you <em class="italic text-[#C4973B] not-italic font-serif">hoped they wouldn't.</em>` }} />,
     hookText: "Sell-side FDD is not about concealment. It is about finding the problems first — so you control the narrative, the timeline, and the price.",
     painLabel: "How deals collapse in the final stretch",
     painList: [

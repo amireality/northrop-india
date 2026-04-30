@@ -9,13 +9,13 @@ const CapitalStructuring = () => {
             { name: "Home", link: "/" },
             { name: "Capital Structuring", link: null }
         ],
-        bannerTitle: <>Your balance sheet is <br />carrying debt<br /> that is costing you more <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">than your business earns.</span></>,
+        bannerTitle: <>Your balance sheet is <br />carrying debt<br /> that is costing you more <br /> <span className="text-[#C4973B]">than your business earns.</span></>,
         bannerDescription: "Capital structure — the mix of debt, equity, and instruments between them — determines the financial resilience of your business in good times and its survival in bad ones. Getting it wrong is expensive. Getting it right is a competitive advantage.",
         primaryBtnText: "Get Capital Structuring Advisory",
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TA — 03 /",
         svcTag: "Capital Structuring",
-        svcH2: <>The term loan seemed manageable at ₹8 Cr annual repayment. <em className="italic text-blue-600 not-italic font-serif">When EBITDA fell 30%, the debt service consumed the entire free cash flow.</em></>,
+        svcH2: <>The term loan seemed manageable at ₹8 Cr annual repayment. <em className="italic text-[#C4973B] not-italic font-serif">When EBITDA fell 30%, the debt service consumed the entire free cash flow.</em></>,
         hookText: "Capital structure is not just about finding the cheapest source of funds — it is about designing a financial architecture that is sustainable across business cycles, supports your growth plans, and preserves optionality for future decisions.",
         painLabel: "Where capital structure creates lasting problems",
         painList: [

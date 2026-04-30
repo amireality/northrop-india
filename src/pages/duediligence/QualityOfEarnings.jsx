@@ -11,13 +11,13 @@ const QualityOfEarnings = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Quality of Earnings", link: null }
     ],
-    bannerTitle: <>Quality of <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Earnings</span></>,
+    bannerTitle: <>Quality of <br /><span className=" text-[#C4973B]">Earnings</span></>,
     bannerDescription: "Ensure that the EBITDA you are paying for actually exists sustainably.",
     primaryBtnText: "Commission QoE Analysis",
     secondaryBtnText: "Download QoE Overview",
     svcNum: "10 /",
     svcTag: "Quality of Earnings",
-    svcH2: "You are valuing a business on EBITDA<br/>that <em class=\"italic text-[#1E4D8C]\">doesn't actually exist.</em>",
+    svcH2:    <span dangerouslySetInnerHTML={{ __html:  `You are valuing a business on EBITDA<br/>that <em class="italic text-[#C4973B]">doesn't actually exist.</em>`}} />,
     hookText: "Quality of Earnings is the most important number in any deal — and the most manipulated. Every valuation multiple you apply is stacked on top of earnings that may be inflated, unsustainable, or constructed.",
     painLabel: "How EBITDA gets manufactured before a sale",
     painList: [

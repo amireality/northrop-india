@@ -59,7 +59,7 @@ export default function Institute() {
           <div>
             <div
               ref={addToRefs}
-              className="text-[11px] tracking-[0.25em] uppercase text-[#C4973B] mb-6 opacity-0 translate-y-10 transition duration-700"
+              className="text-[15px] tracking-[0.25em] uppercase text-[#C4973B] mb-6 opacity-0 translate-y-10 transition duration-700 font-medium"
             >
               Northrop Institute of Global Finance
             </div>
@@ -118,7 +118,7 @@ export default function Institute() {
             ref={addToRefs}
             className="opacity-0 translate-y-10 transition duration-700"
           >
-            <p className="text-xs uppercase tracking-widest text-[#C4973B] mb-4">
+            <p className="text-[15px] uppercase tracking-widest text-[#C4973B] mb-4 font-medium">
               Our Philosophy
             </p>
 
@@ -171,7 +171,7 @@ export default function Institute() {
           ref={addToRefs}
           className="opacity-0 translate-y-10 transition duration-700"
         >
-          <p className="text-xs uppercase tracking-widest text-[#C4973B] mb-4">
+          <p className="text-[15px] uppercase tracking-widest text-[#C4973B] mb-4 font-medium">
             _ Fellows & Contributors
           </p>
 

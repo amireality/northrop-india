@@ -9,13 +9,13 @@ const IndAsApplicabilityPage = () => {
       { name: "Home", link: "/" },
       { name: "Ind-AS Applicability", link: null }
     ],
-    bannerTitle: <>You may already be<br />required <br />to comply with Ind-AS.  <br />  <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Are you sure you're not?</span></>,
+    bannerTitle: <>You may already be<br />required <br />to comply with Ind-AS.  <br />  <span className="text-[#C4973B]">Are you sure you're not?</span></>,
     bannerDescription: "Ind-AS applicability thresholds are triggered by net worth, turnover, listing status, and group structures — often without the company realising they've crossed them. Non-compliance is not a grey area. It is an MCA violation with penalties, and a qualification from your auditor.",
     primaryBtnText: "Assess Your Ind-AS Applicability",
     secondaryBtnText: "Understand what triggers it ↓",
     svcNum: "FR — 06 /",
     svcTag: "Ind-AS Applicability Compliance Consultants",
-    svcH2: <>The MCA notice arrived. Your auditor<br />issued a qualification. <em className="italic text-blue-600 not-italic font-serif">You didn't know you needed Ind-AS.</em></>,
+    svcH2: <>The MCA notice arrived. Your auditor<br />issued a qualification. <em className="italic text-[#C4973B] not-italic font-serif">You didn't know you needed Ind-AS.</em></>,
     hookText: "Ind-AS applicability is determined by thresholds that change as your business grows — and subsidiaries of Ind-AS companies are drawn in automatically, regardless of their own size. Ignorance of applicability is not a defence.",
     painLabel: "How companies get caught — by industry and structure",
     painList: [

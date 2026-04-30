@@ -8,13 +8,13 @@ const TransferPricing = () => {
             { name: "Home", link: "/" },
             { name: "Transfer Pricing Advisory", link: null }
         ],
-        bannerTitle: <>Your intercompany transactions <br /> need to be at arm's length. <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Can you prove they are?</span></>,
+        bannerTitle: <>Your intercompany transactions <br /> need to be at arm's length. <br /><span className="text-[#C4973B]">Can you prove they are?</span></>,
         bannerDescription: "Transfer pricing is the single largest source of tax disputes for companies with related-party transactions across borders — or even across states. The burden of proof is on the taxpayer. Without documentation, the adjustment is automatic.",
         primaryBtnText: "Get Transfer Pricing Support",
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TX — 03 /",
         svcTag: "Transfer Pricing Advisory",
-        svcH2: <>The TPO rejected the CUP method and applied TNMM. <em className="italic text-blue-600 not-italic font-serif">The adjustment was ₹18 Cr. The penalty was another ₹9 Cr.</em></>,
+        svcH2: <>The TPO rejected the CUP method and applied TNMM. <em className="italic text-[#C4973B] not-italic font-serif">The adjustment was ₹18 Cr. The penalty was another ₹9 Cr.</em></>,
         hookText: "Transfer pricing adjustments are not theoretical. They are quantified, penalised, and enforced. The only protection is contemporaneous documentation — prepared at the time of the transaction, not after the notice arrives.",
         painLabel: "Where transfer pricing disputes originate",
         painList: [

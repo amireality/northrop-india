@@ -9,13 +9,13 @@ const AgreedUponProceduresPage = () => {
       { name: "Home", link: "/" },
       { name: "Agreed Upon Procedures", link: null }
     ],
-    bannerTitle: <>Your board makes decisions<br />on data<br /> that hasn't been <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">independently verified.</span></>,
+    bannerTitle: <>Your board makes decisions<br />on data<br /> that hasn't been <br /><span className="text-[#C4973B]">independently verified.</span></>,
     bannerDescription: "Agreed Upon Procedures (AUP) give lenders, investors, and boards targeted, independent verification of specific financial data — without the cost or scope of a full audit. Management reporting gives leadership the decision intelligence they need, in the format they can actually use.",
     primaryBtnText: "Commission an AUP or MIS Review",
     secondaryBtnText: "Understand the gaps ↓",
     svcNum: "FR — 05 /",
     svcTag: "Agreed Upon Procedures & Management Reporting",
-    svcH2: <>Your lender wants specific verification.<br />Your full audit doesn't <em className="italic text-blue-600 not-italic font-serif">cover what they need.</em></>,
+    svcH2: <>Your lender wants specific verification.<br />Your full audit doesn't <em className="italic text-[#C4973B] not-italic font-serif">cover what they need.</em></>,
     hookText: "AUP engagements fill the gap between a full statutory audit and no independent verification at all. They are precise, targeted, and legally defensible — exactly what lenders and investors demand when they need assurance on a specific financial claim.",
     painLabel: "Where AUP and management reporting failures create real problems",
     painList: [

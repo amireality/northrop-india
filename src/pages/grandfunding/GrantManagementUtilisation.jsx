@@ -8,13 +8,13 @@ const GrantManagementUtilisationPage = () => {
       { name: "Home", link: "/" },
       { name: "Grant Management & Utilisation", link: null }
     ],
-    bannerTitle: <>The grant was received. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Who is managing it with <br /> institutional rigour?</span></>,
+    bannerTitle: <>The grant was received. <br /> <span className="text-[#C4973B]">Who is managing it with <br /> institutional rigour?</span></>,
     bannerDescription: "Grant management is the professional discipline of receiving, tracking, deploying, and reporting on grant funding — with the governance, financial controls, and documentation that institutional funders require. Northrop serves as professional grant manager for organisations that need institutional-grade management without building it in-house.",
     primaryBtnText: "Engage Grant Management Services",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "GF — 06 /",
     svcTag: "Grant Management & Utilisation Services",
-    svcH2: <>The funder commissioned an audit. <em className="italic text-blue-600 not-italic">The implementing organisation could not reconcile grant expenditure to activities. The grant was recalled.</em></>,
+    svcH2: <>The funder commissioned an audit. <em className="italic text-[#C4973B] not-italic">The implementing organisation could not reconcile grant expenditure to activities. The grant was recalled.</em></>,
     hookText: "Grant management failure is more common than funders publicly acknowledge. Funds not tracked to activities, utilisation certificates not obtained, reporting timelines missed — each failure erodes the funder relationship and creates financial risk for the organisation.",
     painLabel: "Where grant management failures create serious consequences",
     painList: [

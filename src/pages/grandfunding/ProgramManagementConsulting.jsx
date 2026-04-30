@@ -8,13 +8,13 @@ const ProgramManagementConsulting = () => {
       { name: "Home", link: "/" },
       { name: "Program Management Consulting", link: null }
     ],
-    bannerTitle: <>The grant was received. <br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">The implementation is <br /> running six months behind.</span></>,
+    bannerTitle: <>The grant was received. <br /> <span className="text-[#C4973B]">The implementation is <br /> running six months behind.</span></>,
     bannerDescription: "Programme management for development organisations requires a different discipline than commercial project management — navigating community dynamics, government coordination, and funder reporting simultaneously, while keeping the programme on track for impact.",
     primaryBtnText: "Get Program Management Support",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "GF — 03 /",
     svcTag: "Program Management Consulting",
-    svcH2: <>The utilisation certificate was due. <em className="italic text-blue-600 not-italic">The programme had spent 40% of the budget and delivered 20% of the promised outcomes.</em></>,
+    svcH2: <>The utilisation certificate was due. <em className="italic text-[#C4973B] not-italic">The programme had spent 40% of the budget and delivered 20% of the promised outcomes.</em></>,
     hookText: "Funder relationships are built on delivery credibility. An organisation that consistently delivers on its programme commitments — on time, within budget, and against stated outcomes — builds a funding relationship that transcends individual grants.",
     painLabel: "Where programme management failures damage organisations",
     painList: [

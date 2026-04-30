@@ -11,13 +11,13 @@ const BuySideFdd = () => {
       { name: "Due Diligence", link: "/services/due-diligence" },
       { name: "Buy-Side FDD", link: null }
     ],
-    bannerTitle: <>Buy-Side <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">FDD</span></>,
+    bannerTitle: <>Buy-Side <br /><span className=" text-[#C4973B]">FDD</span></>,
     bannerDescription: "Ensure that what you see is what you get. Evaluating target companies for financial robustness and potential risks before acquisition.",
     primaryBtnText: "Start Buy-Side FDD",
     secondaryBtnText: "Download Sample Report",
     svcNum: "01 /",
     svcTag: "Buy-Side FDD",
-    svcH2: <span dangerouslySetInnerHTML={{ __html: `You're about to wire crores into a company<br/>you've known for <em class="italic text-blue-600 not-italic font-serif">ninety days.</em>` }} />,
+    svcH2: <span dangerouslySetInnerHTML={{ __html: `You're about to wire crores into a company<br/>you've known for <em class="italic text-[#C4973B] not-italic font-serif">ninety days.</em>` }} />,
     hookText: '"The financials looked clean. The management seemed honest. We didn\'t see it coming." — Every acquirer who skipped rigorous FDD.',
     painLabel: "What acquirers discover too late",
     painList: [

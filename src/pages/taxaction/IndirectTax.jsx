@@ -8,13 +8,13 @@ const IndirectTax = () => {
             { name: "Home", link: "/" },
             { name: "Indirect Tax (GST) Advisory", link: null }
         ],
-        bannerTitle: <>Your GST returns are filed <br /> every month. <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Your ITC position has never <br /> been reconciled.</span></>,
+        bannerTitle: <>Your GST returns are filed <br /> every month. <br /><span className="text-[#C4973B]">Your ITC position has never <br /> been reconciled.</span></>,
         bannerDescription: "GST is the largest single compliance obligation for most Indian businesses — and the one with the highest ongoing risk of error. ITC mismatches, reverse charge failures, and classification disputes create demands that accumulate quietly until they cannot be ignored.",
         primaryBtnText: "Get GST Advisory",
         secondaryBtnText: "See what's at risk ↓",
         svcNum: "TX — 04 /",
         svcTag: "Indirect Tax (GST) Advisory",
-        svcH2: <>The GST department audit found ₹4 Cr in ITC claimed on invoices that don't appear in GSTR-2B. <em className="italic text-blue-600 not-italic font-serif">The supplier had defaulted on their returns.</em></>,
+        svcH2: <>The GST department audit found ₹4 Cr in ITC claimed on invoices that don't appear in GSTR-2B. <em className="italic text-[#C4973B] not-italic font-serif">The supplier had defaulted on their returns.</em></>,
         hookText: "GST compliance is a continuous obligation — not a monthly filing. GSTR-2B mismatches, ITC reversals on exempt supplies, and RCM defaults compound month after month. The cumulative liability at the time of an audit is rarely what the company anticipated.",
         painLabel: "Where GST exposure accumulates — by industry",
         painList: [

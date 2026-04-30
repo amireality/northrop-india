@@ -9,13 +9,13 @@ const EnterpriseRiskManagement = () => {
       { name: "Risk Management", link: "/risk-management" },
       { name: "ERM", link: null }
     ],
-    bannerTitle: <>Your business has a risk  <br />  register.<br /> <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-teal-400">Nobody has updated it since <br />  2022.</span></>,
+    bannerTitle: <>Your business has a risk  <br />  register.<br /> <span className="text-[#C4973B]">Nobody has updated it since <br />  2022.</span></>,
     bannerDescription: "Enterprise Risk Management is not a document exercise. It is a living framework that connects your highest-probability risks to specific owners, response plans, and board-level visibility — before those risks become crises.",
     primaryBtnText: "Build Your ERM Framework",
     secondaryBtnText: "See what's at risk ↓",
     svcNum: "RM — 03 /",
     svcTag: "Enterprise Risk Management Services",
-    svcH2: <>The risk was identified. It was on the register. <em className="italic text-blue-600 not-italic">Nobody owned the response plan.</em></>,
+    svcH2: <>The risk was identified. It was on the register. <em className="italic text-[#C4973B] not-italic">Nobody owned the response plan.</em></>,
     hookText: "Most risk registers are written once, approved by the board, and never touched again. Enterprise risk management done right is a continuous process — with quarterly reviews, escalation triggers, and risk owners who are accountable.",
     painLabel: "What ERM failures look like — by industry",
     painList: [

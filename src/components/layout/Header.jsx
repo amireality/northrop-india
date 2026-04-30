@@ -43,16 +43,19 @@ export default function Header() {
       onMouseLeave={() => setIsMegaMenuOpen(false)}
     >
       <nav className="flex h-[50px] items-center justify-between px-6 lg:px-12">
-        <div className="flex items-center gap-10 h-full">
-          {/* <Link to="/" className="flex items-center h-full">
-            <img src="/Logo.jpeg" alt="Northrop Logo" className="h-[60px] w-auto object-contain" />
-          </Link> */}
+        {/* LEFT — Brand Name only */}
+        <Link to="/" className="flex items-center h-full shrink-0">
+          <span
+            style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: '20px', lineHeight: 1, letterSpacing: '0.08em', color: '#001f3f', textTransform: 'uppercase' }}
+          >
+            NORTHROP
+          </span>
+        </Link>
 
+        {/* RIGHT — Nav links + Mail icon */}
+        <div className="flex items-center h-full">
           <div className="hidden h-full items-center gap-8 md:flex">
 
-            <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
-              <NavItem label="Home" href="/" hasDropdown={false} />
-            </div>
             <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
               <NavItem label="Who we are" href="/who-we-are" hasDropdown={false} />
             </div>
@@ -90,16 +93,20 @@ export default function Header() {
             </div>
 
           </div>
-        </div>
 
-        <div className="flex items-center gap-5 text-gray-600 h-full" onMouseEnter={() => setIsMegaMenuOpen(false)}>
-          {/* <button className="flex items-center gap-2 text-[14px] hover:text-[#001f3f]">
-            <Search size={20} strokeWidth={1.5} /><span className="hidden lg:inline">Search</span>
-          </button> */}
-          <div className="hidden md:flex items-center gap-5">
-            <Mail size={20} strokeWidth={1.5} className="cursor-pointer hover:text-[#001f3f]" />
+          {/* Mail icon — far right end */}
+          <div className="hidden md:flex items-center pl-6 ml-2 border-l border-gray-200" onMouseEnter={() => setIsMegaMenuOpen(false)}>
+            <a href="mailto:business@northropindia.com">
+              <Mail
+                size={19}
+                strokeWidth={1.5}
+                className="text-gray-500 cursor-pointer hover:text-[#001f3f] transition-colors"
+              />
+            </a>
           </div>
-          <button className="md:hidden flex items-center text-gray-800" onClick={() => setIsMobileMenuOpen(true)}>
+
+          {/* Mobile hamburger */}
+          <button className="md:hidden flex items-center text-gray-800 ml-4" onClick={() => setIsMobileMenuOpen(true)}>
             <Menu size={28} />
           </button>
         </div>
