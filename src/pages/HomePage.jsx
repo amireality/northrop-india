@@ -26,21 +26,35 @@ function HomePage() {
       <Hero />
 
 
-      {/* ── CREDENTIAL BAR (H-05: replaced marquee) ── */}
-      <div className="bg-[#001F3F] border-y border-[#C4973B]/20 py-[14px] px-10">
-        <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
-          {[
-            "CA", "CFA", "IIT Trained", "IBC Before NCLT",
-            "Forensic Audit", "PSU Bank Mandates", "New Delhi · Mumbai · Pan-India"
-          ].map((item, i, arr) => (
-            <span key={item} className="flex items-center gap-6">
-              <span className="font-sans text-[12px] font-medium tracking-[0.12em] uppercase text-[#C4973B] whitespace-nowrap">
-                {item}
-              </span>
-              {i < arr.length - 1 && (
-                <span className="text-[#C4973B]/40 text-[10px]">·</span>
-              )}
-            </span>
+      {/* ── CREDENTIAL MARQUEE ── */}
+      <div className="bg-[#c4973b] border-y border-[#C4973B]/20 py-[13px] overflow-hidden">
+        <style>{`
+          @keyframes credScroll {
+            from { transform: translateX(0); }
+            to   { transform: translateX(-50%); }
+          }
+          .cred-track {
+            display: flex;
+            width: max-content;
+            animation: credScroll 32s linear infinite;
+          }
+          .cred-track:hover { animation-play-state: paused; }
+        `}</style>
+        <div className="cred-track">
+          {[...Array(2)].map((_, copy) => (
+            <div key={copy} className="flex items-center">
+              {[
+                "CA", "CFA", "IIT Trained", "IBC Before NCLT",
+                "Forensic Audit", "PSU Bank Mandates", "New Delhi · Mumbai · Pan-India"
+              ].map((item, i) => (
+                <span key={`${copy}-${i}`} className="flex items-center">
+                  <span className="font-sans text-[11px] font-semibold tracking-[0.18em] uppercase text-[#ffFF] whitespace-nowrap px-8">
+                    {item}
+                  </span>
+                  <span className="text-[#ffff]/35 text-[8px]">◆</span>
+                </span>
+              ))}
+            </div>
           ))}
         </div>
       </div>

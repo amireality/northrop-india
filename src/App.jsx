@@ -10,7 +10,7 @@ import Services from './pages/Services'
 import Industry from './pages/Industry'
 import Alliances from './pages/Alliances'
 import CaseStudies from './pages/CaseStudies'
-// import DynamicSubPage from './pages/DynamicSubPage'
+
 import InstitutePage from './pages/Institute'
 import Advisory from './pages/Advisory'
 import Contact from './pages/Contact'
@@ -21,7 +21,6 @@ import PrivacyPolicy from './pages/PrivacyPolicy'
 
 
 // Services Imports
-import FinancialReporting from './pages/services/FinancialReporting'
 import RiskManagement from './pages/services/RiskManagement'
 import DueDiligence from './pages/services/DueDiligence'
 import ForensicInvestigations from './pages/services/ForensicInvestigations'

@@ -42,7 +42,7 @@ export default function Header() {
       className="relative w-full bg-white border-b border-gray-200   text-[#001f3f] select-none"
       onMouseLeave={() => setIsMegaMenuOpen(false)}
     >
-      <nav className="flex h-[50px] items-center justify-between px-6 lg:px-12">
+      <nav className="flex h-[50px] items-center px-6 lg:px-12 gap-8">
         {/* LEFT — Brand Name only */}
         <Link to="/" className="flex items-center h-full shrink-0">
           <span
@@ -52,9 +52,9 @@ export default function Header() {
           </span>
         </Link>
 
-        {/* RIGHT — Nav links + Mail icon */}
-        <div className="flex items-center h-full">
-          <div className="hidden h-full items-center gap-8 md:flex">
+        {/* CENTER-LEFT — Nav links (next to NORTHROP) */}
+        <div className="flex items-center h-full flex-1">
+          <div className="hidden h-full items-center gap-6 md:flex">
 
             <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
               <NavItem label="Who we are" href="/who-we-are" hasDropdown={false} />
@@ -94,8 +94,8 @@ export default function Header() {
 
           </div>
 
-          {/* Mail + LinkedIn icons — far right end */}
-          <div className="hidden md:flex items-center gap-4 pl-6 ml-2 border-l border-gray-200" onMouseEnter={() => setIsMegaMenuOpen(false)}>
+          {/* RIGHT — LinkedIn + Mail icons pinned far right */}
+          <div className="hidden md:flex items-center gap-4 pl-6 ml-auto border-l border-gray-200 shrink-0" onMouseEnter={() => setIsMegaMenuOpen(false)}>
             <a
               href="https://linkedin.com/company/northropindia"
               target="_blank"
@@ -117,7 +117,7 @@ export default function Header() {
           </div>
 
           {/* Mobile hamburger */}
-          <button className="md:hidden flex items-center text-gray-800 ml-4" onClick={() => setIsMobileMenuOpen(true)}>
+          <button className="md:hidden flex items-center text-gray-800 ml-auto" onClick={() => setIsMobileMenuOpen(true)}>
             <Menu size={28} />
           </button>
         </div>
