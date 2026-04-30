@@ -73,9 +73,9 @@ export default function WhoWeAre() {
 
 
       {/* Hero Section: The Founder's Mandate */}
-      <section className="max-w-[1440px] mx-auto px-[32px] md:px-[40px] pt-[40px] pb-[10px]">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-[40px]">
-          <div className="col-span-1 lg:col-span-7 flex flex-col justify-center order-2 lg:order-1 mt-[64px] lg:mt-0">
+      <section className="max-w-[1440px] mx-auto px-[32px] md:px-[40px] pt-[16px] pb-[4px]">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-[40px] items-stretch">
+          <div className="col-span-1 lg:col-span-7 flex flex-col justify-center order-2 lg:order-1">
             <div className="max-w-[576px]">
               <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[24px] block tracking-[0px]">The Founder’s Mandate</span>
               <h1 className="font-playfair text-[52px] md:text-[72px] text-[#001f3f] leading-[1.0] mb-[48px] tracking-tighter">About Northrop Management.</h1>
@@ -100,17 +100,16 @@ export default function WhoWeAre() {
               </div>
             </div>
           </div>
-          <div className="col-span-1 lg:col-span-5 order-1 lg:order-2">
-            <div className="relative aspect-[4/4] overflow-hidden">
+          <div className="col-span-1 lg:col-span-5 order-1 lg:order-2 flex flex-col">
+            <div className="flex-1 min-h-[480px] lg:min-h-0 overflow-hidden">
               <img
                 alt="Ashish Chaudhary, Founder & Managing Director, Northrop Management Private Limited"
-                className="w-full object-contain"
+                className="w-full h-full "
                 src="/whoweare/bannner.jpeg"
                 loading="lazy"
               />
-              
             </div>
-            <div className="mt-[32px] text-right">
+            <div className="mt-[16px] text-right">
               <p className="text-[10px] tracking-[0.3em] uppercase text-[#43474e]/60">Forensic Stewardship / Strategic Foresight</p>
             </div>
           </div>
