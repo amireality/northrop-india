@@ -13,6 +13,7 @@ import Foundation from '../components/home/Foundation'
 import ContactSection from '../components/home/ContactSection'
 import Insights from '../components/home/insightsData'
 import LocationsSection from '../components/home/Locationsection'
+import TrackRecord from '../components/TrackRecord'
 
 
 function HomePage() {
@@ -68,8 +69,12 @@ function HomePage() {
 
 
       <SkylineDivider/>
-    
-      <Services />
+
+      <TrackRecord />
+
+      {/* <Services /> */}
+
+      
       {/* <Institute/> */}
       {/* <Foundation/> */}
 
