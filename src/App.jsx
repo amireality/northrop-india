@@ -16,6 +16,8 @@ import Advisory from './pages/Advisory'
 import Contact from './pages/Contact'
 import Insights from './pages/Insights'
 import NotFound from './pages/NotFound'
+import Digital from './pages/Digital'
+import PrivacyPolicy from './pages/PrivacyPolicy'
 
 
 // Services Imports
@@ -130,6 +132,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/insights" element={<Insights />} />
           <Route path="/company-profile" element={<Companyprofile />} />
+          <Route path="/digital" element={<Digital />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
 
           {/* Services Sub-routes */}

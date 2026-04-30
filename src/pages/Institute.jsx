@@ -124,8 +124,9 @@ const Institute = () => {
         <div className="relative overflow-hidden min-h-[300px] md:min-h-full">
           <img
             src="/insituted/photo-1.avif"
-            alt="Global Finance"
+            alt="Northrop Institute of Global Finance — financial professionals discussing capital markets"
             className="w-full h-full object-cover block"
+            loading="lazy"
             style={{ filter: "brightness(0.65) contrast(1.1)" }}
           />
         </div>
@@ -199,7 +200,7 @@ const Institute = () => {
             ].map((r, i) => (
               <div key={i} className="bg-white overflow-hidden group hover:cursor-pointer">
                 <div className="h-[210px] overflow-hidden relative">
-                  <img src={r.img} alt={r.title} className="w-full h-full object-cover block transition-transform duration-500 group-hover:scale-[1.04]" style={{ filter: "brightness(0.75) contrast(1.05)" }} />
+                  <img src={r.img} alt={r.title} loading="lazy" className="w-full h-full object-cover block transition-transform duration-500 group-hover:scale-[1.04]" style={{ filter: "brightness(0.75) contrast(1.05)" }} />
                 </div>
                 <div className="p-[28px] pb-[36px]">
                   <div className="text-[11px] text-[#999] mb-[10px] tracking-[0.3px]">{r.meta}</div>

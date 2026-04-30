@@ -72,7 +72,7 @@ export default function WhatWeDo() {
     {
       icon: Briefcase,
       title: "Transaction Advisory",
-      description: "Strategic deal execution for the modern capital cycle. From buy-side diligence to valuation, we optimize ever step of the M&A process.",
+      description: "Strategic deal execution for the modern capital cycle. From buy-side diligence to valuation, we optimise every step of the M&A transaction process.",
       links: [
         { title: "Buy-side/Sell-side FDD", url: "/services/buy-side-fdd" },
         { title: "Quality of Earnings", url: "/services/quality-of-earnings" },
@@ -104,8 +104,8 @@ export default function WhatWeDo() {
   return (
     <div className="bg-[#111a22] min-h-screen text-white overflow-x-hidden">
       <Helmet>
-        <title>What We Do | Integrated Advisory Mastery | Northrop India</title>
-        <meta name="description" content="Explore Northrop's multidisciplinary mastery across 6 core pillars: Financial Reporting, Risk & Audit, Transaction Advisory, Forensics, Tax, and Management Consulting." />
+        <title>Advisory Services | Northrop Management Private Limited</title>
+        <meta name="description" content="Explore Northrop's advisory capabilities across 6 core pillars: Financial Reporting, Risk & Audit, Transaction Advisory, Forensics, Tax, and Management Consulting." />
       </Helmet>
 
       {/* Hero Section */}
@@ -116,16 +116,16 @@ export default function WhatWeDo() {
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto">
-          <div className="flex items-center gap-3 text-blue-400 uppercase tracking-[0.3em] font-bold text-xs mb-8">
-            <div className="w-10 h-[1px] bg-blue-400" />
+          <div className="flex items-center gap-3 text-[#C4973B] uppercase tracking-[0.3em] font-bold text-xs mb-8">
+            <div className="w-10 h-[1px] bg-[#C4973B]" />
             Capabilities
           </div>
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-serif font-bold italic leading-[0.9] text-white/90 mb-12">
-            Multidisciplinary <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-teal-400 to-blue-500">Mastery.</span>
+            Advisory <br />
+            <span className="text-[#C4973B]">Capabilities.</span>
           </h1>
           <p className="max-w-3xl text-xl text-slate-400 leading-relaxed font-light">
-            Northrop Management operates at the intersection of regulatory rigor and strategic growth. Our integrated framework ensures that every institutional challenge is met with a multivalent solution.
+            Northrop Management operates at the intersection of regulatory rigour and strategic growth. Our integrated framework ensures that every institutional challenge is met with an integrated, cross-functional advisory response.
           </p>
         </div>
       </section>
@@ -181,34 +181,34 @@ export default function WhatWeDo() {
             </div>
 
             <div className="order-1 lg:order-2">
-              <span className="text-blue-400 font-bold tracking-[0.2em] uppercase text-xs mb-6 block">Why We Differ</span>
+              <span className="text-[#C4973B] font-bold tracking-[0.2em] uppercase text-xs mb-6 block">Why We Differ</span>
               <h2 className="text-4xl md:text-6xl font-serif font-bold mb-8 leading-tight">
                 An Integrated Philosophy for <br />
                 <span className="italic text-slate-400">Institutional Excellence.</span>
               </h2>
               <p className="text-slate-400 text-lg leading-relaxed mb-8 font-light">
-                Traditional firms work in silos. We treat your institution as a single complex organism. A tax decision impacts capital structure; a forensic finding reshapes internal audit. 
+                Northrop operates as a single integrated practice — where forensic accountants, transaction advisors, and regulatory specialists work on the same mandate, not in separate departments.
               </p>
               <ul className="space-y-6 mb-12">
                 {[
-                  "Independent Oversight with Surgeon-like Precision",
+                  "Independent Oversight with Documented Accountability",
                   "Founder-Led Accountability for Every Mandate",
-                  "AI-Infused Rigor Combined with Human Wisdom",
+                  "Data-Driven Analysis, Human-Led Judgment",
                   "Bespoke Frameworks, Not Generic Checklists"
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-4 text-slate-300">
-                    <CheckCircle2 className="text-blue-500" size={20} />
+                    <CheckCircle2 className="text-[#C4973B]" size={20} />
                     {item}
                   </li>
                 ))}
               </ul>
-              <Link 
-                to="/contact" 
+              <a
+                href="/contact" 
                 className="inline-flex items-center gap-2 text-white font-bold tracking-widest text-xs uppercase group"
               >
                 Connect with our board 
-                <ArrowRight size={16} className="text-blue-500 group-hover:translate-x-2 transition-transform" />
-              </Link>
+                <ArrowRight size={16} className="text-[#C4973B] group-hover:translate-x-2 transition-transform" />
+              </a>
             </div>
           </div>
         </div>
@@ -217,13 +217,13 @@ export default function WhatWeDo() {
       {/* Closing CTA */}
       <section className="pt-20 pb-32 px-6 text-center bg-gradient-to-t from-black/40 to-transparent">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-5xl font-serif font-bold mb-8">Ready to secure your <span className="text-blue-400">institutional future?</span></h2>
-          <Link 
-            to="/contact" 
-            className="bg-white text-[#111a22] px-12 py-5 rounded-full font-bold uppercase tracking-[0.2em] text-xs hover:bg-blue-400 hover:text-white transition-all shadow-2xl"
+          <h2 className="text-3xl md:text-5xl font-serif font-bold mb-8">Ready to secure your <span className="text-[#C4973B]">institutional future?</span></h2>
+          <a
+            href="/contact" 
+            className="inline-block bg-[#C4973B] text-white px-12 py-5 font-bold uppercase tracking-[0.2em] text-xs hover:bg-[#D9AF58] transition-all shadow-2xl"
           >
             Request Mandate Consultation
-          </Link>
+          </a>
         </div>
       </section>
     </div>

@@ -26,41 +26,21 @@ function HomePage() {
       <Hero />
 
 
-      {/* ── MARQUEE STRIP ── */}
-      <div className="overflow-hidden bg-[#C4973B] border-y border-[#C4973B]/25 py-3">
-        <style>{`
-          @keyframes marqueeScroll {
-            from { transform: translateX(0); }
-            to   { transform: translateX(-50%); }
-          }
-          .marquee-inner {
-            display: flex;
-            width: max-content;
-            animation: marqueeScroll 28s linear infinite;
-          }
-          .marquee-inner:hover { animation-play-state: paused; }
-        `}</style>
-        <div className="marquee-inner">
-          {[...Array(2)].map((_, i) => (
-            <div key={i} className="flex items-center">
-              {[
-                'About Northrop',
-                'Advisory · Risk · M&A',
-                'Forensic Investigations',
-                'IBC & Restructuring',
-                'Strategic Finance',
-                'New Delhi · Pan-India',
-                'CA · CFA · IIT · MBA',
-                'Institutional Rigour',
-              ].map((item) => (
-                <span key={item} className="flex items-center gap-0">
-                  <span className="font-serif text-[15px] tracking-[0.18em] text-[#ffff] uppercase px-10 whitespace-nowrap">
-                    {item}
-                  </span>
-                  <span className="text-[#C4973B]/50 text-[10px]">◆</span>
-                </span>
-              ))}
-            </div>
+      {/* ── CREDENTIAL BAR (H-05: replaced marquee) ── */}
+      <div className="bg-[#001F3F] border-y border-[#C4973B]/20 py-[14px] px-10">
+        <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+          {[
+            "CA", "CFA", "IIT Trained", "IBC Before NCLT",
+            "Forensic Audit", "PSU Bank Mandates", "New Delhi · Mumbai · Pan-India"
+          ].map((item, i, arr) => (
+            <span key={item} className="flex items-center gap-6">
+              <span className="font-sans text-[12px] font-medium tracking-[0.12em] uppercase text-[#C4973B] whitespace-nowrap">
+                {item}
+              </span>
+              {i < arr.length - 1 && (
+                <span className="text-[#C4973B]/40 text-[10px]">·</span>
+              )}
+            </span>
           ))}
         </div>
       </div>

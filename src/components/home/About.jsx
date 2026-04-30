@@ -29,7 +29,7 @@ export default function About() {
   const Pillar = ({ num, name, text, delay }) => (
     <div
       ref={addToRefs}
-      className={`p-10 border-r border-[#0E0E0E]/10 last:border-r-0 relative group transition-all duration-700 opacity-0 translate-y-10 ${delay}`}
+      className={`p-10 border-r border-[#0E0E0E]/10 last:border-r-0 relative group transition-all duration-700 ${delay}`}
     >
       <div className="absolute top-0 left-0 right-0 h-[2px] bg-[#C4973B] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>
       <div className="text-[10px] font-medium tracking-widest text-[#C4973B] mb-5">{num}</div>
@@ -45,7 +45,7 @@ export default function About() {
       <div className="grid grid-cols-1 lg:grid-cols-2">
 
         {/* LEFT — Image */}
-        <div ref={addToRefs} className="relative min-h-[400px] lg:min-h-full opacity-0 translate-y-10 transition-all duration-1000">
+        <div ref={addToRefs} className="relative min-h-[400px] lg:min-h-full transition-all duration-1000">
           <div
             className="absolute inset-6 lg:inset-16 bg-cover bg-center rounded-sm shadow-2xl"
             style={{ backgroundImage: "url('/homepageimg/about.jpeg')" }}
@@ -65,14 +65,14 @@ export default function About() {
           </div> */}
 
           {/* Heading */}
-          <h2 ref={addToRefs} className="font-serif text-[42px] lg:text-[62px] leading-[1.07] text-[#0E0E0E] mb-8 tracking-tight opacity-0 translate-y-10 transition-all duration-700 delay-100">
+          <h2 ref={addToRefs} className="font-serif text-[42px] lg:text-[62px] leading-[1.07] text-[#0E0E0E] mb-8 tracking-tight transition-all duration-700 delay-100">
             The Standard<br />
             We Hold<br />
             <em className="text-[#C4973B] italic">Ourselves To.</em>
           </h2>
 
           {/* Body text */}
-          <div ref={addToRefs} className="text-[15px] font-light leading-[1.85] text-[#4A4540] space-y-6 max-w-[600px] mb-12 opacity-0 translate-y-10 transition-all duration-700 delay-200">
+          <div ref={addToRefs} className="text-[15px] font-light leading-[1.85] text-[#4A4540] space-y-6 max-w-[600px] mb-12 transition-all duration-700 delay-200">
             <p>
               Northrop is built on practitioners, not presenters. Our team comprises Chartered Accountants, CFA professionals, and specialists with post-graduate training — people who have worked on live IBC mandates before the <strong className="text-[#0E0E0E]">Hon'ble NCLT</strong>, conducted forensic audits for public sector banks, and managed continuous risk surveillance on some of India's largest listed borrowers.
             </p>
@@ -85,7 +85,7 @@ export default function About() {
           </div>
 
           {/* CTA */}
-          <div ref={addToRefs} className="flex flex-wrap gap-4 opacity-0 translate-y-10 transition-all duration-700 delay-300">
+          <div ref={addToRefs} className="flex flex-wrap gap-4 transition-all duration-700 delay-300">
             <a
               href="/who-we-are"
               className="bg-[#C4973B] text-[#ffff] text-[10.5px] font-medium tracking-[0.14em] uppercase px-8 py-4 transition-all hover:bg-[#D9AF58] hover:-translate-y-0.5"

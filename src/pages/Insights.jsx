@@ -96,7 +96,8 @@ export default function Insights() {
                 <img
                   className="w-full h-full object-cover"
                   src={insightsData.featuredArticle.image}
-                  alt="Market Deep-Dive"
+                  alt="India's Next Capital Cycle — Northrop Management market research report cover"
+                  loading="eager"
                 />
               </div>
               <div className="relative z-10">
@@ -129,7 +130,8 @@ export default function Insights() {
                 <img
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   src={insightsData.sideArticles[0].image}
-                  alt="Strategy Ledger"
+                  alt="How Private Equity Actually Makes Money — Northrop Management strategy analysis"
+                  loading="lazy"
                 />
               </div>
               <span className="text-[#C4973B] font-[700] text-[10px] tracking-widest uppercase mb-[16px] block">
@@ -161,7 +163,8 @@ export default function Insights() {
                 <img
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   src={insightsData.sideArticles[1].image}
-                  alt="Capital Allocation"
+                  alt="Why Most Startups Misallocate Capital — Northrop Management capital allocation report"
+                  loading="lazy"
                 />
               </div>
               <button className="w-fit border-b border-[#C4973B]/30 pb-[4px] text-[#C4973B] font-[700] uppercase tracking-widest text-[10px] hover:border-[#C4973B] transition-colors">
@@ -236,7 +239,8 @@ export default function Insights() {
                 <img
                   className="w-full h-full object-cover"
                   src={insightsData.mandateHighlight.image}
-                  alt="Chairman's Mandate"
+                  alt="Chairman's 2024 Mandate — Northrop Management institutional perspective highlight"
+                  loading="lazy"
                 />
               </div>
               <div className="md:w-1/2 p-[48px] flex flex-col justify-center">

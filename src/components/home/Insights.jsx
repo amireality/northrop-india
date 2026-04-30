@@ -24,8 +24,9 @@ function Insights() {
               <div className="relative aspect-video overflow-hidden">
                 <img 
                   src="/homepageimg/BIS Registration Outdoor Barbecue in India (1).png" 
-                  alt={insights[0].title}
+                  alt={`${insights[0].title} — Northrop Management featured insight`}
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+                  loading="eager"
                 />
                 {/* Overlay decoration */}
                 <div className="absolute inset-0 bg-[#001f3f]/10 group-hover:bg-transparent transition-colors duration-500" />
@@ -57,8 +58,9 @@ function Insights() {
                 <div className="hidden sm:block h-24 w-32 flex-shrink-0 overflow-hidden bg-gray-100">
                    <img 
                       src="/homepageimg/BIS Registration Outdoor Barbecue in India (1).png" 
-                      alt="Insight"
+                      alt={`${item.title} — Northrop Management insight thumbnail`}
                       className="h-full w-full object-cover transition-all duration-500"
+                      loading="lazy"
                    />
                 </div>
 
