@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import {
   Globe, MapPin, Handshake, Factory, Wallet, Users, HeartPulse, Sprout,
@@ -58,6 +59,20 @@ const sovereignMandateData = [
   { subtitle: "Advisory", title: "Ethical Fortification", description: "Empowering local industry with honest, high-integrity financial advice that strengthens the collective national economic tissue." },
   { subtitle: "Stability", title: "Structural Stability", description: "Clear-thinking advisory that mitigates systemic risk and promotes sustainable growth across the Indian corporate landscape." }
 ];
+
+const containerVariants = {
+  hidden: {},
+  show: { transition: { staggerChildren: 0.2 } },
+};
+
+const cardVariants = {
+  hidden: { opacity: 0, x: -80 },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: { duration: 0.5, ease: 'easeOut' },
+  },
+};
 
 export default function WhoWeAre() {
   useEffect(() => {
@@ -123,27 +138,38 @@ export default function WhoWeAre() {
             <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[12px] block">Foundation of Trust</span>
             <h2 className="font-playfair text-[36px] md:text-[48px] tracking-[0px]">Sovereign Values</h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[32px]">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.15 }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[32px]"
+          >
             {valuesData.map((val, idx) => (
-              <div key={idx} className="border-l border-white/10 pl-[32px] py-[16px] hover:border-[#C4973B] transition-colors duration-500">
+              <motion.div
+                key={idx}
+                variants={cardVariants}
+                whileHover={{ scale: 1.03, y: -6 }}
+                className="border-l border-white/10 pl-[32px] py-[16px] hover:border-[#C4973B] transition-colors duration-500 cursor-default"
+              >
                 <h3 className="text-[#C4973B] text-[15px] tracking-[0.3em] uppercase mb-[16px] font-bold">{val.subtitle}</h3>
                 <p className=" text-[24px]">{val.title}</p>
                 <p className="text-white text-[14px] mt-[16px] font-[300] leading-[1.6]">{val.description}</p>
                 <p className="text-white/50 text-[13px] mt-[12px] font-[300] leading-[1.6] italic">{val.practice}</p>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
 
       {/* Vision & Mission Section */}
       <section className="py-[28px] bg-white">
-        <div className="max-w-[1440px] mx-auto px-[12px] md:px-[40px]">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-[64px] items-center">
-            <div className="lg:col-span-5">
-              <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[16px] block">Institutional Horizon</span>
-              <h2 className="font-playfair text-[36px] md:text-[48px] text-[#001f3f] leading-[1.1] tracking-[0px]">
-                Our vision is to architect the ascent of Indian enterprise, positioning domestic leaders for global capital markets, international institutional recognition, and cross-border transactional excellence.
+        <div className=" mx-auto px-[12px] md:px-[40px]">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-[20px] items-center">
+            <div className="lg:col-span-6">
+              <span className="text-[#C4973B] text-[18px] mb-[16px] block">Institutional Horizon</span>
+              <h2 className="text-[26px] md:text-[38px] text-[#001f3f] leading-[1.1]">
+                Our vision is to <span className="font-[300]">architect the ascent of Indian enterprise, positioning domestic leaders for global capital markets, international institutional recognition, and cross-border transactional excellence.</span>
               </h2>
             </div>
             <div className="lg:col-span-6 lg:col-start-7 lg:border-l border-gray-200 lg:pl-[48px]">
@@ -167,12 +193,12 @@ export default function WhoWeAre() {
       </section>
 
       {/* Global Influence Section */}
-      <section className="py-[28px] border-y border-gray-200 bg-white">
+      <section className="py-[20px] bg-[#001f3f]">
         <div className="max-w-[1440px] mx-auto px-[32px] md:px-[40px] text-center">
           <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[16px] block">International Standards</span>
-          <h2 className="font-playfair text-[36px] md:text-[48px] text-[#001f3f] mb-[48px] tracking-[0px]">Global Influence. Local Mastery.</h2>
+          <h2 className="font-playfair text-[36px] md:text-[48px] text-[#ffffff] mb-[48px] tracking-[0px]">Global Influence. Local Mastery.</h2>
           <div className="max-w-[896px] mx-auto">
-            <p className="text-[#43474e] text-[20px] font-[300] leading-[1.6] mb-[64px]">
+            <p className="text-[#ffffff] text-[20px] font-[300] leading-[1.6] mb-[64px]">
               Northrop Management bridges the gap between sophisticated international capital standards and the ground realities of the Indian marketplace. Our advisory is rooted in local nuance but executed with global precision.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-[48px] text-left">
@@ -180,8 +206,8 @@ export default function WhoWeAre() {
                 <div key={idx} className="flex gap-[24px]">
                   <item.icon className="text-[#C4973B] w-[36px] h-[36px] stroke-[1.5px] mt-[4px] shrink-0" />
                   <div>
-                    <h4 className="font-[700] text-[12px] uppercase tracking-[0.2em] text-[#001f3f] mb-[8px]">{item.title}</h4>
-                    <p className="text-[14px] text-[#43474e] leading-[1.6]">{item.description}</p>
+                    <h4 className="font-[700] text-[12px] uppercase tracking-[0.2em] text-[#ffffff] mb-[8px]">{item.title}</h4>
+                    <p className="text-[14px] text-[#ffffff] leading-[1.6]">{item.description}</p>
                   </div>
                 </div>
               ))}
@@ -203,18 +229,30 @@ export default function WhoWeAre() {
               Serving the Caliber of Global Industry
             </p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.15 }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
             {clientProfileData.map((item, idx) => (
-              <div key={idx} className="bg-white p-[50px] shadow-xl rounded-xl flex flex-col items-center justify-center text-center group transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl border border-gray-100 hover:border-[#C4973B]/50">
+              <motion.div
+                key={idx}
+                variants={cardVariants}
+                whileHover={{ scale: 1.04, y: -8, boxShadow: '0 20px 40px rgba(0,0,0,0.12)' }}
+                className="bg-white p-[50px] shadow-xl rounded-xl flex flex-col items-center justify-center text-center group border border-gray-100 hover:border-[#C4973B]/50 transition-colors duration-500 cursor-default"
+                style={{ backdropFilter: 'blur(10px)' }}
+              >
                 <div className="w-[80px] h-[80px] rounded-full bg-[#f0f3ff] flex items-center justify-center mb-[24px] group-hover:bg-[#001f3f] transition-colors duration-500">
                   <item.icon className="w-[40px] h-[40px] text-[#001f3f] group-hover:text-[#C4973B] transition-colors duration-500 stroke-[1.5px]" />
                 </div>
                 <span className="text-[14px] tracking-[0.15em] uppercase font-[800] text-[#001f3f] leading-[1.6] group-hover:text-[#C4973B] transition-colors duration-500">
                   {item.title}
                 </span>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
 
@@ -231,17 +269,29 @@ export default function WhoWeAre() {
               Precision <span className="mx-[12px] text-[#C4973B]">|</span> Protocol <span className="mx-[12px] text-[#C4973B]">|</span> Performance
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.15 }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+          >
             {pillarsData.map((pillar, idx) => (
-              <div key={idx} className="bg-white p-[40px] shadow-xl rounded-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl border border-gray-100 hover:border-[#C4973B]/50 group">
+              <motion.div
+                key={idx}
+                variants={cardVariants}
+                whileHover={{ scale: 1.04, y: -8, boxShadow: '0 20px 40px rgba(0,0,0,0.12)' }}
+                className="bg-white p-[40px] shadow-xl rounded-xl border border-gray-100 hover:border-[#C4973B]/50 group transition-colors duration-500 cursor-default"
+                style={{ backdropFilter: 'blur(10px)' }}
+              >
                 <div className="w-[64px] h-[64px] rounded-full bg-[#f0f3ff] flex items-center justify-center mb-[24px] group-hover:bg-[#001f3f] transition-colors duration-500">
                   <pillar.icon className="w-[32px] h-[32px] text-[#001f3f] group-hover:text-[#C4973B] transition-colors duration-500 stroke-[1.5px]" />
                 </div>
                 <h3 className="font-playfair text-[22px] text-[#001f3f] mb-[16px] tracking-[0px] font-bold group-hover:text-[#C4973B] transition-colors duration-500">{pillar.title}</h3>
                 <p className="text-[#43474e] text-[15px] leading-[1.6]">{pillar.description}</p>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
       </section>
 

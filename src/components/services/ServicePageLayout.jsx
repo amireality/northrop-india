@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import { useNavigate } from 'react-router-dom';
 import {
@@ -33,6 +34,25 @@ const ServicePageLayout = ({
   closingDescription
 }) => {
   const navigate = useNavigate();
+
+  // Framer Motion variants
+  const containerVariants = {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const cardVariants = {
+    hidden: { opacity: 0, x: -80 },
+    show: {
+      opacity: 1,
+      x: 0,
+      transition: { duration: 0.5, ease: 'easeOut' },
+    },
+  };
 
   return (
     <div className="min-h-screen bg-white selection:bg-blue-200">
@@ -78,18 +98,30 @@ const ServicePageLayout = ({
             <div className="flex-1 max-w-[120px] h-[1px] bg-[#c4973b]"></div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <motion.div
+            variants={containerVariants}
+            initial="hidden"
+            whileInView="show"
+            viewport={{ once: false, amount: 0.15 }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+          >
             {painList.map((item, idx) => (
-              <div key={idx} className="p-[30px] bg-white shadow-md hover:shadow-xl border border-slate-100 relative border-l-[3px] border-l-[#c4973b] transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
+              <motion.div
+                key={idx}
+                variants={cardVariants}
+                whileHover={{ scale: 1.04, y: -8, boxShadow: '0 20px 40px rgba(0,0,0,0.12)' }}
+                className="p-[30px] bg-white shadow-md border border-slate-100 relative border-l-[3px] border-l-[#c4973b] flex flex-col h-full cursor-default"
+                style={{ backdropFilter: 'blur(10px)' }}
+              >
                 <h4 className="text-[16px] font-bold text-[#111a22] mb-[12px] leading-tight flex gap-2 underline">
                   {item.label}
                 </h4>
                 <p className="text-[14.5px] text-[#111111] leading-relaxed font-medium">
                   {item.text}
                 </p>
-              </div>
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         </div>
 
         {/* DELIVERABLES */}
@@ -98,26 +130,38 @@ const ServicePageLayout = ({
           <div className="flex-1 max-w-[120px] h-[1px] bg-blue-100"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1240px] mb-[44px]">
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.15 }}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1240px] mb-[44px]"
+        >
           {delGrid.map((card, idx) => (
-            <div key={idx} className="p-[40px_30px] bg-white shadow-md hover:shadow-xl border border-slate-100 relative border-l-[3px] border-l-blue-600 transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
-              <h4 className="text-[16px] font-bold text-[#111a22] mb-[15px] leading-tight underline ">{card.title}</h4>
+            <motion.div
+              key={idx}
+              variants={cardVariants}
+              whileHover={{ scale: 1.04, y: -8, boxShadow: '0 20px 40px rgba(0,0,0,0.12)' }}
+              className="p-[40px_30px] bg-white shadow-md border border-slate-100 relative border-l-[3px] border-l-blue-600 flex flex-col h-full cursor-default"
+              style={{ backdropFilter: 'blur(10px)' }}
+            >
+              <h4 className="text-[16px] font-bold text-[#111a22] mb-[15px] leading-tight underline">{card.title}</h4>
               <p className="text-[14.5px] text-[#111111] leading-relaxed font-medium">{card.desc}</p>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
 
         {/* OUTCOMES */}
        {/* OUTCOMES */}
 <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-[40px] max-w-[820px]">
   {outcomes.map((outcome, idx) => {
     const colors = [
-      { bg: "bg-blue-600", hover: "hover:bg-blue-700", shadow: "shadow-blue-300" },
-      { bg: "bg-violet-600", hover: "hover:bg-violet-700", shadow: "shadow-violet-300" },
-      { bg: "bg-rose-500", hover: "hover:bg-rose-600", shadow: "shadow-rose-300" },
-      { bg: "bg-amber-500", hover: "hover:bg-amber-600", shadow: "shadow-amber-300" },
-      { bg: "bg-emerald-500", hover: "hover:bg-emerald-600", shadow: "shadow-emerald-300" },
-      { bg: "bg-cyan-500", hover: "hover:bg-cyan-600", shadow: "shadow-cyan-300" },
+      { bg: "bg-[#C4973B]", hover: "hover:bg-[#C4973B]", shadow: "shadow-[#C4973B]" },
+      { bg: "bg-[#001f3f]", hover: "hover:bg-[#001f3f]", shadow: "shadow-[#001f3f]" },
+      { bg: "bg-[#C4973B]", hover: "hover:bg-[#C4973B]", shadow: "shadow-[#C4973B]" },
+      { bg: "bg-[#001f3f]", hover: "hover:bg-[#001f3f]", shadow: "shadow-[#001f3f]" },
+      { bg: "bg-[#C4973B]", hover: "hover:bg-[#C4973B]", shadow: "shadow-[#C4973B]" },
+      { bg: "bg-[#001f3f]", hover: "hover:bg-[#001f3f]", shadow: "shadow-[#001f3f]" },
     ];
     const c = colors[idx % colors.length];
 
@@ -143,14 +187,30 @@ const ServicePageLayout = ({
           <div className="flex-1 max-w-[120px] h-[1px] bg-blue-100"></div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1240px] mb-[80px]">
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="show"
+          viewport={{ once: false, amount: 0.15 }}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-[1240px] mb-[80px]"
+        >
           {whoGrid.map((card, idx) => (
-            <div key={idx} className="p-[40px_30px] bg-white shadow-md hover:shadow-xl border border-slate-100 relative border-l-[3px] border-l-[#111a22] transition-all duration-300 hover:-translate-y-1 flex flex-col h-full">
+            <motion.div
+              key={idx}
+              variants={cardVariants}
+              whileHover={{ scale: 1.04, y: -8, boxShadow: '0 20px 40px rgba(0,0,0,0.12)' }}
+              className="p-[40px_30px] bg-white shadow-md border border-slate-100 relative border-l-[3px] border-l-[#111a22] flex flex-col h-full cursor-default"
+              style={{ backdropFilter: 'blur(10px)' }}
+            >
               <h4 className="text-[16px] font-bold text-[#111a22] mb-[15px] leading-tight underline">{card.title}</h4>
               <p className="text-[14.5px] text-[#111111] leading-relaxed font-medium">{card.desc}</p>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
+
+
+
+        
 
         {/* CTA */}
         <div className="flex flex-col items-center mt-10 mb-8">
