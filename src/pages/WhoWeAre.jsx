@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 import {
-  Globe, MapPin, Handshake, Factory, Wallet, Users, HeartPulse, Sprout,
+  Globe, MapPin, Handshake, Factory, Wallet, Users,
   Compass, Landmark, Shield, FileText, Merge, Database, Sparkles
 } from 'lucide-react';
 

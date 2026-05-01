@@ -82,7 +82,7 @@ const competencies = [
 ];
 
 const metrics = [
-  { value: "₹60,000 Cr+", label: "Balance Sheet Exposure" },
+  { value: "  ₹60,000 Cr+", label: "Balance Sheet Exposure" },
   { value: "₹8,000 Cr+", label: "Due Diligence Executed" },
   { value: "₹1,200 Cr", label: "Loan Exposure Monitoring" },
   { value: "100+", label: "Audits Completed" },
@@ -188,7 +188,7 @@ export default function TrackRecord() {
               {metrics.map(({ value, label }, i) => (
                 <li key={i} className="flex flex-col gap-1 group">
                   <span className=" text-[28px] leading-none text-[#e59e0e] tracking-tight group-hover:text-white transition-colors duration-200">
-                    {value}
+                   Upto -{value}
                   </span>
                   <span className="text-[11px] uppercase tracking-[0.12em] text-white/40 font-medium">
                     {label}
