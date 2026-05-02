@@ -17,7 +17,7 @@ function Pillar_1_corporate_strategy() {
             </div>
           </header>
           
-          <section className="w-full  mb-[64px] md:mb-[58px] overflow-hidden border border-[#c4c6cf]">
+          <section className="w-full  md:h-[614px] mb-[64px] md:mb-[58px] overflow-hidden border border-[#c4c6cf]">
             <img 
               alt="Architectural pillar" 
               className="w-full h-full object-cover grayscale-[20%]" 

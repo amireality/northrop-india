@@ -54,7 +54,7 @@ export default function Header() {
 
         {/* CENTER-LEFT — Nav links (next to NORTHROP) */}
         <div className="flex items-center h-full flex-1">
-          <div className="hidden h-full items-center gap-6 md:flex">
+          <div className="hidden h-full items-center gap-6 xl:flex">
 
             <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
               <NavItem label="Who we are" href="/who-we-are" hasDropdown={false} />
@@ -95,7 +95,7 @@ export default function Header() {
           </div>
 
           {/* RIGHT — LinkedIn + Mail icons pinned far right */}
-          <div className="hidden md:flex items-center gap-4 pl-6 ml-auto border-l border-gray-200 shrink-0" onMouseEnter={() => setIsMegaMenuOpen(false)}>
+          <div className="hidden xl:flex items-center gap-4 pl-6 ml-auto border-l border-gray-200 shrink-0" onMouseEnter={() => setIsMegaMenuOpen(false)}>
             <a
               href="https://www.linkedin.com/company/northrop-management-private-limited"
               target="_blank"
@@ -117,7 +117,7 @@ export default function Header() {
           </div>
 
           {/* Mobile hamburger */}
-          <button className="md:hidden flex items-center text-gray-800 ml-auto" onClick={() => setIsMobileMenuOpen(true)}>
+          <button className="xl:hidden flex items-center text-gray-800 ml-auto" onClick={() => setIsMobileMenuOpen(true)}>
             <Menu size={28} />
           </button>
         </div>
@@ -166,7 +166,7 @@ export default function Header() {
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-[60] flex flex-col bg-black text-white overflow-y-auto md:hidden">
+        <div className="fixed inset-0 z-[60] flex flex-col bg-black text-white overflow-y-auto xl:hidden">
           <div className="flex h-[80px] items-center justify-between px-6 border-b border-gray-800">
             <Link to="/" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center text-2xl font-bold tracking-tighter">
               <span>Northrop</span>
