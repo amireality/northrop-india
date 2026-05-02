@@ -183,7 +183,7 @@ const Character = ({ char, progress, range, baseColor, activeColor }) => {
 const AnimatedText = ({
   text,
   delay = 0,
-  baseColor = "rgba(255,255,255,0.3)",
+  baseColor = "rgba(255,255,255,0)",
   activeColor = "#ffffff",
   offset = ["start 80%", "end center"],
   targetRef,
@@ -253,7 +253,7 @@ export default function WhoWeAre() {
 
         <div className="relative z-10 max-w-[1440px] mx-auto px-[32px] md:px-[40px] w-full mt-10">
           <div className="w-full max-w-[1280px]">
-            <div className="space-y-[48px] md:space-y-[64px] text-[36px] md:text-[36px] lg:text-[48px] xl:text-[64px] font-playfair font-[300] leading-[1.1]  text-white">
+            <div className="space-y-[48px] md:space-y-[64px] text-[36px] md:text-[36px] lg:text-[48px] xl:text-[64px] font-playfair font-[300] leading-[1.1]  text-white font-bold" >
               <span>
                 <AnimatedText
                   text="We are a management consulting firm built on a single operating conviction: that every enterprise we touch must become the benchmark not approach it, not aspire to it, but become it. We do not believe in second. We do not engineer improvement. We engineer dominance."
@@ -325,7 +325,7 @@ export default function WhoWeAre() {
             <span className="text-[#C4973B] font-playfair italic text-[22px] mb-[24px] block font-semibold">
               Institutional Horizon
             </span>
-            <div className="text-[36px] md:text-[48px] lg:text-[64px] font-playfair font-[300] leading-[1.2] text-white">
+            <div className="text-[36px] md:text-[48px] lg:text-[64px] font-playfair font-[300] leading-[1.2] text-white font-bold">
               <AnimatedText
                 text="Our vision is to see Indian enterprises lead the Fortune 500, not follow it.We identify and eliminate the structural constraints governance gaps, capital inefficiencies, and execution barriers that prevent companies from reaching global scale."
                 delay={0}
