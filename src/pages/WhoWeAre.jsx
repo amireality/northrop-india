@@ -74,6 +74,36 @@ const cardVariants = {
   },
 };
 
+const AnimatedText = ({ text, delay = 0, baseColor = "rgba(255,255,255,0.3)", activeColor = "#ffffff" }) => {
+  const letters = text.split("");
+  return (
+    <motion.span
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true, margin: "-10% 0px" }}
+      variants={{
+        visible: { transition: { staggerChildren: 0.015, delayChildren: delay } },
+        hidden: {}
+      }}
+      className="inline-block"
+      style={{ whiteSpace: "pre-wrap" }}
+    >
+      {letters.map((char, index) => (
+        <motion.span
+          key={index}
+          variants={{
+            hidden: { color: baseColor },
+            visible: { color: activeColor }
+          }}
+          transition={{ duration: 0.1 }}
+        >
+          {char}
+        </motion.span>
+      ))}
+    </motion.span>
+  );
+};
+
 export default function WhoWeAre() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -88,44 +118,27 @@ export default function WhoWeAre() {
 
 
       {/* Hero Section: The Founder's Mandate */}
-      <section className="max-w-[1440px] mx-auto px-[32px] md:px-[40px] pt-[16px] pb-[4px]">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-[40px] items-stretch">
-          <div className="col-span-1 lg:col-span-7 flex flex-col justify-center order-2 lg:order-1">
-            <div className="max-w-[576px]">
-              <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[24px] block tracking-[0px]">The Founder’s Mandate</span>
-              <h1 className="font-playfair text-[52px] md:text-[72px] text-[#001f3f] leading-[1.0] mb-[48px] tracking-tighter">About Northrop Management.</h1>
-              <div className="space-y-[32px] text-[#43474e] leading-[1.8] text-[18px] font-[300]">
-                <p>
-                  In an era of performative complexity, we prioritize <span className="text-[#001f3f] ">Structural Integrity</span>. For too long, the Indian enterprise has navigated through decisions driven by incomplete analysis and misaligned incentives. We believe that national resilience begins with institutional transparency.
-                </p>
-                <blockquote className="font-playfair text-[30px] text-[#001f3f] leading-[1.3] py-[24px] relative">
-                  <span className="absolute left-[-32px] top-0 text-[60px] text-[#C4973B]/20">“</span>
-                  India’s economy is fundamentally stronger when every business has access to clear, structured, and honest advisory.
-                </blockquote>
-                <p>
-                  At Northrop Management, we replace ambiguity with documented analysis, structured frameworks, and complete accountability at every stage of an engagement. Our mandate is to provide the intellectual rigour required to build lasting institutional value that endures across market cycles, regulatory shifts, and generational transitions.
-                </p>
-              </div>
-              <div className="mt-[64px] flex items-center gap-[24px]">
-                <div className="h-[1px] w-[48px] bg-[#C4973B]/40"></div>
-                <div>
-                  <div className="text-[#001f3f] font-[700] uppercase tracking-[0.3em] text-[11px] mb-[4px]">Ashish Chaudhary</div>
-                  <div className="text-[#C4973B] font-playfair text-[14px]">Founder & Managing Director</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-span-1 lg:col-span-5 order-1 lg:order-2 flex flex-col">
-            <div className="flex-1 min-h-[480px] lg:min-h-0 overflow-hidden">
-              <img
-                alt="Ashish Chaudhary, Founder & Managing Director, Northrop Management Private Limited"
-                className="w-full h-full "
-                src="/whoweare/bannner.jpeg"
-                loading="lazy"
-              />
-            </div>
-            <div className="mt-[16px] text-right">
-              <p className="text-[10px] tracking-[0.3em] uppercase text-[#43474e]/60">Forensic Stewardship / Strategic Foresight</p>
+      <section className="relative w-full min-h-[80vh] flex items-center pt-[80px] pb-[80px] overflow-hidden">
+        
+        <div className="absolute inset-0 z-0">
+          <img
+            alt="Ashish Chaudhary, Founder & Managing Director, Northrop Management Private Limited"
+            className="w-full h-full object-cover object-top"
+            src="/whoweare/bannner.jpeg"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-black/50"></div>
+        </div>
+
+        <div className="relative z-10 max-w-[1440px] mx-auto px-[32px] md:px-[40px] w-full mt-10">
+          <div className="w-full max-w-[1280px]">
+            <div className="space-y-[48px] md:space-y-[64px] text-[24px] md:text-[24px] lg:text-[36px] xl:text-[40px] font-playfair font-[300] leading-[1.1]  text-white">
+              <span >
+                <AnimatedText text="We are a management consulting firm built on a single operating conviction: that every enterprise we touch must become the benchmark not approach it, not aspire to it, but become it. We do not believe in second. We do not engineer improvement. We engineer dominance." delay={0} />
+              </span>
+              <span>
+                <AnimatedText text="Most advisory firms tell you what to do. Northrop ensures it is done completely, structurally, and irreversibly. We do not issue recommendations that gather dust in board decks. We redesign the architecture of how a business thinks, decides, operates, and performs. We stay until the transformation is no longer a project it is the new standard." delay={4.2} />
+              </span>
             </div>
           </div>
         </div>
@@ -163,30 +176,22 @@ export default function WhoWeAre() {
       </section>
 
       {/* Vision & Mission Section */}
-      <section className="py-[28px] bg-white">
-        <div className=" mx-auto px-[12px] md:px-[40px]">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-[20px] items-center">
-            <div className="lg:col-span-6">
-              <span className="text-[#C4973B] text-[18px] mb-[16px] block">Institutional Horizon</span>
-              <h2 className="text-[26px] md:text-[38px] text-[#001f3f] leading-[1.1]">
-                Our vision is to <span className="font-[300]">architect the ascent of Indian enterprise, positioning domestic leaders for global capital markets, international institutional recognition, and cross-border transactional excellence.</span>
-              </h2>
-            </div>
-            <div className="lg:col-span-6 lg:col-start-7 lg:border-l border-gray-200 lg:pl-[48px]">
-              <div className="space-y-[48px]">
-                <div>
-                  <h3 className="text-[#001f3f] font-[700] text-[10px] tracking-[0.4em] uppercase mb-[16px]">Our Vision</h3>
-                  <p className="text-[#43474e] text-[18px] font-[300] leading-[1.6]">
-                    To be the definitive architectural partner for the next generation of Indian conglomerates, transforming local potential into global dominance through disciplined stewardship.
-                  </p>
-                </div>
-                <div>
-                  <h3 className="text-[#001f3f] font-[700] text-[10px] tracking-[0.4em] uppercase mb-[16px]">Our Mission</h3>
-                  <p className="text-[#43474e] text-[18px] font-[300] leading-[1.6]">
-                    Replacing ambiguity with precision. We provide the forensic rigor and strategic foresight necessary for Indian enterprises to navigate complexity and achieve sustainable, institutional scale.
-                  </p>
-                </div>
-              </div>
+      <section className="relative w-full py-[100px] flex items-center overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <img
+            alt="Institutional Horizon"
+            className="w-full h-full object-cover object-center"
+            src="/whoweare/whoweare-hero.jpg"
+            loading="lazy"
+          />
+          <div className="absolute inset-0 bg-black/70"></div>
+        </div>
+
+        <div className="relative z-10 max-w-[1440px] mx-auto px-[32px] md:px-[40px] w-full">
+          <div className="max-w-[1280px]">
+            <span className="text-[#C4973B] font-playfair italic text-[22px] mb-[24px] block font-semibold">Institutional Horizon</span>
+            <div className="text-[36px] md:text-[48px] lg:text-[64px] font-playfair font-[300] leading-[1.2] text-white">
+              <AnimatedText text="Our vision is to architect the ascent of Indian enterprise, positioning domestic leaders for global capital markets, international institutional recognition, and cross-border transactional excellence." delay={0} />
             </div>
           </div>
         </div>

@@ -1,4 +1,6 @@
 export const sidebarLinks = [
+  { label: 'Management Consulting', hasArrow: true },
+  { label: 'Financial Advisory', hasArrow: true },
   { label: 'Financial Reporting', hasArrow: true },
   { label: 'Risk Management', hasArrow: true, href: '/services/risk-management' },
   { label: 'Due Diligence', hasArrow: true, href: '/services/due-diligence' },
@@ -6,8 +8,8 @@ export const sidebarLinks = [
   { label: 'Taxation', hasArrow: true, href: '/services/taxation' },
   { label: 'Transaction Advisory', hasArrow: true, href: '/services/transaction-advisory' },
   { label: 'Grant & Funding', hasArrow: true, href: '/services/grant-funding' },
-  { label: 'Management Consulting', hasArrow: true },
-  { label: 'Financial Advisory', hasArrow: true },
+  
+  
 ]
 
 const slugify = (text) => text.toLowerCase().replace(/ & /g, '-').replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-');

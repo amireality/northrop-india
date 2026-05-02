@@ -93,7 +93,7 @@ export default function About() {
               Who We Are
             </a>
             <a
-              href="#services"
+              href="/what-we-do"
               className="text-[#5A5550] text-[10.5px] uppercase tracking-[0.1em] flex items-center gap-2 hover:text-[#0E0E0E] transition-all group"
             >
               Our Services

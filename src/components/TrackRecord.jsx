@@ -150,7 +150,7 @@ export default function TrackRecord() {
         <div className="mb-16 max-w-2xl">
           <p className="flex items-center gap-3 text-[10px] font-medium tracking-[0.22em] uppercase text-[#e59e0e] mb-6">
             <span className="w-6 h-px bg-[#e59e0e]" />
-            Selected Team Experience
+            Senior Team Experience
           </p>
           <h1 className=" text-[36px] lg:text-[52px] leading-[1.1] text-[#0E0E0E] tracking-tight mb-6">
             Transaction{" "}
@@ -200,7 +200,7 @@ export default function TrackRecord() {
             {/* CTA */}
             <div className="border-t border-[#e59e0e]/20 pt-6 mt-2">
               <a
-                href="mailto:Business@NorthropIndia.com"
+                href="/contact"
                 className="block w-full text-center bg-[#e59e0e] text-white text-[10.5px] font-medium tracking-[0.14em] uppercase px-6 py-4 hover:bg-[#e59e0e] transition-colors duration-200"
               >
                 Discuss a Mandate

@@ -36,7 +36,7 @@ function Footer() {
             {/* G-03: Social Links */}
             <div className="flex items-center gap-4 pt-2">
               <a
-                href="https://linkedin.com/company/northropindia"
+                href="https://www.linkedin.com/company/northrop-management-private-limited"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Northrop Management on LinkedIn"

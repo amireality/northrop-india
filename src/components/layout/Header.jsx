@@ -97,7 +97,7 @@ export default function Header() {
           {/* RIGHT — LinkedIn + Mail icons pinned far right */}
           <div className="hidden md:flex items-center gap-4 pl-6 ml-auto border-l border-gray-200 shrink-0" onMouseEnter={() => setIsMegaMenuOpen(false)}>
             <a
-              href="https://linkedin.com/company/northropindia"
+              href="https://www.linkedin.com/company/northrop-management-private-limited"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Northrop Management on LinkedIn"
