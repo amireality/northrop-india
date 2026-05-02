@@ -106,6 +106,14 @@ import GrcControlCompliance from './pages/grandfunding/GrcControlCompliance'
 import IfcIcfrIndia from './pages/riskmanagment/IfcIcfrIndia'
 import ProcessDesignDocumentation from './pages/riskmanagment/ProcessDesignDocumentation'
 import Companyprofile from './pages/Companyprofile'
+import CorporateStrategy from './subpages/Pillar_1_corporate_strategy'
+import CapitalAdvisory from './subpages/Pillar_2_capital_advisory'
+import RiskGovernance from './subpages/Pillar_3_risk_governance'
+import FinancialControls from './subpages/Pillar_4_financial_controls'
+import MaIntegration from './subpages/Pillar_5_ma_integration'
+import GlobalTaxStructuring from './subpages/Pillar_6_global_tax_structuring'
+import DigitalSovereignty from './subpages/Pillar_7_digital_sovereignty'
+import IpoReadiness from './subpages/Pillar_8_ipo_readiness'
 
 
 
@@ -137,7 +145,7 @@ function App() {
 
           {/* Services Sub-routes */}
           {/* <Route path="/services/financial-reporting" element={<FinancialReporting />} /> */}
-          
+
           <Route path="/services/risk-management" element={<RiskManagement />} />
           <Route path="/services/due-diligence" element={<DueDiligence />} />
           <Route path="/services/forensic-investigations" element={<ForensicInvestigations />} />
@@ -157,7 +165,7 @@ function App() {
 
 
 
-          
+
           <Route path="/services/buy-side-fdd" element={<BuySideFdd />} />
           <Route path="/services/sell-side-fdd" element={<SellSideFdd />} />
           <Route path="/services/vendor-dd" element={<VendorDd />} />
@@ -235,6 +243,16 @@ function App() {
           <Route path="/services/csr-consulting" element={<CsrConsulting />} />
 
           <Route path="/services/grc-control-compliance" element={<GrcControlCompliance />} />
+
+          {/* Pillar subpages */}
+          <Route path="/pillars/corporate-strategy" element={<CorporateStrategy />} />
+          <Route path="/pillars/capital-advisory" element={<CapitalAdvisory />} />
+          <Route path="/pillars/risk-governance" element={<RiskGovernance />} />
+          <Route path="/pillars/financial-controls" element={<FinancialControls />} />
+          <Route path="/pillars/ma-integration" element={<MaIntegration />} />
+          <Route path="/pillars/global-tax-structuring" element={<GlobalTaxStructuring />} />
+          <Route path="/pillars/digital-sovereignty" element={<DigitalSovereignty />} />
+          <Route path="/pillars/ipo-readiness" element={<IpoReadiness />} />
 
 
 

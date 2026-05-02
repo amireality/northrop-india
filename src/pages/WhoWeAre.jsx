@@ -5,6 +5,7 @@ import {
   Globe, MapPin, Handshake, Factory, Wallet, Users,
   Compass, Landmark, Shield, FileText, Merge, Database, Sparkles
 } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const valuesData = [
   {
@@ -44,14 +45,14 @@ const clientProfileData = [
 ];
 
 const pillarsData = [
-  { icon: Compass, title: "Corporate Strategy", description: "Architecting long-term roadmaps for sustainable scale and dominant market positioning." },
-  { icon: Landmark, title: "Capital Advisory", description: "Optimizing capital structures and navigating high-stakes international funding landscapes." },
-  { icon: Shield, title: "Risk Governance", description: "Establishing robust internal frameworks to protect institutional assets and reputation." },
-  { icon: FileText, title: "Financial Controls", description: "Implementing rigid mechanisms for absolute fiscal transparency and real-time auditability." },
-  { icon: Merge, title: "M&A Integration", description: "Facilitating strategic acquisitions with a focus on cultural and structural alignment." },
-  { icon: Globe, title: "Global Tax Structuring", description: "Sophisticated international tax planning to maximize efficiency and cross-border compliance." },
-  { icon: Database, title: "Digital Sovereignty", description: "Modernizing legacy infrastructure into secure, data-driven ecosystems for the modern era." },
-  { icon: Sparkles, title: "IPO Readiness", description: "Hardening organizational processes for the scrutiny and success of public markets." }
+  { icon: Compass, title: "Corporate Strategy", description: "Architecting long-term roadmaps for sustainable scale and dominant market positioning.", link: "/pillars/corporate-strategy" },
+  { icon: Landmark, title: "Capital Advisory", description: "Optimizing capital structures and navigating high-stakes international funding landscapes.", link: "/pillars/capital-advisory" },
+  { icon: Shield, title: "Risk Governance", description: "Establishing robust internal frameworks to protect institutional assets and reputation.", link: "/pillars/risk-governance" },
+  { icon: FileText, title: "Financial Controls", description: "Implementing rigid mechanisms for absolute fiscal transparency and real-time auditability.", link: "/pillars/financial-controls" },
+  { icon: Merge, title: "M&A Integration", description: "Facilitating strategic acquisitions with a focus on cultural and structural alignment.", link: "/pillars/ma-integration" },
+  { icon: Globe, title: "Global Tax Structuring", description: "Sophisticated international tax planning to maximize efficiency and cross-border compliance.", link: "/pillars/global-tax-structuring" },
+  { icon: Database, title: "Digital Sovereignty", description: "Modernizing legacy infrastructure into secure, data-driven ecosystems for the modern era.", link: "/pillars/digital-sovereignty" },
+  { icon: Sparkles, title: "IPO Readiness", description: "Hardening organizational processes for the scrutiny and success of public markets.", link: "/pillars/ipo-readiness" }
 ];
 
 const sovereignMandateData = [
@@ -282,19 +283,20 @@ export default function WhoWeAre() {
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
           >
             {pillarsData.map((pillar, idx) => (
-              <motion.div
-                key={idx}
-                variants={cardVariants}
-                whileHover={{ scale: 1.04, y: -8, boxShadow: '0 20px 40px rgba(0,0,0,0.12)' }}
-                className="bg-white p-[40px] shadow-xl rounded-xl border border-gray-100 hover:border-[#C4973B]/50 group transition-colors duration-500 cursor-default"
-                style={{ backdropFilter: 'blur(10px)' }}
-              >
-                <div className="w-[64px] h-[64px] rounded-full bg-[#f0f3ff] flex items-center justify-center mb-[24px] group-hover:bg-[#001f3f] transition-colors duration-500">
-                  <pillar.icon className="w-[32px] h-[32px] text-[#001f3f] group-hover:text-[#C4973B] transition-colors duration-500 stroke-[1.5px]" />
-                </div>
-                <h3 className="font-playfair text-[22px] text-[#001f3f] mb-[16px] tracking-[0px] font-bold group-hover:text-[#C4973B] transition-colors duration-500">{pillar.title}</h3>
-                <p className="text-[#43474e] text-[15px] leading-[1.6]">{pillar.description}</p>
-              </motion.div>
+              <Link to={pillar.link} key={idx}>
+                <motion.div
+                  variants={cardVariants}
+                  whileHover={{ scale: 1.04, y: -8, boxShadow: '0 20px 40px rgba(0,0,0,0.12)' }}
+                  className="bg-white p-[40px] shadow-xl rounded-xl border border-gray-100 hover:border-[#C4973B]/50 group transition-colors duration-500 cursor-pointer h-full flex flex-col"
+                  style={{ backdropFilter: 'blur(10px)' }}
+                >
+                  <div className="w-[64px] h-[64px] rounded-full bg-[#f0f3ff] flex items-center justify-center mb-[24px] group-hover:bg-[#001f3f] transition-colors duration-500">
+                    <pillar.icon className="w-[32px] h-[32px] text-[#001f3f] group-hover:text-[#C4973B] transition-colors duration-500 stroke-[1.5px]" />
+                  </div>
+                  <h3 className="font-playfair text-[22px] text-[#001f3f] mb-[16px] tracking-[0px] font-bold group-hover:text-[#C4973B] transition-colors duration-500">{pillar.title}</h3>
+                  <p className="text-[#43474e] text-[15px] leading-[1.6] mt-auto">{pillar.description}</p>
+                </motion.div>
+              </Link>
             ))}
           </motion.div>
         </div>
