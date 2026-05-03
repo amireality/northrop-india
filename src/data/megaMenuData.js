@@ -107,16 +107,16 @@ export const menuContent = {
   ],
   'Management Consulting': [
     [
-      { label: 'Enterprise Strategy & Value Architecture', href: '/services/enterprise-strategy' },
-      { label: 'Growth Structuring & Market Positioning', href: '/services/growth-structuring' },
-      { label: 'Corporate Governance & Board Advisory', href: '/services/corporate-governance' },
-      { label: 'Organizational Redesign & Capability Building', href: '/services/organizational-redesign' }
+      { label: 'Enterprise Strategy & Value Architecture', href: '/services/enterprise-strategy-value-architecture' },
+      { label: 'Growth Structuring & Market Positioning', href: '/services/growth-structuring-market-positioning' },
+      { label: 'Corporate Governance & Board Advisory', href: '/services/corporate-governance-board-advisory' },
+      { label: 'Organizational Redesign & Capability Building', href: '/services/organizational-redesign-capability-building' }
     ],
     [
-      { label: 'Portfolio Rationalization & Business Exits', href: '/services/portfolio-rationalization' },
-      { label: 'Performance Transformation & Margin Expansion', href: '/services/performance-transformation' },
-      { label: 'Founder-to-Institution Transition Advisory', href: '/services/founder-transition' },
-      { label: 'Conglomerate Strategy & Holding Structures', href: '/services/conglomerate-strategy' }
+      { label: 'Portfolio Rationalization & Business Exits', href: '/services/portfolio-rationalization-business-exits' },
+      { label: 'Performance Transformation & Margin Expansion', href: '/services/performance-transformation-margin-expansion' },
+      { label: 'Founder-to-Institution Transition Advisory', href: '/services/founder-to-institution-transition-advisory' },
+      { label: 'Conglomerate Strategy & Holding Structures', href: '/services/conglomerate-strategy-holding-structures' }
     ]
   ],
   'Financial Advisory': [

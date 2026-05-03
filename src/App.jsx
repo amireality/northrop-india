@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, } from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import HomePage from './pages/HomePage'
@@ -115,11 +116,32 @@ import GlobalTaxStructuring from './subpages/Pillar_6_global_tax_structuring'
 import DigitalSovereignty from './subpages/Pillar_7_digital_sovereignty'
 import IpoReadiness from './subpages/Pillar_8_ipo_readiness'
 
+// Management Consulting Subpages
+import Enterprisestrategyvaluearchitecture from './pages/managementconsulting/Enterprisestrategyvaluearchitecture'
+import Growthstructuringmarketpositioning from './pages/managementconsulting/Growthstructuringmarketpositioning'
+import CorporateGovernanceBoardAdvisory from './pages/managementconsulting/CorporateGovernanceBoardAdvisory'
+import OrganizationalRedesignCapabilityBuilding from './pages/managementconsulting/OrganizationalRedesignCapabilityBuilding'
+
+import PerformanceTransformationMarginExpansion from './pages/managementconsulting/PerformanceTransformationMarginExpansion'
+import FoundertoInstitutionTransitionAdvisory from './pages/managementconsulting/FoundertoInstitutionTransitionAdvisory'
+import ConglomerateStrategyHoldingStructures from './pages/managementconsulting/ConglomerateStrategyHoldingStructures'
+import PortfolioRationalizationBusinessExits from './pages/managementconsulting/PortfolioRationalizationBusinessExits'
+
+// Financial Advisory Subpages
+import CapitalStructureDebtArchitecture from './pages/financialadvisory/CapitalStructureDebtArchitecture'
+import InvestorRelationsEquityPositioning from './pages/financialadvisory/InvestorRelationsEquityPositioning'
+import PreTransactionFinancialReadiness from './pages/financialadvisory/PreTransactionFinancialReadiness'
+import PrivateEquityGrowthCapitalAdvisory from './pages/financialadvisory/PrivateEquityGrowthCapitalAdvisory'
+import WorkingCapitalLiquidityOptimization from './pages/financialadvisory/WorkingCapitalLiquidityOptimization'
+import EBITDANormalizationValuationAdvisory from './pages/financialadvisory/EBITDANormalizationValuationAdvisory'
+import CrossBorderFinancialStructuring from './pages/financialadvisory/CrossBorderFinancialStructuring'
+import DistressedAssetTurnaroundAdvisory from './pages/financialadvisory/DistressedAssetTurnaroundAdvisory'
 
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Header />
       <main className="min-h-screen   antialiased">
         <Routes>
@@ -254,8 +276,25 @@ function App() {
           <Route path="/pillars/digital-sovereignty" element={<DigitalSovereignty />} />
           <Route path="/pillars/ipo-readiness" element={<IpoReadiness />} />
 
+          {/* Management Consulting Subpages */}
+          <Route path="/services/enterprise-strategy-value-architecture" element={<Enterprisestrategyvaluearchitecture />} />
+          <Route path="/services/growth-structuring-market-positioning" element={<Growthstructuringmarketpositioning />} />
+          <Route path="/services/corporate-governance-board-advisory" element={<CorporateGovernanceBoardAdvisory />} />
+          <Route path="/services/organizational-redesign-capability-building" element={<OrganizationalRedesignCapabilityBuilding />} />
+          <Route path="/services/portfolio-rationalization-business-exits" element={<PortfolioRationalizationBusinessExits />} />
+          <Route path="/services/performance-transformation-margin-expansion" element={<PerformanceTransformationMarginExpansion />} />
+          <Route path="/services/founder-to-institution-transition-advisory" element={<FoundertoInstitutionTransitionAdvisory />} />
+          <Route path="/services/conglomerate-strategy-holding-structures" element={<ConglomerateStrategyHoldingStructures />} />
 
-
+          {/* Financial Advisory Subpages */}
+          <Route path="/services/capital-structure" element={<CapitalStructureDebtArchitecture />} />
+          <Route path="/services/investor-relations" element={<InvestorRelationsEquityPositioning />} />
+          <Route path="/services/pre-transaction-readiness" element={<PreTransactionFinancialReadiness />} />
+          <Route path="/services/private-equity-advisory" element={<PrivateEquityGrowthCapitalAdvisory />} />
+          <Route path="/services/working-capital" element={<WorkingCapitalLiquidityOptimization />} />
+          <Route path="/services/ebitda-valuation" element={<EBITDANormalizationValuationAdvisory />} />
+          <Route path="/services/cross-border-structuring" element={<CrossBorderFinancialStructuring />} />
+          <Route path="/services/distressed-asset-turnaround" element={<DistressedAssetTurnaroundAdvisory />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
