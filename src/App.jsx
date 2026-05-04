@@ -136,6 +136,12 @@ import WorkingCapitalLiquidityOptimization from './pages/financialadvisory/Worki
 import EBITDANormalizationValuationAdvisory from './pages/financialadvisory/EBITDANormalizationValuationAdvisory'
 import CrossBorderFinancialStructuring from './pages/financialadvisory/CrossBorderFinancialStructuring'
 import DistressedAssetTurnaroundAdvisory from './pages/financialadvisory/DistressedAssetTurnaroundAdvisory'
+import BankingFinancialServices from './subpages/StrategicClient/BankingFinancialServices'
+import ManufacturingIndustrials from './subpages/StrategicClient/ManufacturingIndustrials'
+import RealEstateInfrastructure from './subpages/StrategicClient/RealEstateInfrastructure'
+import NonProfitGrantAdvisory from './subpages/StrategicClient/NonProfitGrantAdvisory'
+import EnergyUtilities from './subpages/StrategicClient/EnergyUtilities'
+import TextilesConsumer from './subpages/StrategicClient/TextilesConsumer'
 
 
 function App() {
@@ -295,6 +301,18 @@ function App() {
           <Route path="/services/ebitda-valuation" element={<EBITDANormalizationValuationAdvisory />} />
           <Route path="/services/cross-border-structuring" element={<CrossBorderFinancialStructuring />} />
           <Route path="/services/distressed-asset-turnaround" element={<DistressedAssetTurnaroundAdvisory />} />
+
+
+
+
+
+          {/* Industry Pages */}
+          <Route path="/services/banking-financial-services" element={<BankingFinancialServices />} />
+          <Route path="/services/manufacturing-industrials" element={<ManufacturingIndustrials />} />
+          <Route path="/services/real-estate-infrastructure" element={<RealEstateInfrastructure />} />
+          <Route path="/services/non-profit-grant-advisory" element={<NonProfitGrantAdvisory />} />
+          <Route path="/services/energy-utilities" element={<EnergyUtilities />} />
+          <Route path="/services/textiles-consumer" element={<TextilesConsumer />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

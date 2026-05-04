@@ -69,12 +69,12 @@ const globalInfluenceData = [
 ];
 
 const clientProfileData = [
-  { icon: Handshake, title: "Banking & Financial Services" },
-  { icon: Factory, title: "Manufacturing & Industrials" },
-  { icon: Wallet, title: "Real Estate & Infrastructure" },
-  { icon: Users, title: "Non-Profit & Grant Advisory" },
-  { icon: Globe, title: "Energy & Utilities" },
-  { icon: FileText, title: "Textiles & Consumer" },
+  { icon: Handshake, title: "Banking & Financial Services", link: "/services/banking-financial-services" },
+  { icon: Factory, title: "Manufacturing & Industrials", link: "/services/manufacturing-industrials" },
+  { icon: Wallet, title: "Real Estate & Infrastructure", link: "/services/real-estate-infrastructure" },
+  { icon: Users, title: "Non-Profit & Grant Advisory", link: "/services/non-profit-grant-advisory" },
+  { icon: Globe, title: "Energy & Utilities", link: "/services/energy-utilities" },
+  { icon: FileText, title: "Textiles & Consumer", link: "/services/textiles-consumer" },
 ];
 
 const pillarsData = [
@@ -395,24 +395,25 @@ export default function WhoWeAre() {
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
           >
             {clientProfileData.map((item, idx) => (
-              <motion.div
-                key={idx}
-                variants={cardVariants}
-                whileHover={{
-                  scale: 1.04,
-                  y: -8,
-                  boxShadow: "0 20px 40px rgba(0,0,0,0.12)",
-                }}
-                className="bg-white p-[50px] shadow-xl rounded-xl flex flex-col items-center justify-center text-center group border border-gray-100 hover:border-[#C4973B]/50 transition-colors duration-500 cursor-default"
-                style={{ backdropFilter: "blur(10px)" }}
-              >
-                <div className="w-[80px] h-[80px] rounded-full bg-[#f0f3ff] flex items-center justify-center mb-[24px] group-hover:bg-[#001f3f] transition-colors duration-500">
-                  <item.icon className="w-[40px] h-[40px] text-[#001f3f] group-hover:text-[#C4973B] transition-colors duration-500 stroke-[1.5px]" />
-                </div>
-                <span className="text-[14px] tracking-[0.15em] uppercase font-[800] text-[#001f3f] leading-[1.6] group-hover:text-[#C4973B] transition-colors duration-500">
-                  {item.title}
-                </span>
-              </motion.div>
+              <Link to={item.link} key={idx}>
+                <motion.div
+                  variants={cardVariants}
+                  whileHover={{
+                    scale: 1.04,
+                    y: -8,
+                    boxShadow: "0 20px 40px rgba(0,0,0,0.12)",
+                  }}
+                  className="bg-white p-[50px] shadow-xl rounded-xl flex flex-col items-center justify-center text-center group border border-gray-100 hover:border-[#C4973B]/50 transition-colors duration-500 cursor-pointer"
+                  style={{ backdropFilter: "blur(10px)" }}
+                >
+                  <div className="w-[80px] h-[80px] rounded-full bg-[#f0f3ff] flex items-center justify-center mb-[24px] group-hover:bg-[#001f3f] transition-colors duration-500">
+                    <item.icon className="w-[40px] h-[40px] text-[#001f3f] group-hover:text-[#C4973B] transition-colors duration-500 stroke-[1.5px]" />
+                  </div>
+                  <span className="text-[14px] tracking-[0.15em] uppercase font-[800] text-[#001f3f] leading-[1.6] group-hover:text-[#C4973B] transition-colors duration-500">
+                    {item.title}
+                  </span>
+                </motion.div>
+              </Link>
             ))}
           </motion.div>
         </div>
