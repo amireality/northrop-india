@@ -1,58 +1,241 @@
-import React from 'react';
-import ServicePageLayout from '../../components/services/ServicePageLayout';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const ConglomerateStrategyHoldingStructures = () => {
-  const data = {
-    metaTitle: "Conglomerate Strategy & Holding Structures | Northrop India",
-    metaDescription: "The market sees a holding company. It cannot see the businesses inside it. We redesign holding structures to close the conglomerate discount.",
-    breadcrumbs: [
-      { name: "Home", link: "/" },
-      { name: "Management Consulting", link: null },
-      { name: "Conglomerate Strategy", link: null }
-    ],
-    bannerTitle: <>The market sees a holding company. <span className="text-[#C4973B]">It cannot see the businesses inside it.</span></>,
-    bannerDescription: "Indian conglomerates were built when capital was scarce and trust was scarcer. Today, capital is plentiful, trust is institutional — and the conglomerate discount is a tax the public market levies on opacity. The strategy question is no longer “what businesses to own” but “how to be valued for owning them.”",
-    primaryBtnText: "Get Holdco Advisory",
-    secondaryBtnText: "Request a Structure Review",
-    svcNum: "MC — 08 /",
-    svcTag: "Conglomerate Strategy & Holding Structures",
-    svcH2: <>INDUSTRY-SPECIFIC HOLDCO FAILURES <br /><em className="italic text-[#C4973B] not-italic">— AND THEIR COST</em></>,
-    hookText: "The conglomerate discount is a tax the public market levies on opacity. Here is what holding structure failure looks like:",
-    painLabel: "What holdco failures look like — by structure type",
-    painList: [
-      { label: "Listed Holdcos", text: "SOTP-to-traded gap of 30–45%. Investors cannot see capital allocation logic across business units; analysts model the portfolio as a single under-performing entity." },
-      { label: "Multi-Generation Family Groups", text: "Cross-holdings, related-party transactions, and royalty flows obscure unit-level economics. Each governance event triggers a 5–10% re-rating downward." },
-      { label: "Diversified Promoter Groups", text: "New-economy bets stranded inside old-economy parents. Listing pathway for high-multiple businesses blocked by group structure." },
-      { label: "Cross-Border Holdcos", text: "Mauritius, Singapore, and Netherlands holding structures legacy of past tax and capital regimes — now sources of regulatory and tax risk." }
-    ],
-    delGrid: [
-      { title: "Holding Structure Diagnostic", desc: "Map of legal entities, cross-holdings, RPTs, and capital flows against strategic, tax, and governance objectives." },
-      { title: "Group Architecture Redesign", desc: "Re-design of holdcos, sub-holdcos, and operating entities — Ind-AS, Companies Act, FEMA, and tax-aligned." },
-      { title: "Listing & Demerger Pathway", desc: "Structured pathway to unlock SOTP — listing of subsidiaries, demergers, vertical/horizontal splits, and value-crystallisation events." },
-      { title: "Capital Allocation Operating Model", desc: "Group-level capital allocation framework — explicit, governed, and transparent to public market scrutiny." }
-    ],
-    outcomes: [
-      "SOTP Discount Closed",
-      "Listing Pathway Defined",
-      "Tax & FEMA Compliant",
-      "RPT Architecture Reset",
-      "Family Settlement Aligned",
-      "Investor Visibility Restored"
-    ],
-    whoGrid: [
-      { title: "Listed Conglomerates", desc: "Facing structural SOTP discount and inability to communicate capital allocation logic." },
-      { title: "Promoter Families", desc: "Restructuring multi-generational holdings ahead of succession or capital event." },
-      { title: "Group CFOs", desc: "Preparing demerger, vertical listing, or holdco simplification." },
-      { title: "Boards of Holdcos", desc: "Where capital allocation logic has become invisible to the market." }
-    ],
-    ctaPrimaryText: "Get Holdco Advisory",
-    ctaSecondaryText: "Request a Structure Review",
-    trustNote: "Northrop has advised on conglomerate restructuring, holding-company redesign, and demerger pathways for listed groups, promoter families, and multi-jurisdictional holding companies.",
-    closingTitle: "The market does not pay for complexity. It charges for it.",
-    // closingDescription: "Every engagement starts with a confidential conversation. No obligation — just clarity on your specific exposure and how Northrop can help."
-  };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-  return <ServicePageLayout {...data} />;
+  return (
+    <div className="bg-[#fbf9f4] text-[#1b1c19] min-h-screen antialiased selection:bg-[#000000] selection:text-[#ffffff]">
+      <main className="flex-grow">
+        {/* Premium Hero Section */}
+        <section className="relative bg-[#000000] overflow-hidden h-[80vh] flex items-center">
+          <img
+            alt="Strategic Abstract"
+            className="absolute inset-0 w-full h-full object-cover opacity-60 grayscale brightness-[0.4]"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQWRytzwr8_Y1U67yRBAFnB41qU7p3d-805CGEkQ3fpm1bKUxtIeRRN0xU1rvdrcmYlXlj31lag9ELSKOnognrci3HFLzQN9Ncc4mTxU1VIonrF8qbVIh8OzD-OupuN9jbJEJO5nt8w1dLTpGCl2HNl_I2YkX9WKgUavdDdVLwm45_O-DvdE0GpYc-r2LnEYGXOqXOP3taiu6QZSYPW8M1e2utsF_E8M4iUqIutFYfJT-YB9k12LE-c2S7FYZijpRVzLKKD2hU-w"
+          />
+          <div className="relative z-10 max-w-[1200px] mx-auto px-[32px] md:px-[64px] w-full text-[#ffffff]">
+            <div className="flex items-center space-x-4 mb-8">
+              <span className="h-[1px] w-12 bg-white/50"></span>
+              <h5 className="font-sans text-[12px] tracking-[0.3em] text-white/80 uppercase font-bold">Service MC-08</h5>
+            </div>
+            <h1 className="font-serif text-[48px] md:text-[80px] mb-12 leading-[1.05] max-w-4xl font-bold tracking-tight">Conglomerate Strategy & Holding Structures.</h1>
+            <p className="font-serif text-[24px] md:text-[32px] text-white/70 max-w-2xl leading-snug italic font-normal">
+              "The market sees a holding company. It cannot see the businesses inside it."
+            </p>
+          </div>
+          <div className="absolute bottom-16 right-16 z-10 flex flex-col items-end">
+            <span className="text-white/40 font-sans text-[10px] tracking-widest uppercase mb-4 font-bold">Scroll to Explore</span>
+            <div className="h-24 w-[1px] bg-white/20 relative">
+              <div className="absolute top-0 left-0 w-full bg-white h-1/2 animate-bounce"></div>
+            </div>
+          </div>
+        </section>
+
+        {/* Context & Strategy */}
+        <section className="max-w-[1200px] mx-auto px-[32px] md:px-[64px] py-[128px] grid grid-cols-12 gap-[24px] items-start">
+          <div className="col-span-12 lg:col-span-6">
+            <h2 className="font-sans text-[12px] tracking-[0.4em] text-[#000000]/40 uppercase mb-8 font-bold">Strategic Mandate</h2>
+            <p className="font-serif text-[24px] md:text-[28px] text-[#000000] leading-relaxed mb-8 font-semibold">
+              Today, the strategy question is no longer what to own, but how to be valued for owning them. Complexity obscures value, creating structural discounts that penalize diverse holdings.
+            </p>
+            <p className="font-sans text-[16px] text-[#444748] leading-relaxed mb-12">
+              We architect holding structures that align with modern capital allocation logic, maximizing transparency and investor visibility. Our approach deconstructs historical inertia to reveal the underlying intrinsic value of the enterprise.
+            </p>
+            <div className="flex space-x-12">
+              <div>
+                <div className="text-[32px] md:text-[40px] font-serif text-[#000000] mb-2 font-bold">15-30%</div>
+                <div className="text-[10px] font-sans tracking-widest uppercase text-[#444748] font-bold">Avg. Holdco Discount</div>
+              </div>
+              <div>
+                <div className="text-[32px] md:text-[40px] font-serif text-[#000000] mb-2 font-bold">40+</div>
+                <div className="text-[10px] font-sans tracking-widest uppercase text-[#444748] font-bold">Global Restructures</div>
+              </div>
+            </div>
+          </div>
+          <div className="col-span-12 lg:col-span-6">
+            <div className="aspect-[4/5] relative overflow-hidden group shadow-2xl border border-[#c4c7c7]">
+              <img
+                alt="Corporate Architecture"
+                className="w-full h-full object-cover grayscale brightness-90 group-hover:scale-105 transition-transform duration-1000"
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfJgxGzl4WfXsrt2EMT6ruUbnzaYHvC6X0ytQGYzc0sZOVJuG5gqGv-5udcXx-hrbcGTH_6mSdk6fALx0xGmRiY8l5EzrAb2Ud7PJFiPaVsLzSVzNOMRQtmlGkWLpyafg8HGZQcggwYlRK_Nc1BPaov6nJzvM28z2ZRl37ZpOIhYM7jihunmoperZZPj9lNDh5rsANvVUPAIYEY3WosYBaWQ1-_Il4jBoaNF3_kyPXhXfXf2aMexKK_g8xjLvyfYhoXGluXfS0yA"
+              />
+              <div className="absolute inset-0 border border-white/10 m-6 pointer-events-none"></div>
+            </div>
+          </div>
+        </section>
+
+        {/* Industry Challenges Grid */}
+        <section className="bg-[#f5f3ee] py-[128px] border-y border-[#c4c7c7]/30">
+          <div className="max-w-[1200px] mx-auto px-[32px] md:px-[64px]">
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-20 gap-8">
+              <h2 className="font-serif text-[32px] md:text-[40px] text-[#000000] max-w-lg font-bold leading-tight">Structural Inefficiencies Across the Ecosystem</h2>
+              <span className="text-[#000000]/30 font-sans text-[12px] tracking-widest uppercase mb-2 font-bold">Sector Focus</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+              {[
+                { title: "Listed Holdcos", desc: "Trapped value due to persistent Sum-of-the-Parts (SOTP) discounts and opaque capital flows." },
+                { title: "Family Groups", desc: "Entangled ownership structures complicating succession, liquidity, and governance across generations." },
+                { title: "Promoter Groups", desc: "Capital allocation inefficiencies across unrelated business lines causing significant market confusion." },
+                { title: "Cross-Border", desc: "Regulatory friction, tax inefficiencies, and complex repatriation challenges across jurisdictions." }
+              ].map((item, idx) => (
+                <div key={idx} className="bg-[#ffffff] p-12 border-t-4 border-[#000000] hover:shadow-2xl transition-all duration-500 shadow-sm">
+                  <h3 className="font-serif text-[24px] mb-6 font-semibold">{item.title}</h3>
+                  <p className="font-sans text-[14px] text-[#444748] leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Capabilities / What We Deliver */}
+        <section className="max-w-[1200px] mx-auto px-[32px] md:px-[64px] py-[128px]">
+          <div className="grid grid-cols-12 gap-[24px]">
+            <div className="col-span-12 lg:col-span-4">
+              <div className="sticky top-40">
+                <h2 className="font-serif text-[32px] md:text-[40px] text-[#000000] mb-8 font-bold">Strategic Deliverables</h2>
+                <p className="font-sans text-[16px] text-[#444748] leading-relaxed mb-10">
+                  We provide an end-to-end framework for institutional grade transformation, from diagnostic to implementation.
+                </p>
+                <div className="p-8 bg-[#000000] text-[#ffffff] shadow-2xl">
+                  <h4 className="font-sans text-[10px] tracking-widest uppercase text-white/50 mb-6 font-bold">Target Audience</h4>
+                  <ul className="space-y-4 font-sans text-[14px] font-semibold">
+                    <li className="flex items-center space-x-3"><span className="w-1.5 h-1.5 bg-[#ffffff] rounded-full"></span> <span>Listed Conglomerates</span></li>
+                    <li className="flex items-center space-x-3"><span className="w-1.5 h-1.5 bg-[#ffffff] rounded-full"></span> <span>Promoter Families</span></li>
+                    <li className="flex items-center space-x-3"><span className="w-1.5 h-1.5 bg-[#ffffff] rounded-full"></span> <span>Group CFOs & Boards</span></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div className="col-span-12 lg:col-span-8 space-y-1 lg:pl-12">
+              {[
+                { num: "01", title: "Holding Structure Diagnostic", desc: "Comprehensive analysis of current architecture to identify trapped value and structural inefficiencies using proprietary benchmarking." },
+                { num: "02", title: "Group Architecture Redesign", desc: "Strategic realignment of legal, tax, and operational structures to enhance agility, capital mobility, and terminal valuation." },
+                { num: "03", title: "Listing & Demerger Pathway", desc: "Step-by-step roadmap for unlocking value through targeted spin-offs, demergers, or initial public offerings of subsidiaries." },
+                { num: "04", title: "Capital Allocation Framework", desc: "Designing rigorous internal capital markets and performance governance frameworks for holding company entities." }
+              ].map((item) => (
+                <div key={item.num} className="group py-12 border-b border-[#000000]/10 hover:bg-[#ffffff] transition-colors px-8 -mx-8">
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="font-serif text-[24px] md:text-[28px] group-hover:translate-x-2 transition-transform duration-300 font-semibold">{item.title}</h3>
+                    <span className="text-[#000000]/20 text-[48px] font-serif font-bold">{item.num}</span>
+                  </div>
+                  <p className="font-sans text-[16px] text-[#444748] max-w-xl leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Dedicated Case Study Section */}
+        <section className="bg-gradient-to-br from-[#fbf9f4] via-[#f5f3ee] to-[#fbf9f4] py-[128px] border-y border-[#c4c7c7]/30">
+          <div className="max-w-[1200px] mx-auto px-[32px] md:px-[64px]">
+            <div className="grid grid-cols-12 gap-[24px] items-center">
+              <div className="col-span-12 lg:col-span-7">
+                <div className="relative overflow-hidden aspect-[16/10] shadow-2xl border-4 border-[#000000]">
+                  <img
+                    alt="Case Study Hero"
+                    className="w-full h-full object-cover grayscale brightness-75"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBNKomfDkfIUf_UWvv86b5Vcn7Ws3fNMUJ_-Kdm_McteMBlE0av6U6PtrPYJaoRCpupk8HqqoIcyTyIjGnwIIM54QWPZOWBYGufzCEcuyTtxDRUriliMteHFb_oRsH9bgXv5YwN6P7JAC6ox8TXo6k4ZVta-4LZX5QqwIzK-HgT2CpHuxTIw9EtR_22C-b67F0WKNMOdnsmpOWAl-4tkgm_L0T1GrfbKCHeTFXxe-D9qUcbJ8V42VABuYY6nrUDSmZqaZ4DDO6mA"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/80 via-transparent to-transparent"></div>
+                  <div className="absolute bottom-12 left-12 right-12">
+                    <span className="font-sans text-[11px] tracking-[0.3em] text-white/70 uppercase mb-4 block font-bold">Major Industrial Group</span>
+                    <h3 className="text-white text-[24px] md:text-[32px] font-serif leading-tight mb-4 font-bold">Unlocking $4.2B in Trapped Capital via Structural Separation.</h3>
+                    <Link to="/insights" className="flex items-center text-white font-sans text-[12px] tracking-widest uppercase group font-bold">
+                      Read Full Case Study 
+                      <span className="material-symbols-outlined ml-3 text-lg group-hover:translate-x-2 transition-transform">arrow_forward</span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-span-12 lg:col-span-5 lg:pl-12">
+                <h2 className="font-sans text-[12px] tracking-[0.4em] text-[#000000]/40 uppercase mb-8 font-bold">Featured Case Study</h2>
+                <h3 className="font-serif text-[32px] md:text-[40px] text-[#000000] mb-8 leading-tight font-bold">Dismantling the Conglomerate Discount</h3>
+                <p className="font-sans text-[16px] text-[#444748] mb-10 leading-relaxed">
+                  An analysis of how three major industrial groups restructured their holdings to eliminate SOTP discounts, focusing on tax-neutral demergers and specialized capital allocation frameworks.
+                </p>
+                <div className="grid grid-cols-2 gap-8 mb-10">
+                  <div>
+                    <div className="text-[32px] md:text-[40px] font-serif text-[#000000] mb-1 font-bold">22%</div>
+                    <div className="text-[10px] font-sans tracking-widest uppercase text-[#444748] font-bold">Value Uplift</div>
+                  </div>
+                  <div>
+                    <div className="text-[32px] md:text-[40px] font-serif text-[#000000] mb-1 font-bold">18 Mo.</div>
+                    <div className="text-[10px] font-sans tracking-widest uppercase text-[#444748] font-bold">Timeline</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Strategic Insights */}
+        <section className="max-w-[1200px] mx-auto px-[32px] md:px-[64px] py-[128px]">
+          <div className="flex justify-between items-center mb-16">
+            <h2 className="font-serif text-[32px] md:text-[40px] text-[#000000] font-bold">Strategic Insights</h2>
+            <Link to="/insights" className="text-[#000000] font-sans text-[12px] tracking-widest uppercase border-b-2 border-[#000000] pb-1 font-bold">View Library</Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+            {[
+              { category: "Capital Allocation", title: "The New Logic of Holding Company Value.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDqeraKaPkhRQM_ApKwk-5FLKF28gek80FDnfrzp0-ZNHn2ltbM6gTAmOxQdrLUfSU8_zFvyF6mOTboDLl9LRjOXVYwUh7w5J2EcIE9YaIJj2_zRSgjVRGSohcQPyikWmXiG-ObEJokooZM7fR5O27rOLc6fT0miIYhxXgAvH49YlkEaBN3FExykI-WyyXajuAxCT2RnaRYkz_qw-AEYRoQxX6LLN7wo0y-UrqshXh-bG3Y4cXx4-cdGMQO6USi_XIfRTiAWUfTDg" },
+              { category: "Corporate Finance", title: "Tax-Neutral Demergers: A Practitioner's Guide.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAVGvZvk8gU6lzOPBqiH_vH9crFlG-v2QMTcDc20McFkwklheks6iNhzzDwuWiIBe_y3fkUfSiIaRSQ5hnFY0lPsHCTskiKhQUQaczB4oUacz6uPGGL_C1K6lEwlKK87mNYcy-xURXx94a_hMu7zfPYGBlQCQIft9Wt4aShZLuw9dnGiZuHAmPhWyYvcZb_hAzmyalhyt3tNNVUFPO6sWtAnARwmIZlTeJKeCeRFgXpcqygOF5tE-gFNoBPFHaul31aFWwcutYqzw" },
+              { category: "Governance", title: "Governance Models for Multi-Industry Groups.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDLUBAv9TpCB3GxodcLjtHamP0QA1nBn1pFx3gbl3hIwBLyTvA2OlJhY3xaMSVSmuAtWTWsJSjgIFx0bDEepue5YpqD4dHQFJpQPejRqaTuObK34IJQBQPHhejkHLbNwzSOa-DsKNKpibnQ68mfgYmaj22A-_5SgU891fnR-ZslX-uinsWg5XzNKJx3j-tDVLNUkFX_J9Mx8ZMp9o3EsK0hk9VkNW21UrHSNEgAorjDYkNpFgiGkW9n8GG80y493kyIQnRU4AOc4A" },
+              { category: "Strategy", title: "Beyond the Conglomerate Discount.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBmHJr-TIYFDeEKmgo6tsgcRtW7qK0Efd3cqqm5aBpGj4o5e4DiL7UuTurWRWn_IrjvzWu0U2DTW33oVmclhsRq3wAw8T6iNzXcmWs05ZNp8qA3XA4qT98hRZ0yIHrK6xDDNXwCb0oPZG5o9ZQLmCmRKnggdg4qM1GHslgnqd_oSUx3jcMadxzRCv042xMmhNueJiu0j6i74kicYhkS2SiRNDXFDd7yzoGu5HOeI2gy9FAFtSvdHsw108zOjXN1dl3Cb2AiGIEoDQ" }
+            ].map((article, idx) => (
+              <Link key={idx} to="/insights" className="group block">
+                <div className="aspect-[4/5] overflow-hidden mb-6 bg-[#f0eee9] border border-[#c4c7c7]">
+                  <img
+                    alt={article.title}
+                    className="w-full h-full object-cover grayscale brightness-90 group-hover:scale-105 transition-transform duration-700"
+                    src={article.img}
+                  />
+                </div>
+                <span className="text-[10px] font-sans tracking-widest text-[#000000]/50 uppercase mb-3 block font-bold">{article.category}</span>
+                <h4 className="font-serif text-[18px] md:text-[20px] leading-tight group-hover:text-[#000000] transition-colors font-bold">{article.title}</h4>
+              </Link>
+            ))}
+          </div>
+        </section>
+
+        {/* Institutional Impact */}
+        <section className="bg-[#000000] text-[#ffffff] py-[128px]">
+          <div className="max-w-[1200px] mx-auto px-[32px] md:px-[64px]">
+            <h2 className="font-sans text-[12px] tracking-[0.4em] text-white/40 uppercase mb-20 text-center font-bold">Institutional Impact</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-x-16 gap-y-20">
+              {[
+                { label: "Metric 01", title: "SOTP Discount Closed" },
+                { label: "Metric 02", title: "Listing Pathway Defined" },
+                { label: "Metric 03", title: "Tax & FEMA Compliant" },
+                { label: "Metric 04", title: "RPT Architecture Reset" },
+                { label: "Metric 05", title: "Family Settlement Aligned" },
+                { label: "Metric 06", title: "Investor Visibility Restored" }
+              ].map((metric, idx) => (
+                <div key={idx} className="border-l border-white/20 pl-8">
+                  <div className="text-[10px] font-sans text-white/40 uppercase mb-4 tracking-widest font-bold">{metric.label}</div>
+                  <h4 className="font-serif text-[20px] md:text-[24px] font-semibold">{metric.title}</h4>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Final CTA */}
+        <section className="max-w-[1200px] mx-auto px-[32px] md:px-[64px] py-48 text-center">
+          <h3 className="font-serif text-[32px] md:text-[64px] text-[#000000] max-w-4xl mx-auto mb-16 leading-tight font-bold">
+            "The market does not pay for complexity. It charges for it."
+          </h3>
+          <Link
+            to="/contact"
+            className="bg-[#000000] text-[#ffffff] px-12 py-5 font-sans text-[12px] uppercase tracking-[0.3em] hover:bg-[#30312e] transition-all duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1 font-bold inline-block"
+          >
+            Initiate Consultation
+          </Link>
+        </section>
+      </main>
+    </div>
+  );
 };
 
 export default ConglomerateStrategyHoldingStructures;

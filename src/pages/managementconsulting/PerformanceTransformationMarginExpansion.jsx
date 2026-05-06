@@ -1,58 +1,227 @@
-import React from 'react';
-import ServicePageLayout from '../../components/services/ServicePageLayout';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const PerformanceTransformationMarginExpansion = () => {
-  const data = {
-    metaTitle: "Performance Transformation & Margin Expansion | Northrop India",
-    metaDescription: "Cost programmes save what is visible. Margin lives where no one is looking. We build structural margin architecture.",
-    breadcrumbs: [
-      { name: "Home", link: "/" },
-      { name: "Management Consulting", link: null },
-      { name: "Performance Transformation", link: null }
-    ],
-    bannerTitle: <>Cost programmes save what is visible. <span className="text-[#C4973B]">Margin lives where no one is looking.</span></>,
-    bannerDescription: "Most cost programmes are spreadsheet exercises — across-the-board cuts that erode capability and return next quarter. Real margin expansion is structural: pricing, mix, complexity, and process. It survives the next cycle.",
-    primaryBtnText: "Get Margin Advisory",
-    secondaryBtnText: "Request a Margin Diagnostic",
-    svcNum: "MC — 06 /",
-    svcTag: "Performance Transformation & Margin Expansion",
-    svcH2: <>INDUSTRY-SPECIFIC MARGIN FAILURES <br /><em className="italic text-[#C4973B] not-italic">— AND THEIR COST</em></>,
-    hookText: "Most cost programmes are spreadsheet exercises that erode capability. Real margin expansion is structural. Here is what margin failure looks like across industries:",
-    painLabel: "What margin failures look like — by industry",
-    painList: [
-      { label: "Manufacturing & Industrial", text: "18–25% margin loss to product-line proliferation. SKUs that contribute less than 1% of revenue absorb 8–12% of overhead. No SKU-level economic-profit view exists." },
-      { label: "Consumer & Retail", text: "Trade promotion budgets unmeasured at SKU and account level. 30–40% of trade spend has zero or negative incremental margin." },
-      { label: "B2B Services", text: "Pricing leakage at deal-desk level. Discount approvals decentralised; gross margin variance across similar deals is 10–15 percentage points." },
-      { label: "Financial Services", text: "Operating expense ratio benchmarks ignored. Cost-to-income drifts 400–700 bps above peers; ROE narrative is vulnerable to a single rate cycle." }
-    ],
-    delGrid: [
-      { title: "Margin Diagnostic", desc: "SKU, customer, channel, and process economic-profit view — root-cause, not symptom." },
-      { title: "Pricing & Commercial Architecture", desc: "Pricing model redesign — segmentation, deal-desk discipline, discount governance, and value-based pricing." },
-      { title: "Complexity & Footprint Reduction", desc: "SKU rationalisation, network optimisation, and shared-service consolidation — with stranded-cost discipline." },
-      { title: "Process & Organisational Lean", desc: "End-to-end process redesign with measurable economic outcome — not function-by-function cost cuts." }
-    ],
-    outcomes: [
-      "200–500 bps Margin Expansion",
-      "Pricing Power Restored",
-      "SKU Economics Visible",
-      "Stranded Cost Eliminated",
-      "Cost-to-Income Reset",
-      "Structurally Defensible"
-    ],
-    whoGrid: [
-      { title: "Mid-Cap Manufacturers", desc: "Where margin is leaking through complexity, pricing, and process — not headcount." },
-      { title: "Consumer Companies", desc: "Where trade spend has detached from incremental margin and SKU economics are invisible." },
-      { title: "B2B Services Firms", desc: "Where pricing discipline has eroded and discount governance is decentralised." },
-      { title: "Listed Companies", desc: "Where the equity story needs a sustainable margin re-rating, not a one-quarter cost cut." }
-    ],
-    ctaPrimaryText: "Get Margin Advisory",
-    ctaSecondaryText: "Request a Margin Diagnostic",
-    trustNote: "Northrop has advised on performance transformation and margin expansion mandates across manufacturing, consumer, B2B services, and financial services in India.",
-    closingTitle: "Cost cuts return next quarter. Margin architecture compounds.",
-    // closingDescription: "Every engagement starts with a confidential conversation. No obligation — just clarity on your specific exposure and how Northrop can help."
-  };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-  return <ServicePageLayout {...data} />;
+  return (
+    <div className="bg-[#fbf9f4] text-[#1b1c19] min-h-screen antialiased selection:bg-[#000000] selection:text-[#ffffff]">
+      <main className="flex-grow">
+        {/* Premium Hero Section */}
+        <section className="relative min-h-[80vh] flex items-center overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img
+              alt="Modern Corporate Architecture"
+              className="w-full h-full object-cover grayscale"
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOEKDdhbgLEbjM7NuF3RhznYVzXsdGA_t9ebxagOBQxKR2BpG2AzFOD5BPa14nYshaxFFRgbetuWXjgxz6u0A8xEYtGpNjIhBNcTgguNdQuH6WN67v_sYc8jQHoQ922IbPBprKyWKYZDGdHwwmkDVTyuY2IufwwqTDFsDPSx7ScaNo3K6UYqW5OuvcvhWh6Zsb84ib3_4ilnM5-Cj3glkPffJxEFzBdR-qEx-sv08T6vC5NJ3IEknGWejAdJRYoIub-L40-9OZrg"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-[#fbf9f4] via-[#fbf9f4]/80 to-transparent"></div>
+          </div>
+          <div className="relative z-10 px-[32px] md:px-[64px] w-full max-w-[1200px] mx-auto">
+            <div className="max-w-3xl">
+              <span className="block font-sans text-[12px] text-[#000000] mb-6 uppercase tracking-widest font-semibold">Performance Transformation · MC-06</span>
+              <h1 className="font-serif text-[48px] md:text-[64px] text-[#1b1c19] mb-8 leading-tight font-bold">
+                Cost programmes save what is visible. <br />
+                <span className="italic font-normal">Margin lives where no one is looking.</span>
+              </h1>
+              <p className="font-sans text-[18px] text-[#444748] max-w-xl mb-10 leading-relaxed">
+                We help global leaders move beyond tactical cost-cutting to engineer structural margin superiority through architectural redesign of value capture.
+              </p>
+              <div className="flex gap-6">
+                <Link to="/contact" className="bg-[#000000] text-[#ffffff] px-8 py-4 font-sans text-[12px] uppercase tracking-widest font-bold hover:opacity-90 transition-opacity">
+                  Our Methodology
+                </Link>
+                <Link to="/insights" className="flex items-center gap-2 font-sans text-[12px] uppercase tracking-widest text-[#000000] border-b border-[#000000]/20 hover:border-[#000000] transition-all py-4 font-bold">
+                  View Case Studies
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Core Philosophy */}
+        <section className="px-[32px] md:px-[64px] py-[128px] max-w-[1200px] mx-auto">
+          <div className="grid grid-cols-12 gap-[24px]">
+            <div className="col-span-12 md:col-span-4">
+              <div className="sticky top-32">
+                <span className="block font-sans text-[12px] text-[#000000] mb-4 uppercase tracking-tighter font-bold">01 / PERSPECTIVE</span>
+                <h2 className="font-serif text-[32px] md:text-[40px] text-[#1b1c19] font-bold">Structural Expansion</h2>
+              </div>
+            </div>
+            <div className="col-span-12 md:col-span-8">
+              <p className="font-sans text-[18px] text-[#444748] leading-relaxed mb-12">
+                Margin expansion is structural. It is not merely a reduction of discretionary spend, but an architectural redesign of how a company creates and captures value. True expansion resides in the complex interplay of pricing mechanics, product mix, operational complexity, and streamlined processes.
+              </p>
+              <div className="aspect-[16/9] w-full bg-[#f0eee9] overflow-hidden group">
+                <img
+                  alt="Strategic Abstract Architecture"
+                  className="w-full h-full object-cover grayscale brightness-90 group-hover:scale-105 transition-transform duration-1000"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiTnDtLGBYrAOOSJ7dNCJItXH2cuOwh_g2X1Cj73OkScEzFViCyqicQ0mDPbCpx_HcEVmHPfiJYt7Mhi4HeQDLOQojigYoZ-DiXmCPjWHdnmATZzZJtIyZ_x6K0YuM5J2EyQHA2W-CNGxNOnicMqZZTGmoClFzxl7Klh8HrY5nwgq9hdBlQ06_yBiWz1O0N51jpyfCDUPtFSdvn3g_A72YF4pUjEuN2WkA877Zmkdo9FrRMYnCOASJbG5wHXtuj-MZXnz4HP13pw"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Methodology / Deliverables */}
+        <section className="bg-[#f5f3ee] border-y border-[#c4c7c7]/30">
+          <div className="px-[32px] md:px-[64px] py-[128px] max-w-[1200px] mx-auto">
+            <div className="mb-16 text-center max-w-3xl mx-auto">
+              <span className="block font-sans text-[12px] text-[#000000] mb-4 uppercase tracking-widest font-bold">The Transformation Framework</span>
+              <h2 className="font-serif text-[32px] md:text-[40px] text-[#1b1c19] font-bold">Architecting Sustainable Returns</h2>
+            </div>
+            <div className="grid grid-cols-12 gap-[24px]">
+              <div className="col-span-12 md:col-span-6 lg:col-span-3 bg-[#fbf9f4] p-10 border border-[#c4c7c7]/30 flex flex-col min-h-[360px] hover:shadow-xl transition-shadow">
+                <span className="material-symbols-outlined text-[#000000] mb-8 text-4xl font-light">query_stats</span>
+                <h3 className="font-serif text-[24px] md:text-[28px] text-[#1b1c19] mb-6 font-semibold">Margin Diagnostic</h3>
+                <p className="font-sans text-[16px] text-[#444748] mb-auto leading-relaxed">Deep-dive analysis of P&L leakage, identifying invisible cost sinks hidden within complex operational layers.</p>
+              </div>
+              <div className="col-span-12 md:col-span-6 lg:col-span-3 bg-[#fbf9f4] p-10 border border-[#c4c7c7]/30 flex flex-col min-h-[360px] hover:shadow-xl transition-shadow">
+                <span className="material-symbols-outlined text-[#000000] mb-8 text-4xl font-light">payments</span>
+                <h3 className="font-serif text-[24px] md:text-[28px] text-[#1b1c19] mb-6 font-semibold">Pricing Architecture</h3>
+                <p className="font-sans text-[16px] text-[#444748] mb-auto leading-relaxed">Restructuring commercial terms and value-based pricing models to capture maximum market value.</p>
+              </div>
+              <div className="col-span-12 md:col-span-6 lg:col-span-3 bg-[#fbf9f4] p-10 border border-[#c4c7c7]/30 flex flex-col min-h-[360px] hover:shadow-xl transition-shadow">
+                <span className="material-symbols-outlined text-[#000000] mb-8 text-4xl font-light">account_tree</span>
+                <h3 className="font-serif text-[24px] md:text-[28px] text-[#1b1c19] mb-6 font-semibold">Complexity Reduction</h3>
+                <p className="font-sans text-[16px] text-[#444748] mb-auto leading-relaxed">Rationalising SKU portfolios and optimising physical footprint to eliminate non-value-adding overhead.</p>
+              </div>
+              <div className="col-span-12 md:col-span-6 lg:col-span-3 bg-[#000000] p-10 flex flex-col min-h-[360px] shadow-2xl">
+                <span className="material-symbols-outlined text-[#ffffff] mb-8 text-4xl font-light">layers</span>
+                <h3 className="font-serif text-[24px] md:text-[28px] text-[#ffffff] mb-6 font-semibold">Org Lean 2.0</h3>
+                <p className="font-sans text-[16px] text-[#c8c6c5] mb-auto leading-relaxed">Architecting streamlined workflows that structurally embed lower operating costs into the DNA.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Case Study Section */}
+        <section className="px-[32px] md:px-[64px] py-[128px] max-w-[1200px] mx-auto">
+          <div className="grid grid-cols-12 gap-[24px] items-center">
+            <div className="col-span-12 md:col-span-6">
+              <div className="relative group cursor-pointer overflow-hidden shadow-2xl">
+                <img
+                  alt="Consulting Case Study"
+                  className="w-full h-[500px] md:h-[600px] object-cover grayscale brightness-90 hover:scale-105 transition-transform duration-1000"
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiHJm0WX503WqdxbDC98sOVbXonAmqAEv0ZnGGZsmD8U-YHPcJUJDEdzxGMrsUFlMHUqKG7KJvcePACyJCkqsf3HZvw9wZOo2YlSvTQn4rVFnr1UqDp0aawA4BFjR_1YMhxxlAY_dy2978Z80zuUMc6BfWSgoivMF5HTFhPnULXkTy31DDsRQPhQE7lw5rajTyCLe1wvwjIZCxRgU3WY7Pbn2Amybj3-dzfZKJzba2VfU3Bm-Gdzk1zjEkI0bPAQ1Gs2GTdmVeKw"
+                />
+                <div className="absolute inset-0 bg-[#000000]/20 group-hover:bg-transparent transition-colors"></div>
+              </div>
+            </div>
+            <div className="col-span-12 md:col-span-5 md:ml-auto lg:col-span-4">
+              <span className="block font-sans text-[12px] text-[#000000] mb-6 uppercase tracking-widest font-bold">Case Study / Heavy Industry</span>
+              <h2 className="font-serif text-[32px] md:text-[40px] text-[#1b1c19] mb-8 font-bold leading-tight">The Illusion of Cost Cutting</h2>
+              <p className="font-sans text-[18px] text-[#444748] mb-8 leading-relaxed">
+                How a fundamental restructuring of pricing architecture and operational complexity resulted in a sustainable 15% margin expansion for a global Fortune 500 client.
+              </p>
+              <div className="space-y-6 mb-10">
+                <div className="flex items-center gap-4 border-b border-[#c4c7c7]/30 pb-4">
+                  <span className="font-serif text-[#000000] text-[32px] md:text-[40px] font-bold">15%</span>
+                  <span className="font-sans text-[10px] text-[#444748] uppercase tracking-widest font-bold">EBITDA Improvement</span>
+                </div>
+                <div className="flex items-center gap-4 border-b border-[#c4c7c7]/30 pb-4">
+                  <span className="font-serif text-[#000000] text-[32px] md:text-[40px] font-bold">240bps</span>
+                  <span className="font-sans text-[10px] text-[#444748] uppercase tracking-widest font-bold">Margin Expansion</span>
+                </div>
+              </div>
+              <a className="inline-flex items-center gap-3 font-sans text-[12px] text-[#000000] uppercase tracking-widest hover:gap-5 transition-all font-bold" href="#">
+                Download Full Report <span className="material-symbols-outlined text-sm">arrow_forward</span>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        {/* Insights Grid Section */}
+        <section className="bg-[#000000] text-[#ffffff]">
+          <div className="px-[32px] md:px-[64px] py-[128px] max-w-[1200px] mx-auto">
+            <div className="flex justify-between items-end mb-16 border-b border-white/10 pb-8">
+              <div>
+                <span className="block font-sans text-[#c8c6c5] mb-4 uppercase tracking-widest font-bold">Strategic Insights</span>
+                <h2 className="font-serif text-[32px] md:text-[40px] font-bold">Industry Perspectives</h2>
+              </div>
+              <a className="font-sans text-[12px] text-[#ffffff] border-b border-[#ffffff] uppercase mb-2 tracking-widest font-bold hover:opacity-70 transition-all" href="#">View Library</a>
+            </div>
+            <div className="grid grid-cols-12 gap-[24px]">
+              {/* Insight 1 */}
+              <div className="col-span-12 md:col-span-6 lg:col-span-3 group cursor-pointer">
+                <div className="aspect-[4/3] mb-6 overflow-hidden bg-white/5">
+                  <img
+                    alt="Data Analytics"
+                    className="w-full h-full object-cover opacity-60 grayscale group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4-B9axJisgyb--Tuk3qB1J-4svTAph0gu63eiPtwQbSkbsOC8QdWbAyG4dqarXWUk9wvvgae-EjGFcIeZd3qQz2566XVkt6e0Y5vQuGEmFX1dyvRNLQegvShhJmqSJgSsQY0UgbzDL4YLmp0OjzBj7Xi110jF3MVmkHMowXguejjz2_BzLG8iPHniJNNTZrUzWAIh8kgkKX8l76o6ERbfsQ-FSFIH0fNjtuQ4TbxonnM576eT5U2nogXQYHT_lEMrDiyTfM7xJw"
+                  />
+                </div>
+                <span className="font-sans text-[10px] text-[#c8c6c5] uppercase tracking-widest mb-3 block font-bold">Digital Strategy</span>
+                <h4 className="font-serif text-[18px] md:text-[20px] mb-4 group-hover:text-[#c8c6c5] transition-colors font-semibold leading-tight">The Algorithmic Margin: AI in Pricing</h4>
+                <p className="text-[#c8c6c5]/70 text-[14px] line-clamp-2">Leveraging machine learning to identify micro-segments of untapped value in B2B markets.</p>
+              </div>
+              {/* Insight 2 */}
+              <div className="col-span-12 md:col-span-6 lg:col-span-3 group cursor-pointer">
+                <div className="aspect-[4/3] mb-6 overflow-hidden bg-white/5">
+                  <img
+                    alt="Global Supply Chain"
+                    className="w-full h-full object-cover opacity-60 grayscale group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvOhwjoY5wEvPS724fF2jfeF8QCDTYs-tQxomUOTEljiSGF8OuKSA8kPtRVis7V-beuqCc7Tg75MUwRT1HzReu5DtLmitg-ZDinEvRCsfx8uuf2NhMYg6Fy5x9fVNvHw0EEbXwYlcRXbOscoMOFAfWxGrc-nxb2l-HPLP83GE7DMW-haKJBg3T4NbGf5oq370alPFMcOM7890cfauJKTifd8SOtNOhl4xbLKT5bPiGvbiISobwBxsB1gEGknX1ga_-Cw3lGB08SA"
+                  />
+                </div>
+                <span className="font-sans text-[10px] text-[#c8c6c5] uppercase tracking-widest mb-3 block font-bold">Operations</span>
+                <h4 className="font-serif text-[18px] md:text-[20px] mb-4 group-hover:text-[#c8c6c5] transition-colors font-semibold leading-tight">Supply Chain Resilience as a Moat</h4>
+                <p className="text-[#c8c6c5]/70 text-[14px] line-clamp-2">Why structural supply chain redesign outperforms traditional procurement negotiation.</p>
+              </div>
+              {/* Insight 3 */}
+              <div className="col-span-12 md:col-span-6 lg:col-span-3 group cursor-pointer">
+                <div className="aspect-[4/3] mb-6 overflow-hidden bg-white/5">
+                  <img
+                    alt="Legal Strategy"
+                    className="w-full h-full object-cover opacity-60 grayscale group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBFS2INXw6NYPR3xaD039KtxWW8sFslfTBx5abkjyGLc2szTYa4Eed1AGqNiE6oMVNnYDyzFJzEralmIWCux4SHb3fXVh6XmlOYSPB8ByMmX-AD2ha6BYTPqCgXlRHcLgOFXjDIqqVFoWWm1pS_lxJw_43PquwwthnBDU7yfCEXG7mt-1NA0ouIRUby7ya-qa-K1-mEqMtD4b2Ij5pMaFfeOd63Kt5nm8XhjvRs7v5_a50mK_HWdH5uzNTGC_gEn4K1us8BANNzg"
+                  />
+                </div>
+                <span className="font-sans text-[10px] text-[#c8c6c5] uppercase tracking-widest mb-3 block font-bold">Organization</span>
+                <h4 className="font-serif text-[18px] md:text-[20px] mb-4 group-hover:text-[#c8c6c5] transition-colors font-semibold leading-tight">Beyond Lean: The Agile Enterprise</h4>
+                <p className="text-[#c8c6c5]/70 text-[14px] line-clamp-2">Reimagining organizational structures for the era of permanent volatility.</p>
+              </div>
+              {/* Insight 4 */}
+              <div className="col-span-12 md:col-span-6 lg:col-span-3 group cursor-pointer">
+                <div className="aspect-[4/3] mb-6 overflow-hidden bg-white/5">
+                  <img
+                    alt="Financial Charts"
+                    className="w-full h-full object-cover opacity-60 grayscale group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrARdzTn1H78y_GxY56PoAe9womhiqKbw5HcgOUyIUQmdAg7e9_vapFN31EeP4FVNJ3X0DqVeBSe0bv9Uf8Zd1CoT96aBEK5LaoOZdAIzOIy5rVFTasMy13LqZiUBRTwcwXfbqZBMYp3ii5gk5Z86e_HYF_3ln1p61EEVYctUWqgvmr4BW2KRJK1lVOXyrdJs1pSjUil_OwVQomWW4uPrFJ43ZAJ4ZruNu7Rk31kl1pWbmbQPe0WEnhla9W6rCGWXZ2l-bER5SxA"
+                  />
+                </div>
+                <span className="font-sans text-[10px] text-[#c8c6c5] uppercase tracking-widest mb-3 block font-bold">Corporate Finance</span>
+                <h4 className="font-serif text-[18px] md:text-[20px] mb-4 group-hover:text-[#c8c6c5] transition-colors font-semibold leading-tight">The Valuation Premium of Efficiency</h4>
+                <p className="text-[#c8c6c5]/70 text-[14px] line-clamp-2">How public markets reward companies with structural cost advantages over cycles.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Closing Conversation */}
+        <section className="px-[32px] md:px-[64px] py-[20px] max-w-[1200px] mx-auto text-center">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="font-serif text-[32px] md:text-[40px] text-[#1b1c19] mb-8 font-bold leading-tight">
+              Cost cuts return next quarter. <br />
+              <span className="italic font-normal">Margin architecture compounds.</span>
+            </h2>
+            <p className="font-sans text-[18px] text-[#444748] mb-12">
+              Engage with our senior partners to discuss your transformation objectives.
+            </p>
+            <Link
+              to="/contact"
+              className="inline-flex items-center gap-3 bg-[#000000] text-[#ffffff] px-12 py-5 font-sans text-[14px] md:text-[18px] uppercase tracking-[0.2em] transition-all hover:pr-16 font-bold"
+            >
+              Initiate Dialogue
+              <span className="material-symbols-outlined text-sm">arrow_forward</span>
+            </Link>
+          </div>
+        </section>
+      </main>
+    </div>
+  );
 };
 
 export default PerformanceTransformationMarginExpansion;
