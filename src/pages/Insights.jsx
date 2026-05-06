@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { ArrowRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const insightsData = {
   featuredArticle: {
@@ -117,10 +118,10 @@ export default function Insights() {
                   <span className="w-[4px] h-[4px] bg-[#C4973B] rounded-full"></span>
                   <span className="text-[12px] tracking-tighter text-[#43474e]">Duration: {insightsData.featuredArticle.duration}</span>
                 </div>
-                <button className="group/btn flex items-center gap-[8px] text-[#C4973B] font-[700] uppercase tracking-widest text-[12px]">
+                <Link to="/insights/indias-next-capital-cycle" className="group/btn flex items-center gap-[8px] text-[#C4973B] font-[700] uppercase tracking-widest text-[12px]">
                   Read Report
                   <ArrowRight className="w-[14px] h-[14px] group-hover/btn:translate-x-[4px] transition-transform" />
-                </button>
+                </Link>
               </div>
             </article>
 
@@ -143,9 +144,9 @@ export default function Insights() {
               <p className="text-[14px] text-[#43474e] mb-[32px] flex-grow leading-[1.6]">
                 {insightsData.sideArticles[0].description}
               </p>
-              <button className="w-fit border-b border-[#C4973B]/30 pb-[4px] text-[#C4973B] font-[700] uppercase tracking-widest text-[10px] hover:border-[#C4973B] transition-colors">
+              <Link to="/insights/indias-next-capital-cycle" className="w-fit border-b border-[#C4973B]/30 pb-[4px] text-[#C4973B] font-[700] uppercase tracking-widest text-[10px] hover:border-[#C4973B] transition-colors">
                 Read Report
-              </button>
+              </Link>
             </article>
 
             {/* Side Article 2 */}
@@ -167,9 +168,9 @@ export default function Insights() {
                   loading="lazy"
                 />
               </div>
-              <button className="w-fit border-b border-[#C4973B]/30 pb-[4px] text-[#C4973B] font-[700] uppercase tracking-widest text-[10px] hover:border-[#C4973B] transition-colors">
+              <Link to="/insights/indias-next-capital-cycle" className="w-fit border-b border-[#C4973B]/30 pb-[4px] text-[#C4973B] font-[700] uppercase tracking-widest text-[10px] hover:border-[#C4973B] transition-colors">
                 Read Report
-              </button>
+              </Link>
             </article>
 
             {/* Long Article / Data Visualization */}
@@ -184,9 +185,9 @@ export default function Insights() {
                 <p className="text-[#9ea4b0] text-[14px] mb-[32px] leading-[1.6]">
                   {insightsData.longArticle.description}
                 </p>
-                <button className="px-[32px] py-[12px] bg-[#C4973B] text-white text-[12px] font-[700] uppercase tracking-widest hover:opacity-90 transition-opacity">
+                <Link to="/insights/indias-next-capital-cycle" className="px-[32px] py-[12px] bg-[#C4973B] text-white text-[12px] font-[700] uppercase tracking-widest hover:opacity-90 transition-opacity">
                   Read Report
-                </button>
+                </Link>
               </div>
               <div className="md:w-1/2 flex items-center justify-center p-[16px] w-full">
                 <div className="relative w-full max-w-[280px] aspect-square border border-white/10 rounded-full flex items-center justify-center">
@@ -227,9 +228,9 @@ export default function Insights() {
                   <p className="text-[14px] text-[#43474e] leading-[1.6]">
                     {perspective.description}
                   </p>
-                  <button className="mt-[16px] text-[10px] font-[700] text-[#C4973B] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                  <Link to="/insights/indias-next-capital-cycle" className="mt-[16px] text-[10px] font-[700] text-[#C4973B] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
                     Read Report
-                  </button>
+                  </Link>
                 </div>
               ))}
             </div>

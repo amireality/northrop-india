@@ -142,6 +142,7 @@ import RealEstateInfrastructure from './subpages/StrategicClient/RealEstateInfra
 import NonProfitGrantAdvisory from './subpages/StrategicClient/NonProfitGrantAdvisory'
 import EnergyUtilities from './subpages/StrategicClient/EnergyUtilities'
 import TextilesConsumer from './subpages/StrategicClient/TextilesConsumer'
+import IndiasNextCapitalCycle from './pages/insights/IndiasNextCapitalCycle'
 
 
 function App() {
@@ -301,6 +302,7 @@ function App() {
           <Route path="/services/ebitda-valuation" element={<EBITDANormalizationValuationAdvisory />} />
           <Route path="/services/cross-border-structuring" element={<CrossBorderFinancialStructuring />} />
           <Route path="/services/distressed-asset-turnaround" element={<DistressedAssetTurnaroundAdvisory />} />
+          <Route path="/insights/indias-next-capital-cycle" element={<IndiasNextCapitalCycle />} />
 
 
 
