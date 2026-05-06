@@ -13,9 +13,9 @@ const Advisory = () => {
                 <div className="absolute inset-0 opacity-40">
                     <img 
                         className="w-full h-full object-cover grayscale" 
-                        data-alt="monochrome architectural photograph of a modern glass skyscraper looking upwards into a clear sky with sharp geometric lines" 
                         src="./stich.png"
-                        alt=""
+                        alt="Northrop Management advisory — architectural glass facade representing institutional precision"
+                        loading="eager"
                     />
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-transparent md:to-transparent/50"></div>
@@ -94,7 +94,7 @@ const Advisory = () => {
                         </div>
                         {/* 2. Capital Advisory */}
                         <div className="md:col-span-8 relative overflow-hidden group min-h-[300px] md:min-h-[350px]">
-                            <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="abstract architectural detail of modern steel and glass building facade with complex patterns reflecting sunlight" src="stich1.png" alt="stich1.png" />
+                            <img className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" src="stich1.png" alt="Capital advisory — modern glass building facade representing structured institutional growth" loading="lazy" />
                             <div className="absolute inset-0 bg-primary/60 backdrop-blur-[2px] p-8 md:p-10 flex flex-col justify-end">
                                 <h3 className="font-headline text-3xl md:text-4xl text-white mb-4">Capital Advisory</h3>
                                 <p className="text-surface-dim max-w-xl leading-relaxed mb-6 text-sm md:text-base">
@@ -154,7 +154,7 @@ const Advisory = () => {
             {/* Full Business Lifecycle Section */}
             <section className="py-20 md:py-32 px-6 md:px-12 bg-primary text-white overflow-hidden relative">
                 <div className="absolute top-0 right-0 w-full md:w-1/2 h-full opacity-10">
-                    <img className="w-full h-full object-cover" data-alt="abstract digital circuit pattern with glowing lines and geometric shapes over a deep blue background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGfRdH2iiz2yLUHb6f2ayVt6tILw-ozA9Hefnm17uGnxqzdR67kcmPS6lKkZP2lsqfdnjtjeUxUF7QT1jHT7Tkbepis--kJIXUQV22xwwEr3bTjOP75mi-EqldPtI6Ja7toeo1G2l0x_R1A1hxW43TZPo2hIvWlwG_MVUYmwRsfDAtfo7fh7lSANrmuFwNfCqhWZWL3k5qnx-t9D_BDzlXuU8m1HAKA3I8JrOlCZbjmd9RLG0yegEWrgrleUDwXBjd5Y2w79KA8x8" alt="" />
+                    <img className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGfRdH2iiz2yLUHb6f2ayVt6tILw-ozA9Hefnm17uGnxqzdR67kcmPS6lKkZP2lsqfdnjtjeUxUF7QT1jHT7Tkbepis--kJIXUQV22xwwEr3bTjOP75mi-EqldPtI6Ja7toeo1G2l0x_R1A1hxW43TZPo2hIvWlwG_MVUYmwRsfDAtfo7fh7lSANrmuFwNfCqhWZWL3k5qnx-t9D_BDzlXuU8m1HAKA3I8JrOlCZbjmd9RLG0yegEWrgrleUDwXBjd5Y2w79KA8x8" alt="Abstract digital pattern representing AI-assisted financial analysis" loading="lazy" />
                 </div>
                 <div className="max-w-screen-2xl mx-auto relative z-10">
                     <div className="max-w-3xl mb-16 md:mb-24 text-center md:text-left">

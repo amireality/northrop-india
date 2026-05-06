@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap');
 
 @theme {
   --color-on-background: #131c2a;
@@ -51,11 +51,10 @@
   --color-on-tertiary-fixed-variant: #004b73;
   --color-outline: #74777f;
 
-  --font-headline: "Newsreader", serif;
+  --font-headline: "Playfair Display", serif;
   --font-body: "Inter", sans-serif;
   --font-label: "Inter", sans-serif;
 }
-
 
 :root {
   --ink: #0E0E0E;
@@ -73,32 +72,78 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ── G-01: BASE RULE — all body text, navigation, UI elements use Inter ── */
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Playfair Display', serif;
-  /* Global Font */
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.65;
   background: var(--cream);
-  color: var(--ink);
+  /* color is NOT set globally — each section manages its own text color via Tailwind */
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
 
-
-p,
-span,
-button,
-a {
-font-family: 'Playfair Display', serif;
+/* ── G-02: Body text minimum 16px — WCAG AA ── */
+/* NOTE: color is intentionally NOT set here — dark sections use text-white/text-* Tailwind classes */
+p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  /* font-size and line-height intentionally inherit from body — Tailwind text-* utilities override as needed */
 }
 
+p.small,
+.caption,
+.label-text {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+span,
+li,
+a,
+label,
+input,
+select,
+textarea,
+button,
+td,
+th {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ── G-01: DISPLAY RULE — headings only use Playfair Display ── */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-.font-serif {
+.font-serif,
+.display-text,
+.hero-title {
   font-family: 'Playfair Display', serif;
+}
+
+/* ── G-01: NAVIGATION — always Inter sans-serif ── */
+nav a,
+nav li,
+nav button,
+header a,
+header button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+
+/* ── G-13: Prevent nav item text wrapping ── */
+nav a,
+nav li a,
+nav li button {
+  white-space: nowrap;
 }

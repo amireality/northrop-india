@@ -1,4 +1,6 @@
 export const sidebarLinks = [
+  { label: 'Management Consulting', hasArrow: true },
+  { label: 'Financial Advisory', hasArrow: true },
   { label: 'Financial Reporting', hasArrow: true },
   { label: 'Risk Management', hasArrow: true, href: '/services/risk-management' },
   { label: 'Due Diligence', hasArrow: true, href: '/services/due-diligence' },
@@ -6,6 +8,8 @@ export const sidebarLinks = [
   { label: 'Taxation', hasArrow: true, href: '/services/taxation' },
   { label: 'Transaction Advisory', hasArrow: true, href: '/services/transaction-advisory' },
   { label: 'Grant & Funding', hasArrow: true, href: '/services/grant-funding' },
+  
+  
 ]
 
 const slugify = (text) => text.toLowerCase().replace(/ & /g, '-').replace(/, /g, '-').replace(/ /g, '-').replace(/\//g, '-');
@@ -99,6 +103,34 @@ export const menuContent = {
       { label: 'Research & Documentation Services', href: '/services/research-documentation' },
       { label: 'Grant Management & Utilisation Services', href: '/services/grant-management-utilisation' },
       { label: 'GRC Control and Compliance Services', href: '/services/grc-control-compliance' }
+    ]
+  ],
+  'Management Consulting': [
+    [
+      { label: 'Enterprise Strategy & Value Architecture', href: '/services/enterprise-strategy-value-architecture' },
+      { label: 'Growth Structuring & Market Positioning', href: '/services/growth-structuring-market-positioning' },
+      { label: 'Corporate Governance & Board Advisory', href: '/services/corporate-governance-board-advisory' },
+      { label: 'Organizational Redesign & Capability Building', href: '/services/organizational-redesign-capability-building' }
+    ],
+    [
+      { label: 'Portfolio Rationalization & Business Exits', href: '/services/portfolio-rationalization-business-exits' },
+      { label: 'Performance Transformation & Margin Expansion', href: '/services/performance-transformation-margin-expansion' },
+      { label: 'Founder-to-Institution Transition Advisory', href: '/services/founder-to-institution-transition-advisory' },
+      { label: 'Conglomerate Strategy & Holding Structures', href: '/services/conglomerate-strategy-holding-structures' }
+    ]
+  ],
+  'Financial Advisory': [
+    [
+      { label: 'Capital Structure & Debt Architecture', href: '/services/capital-structure' },
+      { label: 'Investor Relations & Equity Positioning', href: '/services/investor-relations' },
+      { label: 'Pre-Transaction Financial Readiness', href: '/services/pre-transaction-readiness' },
+      { label: 'Private Equity & Growth Capital Advisory', href: '/services/private-equity-advisory' }
+    ],
+    [
+      { label: 'Working Capital & Liquidity Optimization', href: '/services/working-capital' },
+      { label: 'EBITDA Normalization & Valuation Advisory', href: '/services/ebitda-valuation' },
+      { label: 'Cross-Border Financial Structuring', href: '/services/cross-border-structuring' },
+      { label: 'Distressed Asset & Turnaround Advisory', href: '/services/distressed-asset-turnaround' }
     ]
   ]
 }

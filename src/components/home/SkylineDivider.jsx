@@ -18,7 +18,7 @@ export default function Divider() {
         </p>
 
         <h3 className="font-serif text-2xl lg:text-4xl italic text-white/80">
-       "Not Theory. Not Templates. Real Advisory."
+          &ldquo;Not Theory. Not Templates. Real Advisory.&rdquo;
         </h3>
       </div>
     </section>

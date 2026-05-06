@@ -82,7 +82,7 @@ const competencies = [
 ];
 
 const metrics = [
-  { value: "₹60,000 Cr+", label: "Balance Sheet Exposure" },
+  { value: "  ₹60,000 Cr+", label: "Balance Sheet Exposure" },
   { value: "₹8,000 Cr+", label: "Due Diligence Executed" },
   { value: "₹1,200 Cr", label: "Loan Exposure Monitoring" },
   { value: "100+", label: "Audits Completed" },
@@ -150,7 +150,7 @@ export default function TrackRecord() {
         <div className="mb-16 max-w-2xl">
           <p className="flex items-center gap-3 text-[10px] font-medium tracking-[0.22em] uppercase text-[#e59e0e] mb-6">
             <span className="w-6 h-px bg-[#e59e0e]" />
-            Selected Team Experience
+            Senior Team Experience
           </p>
           <h1 className=" text-[36px] lg:text-[52px] leading-[1.1] text-[#0E0E0E] tracking-tight mb-6">
             Transaction{" "}
@@ -188,7 +188,7 @@ export default function TrackRecord() {
               {metrics.map(({ value, label }, i) => (
                 <li key={i} className="flex flex-col gap-1 group">
                   <span className=" text-[28px] leading-none text-[#e59e0e] tracking-tight group-hover:text-white transition-colors duration-200">
-                    {value}
+                   Upto -{value}
                   </span>
                   <span className="text-[11px] uppercase tracking-[0.12em] text-white/40 font-medium">
                     {label}
@@ -200,7 +200,7 @@ export default function TrackRecord() {
             {/* CTA */}
             <div className="border-t border-[#e59e0e]/20 pt-6 mt-2">
               <a
-                href="mailto:Business@NorthropIndia.com"
+                href="/contact"
                 className="block w-full text-center bg-[#e59e0e] text-white text-[10.5px] font-medium tracking-[0.14em] uppercase px-6 py-4 hover:bg-[#e59e0e] transition-colors duration-200"
               >
                 Discuss a Mandate

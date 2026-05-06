@@ -26,38 +26,32 @@ function HomePage() {
       <Hero />
 
 
-      {/* ── MARQUEE STRIP ── */}
-      <div className="overflow-hidden bg-[#C4973B] border-y border-[#C4973B]/25 py-3">
+      {/* ── CREDENTIAL MARQUEE ── */}
+      <div className="bg-[#c4973b] border-y border-[#C4973B]/20 py-[13px] overflow-hidden">
         <style>{`
-          @keyframes marqueeScroll {
+          @keyframes credScroll {
             from { transform: translateX(0); }
             to   { transform: translateX(-50%); }
           }
-          .marquee-inner {
+          .cred-track {
             display: flex;
             width: max-content;
-            animation: marqueeScroll 28s linear infinite;
+            animation: credScroll 32s linear infinite;
           }
-          .marquee-inner:hover { animation-play-state: paused; }
+          .cred-track:hover { animation-play-state: paused; }
         `}</style>
-        <div className="marquee-inner">
-          {[...Array(2)].map((_, i) => (
-            <div key={i} className="flex items-center">
+        <div className="cred-track">
+          {[...Array(2)].map((_, copy) => (
+            <div key={copy} className="flex items-center">
               {[
-                'About Northrop',
-                'Advisory · Risk · M&A',
-                'Forensic Investigations',
-                'IBC & Restructuring',
-                'Strategic Finance',
-                'New Delhi · Pan-India',
-                'CA · CFA · IIT · MBA',
-                'Institutional Rigour',
-              ].map((item) => (
-                <span key={item} className="flex items-center gap-0">
-                  <span className="font-serif text-[15px] tracking-[0.18em] text-[#ffff] uppercase px-10 whitespace-nowrap">
+                "CA", "CFA", "IIT Trained", "IBC Before NCLT",
+                "Forensic Audit", "PSU Bank Mandates", "New Delhi · Mumbai · Pan-India"
+              ].map((item, i) => (
+                <span key={`${copy}-${i}`} className="flex items-center">
+                  <span className="font-sans text-[11px] font-semibold tracking-[0.18em] uppercase text-[#ffFF] whitespace-nowrap px-8">
                     {item}
                   </span>
-                  <span className="text-[#C4973B]/50 text-[10px]">◆</span>
+                  <span className="text-[#ffff]/35 text-[8px]">◆</span>
                 </span>
               ))}
             </div>

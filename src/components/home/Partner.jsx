@@ -42,9 +42,10 @@ export default function Partner() {
                 <div className="flex items-center justify-center">
                   <img 
                     src={partner.logo} 
-                    alt={partner.name} 
-                    className="h-20 w-auto object-contain  transition-all cursor-pointer" 
+                    alt={`${partner.name} — Northrop Management trusted partner`} 
+                    className="h-20 w-auto object-contain transition-all cursor-pointer" 
                     title={partner.name}
+                    loading="lazy"
                   />
                 </div>
               </SwiperSlide>
@@ -56,8 +57,9 @@ export default function Partner() {
                 <div className="flex items-center justify-center">
                   <img 
                     src={partner.logo} 
-                    alt={partner.name} 
-                    className="h-20 w-auto object-contain  transition-all duration-500 cursor-pointer" 
+                    alt={`${partner.name} — Northrop Management trusted partner`}
+                    className="h-20 w-auto object-contain transition-all duration-500 cursor-pointer" 
+                    loading="lazy"
                   />
                 </div>
               </SwiperSlide>

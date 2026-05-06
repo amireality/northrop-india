@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, } from 'react-router-dom'
+import ScrollToTop from './components/ScrollToTop'
 import Header from './components/layout/Header'
 import Footer from './components/layout/Footer'
 import HomePage from './pages/HomePage'
@@ -10,16 +11,17 @@ import Services from './pages/Services'
 import Industry from './pages/Industry'
 import Alliances from './pages/Alliances'
 import CaseStudies from './pages/CaseStudies'
-// import DynamicSubPage from './pages/DynamicSubPage'
+
 import InstitutePage from './pages/Institute'
 import Advisory from './pages/Advisory'
 import Contact from './pages/Contact'
 import Insights from './pages/Insights'
 import NotFound from './pages/NotFound'
+import Digital from './pages/Digital'
+import PrivacyPolicy from './pages/PrivacyPolicy'
 
 
 // Services Imports
-import FinancialReporting from './pages/services/FinancialReporting'
 import RiskManagement from './pages/services/RiskManagement'
 import DueDiligence from './pages/services/DueDiligence'
 import ForensicInvestigations from './pages/services/ForensicInvestigations'
@@ -105,12 +107,47 @@ import GrcControlCompliance from './pages/grandfunding/GrcControlCompliance'
 import IfcIcfrIndia from './pages/riskmanagment/IfcIcfrIndia'
 import ProcessDesignDocumentation from './pages/riskmanagment/ProcessDesignDocumentation'
 import Companyprofile from './pages/Companyprofile'
+import CorporateStrategy from './subpages/Pillar_1_corporate_strategy'
+import CapitalAdvisory from './subpages/Pillar_2_capital_advisory'
+import RiskGovernance from './subpages/Pillar_3_risk_governance'
+import FinancialControls from './subpages/Pillar_4_financial_controls'
+import MaIntegration from './subpages/Pillar_5_ma_integration'
+import GlobalTaxStructuring from './subpages/Pillar_6_global_tax_structuring'
+import DigitalSovereignty from './subpages/Pillar_7_digital_sovereignty'
+import IpoReadiness from './subpages/Pillar_8_ipo_readiness'
 
+// Management Consulting Subpages
+import Enterprisestrategyvaluearchitecture from './pages/managementconsulting/Enterprisestrategyvaluearchitecture'
+import Growthstructuringmarketpositioning from './pages/managementconsulting/Growthstructuringmarketpositioning'
+import CorporateGovernanceBoardAdvisory from './pages/managementconsulting/CorporateGovernanceBoardAdvisory'
+import OrganizationalRedesignCapabilityBuilding from './pages/managementconsulting/OrganizationalRedesignCapabilityBuilding'
+
+import PerformanceTransformationMarginExpansion from './pages/managementconsulting/PerformanceTransformationMarginExpansion'
+import FoundertoInstitutionTransitionAdvisory from './pages/managementconsulting/FoundertoInstitutionTransitionAdvisory'
+import ConglomerateStrategyHoldingStructures from './pages/managementconsulting/ConglomerateStrategyHoldingStructures'
+import PortfolioRationalizationBusinessExits from './pages/managementconsulting/PortfolioRationalizationBusinessExits'
+
+// Financial Advisory Subpages
+import CapitalStructureDebtArchitecture from './pages/financialadvisory/CapitalStructureDebtArchitecture'
+import InvestorRelationsEquityPositioning from './pages/financialadvisory/InvestorRelationsEquityPositioning'
+import PreTransactionFinancialReadiness from './pages/financialadvisory/PreTransactionFinancialReadiness'
+import PrivateEquityGrowthCapitalAdvisory from './pages/financialadvisory/PrivateEquityGrowthCapitalAdvisory'
+import WorkingCapitalLiquidityOptimization from './pages/financialadvisory/WorkingCapitalLiquidityOptimization'
+import EBITDANormalizationValuationAdvisory from './pages/financialadvisory/EBITDANormalizationValuationAdvisory'
+import CrossBorderFinancialStructuring from './pages/financialadvisory/CrossBorderFinancialStructuring'
+import DistressedAssetTurnaroundAdvisory from './pages/financialadvisory/DistressedAssetTurnaroundAdvisory'
+import BankingFinancialServices from './subpages/StrategicClient/BankingFinancialServices'
+import ManufacturingIndustrials from './subpages/StrategicClient/ManufacturingIndustrials'
+import RealEstateInfrastructure from './subpages/StrategicClient/RealEstateInfrastructure'
+import NonProfitGrantAdvisory from './subpages/StrategicClient/NonProfitGrantAdvisory'
+import EnergyUtilities from './subpages/StrategicClient/EnergyUtilities'
+import TextilesConsumer from './subpages/StrategicClient/TextilesConsumer'
 
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Header />
       <main className="min-h-screen   antialiased">
         <Routes>
@@ -130,11 +167,13 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/insights" element={<Insights />} />
           <Route path="/company-profile" element={<Companyprofile />} />
+          <Route path="/digital" element={<Digital />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
 
           {/* Services Sub-routes */}
           {/* <Route path="/services/financial-reporting" element={<FinancialReporting />} /> */}
-          
+
           <Route path="/services/risk-management" element={<RiskManagement />} />
           <Route path="/services/due-diligence" element={<DueDiligence />} />
           <Route path="/services/forensic-investigations" element={<ForensicInvestigations />} />
@@ -154,7 +193,7 @@ function App() {
 
 
 
-          
+
           <Route path="/services/buy-side-fdd" element={<BuySideFdd />} />
           <Route path="/services/sell-side-fdd" element={<SellSideFdd />} />
           <Route path="/services/vendor-dd" element={<VendorDd />} />
@@ -233,8 +272,47 @@ function App() {
 
           <Route path="/services/grc-control-compliance" element={<GrcControlCompliance />} />
 
+          {/* Pillar subpages */}
+          <Route path="/pillars/corporate-strategy" element={<CorporateStrategy />} />
+          <Route path="/pillars/capital-advisory" element={<CapitalAdvisory />} />
+          <Route path="/pillars/risk-governance" element={<RiskGovernance />} />
+          <Route path="/pillars/financial-controls" element={<FinancialControls />} />
+          <Route path="/pillars/ma-integration" element={<MaIntegration />} />
+          <Route path="/pillars/global-tax-structuring" element={<GlobalTaxStructuring />} />
+          <Route path="/pillars/digital-sovereignty" element={<DigitalSovereignty />} />
+          <Route path="/pillars/ipo-readiness" element={<IpoReadiness />} />
+
+          {/* Management Consulting Subpages */}
+          <Route path="/services/enterprise-strategy-value-architecture" element={<Enterprisestrategyvaluearchitecture />} />
+          <Route path="/services/growth-structuring-market-positioning" element={<Growthstructuringmarketpositioning />} />
+          <Route path="/services/corporate-governance-board-advisory" element={<CorporateGovernanceBoardAdvisory />} />
+          <Route path="/services/organizational-redesign-capability-building" element={<OrganizationalRedesignCapabilityBuilding />} />
+          <Route path="/services/portfolio-rationalization-business-exits" element={<PortfolioRationalizationBusinessExits />} />
+          <Route path="/services/performance-transformation-margin-expansion" element={<PerformanceTransformationMarginExpansion />} />
+          <Route path="/services/founder-to-institution-transition-advisory" element={<FoundertoInstitutionTransitionAdvisory />} />
+          <Route path="/services/conglomerate-strategy-holding-structures" element={<ConglomerateStrategyHoldingStructures />} />
+
+          {/* Financial Advisory Subpages */}
+          <Route path="/services/capital-structure" element={<CapitalStructureDebtArchitecture />} />
+          <Route path="/services/investor-relations" element={<InvestorRelationsEquityPositioning />} />
+          <Route path="/services/pre-transaction-readiness" element={<PreTransactionFinancialReadiness />} />
+          <Route path="/services/private-equity-advisory" element={<PrivateEquityGrowthCapitalAdvisory />} />
+          <Route path="/services/working-capital" element={<WorkingCapitalLiquidityOptimization />} />
+          <Route path="/services/ebitda-valuation" element={<EBITDANormalizationValuationAdvisory />} />
+          <Route path="/services/cross-border-structuring" element={<CrossBorderFinancialStructuring />} />
+          <Route path="/services/distressed-asset-turnaround" element={<DistressedAssetTurnaroundAdvisory />} />
 
 
+
+
+
+          {/* Industry Pages */}
+          <Route path="/services/banking-financial-services" element={<BankingFinancialServices />} />
+          <Route path="/services/manufacturing-industrials" element={<ManufacturingIndustrials />} />
+          <Route path="/services/real-estate-infrastructure" element={<RealEstateInfrastructure />} />
+          <Route path="/services/non-profit-grant-advisory" element={<NonProfitGrantAdvisory />} />
+          <Route path="/services/energy-utilities" element={<EnergyUtilities />} />
+          <Route path="/services/textiles-consumer" element={<TextilesConsumer />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>

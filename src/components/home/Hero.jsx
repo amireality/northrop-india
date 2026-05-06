@@ -36,7 +36,7 @@ export default function Hero() {
         {/* BUTTONS */}
         <div className="flex flex-wrap gap-4 mb-20">
           <a
-            href="mailto:Business@NorthropIndia.com"
+            href="/contact"
             className="bg-[#C4973B] text-[#ffff] text-[10.5px] font-medium tracking-[0.14em] uppercase px-8 py-4 transition-all hover:bg-[#D9AF58] hover:-translate-y-0.5"
           >
             Engage With Us
@@ -63,9 +63,12 @@ export default function Hero() {
           </div>
 
           <div>
-            <div className="font-serif text-3xl text-[#D9AF58]">5+</div>
+            <div className="font-serif text-[13px] text-[#D9AF58] leading-tight">
+              Manufacturing · Real Estate
+              <br />Infrastructure · Energy · Banking
+            </div>
             <div className="text-[9.5px] uppercase tracking-widest text-white/30 mt-2">
-              Sectors Covered
+              Sectors Served
             </div>
           </div>
 
@@ -77,9 +80,9 @@ export default function Hero() {
           </div>
 
           <div>
-            <div className="font-serif text-3xl text-[#D9AF58]">PSU</div>
+            <div className="font-serif text-3xl text-[#D9AF58]">3+</div>
             <div className="text-[9.5px] uppercase tracking-widest text-white/30 mt-2">
-              Bank Mandates
+              PSU Bank Mandates
             </div>
           </div>
         </div>

@@ -82,11 +82,6 @@ export default function ContactSection() {
             Book a Discovery Call →
           </a>
         </div>
-
-        <div className="lg:absolute bottom-8 left-20 right-20 flex flex-col lg:flex-row justify-between pt-10 border-t border-white/5 mt-20 lg:mt-0">
-          <span className="text-white text-[10px] uppercase tracking-widest">© 2026 Northrop Management Private Limited.</span>
-          <span className="text-white text-[10px] uppercase tracking-widest">CIN: U70200DC2026PTC469133</span>
-        </div>
       </div>
     </section>
   );

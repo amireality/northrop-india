@@ -120,7 +120,7 @@ export const footerLinks = {
   important: [
     { title: 'Home', link: '/' },
     { title: 'About us', link: '/who-we-are' },
-    { title: 'Blog', link: '/insights' },
+    { title: 'Insights', link: '/insights' },
     { title: 'Careers', link: '/contact' },
     { title: 'Contact Us', link: '/contact' }
   ],
