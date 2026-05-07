@@ -183,6 +183,28 @@ import TransferPricingDocumentation from './pages/taxaction/TransferPricingDocum
 import TaxControversyDisputeResolution from './pages/taxaction/TaxControversyDisputeResolution'
 import PrivateClientHighNetWorth from './pages/taxaction/PrivateClientHighNetWorthServices'
 
+//new pages for forensic investigations
+import ForensicAccountingFraudInvestigations from './pages/forencisinvestigation/ForensicAccounting'
+import AntiBriberyCorruptionIntegrityServices from './pages/forencisinvestigation/AntiBriberyCompliance'
+import RegulatoryInvestigationsRbiForensicAudits from './pages/forencisinvestigation/RegulatoryInvestigationsForensicAudits'
+import InsolvencyTransactionAuditsIbc from './pages/forencisinvestigation/InsolvencyTransactionAudits'
+import GlobalAssetTracingRecovery from './pages/forencisinvestigation/GlobalAssetTracing'
+import AmlKycSanctionsCompliance from './pages/forencisinvestigation/RegulatoryComplianceAdvisory'
+import DigitalForensicCyberInvestigations from './pages/forencisinvestigation/DigitalForensics'
+import LitigationSupportExpertWitnessServices from './pages/forencisinvestigation/LitigationSupportExpertWitness'
+
+//new pages for due diligence
+import BuySideFinancialDueDiligence from './pages/duediligence/BuySideFinancialDueDiligence'
+import SellSideVendorDueDiligence from './pages/duediligence/SellSideVendorDueDiligence'
+import QualityOfEarningsAnalysis from './pages/duediligence/QualityOfEarningsAnalysis'
+import LenderFinancialInstitutionDD from './pages/duediligence/LenderFinancialInstitutionDD'
+import OperationalManagementScrutiny from './pages/duediligence/OperationalManagementScrutiny'
+import RelatedPartyIntercompanyReview from './pages/duediligence/RelatedPartyIntercompanyReview'
+import RedFlagForensicRiskAssessment from './pages/duediligence/RedFlagForensicRiskAssessment'
+import TaxRegulatoryDueDiligence from './pages/duediligence/TaxRegulatoryDueDiligence'
+import CommercialMarketDueDiligence from './pages/duediligence/CommercialMarketDueDiligence'
+import PostClosingCompletionAccounts from './pages/duediligence/PostClosingCompletionAccounts'
+
 
 function App() {
   return (
@@ -253,6 +275,18 @@ function App() {
           <Route path="/services/related-party-review" element={<RelatedPartyReview />} />
           <Route path="/services/quality-of-earnings" element={<QualityOfEarnings />} />
 
+          {/* new pages for due diligence */}
+          <Route path="/services/buy-side-financial-due-diligence" element={<BuySideFinancialDueDiligence />} />
+          <Route path="/services/sell-side-vendor-due-diligence" element={<SellSideVendorDueDiligence />} />
+          <Route path="/services/quality-of-earnings-analysis" element={<QualityOfEarningsAnalysis />} />
+          <Route path="/services/lender-financial-institution-dd" element={<LenderFinancialInstitutionDD />} />
+          <Route path="/services/operational-management-scrutiny" element={<OperationalManagementScrutiny />} />
+          <Route path="/services/related-party-intercompany-review" element={<RelatedPartyIntercompanyReview />} />
+          <Route path="/services/red-flag-forensic-risk-assessment" element={<RedFlagForensicRiskAssessment />} />
+          <Route path="/services/tax-regulatory-due-diligence" element={<TaxRegulatoryDueDiligence />} />
+          <Route path="/services/commercial-market-due-diligence" element={<CommercialMarketDueDiligence />} />
+          <Route path="/services/post-closing-completion-accounts" element={<PostClosingCompletionAccounts />} />
+
 
           <Route path="/services/forensic-accounting-fraud" element={<ForensicAccountingFraud />} />
           <Route path="/services/law-enforcement-support" element={<LawEnforcementSupport />} />
@@ -262,6 +296,15 @@ function App() {
           <Route path="/services/asset-tracing-investigation" element={<AssetTracingInvestigation />} />
           <Route path="/services/aml-kyc-sanctions" element={<AmlKycSanctions />} />
           <Route path="/services/digital-forensic" element={<DigitalForensic />} />
+          {/* new pages for forensic investigations */}
+          <Route path="/services/forensic-accounting-fraud-investigations" element={<ForensicAccountingFraudInvestigations />} />
+          <Route path="/services/anti-bribery-corruption-integrity-services" element={<AntiBriberyCorruptionIntegrityServices />} />
+          <Route path="/services/regulatory-investigations-rbi-forensic-audits" element={<RegulatoryInvestigationsRbiForensicAudits />} />
+          <Route path="/services/insolvency-transaction-audits-ibc" element={<InsolvencyTransactionAuditsIbc />} />
+          <Route path="/services/global-asset-tracing-recovery" element={<GlobalAssetTracingRecovery />} />
+          <Route path="/services/aml-kyc-sanctions-compliance" element={<AmlKycSanctionsCompliance />} />
+          <Route path="/services/digital-forensic-cyber-investigations" element={<DigitalForensicCyberInvestigations />} />
+          <Route path="/services/litigation-support-expert-witness-services" element={<LitigationSupportExpertWitnessServices />} />
 
 
 

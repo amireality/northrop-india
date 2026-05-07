@@ -41,33 +41,59 @@ export const menuContent = {
   ],
   'Due Diligence': [
     [
-      { label: 'Buy-Side FDD', href: '/services/buy-side-fdd' },
-      { label: 'Sell-Side FDD', href: '/services/sell-side-fdd' },
-      { label: 'Vendor DD (VDD)', href: '/services/vendor-dd' },
-      { label: 'Lender Due Diligence', href: '/services/lender-due-diligence' },
-      { label: 'Red Flag Report', href: '/services/red-flag-report' }
+      { label: 'Buy-Side Financial Due Diligence (FDD)', href: '/services/buy-side-financial-due-diligence' },
+      { label: 'Sell-Side & Vendor Due Diligence (VDD)', href: '/services/sell-side-vendor-due-diligence' },
+      { label: 'Quality of Earnings (QofE) Analysis', href: '/services/quality-of-earnings-analysis' },
+      { label: 'Lender & Financial Institution DD', href: '/services/lender-financial-institution-dd' },
+      { label: 'Operational & Management Scrutiny', href: '/services/operational-management-scrutiny' }
     ],
     [
-      { label: 'Fraud Indicators', href: '/services/fraud-indicators' },
-      { label: 'Missing Docs Report', href: '/services/missing-docs-report' },
-      { label: 'Mgmt Account Scrutiny', href: '/services/mgmt-account-scrutiny' },
-      { label: 'Related Party Review', href: '/services/related-party-review' },
-      { label: 'Quality of Earnings', href: '/services/quality-of-earnings' }
+      { label: 'Related Party & Intercompany Review', href: '/services/related-party-intercompany-review' },
+      { label: 'Red Flag & Forensic Risk Assessment', href: '/services/red-flag-forensic-risk-assessment' },
+      { label: 'Tax & Regulatory Due Diligence', href: '/services/tax-regulatory-due-diligence' },
+      { label: 'Commercial & Market Due Diligence', href: '/services/commercial-market-due-diligence' },
+      { label: 'Post-Closing & Completion Accounts', href: '/services/post-closing-completion-accounts' }
     ]
+    // [
+    //   { label: 'Buy-Side FDD', href: '/services/buy-side-fdd' },
+    //   { label: 'Sell-Side FDD', href: '/services/sell-side-fdd' },
+    //   { label: 'Vendor DD (VDD)', href: '/services/vendor-dd' },
+    //   { label: 'Lender Due Diligence', href: '/services/lender-due-diligence' },
+    //   { label: 'Red Flag Report', href: '/services/red-flag-report' }
+    // ],
+    // [
+    //   { label: 'Fraud Indicators', href: '/services/fraud-indicators' },
+    //   { label: 'Missing Docs Report', href: '/services/missing-docs-report' },
+    //   { label: 'Mgmt Account Scrutiny', href: '/services/mgmt-account-scrutiny' },
+    //   { label: 'Related Party Review', href: '/services/related-party-review' },
+    //   { label: 'Quality of Earnings', href: '/services/quality-of-earnings' }
+    // ]
   ],
   'Forensic Investigations': [
     [
-      { label: 'Forensic Accounting Fraud Investigations Service', href: '/services/forensic-accounting-fraud' },
-      { label: 'Law Enforcement Support Services', href: '/services/law-enforcement-support' },
-      { label: 'Forensic Audit Services Under RBI', href: '/services/forensic-audit-rbi' },
-      { label: 'Transaction Audit under IBC', href: '/services/transaction-audit-ibc' }
+      { label: 'Forensic Accounting & Fraud Investigations', href: '/services/forensic-accounting-fraud-investigations' },
+      { label: 'Anti-Bribery, Corruption & Integrity Services', href: '/services/anti-bribery-corruption-integrity-services' },
+      { label: 'Regulatory Investigations & RBI Forensic Audits', href: '/services/regulatory-investigations-rbi-forensic-audits' },
+      { label: 'Insolvency & Transaction Audits (IBC)', href: '/services/insolvency-transaction-audits-ibc' }
     ],
     [
-      { label: 'Anti-Bribery and Corruption Services', href: '/services/anti-bribery-corruption' },
-      { label: 'Asset Tracing Investigation Services India', href: '/services/asset-tracing-investigation' },
-      { label: 'AML KYC & Sanctions Consulting Review services', href: '/services/aml-kyc-sanctions' },
-      { label: 'Digital Forensic Investigation', href: '/services/digital-forensic' }
+      { label: 'Global Asset Tracing & Recovery', href: '/services/global-asset-tracing-recovery' },
+      { label: 'AML, KYC & Sanctions Compliance', href: '/services/aml-kyc-sanctions-compliance' },
+      { label: 'Digital Forensics & Cyber Investigations', href: '/services/digital-forensic-cyber-investigations' },
+      { label: 'Litigation Support & Expert Witness Services', href: '/services/litigation-support-expert-witness-services' }
     ]
+    // [
+    //   { label: 'Forensic Accounting Fraud Investigations Service', href: '/services/forensic-accounting-fraud' },
+    //   { label: 'Law Enforcement Support Services', href: '/services/law-enforcement-support' },
+    //   { label: 'Forensic Audit Services Under RBI', href: '/services/forensic-audit-rbi' },
+    //   { label: 'Transaction Audit under IBC', href: '/services/transaction-audit-ibc' }
+    // ],
+    // [
+    //   { label: 'Anti-Bribery and Corruption Services', href: '/services/anti-bribery-corruption' },
+    //   { label: 'Asset Tracing Investigation Services India', href: '/services/asset-tracing-investigation' },
+    //   { label: 'AML KYC & Sanctions Consulting Review services', href: '/services/aml-kyc-sanctions' },
+    //   { label: 'Digital Forensic Investigation', href: '/services/digital-forensic' }
+    // ]
   ],
   'Taxation': [
     [
