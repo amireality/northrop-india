@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async'
+import HeroVideo from '../components/home/HeroVideo'
 import Hero from '../components/home/Hero'
 import About from '../components/home/About'
 import Journey from '../components/home/Journey'
@@ -23,6 +24,7 @@ function HomePage() {
         <title>Northrop India | Global Financial Advisory & Management Consulting</title>
         <meta name="description" content="Northrop India provides institutional-grade financial reporting, risk management, and transaction advisory services. Build stakeholder trust with human intelligence and AI-powered precision." />
       </Helmet>
+      <HeroVideo />
       <Hero />
 
 

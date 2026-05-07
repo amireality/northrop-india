@@ -149,6 +149,29 @@ import OpportunityCostOfCapital from './pages/insights/OpportunityCostOfCapital'
 import SovereignWealthShift from './pages/insights/SovereignWealthShift'
 import AlgorithmDrivenLiquidity from './pages/insights/AlgorithmDrivenLiquidity'
 import StrategicRealignmentFreight from './pages/insights/StrategicRealignmentFreight'
+//new pages for grants and esg advisory
+import EsgReportingDisclosure from './pages/grandfunding/EsgReportingDisclosure'
+import SustainabilityStrategyEsgIntegration from './pages/grandfunding/SustainabilityStrategyEsgIntegration'
+import EsgComplianceGapAnalysis from './pages/grandfunding/EsgComplianceGapAnalysis'
+import ImpactAssessmentMaterialityAnalysis from './pages/grandfunding/ImpactAssessmentMateriality'
+import CarbonFootprintNetZeroPlanning from './pages/grandfunding/EnvironmentalAdvisory'
+import SustainableSupplyChainDueDiligence from './pages/grandfunding/SustainableSupplyChain'
+import GreenFinanceInvestmentAdvisory from './pages/grandfunding/GreenFinanceAdvisory'
+import InstitutionalGrantManagement from './pages/grandfunding/InstitutionalGrantManagement'
+//new pages for transaction advisory
+import MergerAcquisitionAdvisory from './pages/Transaction Advisory/MergerAcquisitionAdvisory'
+import ValuationFinancialBusinessModelling from './pages/Transaction Advisory/ValuationFinancialBusinessModelling'    
+import CorporateRestructuringTurnaroundAdvisory from './pages/Transaction Advisory/CorporateRestructuringTurnaroundAdvisory'
+import CapitalDebtAdvisory from './pages/Transaction Advisory/CapitalDebtAdvisory'
+import PostMergerIntegrationValueCreation from './pages/Transaction Advisory/PostMergerIntegrationValueCreation'
+import StrategicPortfolioReviewCarveOuts from './pages/Transaction Advisory/StrategicPortfolioReviewCarveOuts'
+//new pages for taxation
+import CorporateBusinessTaxAdvisory from './pages/taxaction/CorporateBusinessTaxAdvisory'
+import IndirectTaxGstAdvisory from './pages/taxaction/IndirectTaxGstAdvisory'
+import InternationalTaxCrossBorderPlanning from './pages/taxaction/InternationalTaxCrossBorderPlanning'
+import TransferPricingDocumentation from './pages/taxaction/TransferPricingDocumentation'
+import TaxControversyDisputeResolution from './pages/taxaction/TaxControversyDisputeResolution'
+import PrivateClientHighNetWorth from './pages/taxaction/PrivateClientHighNetWorthServices'
 
 
 function App() {
@@ -261,6 +284,13 @@ function App() {
           <Route path="/services/indirect-tax" element={<IndirectTax />} />
           <Route path="/services/personal-tax" element={<PersonalTax />} />
           <Route path="/services/tax-controversy" element={<TaxControversy />} />
+          {/* new pages for taxation */}
+          <Route path="/services/corporate-business-tax-advisory" element={<CorporateBusinessTaxAdvisory />} />
+          <Route path="/services/indirect-tax-gst-advisory" element={<IndirectTaxGstAdvisory />} />
+          <Route path="/services/international-tax-cross-border-planning" element={<InternationalTaxCrossBorderPlanning />} />
+          <Route path="/services/transfer-pricing-documentation" element={<TransferPricingDocumentation />} />
+          <Route path="/services/tax-controversy-dispute-resolution" element={<TaxControversyDisputeResolution />} />
+          <Route path="/services/private-client-high-net-worth" element={<PrivateClientHighNetWorth />} />
 
 
           <Route path="/services/restructuring" element={<Restructuring />} />
@@ -269,6 +299,15 @@ function App() {
           <Route path="/services/post-merger-integration" element={<PostMergeintregetion />} />
           <Route path="/services/capital-structuring" element={<CapitalStructuring />} />
 
+          {/* new pages for transaction advisory */}
+
+          <Route path="/services/merger-acquisition-advisory" element={<MergerAcquisitionAdvisory />} />
+          <Route path="/services/valuation-financial-business-modelling" element={<ValuationFinancialBusinessModelling />} />
+          <Route path="/services/corporate-restructuring-turnaround-advisory" element={<CorporateRestructuringTurnaroundAdvisory />} />
+          <Route path="/services/capital-debt-advisory" element={<CapitalDebtAdvisory />} />
+          <Route path="/services/post-merger-integration-value-creation" element={<PostMergerIntegrationValueCreation />} />
+          <Route path="/services/strategic-portfolio-review-carve-outs" element={<StrategicPortfolioReviewCarveOuts />} />
+
 
           <Route path="/services/business-strategy-consulting" element={<BusinessStrategyConsulting />} />
           <Route path="/services/impact-assessment" element={<ImpactAssessmentPage />} />
@@ -276,6 +315,17 @@ function App() {
           <Route path="/services/grant-management-utilisation" element={<GrantManagementUtilisationPage />} />
           <Route path="/services/program-management-consulting" element={<ProgramManagementConsulting />} />
           <Route path="/services/csr-consulting" element={<CsrConsulting />} />
+
+          {/* new pages for grants and esg advisory */}
+
+          <Route path="/services/esg-reporting-disclosure" element={<EsgReportingDisclosure />} />
+          <Route path="/services/sustainability-strategy-esg-integration" element={<SustainabilityStrategyEsgIntegration />} />
+          <Route path="/services/esg-compliance-gap-analysis" element={<EsgComplianceGapAnalysis />} />
+          <Route path="/services/impact-assessment-materiality-analysis" element={<ImpactAssessmentMaterialityAnalysis />} />
+          <Route path="/services/carbon-footprint-net-zero-planning" element={<CarbonFootprintNetZeroPlanning />} />
+          <Route path="/services/sustainable-supply-chain-due-diligence" element={<SustainableSupplyChainDueDiligence />} />
+          <Route path="/services/green-finance-investment-advisory" element={<GreenFinanceInvestmentAdvisory />} />
+          <Route path="/services/institutional-grant-management" element={<InstitutionalGrantManagement />} />
 
           <Route path="/services/grc-control-compliance" element={<GrcControlCompliance />} />
 
