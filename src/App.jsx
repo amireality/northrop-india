@@ -20,6 +20,16 @@ import NotFound from './pages/NotFound'
 import Digital from './pages/Digital'
 import PrivacyPolicy from './pages/PrivacyPolicy'
 
+// Digital Sub-pages Imports
+import BusinessTransformation from './pages/digital/BusinessTransformation'
+import ErpExcellence from './pages/digital/ErpExcellence'
+import CybersecurityResilience from './pages/digital/CybersecurityResilience'
+import StrategicInsights from './pages/digital/StrategicInsights'
+import AppDevelopment from './pages/digital/AppDevelopment'
+import SoftwareEngineering from './pages/digital/SoftwareEngineering'
+import WebDevelopment from './pages/digital/WebDevelopment'
+import DigitalMarketing from './pages/digital/DigitalMarketing'
+
 
 // Services Imports
 import RiskManagement from './pages/services/RiskManagement'
@@ -198,6 +208,14 @@ function App() {
           <Route path="/insights" element={<Insights />} />
           <Route path="/company-profile" element={<Companyprofile />} />
           <Route path="/digital" element={<Digital />} />
+          <Route path="/digital/business-transformation" element={<BusinessTransformation />} />
+          <Route path="/digital/erp-excellence" element={<ErpExcellence />} />
+          <Route path="/digital/cybersecurity-resilience" element={<CybersecurityResilience />} />
+          <Route path="/digital/strategic-insights" element={<StrategicInsights />} />
+          <Route path="/digital/app-development" element={<AppDevelopment />} />
+          <Route path="/digital/software-engineering" element={<SoftwareEngineering />} />
+          <Route path="/digital/web-development" element={<WebDevelopment />} />
+          <Route path="/digital/digital-marketing" element={<DigitalMarketing />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
 
