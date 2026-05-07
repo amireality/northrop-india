@@ -120,7 +120,7 @@ export default function Digital() {
         .font-h1, .font-h2, .font-h3 { font-family: 'Noto Serif', serif; }
       `}} />
 
-      <main className="digital-section bg-[#fcf9f8] text-[#002B5C] font-sans overflow-x-hidden pt-20">
+      <main className="digital-section bg-[#fcf9f8] text-[#002B5C] font-sans overflow-x-hidden ">
         {/* Hero Section */}
         <section className="relative min-h-[85vh] flex items-center justify-center">
           <div className="absolute inset-0 z-0 overflow-hidden">
