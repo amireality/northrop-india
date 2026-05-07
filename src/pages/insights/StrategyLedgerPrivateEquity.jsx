@@ -10,15 +10,14 @@ const StrategyLedgerPrivateEquity = () => {
     <div className="bg-[#f7f9fb] text-[#191c1e] min-h-screen font-sans antialiased selection:bg-[#ffdea5] selection:text-[#261900]">
       <Helmet>
         <title>STRATEGY LEDGER: How Private Equity Actually Makes Money | AlphaInsights</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+     
       </Helmet>
 
       <main className="max-w-[1280px] mx-auto">
         {/* Hero Section */}
         <section className="relative  flex flex-col justify-end py-[48px] border-b border-[#c5c6cd]">
           <div className="absolute inset-0 -z-10 overflow-hidden">
-            <img className="w-full h-full object-cover opacity-20 grayscale brightness-75" alt="Hero landscape" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDi2gW7KbFQz7H-Pmxhg82B2Mx_NPk-rAfI9z-nCI5JBAQ_LjF9HK9cpGHPIrI7QZnvjdGtuiyvnkj4uxDk2-spxY9JVv6RyMJSx49KVWETIfvvNr7Z-rteB2owWx8_O6H9dRpbrI_A4IpDHxbY1f5Kwva3nppnx-Lvh1wglwLCYFKGgZdfZojyM3Ek5SarFDSPxS9mOULdWz-92RZkFBBbOObmMNn5c3PSkyohcYHtYG-XHTRqIUvowupTRVvEkWANGHzskwd9g" />
+            <img className="w-full h-full object-cover opacity-20 grayscale brightness-75" alt="Hero landscape" src="/insight/unnamed5.png" />
           </div>
           <div className="max-w-4xl">
             <div className="flex items-center gap-2 mb-[12px]">
@@ -156,7 +155,7 @@ const StrategyLedgerPrivateEquity = () => {
             </div>
             <div className="md:col-span-5">
               <div className="relative aspect-square border border-[#c5c6cd] overflow-hidden">
-                <img className="w-full h-full object-cover" alt="Data Visualization" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqCRDdAP1_1lgspcyNQ8OPFZRNQYcGnGwqXGFoNos1F0VF17B2O6fmxJHU7H0D-DKNtxjmZAKQReqv1Q7l9k3wPukbiZdmlynXjTdlqeLhHOygUjjR2Ws78vWPX4AYQWX2EtXw6ZNvkat8xaX551zHr1JqpH3IJndoBdtQxiJDq3O8Sa0u964m4HahW2Xqv2CTcAuYXmZmoqe1GLlsA4RLfIDqxmJ7JcWF41YI7_ekPhpHx0ULMDe_U6Mj9OtofuC6C6ADmd1S7g" />
+                <img className="w-full h-full object-cover" alt="Data Visualization" src="/insight/unnamed6.png" />
               </div>
             </div>
           </div>

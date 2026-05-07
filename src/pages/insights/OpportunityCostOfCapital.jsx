@@ -10,8 +10,7 @@ const OpportunityCostOfCapital = () => {
     <div className="bg-[#f6f9ff] text-[#171c20] font-sans antialiased min-h-screen">
       <Helmet>
         <title>Executive Report: The Opportunity Cost of Capital | Financial Intelligence</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+       
       </Helmet>
 
       <main className="pt-[80px] pb-[64px] max-w-[1200px] mx-auto px-[32px] space-y-[64px]">
@@ -46,10 +45,7 @@ const OpportunityCostOfCapital = () => {
           </div>
           {/* Hero Image */}
           <div className="md:col-span-7 h-full min-h-[400px] overflow-hidden rounded-sm relative">
-            <img alt="Modern Corporate Finance Infrastructure April 2026" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" src="https://placeholder.pics/svg/300" />
-            <div className="absolute bottom-0 left-0 bg-[#001736]/90 text-[#ffffff] px-[16px] py-1 font-sans text-[12px] font-semibold leading-[1] tracking-[0.08em] uppercase">
-              STRATEGIC OUTLOOK | APRIL 2026
-            </div>
+            <img alt="Modern Corporate Finance Infrastructure April 2026" className="w-full h-full object-cover transition-all duration-700" src="/insight/unnamed1.jpg" />
           </div>
         </section>
 
@@ -94,7 +90,7 @@ const OpportunityCostOfCapital = () => {
             <div className="md:col-span-7 space-y-[16px]">
               <h3 className="font-serif text-[24px] font-medium leading-[1.3] text-[#001736]">Corporate CAPEX Trends</h3>
               <div className="w-full h-48 mb-[16px] overflow-hidden rounded-sm">
-                <img alt="Modern Indian Infrastructure" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaGlORBrVjJR8kWHQ1__4GlACTFQ3EuxtiTJalstnNm9jfyjlk3vkPq_4JvJjAV1f0DmjES4piwCWcPmQYmWbXG_TwgG5gwpN-zqS9i_MzaLT-F32rFjnynGuIFyQZ-deWHlGbE3nDtiwe_UCpjoexIQddsrHev6jYS1ByMgoSY5I1NioeW0zNEctoMr6W8MjZUV8FRR8vhVS22eubC3LUN7DaOGe1pnWKeMf-g-_KJcsViymxSyYHSPcGXJTz5TcBVkJEV7MVWuI" />
+                <img alt="Modern Indian Infrastructure" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="/insight/unnamed7.png" />
               </div>
               <div className="flex items-center gap-[24px]">
                 <div className="text-[64px] font-semibold text-[#001736] leading-none">25%</div>
@@ -120,7 +116,7 @@ const OpportunityCostOfCapital = () => {
             </div>
             {/* Visual Context Image */}
             <div className="md:col-span-6 h-[300px] overflow-hidden">
-              <img alt="Indian Business Hub" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAr87Z4F2-owLVzPZse7Hkzv45G-r06DWjz7JuaZOeXEALpHyyQF1ytgaeVXlQVa3Icw__-Ahd-3GJoM_MrHUEIYNgdg_NAEoY2n40Me5OxsoTrBvoOM5EXCx1qwoiwyvqyYwwy2FkISQN_pBy1yajX9tSQoAHY6VztBH125cHT6drRDteaxRnR6aqoY_dDc8G7QxJe9xqrmEl-6pes6mYsovDrTF5BXT9wOHcma3ZmqiMcjJZWD3evL5QYWMV_uSlrGhiOCkRLhsQ" />
+              <img alt="Indian Business Hub" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="/insight/unnamed8.png" />
             </div>
             {/* Data Callout 2 */}
             <div className="md:col-span-3 border border-[#c4c6d0] p-[24px] bg-[#ffffff] flex flex-col justify-center">

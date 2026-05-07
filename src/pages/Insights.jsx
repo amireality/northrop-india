@@ -30,8 +30,7 @@ const insightsData = {
     tag: "Quarterly Mandate",
     title: "The Strategic Realignment of India’s Freight Ecosystem: A Paradigm Shift in Connectivity",
     description: "Analyzing the structural transition from road-dominant logistics to a rail-centric multimodal framework, driving efficiency and global competitiveness.",
-    yield: "4.2%",
-    yieldLabel: "Target Yield"
+    image: "/insight/unnamed1.png"
   },
   strategicPerspectives: [
     {
@@ -89,7 +88,7 @@ export default function Insights() {
         <section className="mb-[128px]">
           <div className="flex items-center justify-between mb-[48px] border-b border-[#c4c6cf]/15 pb-[16px]">
             <h2 className="text-[36px] font-playfair font-[700] text-[#001f3f]">Institutional Research</h2>
-            <span className="text-[12px] uppercase tracking-widest text-[#43474e]">Volume IV • Q3 2024</span>
+            {/* <span className="text-[12px] uppercase tracking-widest text-[#43474e]">Volume IV • Q3 2024</span> */}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-12 gap-[32px]">
@@ -192,17 +191,11 @@ export default function Insights() {
                 </Link>
               </div>
               <div className="md:w-1/2 flex items-center justify-center p-[16px] w-full">
-                <div className="relative w-full max-w-[280px] aspect-square border border-white/10 rounded-full flex items-center justify-center">
-                  <div className="absolute inset-0 animate-pulse border-[2px] border-[#C4973B]/20 rounded-full"></div>
-                  <div className="text-center">
-                    <span className="text-[48px] font-playfair text-[#C4973B] block leading-[1]">
-                      {insightsData.longArticle.yield}
-                    </span>
-                    <span className="text-[10px] text-white/50 uppercase tracking-[0.2em] mt-[8px] block">
-                      {insightsData.longArticle.yieldLabel}
-                    </span>
-                  </div>
-                </div>
+                 <img
+                  src={insightsData.longArticle.image}
+                  className="w-full h-full object-cover"
+                  alt="Target Yield Infographic"
+                />
               </div>
             </article>
           </div>

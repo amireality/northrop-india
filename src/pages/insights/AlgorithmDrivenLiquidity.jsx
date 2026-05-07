@@ -10,16 +10,15 @@ const AlgorithmDrivenLiquidity = () => {
     <>
       <Helmet>
         <title>Algorithm-Driven Liquidity: The Invisible Hand</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+
       </Helmet>
 
       <div className="bg-[#f6f9ff] text-[#171c20] min-h-screen antialiased [font-family:'Inter']">
         <div className="flex max-w-[1400px] mx-auto">
           {/* Main Content */}
-          <main className="flex-1 px-[32px] lg:px-[64px] py-[64px] max-w-[1100px] mx-auto">
+          <main className="flex-1 px-[32px] lg:px-[64px] py-[20px] max-w-[1100px] mx-auto">
             {/* Hero Section */}
-            <section className="mb-[64px]">
+            <section className="mb-[24px]">
               <div className="mb-[16px]">
                 <span className="font-[Inter] text-[12px] font-semibold leading-[1] tracking-[0.08em] text-[#001736] border-b border-[#001736] pb-1">
                   April 2026 | Strategic Brief
@@ -35,7 +34,7 @@ const AlgorithmDrivenLiquidity = () => {
                 <img
                   alt="Digital Market Infrastructure"
                   className="w-full h-full object-cover grayscale brightness-50"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuAECT_1S3vuxp3eFWxrHRs_9xn5yMDtmFya5YL5gz-rVCRzqL0sKeEkujt-_DEyIOmQj-LRMSVhZxwbUNt6a2KaV9jJjy1dw9Auq63HKchy7kVKXZF-D6TNhIcPlQa99My4j_wvKcIIACtOTeToHj1hwWPWAj7-q7krGRiahOTrHY6wY1Wp4RJ7bT_C96WZq3TgODKoKr0hYZsnjx04DS29mgs7jUpKx_gWEDtB0B2R-4b-8nujwUQCWCZfL3cNXNLaJjQl8JDPI"
+                  src="/insight/unnamed2.png"
                 />
                 <div className="absolute inset-0 bg-[#001736]/20 mix-blend-multiply"></div>
               </div>
@@ -265,9 +264,7 @@ const AlgorithmDrivenLiquidity = () => {
                 </p>
               </div>
               <div className="mt-[64px] flex flex-col md:flex-row justify-between items-start md:items-center text-[#c6c6c7]">
-                <p className="font-[Inter] text-[10px] font-semibold leading-[1] tracking-[0.08em]">
-                  © 2026 Financial Intelligence Research Group. All Rights Reserved.
-                </p>
+
                 <div className="flex space-x-[24px] mt-[24px] md:mt-0">
                   <span className="material-symbols-outlined text-[#7594ca]" style={{ fontVariationSettings: "'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24" }}>
                     verified_user

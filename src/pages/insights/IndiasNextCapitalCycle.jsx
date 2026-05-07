@@ -10,7 +10,7 @@ const IndiasNextCapitalCycle = () => {
     <div className="bg-[#f8f9fa] text-[#191c1d] min-h-screen font-sans antialiased selection:bg-[#aec7f6] selection:text-[#001b3d]">
       <Helmet>
         <title>India’s Next Capital Cycle: Emerging Structural Shifts | AlphaInsights</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+        
       </Helmet>
 
       <main className="pt-[2px]">
@@ -20,7 +20,7 @@ const IndiasNextCapitalCycle = () => {
             <img
               alt="Modern Indian Infrastructure"
               className="w-full h-full object-cover"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxfg9IJIqjghsMIMkA8c8SPjj-4kg4XQZi3d4BSPi-Tk8Ms3zGNZ5LYOym1oCzflvlCIecCJ2t9TiSC-1CVOZPaT8jdhHXEmjaROQP2VuTnwSWNlGtQxTkYQ0Eew0jB77l1HpVSsthTQlpa3NnBHMVlLjnt0MlUH6ZoFa-LzQKwD_Jrxn3rA7zymuN0u0TuoqUqzxqowvfjbXcdy0aCkUVizmXPiOsOYG0Bpsm10ah12UmauYCr3dNu5bQMS-w1DiEpAM_o1O07A"
+              src="/insight/unnamed1.jpg"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#000a1e]/95 to-[#000a1e]/40"></div>
           </div>

@@ -10,8 +10,7 @@ const SovereignWealthShift = () => {
     <>
       <Helmet>
         <title>Analysis Report: The Sovereign Wealth Shift</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,500&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+       
       </Helmet>
 
       <div className="bg-[#f6f9ff] text-[#171c20] antialiased [font-family:'Inter']">
@@ -21,20 +20,20 @@ const SovereignWealthShift = () => {
             <div className="flex flex-col md:flex-row justify-between items-end gap-[24px] pb-[24px] border-b border-[#c4c6d0]">
               <div className="max-w-3xl">
                 <span className="font-[Inter] text-[12px] font-semibold leading-[1] tracking-[0.08em] text-[#001736] uppercase block mb-[8px]">
-                  Q1 2024 STRATEGIC INTELLIGENCE
+                  Q1 2026 STRATEGIC INTELLIGENCE
                 </span>
                 <h1 className="font-[Newsreader] text-[48px] font-semibold leading-[1.1] tracking-[-0.02em] text-[#001736]">
                   Analysis Report: The Sovereign Wealth Shift (2024–2026)
                 </h1>
               </div>
-              <div className="text-right">
+              {/* <div className="text-right">
                 <p className="font-[Inter] text-[12px] font-semibold leading-[1] tracking-[0.08em] uppercase text-[#5d5f5f]">
                   REPORT NO. 882-X
                 </p>
                 <p className="font-[Inter] text-[14px] font-medium leading-[1.4] tracking-[0.02em] text-[#001736]">
                   PUBLISHED: OCT 2023
                 </p>
-              </div>
+              </div> */}
             </div>
           </section>
 
@@ -70,7 +69,7 @@ const SovereignWealthShift = () => {
               <img
                 className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 alt="Asset Class Trends Cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6azpqcRT9wfwwmcxqfPdhRgDHQu8lqoQliVHI-q4l343GNfeF_P7a_Jeek9RWhZuivAU3bUlLbRj7VKvlYKdo_BvaSKFHKZu99qe7HVW-DURuPSvtXYhcqx0cX5Z8VkCreI03N0sCFgI5tlrfgtvRnik7MvxcBUq0eJ963iGIBxeIJMogCVficYFSFiYUC-Y4u9lq2OBLi4xD5J8Cw0RG53tI1xQWGTfarfJO8SzI33R2qkEd5VCZF6ezyrRnofWdK3cW4RZ-0cw"
+                src="/insight/unnamed4.png"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#001736]/80 to-transparent"></div>
               <div className="absolute bottom-[24px] left-[24px] right-[24px]">

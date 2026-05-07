@@ -10,8 +10,7 @@ const AnatomyOfAllocation = () => {
     <div className="bg-[#f6f9ff] text-[#001736] min-h-screen font-sans antialiased">
       <Helmet>
         <title>The Flight to Quality: The Anatomy of Allocation | VC Insights</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Newsreader:opsz,wght@6-72,500;6-72,600&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+     
       </Helmet>
 
       <main className="max-w-[1200px] mx-auto px-[24px] pt-[80px]">
@@ -56,7 +55,7 @@ const AnatomyOfAllocation = () => {
                 </p>
               </div>
               <div className="relative aspect-[16/7] w-full overflow-hidden bg-[#eaeef4] mt-[24px]">
-                <img alt="Modern Architecture Detail" className="w-full h-full object-cover grayscale brightness-75" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCODtmO-cTqJz_GmlyQPtPtihoG4Yn7SlpjuyKfJrF0dfpP0yxrvrsTzTMQEivS1Udo89ksP4t5nGk12zEOc42Q-e12-2Dr1ZW3Kbu-v2vlE5Zlyo55V0XfCmqrPHXqORmQ7QGFikwo7sZDFEKjt_8AWNUSM1EThHtdkxn0AFYwJ44MEXzjlpCGJYpgd6EClmVvNWIcm2Raj2euKB8EEHHMfzZFvqESvOSrrWlTrh0VuHdP4DuGdMRkle_C94cX7dYe6wcmM0Mffa0"/>
+                <img alt="Modern Architecture Detail" className="w-full h-full object-cover grayscale brightness-75" src="/insight/unnamed3.png"/>
               </div>
             </div>
           </div>

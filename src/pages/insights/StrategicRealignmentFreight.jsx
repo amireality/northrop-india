@@ -10,12 +10,11 @@ const StrategicRealignmentFreight = () => {
     <>
       <Helmet>
         <title>The Strategic Realignment of India’s Freight Ecosystem</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;500;600;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+     
       </Helmet>
 
       <div className="bg-[#ffffff] text-[#171c20] antialiased [font-family:'Inter']">
-        <main className="max-w-[1200px] mx-auto px-[32px] py-[64px]">
+        <main className="max-w-[1200px] mx-auto px-[32px] py-[20px]">
           {/* Header Text */}
           <div className="mb-[40px]">
             <span className="font-[Inter] text-[12px] font-semibold leading-[1] tracking-[0.2em] text-[#43474f] uppercase">
@@ -24,7 +23,7 @@ const StrategicRealignmentFreight = () => {
           </div>
 
           {/* Hero Section */}
-          <section className="grid grid-cols-1 md:grid-cols-12 gap-[64px] mb-[64px] border-b border-[#c4c6d0] pb-[64px]">
+          <section className="grid grid-cols-1 md:grid-cols-12 gap-[64px] mb-[20px] border-b border-[#c4c6d0] pb-[64px]">
             <div className="md:col-span-7 flex flex-col justify-center">
               <h1 className="font-[Newsreader] text-[48px] font-semibold leading-[1.1] tracking-[-0.02em] text-[#001736] mb-[24px]">
                 The Strategic Realignment of India’s Freight Ecosystem: A Paradigm Shift in Connectivity
@@ -37,7 +36,7 @@ const StrategicRealignmentFreight = () => {
               <img
                 alt="Modern cargo train"
                 className="w-full h-full object-cover"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCORflp5dWYGYCt3JQszsbw7MzXWPMTFkMRpww2SQz9bXOXf8TKkcvF_0HWd4MMG5dQwcIulYBqhC0Hr1r3o7JH1NuJQXwfgDjsUg8f3B5UE_8IAeH-vXAT_8RHauh7Z6zxziSZk1s6T7J5mIaRm-eVz-saQanQQrA1GjJUXK7SWK1JI6YqknNBVik9XjGLIEj7qCCUpk4-cpc2wcME-Kt9FeZDuJY4KF8CcAfL9hkbV9gmHJ5lPGGpDXFT944ESVpo2drAD2f7oPI"
+                src="/insight/unnamed1.png"
               />
             </div>
           </section>
@@ -219,7 +218,7 @@ const StrategicRealignmentFreight = () => {
           </section>
 
           {/* Conclusion */}
-          <section className="max-w-[800px] mx-auto text-center mb-[64px]">
+          <section className="max-w-[800px] mx-auto text-center mb-[20px]">
             <h2 className="font-[Inter] text-[12px] font-semibold leading-[1] tracking-[0.08em] text-[#43474f] mb-[16px] tracking-widest uppercase">
               CONCLUSION
             </h2>
