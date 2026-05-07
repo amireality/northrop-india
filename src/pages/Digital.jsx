@@ -8,6 +8,8 @@ const services = [
     img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDFTFvRaucRTZyr_aSXRvNVZoYyejLhnFwuLR1keXKb8FT24M7_j9THe4ScCLqho1jLiguhBOYUOXQGjXtaI21fiy5R31ZnRjJaWG5V0VeZ4lpUkf88zIKUzfpbta5HS4hVx8oikJ7AIrRsMmWXhBCNG5V94Ov7vTFLW5n9uSyrQ_a0ktatXGwoTTwEMvyz_-D7Rtq1Jcb0UqRgTCLeH6THh8Sr3y7bpfmR52Z20SDtO0jg5xh0Bl7liRdj1kWdqpJSM_1iVE2Hup0",
     alt: "Modern architectural glass facade",
     link: "/digital/business-transformation"
+
+    
   },
   {
     title: "ERP Excellence",
