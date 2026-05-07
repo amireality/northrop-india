@@ -143,6 +143,12 @@ import NonProfitGrantAdvisory from './subpages/StrategicClient/NonProfitGrantAdv
 import EnergyUtilities from './subpages/StrategicClient/EnergyUtilities'
 import TextilesConsumer from './subpages/StrategicClient/TextilesConsumer'
 import IndiasNextCapitalCycle from './pages/insights/IndiasNextCapitalCycle'
+import StrategyLedgerPrivateEquity from './pages/insights/StrategyLedgerPrivateEquity'
+import AnatomyOfAllocation from './pages/insights/AnatomyOfAllocation'
+import OpportunityCostOfCapital from './pages/insights/OpportunityCostOfCapital'
+import SovereignWealthShift from './pages/insights/SovereignWealthShift'
+import AlgorithmDrivenLiquidity from './pages/insights/AlgorithmDrivenLiquidity'
+import StrategicRealignmentFreight from './pages/insights/StrategicRealignmentFreight'
 
 
 function App() {
@@ -303,6 +309,13 @@ function App() {
           <Route path="/services/cross-border-structuring" element={<CrossBorderFinancialStructuring />} />
           <Route path="/services/distressed-asset-turnaround" element={<DistressedAssetTurnaroundAdvisory />} />
           <Route path="/insights/indias-next-capital-cycle" element={<IndiasNextCapitalCycle />} />
+          <Route path="/insights/strategy-ledger-private-equity" element={<StrategyLedgerPrivateEquity />} />
+          <Route path="/insights/anatomy-of-allocation" element={<AnatomyOfAllocation />} />
+          <Route path="/insights/opportunity-cost-of-capital" element={<OpportunityCostOfCapital />} />
+          <Route path="/insights/sovereign-wealth-shift" element={<SovereignWealthShift />} />
+          <Route path="/insights/algorithm-driven-liquidity" element={<AlgorithmDrivenLiquidity />} />
+          <Route path="/insights/strategic-realignment-freight" element={<StrategicRealignmentFreight />} />
+
 
 
 

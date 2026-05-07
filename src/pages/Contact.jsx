@@ -151,7 +151,7 @@ const Contact = () => {
                 <div>
                   <div className="text-[11px] font-[700] tracking-[1.5px] uppercase text-gray-400 mb-[4px]">Headquarters</div>
                   <div className="text-[18px] font-[400] text-[#001f3f] leading-[1.5]">
-                    Connaught Place, New Delhi — 110001,<br />India
+                    GRAPHIX 2,Block A,Industrial Area,Sector 62,Noida,Uttar Pradesh 201301,<br />India
                   </div>
                 </div>
               </div>

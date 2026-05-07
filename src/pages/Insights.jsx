@@ -28,21 +28,23 @@ const insightsData = {
   ],
   longArticle: {
     tag: "Quarterly Mandate",
-    title: "The Global Debt Supercycle: Preparing for Term Premium Volatility",
-    description: "A strategic framework for institutional portfolios navigating the return of inflation and structural deficit spending in G7 economies.",
+    title: "The Strategic Realignment of India’s Freight Ecosystem: A Paradigm Shift in Connectivity",
+    description: "Analyzing the structural transition from road-dominant logistics to a rail-centric multimodal framework, driving efficiency and global competitiveness.",
     yield: "4.2%",
     yieldLabel: "Target Yield"
   },
   strategicPerspectives: [
     {
-      date: "Aug 14, 2024",
+      date: "May 06, 2026",
       title: "The Sovereign Wealth Shift",
-      description: "Tracking the pivot from US Treasuries to alternative physical assets."
+      description: "Tracking the pivot from US Treasuries to alternative physical assets.",
+      link: "/insights/sovereign-wealth-shift"
     },
     {
-      date: "Aug 09, 2024",
+      date: "May 06, 2026",
       title: "Algorithm-Driven Liquidity",
-      description: "How HFT influence is reshaping the baseline for market volatility."
+      description: "How HFT influence is reshaping the baseline for market volatility.",
+      link: "/insights/algorithm-driven-liquidity"
     }
   ],
   mandateHighlight: {
@@ -144,7 +146,7 @@ export default function Insights() {
               <p className="text-[14px] text-[#43474e] mb-[32px] flex-grow leading-[1.6]">
                 {insightsData.sideArticles[0].description}
               </p>
-              <Link to="/insights/indias-next-capital-cycle" className="w-fit border-b border-[#C4973B]/30 pb-[4px] text-[#C4973B] font-[700] uppercase tracking-widest text-[10px] hover:border-[#C4973B] transition-colors">
+              <Link to="/insights/strategy-ledger-private-equity" className="w-fit border-b border-[#C4973B]/30 pb-[4px] text-[#C4973B] font-[700] uppercase tracking-widest text-[10px] hover:border-[#C4973B] transition-colors">
                 Read Report
               </Link>
             </article>
@@ -168,7 +170,7 @@ export default function Insights() {
                   loading="lazy"
                 />
               </div>
-              <Link to="/insights/indias-next-capital-cycle" className="w-fit border-b border-[#C4973B]/30 pb-[4px] text-[#C4973B] font-[700] uppercase tracking-widest text-[10px] hover:border-[#C4973B] transition-colors">
+              <Link to="/insights/anatomy-of-allocation" className="w-fit border-b border-[#C4973B]/30 pb-[4px] text-[#C4973B] font-[700] uppercase tracking-widest text-[10px] hover:border-[#C4973B] transition-colors">
                 Read Report
               </Link>
             </article>
@@ -185,7 +187,7 @@ export default function Insights() {
                 <p className="text-[#9ea4b0] text-[14px] mb-[32px] leading-[1.6]">
                   {insightsData.longArticle.description}
                 </p>
-                <Link to="/insights/indias-next-capital-cycle" className="px-[32px] py-[12px] bg-[#C4973B] text-white text-[12px] font-[700] uppercase tracking-widest hover:opacity-90 transition-opacity">
+                <Link to="/insights/strategic-realignment-freight" className="px-[32px] py-[12px] bg-[#C4973B] text-white text-[12px] font-[700] uppercase tracking-widest hover:opacity-90 transition-opacity">
                   Read Report
                 </Link>
               </div>
@@ -228,7 +230,7 @@ export default function Insights() {
                   <p className="text-[14px] text-[#43474e] leading-[1.6]">
                     {perspective.description}
                   </p>
-                  <Link to="/insights/indias-next-capital-cycle" className="mt-[16px] text-[10px] font-[700] text-[#C4973B] uppercase tracking-widest opacity-0 group-hover:opacity-100 transition-opacity">
+                  <Link to={perspective.link} className="mt-[16px] text-[10px] font-[700] text-[#C4973B] uppercase tracking-widest ">
                     Read Report
                   </Link>
                 </div>
@@ -251,9 +253,11 @@ export default function Insights() {
                 <p className="text-[#43474e] text-[14px] mb-[32px] italic leading-[1.6]">
                   {insightsData.mandateHighlight.author}
                 </p>
+                <Link to="/insights/opportunity-cost-of-capital" className="text-[10px] font-[700] text-[#C4973B] uppercase tracking-widest">
                 <button className="w-full py-[16px] border border-[#001f3f] text-[#001f3f] font-[700] uppercase tracking-widest text-[10px] hover:bg-[#001f3f] hover:text-white transition-all duration-300">
                   Read Full Mandate
                 </button>
+                </Link>
               </div>
             </div>
           </div>
