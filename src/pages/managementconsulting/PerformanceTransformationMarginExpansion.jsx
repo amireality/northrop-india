@@ -15,7 +15,7 @@ const PerformanceTransformationMarginExpansion = () => {
             <img
               alt="Modern Corporate Architecture"
               className="w-full h-full object-cover grayscale"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOEKDdhbgLEbjM7NuF3RhznYVzXsdGA_t9ebxagOBQxKR2BpG2AzFOD5BPa14nYshaxFFRgbetuWXjgxz6u0A8xEYtGpNjIhBNcTgguNdQuH6WN67v_sYc8jQHoQ922IbPBprKyWKYZDGdHwwmkDVTyuY2IufwwqTDFsDPSx7ScaNo3K6UYqW5OuvcvhWh6Zsb84ib3_4ilnM5-Cj3glkPffJxEFzBdR-qEx-sv08T6vC5NJ3IEknGWejAdJRYoIub-L40-9OZrg"
+              src="/managmentcounsaltingimg/performance-transformation.png"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#fbf9f4] via-[#fbf9f4]/80 to-transparent"></div>
           </div>
@@ -58,7 +58,7 @@ const PerformanceTransformationMarginExpansion = () => {
                 <img
                   alt="Strategic Abstract Architecture"
                   className="w-full h-full object-cover grayscale brightness-90 group-hover:scale-105 transition-transform duration-1000"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiTnDtLGBYrAOOSJ7dNCJItXH2cuOwh_g2X1Cj73OkScEzFViCyqicQ0mDPbCpx_HcEVmHPfiJYt7Mhi4HeQDLOQojigYoZ-DiXmCPjWHdnmATZzZJtIyZ_x6K0YuM5J2EyQHA2W-CNGxNOnicMqZZTGmoClFzxl7Klh8HrY5nwgq9hdBlQ06_yBiWz1O0N51jpyfCDUPtFSdvn3g_A72YF4pUjEuN2WkA877Zmkdo9FrRMYnCOASJbG5wHXtuj-MZXnz4HP13pw"
+                  src="/managmentcounsaltingimg/performance-transformation1.png"
                 />
               </div>
             </div>
@@ -105,7 +105,7 @@ const PerformanceTransformationMarginExpansion = () => {
                 <img
                   alt="Consulting Case Study"
                   className="w-full h-[500px] md:h-[600px] object-cover grayscale brightness-90 hover:scale-105 transition-transform duration-1000"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiHJm0WX503WqdxbDC98sOVbXonAmqAEv0ZnGGZsmD8U-YHPcJUJDEdzxGMrsUFlMHUqKG7KJvcePACyJCkqsf3HZvw9wZOo2YlSvTQn4rVFnr1UqDp0aawA4BFjR_1YMhxxlAY_dy2978Z80zuUMc6BfWSgoivMF5HTFhPnULXkTy31DDsRQPhQE7lw5rajTyCLe1wvwjIZCxRgU3WY7Pbn2Amybj3-dzfZKJzba2VfU3Bm-Gdzk1zjEkI0bPAQ1Gs2GTdmVeKw"
+                  src="/managmentcounsaltingimg/performance-transformation2.png"
                 />
                 <div className="absolute inset-0 bg-[#000000]/20 group-hover:bg-transparent transition-colors"></div>
               </div>
@@ -150,7 +150,7 @@ const PerformanceTransformationMarginExpansion = () => {
                   <img
                     alt="Data Analytics"
                     className="w-full h-full object-cover opacity-60 grayscale group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4-B9axJisgyb--Tuk3qB1J-4svTAph0gu63eiPtwQbSkbsOC8QdWbAyG4dqarXWUk9wvvgae-EjGFcIeZd3qQz2566XVkt6e0Y5vQuGEmFX1dyvRNLQegvShhJmqSJgSsQY0UgbzDL4YLmp0OjzBj7Xi110jF3MVmkHMowXguejjz2_BzLG8iPHniJNNTZrUzWAIh8kgkKX8l76o6ERbfsQ-FSFIH0fNjtuQ4TbxonnM576eT5U2nogXQYHT_lEMrDiyTfM7xJw"
+                    src="/managmentcounsaltingimg/performance-transformation3.png"
                   />
                 </div>
                 <span className="font-sans text-[10px] text-[#c8c6c5] uppercase tracking-widest mb-3 block font-bold">Digital Strategy</span>
@@ -163,7 +163,7 @@ const PerformanceTransformationMarginExpansion = () => {
                   <img
                     alt="Global Supply Chain"
                     className="w-full h-full object-cover opacity-60 grayscale group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvOhwjoY5wEvPS724fF2jfeF8QCDTYs-tQxomUOTEljiSGF8OuKSA8kPtRVis7V-beuqCc7Tg75MUwRT1HzReu5DtLmitg-ZDinEvRCsfx8uuf2NhMYg6Fy5x9fVNvHw0EEbXwYlcRXbOscoMOFAfWxGrc-nxb2l-HPLP83GE7DMW-haKJBg3T4NbGf5oq370alPFMcOM7890cfauJKTifd8SOtNOhl4xbLKT5bPiGvbiISobwBxsB1gEGknX1ga_-Cw3lGB08SA"
+                    src="/managmentcounsaltingimg/performance-transformation4.png"
                   />
                 </div>
                 <span className="font-sans text-[10px] text-[#c8c6c5] uppercase tracking-widest mb-3 block font-bold">Operations</span>
@@ -176,7 +176,7 @@ const PerformanceTransformationMarginExpansion = () => {
                   <img
                     alt="Legal Strategy"
                     className="w-full h-full object-cover opacity-60 grayscale group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBFS2INXw6NYPR3xaD039KtxWW8sFslfTBx5abkjyGLc2szTYa4Eed1AGqNiE6oMVNnYDyzFJzEralmIWCux4SHb3fXVh6XmlOYSPB8ByMmX-AD2ha6BYTPqCgXlRHcLgOFXjDIqqVFoWWm1pS_lxJw_43PquwwthnBDU7yfCEXG7mt-1NA0ouIRUby7ya-qa-K1-mEqMtD4b2Ij5pMaFfeOd63Kt5nm8XhjvRs7v5_a50mK_HWdH5uzNTGC_gEn4K1us8BANNzg"
+                    src="/managmentcounsaltingimg/performance-transformation5.png"
                   />
                 </div>
                 <span className="font-sans text-[10px] text-[#c8c6c5] uppercase tracking-widest mb-3 block font-bold">Organization</span>
@@ -189,7 +189,7 @@ const PerformanceTransformationMarginExpansion = () => {
                   <img
                     alt="Financial Charts"
                     className="w-full h-full object-cover opacity-60 grayscale group-hover:scale-110 group-hover:opacity-100 transition-all duration-700"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrARdzTn1H78y_GxY56PoAe9womhiqKbw5HcgOUyIUQmdAg7e9_vapFN31EeP4FVNJ3X0DqVeBSe0bv9Uf8Zd1CoT96aBEK5LaoOZdAIzOIy5rVFTasMy13LqZiUBRTwcwXfbqZBMYp3ii5gk5Z86e_HYF_3ln1p61EEVYctUWqgvmr4BW2KRJK1lVOXyrdJs1pSjUil_OwVQomWW4uPrFJ43ZAJ4ZruNu7Rk31kl1pWbmbQPe0WEnhla9W6rCGWXZ2l-bER5SxA"
+                    src="/managmentcounsaltingimg/performance-transformation6.png"
                   />
                 </div>
                 <span className="font-sans text-[10px] text-[#c8c6c5] uppercase tracking-widest mb-3 block font-bold">Corporate Finance</span>

@@ -21,7 +21,7 @@ const insightsData = {
     },
     {
       tag: "Capital Allocation",
-      title: "Why Most Startups Misallocate Capital",
+      title: "The flight to quality the anatomy of allocation",
       description: "An investigation into the 'growth-at-all-costs' fallacy and the structural failure of traditional venture financing models.",
       image: "/insight/capitalalocation.png"
     }

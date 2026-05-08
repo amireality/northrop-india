@@ -29,7 +29,7 @@ const CrossBorderFinancialStructuring = () => {
           <img
             alt="Strategic architectural perspective"
             className="w-full h-full object-cover grayscale brightness-90 hover:scale-105 transition-transform duration-[2000ms]"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPmLPJ3wYa1u3Zfkid4SI6jKt8hq4OjtIvsXS6TxZsudobqq85BfaeGxtogZrEVifM-a1J2F84EC8dnYWjObmQXSIMhtS_33sF2756Ir_SiOH939sE1WqvTqg47lQ7hPPOWMEQZAmT7Y7TAFRis8kR2ssGNzmH3LQIrQtS93cQ36h0JvM9-ecvJW0zXkVmvZizN4-TF3CX8bM3WqSSe12nTMnkpquqwQVvJ9VY187bW1wiCOnsdUx6g1qFEZYvvOGvq1B25pSiRw"
+            src="/financialadvisory/cross-border.png"
           />
         </div>
 
@@ -64,7 +64,7 @@ const CrossBorderFinancialStructuring = () => {
                 <img
                   alt="Corporate boardroom detail"
                   className="w-full h-full object-cover grayscale brightness-90 group-hover:scale-105 transition-transform duration-[3000ms]"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaAgJ61csjo7JjIGRzYRZ8R4Qmp8PhWhnEvYgxc8VGagRGwxr98xQW9sPxwF07D2-jTal9HrkKkTMEt5vSYIQly1ZtV6sqALpZGYRGF_3ghW5cHDRcjLWHQQkFk73TNrparLI6mnQL7eD359FMDzXgmhPDEekTzPoLbDNybwGrksPmbT2kDe8AH4F9HxSDB43R7SJDWePG-MJH9s63dMFuZ--Q9Ng9XOHEpEu1v5c-7DtUhez25u2Tt7ctNeNfuL7Qp29g26-GaA"
+                  src="/financialadvisory/cross-border1.png"
                 />
               </div>
             </div>
@@ -123,10 +123,10 @@ const CrossBorderFinancialStructuring = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[24px]">
             {[
-              { cat: "Regulatory Briefing", title: "Navigating the Global Minimum Tax: Restructuring for Pillar Two", desc: "How shifting OECD frameworks are forcing MNEs to evaluate substance over form.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuB9y2lW7LIdngpkd4BmS_hpZFUc2gKzRKRaoNyG74haa1pt-xilbR7PkJ-urKQ5c098BdpF0dfIvHGZQn2MqIqPRBQSC2wV94H19xj0dWam4g5_bQ3QOkly4J5J5TroF8vggBeDpp92rdC1XVDGu87ntNK85X4BGxz1m45_FzuW-Ku0bWnQHz0Vig1we1qT7WiqhZ2p98eYC5rHEqWjtsV0RsiS4a12BPl5TMPWe3C1u0rMZ_BubJePv__e8lFBYbwqkyrd1dXUcQ" },
-              { cat: "Strategy", title: "The Rise of the Virtual HQ: Substance Challenges in 2024", desc: "Redefining corporate residency in an age of distributed executive leadership.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBgaywn6EL-E_nUWQf2U-Po9wj_LVUIWnx2aOv2qRP-_Rjnc_bkxOrMpVH0Kw1Q4OvFZH3fWHUSbCtm1o8o5jhRkLgBWlKh6ZHyHUlKXO2vyZ7DyQNh_vOQdKutJHqnpfqNysr5-V3fkeLxNqIaLBlPv7QaCCio_ed0wIaVnv0e7A_OUxrF-Vuy4g3u4Y4eDnrVMFhJs_A87TwrHbLrRxT81wtOPqCYk-O8E5ZbT2nzeBOaStMMLawH9q7NyrheyYchCDFmFcEt3g" },
-              { cat: "M&A Outlook", title: "Pre-IPO Structuring: Cleaning the Legacy for Public Markets", desc: "Critical steps for private equity backed firms prior to exit liquidity events.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCXThIxKzQH6Xixlt7S3xPkXVbXaOy4Hafa2L1P3NRXQEl7Blo8llL2fXUoVOOYI9cDrJlvhemvSbkgatVEM0iBvLigGRMQmYmUTIk1gAuq4zBHorvVXnINRnCBYay35LO5xEFTLv3ZlQ2PSXDyCSUIeY743KooLK1tdyhIpINpaEOapDs-siLLncEQ9k-rrAFCSPXpHC-qEvQ9TIo669AyVMXqJ00oM9Eo-pQesqZ_MJkpmLiE1-CcNiUoqzckJ2Vx6VgEfBakdA" },
-              { cat: "Regional Focus", title: "The Singapore-India Corridor: Evolving Treaty Protections", desc: "A deep dive into the latest protocols and LOB clause interpretations.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCAwSDLpfNg2ENsf7x0oHmCl7EFrVGXBY4wds-2WwCHd0PB3GMRzRtAwqmb773kRcCn0TPUwVlXBJ6X2w56iKiS2ZaFYnxQ-IDGV1TVkuZfNGU_H222fHdGlDiLsTrOQ9UiPHtl-lssutmiC4TQdBO4_W7wGhJewLXLBeT6HOXPcGaJbLMinaLVgkvL2pN3ujWiupEz-xZG48KnpJ_Xi059TIB7j5rOq_v_4El00aCmW_LxaebCw0A5idy4MGmPSgKGd1k04sWidw" }
+              { cat: "Regulatory Briefing", title: "Navigating the Global Minimum Tax: Restructuring for Pillar Two", desc: "How shifting OECD frameworks are forcing MNEs to evaluate substance over form.", img: "/financialadvisory/cross-border2.png" },
+              { cat: "Strategy", title: "The Rise of the Virtual HQ: Substance Challenges in 2024", desc: "Redefining corporate residency in an age of distributed executive leadership.", img: "/financialadvisory/cross-border3.png" },
+              { cat: "M&A Outlook", title: "Pre-IPO Structuring: Cleaning the Legacy for Public Markets", desc: "Critical steps for private equity backed firms prior to exit liquidity events.", img: "/financialadvisory/cross-border4.png" },
+              { cat: "Regional Focus", title: "The Singapore-India Corridor: Evolving Treaty Protections", desc: "A deep dive into the latest protocols and LOB clause interpretations.", img: "/financialadvisory/cross-border5.png" }
             ].map((article, idx) => (
               <Link key={idx} to="/insights" className="group block cursor-pointer">
                 <div className="aspect-[16/10] overflow-hidden mb-6 border border-[#c4c7c7] shadow-sm">
@@ -149,7 +149,7 @@ const CrossBorderFinancialStructuring = () => {
           <img
             alt="Institutional architectural detail"
             className="w-full h-full object-cover opacity-80 hover:scale-105 transition-transform duration-[4000ms]"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCznxwcIXXYp6czMAPWb4svP5pAuIOgmzf1yIfi92GJ6jKJrn5MGTcb1bZ06pgVZ2-Dw4QPYhEFfuaeSeop2XQiyhnb2aiHaprICgXmGzna-4bPQ9JS04X32eitau72M1Mw6abaKT_bmpW1ktdPzhHKT9dhg0405tJnCjLwftqRnSQcFFn6N5IRqbHRD-MU_VWP2UXVVYDOrVNvuYCTxQ3r5GiNjc2DPYPJOlo-Bt3RW9GEWz1ER3GHhaMY0LxKBBQnpT-gcLGf-w"
+            src="/financialadvisory/cross-border6.png"
           />
         </div>
 

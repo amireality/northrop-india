@@ -15,7 +15,7 @@ const EBITDANormalizationValuationAdvisory = () => {
             <img
               alt="Atmospheric boardroom"
               className="w-full h-full object-cover grayscale brightness-50"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTdo5Z5lU4M-RVevopfYA-EBLesqzt_nV49tYkZp3m33sNi_fJT80IIOExItQwNWHi2dzEYyHt3Hb3BH5arms4lRhHcQn54wZBHe147l1urvDQ4H_E1PD9jf29aPl_vV7b2UtL60xVRr_zegmKbk75vz0DA1ukXC5Nz57Tj7j-CopC6fT1jM9omdrRHJjYxpaX4UfdCJ-o-6Wu8Z-dmfHieQ0iQWPeEUcfW71d2CMXbginZLqred9H0lHuvnxJNR15RXTDOEQu4Q"
+              src="/financialadvisory/ebitda-valuation.png"
             />
           </div>
           <div className="absolute inset-0 bg-gradient-to-r from-[#fbf9f4] via-[#fbf9f4]/80 to-transparent z-10"></div>
@@ -107,7 +107,7 @@ const EBITDANormalizationValuationAdvisory = () => {
                 <img
                   alt="Mechanical watch movement"
                   className="w-full h-full object-cover grayscale brightness-90 border-2 border-[#000000] shadow-2xl"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWqA6E9a0TmQ0uEzs2rKCSTHRYmw7KCOmJjAQBy6gFBX_kjh6blYK4xzf70bTnmSrK0Urx7nSCcVQ68JDMq1IdJQ4ww1DYcPmIta05pI59VK1272dDzAyifdLYWmXCuWUMVRwmXmZaAZDiykt9TWmPxhSD00vxFjTM3r2i_xAmr4szK7GpCcU7pRqJvJARWvnSeIKpZfNM7YVH6ZS0mgkNcEjs84a85NVtleECrbhDXSvuZcaOVDPN0WlQkRW8oTRAyYpjG6UBCA"
+                  src="/financialadvisory/ebitda-valuation1.png"
                 />
               </div>
             </div>
@@ -143,7 +143,7 @@ const EBITDANormalizationValuationAdvisory = () => {
                 <img
                   alt="Architectural stairway"
                   className="w-full h-full object-cover grayscale brightness-90 shadow-2xl"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLbSQAgUF6V4Ue0eqquzz8pWie9ymi8o8cj267p5nLBAqoDuVO_cRt19y8-Jhu0uSDLrY-sTvuKXm_1Us7k0OjQMY06kdz0FNrM7eIaG5cRsjLroFMB9lwdnXTqI3tA2jUhHT66OrSZ1hpr-jOOB0VIzCQ7Wfmq518CSyStgspZg4piUDjEtQxMN6FtSPFFR6L3lwfrzQCwWQM9DICI0yC-9LV0MXKe8UGiY1wEs-XvKkdov9L1B9uaL6i0-iiZCJ8QzEujtOwTw"
+                  src="/financialadvisory/ebitda-valuation2.png"
                 />
               </div>
             </div>
@@ -199,10 +199,10 @@ const EBITDANormalizationValuationAdvisory = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
-                { cat: "White Paper", title: "The 2024 EBITDA Multiplier Report: Sector Shifts", desc: "How market conditions are redefining what counts as 'sustainable' earnings.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuC-g8GaU2-GW9UVK5nK37rM-gyj7W3L976WJ8WxV3gMj1zyUBpjnjFx2TL_jM3LDq3pYKhK3VgdqxP7Pdu0_8IU4OhekbFrhTVwiY8FlwDtYj2heEYWADjSyIwMTVJAPFajlc6sjyD6E7VWtnGt84y8WhpRKhl9Cj59wFjgWkLjb-N6FaSjp3boHQoBKZz6lCUsdNBVcFqYIcEYCxLZTExcqF_xKByzISvp1OgrVEKYdeR2HN3BuvrQBLkWB3uaUdO1IH374AZd8A" },
-                { cat: "Strategic Brief", title: "Navigating QofE for Mid-Market Manufacturing", desc: "Key pitfalls in inventory valuation and labor cost capitalization during exit prep.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDBMiS-fCOFAq8HjiG2sBITAEfPnISFzhKgOk4pP339P5Qh_C-9kXlVM37Jk5gM12if2h0a2sr-kkfd3cJU5fn4sppsxN5wLqiXyO0bDEz7HkFha-3j6n4lZoyF-LUgkQmzOMeO6onwp-jX0IfLx7aseRf_5XSGwghzOOdndhcW93Cah5Xe2Orn6qaT7N-ORZdWX6Q_Cf2q-yEwM2NmPaX9jGiYlfXgdXGVxDKYxHW0PGNI9svte1KNy7LVQQkb5AD7a-55biV09g" },
-                { cat: "Market Intelligence", title: "Post-COVID Normalization: The Final Wave", desc: "Defining non-recurring impacts in the current low-inflation environment.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCrmrzejfnPSmFCfOmPW2IYgoVjwnEg26hmHRON2vGqQofSNKnLMGK0akG1x1Con4ub652frLlzBs84coyPdEauA8hlidH9Zsxxi-XuEB-kvBnYYQBeGmsL9j9QyjFsCx7J_f5OEtrUMUX4de40jJ_-uE7pU34G0ihu8i5MosVEiDmdJV7o_sO3BxXzR1Wn1Com2VRD4WuFZ-KNDH2M1mhltpMcKx3ZP4zXmnkkRVLksNyvc7TQbYyI9oj3LhrvGih91lKO-OlGxg" },
-                { cat: "Executive Summary", title: "Defending the Premium: Tech Valuation Anchoring", desc: "Structuring deferred revenue narratives to protect SaaS valuation multiples.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDITLUnw6aiEMMiG7A-7PhqOShor9fYPY-7x_Ot2aM8Vdroiwgg48IFq7YWh2QrFKPkQDq9Lr_jUQx_zAMKjjxz2JS-XHNIkiD4AzEuywYohuwc1z6A4o3JDV5gz0mJWal-Ywkcj9gVBkYVfGiO__EnOvdi_bpRxNRmotsXw5afcIlEGZE8oYlwhpPNSfAsspLUYfBHfnkduKDGaArm8B7a_2q3jXQp-A8EtDy-QZkdM62r07nEyKuV9u0Uczh5r30VovfONFQLDg" }
+                { cat: "White Paper", title: "The 2024 EBITDA Multiplier Report: Sector Shifts", desc: "How market conditions are redefining what counts as 'sustainable' earnings.", img: "/financialadvisory/ebitda-valuation3.png" },
+                { cat: "Strategic Brief", title: "Navigating QofE for Mid-Market Manufacturing", desc: "Key pitfalls in inventory valuation and labor cost capitalization during exit prep.", img: "/financialadvisory/ebitda-valuation4.png" },
+                { cat: "Market Intelligence", title: "Post-COVID Normalization: The Final Wave", desc: "Defining non-recurring impacts in the current low-inflation environment.", img: "/financialadvisory/ebitda-valuation5.png" },
+                { cat: "Executive Summary", title: "Defending the Premium: Tech Valuation Anchoring", desc: "Structuring deferred revenue narratives to protect SaaS valuation multiples.", img: "/financialadvisory/ebitda-valuation6.png" }
               ].map((article, idx) => (
                 <Link key={idx} to="/insights" className="group block cursor-pointer">
                   <div className="aspect-[4/3] mb-6 overflow-hidden bg-[#f0eee9] border border-[#c4c7c7]">
@@ -227,7 +227,7 @@ const EBITDANormalizationValuationAdvisory = () => {
             <img
               alt="Corporate monolith"
               className="w-full h-full object-cover grayscale brightness-[0.4]"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKnppWSR8HtDRzBu-R5tOtcLzIB4ssU0SWzI0cg-4f9z4EO3H8PnhGoN9kySetwerzBuniaLNnck4QLmp88aGxZtTqSfSsMCfw8GBm60RMaFh7Lxva2ZcGRHFFE8lb0CB6xA1YU-GosNCA-1iW2GeXQi3CB8NgfroUg-Nwb7Bl2dx4QC3KnOgkGlHtmH1H-YFD__CiAWq_ajkvOYssWzgIE4aFrL-nbE4KOj6MkxK1cb-CWZ1ZKuRIsQ_h-O3p--LT0Cl9Qq2sOQ"
+              src="/financialadvisory/ebitda-valuation7.png"
             />
           </div>
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-6 z-10">

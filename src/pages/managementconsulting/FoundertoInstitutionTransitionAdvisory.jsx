@@ -15,7 +15,7 @@ const FoundertoInstitutionTransitionAdvisory = () => {
             <img
               alt="Atmospheric high-contrast architectural detail"
               className="w-full h-full object-cover grayscale contrast-125 brightness-75"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBS2lfAQ5QR1bkZbMCrSi698hLgAuNeExQX87VFHrseBVzeKm9HkN7_I-9aXwBxuDPfk3VrI6uUsGIDWyyVFlIAj7_ky03lOBLcW4pPg7yqfl70BYS7rjZQwJtKGH1htyzdHeH0oK2QFqcMih9jnv33_4AGwjRWDww3Xl1FJqtqEmGXFVSviOXZ6N1T5m7g3LaGiJlAEMQ00wFnPzIKx6HRto6TBZEr-R-j6XI_QuN4Ntm7r9L5OgAdW1GWGEStGQ-EaEwH6zrLZw"
+              src="/managmentcounsaltingimg/founder-to-institution.png"
             />
             <div className="absolute inset-0 bg-[#fbf9f4]/80 mix-blend-overlay"></div>
           </div>
@@ -77,7 +77,7 @@ const FoundertoInstitutionTransitionAdvisory = () => {
                 <img
                   alt="Modern minimalist boardroom with sharp shadows"
                   className="w-full h-full object-cover grayscale contrast-125 brightness-90"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAThoQMIB3PZkoOMfZs0Q8bNLMr47M60sVj9O8WrXFPlKUHgylf4crtWwM4ssv0vZ6aDFc6ivhaakLKBFat3uNZdG0QqFhHKkdkjePSPuXFG4ZHoMtWECAYseTjD1qEbwDtCQ4Fo7V_W9Lxdtc-WY4tf8MzGD6Prf560XqRMD3sBPWXdaEBaVT-xjXpIGNf40bp5rcz5LMZo8gl2hzTu0B4V_x3RLoIT_D2WYj_1IU_sbRzXGmDq_5oWXmoHLCzj_nAdHAf2CgzRg"
+                  src="/managmentcounsaltingimg/founder-to-institution1.png"
                 />
                 <div className="absolute inset-0 bg-[#1b1c19]/10"></div>
               </div>
@@ -139,22 +139,22 @@ const FoundertoInstitutionTransitionAdvisory = () => {
               {
                 category: "Governance",
                 title: "The Architecture of Power: Distinguishing Ownership from Management",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCeMQc8TxXDzd9qhkdt85tfQzZmhvdL6NVVnpoQlqryc0O9y0-5eXoIOle-M73v852_GAhFLkwjPR6-NeULmamOhxLPwEnTvcxxRMjUkeBILItAkrH-_cRmUmWpyPeQF7jOtFHJQ2Nez6NCRVb6SGeg_4v4c8nE4lM5dufRwv-ePbWTPkb5QIR3NDWFFIIFEFUH7AA3QwNIDTF7uoTRuPT0JMKpjxJ_mKp_Y7ShSCj4_EHeZ_5P3oLtnBhBk15azmWegsVjEOCwmQ"
+                img: "/managmentcounsaltingimg/founder-to-institution2.png"
               },
               {
                 category: "Succession",
                 title: "Managing the 'Messy Middle' of CEO Transitions",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBSa-okczds0M_VTwQPP7anXE2aAKUZJ6ifukBVnsy2v85aSaJGHD-LTUrcZ65kYmeZKdaEo8-I6xPTxDE-jGvdcRNaUFWwjd7N6ZwauCc7Zg9D7m3IU_Aw9z2VoUyAS2fJoPyp3I9hcajZz3QxVUo9ECsWAufoZTI_xQ1mAL1jOJLi44KGKj0fYOxjBn3erTslzfBELrwL0h6UIXEj8I6SDuoB8TIwxGZLQkRJKVr7nxXmNDi43ZeWfjG4_FMU1VoKnLPcjxzRzw"
+                img: "/managmentcounsaltingimg/founder-to-institution3.png"
               },
               {
                 category: "Institutionalization",
                 title: "Why Startups Fail to Professionalize Post Series-D",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDAZTKqwUwzSP8-4In27CEpPypXYpNUAJgs_7h7cWj7jb0655amSgPgw0UaHnbFKVvPfmVViO29uCIf_5G033utdwiWaCZWgC3IZBe1slmUXxecGABM2q5x5DN6Rmk5ag2TCdfLOsIcTG8kZT7vJXD_p-NIpmt5R-7v5PboDj-OCwnBCBc4w6jChfy8CMTgJHoJ8Tl5sYsFoQmF44-HJS4A3YUa1OO6xoLSH_abYbn5xrBjbsIC8PAEUWg0d1NvY2DnPFkB9G_5Sg"
+                img: "/managmentcounsaltingimg/founder-to-institution4.png"
               },
               {
                 category: "IPO Readiness",
                 title: "Institutional Maturity: The Unspoken IPO Requirement",
-                img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCvKixXRjjBVxF1zhom6B-KGvcZwmrjI7HdSDT6k5zobYROSeoT0La8xdt4GeExJCXcgu0ObEvdwfGB33vRFtAZKvj8TQ3WTD3budipZtT6y33AYMP3V4nV2LSVafnTYIcMsWsas33hPorvQ-sLAwsI71sYvxXQp_XdKKczEaOtff3AEgKb-_9htngoP3yl-fnKRZe0Xx2rHeABiWRruqT7rIdcm5ETKNgmoX4mkR_qf0ND-Zbsr_rzkK-HNiLkPEvF7TlEg8GpMg"
+                img: "/managmentcounsaltingimg/founder-to-institution5.png"
               }
             ].map((article, idx) => (
               <div key={idx} className="col-span-12 md:col-span-6 lg:col-span-3 group cursor-pointer">
@@ -193,7 +193,7 @@ const FoundertoInstitutionTransitionAdvisory = () => {
               <img
                 alt="Large-scale corporate environment"
                 className="w-full h-full object-cover grayscale contrast-150"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2REp9yBqY2_7OQh6Io7kqCWXcwX54EEv0BRjSZhhEOKuAeM3jOc6y3QikysocJ9K209oo_HJOILYcaP2W_BKzLQAd5_nVJcjbrwePq3Q2xVbkM_I-9foKMMsZx2Ppv5WrKeiaLiT5-3SnjDzNUMJM8xdLACzSEP_PmSDyOhY1EEstmZHQlO2yHjjZ4z3CPK4cw2YxB6e-xYYfrrC7rtIB8TcDlJCbEBOIYXI3Bn3X1-LnrPE5vfe_mRGtkNDAgudJ6MPwwLAtBA"
+                src="/managmentcounsaltingimg/founder-to-institution6.png"
               />
             </div>
           </div>

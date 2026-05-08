@@ -26,7 +26,7 @@ const PortfolioRationalizationBusinessExits = () => {
             <img
               alt="Minimalist architectural void"
               className="w-full h-full object-cover grayscale brightness-90"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDN0fJ58JTFLpEuDRtdjF872aY1thxldfXtCBgV3L4Gc9ylCevyJeD0NCJk0V7Vb57vYxr4eieIIAwcjEOZ5Vf7icSeBpu6J_8tmo35ENfE767AlM4Mp9Iua6XLaI3Oo6qtYbARFY2lvlX4Tw2BHF-XE6AcpVxayq_d5JW-GtD3NUQuQDM8m6JGjcsk12qsCiaGl9Xq5aoJ-HvEcPktx_48MMJsgupmM6-Rofk8nhMRZo1DHkGPyY4BqYnCb9Yfnvs1gFxQMp_Hw"
+              src="/managmentcounsaltingimg/portfolio-rationalization.png"
             />
             <div className="absolute inset-0 bg-black/10"></div>
             <div className="absolute bottom-12 left-12">
@@ -83,7 +83,7 @@ const PortfolioRationalizationBusinessExits = () => {
                 <img
                   alt="Aerial view of complex infrastructure"
                   className="w-full h-full object-cover grayscale brightness-75"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeAXcTPnfBILCinddl0Ah2ThL9l2xtCOZgrwGr52g6g5orc0sQYPFd5GqVIzXnfrN1PuPx7-qIdlfo5wpT2IhDOyUUPrzAiR-Olh4FuC1x1TrD8L5m-7pSPB7_sZ8vcTxqpOXl5rtMJ-M2V2TE-rweLn41niNNZgj98MiCuFMRT1KHcpzPwc0YVgfi0kvVPaBFc2ZfLwpBuaE1a6gGbbozGlFp8xr1X9gLy2KE1468i3rvxvbiPLcSUrZLOXTLOJvEB6UALZQMYw"
+                  src="/managmentcounsaltingimg/portfolio-rationalization1.png"
                 />
               </div>
             </div>
@@ -171,7 +171,7 @@ const PortfolioRationalizationBusinessExits = () => {
                 <img
                   alt="Modernist stairwell geometry"
                   className="w-full h-full object-cover grayscale contrast-125 brightness-90"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvSHv8LpHzPmU7cMmfYI1IueyGFiQfQeZkUTm59GGlm3QsxvNcpJQSl_NlCrutobH21CN-dHpYevvO0e75sarAJ1tkse2YKEa24BTRUInS5mBjLOW5a5q7hoKnc3Nvp3ljZzu6IzsaZiukN71f8SQXLjx5ka6NbCnkSyrOkKCVhUjczI9DV2tAwp9BBRR6TP0XQ27tUwF5bWdMfUWRF1Ac0QL3UQZnGAePk6Ic5U-uDZaSo1aXNQC89wL8p2-3DxXFDkASYsTnrQ"
+                  src="/managmentcounsaltingimg/portfolio-rationalization2.png"
                 />
               </div>
             </div>
@@ -193,7 +193,7 @@ const PortfolioRationalizationBusinessExits = () => {
                 <img
                   alt="Insight 1"
                   className="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-500"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfjWJ0v-dPgm_HALqix-Zpk-V871Jvvb5GKqdVrOA5JDeho-BT4NXKOtyCA94sswRfbc-fscO4q1DgVFx-Zpk5cBCTD2Pq7moK8LlNDOrsR22SGimf4mgF-U1YnlmLveOOyy0coNsTeuvmp8IbI3xcwTiugLr6-IKdQDiRu_ImDdQ-Cpce4GdKf6J6Nueh68rKMbfnIe6E2Ysa3aqqlL8K7CpDwW0RFqs48oyDHtfOYjjITYXPu5lIfD2IW1lv3BnJgOrtNDiWbg"
+                  src="/managmentcounsaltingimg/portfolio-rationalization3.png"
                 />
               </div>
               <h4 className="font-serif text-[18px] md:text-[20px] mb-3 leading-tight group-hover:text-[#444748] transition-colors font-semibold">The 2024 Divestiture Report: Unlocking Liquidity</h4>
@@ -204,7 +204,7 @@ const PortfolioRationalizationBusinessExits = () => {
                 <img
                   alt="Insight 2"
                   className="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-500"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEnsWuyHwrTvm62xTr6Ylcx-3ctwDwmqeJBUQPlOI2G_29UTc2f3rbKJh3dmc1gSSTNXsoE48kiw1qb8Ppph83BqLf81TXNQ3uL8GtLfwPnYaZ5BlI1tJ-LZuCjlDgzG820YM8kMeox1oW0uDRCu7RyaQD-gcHoCMpmBGtl0BdmNYFP3gmXFxepS7BGi42r4-WeD2CvvaP51rKF3O2IoZARpZAv_ZSiRf2ssA5NQM0Wd42Juan7W1FGf8nvSl9VNckpJt6tjp-0w"
+                  src="/managmentcounsaltingimg/portfolio-rationalization4.png"
                 />
               </div>
               <h4 className="font-serif text-[18px] md:text-[20px] mb-3 leading-tight group-hover:text-[#444748] transition-colors font-semibold">Operational Stranded Costs in Carve-Outs</h4>
@@ -215,7 +215,7 @@ const PortfolioRationalizationBusinessExits = () => {
                 <img
                   alt="Insight 3"
                   className="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-500"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtGifMnN6wCYj3BJ4B-gdYkeiuZGY9KI2HZ4WB91hCw82LfW6gWNYJbpJDf649_q54_GiXu3dzs1Y1haya7loBknxq3S_hYLMSa2ZQ6zHTYyXpuSv3OMFQpZY8KNwKhE3-aQ1GSWYxZBRsBCfuY5woe5AILLkpswSsE_f754MV-EmqV2uHuM2UbhxxTMXage665xTYfHvZkjJf_rxOuY72PzRQoVqOZ_TnGi_dVxNlMGREiADYVqrWmGeZRQSI30D8318okE2vzg"
+                  src="/managmentcounsaltingimg/portfolio-rationalization5.png"
                 />
               </div>
               <h4 className="font-serif text-[18px] md:text-[20px] mb-3 leading-tight group-hover:text-[#444748] transition-colors font-semibold">Private Equity Exit Strategy Refinement</h4>
@@ -226,7 +226,7 @@ const PortfolioRationalizationBusinessExits = () => {
                 <img
                   alt="Insight 4"
                   className="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-500"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2UqEfOHZsxsXLDzko6wkl8yc8lue6mH8AExYltzsoiTHyexncyt3FKES_UDr2vzHQ5IcvBhKMqPs5tcN6X9GgaYPd-qZM9hL1-9CYzuB_ZGRDjlyZDlbNRPvspoGd4-P7zK1vlGOgeFUMNbih-8Qs0DEnSMJnkfllJhvBDRSHR8RcJGuBub1TCfDHFsO7XFbP-1CjRYNDVwLFAWsPL4EmgbVVNRrJmQj8MZY3dA8N6M64Sc7FPJt86Uva2EC96-OkDTwY4zpgJQ"
+                  src="/managmentcounsaltingimg/portfolio-rationalization6.png"
                 />
               </div>
               <h4 className="font-serif text-[18px] md:text-[20px] mb-3 leading-tight group-hover:text-[#444748] transition-colors font-semibold">Digital Decoupling: IT Separation Hazards</h4>

@@ -15,7 +15,7 @@ const CapitalStructureDebtArchitecture = () => {
             <img
               alt="Atmospheric low-angle shot of a glass and steel skyscraper reaching into a dramatic sky."
               className="w-full h-full object-cover grayscale brightness-75 contrast-125"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQB7E5gWmqRNYNdL72dbJQr4PRuZlbj4ePbmcY1nPVVsZqyba34zAJZVnstFs0VZGfzYWi9A04IkY01xIzHdmoBdIRIHDkWoQYDintojSMDhk1Yf_48KC94CE5dslAwLLFY0dsc1wMEOHtRMpGleQ5Vcl9DtNpJFRUIJ36ujgH9L-xexcHmcsyTOGbBeGm0fxgXW62szS6zpGkCYFHsGslF2uRQZDgA8orlz8Rh3ZKhKAojDMiGaLXFPlThbDamsnE1syBdEMzXw"
+              src="/financialadvisory/capital-structure.png"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#fbf9f4] via-[#fbf9f4]/40 to-transparent"></div>
           </div>
@@ -53,7 +53,7 @@ const CapitalStructureDebtArchitecture = () => {
               <img
                 alt="Minimalist architectural void showing deep shadows and clean edges."
                 className="w-full h-full object-cover grayscale mix-blend-multiply"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDewiYOjhzrBl2WCrPjKOZz1xQKzVthNJEd-cEbaIoapeEo2HQSqFyQLtXYxbXisWP2zfei4tFmpiRAKZA23uQ5FJzB1NJQcRuU_zaXHqPAtMfVEwkC4m_GcQUJVd37WsyQswFGuhmDXMi3omc-o8xjcHCBfELfrHCN6yFOHBFgVBYBhhEJ2tVVKE1Mp73jmVmVlm9RxSgozEhUx2_OtAAL2Ch8neGTP5HFem0z8I_NDvKrG9NWfWuMYFaK9FFMprjNhdsZBfV9Cw"
+                src="/financialadvisory/capital-structure1.png"
               />
               <div className="absolute -bottom-8 -left-8 bg-[#000000] p-12 hidden md:block shadow-xl">
                 <p className="text-[#ffffff] font-serif italic text-[20px] max-w-[200px] leading-snug">"Structure follows strategy. Always."</p>
@@ -118,7 +118,7 @@ const CapitalStructureDebtArchitecture = () => {
               <img
                 alt="Detailed architectural drawing of a complex structure overlaid on a modern building facade."
                 className="w-full h-full object-cover grayscale brightness-90 shadow-2xl border border-[#c4c7c7]"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxLowAKtepNRgAm7J7D13kAdg8gthCoVM3RT8_v_PXMBifCUhD5SQNMRTM7x1yGKeKSuYay0nQpBZuJootWYpHhQefEz8j8nv_jwHFg3oBxF-kypCm0dLWKcwC42RVt-ooabsJW1un-t7wrHG3hs1Sz7IaYx6L6nG7agp-IaQfp-nGOjkpbli2lG9iug0S-DezLCfeEcWIcsKmwvpCJ68WUmAlblpMmWhT2wtSq3-kjpBJkj-0VmUxu4z4LFSqD1ytcC18WIBViw"
+                src="/financialadvisory/capital-structure2.png"
               />
               <div className="absolute inset-0 border-[16px] md:border-[24px] border-[#fbf9f4]/20 pointer-events-none"></div>
             </div>
@@ -169,10 +169,10 @@ const CapitalStructureDebtArchitecture = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { category: "Capital Markets", title: "The End of Cheap Debt: Navigating High-Rate Regimes", desc: "How CFOs are pivoting their hedging strategies as the decade of low interest rates firmly closes.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuABG54K0zOXgZJrOoKzENlrHA1A2gtEHTaHu6A4dW7skaPauQX2lmclx5XtHcJlb7t89zN3Zvn79A89Vq-MOEqIhsGtL1Qi8DNaxXx8E_sKojvV9j-ZfJiGKAcHXY5m1YvsUVTsffIvR_SHaaol3r0v76ANiDlbIppxcBGK1upJjCCDR4JO3xlxXqEfaHHr5dGWtJf7UKmA_IMc1c8PjFGElacLKfHuMd7Oisug5uMalZCVFNiN_m-NENQB7EdbA4rqACMdSzLP4A" },
-              { category: "Governance", title: "Covenant Intelligence: The New Strategic Advantage", desc: "Why covenant flexibility is becoming more valuable than nominal interest rate spreads in M&A cycles.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBvuFYsF9PDJEi1_RrdQ1VQSIJEK91PfXQCBaOgQpPItL4ir3h5OLUwX7xgNe41h53S-Mdm1P-Zj9u7waO4cYB7J2FKRFVMkwYVkgOfG68Y080Yu_LLA0uaZByUDOjBQKFnLFcWHsfog0_CmXoOKptkKY9RQzbexOMlcnwqu_doVmF_lLS7MKnAWdzuRuYg2VpOe0CzwHHkI7g2WYjDcjiEsJHcf0T9Q5QYQN3HdOkln9-pk_szTQ8Kw0oUcBxpGcWjQRc9MJID6g" },
-              { category: "Restructuring", title: "Preventative Recapitalization in Emerging Markets", desc: "Managing cross-border currency risks through sophisticated local-currency debt architecture.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAQpLdI-3d2xWARMAqcfNNm48ZJT-ANKbBvHWk_s8zGVDlWRanbBISiTfNJyNvZMFLc4nLSp2-85ahVxubTjHdG449n-_mCI1gZGlrjb2tRGU3qekIS6TJFU22dFuNiD-G8SvKr429pgpvLHBtG1CFV896RIsNqHwWThYhrifEiU2IZhF7ZiqBNjg2AhdJgwduUCrgLfliTVw_lm5uN3AkWrXpj3r0brOqpJ-y5HGSRuZwetFaUAchUSEX6OJACGrYuLc4ztNAZzA" },
-              { category: "Institutional", title: "The Evolution of the Private Credit Landscape", desc: "Mapping the shift of institutional capital from public markets to bespoke private debt structures.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBsrJZgjm0hXp6rhMlVTvRWCYmUMtIP21V1EGh8YjRG2RmoQaAWqDYQsM77Wazk-Q8BjKqIIiJwG40EBuuglq8QLQeTSKWn0J-uHVDG1JZzqhUHM6xfEwyR7DAH0eacXxLBbrPgsMLOplB3pS9KjBojsHc2yV6snTiyVEEJTF8XwWJgY0r0shmK3Ob679S39xgYrBPWTc5Rcca6stzckT2VMnjw1qKvAvdnMmY_DTpJbbRd6C_azdFpdlh2wDNTqt0bp8ofD6yfCg" }
+              { category: "Capital Markets", title: "The End of Cheap Debt: Navigating High-Rate Regimes", desc: "How CFOs are pivoting their hedging strategies as the decade of low interest rates firmly closes.", img: "/financialadvisory/capital-structure3.png" },
+              { category: "Governance", title: "Covenant Intelligence: The New Strategic Advantage", desc: "Why covenant flexibility is becoming more valuable than nominal interest rate spreads in M&A cycles.", img: "/financialadvisory/capital-structure4.png" },
+              { category: "Restructuring", title: "Preventative Recapitalization in Emerging Markets", desc: "Managing cross-border currency risks through sophisticated local-currency debt architecture.", img: "/financialadvisory/capital-structure5.png" },
+              { category: "Institutional", title: "The Evolution of the Private Credit Landscape", desc: "Mapping the shift of institutional capital from public markets to bespoke private debt structures.", img: "/financialadvisory/capital-structure6.png" }
             ].map((insight, idx) => (
               <Link key={idx} to="/insights" className="group block cursor-pointer">
                 <div className="aspect-[4/3] overflow-hidden mb-6 border border-[#c4c7c7]">
@@ -218,7 +218,7 @@ const CapitalStructureDebtArchitecture = () => {
             <img
               alt="Aerial view of a city grid at dusk, looking like a circuit board."
               className="w-full h-full object-cover grayscale brightness-[0.3] contrast-150 opacity-60"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBt2DBci6WPInY4F-AijVs1rVqfaPY1i01xGO0TwyPBP2-Y_MxF4KK3v2yDcBR6G1GaFjg37pmQJSs0Q9_AUWvSIbwR1QPVMYt5IDKKbj7Kw2B7DbEiQsMQZnpbuEhfR1PhDwDOegf8NthKfj4CcgcrdkYEVroqSBfk0sEy_ijRNwMewhFqZkAabqqbU5IKn1J0-x3Glc_Nu4hrMYe50rxrDQW6MpFX7QBiEFBk1Sr4IaPtVpWLSIVINKNlVZ0tyr6Q_gJ4n6lDjg"
+              src="/financialadvisory/capital-structure7.png"
             />
           </div>
           <div className="relative z-10 h-full flex items-center">

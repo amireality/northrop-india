@@ -51,7 +51,7 @@ const DistressedAssetTurnaroundAdvisory = () => {
               <img
                 alt="Strategic high-angle view of a complex urban grid"
                 className="w-full h-[700px] object-cover grayscale brightness-90 hover:grayscale-0 transition-all duration-1000"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuATMHYEep3omm9eWcoD6TqJ313XeO0HRA_sUwWaAusp0xXP_F7fI78C-sdErC0v_5gel3MkGvFQcMv-EjsOAQcxIF-l1FyEfF18B794Fco0dO6AkNiVj56_F7MDnFDt-y7lkZgEAqsMwmA7JHSdgLQKUmL3HtbrjTz5fpKHSc0xXJWOF4wA81sFw0E9LEEkXtieGs1FEKLcojJ-fKQ6hClw6V-9IpPNDGE3DQxc5S_G8hELl5WHOTV89wWr8XQCOfaOtoGdn12gLA"
+                src="/financialadvisory/distressed-asset.png"
               />
             </div>
             <div className="mt-4 flex justify-between items-center">
@@ -121,7 +121,7 @@ const DistressedAssetTurnaroundAdvisory = () => {
                   <img
                     alt="Strategic imagery - industrial abstract"
                     className="w-full h-full object-cover grayscale opacity-80 group-hover:scale-110 transition-transform duration-[3000ms]"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJb019ag7qWpSe0dsimGcB8ybaMTYlzvCDDEyrVlNOt9GQlaML5kgnYOTPtsuI7_K01ZJ3idKFrHbT4BI89gnvKN-IM_QiGlWAARRL4nHVoDagoaKXg-r7d8V23nYUNjQR--ajTdSbaF1CWWjJQEGbtP_niSvgeWMHedWUBvhBrMDzTSbEn4FBFjDAPUOsDOpYz1RR9EOyKdF2N2oOToon-fNtK8IW1vm8LCxP-0tGxl_UZ50noNDaughxS33FEdxMRFdL3J2yrQ"
+                    src="/financialadvisory/distressed-asset.png"
                   />
                 </div>
                 <div className="absolute -bottom-10 -right-10 bg-[#ffffff] p-12 text-[#141414] hidden md:block shadow-2xl border border-[#c4c7c7]">
@@ -171,7 +171,7 @@ const DistressedAssetTurnaroundAdvisory = () => {
               <img
                 alt="Strategic high-end architectural symmetry"
                 className="w-full h-[600px] object-cover grayscale brightness-90 hover:grayscale-0 transition-all duration-[4000ms]"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9aN6XaPbNREuE1pxFTZU4s80g2Br7IFqDQ3-qnQAN2sfomuDpQgOsUnUR9VXJ2kkPpaLzfe6gDNp9mEDUs7gNBkGDw2UK12KWGGBeH16xLXUEZJHosFPS9Km5fqzEyo3S-dPfbgHAuuW4p6uhSgclZc9vWaS1rVnVQ1sPzOigqP6-9kE5MOhT5cOzqS21kUoLHtwc8dalSDG8lq9ZOXxoQRaxzB3S-uvvepMobY2oOmKGMdWRq9Q8_DQ5dslFHq8y4PFGiYUVIQ"
+                src="/financialadvisory/distressed-asset2.png"
               />
             </div>
           </div>
@@ -189,10 +189,10 @@ const DistressedAssetTurnaroundAdvisory = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[24px]">
               {[
-                { cat: "REPORT", title: "The Liquidity Paradox: Navigating 2024 Debt Markets", date: "May 12, 2024 • 8 min read", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDAkhzQuW0ELDIz_SSRbO8kEDwyZp4gg7emvyBONq55GLO4eLqbXO4lMNA4RBvjU5vYLKDTzM1oa2wgacn-101eJdXmE6lWSVRu8AKxsh4Mo-imKOEn5Nb25j1hNprbgr7tih_IJUjJfhADhXmZGsysBxffiNdkWuL0a45zY1FL39D7tV9DF4rxZVr3bX7r0aKV2dxqkkUYg8p05W0Uqnor4vPMVPY0KvzMNHDAS3MkAIUp1bm5kcTUC6LMXlZDGfncRcXPSCNYmw" },
-                { cat: "ANALYSIS", title: "Structural Vulnerabilities in Mid-Cap Manufacturing", date: "Apr 28, 2024 • 12 min read", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuC2NDxQTLJBxv-a-vyIPNFM8gv-mjaY40H6MwnYfEbJWdKZBqYKpXXwmhMZd6OpxTkm9BVqjoLuEyH7gotXbDTCJVXUOIZiGfqlfFLZy_j9jF3pg864AUciZnHhMDLB6QMQNmgCXxSG2EDmtE7vkL3HHv4YMrxchPVdnzSMtzOQT2B8Knpa5gwNhUzZX7JgRHrtoH5zmYQn2GehlklRBr5wURY-6rVlVeI2-Z8FUJbQQZzipBJWXUfKZ4agpAut50e_U8ZgLH-qhg" },
-                { cat: "WHITE PAPER", title: "Lender Psychology: The Art of the Workout", date: "Mar 15, 2024 • 15 min read", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDGXddGJd5SG4FPvPHUmEmTMyUe3DIU_gUG53bCJFGA39gpITGXrpJBTWDf9vGbzqI_0mbdRE5hnrtP2934eA0kgZvCz-XXxlyTSIJBo11nEy5D5UXAbIn7QWuP4hLjlxNMpylxXtJz7Qgf0Xjam5nWAL3K5uZN1ZuIVN4Em3J2zWevhM7rjC-XbQg-NNpqyUr673LInJ0Oj2V-c0BTC522dyI4j64baF9WDjLlthBKQGV3he90-1aCH6Gtuppks6z51qfdE_aZFw" },
-                { cat: "PERSPECTIVE", title: "Governance as a De-risking Mechanism", date: "Feb 04, 2024 • 6 min read", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBa1gUlQ8WEzAtu1p8si0fEuQdogMx44UQ4fgKRgVIPWlZgrp3Gzrjmod82SUfqLjAGMbOdEN1UsXiOfmD7ZBZ8RDLlZm5qp9xrwmoB3e6S8HjICCRRpSQlqgOA5n21tytED8ZH0fern8hStzhH2b_vPQY9mqlK4qOZ2NWqMw68pq9Xsose1C5TaL4PzfRnNSuBgzzNidtTbSQkk22nzE0CgPv5XI0pjDBTVM1nB81e_fTrMv33eDHY_cGIhPRiSepllbuPPdILvQ" }
+                { cat: "REPORT", title: "The Liquidity Paradox: Navigating 2024 Debt Markets", date: "May 12, 2024 • 8 min read", img: "/financialadvisory/distressed-asset3.png" },
+                { cat: "ANALYSIS", title: "Structural Vulnerabilities in Mid-Cap Manufacturing", date: "Apr 28, 2024 • 12 min read", img: "/financialadvisory/distressed-asset4.png" },
+                { cat: "WHITE PAPER", title: "Lender Psychology: The Art of the Workout", date: "Mar 15, 2024 • 15 min read", img: "/financialadvisory/distressed-asset5.png" },
+                { cat: "PERSPECTIVE", title: "Governance as a De-risking Mechanism", date: "Feb 04, 2024 • 6 min read", img: "/financialadvisory/distressed-asset6.png" }
               ].map((article, idx) => (
                 <Link key={idx} to="/insights" className="group block cursor-pointer">
                   <div className="aspect-square mb-8 overflow-hidden bg-[#f0eee9] border border-[#c4c7c7] shadow-sm">

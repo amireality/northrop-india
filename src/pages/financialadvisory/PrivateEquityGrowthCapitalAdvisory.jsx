@@ -30,7 +30,7 @@ const PrivateEquityGrowthCapitalAdvisory = () => {
               <img
                 alt="Modern high-end corporate skyscraper reflecting the morning sun."
                 className="w-full h-full object-cover grayscale brightness-90 group-hover:scale-105 transition-transform duration-700"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnlgFZjXHrnMLqvaJvi9aNrbvIc7DcH_WvEf3Nliugbri4T5ZTy2xT_5yU6ZwuHioYY8qJjTECnhxFEhjX5GclzclyUrTH8jbNYG_nTFpsN2POFqO7kmcimWrZfRpLSGd-WyB6bOczYU5vZ5wdjv2M-NCjYH7eK6Ce29_Dyt3W91KC9qRZPf2BMBNIRdRBe-FJ9axlY2u5W9qKnCbDmrKpDa3OB73F53sAQGbQJaUWC2ZZkevlH5kyVKXmoJtal7mZXMHYU2hORw"
+                src="/financialadvisory/private-equity.png"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#141414]/40 to-transparent"></div>
             </div>
@@ -61,7 +61,7 @@ const PrivateEquityGrowthCapitalAdvisory = () => {
             <img
               alt="Aerial view of a sprawling metropolitan business district."
               className="w-full h-full object-cover grayscale brightness-75 contrast-125"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBe1Sp72bRIiDNi9nR2z2-7QHD3dcYQusDgTUfWFSNS0-PtIgUqPNvzLMjzCE48naOuNeHHqaP9O6D4eSOLHJHjE6J_MaRjssh2LQT1cBPTzE3VGPTA8OJ70cl7W002Ric9MUHmLn4BqIt1mKx1afWbg1_TeKdzaw-5T0v5XEJsuc48eZtKRAXuHybBSDOG29tvxJ4vC4A5LCKyTZamT1V60jcz7togI1xW5BjZTClv1w4IDBet4nvABLEF2EN-HuOCvFwpL7g-EA"
+              src="/financialadvisory/private-equity1.png"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-[#000000]/10">
               <div className="max-w-2xl text-center px-8">
@@ -146,7 +146,7 @@ const PrivateEquityGrowthCapitalAdvisory = () => {
               <img
                 alt="Sleek corporate board room with minimalist design."
                 className="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-[2000ms]"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQR3L9WGPQ6jalsG7VWRSUoTrr7Nsf1nT7Zt3pQAy4f1AR7ZBUqiE3vUzhsF8cBMJLW6cdFhnNl7a4tA-2vZfystmbA3WKDI3hXMWfaMDgFPTnGVQXd6H1cQGKh9ql7t8Vg0iMQwZE-HHzgcmcC2z0SH0_O5eSnx7Xt6HcQHy_CV-7uD0CMsUQ_MEaGAqrH1aKP-NqB_wFWBlkWRJRYUQPcWpuFYONAw2_hyD7u4BoV2LIyqBev3wO9IEJKCuTNODTNdzbznqwOA"
+                src="/financialadvisory/private-equity2.png"
               />
               <div className="absolute inset-0 bg-[#000000]/20 group-hover:bg-transparent transition-colors duration-700"></div>
             </div>
@@ -164,10 +164,10 @@ const PrivateEquityGrowthCapitalAdvisory = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[24px]">
             {[
-              { category: "Market Analysis", title: "The Shift in LBO Debt Structures for 2024", desc: "Navigating the rising cost of capital in mid-market transactions and its impact on exit multiples.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBDnqh4pgO3d-P08jiic0_s9owBMEjIlYN5UgjL22bdzi637ZKB9rvJcEa1rjvucq_U5eLBZ2xXyT3wZjhx1sPVjh9AwhXlUh7cnrAC2B8Es3hkWZgCJzGME72COdOHjkU1ZPekEWfJCyJO4hVyNz0qSWxUSPW-Tirwm8082V6b95Xs4hz3IHgeJTaaeQyPWQTDCj76lwIrT1TqBK6EQQjc53RTDUvxza5XRJ5iQfvMpKOT1x5Ee9AC0kTS6n44PtjyUchiOLiAtQ" },
-              { category: "Governance", title: "Redefining Minority Rights in Growth Capital", desc: "How founders are reclaiming board sovereignty through creative secondary market instruments.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuA2ovKckwOdsc5ka4sUzzWFZuQXvZQ00-UF83Y9RBcujHMLX1yiBWOen1QCIdH9D-F-MdThGhc-3cdzASYwlZCxnoWBEtvfKW-_MLkjJRbvn4eOCL1RCUK5iDSJTGuhn2yBLF2Wljr--hXK0ylMyw2qSgLeynfwhvAxxjlS-yEGNWtArj2StYxTjyV1FqQc8MuoFa55IiQkjQrMo5wbcQsxKFy-5qxWpOFeGKo_InznRz-X-Gu5wJYU_z3Bn9mzJ0f-N5VbP6dCAg" },
-              { category: "Deal Flow", title: "Cross-Border PE Strategy in Emerging Markets", desc: "A structural analysis of currency risk mitigation in high-yield secondary equity offerings.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuB8ZDxvd7ZC_sl5fZWYvqKBGH3oWD3Ptm2UwcFhjfbHqEm8MFw3wOJ6vU0OFGwLyfv5TnL0qrfoDOkOVL2Hw-FFLTfYhdKkNQSuzz-JfQgUyFS-1ggg1uon9GTlAtfGM4HTFZUCHrnQyn5QNZSGRZgjJ2cQ6WyF8pwg99xKiheRDv--q6FGNfVHZTnUf4nqbHFhx1XoEVuapX6ivv9Z3GnBdLpOAG1KZWehGgopqtLtwm8cOOzYdgUHbUPzj2Fdcw5Ommf2Nv0Kxw" },
-              { category: "Whitepaper", title: "The Anatomy of a Term Sheet Restructuring", desc: "Detailed teardown of a successful pivot from predatory terms to institutional-grade equity.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAHBb_EvHWPgoU20Bi9_YVkDZ-0wmG0j9UOHJgDcKO1mz7vRIKF4bem37e73tbfvflODOQ4TXdLZ1881IrdgkzdmRxKR3JFMFRB1cybsm_06zM5aAULTproM9XICBT6nEfU9Vogz_dNXT9_IsX4sp5qtnPP35ATQ_nOw9axuTRHO9TaCeWue4NSBHSbgS_F5Z2q300qeg5268yo1SSS6KzvPnWPrOYOaOWo_BXExADzaEPbIRFIKYSCdoPNF7oTSiA4tsEPcp4fFQ" }
+              { category: "Market Analysis", title: "The Shift in LBO Debt Structures for 2024", desc: "Navigating the rising cost of capital in mid-market transactions and its impact on exit multiples.", img: "/financialadvisory/private-equity3.png" },
+              { category: "Governance", title: "Redefining Minority Rights in Growth Capital", desc: "How founders are reclaiming board sovereignty through creative secondary market instruments.", img: "/financialadvisory/private-equity4.png" },
+              { category: "Deal Flow", title: "Cross-Border PE Strategy in Emerging Markets", desc: "A structural analysis of currency risk mitigation in high-yield secondary equity offerings.", img: "/financialadvisory/private-equity5.png" },
+              { category: "Whitepaper", title: "The Anatomy of a Term Sheet Restructuring", desc: "Detailed teardown of a successful pivot from predatory terms to institutional-grade equity.", img: "/financialadvisory/private-equity6.png" }
             ].map((insight, idx) => (
               <Link key={idx} to="/insights" className="group block cursor-pointer">
                 <div className="aspect-[4/5] bg-[#f0eee9] mb-6 overflow-hidden border border-[#c4c7c7]">

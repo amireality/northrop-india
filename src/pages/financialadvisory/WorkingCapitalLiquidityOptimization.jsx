@@ -39,7 +39,7 @@ const WorkingCapitalLiquidityOptimization = () => {
             <img
               alt="High-end corporate architectural landscape"
               className="w-full h-full object-cover grayscale brightness-90"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgrIrla23qvW9ICfzRZo8eJCV3mSp_3YZawCa5jTT2MbEE6GPhACx_nFW4-dcxL5G1L1weXFlkv13BOi0wqJSvT-YF4rJu_v8KaeUyj_2hvOoP7F6GU2CaBVg-Cewc31uPps9RyTN4BLFWsYyULfnlfddemrlyR0P-glSG_judGPC3rCwQEojUq7XCPgDV1jwt9dnNg3PVaOYrJA2fN_z1C4YlnUh4YA4UCaWa44KGkuF_4Eyh8dnPYyMOJQ7diazai3bqG29djA"
+              src="/financialadvisory/working-capital.png"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-[#1b1c19]/05 to-[#1b1c19]/40 pointer-events-none"></div>
             <div className="absolute bottom-16 left-[32px] md:left-[64px] z-10 text-[#ffffff] max-w-xl">
@@ -100,7 +100,7 @@ const WorkingCapitalLiquidityOptimization = () => {
                 <img
                   alt="Strategic analysis visualization"
                   className="w-full h-full object-cover grayscale opacity-80 group-hover:scale-105 transition-transform duration-700"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIgFB1NpKRzZB_JMxzf_enxgx5PrgDeiCmVe-HW7L7RLXj_PGjgIfDTRkrJ0_S61s1znOPbiAf-QTkEeDhzgCBTa0IQP4EK7rETbRs6eTbUT9VFMYYEtWeH9xDfq0SvNGa-gz6S1Dhlx9z9pao19mzZ6j8R87cqG2KAmh2WXEnasVrxK8MymYmrYPsFziCwFxCOBlFk6JWPTB-CgR5SXDjRrP8a3Fu9HAOp64Y0D8vCCkiPDYZiVZz4um0yTO22YQ2HTZEmm1ETQ"
+                  src="/financialadvisory/working-capital1.png"
                 />
               </div>
             </div>
@@ -163,10 +163,10 @@ const WorkingCapitalLiquidityOptimization = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[24px]">
               {[
-                { category: "Finance • Q4 2024", title: "The Future of Liquidity in a High-Rate Environment", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDC0pJiJGWIeLPui40l7WdsuCIPrbDptBEzv7CGCBT6v-Z1sileel0YmMb3VBzzUSzFMfu7ltjaCUYH8EaIDxOBY0wATMynkwGeof9ef6ScMFHTCIKtvMwsIwNTa5fZw2RBj_XEukQe7sPAxjBAdXgT7C7YLOmjZVj_RG0e-A280jRzahg4P3Sw38nnFUSq6ms6ElXEPTGGrKc6ZPIKJVLKdvD_b8Ps1ke3u_ef4sgT2awc-urzt5TSYclVFyma0b3VwU3MXz3fbQ" },
-                { category: "Governance • Q3 2024", title: "Boardroom Priorities: Beyond the Balance Sheet", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAwhp865AgRRtTdVT82FaDpAPHB5ZRjTB0jSzIEKFuNkshOLe9b-tC9jHoVhjED1AV9oQob8xd0qes153XqjEAWKnagn_F3ex04ncKsMobNXI0514WCpUAZjPJ4fSRbi-9NXwNBzEQAgqBXM2-F_IEXMhdBGkNWkaYTqHsCP3ws_YnLLkl46yUqy8JhlXJvDTSZeeKoOGaTp9pNX2f-FXZ80CQFZ0MLMQg9hjRAUKLv-Vtl_GdI1O5J826W9UwGRZ_CQP_sPd4Rbg" },
-                { category: "Operations • Q3 2024", title: "Supply Chain Resilience as a Financial Lever", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBP-E7pjYsekak7VPmYJmp5ejfy305tg50JzQma06YkxJcnCp-C3o33zINWI6qqNSAXqbxPDU3fAYu8cirvArYrrdMvzB1v1Xg-UtOR6VZq5eUqC--4WeDWpzryIlsdxh1Y-EPTEMOA6SK7ghJKXyGKrZ8sFh258yRm7isi4yNxDN7y2LGYKugDxEooQdzN1MyaZj5HdN7rWRWsDG3gmw_cpegEMMaB3uf9OwukEyTi6yZOspAKrzbcSFNFY2--6w8JRGBWtxcsJQ" },
-                { category: "Technology • Q2 2024", title: "AI-Driven Cash Forecasting: The New Standard", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAbEHSAVciTWLO7wHtfm3d1RXbIDJEgNyKig7N3za8GVpWnL0GnJ_7xI_jEHLWA5x9E12vbI1tFKLfqUd83YceONgMT9VYkewzjMmJtFWmFLUUzUzT9UGiBZ2YO7F3ioo44eIWbo3bx-2fX6qhanUgUmhYB4stUBi_hJkPDoJPnak47dGc4vqRETDP6Ka2Ep3MqJBL4BGY3RDF054KIm4HjGaLt2d6WwHUknOHHuLtDnaka3Gkk6Bx0tBp0zEQPMgoP09uShLQLnA" }
+                { category: "Finance • Q4 2024", title: "The Future of Liquidity in a High-Rate Environment", img: "/financialadvisory/working-capital2.png" },
+                { category: "Governance • Q3 2024", title: "Boardroom Priorities: Beyond the Balance Sheet", img: "/financialadvisory/working-capital3.png" },
+                { category: "Operations • Q3 2024", title: "Supply Chain Resilience as a Financial Lever", img: "/financialadvisory/working-capital4.png" },
+                { category: "Technology • Q2 2024", title: "AI-Driven Cash Forecasting: The New Standard", img: "/financialadvisory/working-capital5.png" }
               ].map((article, idx) => (
                 <Link key={idx} to="/insights" className="group block cursor-pointer">
                   <div className="aspect-[16/10] overflow-hidden mb-6 bg-[#f0eee9] border border-[#c4c7c7] shadow-sm">
@@ -190,7 +190,7 @@ const WorkingCapitalLiquidityOptimization = () => {
             <img
               alt="Abstract business strategy visualization"
               className="w-full h-full object-cover grayscale brightness-90"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCiNYpqBOYljddF2QtgMWnpe0v_7NFFYozn4fJ7jA4pkmF6b4dJa9q_1KdbFChL11befvzW5zC4xWCmw4DxmAibhXcWCncBxcl9xhbyYPUF3OyY7G3WerAmS2OFW9C9VWpw7C-yFcZMU7T9naoT3svIxcjIboC8cPly6ljKwGAgNWQcgVG-gCjghnP68mXUr1ns62JX6h6_eisIDkvQT9BLhV6Sfwt1Blzckdo3nH5BuetwjmYcxI2H7cn24PlJ9zISxYShMbs4nQ"
+              src="/financialadvisory/working-capital6.png"
             />
           </div>
         </section>
@@ -203,7 +203,7 @@ const WorkingCapitalLiquidityOptimization = () => {
                 <img
                   alt="Consulting engagement in session"
                   className="w-full h-full object-cover grayscale brightness-95 group-hover:scale-105 transition-transform duration-700"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFS60Ebpku4NJUWJoF7UzP7Mmy3O4U3ShMivLR7KP_Y1iN1v6n_pftAhnkGTiSWD010SnCFOkaE07aX0ys147G7Vcyv-L5p9orvb79wV_EwstDZq2MR9YrqLGnBR7prKWuGabFfDOTdNICp6Idd8YTnyGiDa9wJqTpyc8gnEsiZK_JMRPZ-Es3sTlCwIuXw3IsXsln4ekfeCbIbXg_lx-WhbAMnQr861bcbAUY5-G_LDwKgz1OXBblJH5idD79HK2lvt6ZhAHC3w"
+                  src="/financialadvisory/working-capital7.png"
                 />
               </div>
             </div>

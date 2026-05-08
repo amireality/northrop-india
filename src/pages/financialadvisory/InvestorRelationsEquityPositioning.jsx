@@ -38,7 +38,7 @@ const InvestorRelationsEquityPositioning = () => {
             <img
               alt="Strategic Corporate Perspective"
               className="w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-[2000ms] ease-out"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHO_uNzx-Oa5DNmazSY2MJH4tSFSHwOyhsV60XWmjlY0Jw0WJdWbWSvfAHacBDJU3t1OoxlLI82N91tQRuAQtPWt-1d4OWT-jrauTV2480fG17Y7PylE7F_f8bcxBQy3HECfWCvMCtYCCGqYZJfnBk9OGiinMHdEVsg8d11Oist_URystMkppF0meJluBMBZk7Jw88lE6NsMRHYlsfns4LfPsWNFp7W5Fle6jjIuX2s943hUJuIvVP756cD2ehwGWOkH0P2lHTLQ"
+              src="/financialadvisory/investor-relations.png"
             />
             <div className="absolute inset-0 bg-[#000000]/10"></div>
             <div className="absolute bottom-12 left-12 bg-[#ffffff] p-8 max-w-md hidden lg:block border border-[#747878]/10 shadow-xl">
@@ -102,7 +102,7 @@ const InvestorRelationsEquityPositioning = () => {
                   <img
                     alt="Executive Meeting"
                     className="w-full grayscale contrast-125 brightness-90 hover:grayscale-0 transition-all duration-1000 border border-[#c4c7c7]"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBujC9dNFj8kXYgkyiCD5Cqx0MlJ3cdHtTFfj2xeeV6Uu1jeTjeTeX15LKFz6I64nd9zHB-lAEpjgPDWV6vwJewX95rVTP2iKgSYsHOk5ymxSnKdtAlzUQMGX930Tl1x5QJzsQghMFhuBvWoQ4jvMPHLaQNrVQEX0Mw5XC7erFJNRnQ_WPUSD8fprs2dVVZWofojMQKjWlceyYDc_CWUBOK9O0BeNTRaUbWRLitZC2rphDXrnqN82oln72hzAis4pfgSVSsXwRDoQ"
+                    src="/financialadvisory/investor-relations1.png"
                   />
                 </div>
               </div>
@@ -148,10 +148,10 @@ const InvestorRelationsEquityPositioning = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
-                { category: "White Paper • 12 Min Read", title: "The Illiquidity Discount: Why Mid-Caps Underperform in Volatile Markets.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDV45zrZMPTu0Sa1e5QdSe688FSyiCKg1oSg2b1vpwYUwzwpBa0-AsCOgh2RoMqTDEgjeTZ1jDpSy-50q7X-u4pshZ0CSem56hX3w30H4kzIhROt94PsSXHhvVqaq6503M_31ED9cNgm2R2kndqsdgRdpafMZPNx2-Vyk7ag4fH3I6DxEYAH6x0e_aAX-EX6Lr9DKF3YT1PrZpPFPvTzBRsUPRLpWaYTV950rdd7-aDceyk7YIzkTyoF5gqn7Hjx5GDzbvmSzr2kg" },
-                { category: "Market Analysis • 8 Min Read", title: "Navigating ESG Disclosures: Beyond Compliance to Valuation Alpha.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBgS8TvlQhknsZ3pYtShlMqnXc32H9w23b9RBBN3DzDJrEV3IQNHLzrFC5Zb3uOuifCegLskrJLBhXMMmaApn57uYE4KhnbpR6me2UfA_QwOF3UbE5kwy6K01r7YRha1AQZmbb25HsAT26ATbN0DyHZ-G4dK5aTAP0pFgFmWgwLL_FZFr8rkmkXjBdB8YAdbBqqi7KCN4atZTLqAQ8JjQWpto8x6XJb8omjjDcOXrxXqxPfVgHGrZIlsfqIV2xGbhanlO7XKpe6zw" },
-                { category: "Strategy • 15 Min Read", title: "The Board's Role in Investor Relations: Bridging the Governance Gap.", img: "/financialadvisory/boardroleinverster.png" },
-                { category: "Global Outlook • 10 Min Read", title: "Capital Allocation Frameworks: Communicating Long-Term Value.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCNCNoHsuEzdtazaPo55ytotVMq-EnqMMSD9xvpQO0moyjXSth9uRNDjChSrL5zdAHgvW5Mgdxu0KNPwdS8sR8Zi014XVHAP3auk2NEZ3hkYTcdlcx7254Q_7sM2PPQMA7Izr_KwJkOlpRV5cnwgGs4Za4TSgu4dUGBofeVbXCZ_FZ8SRwUZ2uGsz7SU1kfYOTst8rCkXynUz7QbVCnX6SioPttnYlknFU5JA9nzEgzB1NxVXV9HbAtmDdm9DU7YblX-zehbYPZKw" }
+                { category: "White Paper • 12 Min Read", title: "The Illiquidity Discount: Why Mid-Caps Underperform in Volatile Markets.", img: "/financialadvisory/investor-relations2.png" },
+                { category: "Market Analysis • 8 Min Read", title: "Navigating ESG Disclosures: Beyond Compliance to Valuation Alpha.", img: "/financialadvisory/investor-relations3.png" },
+                { category: "Strategy • 15 Min Read", title: "The Board's Role in Investor Relations: Bridging the Governance Gap.", img: "/financialadvisory/investor-relations.png" },
+                { category: "Global Outlook • 10 Min Read", title: "Capital Allocation Frameworks: Communicating Long-Term Value.", img: "/financialadvisory/investor-relations4.png" } 
               ].map((article, idx) => (
                 <Link key={idx} to="/insights" className="group block cursor-pointer">
                   <div className="aspect-square mb-6 overflow-hidden bg-[#f0eee9] border border-[#c4c7c7]">

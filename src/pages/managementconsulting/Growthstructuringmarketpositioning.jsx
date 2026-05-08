@@ -15,7 +15,7 @@ const Growthstructuringmarketpositioning = () => {
             <img
               alt="Corporate architectural detail symbolizing strength and structure"
               className="w-full h-full object-cover grayscale brightness-50"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuB05Wy7OLQ4TWNZDqeyKps6L8zIMszC2yvExtiFFfGYtR7EXahDLw_KvWsvgutTCMNp7Rc-zYS5Xz9ZDTS7yD1ubzDVtHaR_ufqgObhxmo9GVWTx62N1WGWMmRdBnAIQ21Ds2yJZYmx6INonMa7MeSSEKZ8a-Dx5_0c38kJcKfHw881eiYQjMQ1TxzILuKEOyl8FNkXXj3H4V4eHcLMCpa9zTXKwyGU14v0haoqewJUvrMpri9ZojOzOEskjBp6Nz1TGD-x15KpOg"
+              src="/managmentcounsaltingimg/growth-structuring.png"
             />
           </div>
           <div className="relative z-10 w-full max-w-[1200px] mx-auto px-[64px]">
@@ -84,7 +84,7 @@ const Growthstructuringmarketpositioning = () => {
                 <img
                   alt="Strategic analytical meeting in a modern setting"
                   className="w-full h-[400px] md:h-[600px] object-cover grayscale border-4 border-[#000000] shadow-[16px_16px_0px_0px_rgba(0,0,0,1)]"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBmCewr3udhZ0rnSrwfSzkTiXdmVioURw9YyP7PfEQkDLIC6jyLr2r8tlaXUEEtmNc5f1-ZPSL0744JdP6RX0UIAfTuThGgTZfc2CC3mKfpfaenl7BdUangnIDo3l5WOVlCqCZz9FRCzd59o0B39uqPWeb4BVy1na9rnphmWDGMW-aUiU5R_PBhqIT6WDdjGQlP9M7i7kRXHS9L7M5Vq5vRw-H5OV2rqedKIMIRX8-gNo2igb0KSORvlcMbbcwD7gRsHpBas9zTA"
+                  src="/managmentcounsaltingimg/growth-structuring1.png"
                 />
               </div>
               <div className="col-span-12 lg:col-span-5 lg:col-start-8">
@@ -137,7 +137,7 @@ const Growthstructuringmarketpositioning = () => {
               <img
                 alt="Executive strategist analyzing complex data visualizations"
                 className="w-full h-[500px] md:h-[700px] object-cover border-4 border-[#000000] grayscale rounded-none shadow-[-8px_8px_0px_0px_rgba(0,0,0,1)]"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCJGWu42pICQSXKlzuHXh-65WjJm-87OH6S62bbrkxDvgvlIInbgQQ2lWZ-BQLIGYxhVkRJMDCqRQAWO_vL9mjXnW9gMNFfxXfomNLBEvBTUyQew8qngjCOsmrIK6u9Nv2WEnVhL0_b9PBCgfx7zSBGPYR0DflNGyBb2R1HbLwcUS7dx_QFvR1_4vMz7arInjwRcKHai5Car9xjP4xVB1ASbJ11JKLQqkcc8DXQExdy494-7mOYBd1mzl0JdcAFGHXaQEvTH3uSqQ"
+                src="/managmentcounsaltingimg/growth-structuring2.png"
               />
             </div>
           </section>
@@ -186,8 +186,8 @@ const Growthstructuringmarketpositioning = () => {
               <div className="col-span-12 md:col-span-6 lg:col-span-3">
                 <img
                   alt="Analysis context"
-                  className="w-full h-48 object-cover grayscale mb-6"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCK9zckZ28M3sHwv2tn4dugStvrs6RbKMvF8s2l_OL5Z8zHFiWdS4LyWQdhO_h1AV7YQo9IkHhDVK9dLwW2DGDiIat7jexCpB1l9Hxbc3nURFO1PlbVZqnj0LJec3wIk1whNdvHYKdTobf-99HqABkwr4e_DeJ0IQqKKHRcFXgze5x69J7_6WUdl7JwvUri-dJ4i331J8wufB9dljO9eYLECqOoTegpROQNTTyHVMwxCztgJSS9LAPSwipHesLOnQmys69TPPwcZA"
+                  className="w-full h-48 object-cover mb-6"
+                  src="/managmentcounsaltingimg/growth-structuring3.png"
                 />
                 <p className="font-sans text-[10px] text-[#444748] uppercase tracking-widest mb-3 font-semibold">SaaS / Unit Economics</p>
                 <h4 className="font-serif text-[20px] md:text-[22px] text-[#000000] mb-4 font-bold">The False Positives of LTV:CAC</h4>
@@ -196,8 +196,8 @@ const Growthstructuringmarketpositioning = () => {
               <div className="col-span-12 md:col-span-6 lg:col-span-3">
                 <img
                   alt="Data visualization"
-                  className="w-full h-48 object-cover grayscale mb-6"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUarO5RK5w3ga5hA8jPTXj2Oq4IIuJyw80wRngGCfbSol2-Y4JwzgB4Fp6MFtFKDW2jFHz_qn_vNgTzSEKgWUu6EZJ73RzEgDEvc4yKOxB4SyKhsY5i1eO2GhKYyKoAlv37Y3MrFGvZ-0nhOw4joujYymq4M4ofxoo5fcLMbnj8i2RsQgb8YwQCmMuZap419ftwthY-SYvfkUOIDQtpcUpYfsMHoPwdmlwuF3idk2HLyHLjffUpZbSEoJqwkiLnDqqSLbM0llllg"
+                  className="w-full h-48 object-cover mb-6"
+                  src="/managmentcounsaltingimg/growth-structuring4.png"
                 />
                 <p className="font-sans text-[10px] text-[#444748] uppercase tracking-widest mb-3 font-semibold">Market Position</p>
                 <h4 className="font-serif text-[20px] md:text-[22px] text-[#000000] mb-4 font-bold">Pricing Power as Defensive Moat</h4>
@@ -206,8 +206,8 @@ const Growthstructuringmarketpositioning = () => {
               <div className="col-span-12 md:col-span-6 lg:col-span-3">
                 <img
                   alt="Strategic planning"
-                  className="w-full h-48 object-cover grayscale mb-6"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAB8OQ4uLMsh7cHKW3GmV8W1jCJe6IH5fa3JjXhUQOFr1XZ6RM7mg0SFKajHYKTntMDKCxpLGOR6XjAQB-IGB7IXUB1N_u6G0QI3cvS_YC4NO5dsmnQSm7uH2lUD1Oi_xzT4FxzJyff8z0bBxrpiy4votaecygr_6QOBWnMVYK9rWF1Bx8fzPCSiQ8c8m-vDdoVYhvxSEtkavR7TV9quzkWH1Tqc9lcuY3PcXy5sUVFAhTUbXasodc3sjFrXpbt4tLtGGC8s5uJA"
+                  className="w-full h-48 object-cover  mb-6"
+                  src="/managmentcounsaltingimg/growth-structuring5.png"
                 />
                 <p className="font-sans text-[10px] text-[#444748] uppercase tracking-widest mb-3 font-semibold">Capital Markets</p>
                 <h4 className="font-serif text-[20px] md:text-[22px] text-[#000000] mb-4 font-bold">Structuring for Multiple Expansion</h4>
@@ -216,8 +216,8 @@ const Growthstructuringmarketpositioning = () => {
               <div className="col-span-12 md:col-span-6 lg:col-span-3">
                 <img
                   alt="Team strategy"
-                  className="w-full h-48 object-cover grayscale mb-6"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpEaxctsA4qQie2b-MLtlb77AB_GmiIHv8U_8cj894_j6PUlcDrNgVh8uzMJx05HUoNvhyN-JEGDRscbF1kR48PvnCiFWb8YzcU0ql-Oah0452d4SC1KbJSLzxVyp89sevuh5FPnmBz-OD5xU6do0_u1smvta6Z2kosVagD6Zq2nI2IKHWff-5i8k53U_yd4E2e68KF8XaOXt3HawJoR1C-UxF2y2ZRMc_U3xQJRlFGwlaeBNQzfzA3iZacPdg0_KN5Wa4WpA0JQ"
+                  className="w-full h-48 object-cover mb-6"
+                  src="/managmentcounsaltingimg/growth-structuring6.png"
                 />
                 <p className="font-sans text-[10px] text-[#444748] uppercase tracking-widest mb-3 font-semibold">Consumer Tech</p>
                 <h4 className="font-serif text-[20px] md:text-[22px] text-[#000000] mb-4 font-bold">The Margin Compression Trap</h4>

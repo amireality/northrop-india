@@ -30,7 +30,7 @@ const PreTransactionFinancialReadiness = () => {
             <img
               alt="Strategic high-rise perspective"
               className="w-full h-full object-cover opacity-90 grayscale brightness-75 mix-blend-luminosity"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAK0WOatWdOfIH0W1rjZjb8PPXgs8a-J7QrdV50D6Pp6HLF262vmO2eiFhNLzNV4MsCxthWtDJbN3aUi-0s-YmnPi8m-VRHH0eXAaXHYLFiO3IHMi9vQXOlwauTCN71acdmISXZ4JW-HaM3AjLZwPQ2fhHO3OmR3Y0YNnfdVxPt6U1Wt-VXFD_pO1fMJy4wtDTsZTCotvuYPqvS6nf40wJz6hvSB0tNoMSr1rcmhYSeGd1zG0iM35w6YQtVM-sGJNhYuTim1zZf8g"
+              src="/financialadvisory/pre-transaction.png"
             />
             <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#000000]/40"></div>
             <div className="absolute bottom-16 left-0 w-full px-[32px] md:px-[64px]">
@@ -76,7 +76,7 @@ const PreTransactionFinancialReadiness = () => {
                   <img
                     alt="Premium boardroom architectural detail"
                     className="w-full h-full object-cover grayscale brightness-90 group-hover:scale-105 transition-transform duration-700"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhdyVHzxdgDgePkBZ0ihOftbO_mUll-nKSO4trCLu4V1HR80-BV0lyE8MD1LeZPrnhoCoIVBgRqYkY3N26RCNEdPkpvWDNty1S7gjclqtsfIEQG5SAMWGOUDXBiSkxbzoAXchPxLmbxw6V0zzbQ_Xfd8A--AzJf2uGn6ZbM0jC_liF9nHpkMmD6OQ6DOG-ACudiCQTVNwTiCXEm8R4MITtpv1YXwv4OpuFPI1_sqAs_vtVMJMmWUShqz8nOES7Vwo2c4o_dpZhSQ"
+                    src="/financialadvisory/pre-transaction1.png"
                   />
                   <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-500"></div>
                 </div>
@@ -129,7 +129,7 @@ const PreTransactionFinancialReadiness = () => {
             <img
               alt="Strategic documentation focus"
               className="w-full h-full object-cover grayscale contrast-125 brightness-90 border-y border-[#000000]/10"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBO9QlcuDVtVvApNTZ2lv-D2Dv6wfVArfn6Xobr7vDO6COi9zFtgX_U3EBVAwiGXYU5HGfinzVQd0E2vWc0qwVbKuI7s1CMekeg4D39MZskJgBXimxCQeNE5OyJNjN-zGISPPmtxle7Gccc0ZLM_CAHnx277ineAKJFfh_FokzSk5zOlSnlDOYHxsJVm6rRU4mKi7kytINAc9pOLS-uTqzl76VlLGw0_dpCINXXCa_Qho6qMUvPYmZcSLpw-bnEIjX_UtuMvYt4mg"
+              src="/financialadvisory/pre-transaction2.png"
             />
             <div className="absolute inset-0 bg-[#000000]/10"></div>
           </div>
@@ -168,10 +168,10 @@ const PreTransactionFinancialReadiness = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[24px]">
             {[
-              { category: "Strategy", title: "The 100-Day Pre-Diligence Countdown", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAU_hZ59Z7kjDWnEdWqRzoDNXTXbWNQB_pnz3X0GiUf0J-kJQGRX1ANcuCenQGrWezc4YFsGSeAakoiBmPIwxR57xmtVV6jb0hCTw-i6HuuSx2XxMCFToEIOBrY2icBQ9Z2oU5xQ0WHq3Ch8BsALXWAcf7sFGGX-eMo47MBBTmGZK4kO7ANGkbEPCpkHdN94cp3qQTJDaVKsfNQgtJqxjbM_fluRhnZlxAXxTPeZmELQ-ofEd2JSUTz_v0QWTyhLmZ2TOQUCnyNEA" },
-              { category: "Finance", title: "Navigating Complex EBITDA Adjustments", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuD9Omz7PyHDHmNfWYMqwyKXrc9gnzmBc1H1F3xWCYmaYCtmH_E2vi3RYgPvIEA1QkDZGZVj-XbGOyexFhbbnLkmd3a3_uwMf9pgxvrQosX0bK4sCyEZclb-VXL8HT93iBziaCe43p3dlsYGkTtwBvDJUoWoGhk0YkTli1qqmoKHjzt93zaTkt_zI-WO4XLhD4ugPb_0DWK5CIzVJBNi6ytncVKdM8fbUK6FlKlC0a2ofi6Y9U8i2a18KIA2Ld7VDZncT1Ib6jmF6g" },
-              { category: "Market Exit", title: "Institutional Readiness in Mid-Cap Markets", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBoNoKIlXJ7jL4a6jQnDfAjryYPOhEsUaqo883k6fkr0025eQ3V00F7iYMx7RVpH-rB9DrUoeNGZTjTGv4CgVG4hLlO0RB77xrgYcaBTewDeHNCSdhPOjX3tCH3WRIRRQUhuzAiYdiK-D5uz3PWPScqh0bV21A5DCPeCDblTn-phK6x7j7tq7-4Ui5onHkA1e79lVhb68G0AlIvPHUEMJnEGzvG9dzH4wMGsTHy0fogpT61rF-gVHQrABZvMBabsySynxvgY0JbCw" },
-              { category: "Operations", title: "Building a Defensible Virtual Data Room", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuCy1FGCT5JitzZkShplJIjSf9UUBj8PW0o0o3t5R8y9Bb76o09NrDvrJqpPs0TveA6Dyz1IYKQldViVpNXtbHyxDjKRUwFXF3is2Fz9DXHYC771NJKngrx7U5n9e1Fp1JRxlnCoaAStI_etRoLXP0tFuLLiSPnS9YNoCESBxgObgESjD257m0p7MjxtBBUoftT5z6Ab9YZ5hKDWDFPUxa-CElpoH2C2Q8NvbQ1e_N2k49SvFz_HYFL1qwWo9jgYTntjJdCEjqHbXw" }
+              { category: "Strategy", title: "The 100-Day Pre-Diligence Countdown", img: "/financialadvisory/pre-transaction3.png" },
+              { category: "Finance", title: "Navigating Complex EBITDA Adjustments", img: "/financialadvisory/pre-transaction4.png" },
+              { category: "Market Exit", title: "Institutional Readiness in Mid-Cap Markets", img: "/financialadvisory/pre-transaction5.png" },
+              { category: "Operations", title: "Building a Defensible Virtual Data Room", img: "/financialadvisory/pre-transaction6.png" }
             ].map((article, idx) => (
               <Link key={idx} to="/insights" className="group block cursor-pointer">
                 <div className="aspect-[3/4] bg-[#f0eee9] mb-6 overflow-hidden border border-[#c4c7c7]">

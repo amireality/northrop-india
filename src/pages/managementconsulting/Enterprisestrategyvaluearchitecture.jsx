@@ -29,9 +29,9 @@ const Enterprisestrategyvaluearchitecture = () => {
             <img
               alt="Abstract glass facade of a modern skyscraper"
               className="w-full h-full object-cover"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAKGIwJQ7k6hOQPUEOvHoCBKXY8JPpj7PZ7OKj9I5BmlD5Nl37129KO2G_gLPLGoUNiGICvEU-qjzaQt3QwfH_MeCGGI_xkhEXQg-KOfCJzJS1YN20PUioQLLBoygKkj5d5a4x0NK4C3fujSlCJ41PQx0GJg8dqdQ1syNIigBzFIZ2AXovtKiwhaCrK5YY0e5Lxa6uP481IaFJgPCTbr8oqOEO0zybSQhyoguokrRu0SCrFhEc5_nD0g-u42dBhejCRoA6fX_qZPA"
+              src="/managmentcounsaltingimg/enterprises.png"
             />
-            <div className="absolute inset-0 bg-primary/5"></div>
+  
           </div>
         </section>
 
@@ -111,7 +111,7 @@ const Enterprisestrategyvaluearchitecture = () => {
             <img
               alt="High-end corporate boardroom with minimalist aesthetic"
               className="w-full h-full object-cover"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwVuB1H9h18PpN7uKaF_oE3_DWqUB_T2mi-jBDq5GolKgbZC9kxv_rsrJRyRn5EhFqhRtdMz-g_6c09uQCJhaTvRL0FgSl8C74KRaN4SNF_oa1IZ3vJbBDP0EgLg5AA3-NPG22LUq8SfWHfkP4DnsAKXDg0YAzoDmLgRoKMqv3OT4-EDblt3p7VFN_P7YQ1yL6VSLRp-o7e16dPNiswBLharveCJpEZwpsSrYhd7C9NDAjCTAfY0XSFgpc2NXWA4eKmqHt8dih7w"
+              src="/managmentcounsaltingimg/enterprises1.png"
             />
             <div className="absolute inset-0 bg-black/10"></div>
             <div className="absolute bottom-12 left-12 max-w-xl bg-[#000000] text-[#ffffff] p-8">
@@ -132,7 +132,7 @@ const Enterprisestrategyvaluearchitecture = () => {
                   <img
                     alt="Brutalist architectural detail"
                     className="w-full h-full object-cover"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeOxZtXiaxXmLubNumtbE_lBA4ImF8fVykhb7fpQi-qcnDQBITGxYpoy2M1uhlLr2GFtAFjUVcJkkJGe9CyNHBK4NCo7qj5vB4G8XWG2ypqo5LDYnVrz0qygbNbSrZxD6usS-7bwZEPzCB-cWyzB4wPSHlBFm1sQVe6r0iIRDg_Q0J-8BqA339MjBKa000M6QaykZpAtldAcggy5Qm9K274bhfAHCmkQYhqT7BqcyqioW_MTO-5bnINevsScoHc5ksfZcT9fGsbA"
+                    src="/managmentcounsaltingimg/enterprises2.png"
                   />
                 </div>
               </div>
@@ -260,11 +260,11 @@ const Enterprisestrategyvaluearchitecture = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Article 1 */}
             <article className="flex flex-col h-full">
-              <div className="aspect-[4/3] w-full border border-[#c4c7c7] mb-6 grayscale hover:grayscale-0 transition-all duration-500 overflow-hidden">
+              <div className="aspect-[4/3] w-full border border-[#c4c7c7] mb-6 duration-500 overflow-hidden">
                 <img
                   alt="Digital data visualization"
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8aXRDuWYgSELmKp-2HZybkgT5GVkybC_IkavEHxdXjoMrr1vThgzTNqWdB4CCDPHT-zetPkqfv2fd_UaLmo78nAD9vb_6Z2MA8mB3czt0J7CV_nU-x1kYvgTOpED7gItDso1YpnrGgauXEXcDXu4g1KwNWQdteZNecYicbb31X9FSTVzA0oBfv5M4-8Ejl3_jz0wCoAfNFJTOzYFpaoCzznYPgWCDDs0tFR6_AaupoYedwGbRZJ4BOcgMn23X1Hof7jaZWAuM8Q"
+                  src="/managmentcounsaltingimg/enterprises3.png"
                 />
               </div>
               <span className="font-label-caps text-[10px] text-[#747878] uppercase tracking-widest mb-2">Capital Allocation / 01</span>
@@ -274,11 +274,11 @@ const Enterprisestrategyvaluearchitecture = () => {
             </article>
             {/* Article 2 */}
             <article className="flex flex-col h-full">
-              <div className="aspect-[4/3] w-full border border-[#c4c7c7] mb-6 grayscale hover:grayscale-0 transition-all duration-500 overflow-hidden">
+              <div className="aspect-[4/3] w-full border border-[#c4c7c7] mb-6  duration-500 overflow-hidden">
                 <img
                   alt="Minimalist light fixture"
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtPi83qVulTCjOdKyN_iV9ynFMjshhuS0_GYM8OgBnzCa70wmNtJp17vBCYV-ofbXYAAy_tq-0ddlWEcmNsDcQ-VL4a9ix9Y135eOYKb6u38QlgC8IurniZpfxgNyWAA14YG2lncU1AoOYndScTiUNYmUK6ddAC7IKEOuyzIN3dQjTEPoh3046KMFtlvi7FPnMiUj35aHM25ro6HKT0Q9ZFQvvckjEmboNJq_wEbt-PsRhHIVl0Mii4s07blae7SVl9nvvOY89jg"
+                  src="/managmentcounsaltingimg/enterprises4.png"
                 />
               </div>
               <span className="font-label-caps text-[10px] text-[#747878] uppercase tracking-widest mb-2">Governance / 02</span>
@@ -288,11 +288,11 @@ const Enterprisestrategyvaluearchitecture = () => {
             </article>
             {/* Article 3 */}
             <article className="flex flex-col h-full">
-              <div className="aspect-[4/3] w-full border border-[#c4c7c7] mb-6 grayscale hover:grayscale-0 transition-all duration-500 overflow-hidden">
+              <div className="aspect-[4/3] w-full border border-[#c4c7c7] mb-6  duration-500 overflow-hidden">
                 <img
                   alt="Office building facade"
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvciHdsw4rzdVzjpByYRQlCTDCycxGqfbtWF3LgYT33950fh3M6AXPzbwaCT2ohJCpwHNVaLlKigK8jrROnuuq5d7lC4Yy5FBnW5iVqfWa4L3Mj6mpM85yXRHDCuJ9tCqHFOPnRUY7vMMHoxGBldopkuyXsqkUNWxNQPrImLRlgjai5w28zC_kELxtfgM9H39e-Wx1r9VdzNrxIWFkX0qlzIWwOoBJXsNSKmR0ZQwDucY4-SbkVaM4ENNNdPnL0GN_OJqLfzWLKw"
+                  src="/managmentcounsaltingimg/enterprises5.png"
                 />
               </div>
               <span className="font-label-caps text-[10px] text-[#747878] uppercase tracking-widest mb-2">Mergers & Acquisitions / 03</span>
@@ -302,11 +302,11 @@ const Enterprisestrategyvaluearchitecture = () => {
             </article>
             {/* Article 4 */}
             <article className="flex flex-col h-full">
-              <div className="aspect-[4/3] w-full border border-[#c4c7c7] mb-6 grayscale hover:grayscale-0 transition-all duration-500 overflow-hidden">
+              <div className="aspect-[4/3] w-full border border-[#c4c7c7] mb-6  duration-500 overflow-hidden">
                 <img
                   alt="Professional in business attire"
                   className="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsKO8mUf2XI3oV9nNKsrgUWHWl4sNfKirH6j7455WyFtX1daGGAqF-Z9iW-MeBqHUOsGj3DN61dX3hPy2x45MThXa5inHZTN76OoRheUMTJQfqImRDxTaOzpMV-RoKqK3eg9vip2ZAScLx3Jr5onGtEarFGgEyyrs_eYiJ0O1HyeLnjObf6t84KjsS78FWjCMor6EQkbCfJ7Z4Opb_2yObvD5eG9mcEvAwM6KDGLZEVy831RmJt0_A7xwbtzu_5EpGikB6n-uyDw"
+                  src="/managmentcounsaltingimg/enterprises6.png"
                 />
               </div>
               <span className="font-label-caps text-[10px] text-[#747878] uppercase tracking-widest mb-2">Leadership / 04</span>

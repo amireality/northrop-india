@@ -14,7 +14,7 @@ const ConglomerateStrategyHoldingStructures = () => {
           <img
             alt="Strategic Abstract"
             className="absolute inset-0 w-full h-full object-cover opacity-60 grayscale brightness-[0.4]"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAQWRytzwr8_Y1U67yRBAFnB41qU7p3d-805CGEkQ3fpm1bKUxtIeRRN0xU1rvdrcmYlXlj31lag9ELSKOnognrci3HFLzQN9Ncc4mTxU1VIonrF8qbVIh8OzD-OupuN9jbJEJO5nt8w1dLTpGCl2HNl_I2YkX9WKgUavdDdVLwm45_O-DvdE0GpYc-r2LnEYGXOqXOP3taiu6QZSYPW8M1e2utsF_E8M4iUqIutFYfJT-YB9k12LE-c2S7FYZijpRVzLKKD2hU-w"
+            src="/managmentcounsaltingimg/conglomerate-strategy.png"
           />
           <div className="relative z-10 max-w-[1200px] mx-auto px-[32px] md:px-[64px] w-full text-[#ffffff]">
             <div className="flex items-center space-x-4 mb-8">
@@ -60,7 +60,7 @@ const ConglomerateStrategyHoldingStructures = () => {
               <img
                 alt="Corporate Architecture"
                 className="w-full h-full object-cover grayscale brightness-90 group-hover:scale-105 transition-transform duration-1000"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDfJgxGzl4WfXsrt2EMT6ruUbnzaYHvC6X0ytQGYzc0sZOVJuG5gqGv-5udcXx-hrbcGTH_6mSdk6fALx0xGmRiY8l5EzrAb2Ud7PJFiPaVsLzSVzNOMRQtmlGkWLpyafg8HGZQcggwYlRK_Nc1BPaov6nJzvM28z2ZRl37ZpOIhYM7jihunmoperZZPj9lNDh5rsANvVUPAIYEY3WosYBaWQ1-_Il4jBoaNF3_kyPXhXfXf2aMexKK_g8xjLvyfYhoXGluXfS0yA"
+                src="/managmentcounsaltingimg/conglomerate-strategy1.png"
               />
               <div className="absolute inset-0 border border-white/10 m-6 pointer-events-none"></div>
             </div>
@@ -137,7 +137,7 @@ const ConglomerateStrategyHoldingStructures = () => {
                   <img
                     alt="Case Study Hero"
                     className="w-full h-full object-cover grayscale brightness-75"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBNKomfDkfIUf_UWvv86b5Vcn7Ws3fNMUJ_-Kdm_McteMBlE0av6U6PtrPYJaoRCpupk8HqqoIcyTyIjGnwIIM54QWPZOWBYGufzCEcuyTtxDRUriliMteHFb_oRsH9bgXv5YwN6P7JAC6ox8TXo6k4ZVta-4LZX5QqwIzK-HgT2CpHuxTIw9EtR_22C-b67F0WKNMOdnsmpOWAl-4tkgm_L0T1GrfbKCHeTFXxe-D9qUcbJ8V42VABuYY6nrUDSmZqaZ4DDO6mA"
+                    src="/managmentcounsaltingimg/conglomerate-strategy2.png"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-12 left-12 right-12">
@@ -179,10 +179,10 @@ const ConglomerateStrategyHoldingStructures = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
             {[
-              { category: "Capital Allocation", title: "The New Logic of Holding Company Value.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDqeraKaPkhRQM_ApKwk-5FLKF28gek80FDnfrzp0-ZNHn2ltbM6gTAmOxQdrLUfSU8_zFvyF6mOTboDLl9LRjOXVYwUh7w5J2EcIE9YaIJj2_zRSgjVRGSohcQPyikWmXiG-ObEJokooZM7fR5O27rOLc6fT0miIYhxXgAvH49YlkEaBN3FExykI-WyyXajuAxCT2RnaRYkz_qw-AEYRoQxX6LLN7wo0y-UrqshXh-bG3Y4cXx4-cdGMQO6USi_XIfRTiAWUfTDg" },
-              { category: "Corporate Finance", title: "Tax-Neutral Demergers: A Practitioner's Guide.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuAVGvZvk8gU6lzOPBqiH_vH9crFlG-v2QMTcDc20McFkwklheks6iNhzzDwuWiIBe_y3fkUfSiIaRSQ5hnFY0lPsHCTskiKhQUQaczB4oUacz6uPGGL_C1K6lEwlKK87mNYcy-xURXx94a_hMu7zfPYGBlQCQIft9Wt4aShZLuw9dnGiZuHAmPhWyYvcZb_hAzmyalhyt3tNNVUFPO6sWtAnARwmIZlTeJKeCeRFgXpcqygOF5tE-gFNoBPFHaul31aFWwcutYqzw" },
-              { category: "Governance", title: "Governance Models for Multi-Industry Groups.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDLUBAv9TpCB3GxodcLjtHamP0QA1nBn1pFx3gbl3hIwBLyTvA2OlJhY3xaMSVSmuAtWTWsJSjgIFx0bDEepue5YpqD4dHQFJpQPejRqaTuObK34IJQBQPHhejkHLbNwzSOa-DsKNKpibnQ68mfgYmaj22A-_5SgU891fnR-ZslX-uinsWg5XzNKJx3j-tDVLNUkFX_J9Mx8ZMp9o3EsK0hk9VkNW21UrHSNEgAorjDYkNpFgiGkW9n8GG80y493kyIQnRU4AOc4A" },
-              { category: "Strategy", title: "Beyond the Conglomerate Discount.", img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBmHJr-TIYFDeEKmgo6tsgcRtW7qK0Efd3cqqm5aBpGj4o5e4DiL7UuTurWRWn_IrjvzWu0U2DTW33oVmclhsRq3wAw8T6iNzXcmWs05ZNp8qA3XA4qT98hRZ0yIHrK6xDDNXwCb0oPZG5o9ZQLmCmRKnggdg4qM1GHslgnqd_oSUx3jcMadxzRCv042xMmhNueJiu0j6i74kicYhkS2SiRNDXFDd7yzoGu5HOeI2gy9FAFtSvdHsw108zOjXN1dl3Cb2AiGIEoDQ" }
+              { category: "Capital Allocation", title: "The New Logic of Holding Company Value.", img: "/managmentcounsaltingimg/conglomerate-strategy3.png" },
+              { category: "Corporate Finance", title: "Tax-Neutral Demergers: A Practitioner's Guide.", img: "/managmentcounsaltingimg/conglomerate-strategy4.png" },
+              { category: "Governance", title: "Governance Models for Multi-Industry Groups.", img: "/managmentcounsaltingimg/conglomerate-strategy5.png" },
+              { category: "Strategy", title: "Beyond the Conglomerate Discount.", img: "/managmentcounsaltingimg/conglomerate-strategy6.png" }
             ].map((article, idx) => (
               <Link key={idx} to="/insights" className="group block">
                 <div className="aspect-[4/5] overflow-hidden mb-6 bg-[#f0eee9] border border-[#c4c7c7]">

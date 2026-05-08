@@ -15,7 +15,7 @@ const CorporateGovernanceBoardAdvisory = () => {
             <img
               alt="Premium Abstract Architecture"
               className="w-full h-full object-cover opacity-30 mix-blend-overlay grayscale"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1LLCHZTfxyBHS36OCp784CECfNTei0fXkeeXp-k7VTsUqpa_7tTlDigAC6NTRy29JLUcbdyH7dmkSWU1TZUXRApZsLsiZ3_L63JpGGEYxQlJMIZBcuxA6lVFTWAdtsfg7E2fXhkseawUrGeeB4ZFJD2o5oQfPEJ-dKxf1jfHW5M43CQrGnNs5KKK8RzMJI120nNYtHxfh68vCT-bNNaKiYTqTX1QzjbhKbVV_05yw9FC1TfS3O4vny1hPNNH2wzaBM9R2AXaqvA"
+              src="/managmentcounsaltingimg/corporate-governance.png"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#000000] via-[#000000]/80 to-transparent"></div>
           </div>
@@ -39,7 +39,7 @@ const CorporateGovernanceBoardAdvisory = () => {
                 <img
                   alt="Modern Boardroom Architecture"
                   className="w-full h-full object-cover grayscale contrast-125"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrXMOmBq7UOv0PfFly9qHOBOncZnoaAqlWZDCGaspWEllKCuVVLLgjYuq0yyB4mCn0QywwziTVXLnFpg81oDTM-hPNnTFaLLHRI5KPXUjy46YWVyH4QCKJMLxHDsp3Hg6ZOfhtuCJ_qOcGG_UtXB017X_PeAZjSytYiJib2qZvqgUzl-n4GJ9ytgel8FZuZ4xk7RHODnvdC83_YLRaFTosSRTnogjZlQtyPckc4GZdhgcEN9aiF56feJ3DGaeoVEJ6FKLrOAlwSA"
+                  src="/managmentcounsaltingimg/corporate-governance1.png"
                 />
               </div>
             </div>
@@ -102,7 +102,7 @@ const CorporateGovernanceBoardAdvisory = () => {
                   <img
                     alt="Strategic Collaboration"
                     className="w-full h-full object-cover grayscale"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpVHl1JhNH9gAdWiBJzi6Fdg4QOkauMvNud4CDNyS-cv9Kxb-5Yi0CkJhRxvq60M0CDpLu2MQOWLNXZikoY4yOJxA4fWrFZuXyAgeTsiOhGIuyGBvAziemJ35esfjtnlURNlvu_dlOneE2M6NQtWgrb2EPvD32tnV2DjoRkHaxJwgPkTcFLbD7rMNH2DUfwNHkOIggFXxpZy5TAambhJYxAINLkrcUfDmW5vJFyxoy1FyLStVnJGdFF_O1Il_GKD6bXWKo9ogYGw"
+                    src="/managmentcounsaltingimg/corporate-governance2.png"
                   />
                 </div>
                 <div className="absolute -bottom-8 -right-8 bg-[#000000] text-[#ffffff] p-12 max-w-xs hidden md:block">
@@ -152,7 +152,7 @@ const CorporateGovernanceBoardAdvisory = () => {
                   <img
                     alt="Abstract Structure"
                     className="w-full h-full object-cover grayscale brightness-75"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvLKD3kGmB9Ne35G5dkcqKM9LsGw5N5JF79BE7xS1oyaO-IzGKGOjcjFudcvOI4mph6d0QECJqCnWQYGNWEaOcMF1pPe2ZnuBAA3KlRUnX0eDFV009UbaiQrhuqmqgw1oiLImW9MQrN2Vi061oNw0j9FuIRQ-ftSgbP-IuBrQ1N3Ffjw30YabUWsv8_DqrEF247YLgb1cR_1DvxmNulwD6zBEa7kkuw-K83BEWalEJIrpXWdv_8RNIx_DrLE4m4x6H3rjq-mtUyA"
+                    src="/managmentcounsaltingimg/corporate-governance3.png"
                   />
                 </div>
               </div>
@@ -220,7 +220,7 @@ const CorporateGovernanceBoardAdvisory = () => {
                   <img
                     alt="Strategic insight"
                     className="w-full h-full object-cover grayscale group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9pUZaEmvrwa-ECPPcGOuhKoWTujnXyOCFbSla4G512QKWsKdzOFBc6h7Pqzp7CcBT9n1hRehJ-zOBXWs6dLYASqHQiWuNrCMzLaidS4eaXVg8hSNxZVEhT_bb9b9i9o92t8RnVMdq8lAC5fPsU_BSueAo2yvVgOuFlNJMzgwHL1NhuQQOSi_zeHWVNh9BMjDnw7NfqQwBrX40iH8zhhr_-gQrEjJ9CRIkmDe1GnoZaqcCOqrcwW-AvTACStB6QGVR0s4BHt6F7A"
+                    src="/managmentcounsaltingimg/corporate-governance4.png"
                   />
                 </div>
                 <p className="font-sans text-[10px] text-[#000000] mb-3 uppercase tracking-widest font-semibold">Board Governance • 8 Min Read</p>
@@ -232,7 +232,7 @@ const CorporateGovernanceBoardAdvisory = () => {
                   <img
                     alt="Capital markets"
                     className="w-full h-full object-cover grayscale group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiOpzhz5vEATh8W0nTGD5B6FdgwseNBOikpPnebyuydDnt-jgE22G1IM7U5ro4rcyWzPs4DcCtRGi13z-8vDw1_LzHkNMpMszzv-wxIWdGXg67LIJid_0OVUFjrHHCkWnczUczNA9DIo3kBgjF64zU0g_fRi15vLW3tEdO_OjoEC5nYxzKm0NJZjieG5TgjFx3Li-IldSkgCN6hBtMTyam52hzog6RnlRLoHSMDqlTf9vmHAbvL75g2PHjFy-b9wWDv5Zmm7V7CA"
+                    src="/managmentcounsaltingimg/corporate-governance5.png"
                   />
                 </div>
                 <p className="font-sans text-[10px] text-[#000000] mb-3 uppercase tracking-widest font-semibold">Public Markets • 12 Min Read</p>
@@ -244,7 +244,7 @@ const CorporateGovernanceBoardAdvisory = () => {
                   <img
                     alt="Regulation"
                     className="w-full h-full object-cover grayscale group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCavPdLvn6eU5M7AqAMUBsKcu6GJgG6EXpKtypVCGOxEd-Vs4fKyc2vqnOdlJ2VqEQHll1RiwCZ7LCav9J4HzkI9FMnRV2iqM6f6evIhP-bzMrkcXS4hPzcxwLzMiuDOrMk-73TsKDyX1ucEyGlz8IRLfbr5ZV_E6q3MbhVsym43RXheFpRcCG8twUysPpCw54ujF-VKetz1GpqDGTNIuNE34KMB8v5xGpTydhkVnWNES6e87Kck6flMTCaRP6ZlL4rSN19NfbmiA"
+                    src="/managmentcounsaltingimg/corporate-governance6.png"
                   />
                 </div>
                 <p className="font-sans text-[10px] text-[#000000] mb-3 uppercase tracking-widest font-semibold">Compliance • 6 Min Read</p>
@@ -256,7 +256,7 @@ const CorporateGovernanceBoardAdvisory = () => {
                   <img
                     alt="Succession"
                     className="w-full h-full object-cover grayscale group-hover:scale-105 group-hover:grayscale-0 transition-all duration-700"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1pyDe2Q8XV3vh_V33qwHpU0sUCNjV09aYPJWlAZeDFk6rYwQKw56jFFuJmBZXedOCdQnWQEGZjQPd8h3ZTFixCScpr-1a2X4_JRh4Mz4SzuBWgtbkbVuUFffQU1wXNXDlgoHjrlE0pk8EQ5FINMXDfPh45rJIPaDMhrLYHpu3XsnAMz1EjO8QtfZMuAq-_Wjjq5CQjd7VK7fSmDbXB8dbq59wwQONuDQS1bjxMm8a3D0VL4DsJdVBPL6JJKcmalm47eoXXT2iGQ"
+                    src="/managmentcounsaltingimg/corporate-governance7.png"
                   />
                 </div>
                 <p className="font-sans text-[10px] text-[#000000] mb-3 uppercase tracking-widest font-semibold">Family Office • 15 Min Read</p>

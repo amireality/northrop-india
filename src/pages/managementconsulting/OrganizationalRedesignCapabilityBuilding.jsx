@@ -15,7 +15,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
             <img
               alt="Modern Architecture Detail"
               className="w-full h-full object-cover"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuD_JPRc4-UBnYWhHmLDckEg0HFqSHa6FcF8QGvEkWz7wOf08t_kkelF_PZQCNpxzYpwzsH6-0XMXYzSM7erPHQGd2XgbpSqo8Zcfti-Jxx_j7MYAwG5nqQrpca471EsCqywMCW8bLWDZDDhM26Il61KidavovaoFBJAvCIIijBlnGlhWkNbl34zH-cfC-7APZPj0zrJGfp90JCpri896L8B8sjCwCPuGhBYktNTFFDFLEtT7ZLqoLyRa1kGkpQ9hgVbc2LKtZSNVw"
+              src="/managmentcounsaltingimg/organizational-redesign.png"
             />
             <div className="absolute inset-0 bg-white/60 backdrop-blur-[2px]"></div>
           </div>
@@ -67,7 +67,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
           <img
             alt="High-end Workspace Architecture"
             className="w-full h-full object-cover grayscale brightness-90"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcW2K7Q6hdcvC5vYLR7oODIAmzyJcvthw0Kol4CRRFDoZrlIeQiCTW1k3Izk5voCF0QIWq99-ZdZQ5XwXdXV6Fy5_Qmiq0oxkKD8pZlDZ3qG1QUbKJGrrlvRLwVrRqpJUSZjFOvCluDfl38HUTMmRWU0OMyMqR10-ym_lM3F5gKY2cPZOWFZ4TGJqmlj4LPs7qdcEab2dYre7ZJjuG8k7q3RQ9FamkuCspw8Oe7mvl2VRFH9REBpRTlnrtXRDDRyFLIU0sVVKliQ"
+            src="/managmentcounsaltingimg/organizational-redesign1.png"
           />
         </section>
 
@@ -108,7 +108,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
                   <img
                     alt="Strategic Visual"
                     className="w-full h-full object-cover grayscale opacity-80"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeQlZlclhpk92_KZ7EmNV_MF-SfYSixTfL9MBbwQMhMtQYEardWpb9II7dugLtG9Taz8CWQwpWg7p3lJlj8EQ82s96x1Fhflw6wOGbN1tssP5sbHPZtVqtRMyYrCxjJx-vw5n2wYdTA8ma5Ixs7NnIeGnK-en8AzZqtg8Cqg7x4SqjC6bN71QSxNyCdkSQEitgzxHZybDZzUeKNszM81_-MdaPMtpXIph6wBzgYJDLkQLNZeOPI7-tAawfbHkb0kLDrJuWu6QPtw"
+                    src="/managmentcounsaltingimg/organizational-redesign2.png"
                   />
                   <div className="absolute inset-0 flex items-center justify-center p-12 text-center border-[20px] border-white/10">
                     <p className="font-serif text-[28px] text-white italic">"Structure is strategy in motion."</p>
@@ -143,7 +143,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
               <img
                 alt="Corporate Strategy Workshop"
                 className="w-full h-[400px] md:h-[600px] object-cover shadow-2xl grayscale"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkFEZd4boEjVtL1LaAmAzavVxPmPQCLLvdhL2EH2AeMEys7hCJAgOt2pYpRpyHbKl_Tlnx_2WEmvUVNlzUaCfqhHAUbxJW7synWKRKvtehVCTOs7OnSaAlqfznHHC46rLlzJnHDNia15Mf2LaA2kSQBRmRWzluf3TaCTWVtp7KhbOPxuOt-8VvmNtJbaxkD0FENOJvoD6hPYs5O4reA7_tKx6DiitvuVS1DJFWhANm4sBy9yme9iUBKzgOrEPcDiGisL_ZuV7qUw"
+                src="/managmentcounsaltingimg/organizational-redesign3.png"
               />
             </div>
           </div>
@@ -165,7 +165,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
                 <img
                   alt="Article 1"
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmzdSPLWNGA4EWGa_9lKQQZBxV0bYcN7ylhXxfPc78xytbNchVCRLm9LqCQobjE5X-6HNP5MrKqlPKhUBmowmewUNmtackPYG6YIekMj5uXNP9vGueMehx2xg7G7Hsd0pT7cU7GN5I9hoafzOx9u4ojmhxlJKFVd8_dP3mmUT5XJF3jUREJ5HO1iaCyuHyliOQNUbMhJXFoKzPj9LTDptKfeI2VQm9n1yPnFHkHKQRYikGfXoYj2ZFBEhXhN1cQDHPd_44HmkN4A"
+                  src="/managmentcounsaltingimg/organizational-redesign4.png"
                 />
               </div>
               <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Organization / 12 Oct 2024</span>
@@ -177,7 +177,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
                 <img
                   alt="Article 2"
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlxgEtflh8HBZYRByIXgsmvLSIBVjvlJ33BpOAI8gpJkHNumu1yE8kQnFAu5qT7qUEfaKuN3xkr5-hfG9FkFPhtmTR1EEeqssxnILaTCgQfN31-lVvuYACk5WioyPprdRhouQu65No9NhIoU2kjQD2QdKkvU-2c6pc6yJIPShaz-yP-fDjOY2FN7QI0u1uSaw_bQnD6LO9jwQndf78756U3XLvTfwgN7LA8tKdVYV5TDAC8vn2dBRrdVncSBJLP7BOWMMyRaBnUA"
+                  src="/managmentcounsaltingimg/organizational-redesign5.png"
                 />
               </div>
               <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Strategy / 08 Oct 2024</span>
@@ -189,7 +189,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
                 <img
                   alt="Article 3"
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpkOEJfQIJjTz37keU5FjBxt6V5SdGu1YCR22tCKOUAQlWDm4xOBe9oEgmA4EtzJQ5GRDyiHH2wbNYBgzAvCUEX42_PxDBTJx-2T6E-esHtYeoAtWnjIbJgkvtcm-5q-tbfPh5or9_4EXgxAAF_CjNXiTy8iW7x2U49iJJsVdc6SVQCgPWAV1Xqjef6sGER91mZolxY5LZXDn4sgxJCRkEjd5WYS7ZBwNHv05FJdYwoR-mh0b7GTCCyqxsGKw8YDX3B2481qsAzw"
+                  src="/managmentcounsaltingimg/organizational-redesign6.png"
                 />
               </div>
               <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Leadership / 22 Sep 2024</span>
@@ -201,7 +201,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
                 <img
                   alt="Article 4"
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEhmMpL2aKtInGhCTZGrutMMc-DTARkk1oq3Va8s1PXmqchbAdqiu0PqRypuJriDFt27cVAwgJ34bpyancLyj-jSgqLYvMjtyuv0hqNU_cz6SQuCcN1P-LZqoE08fC_2hWxNC9kALvodSdK3AzA92g-uIkIISWCdCkyhM7qRugykNgsTfWHZYkbETs1kbAcDCsLzHA_8ALfZVW7Dm_NDGorK5zZ4k-UJxfhRRb3x36r-hAXIRcAgo1lYbGEvuMW2-76WBE3evGvA"
+                  src="/managmentcounsaltingimg/organizational-redesign7.png"
                 />
               </div>
               <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Markets / 05 Sep 2024</span>
