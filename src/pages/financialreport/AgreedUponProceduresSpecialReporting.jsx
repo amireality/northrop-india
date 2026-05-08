@@ -61,7 +61,7 @@ const AgreedUponProceduresSpecialReporting = () => {
       description:
         "An executive guide to navigating the complexities of non-standard audit procedures for institutional reporting.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBsKmou5UZk25tZ4NiHdRw0w3Mah0UFRYOcd-z5Eh1C8ChH4Scz1GBG19kRDQPzmuMcUATUvrwht6pEix8oG6Np_zyNzGc0YqKXXyAR6TLy_hUnWtRRmXw0c5xA9-7pJ8VipvKRj83aHz4-A2Gs2S9XEGJytnknM6JGCW_R2ywESv_ho6Et3mCuUAghvkQdVpck3Fhs2yyjRLsLL9qLymDR5jm9P4NwER4MgewcZM1_G-9vUbSMeeu6E74T9WFe-165peRyi3x7GbQ",
+        "/financialreportingimg/agreed-upon-procedures3.png",
     },
     {
       type: "REGULATORY / UPDATE",
@@ -69,7 +69,7 @@ const AgreedUponProceduresSpecialReporting = () => {
       description:
         "Analyzing the shift in cross-border certification requirements following the latest Basel compliance updates.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCxbk7Tc50ScarIYC0NKyGz8foD1mit_nygixRK4bFClqze9fI0O5XoiPhwUxmZ3z03uDZRYyqhSuQqKab87N6PPE9a--7LEQvoTluzU_yMh3YqQonPh7QnM4nRE-0NIPIIBvd5qWbUspSWMyTOStIOXEIIe2tyx0QCrwlSwTvVuZYyLvnNGQk94zhpaCGWehj3xVCrFsFq-AaKA3o54Jp6vnIv4EbdqvTRyJkUZLGd1Kp4A7oBnBWXr4vDgghKSf5ok5BNjzILKdI",
+        "/financialreportingimg/agreed-upon-procedures4.png",
     },
     {
       type: "FIRM / PERSPECTIVE",
@@ -77,7 +77,7 @@ const AgreedUponProceduresSpecialReporting = () => {
       description:
         "How institutional stakeholders use special reporting to augment annual financial disclosures.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCh0-XBs75p65Zy7pIqtEzYYsaNfzAr1qRPk0lIL__sovnxMJr0s2Pq_y_vRwXZ9ws7z76sGJA_H_-DkGj4NaV18YlpDnMjEno6IhFw9bP6HbB9Gi0KXguBFvSHk7DA0AW2z3HLtrwAUr5HXSIty4eRnokFtf-bAhu9Sm67_A_XVWIgpnxHZmKnyUu0z1VZdtuEPWkqgtoV82NXUaXRjg1H63KCUYRbJqe2kxHcZzpj4w19x0Kb_pFh_uI9RkJI4lCi-lva3eERpyM",
+        "/financialreportingimg/agreed-upon-procedures5.png",
     },
   ];
 
@@ -88,34 +88,6 @@ const AgreedUponProceduresSpecialReporting = () => {
           Agreed-Upon Procedures & Special Reporting | Northrop Management
         </title>
 
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:opsz,wght@6..72,400;700&display=swap"
-          rel="stylesheet"
-        />
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              -webkit-font-smoothing: antialiased;
-              font-family: 'Inter', sans-serif;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 300,
-                'GRAD' 0,
-                'opsz' 24;
-            }
-          `}
-        </style>
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -144,7 +116,7 @@ const AgreedUponProceduresSpecialReporting = () => {
               {/* Right */}
               <div className="col-span-12 md:col-span-6 relative h-[600px]">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6Obm0DOaqbq3db_Qh3H3yXaR7wn5lIPpEDr_rYSOJtGkrKFLysxDvWFYWzGspZxsqEm4mVF2XqdQWjSpZYW3ckQzR-MjSzconRGtSPxv9AXKgxNbNTZ-4t27TlYtV4Itjtter-ZeEo_DC0Os7veL1HhyE4ibyzzNJqkBzvtVSUTMmL7N0yBqVSSxmDOtzpJWVtlPUUscMk-VLZifb8L-zxnSaOBPMxsrWm9q44tdYVaj6RhvwMeY1dBcp1m5SHEysTZSLienA7EU"
+                  src="/financialreportingimg/agreed-upon-procedures.png"
                   alt="Architecture"
                   className="w-full h-full object-cover grayscale brightness-90 border border-[#c4c7c7]"
                 />
@@ -241,7 +213,7 @@ const AgreedUponProceduresSpecialReporting = () => {
                   <div className="flex items-center gap-4">
                     <div className="h-10 w-10 bg-[#e2e2e2] rounded-full overflow-hidden">
                       <img
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuCimN7L_PoI1dT4-dB8tmJtzDEMeOxIAUzsts0VcxCuFlN8I6k8Z0Tw9YFIsXMvbEcn8a37U2nqV4Wa7OjzBDGk9IULWYKFQM5W-o9IU_gomTzeVcDOfOr-EKwszzt7oCOWxWbPJR0XWgDN3lHIPaoeFqqdxOWFsPw5sMtPBLW7dBbqLFx_dPwvJr1atSI1eqMmIIYeqmyNB_FGE1YBoCnZW8tHTKc5pFM8he8nh0hkeCRDkmUVNAEr0bb9HGVOmd8WwYaq_XWrbN4"
+                        src="/financialreportingimg/agreed-upon-procedures1.png"
                         alt="Partner"
                         className="w-full h-full object-cover"
                       />

@@ -45,43 +45,7 @@ const FinancialStatementPreparationReview = () => {
         <title>
           Financial Statement Preparation & Review | Northrop Management
         </title>
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:ital,wght@0,400;0,600;1,400&display=swap"
-          rel="stylesheet"
-        />
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              -webkit-font-smoothing: antialiased;
-              font-family: 'Inter', sans-serif;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 400,
-                'GRAD' 0,
-                'opsz' 24;
-            }
-
-            .text-shadow-strong {
-              text-shadow: 0 2px 4px rgba(0,0,0,0.1);
-            }
-
-            .border-b-thin {
-              border-bottom: 1px solid #e2e2e2;
-            }
-          `}
-        </style>
+      
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -90,7 +54,7 @@ const FinancialStatementPreparationReview = () => {
           <section className="relative h-[819px] flex items-center overflow-hidden bg-black">
             <div className="absolute inset-0 opacity-40">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLvgDE0_cUxwkAYZK3ysNeIyRo3Apeybg3_YP1ae5DXndVTVbaqimk20V_SFqZQ3-YRYFjBE21ZsF5K-yS9opcE0NOQdvOtB_Jy3M1zJSIRqxBpSA4tgAVvXhZt_KAOtE9g91HS7zcOFQojdj5cA2haXJb4sU_OUz73omopd4tb1Xi3WvSCjZZUowKl46vF43-07U5Zr2dLyCjc1LUu7AgkPVAIpYrml8eUfTd40R4HQWwq4WOtRgqjY8fCD5-TvDV91fBNy0_0uk"
+                src="/financialreportingimg/financial-statement.png"
                 alt="Hero"
                 className="w-full h-full object-cover grayscale"
               />
@@ -239,7 +203,7 @@ const FinancialStatementPreparationReview = () => {
                 {/* Right */}
                 <div className="md:col-span-6 md:col-start-7">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCL8lW4TmKzYT8A083gigcGMhUTAD8RaAtbtSxQ_BPXwHRUEkMkk1B0EEWh3sqDw2kmRlzigR0N5_j5Ht-s8g5qGGCXKiy0abwkHKZ02gYDoSEu5igg0gB0n7kGIAYtZgNovL7a_3_TfeHvM18NZ9ey56vJfQnsfK4yE1yykb7GQzqnKHexcluzNcRmqJy63m8n3RiX3dutCYBeOevc455RvRMHquAwfd190j0qn-x_5--TOE81612hFejtyvAEuq1ln89UeQrvOoI"
+                    src="/financialreportingimg/financial-statement1.png"
                     alt="Corporate"
                     className="w-full aspect-[4/5] object-cover grayscale"
                   />
@@ -343,7 +307,7 @@ const FinancialStatementPreparationReview = () => {
                 <div className="group border border-[#c4c7c7] hover:border-black transition-colors cursor-pointer bg-white">
                   <div className="h-64 overflow-hidden">
                     <img
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBNmyzGciUKFSnSZ4sGQQqqq3LIrbzc-56EJ0A18_zLLcjqQQDtvrX2v8CbTmnyFI2aD2ZvgZ3sV9E9uXvXWFk7XLTfSY0pp409zDruTqSUtVhcp9k1adEeDK_2Cy8BK9MNq-sMUceh8sVIrni7uqFqapRE4-IJvYt6H64GJ6iATd5hgSxxA8IJWe907G5cAVr2lIjOTIxvgbBYQWUmwggRXMRGtngtBhjEG2Wl7POitNCG-ySy3o8i_xl4d43nElzK-m2XYtsmWI"
+                      src="/financialreportingimg/financial-statement2.png"
                       alt="Publication"
                       className="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-500"
                     />

@@ -48,40 +48,6 @@ const ConsolidationGroupReporting = () => {
         <title>
           Consolidation & Group Reporting | Northrop Management
         </title>
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:opsz,wght@6..72,400;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              -webkit-font-smoothing: antialiased;
-              font-family: 'Inter', sans-serif;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 300,
-                'GRAD' 0,
-                'opsz' 24;
-            }
-
-            .brutalist-border {
-              border: 1px solid #1a1c1c;
-            }
-
-            .horizontal-rule {
-              height: 1px;
-              background-color: #1a1c1c;
-              width: 100%;
-            }
-          `}
-        </style>
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -90,7 +56,7 @@ const ConsolidationGroupReporting = () => {
           <section className="relative min-h-[819px] flex items-center overflow-hidden bg-[#1c1b1b]">
             <div className="absolute inset-0 z-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqwrnzhpHh3ixh9QQwLVeFdc8SmSj0gzpnIBbhj1VrctocaMY1vgQfB23o4CP3f-662DrAoOwlsZz15Dq-sIseFJGo-BvPO4ejchZ8sdkMCDpu98oC4z5PpbdRYtrC0AiJ_nqZJcVvMbJ5Hrh_rML12OPCHAyzzoFEG9DmndY9owRBzW8Hf15DwJnmQtohyS7Hl5ZPBv_RnyO0anaYvbvTsWNq77cSgfTTYZlPclrfB1gDukUSe642kwHj4PubRz7815Q3VAc4hpY"
+                src="/financialreportingimg/consolidation-group.png"
                 alt="Hero"
                 className="w-full h-full object-cover opacity-60 grayscale"
               />
@@ -281,7 +247,7 @@ const ConsolidationGroupReporting = () => {
                 {/* Protocol 4 */}
                 <div className="col-span-12 md:col-span-6 overflow-hidden brutalist-border">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBr9uvwNKcFvMA0TypJ1mvLX4LmR7v5uvmCz1N6shBZivJeJSjfh84nq_lOLQzwDIvyKqYDVfRbXoc-8_BnqMc9cC1pInnCBUkw4vJuYbggwrCG49wM0caC1JiSULXc5lo3xvuFfXn8THUJM8u2ZZ41UwYtnGDsH9_c7vL3vrrjRdXDsCiOUaRYVFOP_CO7YhlweLGC92UvHf9k3HmTaC97qJYtlJnI5ghwWAX0VHg-QxkDOIGS3vrjjHC_zsZa96MotUEcyE9yy30"
+                    src="/financialreportingimg/consolidation-group1.png"
                     alt="Architecture"
                     className="w-full h-full object-cover grayscale hover:scale-105 transition-transform duration-700"
                   />
@@ -377,7 +343,7 @@ const ConsolidationGroupReporting = () => {
                 {/* Left */}
                 <div className="col-span-12 md:col-span-6">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCft64UUItkn4ZqLV3AnZiVSx4JGRH7v0n4qGWHgxdlw_h_Qy0cPMOOMTrzex99u6J1JcAv_ZNjAvypfGQ6dOLUlwIdkxN_ttBCGHxyOHU3-TnV6GGWAL3YjAD6IZCvYbtIhCXBTduGnNv9muZVGpkmERYp7fBUzIQrjNrq-mhn_2VYyP9rbdBZJX_k_R24So4J7GLCbwtGl1S-JNLOfdbzsESAJ_YiZnOTkp8FdoRGhU2cTvPqfq4TmOuMZ0GBKhX1-CD6OB26zeQ"
+                    src="/financialreportingimg/consolidation-group3.png"
                     alt="Publication"
                     className="brutalist-border grayscale shadow-2xl"
                   />

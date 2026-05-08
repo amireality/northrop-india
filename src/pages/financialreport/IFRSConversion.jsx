@@ -9,37 +9,6 @@ const IFRSConversion = () => {
           Northrop Management | IFRS, Ind AS & US GAAP Conversion
         </title>
 
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:opsz,wght@6..72,400;500;700&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              font-family: 'Inter', sans-serif;
-              -webkit-font-smoothing: antialiased;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 400,
-                'GRAD' 0,
-                'opsz' 24;
-            }
-
-            .monolithic-overlay {
-              background: linear-gradient(
-                to right,
-                rgba(0,0,0,0.85) 0%,
-                rgba(0,0,0,0.4) 100%
-              );
-            }
-          `}
-        </style>
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c] font-['Inter']">
@@ -48,7 +17,7 @@ const IFRSConversion = () => {
           <section className="relative h-[819px] flex items-center overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBkraNvxVfT8nQLfhWEckTrxq6XIRa12qLTrB39N5rtE2A-BFTRMEgS2BFqG1ACBvEfQNXCHpm21NQO8KMUrJ5-GVw7uidnArjKW6UkPh-7-xk_ph46HyiuBbBnZyuClTGlTZ3PnJNJA66v5NyYN78j8flebeB1Yv5xFMGQlB_WwpbdPIToh7rg_6MRR_FOl9kEFDX3aiOjdEH43n4SE-3YYDrDlqhKyAO5lAYovJ_kXt4KNdWvf6BxYm_ONo8-NlqA0EsbqwRoZTU"
+                src="/financialreportingimg/ifrs-conversion.png"
                 alt="Hero"
                 className="w-full h-full object-cover grayscale brightness-75"
               />
@@ -175,7 +144,7 @@ const IFRSConversion = () => {
                 <div className="col-span-12 md:col-span-7">
                   <div className="aspect-video bg-white relative overflow-hidden border border-[#c4c7c7]">
                     <img
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuAB-D4dgARmyOGNiJCs5vLJoeqTo1IMcUIrY-defuEtfdYhyg5y_f7xETcaHonX7zybhkgJgJnaYCBpUWcMpPEhcQm8skV2jytLEasaF62lkMpgLvJpuuCnnIpi9tWABJhl11jziGoYXytJdVOqPIt-NkfnhS5zKGWqJ42cPZh2jhsSvDgZ_0GF3MPOkmEDZOGibHlxa_E7KNTHLQ-aURJV1mFBTM8C1Kp4ECmLYsHjJ-w_sEJWaF_RB6b9XLCpoffwhAKYsgAH7cE"
+                      src="/financialreportingimg/ifrs-conversion2.png"
                       alt="Building"
                       className="w-full h-full object-cover grayscale"
                     />

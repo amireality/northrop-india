@@ -51,45 +51,6 @@ const AccountingAdvisoryServicesNew = () => {
           Accounting Advisory Services (AAS) | Northrop Management
         </title>
 
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap"
-          rel="stylesheet"
-        />
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              -webkit-font-smoothing: antialiased;
-              font-family: 'Inter', sans-serif;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 400,
-                'GRAD' 0,
-                'opsz' 24;
-              vertical-align: middle;
-            }
-
-            .brutalist-border {
-              border: 1px solid #e0e0e0;
-            }
-
-            .horizontal-rule {
-              height: 1px;
-              background-color: #1a1c1c;
-              width: 100%;
-            }
-          `}
-        </style>
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -98,7 +59,7 @@ const AccountingAdvisoryServicesNew = () => {
           <section className="relative h-[819px] flex items-end bg-black overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDc2ClvK8KTWFW13AOybcJQRbs7xu-5z_SL9yFGjAXfZQtQqOdpsbuG6CIdJMCncnJ65iQQpeYH0u2SVHQ2u9Lx4wbxblSoEAKfBvrmRBbpYFDiP2ED93hg8ryokmWqG6A6kOZ5NCSYkCjiv6XwfpJVIjrvg1V1IzlqlXH6rJ8JevZ-ziwnfils__mbzM14RLPLbBLXBJHcPWOIXhnOdWUtH_zgDnQXmBsIgVX3SVzC1JmbeGQEML66tX28fwPmNhG51Wf3YzGhQp4"
+                src="/financialreportingimg/accounting-advisory.png"
                 alt="Brutalist Architecture"
                 className="w-full h-full object-cover grayscale opacity-50 contrast-125"
               />
@@ -168,7 +129,7 @@ const AccountingAdvisoryServicesNew = () => {
               <div className="grid grid-cols-12 gap-8 items-center">
                 <div className="col-span-12 md:col-span-6">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpEHY5nud3QkICOteY5F1XfnV_ARVygENPvpc0tVi4wvKqZh0iiLXmwrmsAe2cuBo-kXKUYUqc4pgH-bNMyoRfQvUQ44lkcL6L9sDzFUUHtTYAExEVjWnCCFOLFt2zwuCrT7HBXb4lmfFglpbM-JVhrzxlHXF7A2v7667hR1heGW91zOwsv-3-qHRlbiCVjNvpUXhbYMXdD13Ig-gHijBWxuZ1aJGrxwz8S98B9QDM6b4jGMXHhof5j0kMCFBPLCDYGhHCE5yBS_A"
+                    src="/financialreportingimg/accounting-advisory1.png"
                     alt="Institutional Context"
                     className="w-full aspect-[4/3] object-cover grayscale opacity-80"
                   />
@@ -266,7 +227,7 @@ const AccountingAdvisoryServicesNew = () => {
             <div className="grid grid-cols-12 gap-8">
               <div className="col-span-12 md:col-span-4">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBbIAZ6JjO0kwCwfHrdZJ0_SwOllg1bXIqT7PvgycJZrfcQgoGIRHV5psZ3OLGrhiVeQOVRNnL8vo_WEX-3cyTntSMQjznMZDcNT5IMgb3wwn2tzcNFvHFyywRVlYPAnUTX0rsPB2bU1EaeqJrOhvdiNSN7yTtV7eflcDCfI30mqh6lmHvwZvniMoDEAM1aNCV7jOSa3zMZtdlN0hLE4eZYtf6JvYd3qu5-BeYso62rcz7EI9Km3Ww6zcSWXYH1z2g4KibKDIEgF7c"
+                  src="/financialreportingimg/accounting-advisory3.png"
                   alt="Publication Cover"
                   className="w-full aspect-[3/4] object-cover grayscale brutalist-border"
                 />
