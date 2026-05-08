@@ -10,16 +10,7 @@ const CorporateBusinessTaxAdvisory = () => {
     <>
       <Helmet>
         <title>Corporate & Business Tax Advisory | Northrop Management</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Newsreader:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-        <style>
-          {`
-            .material-symbols-outlined {
-              font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-              vertical-align: middle;
-            }
-          `}
-        </style>
+        
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c] font-['Inter'] text-[15px] leading-[1.6] overflow-x-hidden pt-[90px]">
@@ -34,7 +25,7 @@ const CorporateBusinessTaxAdvisory = () => {
               </p>
             </div>
             <div className="col-span-12 aspect-[21/9] bg-[#eeeeee] relative overflow-hidden border border-[#E0E0E0]">
-              <img className="w-full h-full object-cover grayscale" alt="A brutalist architectural shot of a massive concrete structure" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWkLHAvjD8wL79pJzLwhxjwZnx0jTd-hTh32-eEJ4X77rZE1XLI8GCMZwqnFAspZXRr00dEP017wmodR_iOQZb_xA76ZuQWSp6JVcv-f3oCAwACVlk9TXxLgagbFyqc9rn0A7vypW4Lk5QRuqTAWq8NKkLlpmKNcib5VFWzwN122dM3MFiZwmhSw_ae5_HF76r71JLe1tePCOHz5RuAKgwgEcwhA41rHlONXSJfmEd8GZkiybIhmFG5AQSkddZCfiTF1uMtvkDNKQ" />
+              <img className="w-full h-full object-cover grayscale" alt="A brutalist architectural shot of a massive concrete structure" src="/taxationimg/corporate-business.png" />
             </div>
           </div>
         </section>
@@ -126,7 +117,7 @@ const CorporateBusinessTaxAdvisory = () => {
               </div>
             </div>
             <div className="col-span-12 md:col-span-6 bg-[#eeeeee] relative min-h-[400px]">
-              <img className="absolute inset-0 w-full h-full object-cover grayscale" alt="macro photograph of raw, industrial concrete textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8X2Lap37Pckqqld-jHnf81ZZx7YCrnqkNdotbtA2IbuiXgVB5YpcaAeXq2-cPFIC9rzqN4D3NsvPgVkpXrFsnd7vI1FMCGLpA7OFJQwajgmRRfyUk93rWH6CS01Z_gBN9tzDjhOb_4Dn8gPs3rdXk9oc7igc_FitZ5TD5_43wupdg9S3Bvz0doEzmXKxS3LwLrGPRqDRwe_Jpc4Gm9Sib5vjL3bl95KBJqYjvNwwxE6B60Ky-Wxf1OI9mCeu6VDpNWEizDQ3H7Oc" />
+              <img className="absolute inset-0 w-full h-full object-cover grayscale" alt="macro photograph of raw, industrial concrete textures" src="/taxationimg/corporate-business1.png" />
             </div>
           </div>
         </section>
@@ -142,7 +133,7 @@ const CorporateBusinessTaxAdvisory = () => {
               {/* Publication 1 */}
               <div className="group cursor-pointer">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[16px] overflow-hidden border border-[#E0E0E0]">
-                  <img className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" alt="A low-angle shot of a skyscraper's facade" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlbe_Oy7pS_MBOPH9rY2yLawcb8o9zN5jVe-RYpIsvSbyP7iBf7NPQsqmMM_F24pUb88FJ0JGLTzMJGlUayS0vcVYOxc8USejf7lHZH3Gp0EgeDXJevNd8CkHeYft5kEauLa4bITehpBO6xSYIOOLZxspqH9Xo8_0jBqq_rwWdt5UDGvcSSXT1N5WeTqJtq_CCWB3FXQEh0ZljMs49VaXwAiKURVczLy3J9ACvELOFnhOLLvCAJNHziY0e1CvFrs1QidtVX4mu81o" />
+                  <img className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" alt="A low-angle shot of a skyscraper's facade" src="/taxationimg/corporate-business2.png" />
                 </div>
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-2 block">White Paper / 2024</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal leading-tight group-hover:underline">India's New Tax Landscape</h3>
@@ -150,7 +141,7 @@ const CorporateBusinessTaxAdvisory = () => {
               {/* Publication 2 */}
               <div className="group cursor-pointer">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[16px] overflow-hidden border border-[#E0E0E0]">
-                  <img className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" alt="An abstract brutalist perspective of a concrete ceiling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCs9cz7fOXSEBigqz0RxtJB6J8VU-rNiue1Bnvc4v_b0ruRBZZbH4kBRkDndyWyL3HqcStI5NpmYMNzEjG9INvisQGtiSl1JWrikNh0OOuMiq7bHX8MYMxVYpu_E9NIw48V37vmNtpK1M2IFre8aUZ7GBBizH_N5-YQB-0lRy0lPt5KjIodJmpbtC_NX3lZpCLni1LnSrSIFDPH410M9mhZxWCYa7TPCyGpx_6HPfQFb_4O9cYZLuVzRIy5bjMIRnyA21G6lj3Y-4Q" />
+                  <img className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" alt="An abstract brutalist perspective of a concrete ceiling" src="/taxationimg/corporate-business3.png" />
                 </div>
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-2 block">Policy Brief</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal leading-tight group-hover:underline">Navigating Section 35 Deductions</h3>
@@ -158,7 +149,7 @@ const CorporateBusinessTaxAdvisory = () => {
               {/* Publication 3 */}
               <div className="group cursor-pointer">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[16px] overflow-hidden border border-[#E0E0E0]">
-                  <img className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" alt="A stark architectural photograph of a spiral concrete staircase" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFk7WewOmk5avt8zYu-41DvQfQUXYjJns1SyDHU5-GCeLRSLy0YbEO3XCI_m_WRKS62fewjxqNXVNiwtdvEqj8F2dBVB5Qqc0X1btXg-KPrOW9_ndCKEJtjbDovfXiRQy1pMH36n8wmHbUs-4AaUMEIaa40THV6JkfJHXEtSyAYKyBFAQDL93g2HVveANE3pitU3n6xbxkbL1hqKGzMmxMCv0wJmOcvvFoW_GpakNqxJzOhO5AYs7pjS7QuebvmfvxUUmj31LXA4c" />
+                  <img className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" alt="A stark architectural photograph of a spiral concrete staircase" src="/taxationimg/corporate-business4.png" />
                 </div>
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-2 block">Technical Analysis</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal leading-tight group-hover:underline">MAT/AMT Optimization for Industrials</h3>
@@ -166,7 +157,7 @@ const CorporateBusinessTaxAdvisory = () => {
               {/* Publication 4 */}
               <div className="group cursor-pointer">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[16px] overflow-hidden border border-[#E0E0E0]">
-                  <img className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" alt="A view through a minimalist concrete hallway" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAC_TfeUW9CmngYmRCjioOxdlK-9-PnrY1OzT2HETowwVk9hBo0owwogSUOJiOYw5wIT0TxZ6VZ5_HuzZ7irSlkDlFmgDFR5AEu_wjBr-mQ3XJimzHDSeMKNiDabdRkF2yR997KfCA17yZoeGuiaI9MFmNX8niC2D7sG4NVOoZeYEA3jVDQHsFDJMMEx1QFiS-AV7MnWCBNo7fMIAL2DrheaWzBHo6L0YgX6nhxrApQU28mYnVkXG5tI-eYIHumM2_N67WP5ynO1lY" />
+                  <img className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" alt="A view through a minimalist concrete hallway" src="/taxationimg/corporate-business5.png" />
                 </div>
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-2 block">Global Report</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal leading-tight group-hover:underline">Tax-Efficient Cross-Border JVs</h3>

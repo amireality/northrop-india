@@ -10,20 +10,12 @@ const PostMergerIntegrationValueCreation = () => {
     <>
       <Helmet>
         <title>Post Merger Integration & Value Creation | Northrop Management</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-        <style>
-          {`
-            .material-symbols-outlined {
-              font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-            }
-          `}
-        </style>
+       
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c] pt-24 font-['Inter'] antialiased">
         {/* Hero Section */}
-        <section className="px-8 pt-[120px] pb-[120px] border-b border-[#c4c7c7] max-w-[1280px] mx-auto grid grid-cols-12 gap-[32px] items-center">
+        <section className="px-8 border-b border-[#c4c7c7] max-w-[1280px] mx-auto grid grid-cols-12 gap-[32px] items-center">
           <div className="col-span-12 md:col-span-7">
             <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#444748] uppercase mb-[16px] block">Service 2E</span>
             <h1 className="font-['Newsreader'] text-[48px] leading-[1.1] tracking-[-0.02em] font-normal text-[#1a1c1c] mb-[24px] leading-tight">Post Merger Integration &amp; Value Creation</h1>
@@ -32,7 +24,7 @@ const PostMergerIntegrationValueCreation = () => {
             </p>
           </div>
           <div className="col-span-12 md:col-span-5 h-[500px] bg-[#e8e8e8] relative overflow-hidden">
-            <img alt="Brutalist Architecture" className="w-full h-full object-cover grayscale brightness-90 contrast-125" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAkTcOKMMp89kaxfNiCE466ODJO36vS6BCz9ATMkALHa2H_XsalxEOaB9egerrrHuiLOdyS6Qd16FlGmXFzwrsJD448HEECy7whFRV65LKNVZ2EYGXBma2-hmZg--3ViTvh108qiJ0IMl3qnjRbeSSbfp5fa8cIsuxDwvapnfxZv61Hah5y_QDQuiSd_ssU8mC10R4wHm2D-AAlKmno0OVjP7ukRkmK1bw1DJR3P63RC4Bkpay1ThwP5cwhDuENdJzfD-4_BUN0CBQ" />
+            <img alt="Brutalist Architecture" className="w-full h-full object-cover grayscale brightness-90 contrast-125" src="/transactionadvisoryimg/post-merger-integration.png" />
           </div>
         </section>
 
@@ -113,7 +105,7 @@ const PostMergerIntegrationValueCreation = () => {
               <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] border-b border-[#000000] w-fit pb-1 uppercase hover:text-[#5e5e5e] hover:border-[#5e5e5e] transition-colors duration-200" href="#">View Full Briefing</a>
             </div>
             <div className="col-span-12 md:col-span-6 h-full min-h-[400px]">
-              <img alt="Architectural Geometry" className="w-full h-full object-cover grayscale contrast-125" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7w_sC99vBwxUgdCALByzMf7yJOZWN8poegzrLFRqA5OpWgMuUedweJWQT2NWWc0a2RGi0NmUX-vf0Lkk4_D0xJiT6WxFhwtz0617na924mQyQihBMHpBOVP0m51a-pxlPqJDhcv2DWIeJU4Yhe6nMrpU0EGzqUGywUmBtgUxwl4wp_VRzZN2Su6nqOx7NczrVwOGSYj66AhPPd9SgqJey0SGM-BoCPwDLNL1BtK9ZHSqDybU4Po6kOqT1Wet2sWt1-fqCWOHuE9E" />
+              <img alt="Architectural Geometry" className="w-full h-full object-cover grayscale contrast-125" src="/transactionadvisoryimg/post-merger-integration1.png" />
             </div>
           </div>
         </section>

@@ -58,7 +58,7 @@ const GlobalInternalControls = () => {
       description:
         "A comparative analysis of the regulatory requirements between Indian ICFR and US SOX frameworks for dual-listed entities.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAEfGhyTVB5qjCjhAkO0cEr9kyJmyzLOb-0gV5ugW803UfJhyvdoph4Ugx1Y4DRPC_Rn-gD4aNrUjWk5zU1Nlb2IXmToJh_rtkuJRq8sL6XmHChVT2r5Z8ny49SXnjKrHRalpa6efiHJhZ1x0_wdYU0RCGorka4YQ2kMmhF3QqUjc0QfV8bBF-xUlDi6wou7YBJrbBw3j6bq_CnuF_WsQapx5fnj1LaiDSE0XIOG9ocLMnlw_Dlnq7wZlQ05PfL3MrMZmRo-8NBhGs",
+        "/riskadvisoryimg/global-internal1.png",
     },
     {
       type: "EXECUTIVE BRIEF",
@@ -66,7 +66,7 @@ const GlobalInternalControls = () => {
       description:
         "Quantifying the financial and reputational damage resulting from material weaknesses in internal controls.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuDyO5U2lI17oB8DF0djfutK1um0L4oHt0YX19ODoPRt_rt8HUa1abdgNa_2wv-98SHefVA9dtVZF5QHCUkie92auXGSYoEZ5gceFi1ff66vYVW34n4EBJwkvvRYsPSuy3OpkXLpbfziJTrQ4uGA7C7UHmy3-FvHB2SJiJSjkwNXQHmEt5PoqU6h9-ezyrMaz2hW90kxYGbkiDM-VJ_ROeCyfVyBWNp82e76tduyJBqglDpi_EV7gGk4EhM74mLzn0Gacvvegb1pTwI",
+        "/riskadvisoryimg/global-internal2.png",
     },
     {
       type: "TREND REPORT",
@@ -74,7 +74,7 @@ const GlobalInternalControls = () => {
       description:
         "How machine learning is transforming the testing of internal controls from periodic checks to real-time oversight.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBGOKi1QfdGNZ-qI9WxFWVAq3GNrR2TOQoMHwbK58R-e3EiAANjoCj9oTkLolfeelL2909xAVx9L4PeEhH_Xu71UqKWIfX8Kacac0LA98OfcDaA6h7YyGNeCg_acpAcasSsKKHyxX_jPkF0hrd6Nu3ldINUt0Np8RNy4AzJUUm9E_vT3JoAz9qvu9LztACKVAsbtSqI9Jtk90nnYqNWS9V-Kmrm-Dwz1hkh9oU3gLDnBvwd3SBu52beXWLnyS0l4CNoAsj5xCHT1cI",
+        "/riskadvisoryimg/global-internal3.png",
     },
     {
       type: "RESEARCH",
@@ -83,7 +83,7 @@ const GlobalInternalControls = () => {
       description:
         "Addressing the challenges of maintaining effective internal controls within a hybrid and remote work environment.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuDScL_tQWpsY8pBgbrdoYAMAAX64wQZ_Cmw9B4w8HI0MOIu-puWhN76iFsKZogwgRpL9K_b4_xPTi7qrphOFSltwZ1NYW-Vt9j2wecLDDaxvS4F0-Vdub-IlLzbByqMxYwclw-mtbe8KRH3CXkNVBQpw_ZbNWUEldJOMKPd-mhROLP3_xKYlr9Mw9CzJErUAlQOKqxp3vdzLLnQaqYEmK84RjptYRdQ2v1FfX4jhcKhqAwslu5Kjd4LRDO-3Dk7y71EVwcAgyCxdEM",
+        "/riskadvisoryimg/global-internal4.png",
     },
   ];
 
@@ -93,36 +93,7 @@ const GlobalInternalControls = () => {
         <title>
           Global Internal Controls (IFC / ICFR / SOX) | Northrop Management
         </title>
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Newsreader:opsz,wght@6..72,400;500;700&display=swap"
-          rel="stylesheet"
-        />
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              -webkit-font-smoothing: antialiased;
-              font-family: 'Inter', sans-serif;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 300,
-                'GRAD' 0,
-                'opsz' 24;
-              font-size: 20px;
-            }
-          `}
-        </style>
+       
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -131,7 +102,7 @@ const GlobalInternalControls = () => {
           <section className="relative h-[85vh] flex items-center overflow-hidden bg-black">
             <div className="absolute inset-0 z-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9vjfHhgouMqiDPrwiK0pQ4UIAW2lIbE-QjxH6qrRr-dDBOFfyDY8Mi3O4xcunqgsU2pycX1w9VXQ3McbtDvO8XjPnNMc07oEWHV0pmH4i8dtA976Ykt3ujE2o_BVtl40Uivq7VFS9PtGRHMHVfSZ4qqJSRP4SyfKvBLcjsWFwmv9fMHrmXjH8VDaZKPgaL_sCUzaBXNH7Dbjf9as_7d9gpUs3xpV1A40xGQGo1Ou6NS7uuhworPg7ENXlmG20H1Mh7tJNtQ1ivEk"
+                src="/riskadvisoryimg/global-internal.png"
                 alt="Hero"
                 className="w-full h-full object-cover grayscale brightness-50 contrast-125"
               />

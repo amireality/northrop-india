@@ -61,7 +61,7 @@ const ITCyberSystemIntegrityAssurance = () => {
       description:
         "Moving beyond compliance to proactive resilience in the modern firm.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBaXcoON2W3gceaYIpKQWXnGydLDu8OP_5XoKN02RHNnwsnkdanyC6i4wJ7XriNpZ9fWMU_F_zGNVgpUSG3VxdjxU2alO20RsU5YAXlaB3sj4SKqUwS4vxmyL7R8NESb95b7Q5WMYcEbn7i_kNMRHL42hh4brHq5fWJmXxMj5XlxUdDBLja8SRTfIMHATosJKmWc9WUq7S3ZbaslOvYtIGhCoH45j6PhY15uheS-MH626-qdpv-3Wk4JZiHwEVpX0mxVm3_XqScO0M",
+        "/riskadvisoryimg/it-cyber-system1.png",
     },
     {
       type: "RESEARCH",
@@ -69,7 +69,7 @@ const ITCyberSystemIntegrityAssurance = () => {
       description:
         "Analyzing systemic weaknesses in hybrid cloud architectures for 2024.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBc-sEfDrii6ngPcMWA6Whq8ZPhp3Qq-cAWf4na9WS2kxN8_hUUfgqCV2yL8UC9UP356oYSWcnep_ZIwtmXg8JmDyMhZ-lHnh4qkArdnXs3_flldecj9aW0-5LcBfD5XYUGhNXuHuR8__oR--xnyfIYI74oSZ5U13xrfWIooQVqB1Ls8o5sQPboxQs3ysWx-L9AEj-QXuE-2Id3YT4yLJ-zZ8BfRaYrDxlUQWz3_MDQGVQoEbG_mJWnK1fgSWfXwoCaW8O6IHB04CU",
+        "/riskadvisoryimg/it-cyber-system2.png",
     },
     {
       type: "BRIEFING",
@@ -77,7 +77,7 @@ const ITCyberSystemIntegrityAssurance = () => {
       description:
         "Evaluating the timeline for post-quantum cryptographic transformation.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuDdcc7LeQLbRIBnTbWz_vKyEL8D-lOYUmsvOpFU0tp7pZMbACe_vsFreSQhZvxbQQKq_g2ZVojjOSEMqWFRluiwQuG_lV-zKwY9YSx7hmcjDK-Yol3k_ci9N4PjTS5mG_TRTO51266tH4n5fhcg6V2iF3wg8QIjspqUHT73LV9D1dUB-M7O2KeFIiIthre2dIwDm5ZgfP4EP-_GX7gkn0ynsqqew68k1aKht6bEkrw3LIikBYIgmhieMOuuI09-FAfdr0y5DRADEt4",
+        "/riskadvisoryimg/it-cyber-system3.webp",
     },
     {
       type: "FIRM VIEW",
@@ -85,7 +85,7 @@ const ITCyberSystemIntegrityAssurance = () => {
       description:
         "A foundational essay on why system reliability is the ultimate brand asset.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBnH6AmNUoSpw3uW_c-2MDfNJiBtS6Mvrfam9P8g1I31bdgcTWZYz2XD65564p9fcRtMNsDEoLdfeWyQ_mgucPlXjgEooyzY2wf4Wpn2zWdxcdpXjrZv0gJOFcSsJhbr52anacKcsIAL_Ne0CeIeDDVSvkdPZLWbKScb_6K2h8C11AEEn_YwpEEfcHCVMNMUs7eBP05c4Ht1A_5RJeaNgT43Yw9ydM0xNFQxOn_b-3duXFywjLmwnvMZC3pWnkdH_knyyZm6US5WGI",
+        "/riskadvisoryimg/it-cyber-system4.png",
     },
   ];
 
@@ -96,44 +96,6 @@ const ITCyberSystemIntegrityAssurance = () => {
           IT, Cyber & System Integrity Assurance | Northrop Management
         </title>
 
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:opsz,wght@6..72,400;600;700&display=swap"
-          rel="stylesheet"
-        />
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              -webkit-font-smoothing: antialiased;
-              font-family: 'Inter', sans-serif;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 400,
-                'GRAD' 0,
-                'opsz' 24;
-            }
-
-            .hero-gradient-overlay {
-              background: linear-gradient(
-                to bottom,
-                rgba(0,0,0,0.85) 0%,
-                rgba(0,0,0,0.4) 40%,
-                rgba(0,0,0,0.4) 60%,
-                rgba(0,0,0,0.85) 100%
-              );
-            }
-          `}
-        </style>
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -142,7 +104,7 @@ const ITCyberSystemIntegrityAssurance = () => {
           <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden bg-black">
             <div className="absolute inset-0 grayscale contrast-[1.1] brightness-[0.8]">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCgdffX6C-3KwK874OE6t5nch4Vl4M__pZCf_c0i8WdPveX1zR6tFM8O5AAzQIdTn2yKk9UGbwX-MNY7E5VnIrrpqSqNRcQavkohMtVYS3Q_fzdiK6fjq2Hk4jo610Df8ptmTkiVoQf4AxKNJ4aHvT3MvpLgTR7MNbByUJhp9NKvjD-uZm292bM559Oho_bnFC5ThRLlET6AB2sMJ80bZHByC0y6zn0FIPWuHKlfSiBb2ZhSlyIkXnaab84HT9KoLYoaggq9vEwj7E"
+                src="/riskadvisoryimg/it-cyber-system.png"
                 alt="Hero"
                 className="w-full h-full object-cover"
               />

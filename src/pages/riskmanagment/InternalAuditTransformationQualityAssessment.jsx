@@ -61,7 +61,7 @@ const InternalAuditTransformationQualityAssessment = () => {
       description:
         "A decadal analysis of governance structures across the subcontinent's largest financial entities.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBkFpPo8LLL0Or-ns6u1k7zNadA8zuEaBmvlkoVFm4zIkRUG3ezRqlKKo1IjgA6hg4630kCBp4JtZo2nYd6seump-MVd111XqWYPeaN3WwRulpU2Os92qO1ESKWitkLDeqvJUmxwqbUnr05CznH8htErYrGVIQKIQWLmSnJvccbcUyGBTHujrodQUxAE1CBxOLND1u0ZxH7Yotxj_8sfzT4aR9A5qSbRZ0I-y_iUB8gKiI0pv8GeVORTGa7M35NCF5HOdeETwthLX4",
+        "/riskadvisoryimg/internal-audit1.png",
     },
     {
       type: "Global Briefing",
@@ -69,7 +69,7 @@ const InternalAuditTransformationQualityAssessment = () => {
       description:
         "Navigating the risks of generative systems within established control environments.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCYsAxQPjY1403iha6jqyi2pYPU9aVnuqffAEhpGpXFpoaiGjHhwzqmyzFn1mFa15fbHxswxOWtL-WwSVSYYDDm3VzSuE1Fot9aof6-kcJdHSyr-Cwl0ABUBU4Z_cMWupbC4Y7nnKx3fdYcbAj5cUvQmEqMdZqq0fpR-tw6jkM7zlsrPI0oXwtAEuvpBWlDx088tEyzZooRlTK_qIOpHdck_mg3LBzRNz0trdZ8bpri2i2-WIWpitXQWA0BYqTKmQEYV5YfY5i3w6c",
+        "/riskadvisoryimg/internal-audit2.png",
     },
     {
       type: "Methodology",
@@ -77,7 +77,7 @@ const InternalAuditTransformationQualityAssessment = () => {
       description:
         "How to implement rapid-cycle auditing without sacrificing institutional rigor.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuANDPZgsYLPYfSxqeh1ax4oJKicGD4yOGYZJtFOAmkYFSfolTsimtjf9FMKORN0qnHM5LAENwdCdgE-74DpIiTfkpIrtc0CMrIRP3o8K16AxL6f-HnUTbRf8ZHfwfJyhc_DUwKbbhDeyMH7m0IP6EJQKnTHu1equO5FGSf4PT_GWC1j96vRlEz7QuHGBH9f9pNng-2EGRok6TfHY0thvPEegABdH2-aUTXqr2xLnfzzBDKyak-tDxV_s72seefpEhEWYwFoGihH-BQ",
+        "/riskadvisoryimg/internal-audit3.png",
     },
     {
       type: "Executive Series",
@@ -85,7 +85,7 @@ const InternalAuditTransformationQualityAssessment = () => {
       description:
         "Translating complex audit findings into board-level strategic narratives.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuDPWcF_ibehSiweHo4CJ3Mk6Al4EcPAE_IANbAJOGIvHWLxK56VqXPZYk1JkmAfxlDpp8VZOp67b34684g2zoVgkmHEvLMXe92wVmMyxJ5yJj-DCCv2NE1T6HCiAOUh5BokrOGxiYFflz-o84owVdiJtRh09u9381X1pvtJGgFeVkI4pm60-_eVAFTP7EHU-7FtgSrswbVseZsGNdJCJuNQS4LdwjS-r6YFT6Hy1eINuBdcWV69EeeyE9GcbLDijLMElgjpVxGfpgk",
+        "/riskadvisoryimg/internal-audit4.png",
     },
   ];
 
@@ -97,43 +97,6 @@ const InternalAuditTransformationQualityAssessment = () => {
           Management
         </title>
 
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:opsz,wght@6..72,400;500;700&display=swap"
-          rel="stylesheet"
-        />
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              -webkit-font-smoothing: antialiased;
-              font-family: 'Inter', sans-serif;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 300,
-                'GRAD' 0,
-                'opsz' 24;
-            }
-
-            .hero-gradient {
-              background: linear-gradient(
-                to right,
-                rgba(0,0,0,0.9) 0%,
-                rgba(0,0,0,0.6) 40%,
-                rgba(0,0,0,0.2) 100%
-              );
-            }
-          `}
-        </style>
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -142,7 +105,7 @@ const InternalAuditTransformationQualityAssessment = () => {
           <section className="relative h-[90vh] min-h-[700px] flex items-center overflow-hidden bg-black">
             <div className="absolute inset-0 z-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCotqeHxHgjVfyrLa3S4Dzz5QxrufvDNNYCVzQBmZwFRRUMknnKVrZ_O97lCGahzOIr8OssKyjHFzqubkvvwGBjSuQiF8QXuGhwempQbpmRzPBnqZaqqG417p572Qp9Rhp5-xaW949AhyT28az3bfqLtj58nO4m_e_iGwIzcFUH480BiJHm_0sDq8hCa6KU8OdSUJz5cxlOlPuDP0pP71jfokl5JxHdyjc2qDhx2EEKmwNqd70PF2A8y68REWz_YDM8Ek9r9j6T-o"
+                src="/riskadvisoryimg/internal-audit.png"
                 alt="Hero"
                 className="w-full h-full object-cover grayscale brightness-90 contrast-125"
               />

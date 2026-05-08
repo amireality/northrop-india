@@ -10,25 +10,7 @@ const MergerAcquisitionAdvisory = () => {
     <>
       <Helmet>
         <title>Merger & Acquisition Advisory | Northrop Management</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Newsreader:opsz,wght@6..72,400;600;700&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-        <style>
-          {`
-            .material-symbols-outlined {
-              font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
-            }
-            .brutalist-border {
-              border: 1px solid #1a1c1c;
-            }
-            .brutalist-shadow {
-              box-shadow: 4px 4px 0px 0px #1a1c1c;
-            }
-            .vertical-text {
-              writing-mode: vertical-rl;
-              transform: rotate(180deg);
-            }
-          `}
-        </style>
+       
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c] font-['Inter'] text-[15px] leading-[1.6] font-normal antialiased overflow-x-hidden pt-[90px]">
@@ -60,7 +42,7 @@ const MergerAcquisitionAdvisory = () => {
         {/* Image Break 1 */}
         <section className="max-w-[1280px] mx-auto px-8 py-[120px]">
           <div className="h-[600px] w-full overflow-hidden bg-[#eeeeee] relative">
-            <img alt="Brutalist Architecture" className="w-full h-full object-cover grayscale contrast-125 brightness-90" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGqd-kuIZEc2XJ1egl667IV5WdVF_sgtyTrdU0JMEMCKJofCpKMgmng2S2NigV2rDO61jcsem_1SqLcLkogrBbo9u-KvF-Zx0GkFKRVZO1cvMOUGaAd3ct-GoWqd1Oz3ukKOfWQtfO6DReTbete604VbzIS97fEt0yEhAXoJBaSTT2KgsNcnLcuTj4w26MUpfLxIW7mjpBtBFaDX2eZfnVgDk4_EWf3liUP7DclGssI6DyFNiV_UfOjOeDpZcnXaWIPYvLOP9AiHw" />
+            <img alt="Brutalist Architecture" className="w-full h-full object-cover grayscale contrast-125 brightness-90" src="/transactionadvisoryimg/merger-acquisition.png" />
             <div className="absolute bottom-0 right-0 bg-[#000000] text-[#ffffff] p-8 md:w-1/3">
               <p className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal italic">"Complexity is not a barrier; it is the landscape in which we find the greatest arbitrage for our clients."</p>
             </div>
@@ -156,7 +138,7 @@ const MergerAcquisitionAdvisory = () => {
         <section className="max-w-[1280px] mx-auto px-8 py-[120px] grid grid-cols-12 gap-[32px]">
           <div className="col-span-12 md:col-span-5 order-2 md:order-1">
             <div className="h-full bg-[#eeeeee] relative">
-              <img alt="Institutional Architecture" className="w-full h-full object-cover grayscale contrast-125 brightness-75" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-V49S35L4mvKQ9Kd_B_Yh53DOkp1WCmjlXNvkw9ar_SwkEdj_f5hBfUTKzNMxer682KIxMxe3B8FKk-wI_wiLw5jUxWfsDI1HqunFhoWubOMy0dLeWQ2SQokWmSrfCEEvXSw66CkkLB2411RMd7RevsSu8dTZGH2-VA7gzNA5XUHEmJQk3fFfjj_eoYwlO7HeV8bYRgfD9dslxUbA2g9KBnG_7jjxesSTF5NjVIb3kC7sW4Yff1qYbMT0bYYnnt-k2qXmYxV8wdQ" />
+              <img alt="Institutional Architecture" className="w-full h-full object-cover grayscale contrast-125 brightness-75" src="/transactionadvisoryimg/merger-acquisition1.png" />
             </div>
           </div>
           <div className="col-span-12 md:col-span-7 order-1 md:order-2 flex flex-col justify-center">

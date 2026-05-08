@@ -10,16 +10,7 @@ const TransferPricingDocumentation = () => {
     <>
       <Helmet>
         <title>Transfer Pricing & Documentation | Northrop Management</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Newsreader:opsz,wght@6..72,400;700&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-        <style>
-          {`
-            .material-symbols-outlined {
-              font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-            }
-            .text-justify { text-align: justify; }
-          `}
-        </style>
+        <meta name="description" content="Developing robust documentation and pricing strategies that align with OECD guidelines and local regulatory requirements." />
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c] font-['Inter'] text-[15px] leading-[1.6] antialiased">
@@ -35,7 +26,7 @@ const TransferPricingDocumentation = () => {
             </div>
             <div className="col-span-12 md:col-span-5 flex items-end">
               <div className="w-full aspect-square bg-[#eeeeee] border border-[#c4c7c7] overflow-hidden">
-                <img alt="Architectural Building" className="w-full h-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLYDMZ7OzXT4rQ6FDefhqlQIcpvKtCetLd1U5Xkl4puoBp34BVBo6Kkboyi3EcJQemS0BssPjh1OovNUS91D9zDRQRMDKp74kdqALnn415BiIIze6j21ULd2E7VCxvZXxa84Ns-_sh04rfQbcly4Na7NxScZLdwDHDFSUpcQeES4i9lvb8E3hmS64d3bdTBtIY05d2xkbs7BL12VFZfSPr5lOLBImDPX1-_GTixZhJONB7IZ25M3vjQug8r-ygenEiBJPMbW-bNDU" />
+                <img alt="Architectural Building" className="w-full h-full object-cover grayscale" src="/taxationimg/transfer-pricing.png" />
               </div>
             </div>
           </header>
@@ -160,7 +151,7 @@ const TransferPricingDocumentation = () => {
               {/* Pub 1 */}
               <div className="group cursor-pointer">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[24px] overflow-hidden relative">
-                  <img alt="Publication 1" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMepCmD8l1Z9LzkCNhmdGHCEhDUqz21D5FcHwVJM_3R2IPnfbS_544rXAJdVmtGLTM_Up8X2EbzE2QjWX5zFviVQ6xqziu3QWyQdM3F_Q57oMLlStF5FybB2ziPgwzqzYouUl9n0ueNGfcpLkWxmf2dWjB-hRbuisOYGftbUyTUbjnLSKq7tXs7KOVZ_XY7lLT_6CZku2DqLRR24VG43bxTvnbbTsoaTC2tDd3QFxUGIRQ3S2xUM2tTbcW5LSJzyViWruyFNGCHzA" />
+                  <img alt="Publication 1" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-110" src="/taxationimg/transfer-pricing1.png" />
                 </div>
                 <p className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-2">Report 2026</p>
                 <h4 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-[8px] leading-tight">Transfer Pricing in India 2026</h4>
@@ -169,7 +160,7 @@ const TransferPricingDocumentation = () => {
               {/* Pub 2 */}
               <div className="group cursor-pointer">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[24px] overflow-hidden relative">
-                  <img alt="Publication 2" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8FW_ko-vJKNhPP7lv28XCgrKBC8qax4iERxy88sdrcnvOgEoWnWuWXr_WgQbOSisLW_IaWefuhSdn9KWuJo7-DH5wLcK1Lbml0wVFC0LvZ7qjsR1B7h7uXcF9m7MHPr1_wg_N04VvAdLL_PieXhq_I-zgC8tDlMlLFyPW_tieCgo4Jck4IHTUeFa-6TVM3FkPGLrRbp_XwGn1wX9-arGT8cdVn4FPkjRRDqdtTOzDoEHgn2b5xQhqLElL065-MpCzeWHN2C1gIy8" />
+                  <img alt="Publication 2" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-110" src="/taxationimg/transfer-pricing2.png" />
                 </div>
                 <p className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-2">Technical Guide</p>
                 <h4 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-[8px] leading-tight">Benchmarking Intangibles</h4>
@@ -178,7 +169,7 @@ const TransferPricingDocumentation = () => {
               {/* Pub 3 */}
               <div className="group cursor-pointer">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[24px] overflow-hidden relative">
-                  <img alt="Publication 3" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAd21BtvUoH50tV3tfM_539w5AShIig0IaDZ3H7EOTh-_cuEy67CpsQQLo0-regqiznCM8-kRWFJdTwITCBf879G6JIypkrP5GNK58I-PbdYVHAOx_13pDTcbwgW0VZ3qWiKH3elSM2sDNfUjKbAX5WbmKsqrEH1QcfOhPa-Su6LqkUu4nyfVSl6x1MhDGMP8gZL678ReGnje6_0oF0Z8dBgOGc1II5NjSuiwp1wwP5U4BWFhJBgmbSafUEO8TNyC_WAY7MP9isyA4" />
+                  <img alt="Publication 3" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-110" src="/taxationimg/transfer-pricing3.png" />
                 </div>
                 <p className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-2">Playbook</p>
                 <h4 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-[8px] leading-tight">APA Negotiation Playbook</h4>
@@ -187,7 +178,7 @@ const TransferPricingDocumentation = () => {
               {/* Pub 4 */}
               <div className="group cursor-pointer">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[24px] overflow-hidden relative">
-                  <img alt="Publication 4" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-110" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBf-04_zbzw25t-TagpkN5asUWA0GY_S7WUyq0QcC_9Bsy9_UbWSLwOFcwbiaa6HNe7XytyNoyBSPXlbPiIPW9eVP40UFnm21MJvYIEqFv_pWtesAtLELw80njEY2AWfn0X4PXtTUAcZGXOq0Pka1kF84ciAroH2CxvjDk15dEvDJbXUef8N6UQeyXbyWtYXfBEEcFyrNRFRts6xKoRKnoRxdNwBLi6QBqylQlyttlu_mSZUVZTDlPYXexPYeSJva898DZOpcfNlFE" />
+                  <img alt="Publication 4" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-110" src="/taxationimg/transfer-pricing4.png" />
                 </div>
                 <p className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-2">Analysis</p>
                 <h4 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-[8px] leading-tight">Financial Transactions &amp; TP</h4>

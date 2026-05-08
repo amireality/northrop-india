@@ -10,15 +10,7 @@ const IndirectTaxGstAdvisory = () => {
     <>
       <Helmet>
         <title>Indirect Tax & GST Advisory | Northrop Management</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Newsreader:opsz,wght@6..72,400;700&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-        <style>
-          {`
-            .material-symbols-outlined {
-              font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-            }
-          `}
-        </style>
+       
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c] font-['Inter'] text-[15px] leading-[1.6] selection:bg-[#000000] selection:text-[#ffffff] pt-[90px]">
@@ -33,7 +25,7 @@ const IndirectTaxGstAdvisory = () => {
               </p>
             </div>
             <div className="col-span-12 md:col-span-4 flex items-end justify-end">
-              <img alt="Institutional Architecture" className="w-full h-80 object-cover grayscale brightness-90 contrast-125" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZvrrhJHROjlHNKmllxouh_wat9oxcy0lvEP4c2jtMCMwIsfzLs7NxK_oKyzHvJ101EKXZgdqyKI5GDr7O-Dez6Mei3XahprwHOk18rN2zdX2iLJ5EAK37cj2tCBhViawFlqyZso8Te3QEX_XQeRPcpholyP5ORBvwOG-CplRpH4zNd0S34dS7MImi328VkgPjIUYDAMlIaEAlxQpwJH4eMmbF-MVpUQlaby0vTbFqs5mFSOdIrs3Cm0_kNOjSEfdVu8PmUD7h9XU" />
+              <img alt="Institutional Architecture" className="w-full h-80 object-cover grayscale brightness-90 contrast-125" src="/taxationimg/indirect-tax.png" />
             </div>
           </div>
         </section>
@@ -167,7 +159,7 @@ const IndirectTaxGstAdvisory = () => {
             {/* Pub Card 1 */}
             <div className="flex flex-col">
               <div className="aspect-[3/4] bg-[#000000] mb-6 relative overflow-hidden">
-                <img alt="GST Report" className="w-full h-full object-cover grayscale opacity-60 hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVgi93uJDW0qhAiDmB5GSTIcR3LMbAOB2HaFJIyevlrf3Io_CrJqQfUpJ4yAZyv9xm002z7LPZ33Jet60LWp9_zeV8SpVinfbt6JVQveEaV5kdJXG2ykwp543NzSl2jLEEYqIJ7ZU7ImHC0XLhlaSIU3ri7ylkN_l-OaHMHyQaHU4l28nB2F5X2MbFg4Z3N7qQLEG2YeqyZBAnv4ilGYcCBkHgepfdwNKTl-FbwNDp7WgUgIKqxKKj8anBekPj3oAYTuGSTv_lVBc" />
+                <img alt="GST Report" className="w-full h-full object-cover grayscale opacity-60 hover:scale-105 transition-transform duration-500" src="/taxationimg/indirect-tax1.png" />
                 <div className="absolute inset-0 p-6 flex flex-col justify-between">
                   <span className="bg-[#ffffff] text-[#000000] px-2 py-1 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold w-fit">QUARTERLY REPORT</span>
                 </div>
@@ -177,9 +169,10 @@ const IndirectTaxGstAdvisory = () => {
               <p className="font-['Inter'] text-[15px] leading-[1.6] text-[#444748]">A retrospective analysis of the landmark tax reform's impact on liquidity.</p>
             </div>
             {/* Pub Card 2 */}
+
             <div className="flex flex-col">
               <div className="aspect-[3/4] bg-[#000000] mb-6 relative overflow-hidden">
-                <img alt="ITC Guide" className="w-full h-full object-cover grayscale opacity-60 hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrtw8euOt03IMu1Jpl68M2AajRjAEHdhqWEAnopZsUZarB32PpOJaVg7yfm20idwtHP4MhNQvcbNTKRdK5IO_Z_10obvQEn-WBGpJtLYQQtBmov1QNW1zdn_WA42fu1mymhiAGLmQmChv1QX1XZKJgpMPQ_k39BlXnB1yVXcccnUVw9pu39YDKfYwveg2SmGn70oH8AjVH6igZKCOQSPPJKemkgR7XdaiyIaQeIPlmzpTUIySO6YY2Fr-Kl2qvpcHe9Jr2s00BiRc" />
+                <img alt="ITC Guide" className="w-full h-full object-cover grayscale opacity-60 hover:scale-105 transition-transform duration-500" src="/taxationimg/indirect-tax2.png" />
                 <div className="absolute inset-0 p-6 flex flex-col justify-between">
                   <span className="bg-[#ffffff] text-[#000000] px-2 py-1 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold w-fit">WHITE PAPER</span>
                 </div>
@@ -188,10 +181,12 @@ const IndirectTaxGstAdvisory = () => {
               <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-3 leading-tight">ITC Reconciliation Masterclass</h3>
               <p className="font-['Inter'] text-[15px] leading-[1.6] text-[#444748]">Advanced strategies for automating credit matching and discrepancy resolution.</p>
             </div>
+
+
             {/* Pub Card 3 */}
             <div className="flex flex-col">
               <div className="aspect-[3/4] bg-[#000000] mb-6 relative overflow-hidden">
-                <img alt="E-Invoicing Report" className="w-full h-full object-cover grayscale opacity-60 hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPMdWk9qmHpl8ptRHjzQwuW1y7jnNURg740ERJvtScN4z6XaY1uRjTIE10nkUISawDTryJBmUfMPWnA3twsiFvbqybZUYDPNekAhtCDKTD2j_jwBmG1opQr9eRjBCrASg1jo9-Pob0HbI4-nqALEfkGSFtpQZdfQSeD1KEPJdA2P6S01lfkb3cNoKfsWaR7tIKTkeBADVXaTfRQau2gTCtZqqVncLCScvipeTmEx2WvlJ19qz7BsuXki_u8q3i5WctjoIHkx7j5No" />
+                <img alt="E-Invoicing Report" className="w-full h-full object-cover grayscale opacity-60 hover:scale-105 transition-transform duration-500" src="/taxationimg/indirect-tax3.png" />
                 <div className="absolute inset-0 p-6 flex flex-col justify-between">
                   <span className="bg-[#ffffff] text-[#000000] px-2 py-1 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold w-fit">TECH BRIEF</span>
                 </div>
@@ -203,7 +198,7 @@ const IndirectTaxGstAdvisory = () => {
             {/* Pub Card 4 */}
             <div className="flex flex-col">
               <div className="aspect-[3/4] bg-[#000000] mb-6 relative overflow-hidden">
-                <img alt="Litigation Outlook" className="w-full h-full object-cover grayscale opacity-60 hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDV0qS0aZat5-3eynP0U1Fo35ORqprEGtNjsPxIEQkCSRImInJOl39Xi-EFb2HL-rraajj21rat_roRAqFOFX9glPTJNffWj_wqb_PJ61_oVOpZxFhjWmES09TUGylEnGRqHWmVL2Dd2jgs2zkubfG0PJnHVXpU9AaxhzDdWlpa2PsTxirVC2j4CdxhONQiN6_zXf-fLbhAp7XmK2UZug5sW6dLp5LvugCRZVJiZdZNyxUpdTHra6zs6Ymkp27u5pVk-heRL-0s-9k" />
+                <img alt="Litigation Outlook" className="w-full h-full object-cover grayscale opacity-60 hover:scale-105 transition-transform duration-500" src="/taxationimg/indirect-tax4.png" />
                 <div className="absolute inset-0 p-6 flex flex-col justify-between">
                   <span className="bg-[#ffffff] text-[#000000] px-2 py-1 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold w-fit">OUTLOOK 2026</span>
                 </div>

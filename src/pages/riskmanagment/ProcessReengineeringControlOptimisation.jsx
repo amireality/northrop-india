@@ -75,34 +75,7 @@ const ProcessReengineeringControlOptimisation = () => {
           Process Re-engineering & Control Optimisation | Northrop Management
         </title>
 
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:opsz,wght@6..72,400;500;700&display=swap"
-          rel="stylesheet"
-        />
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              -webkit-font-smoothing: antialiased;
-              font-family: 'Inter', sans-serif;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 300,
-                'GRAD' 0,
-                'opsz' 24;
-            }
-          `}
-        </style>
+     
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -111,7 +84,7 @@ const ProcessReengineeringControlOptimisation = () => {
           <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-black">
             <div className="absolute inset-0 z-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDJpI-we9K_e66ebJFThMfsIk7eUDIwU8BaOIIvV3PzfFDslhc04smhxNwwtjSYg4Fl06RC2o0jEfAddSuiOwFm1CtPQaYUyFUX5JRTVPTqgdu6oLhi5ZWbq4GjHdffsX2LutfqRejzvgmiiMVaQVsWZxyDPW-abnZZQXFl453hp-DIQKWSOHgFojjcLFuikfdtIsvncRA6xljrnOxzXnixaqbjRgdD8Ub6oRdKSxUaWrqvv_oP8ozT2oulImX37nokV3txYIYes9s"
+                src="/riskadvisoryimg/process-reengineering.png"
                 alt="Hero"
                 className="w-full h-full object-cover grayscale brightness-50 contrast-125"
               />
@@ -268,7 +241,7 @@ const ProcessReengineeringControlOptimisation = () => {
                 {/* Right */}
                 <div className="col-span-12 md:col-span-7 aspect-video bg-[#2f3131] overflow-hidden">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDX4R5C6RHpm5nJ__8XQIGheOd-BmAxHs6NIisBlFspmATbBHZf5XJpwkbHQrxGHSAly8ce6aiTqk1YDgnDJWm2MS6xRSw1hCCTWCS6UpBB96cR4VxB6WJdQxY6flyMPHwU4GlDymJqNXG1MxFYOfl_f6wR6C4KQPLClU9AvSGt3pLfYgzhRF9u6kOk8foekgFVZcCKkiGpA4Zu6zSUv6DqTsmmxDM8pBUiNoi8hHKStKVus2sLYuhTK7WLvmC1c4BQxedd4wlcSZs"
+                    src="/riskadvisoryimg/process-reengineering1.png"
                     alt="Case Study"
                     className="w-full h-full object-cover grayscale brightness-75 hover:scale-105 transition-transform duration-700"
                   />

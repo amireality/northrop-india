@@ -10,15 +10,7 @@ const PrivateClientHighNetWorthServices = () => {
     <>
       <Helmet>
         <title>Private Client & High Net-Worth Services | Northrop Management</title>
-        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Inter:wght@100..900&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-        <style>
-          {`
-            .material-symbols-outlined {
-              font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-            }
-          `}
-        </style>
+        
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c] font-['Inter'] text-[15px] leading-[1.6] antialiased selection:bg-[#e5e2e1] selection:text-[#000000]">
@@ -68,7 +60,7 @@ const PrivateClientHighNetWorthServices = () => {
                 <p className="text-[#444748] font-['Inter'] text-[15px] leading-[1.6] font-normal">Acquisition, financing, and risk-mitigation for high-value collectibles, real estate, and private aviation portfolios.</p>
               </div>
               <div className="col-span-12 lg:col-span-8 border border-[#c4c7c7] p-0 overflow-hidden group">
-                <img alt="Architectural Minimalism" className="w-full h-full object-cover grayscale brightness-75 group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1jsvVLEEPmznHThLV4CX8tMccFbW6eEGjIM3Ia6s0ol3fLCOr63CVz_2W4ln0-rEyxGmZDV7n0xjOoeQYUgRfkgQ-QTI7ZiLrHq0CUNTmDkMpycnsZfzAquhmsc5zK8ZizaDAIqBoyGnyLT3QzmkoONSPofJQgC1m1YxVY62fASF5_q4i4NEMqOsVTrtpTmVj8qONBPAnmql-PTH6gopiZU-Xrpzm9qufHZbcLtA17SA4nwpYCWTBAe6uQFZLpTtmtuelnJRd130" />
+                <img alt="Architectural Minimalism" className="w-full h-full object-cover grayscale brightness-75 group-hover:scale-105 transition-transform duration-700" src="/taxationimg/private-client.png" />
               </div>
             </div>
           </section>
@@ -157,7 +149,7 @@ const PrivateClientHighNetWorthServices = () => {
               {/* Card 1 */}
               <div className="col-span-12 md:col-span-6 lg:col-span-3">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[16px] overflow-hidden">
-                  <img alt="Handbook cover" className="w-full h-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1bLY4wkzEdN9jfhIYbKezJCAca6EIC8Pul7IQQTTtJh6A49xb2clie14hinfJmth4yt1oasbFwFB7D99QZwgDnSW57MuQtw0f4z6Efh3LDDUN9Y90FTm0Qde8LyQ6oCBqsLjb3kyKDhDExIWUpgwfXojmVbA66laH9XwastZ69H6z9bd4kYptbH5hsPIRf81EIUMKE_3MaxsgKIBIdovKwfn1B4QJgus1xNQ2AUv-r2WGO8kr-DB5PSsPJLQSLzQFyystSKB_bcY" />
+                  <img alt="Handbook cover" className="w-full h-full object-cover grayscale" src="/taxationimg/private-client1.png" />
                 </div>
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e]">REPORT</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mt-1 mb-2 leading-tight">The HNW Tax Handbook 2026</h3>
@@ -167,7 +159,7 @@ const PrivateClientHighNetWorthServices = () => {
               {/* Card 2 */}
               <div className="col-span-12 md:col-span-6 lg:col-span-3">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[16px] overflow-hidden">
-                  <img alt="Succession guide" className="w-full h-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCo_tZhEhNtv3Db6tL3gpTHWI22sn8jc-bKlYMyI68jhBBlo6mnQLL3yVz_bKXFMxHQD90riuCnZTWp6KNCvKcpnk7qVN7Kq12qtOQWehWVLpsGHVVIuRf20zA35soG4544blMazxEsxVkrNT9bClRg6CmDxeksr2i0kxkugzV6PRqik6aTGo6J1kCTLdr-9c4fFsH_hZRQ1HzzM2k8K_SXMTNurNDjEijlh4gTFaHlJ3RsNqlF2ioTztuzF-wjoOYPt-Jk4o-0bpg" />
+                  <img alt="Succession guide" className="w-full h-full object-cover grayscale" src="/taxationimg/private-client2.png" />
                 </div>
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e]">ADVISORY</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mt-1 mb-2 leading-tight">Succession vs. Inheritance: A Global Guide</h3>
@@ -177,7 +169,7 @@ const PrivateClientHighNetWorthServices = () => {
               {/* Card 3 */}
               <div className="col-span-12 md:col-span-6 lg:col-span-3">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[16px] overflow-hidden">
-                  <img alt="Trust protection" className="w-full h-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALGYzM6uqs7gWMEO8lDB2J6UX80JK6uCRnwtC14iehxp5SBfyLZwaM44-l5FU0AVKdmCe1NgCYF7xAFqLzGRFQv_C7QWDyJGye7g3CfRGp4GZ9yozMq3JpEgIC4yKz0TeXSmnglOms2kXJANZNqA1P23oJpZ_Vu5_6uIm_SEbedbLDpMGMShC1ZpRLHL8ZuFN8c3LgZss_Q_yzh0zeZMC4fEB0g0ovVULGfuj2CDcUKM-7K_yJtl-FCl-bo5tZoBtT8PB6HT-ROa4" />
+                  <img alt="Trust protection" className="w-full h-full object-cover grayscale" src="/taxationimg/private-client3.png" />
                 </div>
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e]">WHITE PAPER</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mt-1 mb-2 leading-tight">Family Trusts &amp; Asset Protection</h3>
@@ -187,7 +179,7 @@ const PrivateClientHighNetWorthServices = () => {
               {/* Card 4 */}
               <div className="col-span-12 md:col-span-6 lg:col-span-3">
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[16px] overflow-hidden">
-                  <img alt="Philanthropy" className="w-full h-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLIh9_98DP7Z7tCzd8pYRqV4bDf2FOA9rfmkO7_GibLQRws6UwigpAwpys5aeTL9tJNK2S0ojUHpwsTiVE8arXS-cbeCluF68PxCzPfFLbUPq5o9b2w1BXOe0nbWc_YV19elY50Twywpz3VDqDddRco2jyZk_0ewNltV_DuorYTDA3bUO8QSi7urLEIrujU3Z7MQfnTB0OJPxVPjC2g7QwN455STa-ZFQvfRi1SFL6VHFiEmUjUSJXrnuNn9DWoajCib1RO49BdU0" />
+                  <img alt="Philanthropy" className="w-full h-full object-cover grayscale" src="/taxationimg/private-client4.png" />
                 </div>
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e]">PHILANTHROPY</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mt-1 mb-2 leading-tight">Tax-Efficient Philanthropy for Promoters</h3>

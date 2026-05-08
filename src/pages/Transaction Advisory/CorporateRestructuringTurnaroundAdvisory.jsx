@@ -11,19 +11,12 @@ const CorporateRestructuringTurnaroundAdvisory = () => {
       <Helmet>
         <title>Corporate Restructuring & Turnaround Advisory - Northrop Management</title>
         <meta name="description" content="Corporate Restructuring & Turnaround Advisory" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-        <style>
-          {`
-            .material-symbols-outlined {
-              font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-            }
-          `}
-        </style>
+        
       </Helmet>
 
-      <div className="bg-[#f9f9f9] text-[#1a1c1c] selection:bg-[#e5e2e1] selection:text-[#000000] pt-[90px]">
+      <div className="bg-[#f9f9f9] text-[#1a1c1c] selection:bg-[#e5e2e1] selection:text-[#000000]">
         {/* Hero Section */}
-        <section className="relative w-full px-8 pt-[120px] pb-[120px] bg-[#f9f9f9]">
+        <section className="relative w-full px-8 pt-[120px] pb-[20px] bg-[#f9f9f9]">
           <div className="max-w-[1280px] mx-auto grid grid-cols-12 gap-[32px] items-end">
             <div className="col-span-12 lg:col-span-8">
               <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-[16px] block">Service Portfolio — 2C</span>
@@ -40,8 +33,8 @@ const CorporateRestructuringTurnaroundAdvisory = () => {
               </div>
             </div>
           </div>
-          <div className="max-w-[1280px] mx-auto mt-[64px] h-[500px] overflow-hidden">
-            <img className="w-full h-full object-cover filter grayscale contrast-125 brightness-90" alt="Institutional Integrity" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBH6GiLObbrVAhY716AZqX7m3GhGRAqjlP9cKOl_kg251rAWZxzN0mIpGXM43b67iY9PAx3X8Gf4XKcBtJfO0cLS8B8T5tvNU9ScKhtvac9QOy1emEv4BF8UbhmkRNGOFULMwM3Xyj9JzeSgfd46KmKf2rICOONQd9gVjf8PyAJ7RA9KGU_zmFXR0SOe7SRTggdfNOoZDUmwxv4wVzppGeZwzd1Ue5KlfQf-BIyDmPQcjViCS5cqdMvTARUx_DFD-45GVvQ_76RuyE" />
+          <div className="max-w-[1280px] mx-auto mt-[4px] h-[500px] overflow-hidden">
+            <img className="w-full h-full object-cover filter grayscale contrast-125 brightness-90" alt="Institutional Integrity" src="/transactionadvisoryimg/corporate-restructuring.png" />
           </div>
         </section>
 
@@ -137,7 +130,7 @@ const CorporateRestructuringTurnaroundAdvisory = () => {
                 <button className="mt-[64px] border border-[#000000] px-8 py-4 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase hover:bg-[#000000] hover:text-[#ffffff] transition-all">Download Full Report</button>
               </div>
               <div className="col-span-12 lg:col-span-7 h-full min-h-[500px]">
-                <img className="w-full h-full object-cover grayscale" alt="Case Study Image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_H9P1Qg77PI08Hvfa7DvyhWr_Jxzo5n7mB2Gw6Ouv2j7DfyqVLeRsUpWjrubvCItsnrhsyGPF6U6YEh4eu0wbP2h0y5Ew3NMCuowzHV3zJkHThwB1TE_KvK_H-RCiBHTtEbY_BISrY1KaxdsoVlbN6Y2ls3WP0tBGYt1MtCCvsIsYu1ZFFaW6quwToBiEUWoOGNmBUTvIjz1HYiq0ixYuTDR9jk9azalPOFEIiffi_I37pZYE45BzRqQh58S3nJo5ADZmGZY_HrA" />
+                <img className="w-full h-full object-cover grayscale" alt="Case Study Image" src="/transactionadvisoryimg/corporate-restructuring1.png" />
               </div>
             </div>
           </div>

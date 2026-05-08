@@ -10,13 +10,12 @@ const CapitalDebtAdvisory = () => {
     <div className="bg-[#f9f9f9] text-[#1a1c1c] font-inter font-normal text-[15px] leading-[1.6] selection:bg-[#000000] selection:text-[#ffffff] antialiased">
       <Helmet>
         <title>Capital & Debt Advisory | Northrop Management</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+       
       </Helmet>
 
-      <main className="pt-24">
+      <main >
         {/* Hero Section */}
-        <section className="px-8 py-[120px] border-b border-[#c4c7c7]">
+        <section className="px-8 py-[20px] border-b border-[#c4c7c7]">
           <div className="max-w-[1280px] mx-auto grid grid-cols-12 gap-[32px] items-end">
             <div className="col-span-12 lg:col-span-8">
               <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#000000] mb-[16px] block">02. CAPITAL & DEBT ADVISORY</span>
@@ -34,19 +33,19 @@ const CapitalDebtAdvisory = () => {
 
         {/* Brutalist Imagery Row */}
         <section className="px-8">
-          <div className="max-w-[1280px] mx-auto grid grid-cols-12 gap-[32px] -mt-12">
+          <div className="max-w-[1280px] mx-auto grid grid-cols-12 gap-[32px] ">
             <div className="col-span-7 aspect-[16/9] overflow-hidden grayscale contrast-125 border border-[#747878]">
               <img 
                 alt="A high-contrast black and white photograph of a brutalist concrete building with sharp diagonal lines and heavy geometric shadows." 
                 className="w-full h-full object-cover grayscale transition-transform duration-700 hover:scale-105" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxyZR5yC1E2Hzl0E4DxBSU8b69YytOOz-mjmN5cBwqVV_39O-zwN3tkshNaEbXGwBhQCInKB_10GaigUkGubcf4McJ0zAM5-tPIGkHKPT9O-o7bY4vjXO9tUC18Pq7CY4tYUUy1oSv_mURi8zdhdNLoY0VsbzOCGqttnijfpfn8yLIx4fjStjsTV0EaAfr5Wa8zEcnXXLMtzhsXl73rSmuHK8lZ8ffis6eaE87rpAIknqlPaq9j8b20XVa8Dk2vtzEMS_p0UNkODM" 
+                src="/transactionadvisoryimg/capital-debt.png" 
               />
             </div>
             <div className="col-span-5 aspect-[4/5] overflow-hidden grayscale contrast-150 border border-[#747878] mt-12">
               <img 
                 alt="A dramatic low-angle shot of a massive concrete monolith against a clear, high-contrast sky. " 
                 className="w-full h-full object-cover grayscale transition-transform duration-700 hover:scale-105" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9nrklvpFLLedZ3qTt0mFMhuAf6k1xtwbuqV4E-CEtA1QjoK5ADfcG9VgScB2CzGVNC3HinnGrew_rDcqbyeaSgs9xHFpvAvetcWYEKMZNHoqIPTTAJUMhdM3EwMyb0JW-4shr6c1DLSaO4ANfPVv6mvbqVn6lFsODQCvbxh0NEVs3eb8dZg6q2qOdbu63Wb1ztFa9qRTP30HiQXaeX923J0EH1-mD25wKq-S1_mkayXgoJlkl2kKojwtaxDqX8-iQcRRGpb2-Wk4" 
+                src="/transactionadvisoryimg/capital-debt1.png" 
               />
             </div>
           </div>
@@ -129,9 +128,9 @@ const CapitalDebtAdvisory = () => {
         </section>
 
         {/* Publication Section */}
-        <section className="px-8 py-[120px]">
+        <section className="px-8 ">
           <div className="max-w-[1280px] mx-auto">
-            <div className="flex flex-col md:flex-row justify-between items-end border-b border-[#c4c7c7] pb-[24px] mb-[64px]">
+            <div className="flex flex-col md:flex-row justify-between items-end border-b border-[#c4c7c7] ">
               <div>
                 <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#444748] block mb-2">INTELLIGENCE</span>
                 <h2 className="font-newsreader font-normal text-[32px] leading-[1.2]">Recent Publication</h2>

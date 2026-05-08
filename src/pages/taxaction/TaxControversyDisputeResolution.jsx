@@ -10,15 +10,7 @@ const TaxControversyDisputeResolution = () => {
     <>
       <Helmet>
         <title>Tax Controversy & Dispute Resolution | Northrop Management</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Newsreader:opsz,wght@6-72,400;700&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-        <style>
-          {`
-            .material-symbols-outlined {
-              font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
-            }
-          `}
-        </style>
+        <meta name="description" content="Our tax controversy and dispute resolution practice provides strategic counsel and robust defense for clients facing tax audits, assessments, and litigation. We navigate complex regulatory frameworks to protect our clients' interests and achieve favorable outcomes." />
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c] font-['Inter'] text-[15px] leading-[1.6] antialiased">
@@ -34,7 +26,7 @@ const TaxControversyDisputeResolution = () => {
                 </p>
               </div>
               <div className="col-span-12 md:col-span-5 h-[400px] overflow-hidden">
-                <img alt="Architectural Brutalist Building" className="w-full h-full object-cover grayscale brightness-90" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWwGJNFuuNhNAOkl6VOXiBLhwNzD6RLUYXEFprk-vdYua5lYto38JX2gTIq33XJDQcTL4RrPOKQM_iAwFSkun2sUFzYmOJA4FCspHjn3xxCX6_Nni6EslYfbZVCZQqeZB59LI0c6rLTkgzpi5f24PtmgMXXtytwKEOEHJEuswSxyZjdQK27Y6uJKG0sj4D34sWWA68infFCoH-_9466idbHJHKr2673C3Cfv8ZibmlhfH0CN8cZaCtH89jrBE54KacusvrLMx2PdI" />
+                <img alt="Architectural Brutalist Building" className="w-full h-full object-cover grayscale brightness-90" src="/taxationimg/tax-controversy.png" />
               </div>
             </div>
             <div className="border-b border-[#747878] mt-[24px]"></div>
@@ -158,7 +150,7 @@ const TaxControversyDisputeResolution = () => {
                 {/* Card 1 */}
                 <div className="group cursor-pointer">
                   <div className="h-64 mb-[16px] overflow-hidden bg-[#000000]">
-                    <img alt="Law Court Interior" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAXMYrzdcqLEF023nghjDqia5R7Li7RFD4ZQaRADarUNUopMIzEP0m1ZvWUDcd00e2tHtHGxEmL_HtOhrSz5IO5GrhfXnKaaV5oSt4y0BZX0EHOE80-c10qRJUD9ZN5xRGFEWOS0q_djM94tDEGYOaZssJ_Znv9kVL1RKR5sWDxN5CS5tIuoZrYzkM2AlaaTnO-TprdK2GPLHYYTzbR3FOZDagkkYJd4jdkOdf8T_rcPInZ-n3ROoz9VyHBQGA9S9Y1UJvMSCCDyE" />
+                    <img alt="Law Court Interior" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" src="/taxationimg/tax-controversy1.png" />
                   </div>
                   <span className="font-['Inter'] text-[10px] leading-[1.2] tracking-[0.1em] font-semibold text-[#858383] uppercase block mb-1">Litigation Guide</span>
                   <h4 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-[8px] text-[#ffffff]">Winning in Indian Tax Courts</h4>
@@ -167,7 +159,7 @@ const TaxControversyDisputeResolution = () => {
                 {/* Card 2 */}
                 <div className="group cursor-pointer">
                   <div className="h-64 mb-[16px] overflow-hidden bg-[#000000]">
-                    <img alt="Digital Grid Data" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtjnEiIYIX9cW7kRySVBL5l6huX9LOnv9-GD1K5q4iWYuuuIOqSuoSwQ0ayAZaFR6Ii2UtcxcDlKpTd8J6JYjGjAX0Y8NPeeLzlviB5PLMybfkmyK6SROFABDGO79TAn5d3vU4e4aTv0xmmoqBHzwGtSO25CBkwdvjWvVV8ySjQqyyJ18jYZXnrpklkVl8sP2NKL9BmjFQp8UjyFK0EnI88P4vMrPTBWvewPHych0GVX6CqStfdrNvSds09ucimWuNW0h43yZ_keA" />
+                    <img alt="Digital Grid Data" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" src="/taxationimg/tax-controversy2.png" />
                   </div>
                   <span className="font-['Inter'] text-[10px] leading-[1.2] tracking-[0.1em] font-semibold text-[#858383] uppercase block mb-1">Policy Review</span>
                   <h4 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-[8px] text-[#ffffff]">Faceless Assessment: The First 1000 Days</h4>
@@ -176,7 +168,7 @@ const TaxControversyDisputeResolution = () => {
                 {/* Card 3 */}
                 <div className="group cursor-pointer">
                   <div className="h-64 mb-[16px] overflow-hidden bg-[#000000]">
-                    <img alt="Geometric Lab" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAcKj_rndF4gDY4-kEor5aNxzQM7Kb62FpBigTpQAYOOiJTZSIJBNMa-HXKg2VMaGqOkYqeT6-aS5WPPiCAJ_1ZrMjwiRoobvBE_0ZApxEcpy3aHGgbzSqcN7hOiNVuUA-qGVwSh03Aa7t6awQ3evsTkvnGyQ7CCJ-teHW4KNtd8mSJbkjmoW04VY8crqAgOIC6oxC920gQd6SQivirhS3iXgousmgBTPc2ZxR8ggiu1zERozl7IZqCRajGYzZGVSP57HUphu-fCcc" />
+                    <img alt="Geometric Lab" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" src="/taxationimg/tax-controversy3.png" />
                   </div>
                   <span className="font-['Inter'] text-[10px] leading-[1.2] tracking-[0.1em] font-semibold text-[#858383] uppercase block mb-1">Legal Precedents</span>
                   <h4 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-[8px] text-[#ffffff]">Supreme Court Tax Precedents</h4>
@@ -185,7 +177,7 @@ const TaxControversyDisputeResolution = () => {
                 {/* Card 4 */}
                 <div className="group cursor-pointer">
                   <div className="h-64 mb-[16px] overflow-hidden bg-[#000000]">
-                    <img alt="Spiral Concrete Stairs" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuATFQfJcYzklPFHssyVdHMC0lVhm2-9yxH6fRMFfZEwsFgi3rCcNU5mNjBSYioP1AWtJnkvB4I3vahI1faPoOYt-jWbii8ft2UfYhiXbUnc1I6bB5ARSxUMVmOGkNHwtkXwLXurZ5skgdOarPYQSrzgZ0QDKjGguRlx1uAlqvMZdyecgsxKuxcsdRQBZkoU3wX0YYJiW3oIEn4wqMIwEz54GqrHb5BJtx5uIGlqVP5CAncSkAwloWxASEssSLLyJA02Vu997PMlKeA" />
+                    <img alt="Spiral Concrete Stairs" className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" src="/taxationimg/tax-controversy4.png" />
                   </div>
                   <span className="font-['Inter'] text-[10px] leading-[1.2] tracking-[0.1em] font-semibold text-[#858383] uppercase block mb-1">Strategy Note</span>
                   <h4 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-[8px] text-[#ffffff]">The Settlement Path: When to Compromise</h4>

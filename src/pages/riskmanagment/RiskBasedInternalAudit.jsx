@@ -51,7 +51,7 @@ const RiskBasedInternalAudit = () => {
       description:
         "Navigating the evolving regulatory landscape of SEBI and the growing demand for tech-enabled assurance in the subcontinent.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAz5ZXnKQlv8JQEcnEzeI-rBcpnErY9opFskUmNQdyokGkQ2ExySUG50Vjd39PCxtT-tZSsOT_BkLZw6L0sgTB3cvZAhtJsz5yCbTh-uWn3Os2imVAowk3Bgct__YPgFx-CIVUbBDPU488b_bcb_gd6asqKHaplaymnhjwydVtz0vNxCzPWcJL2s2y6sQcTSxXkekUPYfD2HN8Ej16zwm3o4NABbEBI6GGtFhtjlnUc3tN-_2ezSi9hEvtrUmnsrjiXWfgRv25WSBk",
+        "/riskadvisoryimg/risk-based2.png",
     },
     {
       type: "Risk Report",
@@ -59,7 +59,7 @@ const RiskBasedInternalAudit = () => {
       description:
         "Why the audit plan must integrate deep technical vulnerability assessments to protect shareholder value in 2024.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuAmPcAJFmClJDJpRpg_AYJ6eZVSfUfjEBbP-V4LnTAq7MtWx0-XVHkongKCESiU24sNfNSFa_xdiZb7MnKrQ2HdGhs4H6fsiOuHR9jdTTEkJ-ToHGWoJwt9qQvj1oetqaUVuEf1oFhMK-Pz4ulZ6BbyXa2N6n85ZXC9vuOQRs9jCr7BFGkP8f3Ypx2rXj77Lhv_h5pAtsvOY9om0JjRojRmtxI3dzE0LbEPMcArRvVl0isz5ZAEb7RJw6fYvQ7Hk8vdDNOoe1jOQac",
+        "/riskadvisoryimg/risk-based3.png",
     },
     {
       type: "Governance",
@@ -67,7 +67,7 @@ const RiskBasedInternalAudit = () => {
       description:
         "Moving beyond reporting to auditing the actual environmental and social impact controls within the supply chain.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBmKAf3dBWoBYe1DrmABIs2gkWIjxSeQruqxccc0YIFddAE7ZAgqfe16cg_iS5YqFtqU4xAAa3VnZi_g-gpfnLajCBzadM7wryKMfrt9RCELxffawc9144uF7n0Z8orIK3lQ1rVZ1a4PZxxvlsMsvuDtYUgiaRBl3rBmMpt5_1nkSB7rPn5n6bjDPrW4r7ulpT3Co5hBN2S_CiW5y7LfhaMYAzfP95J66WcxpPNCKhT8F5z_IwjWIZ9J3sRm_zKmIeQyGxadLezM9w",
+        "/riskadvisoryimg/risk-based4.png",
     },
     {
       type: "Whitepaper",
@@ -75,7 +75,7 @@ const RiskBasedInternalAudit = () => {
       description:
         "Leveraging AI to transition from periodic audit cycles to always-on assurance and risk detection.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuBexEfX_k9bfK6REmszJIIEUJf4UAUDrSO-MVP1riU07FiZN4atoBFiqS33ajEcevlJnpxA29NMtoSB_lSmW6cxnb2FHNoVdvpdd41_sCNC2Tkbbhg7ZfLw7PhURZivgI07kQL4iZVdSzdI5RDLObCQenXlEeo2Dlvzy2hlHsw3FuNXFemPiAsBGqgGIG4sX6CcIYvxUh7pqehLkLc24sRpdmVUzx6K2IFU-szRo7v1IrGHXSN93VbM05X-e1RWSUQo_IS8XRUtxWA",
+        "/riskadvisoryimg/risk-based5.png",
     },
   ];
 
@@ -86,38 +86,7 @@ const RiskBasedInternalAudit = () => {
           Risk-Based Internal Audit (RBIA) | Northrop Management
         </title>
 
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:opsz,wght@6..72,400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              -webkit-font-smoothing: antialiased;
-              font-family: 'Inter', sans-serif;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 300,
-                'GRAD' 0,
-                'opsz' 24;
-            }
-
-            .text-shadow-strong {
-              text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-            }
-          `}
-        </style>
+        
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -126,7 +95,7 @@ const RiskBasedInternalAudit = () => {
           <section className="relative h-[90vh] flex items-center overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4o31mGKZokL50tyi2qfNBUq-QspKETvBuTgK3IEvtkmVNs8CxzKt2dKGlppcshZidL85SkrZOV8WkmtdnedWMn5fNXNUJw23iQKqw_ZcAEOfLNc65IB77cYhSHlxlaCeply9KZFgW8xVO8GzJqK2MG52EIlV6YoSEHSxBBqHt1kFbems7bo13NcTZPr-Ilpz0_WV5TKaqosw-A93KPTsjDr93goPcRwKi6IYolyoNAFjKvBoyl3UWQO1v_QMYpoV02bqumdaqO9U"
+                src="/riskadvisoryimg/risk-based.png"
                 alt="Hero"
                 className="w-full h-full object-cover grayscale contrast-125 brightness-75"
               />
@@ -273,7 +242,7 @@ const RiskBasedInternalAudit = () => {
                 <div className="col-span-12 md:col-span-6">
                   <div className="aspect-square bg-white border border-[#c4c7c7] p-8">
                     <img
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRHP3_2F5Zjc9itKmsrZFfs9huE_G_dHuV0HKxHZkF6zB_Uyi9DHTB8N-TviusIPcz2dmJSVSgt5Wtps1LYWEngKQ2ELJUOtYjJfWDMQBWCOzJIJXH_CotG71rtPMQ_63clb8dEGQWt93E6P37xxKwQgQJ9SVFHDRhw1YwkJyM6ifcBLB29AbBzsMdyy5CPO_j9ecjHr3SbH0trW2QhGW2IKV_G-uYdl-u7hMfi70l59IB_bj8bvmq7nuhCaTEao4SsBIA4NO7xws"
+                      src="/riskadvisoryimg/risk-based1.png"
                       alt="Case Study"
                       className="w-full h-full object-cover grayscale brightness-90"
                     />

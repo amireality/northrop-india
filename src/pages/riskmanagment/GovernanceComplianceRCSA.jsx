@@ -72,35 +72,7 @@ const GovernanceComplianceRCSA = () => {
         <title>
           Governance & Compliance Self-Assessment (RCSA) | Northrop Management
         </title>
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Newsreader:opsz,wght@6..72,400;500;600&display=swap"
-          rel="stylesheet"
-        />
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              -webkit-font-smoothing: antialiased;
-              font-family: 'Inter', sans-serif;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 300,
-                'GRAD' 0,
-                'opsz' 24;
-            }
-          `}
-        </style>
+       
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -109,7 +81,7 @@ const GovernanceComplianceRCSA = () => {
           <section className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-black">
             <div className="absolute inset-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCrfngUgsPrF7zdmBQRNC9nM6BrLkGTHrDRn62C6nvyr0WPoC4-w5jjaqytlQ3mGuttqfdlcML7UQPlo39KvQjZ3y1d9TCZsnaXOfgolt9begRdllOz1uAqFUePAcDTaM8d12sT3BPGq2K0cT-SdWNCarkCUO7P4AfxT3BT-fOCvJexesCRtfHliE9dt4D9QsKliEZdax9v2qA42pCMr2_Mfi9bahYjQF8-1bEy7oM9J6C2k1ptJQUU2hfuRiPUF7gf5pHY7P808k"
+                src="/riskadvisoryimg/governance-compliance.png"
                 alt="Hero"
                 className="w-full h-full object-cover grayscale contrast-125 brightness-75"
               />

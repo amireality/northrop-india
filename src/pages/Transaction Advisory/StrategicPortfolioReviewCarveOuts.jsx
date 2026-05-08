@@ -10,15 +10,7 @@ const StrategicPortfolioReviewCarveOuts = () => {
     <>
       <Helmet>
         <title>Strategic Portfolio Review & Carve-Outs | Northrop Management</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-        <style>
-          {`
-            .brutalist-border { border: 1px solid #000000; }
-            .thick-rule { height: 1px; background-color: #000000; width: 100%; }
-            .grayscale-filter { filter: grayscale(100%) contrast(120%); }
-          `}
-        </style>
+        
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c] font-['Inter'] text-[15px] leading-[1.6] font-normal antialiased pt-24">
@@ -34,7 +26,7 @@ const StrategicPortfolioReviewCarveOuts = () => {
             </div>
           </div>
           <div className="mt-[64px] w-full aspect-[21/9] overflow-hidden grayscale-filter">
-            <img alt="Brutalist Architecture" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDR1tqhhgJetldKXZmOcslq-_A9IuwSHoFFNQGGNbZehmlvpaCUCsUpV-KOCmFEo_eEmLNVG2oPDC2Jc01PEujZwY6ix6jpFn6byMPRbZkpHUZrKgcvgnXN25XxAiUosqeuyFOF12RK8u0XZA2xIsIXKiyGzLamjhFY1CdqVvveETpH9YqCGyqg2Q9Mg-M1QyUM9eRuFwcwQJKbVMyQKqHvR7Eoi7nZKH8GqurUFsmzKj7ngiPcgNdBnl1VBnUEbFnoH7-JJ0QBAas" />
+            <img alt="Brutalist Architecture" className="w-full h-full object-cover" src="/transactionadvisoryimg/strategic-portfolio.png" />
           </div>
         </section>
 
@@ -119,7 +111,7 @@ const StrategicPortfolioReviewCarveOuts = () => {
               </div>
             </div>
             <div className="col-span-12 md:col-span-6 overflow-hidden grayscale-filter">
-              <img alt="Structural Geometry" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBP1Iukm14FvDjLPJ4vylW1fR-Tb3ACLAyB11-nOd-GpsYcGylKxrx05zYe2tg1bbu-EuNFipKCErvYXuvkpDd-XSwAYuhKBs0QHjVYhqR672NLDxielskKYSv1AByiHkvObr-_FtSzbGUVyokae5bguxgQRJ9r3EcFYGB5F0lzmhGq7jfhCyAIl7z8KK4X3WP0c0g_IIYHF4DEmmfKt2_kaFAt32aDzkGB4lzwjeHW2kVKdH4o-Qcxb_rsMlJ0_qjeBe5vJk_O08" />
+              <img alt="Structural Geometry" className="w-full h-full object-cover" src="/transactionadvisoryimg/strategic-portfolio1.png" />
             </div>
           </div>
         </section>

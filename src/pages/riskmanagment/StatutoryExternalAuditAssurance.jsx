@@ -55,7 +55,7 @@ const StatutoryExternalAuditAssurance = () => {
       description:
         "Navigating the internal controls landscape for the upcoming fiscal year.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuDNmAOwCCPQ1UIcin8zoLbdUmD1qmfQYG2DOXtIkk5c2enja8XEmdEi4tn8PAVqsWPq0mFRxcyIIbiR9Lr9IbBqf4DQO2Iaf_tvKoY_NDQ7GEZ45rQK8U75UK3rrJR2FL65iA8X8SHli5edDlDFlyctYMvDF325anHAxlrIqj_nyiTRHenfY0W7L9e_ES--iOJ9WjhtMokv1ccM3dglu9Cif1h1pcheJL5sJOMZT5xAkDcxoFYNh2Q11PZh5kwhzah5JZUh6w5e_BE",
+        "/riskadvisoryimg/statutory-external2.png",
     },
     {
       type: "BRIEFING",
@@ -63,7 +63,7 @@ const StatutoryExternalAuditAssurance = () => {
       description:
         "Key changes in disclosure requirements for multi-national operations.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuDEGFef9nf6xJ4vyMVEFplWbGlYxSbyWzlffTDpc0QZ2NOF4_NNJ1fVzpiHutkDAWZKBfeqOhwNrTpTaAhD3gfAbxCN-ev08RPg98lwE1euAIOgxqBPWZ7qK0lixZH7FwLD6FNgg7fpt9WIHrf-dl730xh2JQuK6eqIOcuV2bc4EQxzx-ty22XDjWeV61yzCsnYsBRvA_gydXr4GLEi0SFhoAVBI1bfd-fIsGvVaHmX72OQGiFcH86CQl-m-FJthgzJ7T4rydhWQfc",
+        "/riskadvisoryimg/statutory-external3.png",
     },
     {
       type: "ANALYSIS",
@@ -71,7 +71,7 @@ const StatutoryExternalAuditAssurance = () => {
       description:
         "Redefining risk thresholds in an era of heightened institutional scrutiny.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCVh41HfzYRwm7xLnoTBJnWtdH8lNxLXbLAy2WMRCAogecqNY2mWMRk_K4WP6-UJJ0ZY-OebL5e-r9j9SME4qjSAqmNXd4OY5A8iiODOpqqOv7an3f6j_ONWKfWUH25etSkdYR-Iv-om3nWwmhkjfESHsM_oJD42oVbFvqPX5rorqzzrn8WPxuGJTqLnl5ddERRHjulfSr38u5G2i3b7wjfHRVRU5dVbb8gvDnlwk-ExXvMWwNkDHVC9UcKiLIQ21-p1Oq0npc65BQ",
+        "/riskadvisoryimg/statutory-external4.png",
     },
     {
       type: "TECHNICAL",
@@ -79,7 +79,7 @@ const StatutoryExternalAuditAssurance = () => {
       description:
         "How robotic process automation is reshaping audit documentation.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuCTFlEOKwOtC8PPn02xFfKyx2xV1vx68GdCGVTh5udjUIHju90bmcl6UUujCf6vMuyKUmAzOgv6iNaXUz-SV_8uLb1QMBM55erpMV9U_H0OiJcMf3m0NOsUAk3bhDkSwVS0PNS6CCOXp6Y3y_5CgRznTq_IhA7WpjApbn9noQ9S3hHR1MW0xFFMncY4tD_8ZEkoJj-YUGGE4JQmwDH1N2H6Zgm9eU3prATIO2UVtngOfZjSf3htC_Z62AJMbr-0_FcMROltlH5pCCQ",
+        "/riskadvisoryimg/statutory-external5.png",
     },
   ];
 
@@ -90,43 +90,6 @@ const StatutoryExternalAuditAssurance = () => {
           Statutory & External Audit Assurance | Northrop Management
         </title>
 
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&display=swap"
-          rel="stylesheet"
-        />
-
-        <link
-          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
-          rel="stylesheet"
-        />
-
-        <style>
-          {`
-            body {
-              background-color: #f9f9f9;
-              color: #1a1c1c;
-              -webkit-font-smoothing: antialiased;
-              font-family: 'Inter', sans-serif;
-            }
-
-            .material-symbols-outlined {
-              font-variation-settings:
-                'FILL' 0,
-                'wght' 400,
-                'GRAD' 0,
-                'opsz' 24;
-            }
-
-            .hero-gradient {
-              background: linear-gradient(
-                to right,
-                rgba(0,0,0,0.85) 0%,
-                rgba(0,0,0,0.6) 50%,
-                rgba(0,0,0,0.2) 100%
-              );
-            }
-          `}
-        </style>
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -135,7 +98,7 @@ const StatutoryExternalAuditAssurance = () => {
           <section className="relative h-[90vh] min-h-[700px] flex items-center overflow-hidden bg-black">
             <div className="absolute inset-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeLf4TzN9xREnmNu6wPeka3ZWHjsCjR9WOjg615SLXEhHvr_avKepla2r7ShJarWmXRCiC0D2nDZIQkfZbrg_ReOPWtcMN12NdAG0nTD060CytSJRvRPyL5dI7xQiY9iudPnhv4MCG2IOd0Zj8ooBYeRw6PkeNLu2py5P_tQAUEVYIvVD7KOnQEGYYt2lhpwnElIltLVSsAnhbqE4_nRiYeRhvjuLUspuoygI5iHGcjcPnvo7FSIJL3BjAEYaEysk1MRyaK74oox4"
+                src="/riskadvisoryimg/statutory-external.png"
                 alt="Hero"
                 className="w-full h-full object-cover grayscale contrast-125 brightness-75 scale-105"
               />
@@ -239,7 +202,7 @@ const StatutoryExternalAuditAssurance = () => {
                   {/* Left */}
                   <div className="col-span-12 md:col-span-4">
                     <img
-                      src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdfBEQcwoMncb7O3WlzeE9_Ag8M0YaIfH7BGFBc3voz2ol2gcFmnGyIhHZlC0-QDbmuG1KWtKwmaDLC9iocaedAXPEjNvBAb_Slon2BJNGaidGKRygK51AJbRc2GIXX3gyBcjllmHI2yk_KjzAHSqeXlGWdzFxyQzJAmBcRMNPwxJP6WPv7M89Rsngzz4Z-NXlEhiFCkh5r0sGiLE0OttYcHR3kU7LGwxg56AKBdqJ8X7HSAWZlB2jHt7vAXgtnjB7p7OwKOc-vxo"
+                      src="/riskadvisoryimg/statutory-external1.png"
                       alt="Case Study"
                       className="w-full aspect-[3/4] object-cover grayscale"
                     />

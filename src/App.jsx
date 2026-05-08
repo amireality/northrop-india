@@ -290,7 +290,7 @@ function App() {
           <Route path="/services/global-internal-controls" element={<GlobalInternalControls />} />
           <Route path="/services/internal-audit-transformation-quality-assessment" element={<InternalAuditTransformationQualityAssessment />} />
           <Route path="/services/it-cyber-system-integrity-assurance" element={<ITCyberSystemIntegrityAssurance />} />
-          <Route path="/services/process-reengineering-control-optimisation" element={<ProcessReengineeringControlOptimisation />} />
+          <Route path="/services/process-reengineering-control-optimization" element={<ProcessReengineeringControlOptimisation />} />
           <Route path="/services/risk-based-internal-audit" element={<RiskBasedInternalAudit />} />
           <Route path="/services/statutory-external-audit-assurance" element={<StatutoryExternalAuditAssurance />} />
 

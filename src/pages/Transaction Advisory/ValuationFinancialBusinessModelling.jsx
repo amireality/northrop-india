@@ -10,14 +10,7 @@ const ValuationFinancialBusinessModelling = () => {
     <>
       <Helmet>
         <title>Valuation & Financial Business Modelling | Northrop Management</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Newsreader:ital,wght@0,400;0,600;1,400&family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
-        <style>
-          {`
-            .material-symbols-outlined {
-              font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-            }
-          `}
-        </style>
+        
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c] antialiased font-['Inter'] text-[15px] leading-[1.6] font-normal pt-[90px]">
@@ -45,7 +38,7 @@ const ValuationFinancialBusinessModelling = () => {
         {/* Image Break 1 */}
         <section className="max-w-[1280px] mx-auto px-8">
           <div className="w-full h-[600px] overflow-hidden grayscale contrast-125">
-            <img className="w-full h-full object-cover" alt="Brutalist concrete architecture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyDs82jLer3ChkLddgqnJVvpN6LgLk4l_f-nEZr1gzumsSsS-_uocqaeV6gpBpN6aFbESty2z5xghO6kLjd1f_56LGey5-783Zm_MgdxVH57KAfcZC2dpv4kGdPZHe2Bf1e6cJ081g-ZglnuNFWys8NinUqTkTdctuFT39JxY4mXIQKzYuhKn33eoSA05ZOsMTIAeVqqXi12SaWtMGcHZi2_1oqYOonHFV1gzUI6nF-CPJQfXoW8Y-O3a7bP45VKs_OQ4oCN6kEZk" />
+            <img className="w-full h-full object-cover" alt="Brutalist concrete architecture" src="/transactionadvisoryimg/valuation-financial.png" />
           </div>
         </section>
 
@@ -117,7 +110,7 @@ const ValuationFinancialBusinessModelling = () => {
           <div className="max-w-[1280px] mx-auto px-8 grid grid-cols-12 gap-[32px] items-center">
             <div className="col-span-12 md:col-span-5 mb-[24px] md:mb-0">
               <div className="w-full aspect-square overflow-hidden grayscale contrast-150">
-                <img className="w-full h-full object-cover" alt="Minimalist concrete wall" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGr-Df0TqKciDHwbhrfIBl6AkKsr-RaQaeSnCwmNy5vPIkrH41iO5LeT1bvGBOe2b-dRzaP0XJd_4vJ7XuwbPWdiCx9R9iagFkSsibdjddXt_h5F2UHpHzG3OWf6SAr-9GDux2pmxNLP9OISKwumLwNvjjfJRYn1Y6KhMLLkNAMwIs50iyY6qfDKIQPFdYGKoOQl6LXDZI5-XrMlDslU0pbKny51VDcQvqEt4WulX2aRnLskDH740XVIqkh2wnlO982NHXyfs-2ec" />
+                <img className="w-full h-full object-cover" alt="Minimalist concrete wall" src="/transactionadvisoryimg/valuation-financial.png" />
               </div>
             </div>
             <div className="col-span-12 md:col-span-7 md:pl-[32px]">
