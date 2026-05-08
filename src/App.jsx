@@ -205,6 +205,24 @@ import TaxRegulatoryDueDiligence from './pages/duediligence/TaxRegulatoryDueDili
 import CommercialMarketDueDiligence from './pages/duediligence/CommercialMarketDueDiligence'
 import PostClosingCompletionAccounts from './pages/duediligence/PostClosingCompletionAccounts'
 
+//new pages for assurance and risk advisory
+import GovernanceComplianceRCSA from './pages/riskmanagment/GovernanceComplianceRCSA'
+import EnterpriseRiskManagementStrategy from './pages/riskmanagment/EnterpriseRiskManagementStrategy'
+import GlobalInternalControls from './pages/riskmanagment/GlobalInternalControls'
+import InternalAuditTransformationQualityAssessment from './pages/riskmanagment/InternalAuditTransformationQualityAssessment'
+import ITCyberSystemIntegrityAssurance from './pages/riskmanagment/ITCyberSystemIntegrityAssurance'
+import ProcessReengineeringControlOptimisation from './pages/riskmanagment/ProcessReengineeringControlOptimisation'
+import RiskBasedInternalAudit from './pages/riskmanagment/RiskBasedInternalAudit'
+import StatutoryExternalAuditAssurance from './pages/riskmanagment/StatutoryExternalAuditAssurance'
+
+//new pages for financial reporting
+import ConsolidationGroupReporting from './pages/financialreport/ConsolidationGroupReporting'
+import AgreedUponProceduresSpecialReporting from './pages/financialreport/AgreedUponProceduresSpecialReporting'
+import AccountingAdvisoryServicesPage from './pages/financialreport/AccountingAdvisoryServicesNew'
+import FinancialStatementPreparationReview from './pages/financialreport/FinancialStatementPreparationReview'
+import IFRSConversion from './pages/financialreport/IFRSConversion'
+
+
 
 function App() {
   return (
@@ -258,6 +276,23 @@ function App() {
           <Route path="/services/ifrs-ind-as-implementation" element={<IfrsIndAsImplementation />} />
           <Route path="/services/agreed-upon-procedures" element={<AgreedUponProcedures />} />
           <Route path="/services/ind-as-applicability" element={<IndAsApplicability />} />
+
+          {/* new pages for financial reporting */}
+          <Route path="/services/consolidation-group-reporting" element={<ConsolidationGroupReporting />} />
+          <Route path="/services/agreed-upon-procedures-special-reporting" element={<AgreedUponProceduresSpecialReporting />} />
+          <Route path="/services/accounting-advisory-services-page" element={<AccountingAdvisoryServicesPage />} />
+          <Route path="/services/financial-statement-preparation-review" element={<FinancialStatementPreparationReview />} />
+          <Route path="/services/ifrs-conversion" element={<IFRSConversion />} />
+
+          {/* new pages for assurance and risk advisory */}
+          <Route path="/services/governance-compliance-self-assessment" element={<GovernanceComplianceRCSA />} />
+          <Route path="/services/enterprise-risk-management-strategy" element={<EnterpriseRiskManagementStrategy />} />
+          <Route path="/services/global-internal-controls" element={<GlobalInternalControls />} />
+          <Route path="/services/internal-audit-transformation-quality-assessment" element={<InternalAuditTransformationQualityAssessment />} />
+          <Route path="/services/it-cyber-system-integrity-assurance" element={<ITCyberSystemIntegrityAssurance />} />
+          <Route path="/services/process-reengineering-control-optimisation" element={<ProcessReengineeringControlOptimisation />} />
+          <Route path="/services/risk-based-internal-audit" element={<RiskBasedInternalAudit />} />
+          <Route path="/services/statutory-external-audit-assurance" element={<StatutoryExternalAuditAssurance />} />
 
 
 

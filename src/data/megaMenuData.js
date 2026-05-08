@@ -17,27 +17,49 @@ const slugify = (text) => text.toLowerCase().replace(/ & /g, '-').replace(/, /g,
 export const menuContent = {
   'Financial Reporting': [
     [
-      { label: 'Risk Audit and Assurance Consulting', href: '/services/risk-audit-assurance' },
-      { label: 'Accounting Advisory Services', href: '/services/accounting-advisory-services' },
-      { label: 'Financial Statement Preparation Services', href: '/services/financial-statement-preparation' }
+      { label: 'IFRS, Ind AS & US GAAP Conversion', href: '/services/ifrs-conversion' },
+      { label: 'Accounting Advisory Services (AAS)', href: '/services/accounting-advisory-services-page' },
+      { label: 'Financial Statement Preparation & Review', href: '/services/financial-statement-preparation-review' }
     ],
     [
-      { label: 'International Financial Reporting Standards (IFRS) & IND-AS Implementation', href: '/services/ifrs-ind-as-implementation' },
-      { label: 'Agreed Upon Procedures Management Reporting', href: '/services/agreed-upon-procedures' },
-      { label: 'Ind AS Applicability Compliance Consultants', href: '/services/ind-as-applicability' }
+      { label: 'Consolidation & Group Reporting', href: '/services/consolidation-group-reporting' },
+      { label: 'Agreed-Upon Procedures (AUP) & Special Reporting', href: '/services/agreed-upon-procedures-special-reporting' },
+      // { label: 'Ind AS Applicability Compliance Consultants', href: '/services/ind-as-applicability' }
     ]
+    // [
+    //   { label: 'Risk Audit and Assurance Consulting', href: '/services/risk-audit-assurance' },
+    //   { label: 'Accounting Advisory Services', href: '/services/accounting-advisory-services' },
+    //   { label: 'Financial Statement Preparation Services', href: '/services/financial-statement-preparation' }
+    // ],
+    // [
+    //   { label: 'International Financial Reporting Standards (IFRS) & IND-AS Implementation', href: '/services/ifrs-ind-as-implementation' },
+    //   { label: 'Agreed Upon Procedures Management Reporting', href: '/services/agreed-upon-procedures' },
+    //   { label: 'Ind AS Applicability Compliance Consultants', href: '/services/ind-as-applicability' }
+    // ]
   ],
   'Assurance & Risk Advisory': [
-    [
-      { label: 'Internal Audit', href: '/services/internal-audit' },
-      { label: 'Internal Audit Transformation Service', href: '/services/internal-audit-transformation' },
-      { label: 'Enterprise Risk Management Services', href: '/services/enterprise-risk-management' }
+     [
+      { label: 'Risk-Based Internal Audit (RBIA)', href: '/services/risk-based-internal-audit' },
+      { label: 'Internal Audit Transformation & Quality Assessment', href: '/services/internal-audit-transformation-quality-assessment' },
+      { label: 'Statutory & External Audit Assurance', href: '/services/statutory-external-audit-assurance' },
+      { label: 'Global Internal Controls (IFC / ICFR / SOX)', href: '/services/global-internal-controls' }
     ],
     [
-      { label: 'Risk and Control Registers Consulting', href: '/services/risk-control-registers' },
-      { label: 'IFC/ICFR in India', href: '/services/ifc-icfr-india' },
-      { label: 'Process Designing and Documentation Services', href: '/services/process-design-documentation' }
+      { label: 'Enterprise Risk Management (ERM) Strategy', href: '/services/enterprise-risk-management-strategy' },
+      { label: 'IT, Cyber & System Integrity Assurance', href: '/services/it-cyber-system-integrity-assurance' },
+      { label: 'Process Re-engineering & Control Optimization', href: '/services/process-reengineering-control-optimization' },
+      { label: 'Governance & Compliance Self-Assessment (RCSA)', href: '/services/governance-compliance-self-assessment' }
     ]
+    // [
+    //   { label: 'Internal Audit', href: '/services/internal-audit' },
+    //   { label: 'Internal Audit Transformation Service', href: '/services/internal-audit-transformation' },
+    //   { label: 'Enterprise Risk Management Services', href: '/services/enterprise-risk-management' }
+    // ],
+    // [
+    //   { label: 'Risk and Control Registers Consulting', href: '/services/risk-control-registers' },
+    //   { label: 'IFC/ICFR in India', href: '/services/ifc-icfr-india' },
+    //   { label: 'Process Designing and Documentation Services', href: '/services/process-design-documentation' }
+    // ]
   ],
   'Due Diligence': [
     [
