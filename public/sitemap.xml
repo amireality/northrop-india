@@ -1,73 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://northropindia.com/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/who-we-are</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/what-we-do</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/digital</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/insights</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/institute</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/foundation</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/contact</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/privacy-policy</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/services/forensic-accounting-fraud</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/services/due-diligence</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/services/risk-management</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/services/transaction-advisory</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://northropindia.com/services/m-a-advisory</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
+  <!-- Main Pages -->
+  <url><loc>https://northropindia.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://northropindia.com/who-we-are</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/what-we-do</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://northropindia.com/our-thinking</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/careers</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/services</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/industry</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/alliances</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://northropindia.com/case-studies</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/institute</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/advisory</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/foundation</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://northropindia.com/contact</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://northropindia.com/insights</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/company-profile</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/privacy-policy</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+
+  <!-- Digital Services -->
+  <url><loc>https://northropindia.com/digital</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/digital/business-transformation</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/digital/erp-excellence</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/digital/cybersecurity-resilience</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/digital/strategic-insights</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/digital/app-development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/digital/software-engineering</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/digital/web-development</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/digital/digital-marketing</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+
+  <!-- Core Services -->
+  <url><loc>https://northropindia.com/services/risk-management</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/services/due-diligence</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/services/forensic-investigations</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/services/taxation</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/services/transaction-advisory</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/services/grant-funding</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+
+  <!-- Financial Advisory & Insights -->
+  <url><loc>https://northropindia.com/insights/indias-next-capital-cycle</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/insights/strategy-ledger-private-equity</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/insights/anatomy-of-allocation</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/insights/opportunity-cost-of-capital</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/insights/sovereign-wealth-shift</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/insights/algorithm-driven-liquidity</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://northropindia.com/insights/strategic-realignment-freight</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <!-- Industry Specializations -->
+  <url><loc>https://northropindia.com/services/banking-financial-services</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/services/manufacturing-industrials</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/services/real-estate-infrastructure</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/services/non-profit-grant-advisory</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/services/energy-utilities</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://northropindia.com/services/textiles-consumer</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
