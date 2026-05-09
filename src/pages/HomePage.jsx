@@ -1,35 +1,68 @@
-import { Helmet } from 'react-helmet-async'
-import HeroVideo from '../components/home/HeroVideo'
-import Hero from '../components/home/Hero'
-import About from '../components/home/About'
-import Journey from '../components/home/Journey'
-import Services from '../components/home/Services'
-import Leadership from '../components/home/Leadership'
-import SocialProof from '../components/home/SocialProof'
-// import Insights from '../components/home/Insights'
-import Partner from '../components/home/Partner'
-import SkylineDivider from '../components/home/SkylineDivider'
-import Institute from '../components/home/Institute'
-import Foundation from '../components/home/Foundation'
-import ContactSection from '../components/home/ContactSection'
-import Insights from '../components/home/insightsData'
-import LocationsSection from '../components/home/Locationsection'
-import TrackRecord from '../components/TrackRecord'
+import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 
+// V3 Components
+import HeroVideo from '../components/home/HeroVideo';
+import HomeHeroV3 from '../components/home/HomeHeroV3';
+import HomeStatsV3 from '../components/home/HomeStatsV3';
+import HomeInsightsV3 from '../components/home/HomeInsightsV3';
+import HomeReportsV3 from '../components/home/HomeReportsV3';
+import HomeForumV3 from '../components/home/HomeForumV3';
+import HomeIndustriesV3 from '../components/home/HomeIndustriesV3';
+import ContactSection from '../components/home/ContactSection';
+import Researchreports from '../components/Researchreports';
 
 function HomePage() {
-  return (
-    <main>
-      <Helmet>
-        <title>Northrop India | Global Financial Advisory & Management Consulting</title>
-        <meta name="description" content="Northrop India provides institutional-grade financial reporting, risk management, and transaction advisory services. Build stakeholder trust with human intelligence and AI-powered precision." />
-      </Helmet>
-      <HeroVideo />
-      <Hero />
+  useEffect(() => {
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
 
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    const elements = document.querySelectorAll('.sr');
+    elements.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, []);
+
+  return (
+    <main className="min-h-screen bg-white font-sans antialiased text-[#1A1714]">
+      <Helmet>
+        <title>Northrop India | Knowledge Centre & Insights</title>
+        <meta name="description" content="Northrop India provides institutional-grade financial reporting, risk management, and transaction advisory services." />
+      </Helmet>
+
+      {/* Global Scroll Reveal Styles */}
+      <style>{`
+        .sr { opacity: 0; transform: translateY(30px); transition: opacity .9s cubic-bezier(.22, 1, .36, 1), transform .9s cubic-bezier(.22, 1, .36, 1); }
+        .sr.in { opacity: 1; transform: none; }
+        .sr.d1 { transition-delay: .1s; }
+        .sr.d2 { transition-delay: .2s; }
+        .sr.d3 { transition-delay: .3s; }
+        .sr.d4 { transition-delay: .4s; }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+      `}</style>
+
+      {/* Optional Hero Video */}
+      <HeroVideo />
+
+      <HomeHeroV3 />
+
+
+       <HomeStatsV3 />
 
       {/* ── CREDENTIAL MARQUEE ── */}
-      <div className="bg-[#c4973b] border-y border-[#C4973B]/20 py-[13px] overflow-hidden">
+      <div className="bg-[#C5963A] border-y border-[#C5963A]/20 py-3.5 overflow-hidden relative z-10">
         <style>{`
           @keyframes credScroll {
             from { transform: translateX(0); }
@@ -38,7 +71,7 @@ function HomePage() {
           .cred-track {
             display: flex;
             width: max-content;
-            animation: credScroll 32s linear infinite;
+            animation: credScroll 40s linear infinite;
           }
           .cred-track:hover { animation-play-state: paused; }
         `}</style>
@@ -50,10 +83,10 @@ function HomePage() {
                 "Forensic Audit", "PSU Bank Mandates", "New Delhi · Mumbai · Pan-India"
               ].map((item, i) => (
                 <span key={`${copy}-${i}`} className="flex items-center">
-                  <span className="font-sans text-[11px] font-semibold tracking-[0.18em] uppercase text-[#ffFF] whitespace-nowrap px-8">
+                  <span className="font-sans text-[11px] font-bold tracking-[0.18em] uppercase text-white whitespace-nowrap px-10">
                     {item}
                   </span>
-                  <span className="text-[#ffff]/35 text-[8px]">◆</span>
+                  <span className="text-white/40 text-[8px]">◆</span>
                 </span>
               ))}
             </div>
@@ -61,31 +94,23 @@ function HomePage() {
         </div>
       </div>
 
-      <About />
-
-
-      <SkylineDivider/>
-
-      <TrackRecord />
-
-      {/* <Services /> */}
-
-      
-      {/* <Institute/> */}
-      {/* <Foundation/> */}
-
-
-
      
-    
-
-      <LocationsSection/>
       
-      <ContactSection />
-   
-    
+      <HomeInsightsV3 />
+
+      <Researchreports />
+
+      <HomeReportsV3 />
+
+      <HomeForumV3 />
+
+      <HomeIndustriesV3 />
+
+      <div className="bg-white border-t border-gray-100">
+        <ContactSection />
+      </div>
     </main>
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;

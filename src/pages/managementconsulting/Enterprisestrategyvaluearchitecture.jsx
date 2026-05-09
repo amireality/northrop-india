@@ -195,7 +195,7 @@ const Enterprisestrategyvaluearchitecture = () => {
                 </div>
                 <div className="col-span-2 mt-8 p-12 bg-white/5 border border-white/10">
                   <h4 className="font-headline-md text-[20px] md:text-[24px] mb-4 italic">"The intervention didn't just fix our balance sheet; it fixed our purpose."</h4>
-                  <p className="font-label-caps text-[12px] text-[#ffffff]/40">— Chairman, Global Logistics Group</p>
+                 
                 </div>
               </div>
             </div>

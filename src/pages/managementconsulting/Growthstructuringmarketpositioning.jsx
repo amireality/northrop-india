@@ -33,7 +33,7 @@ const Growthstructuringmarketpositioning = () => {
           </div>
         </header>
 
-        <div className="max-w-[1200px] mx-auto px-[64px] py-[20px]">
+        <div className="max-w-[1200px] mx-auto px-[10px] py-[10px]">
           {/* Industry Failures (Bento Grid) */}
           <section className="mb-[20px] border-t-4 border-[#000000] pt-24">
             <div className="mb-20">

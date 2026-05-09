@@ -30,7 +30,9 @@ function Footer() {
 
             {/* G-04 / G-12: Fixed tagline — removed "since 2022" */}
             <p className="text-[14px] leading-relaxed text-gray-300 font-light font-sans">
-              Senior-led strategic advisory specialising in forensic accounting, IBC mandates, M&A transaction support, and financial risk surveillance. New Delhi — Pan India.
+              MANAGEMENT CONSULTING | STRATEGIC CAPITAL. <br />
+              High-Stakes Funding. Institutional Due Diligence. Assurance & Risk Advisory
+              Delhi NCR - Pan India
             </p>
 
             {/* G-03: Social Links */}

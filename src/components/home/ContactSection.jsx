@@ -62,7 +62,7 @@ export default function ContactSection() {
           {[
             { label: "Email", value: "Business@NorthropIndia.com", href: "mailto:Business@NorthropIndia.com" },
             { label: "Phone", value: " +91 9289925657", href: "tel:+919315518112" },
-            { label: "Office", value: "Connaught Place, New Delhi — 110001" }
+            { label: "Office", value: "Graphix Tower 2,Block A,Industrial Area,Sector 62,Noida,Uttar Pradesh 201301, India" }
           ].map((item, i) => (
             <div
               key={item.label}
