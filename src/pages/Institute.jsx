@@ -71,7 +71,7 @@ const Institute = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[32px] md:gap-[48px]">
             {/* Course 01 */}
-            <Link to="/#" className="group border border-[#00113a]/10 hover:border-[#00113a] transition-all duration-500 overflow-hidden bg-[#ffffff] shadow-sm hover:shadow-xl cursor-pointer block">
+            <Link to="/institute/grant-funding-esg" className="group border border-[#00113a]/10 hover:border-[#00113a] transition-all duration-500 overflow-hidden bg-[#ffffff] shadow-sm hover:shadow-xl cursor-pointer block">
               <div className="h-48 md:h-64 overflow-hidden relative">
                 <img 
                   alt="Grant Funding & ESG" 
@@ -81,7 +81,7 @@ const Institute = () => {
                 <div className="absolute top-4 left-4 bg-[#00113a] text-[#ffffff] px-3 py-1 text-[12px] font-[600]">01</div>
               </div>
               <div className="p-6 md:p-8">
-                <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-[600] text-[#00113a] mb-4">Grant Funding & ESG</h3>
+                <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-[600] text-[#00113a] mb-4">Risk Management</h3>
                 <p className="text-[14px] md:text-[16px] leading-[1.6] font-[400] text-[#444650] mb-8 leading-relaxed">
                   Capital redirection, Blended Finance, and Impact Investing. Navigating the shift toward sustainable debt and climate-linked capital.
                 </p>
@@ -93,7 +93,7 @@ const Institute = () => {
             </Link>
 
             {/* Course 02 */}
-            <Link to="/#" className="group border border-[#00113a]/10 hover:border-[#00113a] transition-all duration-500 overflow-hidden bg-[#ffffff] shadow-sm hover:shadow-xl cursor-pointer block">
+            <Link to="/institute/new-age-corporate-finance" className="group border border-[#00113a]/10 hover:border-[#00113a] transition-all duration-500 overflow-hidden bg-[#ffffff] shadow-sm hover:shadow-xl cursor-pointer block">
               <div className="h-48 md:h-64 overflow-hidden relative">
                 <img 
                   alt="New Age Corporate Finance" 
@@ -115,7 +115,7 @@ const Institute = () => {
             </Link>
 
             {/* Course 03 */}
-            <Link to="/#" className="group border border-[#00113a]/10 hover:border-[#00113a] transition-all duration-500 overflow-hidden bg-[#ffffff] shadow-sm hover:shadow-xl cursor-pointer block">
+            <Link to="/institute/risk-management-assurance" className="group border border-[#00113a]/10 hover:border-[#00113a] transition-all duration-500 overflow-hidden bg-[#ffffff] shadow-sm hover:shadow-xl cursor-pointer block">
               <div className="h-48 md:h-64 overflow-hidden relative">
                 <img 
                   alt="Risk & Strategic Derivatives" 
@@ -137,7 +137,7 @@ const Institute = () => {
             </Link>
 
             {/* Course 04 */}
-            <Link to="/#" className="group border border-[#00113a]/10 hover:border-[#00113a] transition-all duration-500 overflow-hidden bg-[#ffffff] shadow-sm hover:shadow-xl cursor-pointer block">
+            <Link to="/institute/founders-capital-stack" className="group border border-[#00113a]/10 hover:border-[#00113a] transition-all duration-500 overflow-hidden bg-[#ffffff] shadow-sm hover:shadow-xl cursor-pointer block">
               <div className="h-48 md:h-64 overflow-hidden relative">
                 <img 
                   alt="THE FOUNDER’S CAPITAL STACK" 

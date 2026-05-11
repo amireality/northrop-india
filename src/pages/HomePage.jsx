@@ -62,7 +62,7 @@ function HomePage() {
        <HomeStatsV3 />
 
       {/* ── CREDENTIAL MARQUEE ── */}
-      <div className="bg-[#C5963A] border-y border-[#C5963A]/20 py-3.5 overflow-hidden relative z-10">
+      {/* <div className="bg-[#C5963A] border-y border-[#C5963A]/20 py-3.5 overflow-hidden relative z-10">
         <style>{`
           @keyframes credScroll {
             from { transform: translateX(0); }
@@ -92,7 +92,7 @@ function HomePage() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
      
       

@@ -125,6 +125,10 @@ import MaIntegration from './subpages/Pillar_5_ma_integration'
 import GlobalTaxStructuring from './subpages/Pillar_6_global_tax_structuring'
 import DigitalSovereignty from './subpages/Pillar_7_digital_sovereignty'
 import IpoReadiness from './subpages/Pillar_8_ipo_readiness'
+import Grantegs from './pages/northofpages/Grantegs'
+import Agecorporate from './pages/northofpages/Agecorporate'
+import Riskstergery from './pages/northofpages/Riskstergery'
+import TheFounderCapitalStack from './pages/northofpages/thefoundercapitalstack'
 
 // Management Consulting Subpages
 import Enterprisestrategyvaluearchitecture from './pages/managementconsulting/Enterprisestrategyvaluearchitecture'
@@ -241,6 +245,10 @@ function App() {
           <Route path="/alliances" element={<Alliances />} />
           <Route path="/case-studies" element={<CaseStudies />} />
           <Route path="/institute" element={<InstitutePage />} />
+          <Route path="/institute/grant-funding-esg" element={<Grantegs />} />
+          <Route path="/institute/new-age-corporate-finance" element={<Agecorporate />} />
+          <Route path="/institute/risk-management-assurance" element={<Riskstergery />} />
+          <Route path="/institute/founders-capital-stack" element={<TheFounderCapitalStack />} />
           <Route path="/advisory" element={<Advisory />} />
           <Route path="/foundation" element={<Foundation />} />
           <Route path="/contact" element={<Contact />} />

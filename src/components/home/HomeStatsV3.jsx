@@ -48,7 +48,7 @@ const StatItemV3 = ({ target, label, isFirst }) => {
 const HomeStatsV3 = () => {
   const stats = [
     { target: "100", label: "Audits Completed", first: true },
-    { target: "200", label: "SRA Audits" },
+    { target: "250", label: "SRA Audits" },
     { target: "15", label: "Forensic Mandates" },
     { target: "5", label: "NGO Partners" },
     { target: "10", label: "Impact Assets" },
