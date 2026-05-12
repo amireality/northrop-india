@@ -106,7 +106,7 @@ function HomePage() {
 
       <HomeIndustriesV3 />
 
-      <div className="bg-white border-t border-gray-100">
+      <div className="bg-white border-t border-gray-100 relative z-20">
         <ContactSection />
       </div>
     </main>

@@ -126,7 +126,7 @@ const Researchreports = () => {
                 <div className="mb-16 flex flex-col md:flex-row justify-between items-end gap-10 sr">
                     <div className="max-w-[640px]">
                         <div className="flex items-center gap-3 mb-5">
-                            <div className="w-8 h-[1px] bg-[#C5963A]"></div>
+
                             <span className="text-[11px] font-bold tracking-[0.14em] uppercase text-[#C5963A]">Northrop Intelligence Series</span>
                         </div>
                         <h2 className="font-serif text-[44px] md:text-[56px] font-normal text-[#1A2B45] leading-[1.05] tracking-tight">

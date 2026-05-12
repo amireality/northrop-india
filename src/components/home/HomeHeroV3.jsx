@@ -71,11 +71,11 @@ const HomeHeroV3 = () => {
         <div className="max-w-[1000px] mx-auto text-center">
           {/* Eyebrow */}
           <div className="flex items-center justify-center gap-4 mb-8">
-            <div className="w-8 h-[1px] bg-[#C5963A]"></div>
-            <span className="text-[11px] font-bold tracking-[.14em] uppercase text-[#C5963A]">
-              Northrop Management · Knowledge Centre
+
+            <span className="text-[18px] font-bold tracking-[.14em] uppercase text-[#C5963A]">
+              Knowledge Centre
             </span>
-            <div className="w-8 h-[1px] bg-[#C5963A]"></div>
+
           </div>
 
           {/* Main Headline */}

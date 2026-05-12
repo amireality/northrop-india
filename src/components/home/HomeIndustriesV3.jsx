@@ -243,8 +243,8 @@ const HomeIndustriesV3 = () => {
               <div className="text-[9.5px] font-semibold tracking-[0.1em] uppercase text-white/28 mt-[3px]">Active Sectors</div>
             </div>
             <div className="text-right">
-              <div className="font-serif text-[36px] font-normal text-white leading-none">4</div>
-              <div className="text-[9.5px] font-semibold tracking-[0.1em] uppercase text-white/28 mt-[3px]">Sector Clusters</div>
+              <div className="font-serif text-[36px] font-normal text-white leading-none">60,000 Cr+</div>
+              <div className="text-[9.5px] font-semibold tracking-[0.1em] uppercase text-white/28 mt-[3px]">Balance Sheet Sizes Upto</div>
             </div>
             <div className="text-right">
               <div className="font-serif text-[36px] font-normal text-white leading-none">₹1,200<sup className="text-[16px] text-[#C5963A] align-super">Cr+</sup></div>
@@ -255,7 +255,7 @@ const HomeIndustriesV3 = () => {
 
         <div className="max-w-[1280px] mx-auto mt-[48px] px-[28px] md:px-[60px] flex items-center gap-[24px] relative z-10">
           <div className="flex-1 h-[1px] bg-gradient-to-r from-white/10 to-white/[0.04]" />
-          <div className="text-[10px] font-medium tracking-[0.1em] uppercase text-white/22">Cross-sector depth built through active mandates, not desktop research</div>
+          <div className="text-[13px] font-medium tracking-[0.1em] uppercase text-[#ffff]">Cross-sector depth built through active mandates, not desktop research</div>
           <div className="flex-1 h-[1px] bg-gradient-to-l from-white/10 to-white/[0.04]" />
         </div>
       </div>
@@ -362,30 +362,6 @@ const HomeIndustriesV3 = () => {
             </div>
           </div>
         )}
-      </div>
-
-      {/* Bottom Band */}
-      <div className="bg-[#1A2B45] py-[52px] relative z-20">
-        <div className="max-w-[1280px] mx-auto px-[28px] md:px-[60px] grid grid-cols-1 md:grid-cols-[1fr_auto] gap-[24px] md:gap-[40px] items-center">
-          <div>
-            <h3 className="font-serif text-[24px] md:text-[34px] font-light text-white leading-[1.25] mb-[6px]">
-              Cross-sector insight <br />
-              as a competitive advantage
-            </h3>
-            <p className="text-[13px] text-white/40 leading-[1.65] max-w-[480px]">
-              When your legal team, finance director, and operations head are all in different advisory relationships, you lose the thread. Northrop's cross-sector mandate portfolio means we see the patterns before they become problems.
-            </p>
-          </div>
-          <a 
-            href="/contact" 
-            className="inline-flex items-center gap-[9px] px-[28px] py-[14px] rounded-full bg-[#C5963A] text-[#0D1825] text-[13px] font-bold no-underline transition-all duration-200 hover:bg-[#D4A640] hover:-translate-y-[2px] hover:shadow-[0_8px_28px_rgba(197,150,58,0.35)] whitespace-nowrap"
-          >
-            Discuss Your Sector
-            <svg className="w-[14px] h-[14px]" viewBox="0 0 16 16" fill="none">
-              <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-            </svg>
-          </a>
-        </div>
       </div>
     </div>
   );
