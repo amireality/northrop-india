@@ -240,15 +240,15 @@ const HomeIndustriesV3 = () => {
           <div className="flex flex-col gap-[28px] pb-[8px]">
             <div className="text-right">
               <div className="font-serif text-[36px] font-normal text-white leading-none">16<sup className="text-[16px] text-[#C5963A] align-super">+</sup></div>
-              <div className="text-[9.5px] font-semibold tracking-[0.1em] uppercase text-white/28 mt-[3px]">Active Sectors</div>
+              <div className="text-[9.5px] font-semibold tracking-[0.1em] uppercase text-[#ffff] mt-[3px]">Active Sectors</div>
             </div>
             <div className="text-right">
-              <div className="font-serif text-[36px] font-normal text-white leading-none">60,000 Cr+</div>
-              <div className="text-[9.5px] font-semibold tracking-[0.1em] uppercase text-white/28 mt-[3px]">Balance Sheet Sizes Upto</div>
+              <div className="font-serif text-[36px] font-normal text-white leading-none">60,000<sup className="text-[16px] text-[#C5963A] align-super">Cr+</sup></div>
+              <div className="text-[9.5px] font-semibold tracking-[0.1em] uppercase text-[#ffff] mt-[3px]">Balance Sheet Sizes Upto</div>
             </div>
             <div className="text-right">
               <div className="font-serif text-[36px] font-normal text-white leading-none">₹1,200<sup className="text-[16px] text-[#C5963A] align-super">Cr+</sup></div>
-              <div className="text-[9.5px] font-semibold tracking-[0.1em] uppercase text-white/28 mt-[3px]">Loan Exposure</div>
+              <div className="text-[9.5px] font-semibold tracking-[0.1em] uppercase text-[#ffff] mt-[3px]">Loan Exposure</div>
             </div>
           </div>
         </div>
