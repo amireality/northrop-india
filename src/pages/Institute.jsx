@@ -81,7 +81,7 @@ const Institute = () => {
                 <div className="absolute top-4 left-4 bg-[#00113a] text-[#ffffff] px-3 py-1 text-[12px] font-[600]">01</div>
               </div>
               <div className="p-6 md:p-8">
-                <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-[600] text-[#00113a] mb-4">Risk Management</h3>
+                <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-[600] text-[#00113a] mb-4">Grant Funding & ESG</h3>
                 <p className="text-[14px] md:text-[16px] leading-[1.6] font-[400] text-[#444650] mb-8 leading-relaxed">
                   Capital redirection, Blended Finance, and Impact Investing. Navigating the shift toward sustainable debt and climate-linked capital.
                 </p>
@@ -125,7 +125,7 @@ const Institute = () => {
                 <div className="absolute top-4 left-4 bg-[#00113a] text-[#ffffff] px-3 py-1 text-[12px] font-[600]">03</div>
               </div>
               <div className="p-6 md:p-8">
-                <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-[600] text-[#00113a] mb-4">Risk & Strategic Derivatives</h3>
+                <h3 className="text-[24px] md:text-[32px] leading-[1.3] font-[600] text-[#00113a] mb-4">Risk Management </h3>
                 <p className="text-[14px] md:text-[16px] leading-[1.6] font-[400] text-[#444650] mb-8 leading-relaxed">
                   Identifying and measuring institutional risk. Hedging strategies, stress testing, and navigating regulatory capital requirements.
                 </p>

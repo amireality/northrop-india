@@ -248,7 +248,7 @@ export default function WhoWeAre() {
             src="/whoweare/bannner.jpeg"
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-black/50"></div>
+          {/* <div className="absolute inset-0 bg-black/50"></div> */}
         </div>
 
         <div className="relative z-10 max-w-[1440px] mx-auto px-[32px] md:px-[40px] w-full mt-10">
@@ -317,7 +317,7 @@ export default function WhoWeAre() {
             src="/whoweare/whoweare-hero.jpg"
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-black/70"></div>
+          {/* <div className="absolute inset-0 bg-black/70"></div> */}
         </div>
 
         <div className="relative z-10 max-w-[1440px] mx-auto px-[32px] md:px-[40px] w-full">

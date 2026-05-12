@@ -25,7 +25,7 @@ const Enterprisestrategyvaluearchitecture = () => {
 
         {/* Large Scale Visual 1 */}
         <section className="mb-[20px]">
-          <div className="relative w-full aspect-[21/9] overflow-hidden grayscale contrast-125 border border-[#c4c7c7]">
+          <div className="relative w-full aspect-[21/9] overflow-hidden   border border-[#c4c7c7]">
             <img
               alt="Abstract glass facade of a modern skyscraper"
               className="w-full h-full object-cover"
@@ -107,7 +107,7 @@ const Enterprisestrategyvaluearchitecture = () => {
 
         {/* Large Scale Visual 2 */}
         <section className="py-32">
-          <div className="relative w-full aspect-[21/9] overflow-hidden grayscale border border-[#c4c7c7]">
+          <div className="relative w-full aspect-[21/9] overflow-hidden  border-[#c4c7c7]">
             <img
               alt="High-end corporate boardroom with minimalist aesthetic"
               className="w-full h-full object-cover"

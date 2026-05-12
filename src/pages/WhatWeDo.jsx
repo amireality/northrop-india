@@ -32,7 +32,7 @@ const WhatWeDo = () => {
               className="absolute inset-0 w-full h-full object-cover opacity-80 mix-blend-multiply transition-transform duration-1000 hover:scale-105"
               src="https://lh3.googleusercontent.com/aida-public/AB6AXuA77oK_NQ3iLnFgkoAVW-QGlKNAtbNPbiyrF_zUIjIMBMF0yrwfIq4eVmasSB1hJLYaIkRXT05u7RJUwCDZ3PWzjaT3D38KgsyZMu26MXuu1vFBMPhGYwDapAoTB4FA0X4jF0zgMA6UkgeFlb-clU-rXYYonz29DmJcHG7QsQrCU8h6Z7bW0SndGQN-HB-pIPS-KhFBclljElq7IzFv3JxStZNdofKYbuGXr57p1IhH2XPbztTAKg6WfH7AYJmJXiXuGysG_y6bw-g"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-white/40 to-transparent"></div>
+            
           </div>
         </section>
 
@@ -88,7 +88,7 @@ const WhatWeDo = () => {
                   <span className="font-hanken text-[10px] text-advisory-on-surface/30 tracking-tighter">REF: {service.id}</span>
                 </div>
                 <div className="flex gap-4">
-                  <img alt={service.title} className="w-16 h-16 object-cover rounded-sm grayscale group-hover:grayscale-0 transition-all" src={service.img} />
+                  <img alt={service.title} className="w-16 h-16 object-cover rounded-sm " src={service.img} />
                   <div className="flex flex-col">
                     <h3 className="font-hanken text-sm font-bold uppercase text-advisory-on-surface leading-tight mb-1">{service.title}</h3>
                     <p className="font-inter text-[11px] text-advisory-on-surface/60 leading-tight">{service.desc}</p>
@@ -122,10 +122,10 @@ const WhatWeDo = () => {
           <div className="relative min-h-[400px] md:min-h-[500px] bg-advisory-surface-variant overflow-hidden">
             <img
               alt="Modern minimalist architecture"
-              className="absolute inset-0 w-full h-full object-cover grayscale opacity-40 mix-blend-multiply"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDHAb_J9uixljdV7r01u2tVgfkHn6pOEwIDIA5e9DPOSJsGrD0-7Qqd-3IGXdiuvtIVyugxpGZLjGPSH36X5bBzlKX7e6Dl5TfssNQDkKqfWCjeZKIj2ey7mg9sKV66_0ufZSGsJmV0P8Zr2e4Uyxk7RIV4pyKyTrgUhpFDrlkw6Sv04Qb-ZPjEJRjPjghwBYcbhYss9JthHum_XmHMPYe3ZNhw94pJlWr46o3T1GosRKW10wDBKPnxzGaJJRVmDyX9jxCYuKMB7yg"
+              className="absolute inset-0 w-full h-full object-cover "
+              src="/whatwedo.png"
             />
-            <div className="absolute inset-0 bg-advisory-primary-container/10"></div>
+          
           </div>
         </section>
       </main>

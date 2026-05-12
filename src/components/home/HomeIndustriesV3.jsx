@@ -203,7 +203,7 @@ const HomeIndustriesV3 = () => {
       `}} />
 
       {/* Ticker */}
-      <div className="bg-[#C5963A] overflow-hidden py-[11px] relative">
+      {/* <div className="bg-[#C5963A] overflow-hidden py-[11px] relative">
         <div className="absolute inset-y-0 left-0 w-[80px] z-10 bg-gradient-to-r from-[#C5963A] to-transparent" />
         <div className="absolute inset-y-0 right-0 w-[80px] z-10 bg-gradient-to-l from-[#C5963A] to-transparent" />
         <div className="flex w-max animate-ticker">
@@ -214,7 +214,7 @@ const HomeIndustriesV3 = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Hero Band */}
       <div className="bg-[#0D1825] pt-[80px] relative overflow-hidden">
