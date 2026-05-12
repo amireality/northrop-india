@@ -47,13 +47,13 @@ const StatItemV3 = ({ target, label, isFirst }) => {
 
 const HomeStatsV3 = () => {
   const stats = [
-    { target: "100", label: "Audits Completed", first: true },
-    { target: "250", label: "SRA Audits" },
-    { target: "15", label: "Forensic Mandates" },
-    { target: "5", label: "NGO Partners" },
-    { target: "10", label: "Impact Assets" },
-    { target: "5", label: "Diligence" },
-    { target: "16", label: "Sectors" }
+    { target: "100", label: "Completed Projects", first: true },
+    { target: "20", label: "Management Consultings" },
+    { target: "5", label: "ASM" },
+    { target: "20", label: "Assurance" },
+    { target: "20", label: "Due Diligence and Forensic Auditss" },
+    { target: "10", label: "Transaction and IBC 2016 Audits" },
+    { target: "25", label: "Other Project" }
   ];
 
   return (
