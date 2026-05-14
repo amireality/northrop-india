@@ -11,6 +11,7 @@ import HomeForumV3 from '../components/home/HomeForumV3';
 import HomeIndustriesV3 from '../components/home/HomeIndustriesV3';
 import ContactSection from '../components/home/ContactSection';
 import Researchreports from '../components/Researchreports';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 function HomePage() {
   useEffect(() => {
@@ -40,6 +41,11 @@ function HomePage() {
         <title>Northrop India | Knowledge Centre & Insights</title>
         <meta name="description" content="Northrop India provides institutional-grade financial reporting, risk management, and transaction advisory services." />
       </Helmet>
+
+
+      <WhatsAppButton/>
+
+    
 
       {/* Global Scroll Reveal Styles */}
       <style>{`
@@ -109,6 +115,8 @@ function HomePage() {
       <div className="bg-white border-t border-gray-100 relative z-20">
         <ContactSection />
       </div>
+
+     
     </main>
   );
 }

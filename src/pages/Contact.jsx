@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet-async';
 import emailjs from '@emailjs/browser';
+import WhatsAppButton from '../components/WhatsAppButton';
 
 const Contact = () => {
   useEffect(() => {
@@ -267,6 +268,8 @@ const Contact = () => {
 
         </div>
       </section>
+
+      <WhatsAppButton/>
 
     </div>
   );
