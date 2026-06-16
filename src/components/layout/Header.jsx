@@ -183,7 +183,8 @@ export default function Header() {
                 <MobileNavItem label="Northrop Institute of Global Finance" href="/institute" onClick={() => setIsMobileMenuOpen(false)} />
                 <MobileNavItem label="Insights" href="/insights" onClick={() => setIsMobileMenuOpen(false)} />
                 <MobileNavItem label="Digital" href="/digital" onClick={() => setIsMobileMenuOpen(false)} />
-                <MobileNavItem label="Northrop Foundation" href="/foundation" onClick={() => setIsMobileMenuOpen(false)} />
+                <MobileNavItem label="Northrop Research Foundation" href="/foundation" onClick={() => setIsMobileMenuOpen(false)} />
+                <MobileNavItem label="Contact" href="/contact" onClick={() => setIsMobileMenuOpen(false)} />
               </div>
             )}
 
