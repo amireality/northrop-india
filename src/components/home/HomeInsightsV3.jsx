@@ -2,7 +2,10 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const InsightCard = ({ data }) => (
-  <div className="bg-white rounded-xl border border-gray-100 overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5 group">
+  <Link
+    to={data.slug ? `/reports/${data.slug}` : "/contact"}
+    className="bg-white rounded-xl border border-gray-100 overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5 group cursor-pointer"
+  >
     <div className="relative h-40 overflow-hidden">
       <img
         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
@@ -27,14 +30,14 @@ const InsightCard = ({ data }) => (
         {data.text}
       </p>
       <div className="pt-5 border-t border-gray-50 flex justify-between items-center">
-        <Link to="/contact" className="px-5 py-2 rounded-full border border-gray-100 text-[10px] font-bold uppercase tracking-[0.12em] text-[#1A2B45] hover:bg-[#1A2B45] hover:text-white transition-all duration-300 flex items-center gap-2 group/btn">
+        <div className="px-5 py-2 rounded-full border border-gray-100 text-[10px] font-bold uppercase tracking-[0.12em] text-[#1A2B45] group-hover:bg-[#1A2B45] group-hover:text-white transition-all duration-300 flex items-center gap-2">
           READ
-          <svg viewBox="0 0 16 16" fill="none" className="w-3.5 h-3.5 transition-transform group-hover/btn:translate-x-1"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /></svg>
-        </Link>
+          <svg viewBox="0 0 16 16" fill="none" className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" /></svg>
+        </div>
         <span className="text-[10px] text-gray-400 font-bold uppercase tracking-widest">{data.readTime}</span>
       </div>
     </div>
-  </div>
+  </Link>
 );
 
 const HomeInsightsV3 = () => {
@@ -53,10 +56,10 @@ const HomeInsightsV3 = () => {
   ];
 
   const insights = [
-    { id: 1, category: 'due-diligence', categoryName: 'Due Diligence', tagClass: 'bg-blue-50 text-blue-600', date: 'Apr 2026', img: 'https://picsum.photos/seed/i-dd1/600/320', title: 'India M&A Crosses US$50B — AI Now Cuts FDD Review Time by 50%', text: 'Infrastructure-led deals and AI-enabled diligence tools are reshaping how mid-market acquirers assess risk and valuation.', readTime: '5 min' },
+    { id: 1, slug: 'india-ma-2025', category: 'due-diligence', categoryName: 'Due Diligence', tagClass: 'bg-blue-50 text-blue-600', date: 'Apr 2026', img: '/reportimg/india-ma-2025.jpg', title: 'India M&A Crosses US$50B — AI Now Cuts FDD Review Time by 50%', text: 'Infrastructure-led deals and AI-enabled diligence tools are reshaping how mid-market acquirers assess risk and valuation.', readTime: '5 min' },
     { id: 2, category: 'due-diligence', categoryName: 'Due Diligence', tagClass: 'bg-blue-50 text-blue-600', date: 'Feb 2026', img: 'https://picsum.photos/seed/i-dd2/600/320', title: 'ESG Is Now a Deal Essential in Every M&A Review — Not a Post-Signing Consideration', text: 'Buyers who skip ESG diligence face significant post-close exposure. Sustainability performance is being priced into mid-market valuations.', readTime: '4 min' },
-    { id: 3, category: 'forensic', categoryName: 'Forensic', tagClass: 'bg-red-50 text-red-600', date: 'Apr 2026', img: 'https://picsum.photos/seed/i-fo1/600/320', title: 'RBI Reports Bank Fraud Rising to ₹36,014 Crore — Three Times the Prior Year', text: 'Organisations must move from reactive investigation to continuous fraud surveillance. The surge demands forensic frameworks beyond statutory audit.', readTime: '5 min' },
-    { id: 4, category: 'forensic', categoryName: 'Forensic', tagClass: 'bg-red-50 text-red-600', date: 'Mar 2026', img: 'https://picsum.photos/seed/i-fo2/600/320', title: 'ICAI\'s FAIS Standards: 20 Obligations Every Audit Committee Must Now Understand', text: 'From fraud hypothesis to chain-of-custody — FAIS compliance is mandatory for CAs and is redefining forensic governance at board level.', readTime: '6 min' },
+    { id: 3, slug: 'rbi-bank-fraud-2025', category: 'forensic', categoryName: 'Forensic', tagClass: 'bg-red-50 text-red-600', date: 'Apr 2026', img: '/reportimg/rbi-bank-fraud-2025.jpg', title: 'RBI Reports Bank Fraud Rising to ₹36,014 Crore — Three Times the Prior Year', text: 'Organisations must move from reactive investigation to continuous fraud surveillance. The surge demands forensic frameworks beyond statutory audit.', readTime: '5 min' },
+    { id: 4, slug: 'icai-fais-standards-2025', category: 'forensic', categoryName: 'Forensic', tagClass: 'bg-red-50 text-red-600', date: 'Mar 2026', img: 'reportimg/icai-fais.png', title: 'ICAI\'s FAIS Standards: 20 Obligations Every Audit Committee Must Now Understand', text: 'From fraud hypothesis to chain-of-custody — FAIS compliance is mandatory for CAs and is redefining forensic governance at board level.', readTime: '6 min' },
     { id: 5, category: 'taxation', categoryName: 'Taxation', tagClass: 'bg-green-50 text-green-600', date: 'Apr 2026', img: 'https://picsum.photos/seed/i-tx1/600/320', title: 'Income Tax Act 2025: What the "Tax Year" Concept Means for Corporates from April 2026', text: 'The landmark restructuring demands a full enterprise review of tax positions. Higher exemptions and new forms take effect immediately.', readTime: '6 min' },
     { id: 6, category: 'taxation', categoryName: 'Taxation', tagClass: 'bg-green-50 text-green-600', date: 'Mar 2026', img: 'https://picsum.photos/seed/i-tx2/600/320', title: 'GST 2.0: India\'s New Four-Slab Structure and What It Means for Business Cash Flows', text: 'Rationalized slabs, eliminated compensation cess, and hard e-invoice validation are catching businesses unprepared across supply chains.', readTime: '5 min' },
     { id: 7, category: 'transaction', categoryName: 'Transaction', tagClass: 'bg-purple-50 text-purple-600', date: 'Apr 2026', img: 'https://picsum.photos/seed/i-ta1/600/320', title: 'IBC at Nine Years: Stronger Credit Discipline, Faster Revival, and the 2025 Amendment', text: 'The insolvency framework has materially improved NPA recovery. The 2025 Amendment expands resolution pathways for MSME insolvencies.', readTime: '6 min' },

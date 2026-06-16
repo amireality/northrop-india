@@ -52,40 +52,40 @@ const SectionHeader = ({ categories }) => (
 );
 
 const HomeReportsV3 = () => {
-  const row1Reports = [
-    {
-      img: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=600&h=320',
-      tags: [{ label: 'Direct Tax', className: 'bg-green-50 text-green-700' }, { label: '2026', className: 'bg-[#F8F1E0] text-[#8A6C1A]' }],
-      title: 'Income Tax Act 2025: Corporate Transition Guide',
-      summary: 'Section mapping, tax year implications, revised return forms, and compliance action checklist for FY2025–26 finance teams.',
-      pages: '34 pages',
-      delay: ''
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=600&h=320',
-      tags: [{ label: 'GST', className: 'bg-green-50 text-green-700' }, { label: '2026', className: 'bg-[#F8F1E0] text-[#8A6C1A]' }],
-      title: 'GST 2.0 Implementation Playbook',
-      summary: 'New slab navigation, ITC impact analysis, e-invoice compliance, and GSTAT dispute resolution guidance for Indian corporates.',
-      pages: '28 pages',
-      delay: 'd1'
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600&h=320',
-      tags: [{ label: 'IBC', className: 'bg-purple-50 text-purple-700' }, { label: '2026', className: 'bg-[#F8F1E0] text-[#8A6C1A]' }],
-      title: 'IBC Resolution Handbook 2026',
-      summary: 'Strategy, timelines, and creditor rights across the full CIRP lifecycle under the amended insolvency framework.',
-      pages: '30 pages',
-      delay: 'd2'
-    },
-    {
-      img: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600&h=320',
-      tags: [{ label: 'M&A', className: 'bg-purple-50 text-purple-700' }],
-      title: 'Mid-Market M&A: Deal Structuring & Valuation Guide',
-      summary: 'PPA methodology, earn-out mechanics, and regulatory approvals for mid-market control transactions in India\'s evolving deal landscape.',
-      pages: '26 pages',
-      delay: 'd3'
-    }
-  ];
+  // const row1Reports = [
+  //   {
+  //     img: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=600&h=320',
+  //     tags: [{ label: 'Direct Tax', className: 'bg-green-50 text-green-700' }, { label: '2026', className: 'bg-[#F8F1E0] text-[#8A6C1A]' }],
+  //     title: 'Income Tax Act 2025: Corporate Transition Guide',
+  //     summary: 'Section mapping, tax year implications, revised return forms, and compliance action checklist for FY2025–26 finance teams.',
+  //     pages: '34 pages',
+  //     delay: ''
+  //   },
+  //   {
+  //     img: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&q=80&w=600&h=320',
+  //     tags: [{ label: 'GST', className: 'bg-green-50 text-green-700' }, { label: '2026', className: 'bg-[#F8F1E0] text-[#8A6C1A]' }],
+  //     title: 'GST 2.0 Implementation Playbook',
+  //     summary: 'New slab navigation, ITC impact analysis, e-invoice compliance, and GSTAT dispute resolution guidance for Indian corporates.',
+  //     pages: '28 pages',
+  //     delay: 'd1'
+  //   },
+  //   {
+  //     img: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600&h=320',
+  //     tags: [{ label: 'IBC', className: 'bg-purple-50 text-purple-700' }, { label: '2026', className: 'bg-[#F8F1E0] text-[#8A6C1A]' }],
+  //     title: 'IBC Resolution Handbook 2026',
+  //     summary: 'Strategy, timelines, and creditor rights across the full CIRP lifecycle under the amended insolvency framework.',
+  //     pages: '30 pages',
+  //     delay: 'd2'
+  //   },
+  //   {
+  //     img: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600&h=320',
+  //     tags: [{ label: 'M&A', className: 'bg-purple-50 text-purple-700' }],
+  //     title: 'Mid-Market M&A: Deal Structuring & Valuation Guide',
+  //     summary: 'PPA methodology, earn-out mechanics, and regulatory approvals for mid-market control transactions in India\'s evolving deal landscape.',
+  //     pages: '26 pages',
+  //     delay: 'd3'
+  //   }
+  // ];
 
   const row2Reports = [
     {
@@ -159,7 +159,7 @@ const HomeReportsV3 = () => {
       <div className="max-w-[1440px] mx-auto px-6 md:px-10">
         
         {/* Row 1: Taxation + Transaction */}
-        <div className="mb-20">
+        {/* <div className="mb-20">
           <SectionHeader categories={[
             { label: 'Taxation', title: 'Taxation & Regulatory', className: 'bg-green-50 text-green-700' },
             { label: 'Transaction', title: 'Transaction Advisory', className: 'bg-purple-50 text-purple-700' }
@@ -169,7 +169,7 @@ const HomeReportsV3 = () => {
               <ReportCardMini key={i} {...rep} />
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Row 2: Reporting + Assurance + Consulting + Grants */}
         <div>

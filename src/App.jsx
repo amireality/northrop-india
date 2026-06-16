@@ -225,8 +225,7 @@ import AgreedUponProceduresSpecialReporting from './pages/financialreport/Agreed
 import AccountingAdvisoryServicesPage from './pages/financialreport/AccountingAdvisoryServicesNew'
 import FinancialStatementPreparationReview from './pages/financialreport/FinancialStatementPreparationReview'
 import IFRSConversion from './pages/financialreport/IFRSConversion'
-
-
+import ReportDetailPage from './pages/reportpages/ReportDetailPage'
 
 function App() {
   return (
@@ -236,6 +235,7 @@ function App() {
       <main className="min-h-screen   antialiased">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/reports/:slug" element={<ReportDetailPage />} />
           <Route path="/who-we-are" element={<WhoWeAre />} />
           <Route path="/what-we-do" element={<WhatWeDo />} />
           <Route path="/our-thinking" element={<OurThinking />} />
