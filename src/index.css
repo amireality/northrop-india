@@ -126,6 +126,63 @@ nav a, nav li a, nav li button {
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
+/* ── FCRA Compliance Custom CSS ── */
+.fcra-hero-gradient {
+    background: linear-gradient(to right, rgba(0, 15, 34, 0.95), rgba(0, 15, 34, 0.6), transparent);
+}
+.fcra-bento-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.fcra-bento-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px -10px rgba(0, 62, 168, 0.15);
+}
+
+/* ── GST 2.0 Custom CSS ── */
+.gst-architectural-pattern {
+    background-image: 
+        linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+.gst-grid-bg-light {
+    background-image: 
+        linear-gradient(rgba(10, 37, 64, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(10, 37, 64, 0.03) 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+.gst-crosshair {
+    position: relative;
+}
+.gst-crosshair::before, .gst-crosshair::after {
+    content: '';
+    position: absolute;
+    background-color: #0a2540;
+    opacity: 0.2;
+}
+.gst-crosshair-tl::before { top: -4px; left: 0; width: 1px; height: 12px; }
+.gst-crosshair-tl::after { top: 0; left: -4px; width: 12px; height: 1px; }
+.gst-crosshair-tr::before { top: -4px; right: 0; width: 1px; height: 12px; }
+.gst-crosshair-tr::after { top: 0; right: -4px; width: 12px; height: 1px; }
+.gst-crosshair-bl::before { bottom: -4px; left: 0; width: 1px; height: 12px; }
+.gst-crosshair-bl::after { bottom: 0; left: -4px; width: 12px; height: 1px; }
+.gst-crosshair-br::before { bottom: -4px; right: 0; width: 1px; height: 12px; }
+.gst-crosshair-br::after { bottom: 0; right: -4px; width: 12px; height: 1px; }
+
+/* ── Tier-2 Cities Custom CSS ── */
+.t2-fine-grid { background-image: linear-gradient(to right, rgba(0, 15, 34, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 15, 34, 0.05) 1px, transparent 1px); background-size: 20px 20px; }
+.t2-fine-grid-dark { background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px); background-size: 20px 20px; }
+.t2-hero-gradient { background: linear-gradient(180deg, rgba(0, 15, 34, 0.2) 0%, rgba(0, 15, 34, 0.8) 100%); }
+
+/* ── CSR 2.0 Custom CSS ── */
+.csr-forensic-grid { background-image: linear-gradient(to right, rgba(0, 15, 34, 0.05) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 15, 34, 0.05) 1px, transparent 1px); background-size: 20px 20px; }
+.csr-glass-panel { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(10px); }
+
+/* ── AI Integration Custom CSS ── */
+/* ── AI Integration Custom CSS ── */
+.ai-forensic-grid { background-image: radial-gradient(circle, #e1e8ee 1px, transparent 1px); background-size: 24px 24px; }
+.text-shadow-sm { text-shadow: 0 2px 4px rgba(0,0,0,0.5); }
+
 @keyframes ticker-scroll {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }

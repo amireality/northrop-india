@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useParams, Link } from 'react-router-dom';
 import { reportsData } from '../../data/reportsData';
 
@@ -18,7 +18,7 @@ const ReportDetailPage = () => {
     }
 
     return (
-        <div className="bg-report-surface text-report-on-surface font-report-body selection:bg-report-primary selection:text-white">
+        <div className="bg-report-surface text-report-on-surface font-report-body">
             {/* Hero Section */}
             <section className="w-full">
                 <div className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden">
@@ -132,15 +132,15 @@ const ReportDetailPage = () => {
                                             {block.items.map((item, i) => (
                                                 <div 
                                                     key={i} 
-                                                    className={`${item.dark ? 'bg-report-primary text-white' : 'bg-report-surface-container-highest p-6'} p-6 flex flex-col justify-between aspect-square md:aspect-video`}
+                                                    className={`${item.dark ? 'bg-report-primary text-black' : 'bg-report-surface-container-highest text-black'} p-6 flex flex-col justify-between aspect-square md:aspect-video`}
                                                 >
-                                                    <div className={`text-[12px] font-bold tracking-[0.1em] uppercase ${item.dark ? 'opacity-70' : 'text-report-on-primary-container'}`}>
+                                                    <div className={`text-[12px] font-bold tracking-[0.1em] uppercase ${item.dark ? 'opacity-70 text-black' : 'text-report-on-primary-container'}`}>
                                                         {item.label}
                                                     </div>
-                                                    <div className={`text-[48px] md:text-[60px] font-report-headline font-semibold leading-none ${item.dark ? 'text-white' : 'text-report-primary'}`}>
+                                                    <div className={`text-[48px] md:text-[60px] font-report-headline font-semibold leading-none ${item.dark ? 'text-black' : 'text-report-primary'}`}>
                                                         {item.value}
                                                     </div>
-                                                    <div className="text-[16px] leading-[1.6]">
+                                                    <div className={`text-[16px] leading-[1.6] ${item.dark ? 'text-black/90' : 'text-report-on-surface'}`}>
                                                         {item.description}
                                                     </div>
                                                 </div>
@@ -186,15 +186,7 @@ const ReportDetailPage = () => {
                             </div>
                         )}
 
-                        {/* Advertisement */}
-                        <div className="bg-report-surface-container h-[400px] w-full flex flex-col items-center justify-center border border-report-surface-container-low p-6 text-center mb-12">
-                            <span className="text-[10px] font-bold tracking-[0.2em] text-report-on-secondary-container mb-4 uppercase">ADVERTISEMENT</span>
-                            <div className="w-full h-full flex items-center justify-center border border-dashed border-report-surface-container-low">
-                                <p className="text-[12px] font-bold uppercase tracking-widest text-report-on-secondary-container leading-relaxed">
-                                    Premium Portfolio<br/>Management Services
-                                </p>
-                            </div>
-                        </div>
+
 
                         {/* Related Articles */}
                         {report.relatedArticles && report.relatedArticles.length > 0 && (

@@ -163,6 +163,18 @@ import OpportunityCostOfCapital from './pages/insights/OpportunityCostOfCapital'
 import SovereignWealthShift from './pages/insights/SovereignWealthShift'
 import AlgorithmDrivenLiquidity from './pages/insights/AlgorithmDrivenLiquidity'
 import StrategicRealignmentFreight from './pages/insights/StrategicRealignmentFreight'
+import EsgDueDiligenceMaIndia from './pages/insights/EsgDueDiligenceMaIndia'
+import DpdpRules2025 from './pages/insights/DpdpRules2025'
+import FcraCompliancePmla from './pages/insights/FcraCompliancePmla'
+import BrsrCoreAssurance from './pages/insights/BrsrCoreAssurance'
+import IbcNineYears from './pages/insights/IbcNineYears'
+import McaAccountingStandards from './pages/insights/McaAccountingStandards'
+import GstNewStructure from './pages/insights/GstNewStructure'
+import IndiaMa2025 from './pages/insights/IndiaMa2025'
+import Tier2Cities from './pages/insights/Tier2Cities'
+import CsrImpactEvidence from './pages/insights/CsrImpactEvidence'
+import AiIntegrationFailures from './pages/insights/AiIntegrationFailures'
+import IncomeTaxAct2025 from './pages/insights/IncomeTaxAct2025'
 //new pages for grants and esg advisory
 import EsgReportingDisclosure from './pages/grandfunding/EsgReportingDisclosure'
 import SustainabilityStrategyEsgIntegration from './pages/grandfunding/SustainabilityStrategyEsgIntegration'
@@ -469,6 +481,18 @@ function App() {
           <Route path="/insights/sovereign-wealth-shift" element={<SovereignWealthShift />} />
           <Route path="/insights/algorithm-driven-liquidity" element={<AlgorithmDrivenLiquidity />} />
           <Route path="/insights/strategic-realignment-freight" element={<StrategicRealignmentFreight />} />
+          <Route path="/insights/esg-due-diligence-ma-india" element={<EsgDueDiligenceMaIndia />} />
+          <Route path="/insights/dpdp-rules-2025" element={<DpdpRules2025 />} />
+          <Route path="/insights/fcra-compliance-pmla" element={<FcraCompliancePmla />} />
+          <Route path="/insights/brsr-core-assurance" element={<BrsrCoreAssurance />} />
+          <Route path="/insights/ibc-nine-years" element={<IbcNineYears />} />
+          <Route path="/insights/mca-accounting-standards" element={<McaAccountingStandards />} />
+          <Route path="/insights/gst-new-structure" element={<GstNewStructure />} />
+          <Route path="/insights/india-ma-2025" element={<IndiaMa2025 />} />
+          <Route path="/insights/tier-2-cities" element={<Tier2Cities />} />
+          <Route path="/insights/csr-impact-evidence" element={<CsrImpactEvidence />} />
+          <Route path="/insights/ai-integration-failures" element={<AiIntegrationFailures />} />
+          <Route path="/insights/income-tax-act-2025" element={<IncomeTaxAct2025 />} />
 
 
 

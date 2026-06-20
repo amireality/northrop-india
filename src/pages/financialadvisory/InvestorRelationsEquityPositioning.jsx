@@ -33,7 +33,7 @@ const InvestorRelationsEquityPositioning = () => {
         </header>
 
         {/* Primary Large Image Section */}
-        <section className="max-w-[1440px] mx-auto px-8 md:px-16 mb-[20px]">
+        <section className="max-w-[1440px] mx-auto px-8 md:px-16 mb-[80px] md:mb-[120px]">
           <div className="w-full aspect-[21/9] relative overflow-hidden group shadow-2xl border border-[#c4c7c7]">
             <img
               alt="Strategic Corporate Perspective"
@@ -49,12 +49,12 @@ const InvestorRelationsEquityPositioning = () => {
         </section>
 
         {/* Industry-Specific IR Failures */}
-        <section className="max-w-[1200px] mx-auto px-[32px] md:px-[64px] mb-[20px]">
+        <section className="max-w-[1200px] mx-auto px-[32px] md:px-[64px] mb-[80px] md:mb-[120px]">
           <div className="grid grid-cols-12 gap-[24px]">
-            <div className="col-span-12 md:col-span-4 sticky top-32 h-fit">
+            <div className="col-span-12 md:col-span-4 relative md:sticky top-32 self-start mb-16 md:mb-0 pb-8 md:pb-0">
               <h2 className="font-serif text-[28px] text-[#1b1c19] mb-4 font-bold">Structural Challenges</h2>
               <p className="font-sans text-[16px] text-[#444748] mb-8 max-w-[280px] leading-relaxed">Identifying the specific friction points that prevent full market valuation across distinct corporate profiles.</p>
-              <div className="w-12 h-0.5 bg-[#000000]"></div>
+              {/* <div className="w-12 h-0.5 bg-[#000000]"></div> */}
             </div>
             <div className="col-span-12 md:col-span-8">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-20 lg:pl-12">
@@ -75,7 +75,7 @@ const InvestorRelationsEquityPositioning = () => {
         </section>
 
         {/* Case Study Section */}
-        <section className="bg-[#eae8e3] py-[128px] mb-[20px] overflow-hidden border-y border-[#c4c7c7]/30">
+        <section className="bg-[#eae8e3] py-[128px] mb-[80px] md:mb-[120px] overflow-hidden border-y border-[#c4c7c7]/30">
           <div className="max-w-[1200px] mx-auto px-[32px] md:px-[64px]">
             <div className="grid grid-cols-12 gap-[24px] items-center">
               <div className="col-span-12 lg:col-span-5 mb-12 lg:mb-0">
@@ -111,7 +111,7 @@ const InvestorRelationsEquityPositioning = () => {
         </section>
 
         {/* Strategic Deliverables */}
-        <section className="max-w-[1200px] mx-auto px-[32px] md:px-[64px] mb-[20px]">
+        <section className="max-w-[1200px] mx-auto px-[32px] md:px-[64px] mb-[80px] md:mb-[120px]">
           <div className="grid grid-cols-12 gap-[24px]">
             <div className="col-span-12 lg:col-span-10">
               <h2 className="font-serif text-[32px] md:text-[48px] text-[#1b1c19] mb-20 max-w-3xl font-bold">Strategic Deliverables</h2>
