@@ -56,7 +56,7 @@ export default function Header() {
         <div className="flex items-center h-full flex-1">
           <div className="hidden h-full items-center gap-6 xl:flex">
 
-            <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
+            <div className="flex h-full items-center " onMouseEnter={() => setIsMegaMenuOpen(false)}>
               <NavItem label="Who we are" href="/who-we-are" hasDropdown={false} />
             </div>
 
@@ -66,7 +66,7 @@ export default function Header() {
               onMouseEnter={() => setIsMegaMenuOpen(true)}
               onClick={() => setIsMegaMenuOpen(!isMegaMenuOpen)}
             >
-              <Link to="/what-we-do" className={`${isMegaMenuOpen ? 'text-[#c5a044]' : 'text-[#001f3f] hover:text-gray-600'}`}>What we do</Link>
+              <Link to="/what-we-do" className={`${isMegaMenuOpen ? 'text-[#c5a044]' : 'text-[#001f3f] hover:text-[#c5a044]'}`}>What we do</Link>
               <button className="flex items-center h-full outline-none cursor-pointer">
                 <ChevronDown size={14} className={`transition-transform duration-300 ${isMegaMenuOpen ? 'rotate-180' : ''}`} />
               </button>
@@ -232,7 +232,7 @@ export default function Header() {
 
 function NavItem({ label, href = "#", hasDropdown = true }) {
   return (
-    <Link to={href} className="flex items-center gap-1 text-[15px] text-[#001f3f] hover:text-gray-600 transition-colors">
+    <Link to={href} className="flex items-center gap-1 text-[15px] text-[#001f3f] hover:text-[#c5a044] transition-colors">
       {label}{hasDropdown && <ChevronDown size={14} className="text-gray-400" />}
     </Link>
   );

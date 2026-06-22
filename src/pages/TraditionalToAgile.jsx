@@ -1,19 +1,19 @@
-import React, { useEffect, useState } from 'react';
+import  {  useState } from 'react';
 
 const TraditionalToAgile = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scrolled = (winScroll / height) * 100;
-      setScrollProgress(scrolled);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  //     const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  //     const scrolled = (winScroll / height) * 100;
+  //     setScrollProgress(scrolled);
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => window.removeEventListener('scroll', handleScroll);
+  // }, []);
 
   return (
     <div className="bg-white text-gray-900 overflow-x-hidden font-sans text-[14px] md:text-[16px]">
@@ -24,15 +24,15 @@ const TraditionalToAgile = () => {
           <img
             alt="Hero Background"
             className="w-full h-full object-cover"
-            src="https://lh3.googleusercontent.com/aida/AP1WRLuCS4b_VHyElK8pqB9Kc3TR94WQJyV9mG1e0qEsMbIQh9ot8KX8YC_ScOfR4Bx9AN_2WZqwVHZwGoYMOyKjcQzCiJ3j1t9wEY8r6i4CO5aRsWP_oQ7smgp2BmtsDkh2Gwuk41jDRDo1koYbmNtU-4x_loD2LU-txbxEaEO_toN1NeT0BO_bQUEtpQqHTBGTpH1zvjh9hJ8hEUM-kgc0a9KF79u8vdqJbKfBK_hJ5RmRokRzE3HOGQTG6w"
+            src="/tradiaction.jpeg"
           />
         </div>
         <div className="relative z-20 px-6 md:px-12 lg:px-24 pb-16 md:pb-24 max-w-7xl mx-auto w-full">
-          <div className="flex items-center gap-4 mb-4 text-[#000f22]">
+          {/* <div className="flex items-center gap-4 mb-4 text-[#000f22]">
             <span className="font-mono text-[10px] md:text-[12px] tracking-[0.2em] uppercase">Volume 19</span>
             <span className="w-8 h-px bg-[#000f22]"></span>
             <span className="font-mono text-[10px] md:text-[12px] tracking-[0.2em]">28.6139° N, 77.2090° E</span>
-          </div>
+          </div> */}
           <h1 className="text-[32px] md:text-[48px] lg:text-[64px] font-bold text-white max-w-4xl mb-6 md:mb-8 leading-tight">
             <strong>From Traditional to Agile:</strong> Internal Audit’s New Mandate
           </h1>
@@ -251,10 +251,10 @@ const TraditionalToAgile = () => {
       </main>
 
       {/* Micro-interaction: Scroll indicator */}
-      <div 
+      {/* <div 
         className="fixed top-0 md:top-20 left-0 h-1 bg-[#000f22] z-50 transition-all duration-300" 
         style={{ width: `${scrollProgress}%` }}
-      ></div>
+      ></div> */}
     </div>
   );
 };

@@ -239,6 +239,7 @@ import FinancialStatementPreparationReview from './pages/financialreport/Financi
 import IFRSConversion from './pages/financialreport/IFRSConversion'
 import ReportDetailPage from './pages/reportpages/ReportDetailPage'
 import TraditionalToAgile from './pages/TraditionalToAgile'
+import MdProfile from './pages/MdProfile'
 
 function App() {
   return (
@@ -268,6 +269,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/insights" element={<Insights />} />
           <Route path="/company-profile" element={<Companyprofile />} />
+          <Route path="/md-profile" element={<MdProfile />} />
           <Route path="/digital" element={<Digital />} />
           <Route path="/digital/business-transformation" element={<BusinessTransformation />} />
           <Route path="/digital/erp-excellence" element={<ErpExcellence />} />
