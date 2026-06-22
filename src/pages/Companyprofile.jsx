@@ -6,8 +6,8 @@ function Companyprofile() {
     window.scrollTo(0, 0);
   }, []);
 
-  // Generate an array of numbers from 1 to 15 to correctly sequence the slide images
-  const totalSlides = 15;
+  // Generate an array of numbers from 1 to 16 to correctly sequence the slide images
+  const totalSlides = 16;
   const slideNumbers = Array.from({ length: totalSlides }, (_, i) => i + 1);
 
   return (
@@ -25,7 +25,7 @@ function Companyprofile() {
             className="w-full bg-[#0B1629]"
           >
             <img 
-              src={`/companyprofile/Northrop Management PPT-${num}.png`} 
+              src={`/companyprofile/Company Profile_page-${String(num).padStart(4, '0')}.jpg`} 
               alt={`Northrop Management Corporate Profile Slide ${num}`}
               className="w-full h-auto object-contain block"
               loading={num <= 2 ? "eager" : "lazy"}
