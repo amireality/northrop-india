@@ -15,19 +15,19 @@ const CapitalStructureDebtArchitecture = () => {
             <img
               alt="Atmospheric low-angle shot of a glass and steel skyscraper reaching into a dramatic sky."
               className="w-full h-full object-cover grayscale brightness-75 contrast-125"
-              src="/financialadvisory/capital-structure.png"
+              src="/financialadvisory/capital-structure0.jpeg"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-[#fbf9f4] via-[#fbf9f4]/40 to-transparent"></div>
+            
           </div>
           <div className="relative z-10 max-w-[1200px] mx-auto px-[32px] md:px-[64px] h-full flex flex-col justify-center">
             <div className="max-w-4xl">
-              <span className="font-sans text-[12px] text-[#000000] uppercase tracking-widest mb-6 block font-bold">FA-01: Service Profile</span>
-              <h1 className="font-serif text-[48px] md:text-[88px] leading-[1.05] text-[#000000] mb-12 tracking-tighter font-extrabold">
+              <span className="font-sans text-[12px] text-[#ffff] uppercase tracking-widest mb-6 block font-bold">FA-01: Service Profile</span>
+              <h1 className="font-serif text-[48px] md:text-[88px] leading-[1.05] text-[#ffff] mb-12 tracking-tighter font-extrabold">
                 Capital Structure <br/>& Debt Architecture.
               </h1>
               <div className="flex gap-8 items-start">
-                <div className="w-2 h-24 bg-[#000000] shrink-0"></div>
-                <h2 className="font-serif text-[24px] md:text-[28px] text-[#444748] max-w-2xl font-medium italic">
+                <div className="w-2 h-24 bg-[#ffff] shrink-0"></div>
+                <h2 className="font-serif text-[24px] md:text-[28px] text-[#ffff] max-w-2xl font-medium italic">
                   Your debt was raised one tranche at a time. It now constrains every strategic decision you take.
                 </h2>
               </div>

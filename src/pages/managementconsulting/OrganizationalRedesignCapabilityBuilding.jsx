@@ -15,15 +15,15 @@ const OrganizationalRedesignCapabilityBuilding = () => {
             <img
               alt="Modern Architecture Detail"
               className="w-full h-full object-cover"
-              src="/managmentcounsaltingimg/organizational-redesign.png"
+              src="/managmentcounsaltingimg/managmentconsulting.jpeg"
             />
-            <div className="absolute inset-0 bg-white/60 backdrop-blur-[2px]"></div>
+            
           </div>
           <div className="relative z-10 px-[32px] md:px-[64px] max-w-[1200px] mx-auto w-full">
             <div className="max-w-4xl">
-              <span className="font-sans text-[12px] font-semibold text-[#000000] mb-6 block uppercase tracking-[0.2em]">Service MC-04 / Organizational Redesign</span>
-              <h1 className="font-serif text-[48px] md:text-[64px] text-[#000000] mb-8 leading-tight font-semibold">The structure that built the company is the structure that limits it now.</h1>
-              <p className="font-sans text-[18px] text-[#444748] max-w-2xl border-l-2 border-[#000000] pl-8 py-2">
+              <span className="font-sans text-[12px] font-semibold text-[#ffff] mb-6 block uppercase tracking-[0.2em]">Service MC-04 / Organizational Redesign</span>
+              <h1 className="font-serif text-[48px] md:text-[64px] text-[#ffff] mb-8 leading-tight font-semibold">The structure that built the company is the structure that limits it now.</h1>
+              <p className="font-sans text-[18px] text-[#ffff] max-w-2xl border-l-2 border-[#ffff] pl-8 py-2">
                 Organizations accumulate; they aren't optimized. Reporting lines reflect history, not strategy. We redesign operating models for decision velocity and scale.
               </p>
             </div>

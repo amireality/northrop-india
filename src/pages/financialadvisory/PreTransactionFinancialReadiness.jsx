@@ -29,10 +29,10 @@ const PreTransactionFinancialReadiness = () => {
           <div className="h-[70vh] w-full relative">
             <img
               alt="Strategic high-rise perspective"
-              className="w-full h-full object-cover opacity-90 grayscale brightness-75 mix-blend-luminosity"
-              src="/financialadvisory/pre-transaction.png"
+              className="w-full h-full  grayscale "
+              src="/financialadvisory/pre-transaction-readiness.jpeg"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#000000]/40"></div>
+           
             <div className="absolute bottom-16 left-0 w-full px-[32px] md:px-[64px]">
               <div className="max-w-[1200px] mx-auto">
                 <div className="text-[#ffffff] max-w-lg">

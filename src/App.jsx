@@ -238,6 +238,7 @@ import AccountingAdvisoryServicesPage from './pages/financialreport/AccountingAd
 import FinancialStatementPreparationReview from './pages/financialreport/FinancialStatementPreparationReview'
 import IFRSConversion from './pages/financialreport/IFRSConversion'
 import ReportDetailPage from './pages/reportpages/ReportDetailPage'
+import TraditionalToAgile from './pages/TraditionalToAgile'
 
 function App() {
   return (
@@ -493,6 +494,7 @@ function App() {
           <Route path="/insights/csr-impact-evidence" element={<CsrImpactEvidence />} />
           <Route path="/insights/ai-integration-failures" element={<AiIntegrationFailures />} />
           <Route path="/insights/income-tax-act-2025" element={<IncomeTaxAct2025 />} />
+          <Route path="/insights/traditional-to-agile" element={<TraditionalToAgile />} />
 
 
 

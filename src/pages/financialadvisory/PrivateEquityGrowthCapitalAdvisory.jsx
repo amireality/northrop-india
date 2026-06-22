@@ -29,10 +29,9 @@ const PrivateEquityGrowthCapitalAdvisory = () => {
             <div className="w-full aspect-[4/5] bg-[#f0eee9] relative overflow-hidden group border border-[#c4c7c7] shadow-2xl">
               <img
                 alt="Modern high-end corporate skyscraper reflecting the morning sun."
-                className="w-full h-full object-cover grayscale brightness-90 group-hover:scale-105 transition-transform duration-700"
-                src="/financialadvisory/private-equity.png"
+                className="w-full h-full object-cover "
+                src="/financialadvisory/private-equity-advisory1.jpeg"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-[#141414]/40 to-transparent"></div>
             </div>
           </div>
         </section>

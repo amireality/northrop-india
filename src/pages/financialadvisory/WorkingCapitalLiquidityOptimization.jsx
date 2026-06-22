@@ -38,10 +38,10 @@ const WorkingCapitalLiquidityOptimization = () => {
           <div className="w-full h-[700px] relative overflow-hidden shadow-2xl border-y border-[#c4c7c7]">
             <img
               alt="High-end corporate architectural landscape"
-              className="w-full h-full object-cover grayscale brightness-90"
-              src="/financialadvisory/working-capital.png"
+              className="w-full h-full "
+              src="/financialadvisory/working-capital0.jpeg"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-[#1b1c19]/05 to-[#1b1c19]/40 pointer-events-none"></div>
+     
             <div className="absolute bottom-16 left-[32px] md:left-[64px] z-10 text-[#ffffff] max-w-xl">
               <p className="font-sans text-[12px] uppercase tracking-widest mb-4 opacity-80 font-bold">Institutional Perspective</p>
               <h2 className="font-serif text-[32px] md:text-[40px] font-bold tracking-tight">Structural efficiency is the prerequisite for sustained liquidity.</h2>

@@ -11,7 +11,7 @@ import HomeForumV3 from '../components/home/HomeForumV3';
 import HomeIndustriesV3 from '../components/home/HomeIndustriesV3';
 import ContactSection from '../components/home/ContactSection';
 import Researchreports from '../components/Researchreports';
-import WhatsAppButton from '../components/WhatsAppButton';
+
 
 function HomePage() {
   useEffect(() => {
@@ -43,7 +43,7 @@ function HomePage() {
       </Helmet>
 
 
-      <WhatsAppButton/>
+
 
     
 

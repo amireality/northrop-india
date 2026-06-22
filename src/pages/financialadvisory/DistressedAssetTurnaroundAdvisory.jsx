@@ -47,11 +47,11 @@ const DistressedAssetTurnaroundAdvisory = () => {
         {/* Large Scale Strategic Image 1 */}
         <section className="w-full">
           <div className="max-w-[1440px] mx-auto px-[32px] md:px-[64px]">
-            <div className="relative overflow-hidden border border-[#c4c7c7] shadow-2xl">
+            <div className="relative overflow-hidden border border-[#c4c7c7]">
               <img
                 alt="Strategic high-angle view of a complex urban grid"
-                className="w-full h-[700px] object-cover grayscale brightness-90 hover:grayscale-0 transition-all duration-1000"
-                src="/financialadvisory/distressed-asset.png"
+                className="w-full h-[700px] object-cover "
+                src="/financialadvisory/distressed-asset-turnaround.jpeg"
               />
             </div>
             <div className="mt-4 flex justify-between items-center">

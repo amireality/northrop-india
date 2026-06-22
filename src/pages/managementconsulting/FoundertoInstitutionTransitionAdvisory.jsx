@@ -15,7 +15,7 @@ const FoundertoInstitutionTransitionAdvisory = () => {
             <img
               alt="Atmospheric high-contrast architectural detail"
               className="w-full h-full object-cover grayscale contrast-125 brightness-75"
-              src="/managmentcounsaltingimg/founder-to-institution.png"
+              src="/managmentcounsaltingimg/founder-to-institution-transition-advisory.jpeg"
             />
             <div className="absolute inset-0 bg-[#fbf9f4]/80 mix-blend-overlay"></div>
           </div>
