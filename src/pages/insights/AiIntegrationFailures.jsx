@@ -197,14 +197,9 @@ const AiIntegrationFailures = () => {
                         <div className="relative group cursor-pointer overflow-hidden rounded-lg">
                             <div
                                 aria-label="A high-contrast cinematic photograph of a dark, futuristic server room at night."
-                                className="w-full aspect-video bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                                className="w-full h-[400px] bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                                 style={{ backgroundImage: "url('/insightpage/aifailure2.png')" }}
                             ></div>
-                            <div className="absolute inset-0 bg-[#000f22]/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                                <button className="bg-[#ffffff]/10 backdrop-blur-md border border-[#ffffff]/20 p-4 rounded-full">
-                                    <span className="material-symbols-outlined text-[#ffffff] text-[36px]">play_arrow</span>
-                                </button>
-                            </div>
                         </div>
                         <div className="text-[#ffffff]">
                             <h2 className="font-['Montserrat'] text-[32px] font-bold mb-[16px] leading-tight tracking-[-0.01em]">Strategic Failure Implications</h2>

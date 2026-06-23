@@ -12,7 +12,7 @@ const EsgDueDiligenceMaIndia = () => {
                     <div className="absolute inset-0 z-0">
                         <div 
                             className="esg-hero-bg w-full h-full bg-cover bg-center" 
-                            style={{ backgroundImage: "url('/insightpage/esg.jpg')" }}
+                            style={{ backgroundImage: "url('/reportimg/2ND .png')" }}
                         >
                             {/* <div className="absolute inset-0 bg-gradient-to-r from-esg-primary/80 to-transparent"></div> */}
                         </div>
