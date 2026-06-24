@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import HomeInsightsV3 from '../components/home/HomeInsightsV3';
+import Insightsv3 from '../components/Insightv3';
 
 const insightsData = {
   featuredArticle: {
@@ -204,6 +205,8 @@ export default function Insights() {
 
 
         {/* <HomeInsightsV3/> */}
+
+<Insightsv3/>
 
         {/* Strategic Perspectives: Editorial Row */}
         <section className="mb-[48px]">

@@ -241,6 +241,18 @@ import ReportDetailPage from './pages/reportpages/ReportDetailPage'
 import TraditionalToAgile from './pages/TraditionalToAgile'
 import MdProfile from './pages/MdProfile'
 
+// New Insights Imports
+import EsgAsAlpha from './pages/new-insights/EsgAsAlpha'
+import AFiduciaryApproachToSocialCapital from './pages/new-insights/AFiduciaryApproachToSocialCapital'
+import Brsr from './pages/new-insights/Brsr'
+import ClimateRiskAsMaterialRisk from './pages/new-insights/ClimateRiskAsMaterialRisk'
+import Fcra from './pages/new-insights/Fcra'
+import FromIsae3000 from './pages/new-insights/FromIsae3000'
+import HearingAllVoices from './pages/new-insights/HearingAllVoices'
+import ModernisingTheGrantLifecycle from './pages/new-insights/ModernisingTheGrantLifecycle'
+import QuantifyingTheIntangible from './pages/new-insights/QuantifyingTheIntangible'
+import BeyondTheNarrative from './pages/new-insights/BeyondTheNarrative'
+
 function App() {
   return (
     <BrowserRouter>
@@ -498,10 +510,20 @@ function App() {
           <Route path="/insights/income-tax-act-2025" element={<IncomeTaxAct2025 />} />
           <Route path="/insights/traditional-to-agile" element={<TraditionalToAgile />} />
 
+          {/* New Insights Routes */}
+          <Route path="/new-insights/esg-as-alpha" element={<EsgAsAlpha />} />
+          <Route path="/new-insights/a-fiduciary-approach-to-social-capital" element={<AFiduciaryApproachToSocialCapital />} />
+          <Route path="/new-insights/brsr" element={<Brsr />} />
+          <Route path="/new-insights/climate-risk-as-material-risk" element={<ClimateRiskAsMaterialRisk />} />
+          <Route path="/new-insights/fcra" element={<Fcra />} />
+          <Route path="/new-insights/from-isae-3000" element={<FromIsae3000 />} />
+          <Route path="/new-insights/hearing-all-voices" element={<HearingAllVoices />} />
+          <Route path="/new-insights/modernising-the-grant-lifecycle" element={<ModernisingTheGrantLifecycle />} />
+          <Route path="/new-insights/quantifying-the-intangible" element={<QuantifyingTheIntangible />} />
+          <Route path="/new-insights/beyond-the-narrative" element={<BeyondTheNarrative />} />
 
 
-
-
+          
 
           {/* Industry Pages */}
           <Route path="/services/banking-financial-services" element={<BankingFinancialServices />} />
