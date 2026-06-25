@@ -204,7 +204,7 @@ export default function Insights() {
         </section>
 
 
-        {/* <HomeInsightsV3/> */}
+        <HomeInsightsV3/>
 
 <Insightsv3/>
 

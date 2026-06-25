@@ -202,10 +202,10 @@ const EsgAsAlpha = () => {
               </ul>
             </div>
             <div className="lg:w-1/3 flex flex-col gap-4 w-full">
-              <button className="bg-[#7c5800] text-white px-8 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase hover:bg-[#5e4200] transition-colors flex items-center justify-center gap-2">
+              <Link to="/contact" className="bg-[#7c5800] text-white px-8 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase hover:bg-[#5e4200] transition-colors flex items-center justify-center gap-2 cursor">
                 <span className="material-symbols-outlined">download</span>
                 DOWNLOAD PROTOCOL
-              </button>
+              </Link>
               <p className="text-[14px] leading-[20px] text-[#78849c] text-center italic">Requires Executive Portal Access</p>
             </div>
           </div>

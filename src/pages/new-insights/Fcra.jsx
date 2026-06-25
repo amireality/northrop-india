@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const Fcra = () => {
   useEffect(() => {
@@ -158,9 +159,9 @@ const Fcra = () => {
             <div className="text-white">
               <h3 className="font-serif text-[32px] md:text-[48px] leading-[40px] md:leading-[56px] font-bold mb-6">IS YOUR ORGANIZATION <br />READY FOR 2026?</h3>
               <p className="text-[16px] md:text-[18px] leading-[28px] text-white/80 mb-12">Implementation readiness is the only shield against retroactive penalties and account freezing.</p>
-              <button className="bg-[#7c5800] text-white px-8 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase hover:bg-[#5e4200] transition-all">
+              <Link to="/contact" className="inline-block bg-[#7c5800] text-white px-8 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase hover:bg-[#5e4200] transition-all">
                 REQUEST COMPLIANCE AUDIT
-              </button>
+              </Link>
             </div>
             <div className="bg-white p-12">
               <div className="space-y-8">

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const BeyondTheNarrative = () => {
   useEffect(() => {
@@ -200,13 +201,13 @@ const BeyondTheNarrative = () => {
                   </li>
                 </ul>
                 <div className="mt-12 flex flex-col sm:flex-row gap-4">
-                  <button className="bg-[#001F3F] text-white px-8 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase hover:bg-opacity-90 transition-all flex items-center justify-center gap-2">
+                  <Link to="/contact" className="inline-flex bg-[#001F3F] text-white px-8 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase hover:bg-opacity-90 transition-all items-center justify-center gap-2">
                     <span className="material-symbols-outlined text-sm">download</span>
                     Download Protocol PDF
-                  </button>
-                  <button className="border border-[#001F3F] text-[#001F3F] px-8 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase hover:bg-[#001F3F] hover:text-white transition-all">
+                  </Link>
+                  <Link to="/contact" className="inline-flex border border-[#001F3F] text-[#001F3F] px-8 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase hover:bg-[#001F3F] hover:text-white transition-all items-center justify-center">
                     Request Briefing
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>

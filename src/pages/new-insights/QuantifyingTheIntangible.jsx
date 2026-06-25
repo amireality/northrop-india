@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const QuantifyingTheIntangible = () => {
   useEffect(() => {
@@ -185,9 +186,9 @@ const QuantifyingTheIntangible = () => {
               <div className="text-center space-y-6">
                 <h4 className="text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase text-[#7c5800]">NORTHROP ADVANTAGE</h4>
                 <p className="font-serif text-[24px] leading-[32px] font-semibold">Leverage our proprietary forensic models to secure institutional trust.</p>
-                <button className="bg-[#7c5800] text-white px-8 py-4 text-[12px] leading-[16px] font-bold hover:bg-white hover:text-[#001F3F] transition-all duration-300 uppercase tracking-[0.15em] w-full md:w-auto">
+                <Link to="/contact" className="inline-block bg-[#7c5800] text-white px-8 py-4 text-[12px] leading-[16px] font-bold hover:bg-white hover:text-[#001F3F] transition-all duration-300 uppercase tracking-[0.15em] w-full md:w-auto">
                   Request Consult
-                </button>
+                </Link>
               </div>
             </div>
           </div>

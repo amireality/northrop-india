@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const HearingAllVoices = () => {
   useEffect(() => {
@@ -236,10 +237,10 @@ const HearingAllVoices = () => {
                 </div>
               </div>
               <div className="mt-20 text-center flex flex-col items-center">
-                <button className="bg-white text-[#001F3F] px-12 py-5 text-[12px] leading-[16px] font-bold tracking-[0.2em] uppercase hover:bg-gray-100 transition-all flex items-center gap-3">
+                <Link to="/contact" className="inline-flex bg-white text-[#001F3F] px-12 py-5 text-[12px] leading-[16px] font-bold tracking-[0.2em] uppercase hover:bg-gray-100 transition-all items-center gap-3">
                   <span>Download Full Protocol</span>
                   <span className="material-symbols-outlined">download</span>
-                </button>
+                </Link>
                 <p className="mt-6 font-mono text-white/40 text-[10px] uppercase">Confidential Advisor Copy • Rev 2024.08</p>
               </div>
             </div>

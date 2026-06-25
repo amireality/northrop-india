@@ -1,5 +1,6 @@
 import  { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const ClimateRiskAsMaterialRisk = () => {
   useEffect(() => {
@@ -243,10 +244,10 @@ const ClimateRiskAsMaterialRisk = () => {
               </div>
               <div className="mt-12 flex flex-col md:flex-row items-center justify-between gap-6 pt-10 border-t border-[#c5c6cd]/50">
                 <p className="text-[11px] font-bold tracking-[0.05em] uppercase text-[#4A5568]">SECURE ACCESS TO FULL FORENSIC DATASET</p>
-                <button className="bg-[#001F3F] text-white px-8 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase flex items-center gap-3 hover:bg-black transition-all">
+                <Link to="/contact" className="bg-[#001F3F] text-white px-8 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase flex items-center gap-3 hover:bg-black transition-all">
                   DOWNLOAD FULL ADVISORY (PDF)
                   <span className="material-symbols-outlined text-[18px]">download</span>
-                </button>
+                </Link>
               </div>
             </div>
           </section>

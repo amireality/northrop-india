@@ -204,10 +204,10 @@ const Brsr = () => {
               <p className="text-[16px] md:text-[18px] leading-[28px] text-white/80 mb-10 max-w-2xl mx-auto relative z-10">
                 Our full 112-page report provides the sector-by-sector roadmap for dual ESG reporting compliance and forensic audit protocols.
               </p>
-              <button className="bg-[#f3f4f5] text-[#001F3F] px-10 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase hover:bg-white transition-all flex items-center justify-center gap-3 mx-auto relative z-10">
+              <Link to="/contact" className="bg-[#f3f4f5] text-[#001F3F] px-10 py-4 text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase hover:bg-white transition-all flex items-center justify-center gap-3 mx-auto relative z-10">
                 <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>download</span>
                 DOWNLOAD FULL REPORT (PDF)
-              </button>
+              </Link>
             </div>
           </section>
         </article>
