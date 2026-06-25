@@ -19,7 +19,7 @@ const ModernisingTheGrantLifecycle = () => {
             <img 
               alt="Forensic audit of documents"
               className="w-full h-full object-cover"
-              src="/insightpage/modernising.jpg" 
+              src="/insightpage/modern.jpeg" 
             />
             {/* <div className="absolute inset-0 bg-gradient-to-t from-[#001F3F]/80 via-[#001F3F]/40 to-transparent"></div> */}
           </div>
