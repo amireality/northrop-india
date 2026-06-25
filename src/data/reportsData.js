@@ -4,7 +4,7 @@ export const reportsData = {
         title: 'India M&A Crosses US$50B — AI Now Cuts FDD Review Time by 50%',
         date: 'JUNE 24, 2025',
         readTime: '12 MIN READ',
-        heroImg: '/reportimg/india-ma-2025.jpg',
+        heroImg: '/reportimg/1ST .png',
         content: [
             {
                 type: 'paragraph',
@@ -102,7 +102,7 @@ export const reportsData = {
         subheadline: 'Organisations must move from reactive investigation to continuous fraud surveillance.',
         date: 'JUNE 2024',
         readTime: '15 MIN READ',
-        heroImg: '/reportimg/rbi-bank-fraud-2025.jpg',
+        heroImg: '/reportimg/3RD .png',
         content: [
             {
                 type: 'paragraph',
@@ -207,7 +207,7 @@ export const reportsData = {
         subheadline: '',
         date: 'MARCH 2026',
         readTime: '10 MIN READ',
-        heroImg: '/reportimg/icai-fais.png',
+        heroImg: '/reportimg/4TH .png',
         content: [
             {
                 type: 'heading',

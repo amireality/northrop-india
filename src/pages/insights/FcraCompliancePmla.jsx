@@ -43,9 +43,9 @@ const FcraCompliancePmla = () => {
                             In an era of unprecedented regulatory scrutiny, the intersection of Foreign Contribution (Regulation) Act and Prevention of Money Laundering Act has become the definitive survival frontier for non-profits.
                         </p>
                         <div className="flex gap-[16px]">
-                            <button className="bg-[#f7fafd] text-[#000f22] px-8 py-4 rounded-[4px] font-['Inter'] text-[14px] font-semibold uppercase tracking-[0.05em] border border-[#74777e] hover:bg-opacity-90 transition-all">
+                            <Link to="/contact" className="bg-[#f7fafd] text-[#000f22] px-8 py-4 rounded-[4px] font-['Inter'] text-[14px] font-semibold uppercase tracking-[0.05em] border border-[#74777e] hover:bg-opacity-90 transition-all inline-block">
                                 Download Intelligence Report
-                            </button>
+                            </Link>
                         </div>
                     </div>
                 </section>
