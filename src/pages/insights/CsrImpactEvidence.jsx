@@ -13,10 +13,10 @@ const CsrImpactEvidence = () => {
                     <div className="absolute inset-0 z-0">
                         <img
                             alt="Hero Image"
-                            className="w-full h-full object-cover opacity-80"
+                            className="w-full h-full object-cover "
                             src="/insightpage/csr2.png"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-[#000f22] via-[#000f22]/40 to-transparent"></div>
+                        {/* <div className="absolute inset-0 bg-gradient-to-t from-[#000f22] via-[#000f22]/40 to-transparent"></div> */}
                     </div>
                     <div className="absolute top-[40px] left-[40px] z-10 flex flex-col gap-1 border-l border-[#ffffff]/30 pl-4">
                         <span className="font-['Inter'] text-[12px] font-medium text-[#ffffff]/60 tracking-[0.05em] uppercase">STRATEGY LEDGER VOL. 15</span>

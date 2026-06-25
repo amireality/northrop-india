@@ -32,7 +32,7 @@ const AiIntegrationFailures = () => {
             {/* Hero Section */}
             <header className="relative min-h-[85vh] flex items-center pt-[96px] overflow-hidden">
                 <div className="absolute inset-0 z-0">
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#000f22] via-[#000f22]/60 to-transparent z-10"></div>
+                    {/* <div className="absolute inset-0 bg-gradient-to-t from-[#000f22] via-[#000f22]/60 to-transparent z-10"></div> */}
                     <img
                         alt="Strategy Ledger Vol. 14 Hero Image"
                         className="w-full h-full object-cover"

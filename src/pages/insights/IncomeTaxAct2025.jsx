@@ -18,25 +18,37 @@ const IncomeTaxAct2025 = () => {
     return (
         <div className="bg-[#f7fafd] font-['Inter'] text-[#181c1e] text-[16px] antialiased overflow-x-hidden selection:bg-[#5884ff] selection:text-[#ffffff]">
             {/* Main Content */}
-            <main className="w-full max-w-[1280px] mx-auto relative pt-[96px]">
+            <main className="w-full relative">
                 {/* Hero Section */}
-                <header className="pt-[80px] pb-[32px] px-[16px] md:px-[40px] relative" style={gridBg}>
-                    <div className="max-w-3xl mx-auto mb-[32px]">
-                        <div className="flex items-center gap-[16px] mb-[16px]">
-                            <span className="bg-[#F0E6D2] text-[#8B6532] px-3 py-1 rounded-sm font-['Inter'] text-[12px] font-medium uppercase tracking-[0.05em] border border-[#D4C3A3]">Strategy Ledger</span>
-                            <span className="text-[#43474d] font-['Inter'] text-[12px] font-medium tracking-[0.05em] uppercase">REF: IT-25/26</span>
-                            <span className="text-[#43474d] font-['Inter'] text-[12px] font-medium tracking-[0.05em] uppercase ml-auto">Oct 24, 2024</span>
-                        </div>
-                        <h1 className="font-['Montserrat'] text-[32px] md:text-[48px] font-bold text-[#000f22] mb-[8px] tracking-tight leading-[1.1]">Income Tax Act 2025: Ushering in the "Tax Year" Era</h1>
-                        <p className="font-['Inter'] text-[18px] text-[#43474d] italic mb-[32px] pl-[16px] border-l-2 border-[#c6a87c] leading-relaxed">
-                            Deconstructing the shift from a dual assessment framework to a unified chronological ledger.
-                        </p>
+                <header className="relative min-h-[85vh] flex flex-col justify-center pt-[140px] pb-[80px] overflow-hidden">
+                    <div className="absolute inset-0 z-0">
+                        <img
+                            alt="Income Tax Act 2025 Hero Background"
+                            className="w-full h-full object-cover"
+                            src="/reportimg/5TH .png"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#000f22] via-[#000f22]/60 to-transparent z-10"></div>
                     </div>
+                    <div className="relative z-20 w-full max-w-[1280px] mx-auto px-[16px] md:px-[40px]">
+                        <div className="max-w-3xl mb-[48px]">
+                            <div className="flex items-center gap-[16px] mb-[16px]">
+                                <span className="bg-[#F0E6D2] text-[#8B6532] px-3 py-1 rounded-sm font-['Inter'] text-[12px] font-medium uppercase tracking-[0.05em] border border-[#D4C3A3]">Strategy Ledger</span>
+                                <span className="text-[#ffffff]/80 font-['Inter'] text-[12px] font-medium tracking-[0.05em] uppercase">REF: IT-25/26</span>
+                                {/* <span className="text-[#ffffff]/80 font-['Inter'] text-[12px] font-medium tracking-[0.05em] uppercase ml-auto">Oct 24, 2024</span> */}
+                            </div>
+                            <h1 className="font-['Montserrat'] text-[32px] md:text-[48px] font-bold text-[#ffffff] mb-[8px] tracking-tight leading-[1.1]">Income Tax Act 2025: Ushering in the "Tax Year" Era</h1>
+                            <p className="font-['Inter'] text-[18px] text-[#ffffff]/90 italic pl-[16px] border-l-2 border-[#c6a87c] leading-relaxed">
+                                Deconstructing the shift from a dual assessment framework to a unified chronological ledger.
+                            </p>
+                        </div>
+                    </div>
+                </header>
+
+                <div className="pt-[80px] pb-[32px] px-[16px] md:px-[40px] relative" style={gridBg}>
                     {/* Dynamic Hero Visualization */}
                     <div className="w-full max-w-4xl mx-auto h-[480px] bg-[#000f22] relative overflow-hidden flex flex-col md:flex-row border border-[#c4c6ce] shadow-lg">
-                        {/* Overlay Grid */}
                         <div className="absolute inset-0 opacity-30 pointer-events-none z-10" style={gridBgDark}></div>
-                        {/* Left: Legacy Framework */}
+                      
                         <div className="w-full md:w-1/2 h-full border-b md:border-b-0 md:border-r border-[#ffffff]/20 relative p-8 flex flex-col justify-center bg-[#0a2540] z-20">
                             <Crosshair className="top-4 left-4" />
                             <Crosshair className="bottom-4 right-4" />
@@ -63,7 +75,7 @@ const IncomeTaxAct2025 = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* Right: Unified Tax Year */}
+                      
                         <div className="w-full md:w-1/2 h-full relative p-8 flex flex-col justify-center bg-[#000f22] z-20">
                             <Crosshair className="top-4 right-4" />
                             <Crosshair className="bottom-4 left-4" />
@@ -85,7 +97,7 @@ const IncomeTaxAct2025 = () => {
                             </div>
                         </div>
                     </div>
-                </header>
+                </div>
 
                 {/* Article Body */}
                 <article className="px-[16px] md:px-[40px] pb-[80px] max-w-3xl mx-auto pt-[32px]">

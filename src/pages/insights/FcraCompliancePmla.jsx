@@ -28,7 +28,7 @@ const FcraCompliancePmla = () => {
                 {/* Hero Section */}
                 <section className="relative min-h-[870px] flex items-center overflow-hidden">
                     <div className="absolute inset-0 z-0">
-                        <div className="absolute inset-0 fcra-hero-gradient z-10"></div>
+                        {/* <div className="absolute inset-0 fcra-hero-gradient z-10"></div> */}
                         <img className="w-full h-full object-cover" alt="A cinematic architectural shot of a modern institutional glass building during twilight" src="/insightpage/fcracomplamce.png" />
                     </div>
                     <div className="relative z-20 w-full px-[16px] md:px-[40px] max-w-[1280px] mx-auto text-[#ffffff]">

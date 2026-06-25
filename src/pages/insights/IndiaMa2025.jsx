@@ -9,22 +9,30 @@ const IndiaMa2025 = () => {
         <div className="bg-[#f7fafd] text-[#181c1e] font-['Inter'] font-normal text-[16px] antialiased selection:bg-[#d2e4ff] selection:text-[#001c37]">
             <main>
                 {/* Hero Section */}
-                <section className="relative pt-[96px] pb-[80px] px-[16px] md:px-[40px] bg-[#f7fafd] ind-tech-grid overflow-hidden">
-                    <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-[24px] relative z-10">
+                <section className="relative min-h-[85vh] flex items-center pt-[96px] pb-[80px] px-[16px] md:px-[40px] overflow-hidden">
+                    <div className="absolute inset-0 z-0">
+                        <img
+                            alt="India M&A 2025 Hero Background"
+                            className="w-full h-full object-cover"
+                            src="/reportimg/8TH .png"
+                        />
+                        {/* <div className="absolute inset-0 bg-[#000f22]/70 z-10"></div> */}
+                    </div>
+                    <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-[24px] relative z-20 w-full">
                         <div className="lg:col-span-7 flex flex-col justify-center">
-                            <div className="font-['Inter'] text-[14px] font-bold text-[#4e6073] uppercase tracking-[0.05em] mb-[16px] flex items-center">
-                                <span className="w-8 h-px bg-[#4e6073] mr-3"></span> Strategy Ledger
+                            <div className="font-['Inter'] text-[14px] font-bold text-[#c6a87c] uppercase tracking-[0.05em] mb-[16px] flex items-center">
+                                <span className="w-8 h-px bg-[#c6a87c] mr-3"></span> Strategy Ledger
                             </div>
-                            <h1 className="font-['Montserrat'] text-[48px] font-bold text-[#000f22] mb-[32px] leading-tight tracking-[-0.02em]">
+                            <h1 className="font-['Montserrat'] text-[48px] font-bold text-[#ffffff] mb-[32px] leading-tight tracking-[-0.02em]">
                                 India M&A 2025: <br />Quality Over Quantity
                             </h1>
-                            <p className="font-['Inter'] text-[18px] text-[#43474d] max-w-2xl leading-relaxed">
+                            <p className="font-['Inter'] text-[18px] text-[#ffffff]/90 max-w-2xl leading-relaxed">
                                 A rigorous forensic analysis of the shifting landscape in Indian Mergers & Acquisitions, highlighting a definitive pivot towards high-conviction, strategically aligned assets over speculative volume.
                             </p>
                         </div>
                         {/* Data Visualization Module */}
                         <div className="lg:col-span-5 mt-[32px] lg:mt-0 relative">
-                            <div className="bg-[#ffffff] border border-[#c4c6ce] rounded p-8 shadow-[0px_4px_20px_rgba(10,37,64,0.08)] ind-crosshair ind-crosshair-tl ind-crosshair-tr ind-crosshair-bl ind-crosshair-br h-full flex flex-col justify-center">
+                            <div className="bg-[#ffffff]/95 backdrop-blur-sm border border-[#ffffff]/20 rounded p-8 shadow-[0px_4px_20px_rgba(0,0,0,0.2)] h-full flex flex-col justify-center">
                                 <div className="font-['Inter'] text-[14px] font-bold text-[#43474d] mb-6 border-b border-[#e0e3e6] pb-2 uppercase tracking-[0.05em]">Core Metrics (FY24/25)</div>
                                 <div className="mb-8">
                                     <div className="flex justify-between items-end mb-2">

@@ -12,17 +12,17 @@ const Tier2Cities = () => {
                 <div className="absolute inset-0 z-0">
                     <img
                         alt="Aerial view of a futuristic smart city in India with warm sunset lighting and complex architectural patterns"
-                        className="w-full h-full object-cover grayscale-[0.2]"
+                        className="w-full h-full object-cover "
                         src="/insightpage/tire2city.jpg"
                     />
-                    <div className="absolute inset-0 t2-hero-gradient"></div>
+                    {/* <div className="absolute inset-0 t2-hero-gradient"></div> */}
                 </div>
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-[16px] md:px-[40px] pb-[80px]">
                     <div className="flex flex-col gap-[16px] max-w-4xl">
-                        <div className="flex items-center gap-4">
+                        {/* <div className="flex items-center gap-4">
                             <span className="inline-block bg-[#B09E6D] text-[#000f22] font-['Inter'] text-[10px] px-3 py-1 rounded-sm uppercase tracking-[0.05em] font-bold">Strategic Directive</span>
                             <span className="font-['Inter'] text-[#ffffff]/60 text-[10px] tracking-[0.1em] uppercase font-medium">STRATEGY LEDGER VOL. 13</span>
-                        </div>
+                        </div> */}
                         <h1 className="font-['Montserrat'] text-[48px] font-bold text-[#ffffff] leading-[1.1] mb-[8px] tracking-[-0.02em]">
                             India’s Three Strategic Growth Vectors: Tier-2 Cities, GCCs, and Supply Chain Resilience
                         </h1>
