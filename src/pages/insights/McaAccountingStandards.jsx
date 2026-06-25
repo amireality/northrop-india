@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const McaAccountingStandards = () => {
     useEffect(() => {
@@ -21,25 +22,28 @@ const McaAccountingStandards = () => {
         <div className="bg-[#f7fafd] text-[#181c1e] font-['Inter'] font-normal text-[16px]">
             <main>
                 {/* Hero Header */}
-                <section className="relative pt-[80px] pb-[80px] overflow-hidden bg-[#ffffff] border-b border-[#c4c6ce]">
-                    <div className="absolute inset-0 mca-forensic-grid opacity-30"></div>
+                <section className="relative pt-[120px] pb-[120px] overflow-hidden border-b border-[#c4c6ce]">
+                    <div className="absolute inset-0 z-0">
+                        <img src="/reportimg/mca-accounting.avif" alt="MCA Background" className="w-full h-full object-cover" />
+                       
+                    </div>
                     <div className="max-w-[1280px] mx-auto px-[16px] md:px-[40px] grid grid-cols-1 md:grid-cols-12 gap-[24px] relative z-10">
                         <div className="md:col-span-7 space-y-[16px]">
                             <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#e0e3e6]/50 backdrop-blur-sm text-[#000f22] rounded-sm border border-[#74777e]/30">
                                 <span className="material-symbols-outlined text-[14px]">verified</span>
                                 <span className="font-['Inter'] text-[12px] uppercase tracking-widest font-bold">PREMIUM EDITION // VOL. 2026.01</span>
                             </div>
-                            <h1 className="font-['Montserrat'] text-[32px] md:text-[48px] text-[#000f22] leading-tight font-bold">
+                            <h1 className="font-['Montserrat'] text-[32px] md:text-[48px] text-[#ffff] leading-tight font-bold">
                                 MCA’s Accounting Standards<br />
-                                <span className="text-[#4e6073]">Amendment Rules 2026</span>
+                                <span className="text-[#ffff]">Amendment Rules 2026</span>
                             </h1>
-                            <p className="font-['Inter'] text-[18px] text-[#43474d] max-w-2xl leading-relaxed">
+                            <p className="font-['Inter'] text-[18px] text-[#ffff] max-w-2xl leading-relaxed">
                                 A rigorous forensic breakdown of Pillar Two alignment and Global Minimum Tax (GMT) implications for Large Multi-National Enterprises.
                             </p>
                             <div className="pt-[16px] flex gap-4">
-                                <div className="border-l-2 border-[#D4AF37] pl-4">
-                                    <span className="block font-['Inter'] text-[14px] text-[#000f22] uppercase font-bold">Forensic Unit</span>
-                                    <span className="block font-['Inter'] text-[14px] text-[#43474d]">Strategic Tax &amp; Insolvency Division</span>
+                                <div className="border-l-2 border-[#ffff] pl-4">
+                                    <span className="block font-['Inter'] text-[14px] text-[#ffff] uppercase font-bold">Forensic Unit</span>
+                                    <span className="block font-['Inter'] text-[14px] text-[#ffff]">Strategic Tax &amp; Insolvency Division</span>
                                 </div>
                             </div>
                         </div>
@@ -373,10 +377,12 @@ const McaAccountingStandards = () => {
                         </div>
 
                         <div className="mt-16 text-center">
-                            <button className="bg-[#000f22] text-[#ffffff] px-10 py-5 font-['Inter'] text-[14px] font-bold uppercase tracking-[0.2em] hover:bg-[#0a2540] transition-all mca-shadow-forensic relative group overflow-hidden border border-[#000f22]">
-                                <span className="relative z-10">Download Technical Briefing (PDF)</span>
-                                <div className="absolute inset-0 bg-[#D4AF37] translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
-                            </button>
+                            <Link to="/contact">
+                                <button className="bg-[#000f22] text-[#ffffff] px-10 py-5 font-['Inter'] text-[14px] font-bold uppercase tracking-[0.2em] hover:bg-[#0a2540] transition-all mca-shadow-forensic relative group overflow-hidden border border-[#000f22]">
+                                    <span className="relative z-10">Download Technical Briefing (PDF)</span>
+                                    <div className="absolute inset-0 bg-[#D4AF37] translate-y-full group-hover:translate-y-0 transition-transform duration-300"></div>
+                                </button>
+                            </Link>
                             <p className="mt-4 font-['Inter'] text-[10px] text-[#43474d] uppercase tracking-widest font-medium">
                                 Authorized access only // Northrop Forensic Series 2026
                             </p>

@@ -102,7 +102,7 @@ export const reportsData = {
         subheadline: 'Organisations must move from reactive investigation to continuous fraud surveillance.',
         date: 'JUNE 2024',
         readTime: '15 MIN READ',
-        heroImg: '/reportimg/3RD .png',
+        heroImg: '/reportimg/3rd.png',
         content: [
             {
                 type: 'paragraph',

@@ -14,7 +14,7 @@ const IndiaMa2025 = () => {
                         <img
                             alt="India M&A 2025 Hero Background"
                             className="w-full h-full object-cover"
-                            src="/reportimg/8TH .png"
+                            src="/reportimg/1st.png"
                         />
                         {/* <div className="absolute inset-0 bg-[#000f22]/70 z-10"></div> */}
                     </div>

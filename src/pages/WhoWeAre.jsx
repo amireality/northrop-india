@@ -269,6 +269,47 @@ export default function WhoWeAre() {
 
 
 
+
+ {/* Leadership Section */}
+      <section className="bg-white py-[64px] border-t border-gray-200">
+        <div className="max-w-[1440px] mx-auto px-[32px] md:px-[40px] mb-[48px] text-center">
+             <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[16px] block">
+                Firm Leadership
+             </span>
+             <h2 className="font-playfair text-[36px] md:text-[48px] text-[#001f3f] tracking-[0px]">
+                The Architect of Scale
+             </h2>
+        </div>
+        <div className="max-w-[1000px] mx-auto px-[32px] md:px-[40px]">
+          <Link to="/md-profile" className="block group">
+            <div className="flex flex-col md:flex-row items-center gap-[40px] p-[40px] rounded-2xl transition-all duration-500 hover:bg-gray-50 border border-transparent hover:border-[#C4973B]/20 hover:shadow-2xl">
+              <div className="flex-shrink-0">
+                <div className="w-[180px] h-[180px] rounded-full overflow-hidden border-[4px] border-[#001f3f] group-hover:border-[#C4973B] transition-colors duration-500 shadow-lg">
+                  <img
+                    src="/mdimage.jpeg"
+                    alt="Ashish Chaudhary"
+                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                  />
+                </div>
+              </div>
+              <div className="text-center md:text-left">
+                <h3 className="text-[36px] font-playfair text-[#001f3f] font-bold mb-[8px] group-hover:text-[#C4973B] transition-colors duration-500">
+                  Ashish Chaudhary
+                </h3>
+                <h4 className="text-[18px] text-[#C4973B] mb-[16px] font-semibold tracking-wide">
+                  Founder & Managing Director, Northrop Management Private Limited
+                </h4>
+                <p className="text-[#43474e] text-[16px] leading-[1.8] font-light">
+                  Ashish Chaudhary is the Founder and Managing Director of Northrop Management Private Limited, an advisory firm built around assurance, transaction, and risk consulting for businesses, financial institutions, investors, and infrastructure stakeholders across India. He is regularly counted among the top 1% of voices in finance on LinkedIn, as of June 2026.
+                </p>
+                <div className="mt-6 inline-flex items-center text-[#001f3f] font-semibold text-sm tracking-widest uppercase group-hover:text-[#C4973B] transition-colors duration-300">
+                  Read Full Profile <span className="ml-2">→</span>
+                </div>
+              </div>
+            </div>
+          </Link>
+        </div>
+      </section>
       
 
       {/* Sovereign Values Section */}
@@ -477,46 +518,7 @@ export default function WhoWeAre() {
         </div>
       </section>
 
-      {/* Leadership Section */}
-      <section className="bg-white py-[64px] border-t border-gray-200">
-        <div className="max-w-[1440px] mx-auto px-[32px] md:px-[40px] mb-[48px] text-center">
-             <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[16px] block">
-                Firm Leadership
-             </span>
-             <h2 className="font-playfair text-[36px] md:text-[48px] text-[#001f3f] tracking-[0px]">
-                The Architect of Scale
-             </h2>
-        </div>
-        <div className="max-w-[1000px] mx-auto px-[32px] md:px-[40px]">
-          <Link to="/md-profile" className="block group">
-            <div className="flex flex-col md:flex-row items-center gap-[40px] p-[40px] rounded-2xl transition-all duration-500 hover:bg-gray-50 border border-transparent hover:border-[#C4973B]/20 hover:shadow-2xl">
-              <div className="flex-shrink-0">
-                <div className="w-[180px] h-[180px] rounded-full overflow-hidden border-[4px] border-[#001f3f] group-hover:border-[#C4973B] transition-colors duration-500 shadow-lg">
-                  <img
-                    src="/mdimage.jpeg"
-                    alt="Ashish Chaudhary"
-                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
-                  />
-                </div>
-              </div>
-              <div className="text-center md:text-left">
-                <h3 className="text-[36px] font-playfair text-[#001f3f] font-bold mb-[8px] group-hover:text-[#C4973B] transition-colors duration-500">
-                  Ashish Chaudhary
-                </h3>
-                <h4 className="text-[18px] text-[#C4973B] mb-[16px] font-semibold tracking-wide">
-                  Founder & Managing Director, Northrop Management Private Limited
-                </h4>
-                <p className="text-[#43474e] text-[16px] leading-[1.8] font-light">
-                  Ashish Chaudhary is the Founder and Managing Director of Northrop Management Private Limited, an advisory firm built around assurance, transaction, and risk consulting for businesses, financial institutions, investors, and infrastructure stakeholders across India. He is regularly counted among the top 1% of voices in finance on LinkedIn, as of June 2026.
-                </p>
-                <div className="mt-6 inline-flex items-center text-[#001f3f] font-semibold text-sm tracking-widest uppercase group-hover:text-[#C4973B] transition-colors duration-300">
-                  Read Full Profile <span className="ml-2">→</span>
-                </div>
-              </div>
-            </div>
-          </Link>
-        </div>
-      </section>
+     
 
       {/* Sovereign Impact Section */}
       <section className="bg-[#001f3f] py-[28px] text-white overflow-hidden relative">

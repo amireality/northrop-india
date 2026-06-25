@@ -265,7 +265,7 @@ const EsgDueDiligenceMaIndia = () => {
                             </p>
                             <div className="flex flex-wrap gap-[16px]">
                                 <Link to="/contact" className="bg-[#0a2540] text-white px-[32px] py-4 font-sans text-[14px] font-semibold uppercase tracking-[0.15em] hover:bg-[#000f22] transition-all">Secure Advisory Access</Link>
-                                <button className="border border-[#74777e] px-[32px] py-4 font-sans text-[14px] font-semibold uppercase tracking-[0.15em] text-[#000f22] hover:bg-[#f7fafd] transition-all">Download Report PDF</button>
+                                <Link to="/contact"><button className="border border-[#74777e] px-[32px] py-4 font-sans text-[14px] font-semibold uppercase tracking-[0.15em] text-[#000f22] hover:bg-[#f7fafd] transition-all  cursor-pointer">Download Report PDF</button></Link>
                             </div>
                         </div>
                         <div className="hidden lg:block w-full max-w-xs">

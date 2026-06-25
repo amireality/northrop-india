@@ -45,7 +45,7 @@ const GstNewStructure = () => {
                         <img
                             className="w-full h-[400px] object-cover rounded shadow-md border border-[#c4c6ce] relative z-10"
                             alt="A macro, top-down professional photograph of a pristine, modern ledger book overlaid with subtle, glowing golden geometric lines indicating upward financial growth."
-                            src="reportimg/6TH .png"
+                            src="/reportimg/6th.png"
                         />
                     </div>
                     {/* Article Content */}
