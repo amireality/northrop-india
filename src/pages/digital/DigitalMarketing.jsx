@@ -109,7 +109,7 @@ const DigitalMarketing = () => {
                 <span className="font-semibold text-[12px] text-[#7594cb] uppercase block mb-2 tracking-[0.05em]">The Proof of Engineering</span>
                 <h2 className="font-['Noto_Serif',serif] text-[32px] md:text-[36px] text-[#001736] font-bold">Growth Metrics & Performance Impact</h2>
               </div>
-              <p className="text-[16px] text-[#5c5f60] max-w-sm">Aggregated results from our 2023 technical marketing partnerships across B2B SaaS and Enterprise FinTech.</p>
+              <p className="text-[16px] text-[#5c5f60] max-w-sm">Aggregated results from our  technical marketing partnerships across B2B SaaS and Enterprise FinTech.</p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
               <div className="bg-white p-8 border border-[#c4c6d0] shadow-sm text-center hover:shadow-md transition-shadow cursor-pointer">

@@ -280,7 +280,7 @@ export const reportsData = {
             }
         ],
         sources: [
-            'Institute of Chartered Accountants of India (ICAI) - FAIS Framework, 2023',
+            'Institute of Chartered Accountants of India (ICAI) - FAIS Framework,',
             'SEBI Guidance Note on Corporate Governance 2024',
             'Ministry of Corporate Affairs (MCA) - Discussion Paper on Fraud Detection'
         ],

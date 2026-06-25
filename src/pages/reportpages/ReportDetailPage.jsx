@@ -51,19 +51,15 @@ const ReportDetailPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-[24px]">
                     
                     {/* Left Sidebar: Date & Meta */}
-                    <div className="hidden md:block md:col-span-1 border-r border-report-surface-container-low pr-[24px] py-2">
+                    {/* <div className="hidden md:block md:col-span-1 border-r border-report-surface-container-low pr-[24px] py-2">
                         <div className="text-[12px] font-bold tracking-[0.1em] uppercase text-report-on-secondary-container mb-4">
                             {report.date}
                         </div>
                         <div className="text-[12px] font-bold tracking-[0.1em] uppercase text-report-primary">
                             {report.readTime}
                         </div>
-                        <div className="mt-8 flex flex-col gap-4">
-                            <span className="material-symbols-outlined text-report-on-secondary-container cursor-pointer hover:text-report-primary transition-colors">share</span>
-                            <span className="material-symbols-outlined text-report-on-secondary-container cursor-pointer hover:text-report-primary transition-colors">bookmark</span>
-                            <span className="material-symbols-outlined text-report-on-secondary-container cursor-pointer hover:text-report-primary transition-colors">print</span>
-                        </div>
-                    </div>
+                     
+                    </div> */}
 
                     {/* Main Content Body */}
                     <div className="md:col-span-8 flex flex-col gap-8 max-w-[720px] mx-auto md:mx-0">

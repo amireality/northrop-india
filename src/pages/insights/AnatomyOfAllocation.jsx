@@ -30,7 +30,7 @@ const AnatomyOfAllocation = () => {
           <div className="max-w-3xl mx-auto">
             <h2 className="font-sans text-[12px] font-semibold leading-[1] tracking-[0.08em] text-[#001736] mb-[16px] uppercase tracking-widest">Executive Summary</h2>
             <p className="font-sans text-[18px] font-normal leading-[1.6] text-[#001736] leading-relaxed italic">
-              "The 2026 economic landscape is defined not by the scarcity of capital, but by the extreme selectivity of its deployment. After the post-2023 correction, the industry has pivoted toward a 'Capital Efficiency' mandate, prioritizing structural resilience over temporary market dominance."
+              "The 2026 economic landscape is defined not by the scarcity of capital, but by the extreme selectivity of its deployment. After the post correction, the industry has pivoted toward a 'Capital Efficiency' mandate, prioritizing structural resilience over temporary market dominance."
             </p>
           </div>
         </section>
