@@ -17,11 +17,10 @@ const AFiduciaryApproachToSocialCapital = () => {
         {/* Hero Section */}
         <section className="relative h-[80vh] flex items-center overflow-hidden border-b border-[#001F3F]">
           <div className="absolute inset-0 z-0">
-            <div className="absolute inset-0 bg-black/40 z-10"></div>
             <img 
               alt="India Map Connection Graphic" 
               className="w-full h-full object-cover" 
-              src="/insightpage/fiduciary.jpg" 
+              src="/insightpage/fiduciary.png" 
             />
           </div>
           <div className="relative z-20 max-w-[1200px] mx-auto px-[20px] md:px-[64px] w-full text-white">
