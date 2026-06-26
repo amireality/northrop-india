@@ -202,7 +202,7 @@ const Grantegs = () => {
                   }
                 ].map((phase, i) => (
                   <details key={i} className="group brutalist-border-green overflow-hidden">
-                    <summary className="flex justify-between items-center p-6 cursor-pointer list-none hover:gradient-accent hover:text-white transition-all">
+                    <summary className="flex justify-between items-center p-6 list-none hover:bg-gradient-to-br hover:from-[#22c55e] hover:to-[#166534] hover:text-white transition-all">
                       <h4 className="text-[20px] md:text-[24px] font-black uppercase">{phase.title}</h4>
                       <span className="material-symbols-outlined transition-transform group-open:rotate-180 font-black">expand_more</span>
                     </summary>

@@ -75,8 +75,8 @@ const Institute = () => {
               <div className="h-48 md:h-64 overflow-hidden relative">
                 <img 
                   alt="Grant Funding & ESG" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  src="/arcticture3.png"
+                  className="w-full h-full " 
+                  src="/insituted/grant-funding-esg.jpeg"
                 />
                 <div className="absolute top-4 left-4 bg-[#00113a] text-[#ffffff] px-3 py-1 text-[12px] font-[600]">01</div>
               </div>
@@ -97,8 +97,8 @@ const Institute = () => {
               <div className="h-48 md:h-64 overflow-hidden relative">
                 <img 
                   alt="New Age Corporate Finance" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  src="/arcticture4.png"
+                  className="w-full h-full " 
+                  src="/insituted/newage.jpeg"
                 />
                 <div className="absolute top-4 left-4 bg-[#00113a] text-[#ffffff] px-3 py-1 text-[12px] font-[600]">02</div>
               </div>
@@ -119,8 +119,8 @@ const Institute = () => {
               <div className="h-48 md:h-64 overflow-hidden relative">
                 <img 
                   alt="Risk & Strategic Derivatives" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  src="/arcticture5.png"
+                  className="w-full h-full " 
+                  src="/insituted/managmentassurance.jpeg"
                 />
                 <div className="absolute top-4 left-4 bg-[#00113a] text-[#ffffff] px-3 py-1 text-[12px] font-[600]">03</div>
               </div>
@@ -141,8 +141,8 @@ const Institute = () => {
               <div className="h-48 md:h-64 overflow-hidden relative">
                 <img 
                   alt="THE FOUNDER’S CAPITAL STACK" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" 
-                  src="/arcticture6.png"
+                  className="w-full h-full " 
+                  src="/insituted/founders-capital-stack.jpeg"
                 />
                 <div className="absolute top-4 left-4 bg-[#00113a] text-[#ffffff] px-3 py-1 text-[12px] font-[600]">04</div>
               </div>

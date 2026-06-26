@@ -12,7 +12,7 @@ const TheFounderCapitalStack = () => {
             <img 
               alt="Sun-drenched collaborative workspace" 
               className="w-full h-full " 
-              src="/insituted/founders-capital-stack.jpeg"
+              src="/insituted/founders-capital-stack1.jpeg"
             />
             <div className="absolute inset-0 bg-white/10 backdrop-contrast-[1.1]"></div>
           </div>

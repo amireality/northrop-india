@@ -16,9 +16,9 @@ const EnergyUtilities = () => {
           <img 
             alt="Energy infrastructure" 
             className="w-full h-full object-cover " 
-            // src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5Iw6hqfChDUvShAKpjbr52tsf0N8wu7FQ2PM-twZnOEUA46Ks9td0UNgYpxt7CHnO1RQMkk0bFOWYS6msUltUVAg14AtScpQk70_b4imsC4Ftb1MU1Wwc3lH8ueEMjmIsoIUU7WeBShx6ovSsM4EYCTuJ3Mh36kjf0uG7-soP59GtwzwdwgF3YqAZ0SqbgmKmhH70Au7sZT2MIScsbppzNsMh9JBcvmx-lQ4kPNmVH_4_y45gA3oCoNt9RLFaKv852lBAQDNIBVs" 
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5Iw6hqfChDUvShAKpjbr52tsf0N8wu7FQ2PM-twZnOEUA46Ks9td0UNgYpxt7CHnO1RQMkk0bFOWYS6msUltUVAg14AtScpQk70_b4imsC4Ftb1MU1Wwc3lH8ueEMjmIsoIUU7WeBShx6ovSsM4EYCTuJ3Mh36kjf0uG7-soP59GtwzwdwgF3YqAZ0SqbgmKmhH70Au7sZT2MIScsbppzNsMh9JBcvmx-lQ4kPNmVH_4_y45gA3oCoNt9RLFaKv852lBAQDNIBVs" 
 
-            src='/industryimg/energy-utilities.jpeg'
+            // src='/industryimg/energy-utilities.jpeg'
           />
         </div>
         <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full py-16">
@@ -203,8 +203,8 @@ const EnergyUtilities = () => {
                 />
               </div>
               <div className="p-8">
-                <span className="text-[12px] font-bold text-[#74777f] mb-4 block tracking-widest">Oct 15, 2024</span>
-                <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#1c1b1b] mb-6 group-hover:text-[#775a19] transition-colors">2024 Global Energy Market Outlook</h3>
+                <span className="text-[12px] font-bold text-[#74777f] mb-4 block tracking-widest">Oct 15, 2026</span>
+                <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#1c1b1b] mb-6 group-hover:text-[#775a19] transition-colors">2026 Global Energy Market Outlook</h3>
                 <button 
                   onClick={() => navigate('/contact')}
                   className="inline-flex items-center text-[#775a19] text-[16px] font-medium border-b border-[#775a19] pb-1 hover:text-[#000d22] hover:border-[#000d22] transition-colors"
@@ -218,12 +218,12 @@ const EnergyUtilities = () => {
               <div className="h-48 overflow-hidden bg-[#e5e2e1] relative">
                 <img 
                   alt="Decarbonization Pathways" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 grayscale" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkJTGbQ5W3Mdk_gsKOREEPbVy78FH0OrYp6H3uFMn_hc2NbZ62paN_LdNz607bbNyOgnuhBylV40nPOYQKoJLatAtnOi9M3YsR6wpvenEoKffZTmzhQfUakhSM9EMtlFP3qLW6hAKPcT2oXkmeKktRIanbo3_HsevhBo5WQtW5pkvXZkwNpoC-6K-2RTH7qZKG3Lb8D50iwGLGj2D41avn_8awtZa7e81RTm86cmJh96LiO6_APFzaRU2emXa9YEayv9x_2in__Dc" 
+                  className="w-full h-full object-cover " 
+                  src="/industryimg/energy-utilities.jpeg" 
                 />
               </div>
               <div className="p-8">
-                <span className="text-[12px] font-bold text-[#74777f] mb-4 block tracking-widest">Sep 28, 2024</span>
+                <span className="text-[12px] font-bold text-[#74777f] mb-4 block tracking-widest">Sep 28, 2026</span>
                 <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#1c1b1b] mb-6 group-hover:text-[#775a19] transition-colors">Decarbonization Pathways for Utilities</h3>
                 <button 
                   onClick={() => navigate('/contact')}
@@ -238,12 +238,12 @@ const EnergyUtilities = () => {
               <div className="h-48 overflow-hidden bg-[#e5e2e1] relative">
                 <img 
                   alt="Capital Efficiency" 
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 grayscale" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlAvp7SIu-GOt5FwLB6R_I-n9wvDgRsUm1DElr5v1dI1h5zELvJX-ybe5B3rRRN_7jypssTptBgui_gtaH_K_-Fqsy6zrAGrXbxVl0hEV6oi_bg-ig_bYd_TDs7ij-15DCMoA7UPTLadO9Doy3a9RY-486_vYDlnyX1AGb-H4czSFnni7bmkHh5CEMT6vZtD_tQc_g3kdnwMdmUOZ8E4CZYSB2t7S-e4IVWVwXTUNgk8BO2rO-4bTRYnUadNlhI7xPOgQ2y14wCXY" 
+                  className="w-full h-full object-cover" 
+                  src="/industryimg/energy-utilities1.jpeg" 
                 />
               </div>
               <div className="p-8">
-                <span className="text-[12px] font-bold text-[#74777f] mb-4 block tracking-widest">Aug 12, 2024</span>
+                <span className="text-[12px] font-bold text-[#74777f] mb-4 block tracking-widest">Aug 12, 2026</span>
                 <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#1c1b1b] mb-6 group-hover:text-[#775a19] transition-colors">Capital Efficiency in Grid Modernization</h3>
                 <button 
                   onClick={() => navigate('/contact')}

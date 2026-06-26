@@ -12,18 +12,18 @@ const Riskstergery = () => {
             <img 
               className="w-full h-full object-cover " 
               alt="Modern university library architecture"
-              src="/insituted/managmentassurance.jpeg"
+              src="/insituted/managmentassurance1.jpeg"
             />
           </div>
           <div className="max-w-[1280px] mx-auto px-[24px] md:px-[64px] relative z-10 w-full">
             <div className="max-w-4xl">
-              <span className="text-[12px] uppercase tracking-[0.3em] text-[#D4AF37] font-semibold mb-6 block">
+              <span className="text-[12px] uppercase tracking-[0.3em] text-[#ffff] font-semibold mb-6 block">
                 PROGRAM DETAIL: RMIA-40
               </span>
-              <h1 className="text-[48px] md:text-[72px] text-[#D4AF37] font-bold mb-8 leading-none">
+              <h1 className="text-[48px] md:text-[72px] text-[#ffff] font-bold mb-8 leading-none">
                 RISK MANAGEMENT & <br/>INSTITUTIONAL ASSURANCE
               </h1>
-              <p className="text-[24px] md:text-[32px] font-semibold text-[#D4AF37] max-w-2xl mb-12 border-l-4 border-[#D4AF37] pl-8 italic font-light leading-[1.3]">
+              <p className="text-[24px] md:text-[32px] font-semibold text-[#ffff] max-w-2xl mb-12 border-l-4 border-[#D4AF37] pl-8 italic font-light leading-[1.3]">
                 The Architecture of Financial Resilience
               </p>
               <div className="flex flex-wrap gap-6">
@@ -35,7 +35,7 @@ const Riskstergery = () => {
                 </Link>
                 <Link 
                   to="/contact" 
-                  className="bg-transparent text-[#D4AF37] px-10 py-5 text-[12px] font-semibold uppercase tracking-widest border-[3px] border-[#00113a] hover:bg-[#00113a] hover:text-white transition-all text-center"
+                  className="bg-transparent text-[#ffff] px-10 py-5 text-[12px] font-semibold uppercase tracking-widest border-[3px] border-[#00113a] hover:bg-[#00113a] hover:text-white transition-all text-center"
                 >
                   DOWNLOAD SYLLABUS
                 </Link>

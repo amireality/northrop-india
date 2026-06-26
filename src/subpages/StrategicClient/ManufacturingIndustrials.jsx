@@ -39,7 +39,8 @@ const ManufacturingIndustrials = () => {
           <img 
             alt="Industrial Operations" 
             className="absolute inset-0 w-full h-full" 
-            src="/industryimg/indstry.jpeg" 
+            // src="/industryimg/indstry.jpeg" 
+            src="/industryimg/indstry1.jpeg" 
           />
         </div>
       </section>
@@ -170,8 +171,8 @@ const ManufacturingIndustrials = () => {
                 />
               </div>
               <div className="p-8 flex flex-col flex-grow">
-                <p className="text-[12px] font-bold text-[#775a19] uppercase tracking-widest mb-3">Q3 2024</p>
-                <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#000d22] mb-4">2024 Industrial Market Outlook</h3>
+                <p className="text-[12px] font-bold text-[#775a19] uppercase tracking-widest mb-3">Q3 2026</p>
+                <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#000d22] mb-4">2026 Industrial Market Outlook</h3>
                 <p className="text-[16px] text-[#43474e] flex-grow mb-6 leading-[1.5]">An analysis of macroeconomic headwinds and their impact on global supply chains and capital allocation.</p>
                 <button onClick={() => navigate('/contact')} className="inline-flex items-center text-[#775a19] text-[12px] font-bold uppercase hover:text-[#000d22] transition-colors mt-auto">
                   Read Report <span className="material-symbols-outlined ml-2 text-[16px]">arrow_forward</span>
@@ -188,7 +189,7 @@ const ManufacturingIndustrials = () => {
                 />
               </div>
               <div className="p-8 flex flex-col flex-grow">
-                <p className="text-[12px] font-bold text-[#775a19] uppercase tracking-widest mb-3">August 2024</p>
+                <p className="text-[12px] font-bold text-[#775a19] uppercase tracking-widest mb-3">August 2026</p>
                 <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#000d22] mb-4">Automation & Capital Efficiency</h3>
                 <p className="text-[16px] text-[#43474e] flex-grow mb-6 leading-[1.5]">Evaluating ROI timelines for next-generation robotics deployment in mid-market manufacturing.</p>
                 <button onClick={() => navigate('/contact')} className="inline-flex items-center text-[#775a19] text-[12px] font-bold uppercase hover:text-[#000d22] transition-colors mt-auto">
@@ -206,7 +207,7 @@ const ManufacturingIndustrials = () => {
                 />
               </div>
               <div className="p-8 flex flex-col flex-grow">
-                <p className="text-[12px] font-bold text-[#775a19] uppercase tracking-widest mb-3">July 2024</p>
+                <p className="text-[12px] font-bold text-[#775a19] uppercase tracking-widest mb-3">July 2026</p>
                 <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#000d22] mb-4">Supply Chain Resilience</h3>
                 <p className="text-[16px] text-[#43474e] flex-grow mb-6 leading-[1.5]">Strategic decoupling and the hidden costs of nearshoring for Tier 1 automotive suppliers.</p>
                 <button onClick={() => navigate('/contact')} className="inline-flex items-center text-[#775a19] text-[12px] font-bold uppercase hover:text-[#000d22] transition-colors mt-auto">

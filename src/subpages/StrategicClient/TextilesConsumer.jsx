@@ -38,8 +38,8 @@ const TextilesConsumer = () => {
           <div className="relative h-[500px] w-full bg-[#f6f3f2] rounded-none overflow-hidden border border-[#c4c6cf]/30">
             <img 
               alt="Textile manufacturing facility" 
-              className="w-full h-full  rounded-none" 
-              src="/industryimg/textiles-consumer.jpeg" 
+              className="absolute inset-0 w-full h-full " 
+              src="/unnamed.png" 
             />
             <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-40"></div>
           </div>
@@ -156,13 +156,13 @@ const TextilesConsumer = () => {
               <div className="h-48 bg-[#eae7e7] overflow-hidden">
                 <img 
                   alt="Market Outlook" 
-                  className="w-full h-full object-cover " 
-                  src="/industryimg/textiles-consumer1.jpeg" 
+                  className="w-full h-full object-cover" 
+                  src="/industryimg/textiles-consumer2.png" 
                 />
               </div>
               <div className="p-8">
-                <div className="text-[12px] font-bold text-[#775a19] tracking-widest uppercase mb-3">Oct 15, 2024</div>
-                <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#000d22] mb-4 leading-tight">2024 Market Outlook: Textiles & Consumer Goods</h3>
+                <div className="text-[12px] font-bold text-[#775a19] tracking-widest uppercase mb-3">Oct 15, 2026</div>
+                <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#000d22] mb-4 leading-tight">2026 Market Outlook: Textiles & Consumer Goods</h3>
                 <button 
                   onClick={() => navigate('/contact')}
                   className="inline-flex items-center gap-2 text-[16px] font-bold text-[#000d22] hover:text-[#775a19] transition-colors"
@@ -176,12 +176,12 @@ const TextilesConsumer = () => {
               <div className="h-48 bg-[#eae7e7] overflow-hidden">
                 <img 
                   alt="Supply Chain Resilience" 
-                  className="w-full h-full object-cover" 
-                  src="/industryimg/textiles-consumer3.jpeg" 
+                  className="w-full h-full " 
+                  src="/industryimg/textiles-consumer1.jpeg" 
                 />
               </div>
               <div className="p-8">
-                <div className="text-[12px] font-bold text-[#775a19] tracking-widest uppercase mb-3">Sep 28, 2024</div>
+                <div className="text-[12px] font-bold text-[#775a19] tracking-widest uppercase mb-3">Sep 28, 2026</div>
                 <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#000d22] mb-4 leading-tight">Supply Chain Resilience Strategies</h3>
                 <button 
                   onClick={() => navigate('/contact')}
@@ -196,12 +196,12 @@ const TextilesConsumer = () => {
               <div className="h-48 bg-[#eae7e7] overflow-hidden">
                 <img 
                   alt="Pricing Optimization" 
-                  className="w-full h-full object-cover grayscale " 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAadiJNJcS1v0X_RuIdqAXtFy6BBkOey-8niLnw3OcOdotOH2cCPyUE5cdNJOLEUeHVPKJTtUcsMjU8owcnfHEVjhb-YAJU3MuGiMdf2DEe4T_nx1iclTI7xqEh5XzbRA03OstgR7W3qm0Q5_VssmnT0JRB5q36bEgnVO-Vdys1YLyC-qb-CnhvRKwvSggEgk9IQZIpyXKEvDRazEb04jkjejH5qPI6yX2CHZtU-YIYi26bAXSAWswtmHDc9MsFQr2z7h7MXV13SAw" 
+                  className="w-full h-full " 
+                  src="/industryimg/textiles-consumer3.jpeg" 
                 />
               </div>
               <div className="p-8">
-                <div className="text-[12px] font-bold text-[#775a19] tracking-widest uppercase mb-3">Aug 12, 2024</div>
+                <div className="text-[12px] font-bold text-[#775a19] tracking-widest uppercase mb-3">Aug 12, 2026</div>
                 <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#000d22] mb-4 leading-tight">Pricing Optimization Models</h3>
                 <button 
                   onClick={() => navigate('/contact')}
