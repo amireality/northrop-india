@@ -120,7 +120,7 @@ const Institute = () => {
                 <img 
                   alt="Risk & Strategic Derivatives" 
                   className="w-full h-full " 
-                  src="/insituted/managmentassurance.jpeg"
+                  src="/insituted/managmentassurance1.jpeg"
                 />
                 <div className="absolute top-4 left-4 bg-[#00113a] text-[#ffffff] px-3 py-1 text-[12px] font-[600]">03</div>
               </div>
@@ -142,7 +142,7 @@ const Institute = () => {
                 <img 
                   alt="THE FOUNDER’S CAPITAL STACK" 
                   className="w-full h-full " 
-                  src="/insituted/founders-capital-stack.jpeg"
+                  src="/insituted/founders-capital-stack1.jpeg"
                 />
                 <div className="absolute top-4 left-4 bg-[#00113a] text-[#ffffff] px-3 py-1 text-[12px] font-[600]">04</div>
               </div>
