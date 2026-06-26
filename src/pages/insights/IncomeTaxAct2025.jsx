@@ -36,7 +36,7 @@ const IncomeTaxAct2025 = () => {
                                 <span className="text-[#ffffff]/80 font-['Inter'] text-[12px] font-medium tracking-[0.05em] uppercase">REF: IT-25/26</span>
                                 {/* <span className="text-[#ffffff]/80 font-['Inter'] text-[12px] font-medium tracking-[0.05em] uppercase ml-auto">Oct 24, 2024</span> */}
                             </div>
-                            <h1 className="font-['Montserrat'] text-[32px] md:text-[48px] font-bold text-[#ffffff] mb-[8px] tracking-tight leading-[1.1]">Income Tax Act 2025: Ushering in the "Tax Year" Era</h1>
+                            <h1 className="font-['Montserrat'] text-[32px] md:text-[48px] font-bold text-[#ffffff] mb-[8px] tracking-tight leading-[1.1]">Income Tax Act 2026: Ushering in the "Tax Year" Era</h1>
                             <p className="font-['Inter'] text-[18px] text-[#ffffff]/90 italic pl-[16px] border-l-2 border-[#c6a87c] leading-relaxed">
                                 Deconstructing the shift from a dual assessment framework to a unified chronological ledger.
                             </p>

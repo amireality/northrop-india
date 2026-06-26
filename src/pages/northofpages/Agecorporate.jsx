@@ -62,9 +62,9 @@ const Agecorporate = () => {
 
           <div className="md:col-span-5 relative bg-[#efeded] overflow-hidden min-h-[400px]">
             <img 
-              className="absolute inset-0 w-full h-full object-cover" 
+              className="absolute inset-0 w-full h-full" 
               alt="Professional high-key office environment"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDuVkB7pbSp78lSMVZVtaTVe4jAJ5DDu6ffcBmtN0F9dloFUO6xYBoo5HMaE-Tufn2ZFMMz-tBPDg-Am83Dgk-BmN4SOYrP-9eAGbaSdRTXpvdxSsjKnluK3MS6wz3C1l7P87VU0izygvJG32YtEWt3pTR-aBQCUdxy3vIcaUlupGOLTxV87_OLmiCn0xvZW2m_uF1g5a4TaqaUGUmj70_K_BHMNkwrGbUZ6-q3C3-b_MQFoJJV13lE0dwuklRjoRF4gACdbgAEA"
+              src="/insituted/newage.jpeg"
             />
             <div className="absolute bottom-0 left-0 bg-[#00113a] text-white p-8 w-full md:w-auto">
               <p className="text-[12px] font-semibold uppercase tracking-[0.1em] mb-1">Global Standard</p>

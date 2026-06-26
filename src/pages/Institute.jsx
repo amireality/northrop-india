@@ -23,7 +23,7 @@ const Institute = () => {
                   Explore Curricula
                 </Link>
                 <Link to="/insights" className="border border-[#00113a] text-[#00113a] px-10 py-5 text-[12px] leading-[1] font-[600] uppercase tracking-widest hover:bg-[#00113a] hover:text-[#ffffff] transition-all cursor-pointer text-center">
-                  The 2024 Report
+                  The 2026 Report
                 </Link>
               </div>
             </div>
@@ -43,15 +43,15 @@ const Institute = () => {
         <div className="max-w-[1280px] mx-auto h-[400px] md:h-[600px] overflow-hidden relative">
           <img 
             alt="Campus Life" 
-            className="w-full h-full object-cover grayscale-[20%]" 
-            src="/arcticture2.png"
+            className="w-full h-full" 
+            src="/insituted/insituted1.jpeg"
           />
           <div className="absolute bottom-0 right-0 bg-[#ffffff] p-[16px] md:p-[32px] max-w-full md:max-w-md border-t-2 border-l-2 border-[#00113a]">
             <p className="text-[14px] md:text-[16px] leading-[1.6] font-[400] text-[#00113a] italic">
               "Our mission is to foster an environment where capital meets conscience and intelligence meets impact."
             </p>
             <p className="text-[12px] leading-[1] font-[600] uppercase mt-4 text-[#444650]">
-              — Dr. Julian Northrop, Founding Director
+              — Ashish Chaudhary Northrop, Founding Director
             </p>
           </div>
         </div>
@@ -65,7 +65,7 @@ const Institute = () => {
               Advanced Curricula
             </h2>
             <span className="text-[12px] leading-[1] font-[600] uppercase tracking-widest text-[#444650]">
-              Academic Year 2024/2025 • Modern Academic Program
+              Academic Year 2026/2027 • Modern Academic Program
             </span>
           </div>
           
@@ -195,15 +195,15 @@ const Institute = () => {
             {/* Small Feature 2 */}
             <div className="md:col-span-4 bg-[#ffffff] border border-[#00113a] p-[24px] md:p-[32px]">
               <h4 className="text-[12px] leading-[1] font-[600] text-[#00113a] uppercase mb-4">Upcoming Symposium</h4>
-              <p className="text-[24px] md:text-[32px] leading-[1.3] font-[600] text-[#00113a] mb-8">Geneva, Oct 2024</p>
+              <p className="text-[24px] md:text-[32px] leading-[1.3] font-[600] text-[#00113a] mb-8">Geneva, Oct 2026</p>
               <p className="text-[14px] md:text-[16px] leading-[1.6] font-[400] text-[#444650]">The 14th annual Global Finance Dialogue focusing on sustainable infrastructure debt.</p>
             </div>
 
             {/* Image Column */}
             <div className="md:col-span-8 overflow-hidden border border-[#00113a]">
               <img 
-                className="w-full h-full object-cover hover:scale-105 transition-transform duration-700" 
-                src="/arcticture.png"
+                className="w-full h-full  transition-transform duration-700" 
+                src="/insituted/insisuted.jpeg"
                 alt="Architecture"
               />
             </div>

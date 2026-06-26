@@ -38,8 +38,8 @@ const ManufacturingIndustrials = () => {
         <div className="relative h-[600px] bg-[#f0eded]">
           <img 
             alt="Industrial Operations" 
-            className="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-90" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAc3yfsXEdC-NaAhMQK6Kx_NdmE3h1EkwnYDTWekA3Lct1ghbHKFCxFCeW6UH8bZa84Jgrs9_9bm0r_Q7x2xTcnXqIXgwLURk586peh1s95-rQqVoa3m5bTRrD6EXcA90u3b4BFbuFv-HraRyUn0cYGn-19ph8BXuJTJGRQRbToWkvcO6RQiRIVF2yNzF37qczGFdj4W0Wn13ghmSPcdwhb8d4ZtXhjWoXrFXUcKNQEJPlI6_7clXxDN0_T_X_KQCDmmt7zkd-bMF4" 
+            className="absolute inset-0 w-full h-full" 
+            src="/industryimg/indstry.jpeg" 
           />
         </div>
       </section>

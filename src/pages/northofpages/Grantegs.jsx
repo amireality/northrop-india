@@ -9,22 +9,22 @@ const Grantegs = () => {
         <section className="relative min-h-[80vh] md:h-[800px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img 
-              className="w-full h-full object-cover brightness-110 saturate-[1.3]" 
+              className="w-full h-full object-cover " 
               alt="Modern high-tech greenhouse architecture"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAy9NrpiUG4zft4OjMGcUGkoKQ072luUDQjmHEHkmEcwB5TP7cx1BXdIKjBCCDlW-fLOKezOt0eeuq8lS10XnL9W8LAulq062X2_0cSaUM8zQB9FB3eOouG4yHOp1fskZiuedMvKUG9AyoADjJid9U2hmG1ayEw7s3HO_gPKpg6f7oKk8sEdWy6VJllkRETSW53WHs8M35zNHejtkCG6h7A4TXn_Ufwy3qeIWSNKdfQFJTr9nrwtTcIWtUqbfAiZICUKEiMUosVTw"
+              src="/insituted/grant-funding-esg.jpeg"
             />
-            <div className="absolute inset-0 bg-white/40 backdrop-blur-[2px]"></div>
+            <div className="absolute inset-0 "></div>
           </div>
           <div className="container mx-auto px-6 md:px-16 relative z-10">
             <div className="max-w-4xl">
               <div className="flex items-center gap-3 mb-6">
                 <span className="inline-block bg-[#166534] text-white px-3 py-1 font-black text-[10px] uppercase tracking-widest">PROFESSIONAL PROGRAM</span>
-                <span className="text-[12px] uppercase text-[#166534] font-bold">Executive Cohort 2024</span>
+                <span className="text-[12px] uppercase text-[#ffff] font-bold">Executive Cohort 2024</span>
               </div>
-              <h1 className="text-[48px] md:text-[72px] text-[#00113a] mb-6 font-black leading-[0.95] tracking-tighter">GRANT FUNDING, ESG & SUSTAINABLE FINANCE</h1>
-              <h2 className="text-[24px] md:text-[32px] text-[#166534] mb-8 italic font-bold">Mastering the Impact Machine: The Mechanics of Impact Capital</h2>
-              <p className="text-[18px] md:text-[20px] text-[#444650] max-w-2xl border-l-4 border-[#22C55E] pl-8 mb-12">
-                Designed for <span className="font-bold text-[#00113a]">Section 8 Leaders</span> and <span className="font-bold text-[#00113a]">Social Architects</span>. Engineering systemic change through rigorous capital redirection and the architectural mastery of blended finance.
+              <h1 className="text-[48px] md:text-[72px] text-[#ffff] mb-6 font-black leading-[0.95] tracking-tighter">GRANT FUNDING, ESG & SUSTAINABLE FINANCE</h1>
+              <h2 className="text-[24px] md:text-[32px] text-[#ffff] mb-8 italic font-bold">Mastering the Impact Machine: The Mechanics of Impact Capital</h2>
+              <p className="text-[18px] md:text-[20px] text-[#ffff] max-w-2xl border-l-4 border-[#22C55E] pl-8 mb-12">
+                Designed for <span className="font-bold text-[#ffff]">Section 8 Leaders</span> and <span className="font-bold text-[#ffff]">Social Architects</span>. Engineering systemic change through rigorous capital redirection and the architectural mastery of blended finance.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Link to="/contact" className="gradient-accent text-white px-12 py-5 text-[14px] font-bold uppercase brutalist-shadow-green hover:translate-x-1 hover:translate-y-1 hover:shadow-none transition-all block w-fit mx-auto md:mx-0 text-center">

@@ -40,9 +40,9 @@ const NonProfitGrantAdvisory = () => {
             <img 
               alt="Corporate advisory" 
               className="w-full h-full object-cover grayscale opacity-80" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBikMdz-yVbcOVkV8blSJvPEMIHxce0i38Ag77qvawLEzQB-y8saZrPhIpcSMGWQY9A2apQ_8ZxGndyOWqyZu63fEMsn45Mb1T21omzTMyTdM1s1YFfiTxPbas3UFMfDcGy81rF33h36qG4okeWuJE2d-WSh66r8swblKzkbPVmBGf794vkxO1XnvCP9Gw0iGnmt5Mklq8-Xs68cxhdp8ppcsAgyPKCJ9Mv69CUFgrZERM_p7V74ZGXjMD6OiN_twR36FdIIx5RrHo" 
+              src="/industryimg/non-profi.jpeg" 
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#000d22]/80 to-transparent"></div>
+            
             <div className="absolute bottom-8 left-8 right-8">
               <div className="grid grid-cols-3 gap-4 border-t border-white/20 pt-4">
                 <div>

@@ -11,17 +11,17 @@ const TheFounderCapitalStack = () => {
           <div className="absolute inset-0 z-0">
             <img 
               alt="Sun-drenched collaborative workspace" 
-              className="w-full h-full object-cover brightness-110 contrast-[1.05]" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCnVSeFMc3zvkK0xz0kIndA3BhrGXxuQu4D7N4uEBIfiFx-g8arIYJ22uTwfwZAbtA3d6uMqWTNkzUvsj-haekS9HFfZxdxju2L8X4btDEapg2qw7DdZFmX9Ug42wBKRmq1y2VWnBmWSLaUzo0RIVFx_ix68n6v4ZoayqhGaVwmRrWNc5a2whOcMAhp7wl3v8KRHJvs5CSK2BP43tp8u8Oq_m0QJ__6eRXh8Xdhbck0xh_r43lZqq2iIGdle9DLbDWctvrEuzcTA"
+              className="w-full h-full " 
+              src="/insituted/founders-capital-stack.jpeg"
             />
             <div className="absolute inset-0 bg-white/10 backdrop-contrast-[1.1]"></div>
           </div>
           <div className="relative z-10 max-w-[1280px] mx-auto px-[24px] md:px-[64px] text-center">
             <div className="inline-block bg-[#00113a] text-white px-6 py-1.5 mb-8 text-[12px] font-semibold uppercase tracking-[0.3em] shadow-xl">
-              Curriculum Core 2024
+              Curriculum Core 2026
             </div>
-            <h1 className="text-[32px] md:text-[72px] font-bold text-[#00113a] uppercase mb-8 max-w-4xl mx-auto leading-[1.1] drop-shadow-lg">
-              The Founder’s <br/><span className="text-[#00113a] font-black">Capital Stack</span>
+            <h1 className="text-[32px] md:text-[72px] font-bold text-[#ffff] uppercase mb-8 max-w-4xl mx-auto leading-[1.1] drop-shadow-lg">
+              The Founder’s <br/><span className="text-[#ffff] font-black">Capital Stack</span>
             </h1>
             <div className="max-w-2xl mx-auto mb-12 relative">
               <div className="absolute inset-0 bg-white/90 backdrop-blur-md transform -skew-x-2"></div>

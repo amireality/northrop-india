@@ -10,9 +10,9 @@ const Riskstergery = () => {
         <section className="relative min-h-[819px] flex items-center bg-[#ffffff] overflow-hidden border-b-2 border-[#00113a]">
           <div className="absolute inset-0 z-0">
             <img 
-              className="w-full h-full object-cover opacity-15 grayscale contrast-125" 
+              className="w-full h-full object-cover " 
               alt="Modern university library architecture"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAljvSK7Y7Kr73JLDfpKQE-esq04jLUWzq2agPjnzUFOOdocOubUm_aIxYisIEtQBOcjxRs7BTHBrrnlOerXFGQSYeXcVo4uYg06m_fQxjJuQfw4XId51VkfLUQ-EBQ-tBj4lmSL_mpXHnjUg2TJ_IniCx3zMJsTAR83toK6OIOs1M3OKjbkdtfN7A0GIXIgn3xs3_KvoET-qKfSy4Zs22uXFSbrnyRzrm4QmgAcqJTzl21TEvuautTSEm4TKCDp5KGXORglMjjMw"
+              src="/insituted/managmentassurance.jpeg"
             />
           </div>
           <div className="max-w-[1280px] mx-auto px-[24px] md:px-[64px] relative z-10 w-full">
@@ -20,10 +20,10 @@ const Riskstergery = () => {
               <span className="text-[12px] uppercase tracking-[0.3em] text-[#D4AF37] font-semibold mb-6 block">
                 PROGRAM DETAIL: RMIA-40
               </span>
-              <h1 className="text-[48px] md:text-[72px] text-[#00113a] font-bold mb-8 leading-none">
+              <h1 className="text-[48px] md:text-[72px] text-[#D4AF37] font-bold mb-8 leading-none">
                 RISK MANAGEMENT & <br/>INSTITUTIONAL ASSURANCE
               </h1>
-              <p className="text-[24px] md:text-[32px] font-semibold text-[#595f67] max-w-2xl mb-12 border-l-4 border-[#D4AF37] pl-8 italic font-light leading-[1.3]">
+              <p className="text-[24px] md:text-[32px] font-semibold text-[#D4AF37] max-w-2xl mb-12 border-l-4 border-[#D4AF37] pl-8 italic font-light leading-[1.3]">
                 The Architecture of Financial Resilience
               </p>
               <div className="flex flex-wrap gap-6">
@@ -35,7 +35,7 @@ const Riskstergery = () => {
                 </Link>
                 <Link 
                   to="/contact" 
-                  className="bg-transparent text-[#00113a] px-10 py-5 text-[12px] font-semibold uppercase tracking-widest border-[3px] border-[#00113a] hover:bg-[#00113a] hover:text-white transition-all text-center"
+                  className="bg-transparent text-[#D4AF37] px-10 py-5 text-[12px] font-semibold uppercase tracking-widest border-[3px] border-[#00113a] hover:bg-[#00113a] hover:text-white transition-all text-center"
                 >
                   DOWNLOAD SYLLABUS
                 </Link>

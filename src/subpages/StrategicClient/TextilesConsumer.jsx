@@ -38,8 +38,8 @@ const TextilesConsumer = () => {
           <div className="relative h-[500px] w-full bg-[#f6f3f2] rounded-none overflow-hidden border border-[#c4c6cf]/30">
             <img 
               alt="Textile manufacturing facility" 
-              className="absolute inset-0 w-full h-full object-cover grayscale opacity-80" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSHqBcyL2e-nOPm5Pk8EyHcCAkM2-xoumczlOm6jWu5AzLY7jfsH14Wb6D2MsXZdjnDeIgoBUp4oemlxctoc30MDRQC8mXZ_EeaV8FbLMa0VeFzI_5c-A7Z0PQs8GEY9R4-ry_DyH2ApYA6Qc48rQM_MRb9tNT3pRT4XfFD0dV78pHnw9Rdgi21Xnn_8SzLLAxX-mZVpbWDwwPqYKP4bdTbD5Y6jr19Tds7IPSyl61x8cjrLp9HNgp6K695DiLbygCLSjWcHYlVFI" 
+              className="w-full h-full  rounded-none" 
+              src="/industryimg/textiles-consumer.jpeg" 
             />
             <div className="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-40"></div>
           </div>
@@ -156,8 +156,8 @@ const TextilesConsumer = () => {
               <div className="h-48 bg-[#eae7e7] overflow-hidden">
                 <img 
                   alt="Market Outlook" 
-                  className="w-full h-full object-cover grayscale opacity-80" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnwJrpprKIFZBlWUbQ1jGLt1lrUEQTiSAUlXqvJlhjweMhuCwHeTomzwwapvc9HswkV8kDUfBb7P9fD1Qa_ikuWFzutiOf5B2DZ9RhgWmFfhqkSh28DrbdFak2A4bHbqfQdGUcZciwCS4A57UkMEXLGhqBz2S4DrDLaM4iLiot_NfgJCR0qhT0k80KwTfiFoLAxdrBnaE9XqH0mF07wt2CtN5kv6n-GBT62e4OBHBJQw9JJLN8WdQeDDyj5G7G-wS3qVjo2AC81SE" 
+                  className="w-full h-full object-cover " 
+                  src="/industryimg/textiles-consumer1.jpeg" 
                 />
               </div>
               <div className="p-8">
@@ -176,8 +176,8 @@ const TextilesConsumer = () => {
               <div className="h-48 bg-[#eae7e7] overflow-hidden">
                 <img 
                   alt="Supply Chain Resilience" 
-                  className="w-full h-full object-cover grayscale opacity-80" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtmunwLzq6d1ej48vPUAi1UUIqZI-9tFs4B8UOL9mxQKTLKepTocDpNmDOa4zaUvZ3RK0Ay427mXAqb7D1XFc9bMYIccDsFLzbicLHXLCH7hKBcE6eVorGd3I50HazP9Xhan-GSu-eRd7I6ODqFgEJ7R5KopqfSXaMqPHTgA0zL3wPkcxAjSsQYkIpa7foBXdY2ADZXz6R5l6kebk9crzo35p-K1oh4Z9aZqIKRTGC3cYgLoL3mchdM_I1qePup870qCCGs3wUT6A" 
+                  className="w-full h-full object-cover" 
+                  src="/industryimg/textiles-consumer3.jpeg" 
                 />
               </div>
               <div className="p-8">
@@ -196,7 +196,7 @@ const TextilesConsumer = () => {
               <div className="h-48 bg-[#eae7e7] overflow-hidden">
                 <img 
                   alt="Pricing Optimization" 
-                  className="w-full h-full object-cover grayscale opacity-80" 
+                  className="w-full h-full object-cover grayscale " 
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuAadiJNJcS1v0X_RuIdqAXtFy6BBkOey-8niLnw3OcOdotOH2cCPyUE5cdNJOLEUeHVPKJTtUcsMjU8owcnfHEVjhb-YAJU3MuGiMdf2DEe4T_nx1iclTI7xqEh5XzbRA03OstgR7W3qm0Q5_VssmnT0JRB5q36bEgnVO-Vdys1YLyC-qb-CnhvRKwvSggEgk9IQZIpyXKEvDRazEb04jkjejH5qPI6yX2CHZtU-YIYi26bAXSAWswtmHDc9MsFQr2z7h7MXV13SAw" 
                 />
               </div>

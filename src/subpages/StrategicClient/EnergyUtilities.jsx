@@ -15,8 +15,10 @@ const EnergyUtilities = () => {
         <div className="absolute inset-0 z-0">
           <img 
             alt="Energy infrastructure" 
-            className="w-full h-full object-cover opacity-20 mix-blend-luminosity" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5Iw6hqfChDUvShAKpjbr52tsf0N8wu7FQ2PM-twZnOEUA46Ks9td0UNgYpxt7CHnO1RQMkk0bFOWYS6msUltUVAg14AtScpQk70_b4imsC4Ftb1MU1Wwc3lH8ueEMjmIsoIUU7WeBShx6ovSsM4EYCTuJ3Mh36kjf0uG7-soP59GtwzwdwgF3YqAZ0SqbgmKmhH70Au7sZT2MIScsbppzNsMh9JBcvmx-lQ4kPNmVH_4_y45gA3oCoNt9RLFaKv852lBAQDNIBVs" 
+            className="w-full h-full object-cover " 
+            // src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5Iw6hqfChDUvShAKpjbr52tsf0N8wu7FQ2PM-twZnOEUA46Ks9td0UNgYpxt7CHnO1RQMkk0bFOWYS6msUltUVAg14AtScpQk70_b4imsC4Ftb1MU1Wwc3lH8ueEMjmIsoIUU7WeBShx6ovSsM4EYCTuJ3Mh36kjf0uG7-soP59GtwzwdwgF3YqAZ0SqbgmKmhH70Au7sZT2MIScsbppzNsMh9JBcvmx-lQ4kPNmVH_4_y45gA3oCoNt9RLFaKv852lBAQDNIBVs" 
+
+            src='/industryimg/energy-utilities.jpeg'
           />
         </div>
         <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full py-16">
@@ -174,8 +176,9 @@ const EnergyUtilities = () => {
             <div className="relative h-[500px]">
               <img 
                 alt="Grid infrastructure" 
-                className="w-full h-full object-cover grayscale opacity-90 border border-[#c4c6cf]/20 rounded-none" 
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuC34zS1HVXxk3v5dsUnrflUQOuBW-JyWOMOurUlskXasH8GE_izGH1Ofh35HYIangq6QEHw5y6oBFb44rK2Jh7ysi1L02ZKuzk82okD0BPtff6FeHwOMe_HsWugUAo433ZxjobfzPe1eVrn33ptTcfinxkTYz4TTKKGJk8vYRUuiXMnZR16jpz-_gMBahi0oWbM7CzQwoWzkZVsE5PCQXt_sMX5zs1Ve_ymkn80cTe2UKk7LIDHaOXhJHYDUgv6AkylhlbcS4Ojz_w" 
+                className='w-full h-full  ' 
+
+                src="/industryimg/energy-utilities1.jpeg"
               />
             </div>
           </div>
