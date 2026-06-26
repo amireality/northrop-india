@@ -203,9 +203,9 @@ const Riskstergery = () => {
         {/* Gallery / Visual Spacer */}
         <section className="h-[400px] md:h-[600px] w-full overflow-hidden border-y-2 border-[#00113a]">
           <img 
-            className="w-full h-full object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-1000" 
+            className="w-full h-full " 
             alt="Minimalist corporate headquarters"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGimZDQlVge1fiKy7LzhuvDTiBmNqk8TjO8dSirAhwD55sgIJsHeTnnnLQdXkhxuHbfDzJx67RveLmoMw26asyUDQfb8qSkkk6X0uK5DBMavcRtsTYavHWGsQzxozSmpbKrIshXpc4pD9jI4XAESYMGxer6XdcktgRuxFL5LHh7zIkcUug_FAp5P9mQdkQizaggTpUwT_Z039NX8o15S680DmS3_Ud7bmtc9Ybtld02RucRRRdeRkf2g3yw0sYFcUcjyIS-w_LeQ"
+            src="/insituted/managmentassurance.jpeg"
           />
         </section>
 
