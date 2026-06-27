@@ -62,8 +62,8 @@ const TheFounderCapitalStack = () => {
               <div className="relative h-64 w-full overflow-hidden border-2 border-[#00113a]">
                 <img 
                   alt="Modern Architecture" 
-                  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDeUkgjbbh2sUqbjLYrLg3FwJr84hOPIYxTI7MO7y4zkF71XeCEz8To-kaVZsFOGpDg0LHofdiXmnOAdPqtbKjIeGKP7cLaEi6ITZCio6X_9A68YaSXRS2Vh0N1IS_r2b6SIv6f0pCHSwLRivCid-MN0bNjLTJMI76mSWsnldFV-TSI39V3C6lE-zRy-xJV_kAX0qhvFA1ymKDFnaNVgRt2NvQeEJAnwvMVWzHb8hG-fEUMdA8Hfj4fyXnzR-jru_PjUWxGdFZEmw"
+                  className="w-full h-full " 
+                  src="/insituted/founders-capital-stack2.png"
                 />
               </div>
             </div>
