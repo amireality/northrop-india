@@ -241,7 +241,7 @@ const HearingAllVoices = () => {
                   <span>Download Full Protocol</span>
                   <span className="material-symbols-outlined">download</span>
                 </Link>
-                <p className="mt-6 font-mono text-white/40 text-[10px] uppercase">Confidential Advisor Copy • Rev 2024.08</p>
+                <p className="mt-6 font-mono text-white/40 text-[10px] uppercase">Confidential Advisor Copy • Rev 2026</p>
               </div>
             </div>
           </div>

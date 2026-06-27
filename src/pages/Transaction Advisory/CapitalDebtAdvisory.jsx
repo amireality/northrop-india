@@ -146,7 +146,7 @@ const CapitalDebtAdvisory = () => {
                     <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] opacity-50">ANNUAL REVIEW</span>
                   </div>
                 </div>
-                <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#444748]">JANUARY 2024</span>
+                <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#444748]">JANUARY 2026</span>
                 <h3 className="font-newsreader font-normal text-[24px] leading-[1.3] mt-2 group-hover:underline">The Indian Capital Markets Playbook 2026</h3>
               </div>
               <div className="col-span-12 lg:col-span-8 flex flex-col justify-center">

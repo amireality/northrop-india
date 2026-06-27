@@ -199,7 +199,7 @@ const DigitalForensics = () => {
               <div className="aspect-[3/4] bg-[#e2e2e2] mb-[16px] overflow-hidden border border-[#c4c7c7]">
                 <div className="w-full h-full flex flex-col justify-between p-8 bg-[#1a1c1c] text-[#f9f9f9] group-hover:bg-[#000000] transition-colors">
                   <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase opacity-50">ANNUAL REPORT</span>
-                  <div className="font-['Newsreader'] text-[32px] leading-[1.2] font-normal">2024 Risk Outlook</div>
+                  <div className="font-['Newsreader'] text-[32px] leading-[1.2] font-normal">2026 Risk Outlook</div>
                   <span className="material-symbols-outlined text-4xl" data-icon="arrow_forward">arrow_forward</span>
                 </div>
               </div>

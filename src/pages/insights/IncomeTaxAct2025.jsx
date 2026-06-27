@@ -134,7 +134,7 @@ const IncomeTaxAct2025 = () => {
                                         <h4 className="font-['Inter'] text-[14px] font-bold text-[#000f22] mb-2 tracking-[0.05em]">Dual Timeline (PY/AY)</h4>
                                         <div className="bg-[#ebeef1] p-[16px] border border-[#c4c6ce] rounded-sm">
                                             <p className="font-['Inter'] text-[14px] text-[#43474d] leading-relaxed">
-                                                Income earned in <span className="font-bold">PY 2023-24</span> was assessed and taxed in <span className="font-bold">AY 2024-25</span>, necessitating dual-period tracking and reporting logic.
+                                                Income earned in <span className="font-bold">PY 2023-24</span> was assessed and taxed in <span className="font-bold">AY 2026-27</span>, necessitating dual-period tracking and reporting logic.
                                             </p>
                                         </div>
                                     </div>

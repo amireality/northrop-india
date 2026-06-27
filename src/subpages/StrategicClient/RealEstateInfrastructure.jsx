@@ -196,8 +196,8 @@ const RealEstateInfrastructure = () => {
               />
             </div>
             <div className="p-8 flex flex-col flex-grow">
-              <span className="text-[12px] font-bold text-[#775a19] uppercase block mb-3 tracking-widest">Oct 12, 2024</span>
-              <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#1c1b1b] mb-4">2024 Market Outlook: Global Real Estate</h3>
+              <span className="text-[12px] font-bold text-[#775a19] uppercase block mb-3 tracking-widest">Oct 12, 2026</span>
+              <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#1c1b1b] mb-4">2026 Market Outlook: Global Real Estate</h3>
               <div className="mt-auto pt-6">
                 <button 
                   onClick={() => navigate('/contact')}
@@ -218,7 +218,7 @@ const RealEstateInfrastructure = () => {
               />
             </div>
             <div className="p-8 flex flex-col flex-grow">
-              <span className="text-[12px] font-bold text-[#775a19] uppercase block mb-3 tracking-widest">Sep 28, 2024</span>
+              <span className="text-[12px] font-bold text-[#775a19] uppercase block mb-3 tracking-widest">Sep 28, 2026</span>
               <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#1c1b1b] mb-4">Yield Optimization in High-Interest Cycles</h3>
               <div className="mt-auto pt-6">
                 <button 
@@ -240,7 +240,7 @@ const RealEstateInfrastructure = () => {
               />
             </div>
             <div className="p-8 flex flex-col flex-grow">
-              <span className="text-[12px] font-bold text-[#775a19] uppercase block mb-3 tracking-widest">Aug 15, 2024</span>
+              <span className="text-[12px] font-bold text-[#775a19] uppercase block mb-3 tracking-widest">Aug 15, 2026</span>
               <h3 className="font-['Newsreader'] text-[24px] font-medium text-[#1c1b1b] mb-4">Infrastructure Debt Funding Structures</h3>
               <div className="mt-auto pt-4">
                 <button 

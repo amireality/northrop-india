@@ -124,7 +124,7 @@ const CrossBorderFinancialStructuring = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[24px]">
             {[
               { cat: "Regulatory Briefing", title: "Navigating the Global Minimum Tax: Restructuring for Pillar Two", desc: "How shifting OECD frameworks are forcing MNEs to evaluate substance over form.", img: "/financialadvisory/cross-border2.png" },
-              { cat: "Strategy", title: "The Rise of the Virtual HQ: Substance Challenges in 2024", desc: "Redefining corporate residency in an age of distributed executive leadership.", img: "/financialadvisory/cross-border3.png" },
+              { cat: "Strategy", title: "The Rise of the Virtual HQ: Substance Challenges in 2026", desc: "Redefining corporate residency in an age of distributed executive leadership.", img: "/financialadvisory/cross-border3.png" },
               { cat: "M&A Outlook", title: "Pre-IPO Structuring: Cleaning the Legacy for Public Markets", desc: "Critical steps for private equity backed firms prior to exit liquidity events.", img: "/financialadvisory/cross-border4.png" },
               { cat: "Regional Focus", title: "The Singapore-India Corridor: Evolving Treaty Protections", desc: "A deep dive into the latest protocols and LOB clause interpretations.", img: "/financialadvisory/cross-border5.png" }
             ].map((article, idx) => (

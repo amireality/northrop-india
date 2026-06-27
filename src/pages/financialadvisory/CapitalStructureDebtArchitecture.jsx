@@ -56,7 +56,7 @@ const CapitalStructureDebtArchitecture = () => {
                 src="/financialadvisory/capital-structure1.png"
               />
               <div className="absolute -bottom-8 -left-8 bg-[#000000] p-12 hidden md:block shadow-xl">
-                <p className="text-[#ffffff] font-serif italic text-[20px] max-w-[200px] leading-snug">"Structure follows strategy. Always."</p>
+                <p className="text-[#ffffff] font-serif italic text-[20px] max-w-[200px] leading-snug">"Financial architecture defines strategic capacity. "</p>
               </div>
             </div>
           </div>
@@ -117,8 +117,8 @@ const CapitalStructureDebtArchitecture = () => {
             <div className="md:w-1/2 relative min-h-[400px] md:min-h-[500px]">
               <img
                 alt="Detailed architectural drawing of a complex structure overlaid on a modern building facade."
-                className="w-full h-full object-cover grayscale brightness-90 shadow-2xl border border-[#c4c7c7]"
-                src="/financialadvisory/capital-structure2.png"
+                className="w-full h-full "
+                src="/financialadvisory/capital-structure2.jpeg"
               />
               <div className="absolute inset-0 border-[16px] md:border-[24px] border-[#fbf9f4]/20 pointer-events-none"></div>
             </div>

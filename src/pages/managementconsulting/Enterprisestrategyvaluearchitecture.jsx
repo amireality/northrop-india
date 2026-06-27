@@ -17,7 +17,8 @@ const Enterprisestrategyvaluearchitecture = () => {
                 Designing Architectural Value.
               </h1>
               <p className="font-serif text-[20px] md:text-[20px] text-[#444748] max-w-4xl border-l-2 border-[#000000] pl-8 mt-16 font-medium italic">
-                "You have a strategy deck. The market still treats you like a transaction."
+                {/* "You have a strategy deck. The market still treats you like a transaction." */}
+                "We partner with founders, boards, and executive teams to design enterprise strategies that accelerate growth, improve resilience, and create enduring shareholder value."
               </p>
             </div>
           </div>
@@ -28,8 +29,8 @@ const Enterprisestrategyvaluearchitecture = () => {
           <div className="relative w-full aspect-[21/9] overflow-hidden   border border-[#c4c7c7]">
             <img
               alt="Abstract glass facade of a modern skyscraper"
-              className="w-full h-full object-cover"
-              src="/managmentcounsaltingimg/enterprises.png"
+              className="w-full h-full "
+              src="/managmentcounsaltingimg/enterprise-strategy-value-architecture.jpeg"
             />
   
           </div>
@@ -54,7 +55,7 @@ const Enterprisestrategyvaluearchitecture = () => {
                   "In an era of hyper-liquidity, differentiation is no longer found in access to capital, but in the rigor of its allocation."
                 </blockquote>
                 <div className="h-px bg-[#c4c7c7] w-24 mb-6"></div>
-                <p className="font-body-md text-[#444748]">Northrop Strategic Advisory, 2024</p>
+                <p className="font-body-md text-[#444748]">Northrop Strategic Advisory, 2026</p>
               </div>
             </div>
           </div>
@@ -111,7 +112,7 @@ const Enterprisestrategyvaluearchitecture = () => {
             <img
               alt="High-end corporate boardroom with minimalist aesthetic"
               className="w-full h-full object-cover"
-              src="/managmentcounsaltingimg/enterprises1.png"
+              src="/managmentcounsaltingimg/enterprises0.jpeg"
             />
             <div className="absolute inset-0 bg-black/10"></div>
             <div className="absolute bottom-12 left-12 max-w-xl bg-[#000000] text-[#ffffff] p-8">

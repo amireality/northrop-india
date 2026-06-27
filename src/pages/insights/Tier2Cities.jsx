@@ -87,7 +87,7 @@ const Tier2Cities = () => {
                                     </div>
                                 </div>
                             </div>
-                            <p className="text-center font-['Inter'] text-[14px] text-[#37485a] mt-4">Current state: $65B (2024)</p>
+                            <p className="text-center font-['Inter'] text-[14px] text-[#37485a] mt-4">Current state: $65B (2026)</p>
                         </div>
                         {/* Tier-2 Momentum */}
                         <div className="bg-[#ffffff] p-[32px] border border-[#c4c6ce]/40 shadow-sm relative group">

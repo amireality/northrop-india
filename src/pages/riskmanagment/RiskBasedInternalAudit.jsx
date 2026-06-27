@@ -57,7 +57,7 @@ const RiskBasedInternalAudit = () => {
       type: "Risk Report",
       title: "Cybersecurity as an Audit Mandate",
       description:
-        "Why the audit plan must integrate deep technical vulnerability assessments to protect shareholder value in 2024.",
+        "Why the audit plan must integrate deep technical vulnerability assessments to protect shareholder value in 2026.",
       image:
         "/riskadvisoryimg/risk-based3.png",
     },

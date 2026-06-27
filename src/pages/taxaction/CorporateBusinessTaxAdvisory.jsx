@@ -135,7 +135,7 @@ const CorporateBusinessTaxAdvisory = () => {
                 <div className="aspect-[3/4] bg-[#eeeeee] mb-[16px] overflow-hidden border border-[#E0E0E0]">
                   <img className="w-full h-full object-cover grayscale transition-transform duration-500 group-hover:scale-105" alt="A low-angle shot of a skyscraper's facade" src="/taxationimg/corporate-business2.png" />
                 </div>
-                <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-2 block">White Paper / 2024</span>
+                <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-2 block">White Paper / 2026</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal leading-tight group-hover:underline">India's New Tax Landscape</h3>
               </div>
               {/* Publication 2 */}

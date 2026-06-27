@@ -101,8 +101,8 @@ const CorporateGovernanceBoardAdvisory = () => {
                 <div className="aspect-[4/5] overflow-hidden border border-[#000000]/10">
                   <img
                     alt="Strategic Collaboration"
-                    className="w-full h-full object-cover grayscale"
-                    src="/managmentcounsaltingimg/corporate-governance2.png"
+                    className="w-full h-full "
+                    src="/managmentcounsaltingimg/corporate-governance2.jpeg"
                   />
                 </div>
                 <div className="absolute -bottom-8 -right-8 bg-[#000000] text-[#ffffff] p-12 max-w-xs hidden md:block">

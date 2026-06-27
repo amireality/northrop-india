@@ -189,10 +189,10 @@ const DistressedAssetTurnaroundAdvisory = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[24px]">
               {[
-                { cat: "REPORT", title: "The Liquidity Paradox: Navigating 2024 Debt Markets", date: "May 12, 2024 • 8 min read", img: "/financialadvisory/distressed-asset3.png" },
-                { cat: "ANALYSIS", title: "Structural Vulnerabilities in Mid-Cap Manufacturing", date: "Apr 28, 2024 • 12 min read", img: "/financialadvisory/distressed-asset4.png" },
-                { cat: "WHITE PAPER", title: "Lender Psychology: The Art of the Workout", date: "Mar 15, 2024 • 15 min read", img: "/financialadvisory/distressed-asset5.png" },
-                { cat: "PERSPECTIVE", title: "Governance as a De-risking Mechanism", date: "Feb 04, 2024 • 6 min read", img: "/financialadvisory/distressed-asset6.png" }
+                { cat: "REPORT", title: "The Liquidity Paradox: Navigating 2026 Debt Markets", date: "May 12, 2026 • 8 min read", img: "/financialadvisory/distressed-asset3.png" },
+                { cat: "ANALYSIS", title: "Structural Vulnerabilities in Mid-Cap Manufacturing", date: "Apr 28, 2026 • 12 min read", img: "/financialadvisory/distressed-asset4.png" },
+                { cat: "WHITE PAPER", title: "Lender Psychology: The Art of the Workout", date: "Mar 15, 2026 • 15 min read", img: "/financialadvisory/distressed-asset5.png" },
+                { cat: "PERSPECTIVE", title: "Governance as a De-risking Mechanism", date: "Feb 04, 2026 • 6 min read", img: "/financialadvisory/distressed-asset6.png" }
               ].map((article, idx) => (
                 <Link key={idx} to="/insights" className="group block cursor-pointer">
                   <div className="aspect-square mb-8 overflow-hidden bg-[#f0eee9] border border-[#c4c7c7] shadow-sm">

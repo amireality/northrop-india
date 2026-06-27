@@ -22,7 +22,7 @@ const GstNewStructure = () => {
                         <div className="border-t border-b border-[#c4c6ce] py-4 flex flex-wrap gap-x-12 gap-y-4">
                             <div>
                                 <div className="font-['Inter'] text-[10px] font-bold tracking-[0.1em] text-[#43474d] uppercase mb-1">Date</div>
-                                <div className="font-['Inter'] text-[14px] font-bold tracking-[0.05em] text-[#0a2540]">OCTOBER 2024</div>
+                                <div className="font-['Inter'] text-[14px] font-bold tracking-[0.05em] text-[#0a2540]">OCTOBER 2026</div>
                             </div>
                             <div>
                                 <div className="font-['Inter'] text-[10px] font-bold tracking-[0.1em] text-[#43474d] uppercase mb-1">Read Time</div>

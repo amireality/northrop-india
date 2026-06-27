@@ -78,8 +78,8 @@ const QualityOfEarningsAnalysis = () => {
         "https://lh3.googleusercontent.com/aida-public/AB6AXuAHPBvangzxfyQoKJ8DNsWebGboOAmlNQ5PIdfzsbkip6I2GYKFFZAUrRn_t-Tfgm0rP_BaOT5W10leZvIFzmb29Hqe57shdoeRG4mAstnRy0lCFLpMJSUev_UvFp6PsNN-cStGnfzIyVIz0lGxqDCzPGWw2n1sxfkRxXlJS8-DZULQPrhI0QJQBQSX_GoTRwTcW6ac9DyFEx_ykOVcGA1yc5JtvMQfZ3BeY20a7LfdY9HKsjSed2gqGeavSy3Itk5dXu5GzjZ5x3U",
     },
     {
-      type: "White Paper // Q1 2024",
-      title: "The 2024 Valuation Handbook",
+      type: "White Paper // Q1 2026",
+      title: "The 2026 Valuation Handbook",
       description:
         "A comprehensive guide for analysts on bridging the gap between audit financials and investment-ready data.",
       icon: "auto_stories",

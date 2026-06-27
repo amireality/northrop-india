@@ -73,7 +73,7 @@ const LenderFinancialInstitutionDD = () => {
     },
     {
       type: "GLOBAL ADVISORY",
-      title: "Alternative Credit Trends 2024",
+      title: "Alternative Credit Trends 2026",
       description:
         "Analysis of private debt flows and the increasing demand for specialized third-party DD.",
       image:

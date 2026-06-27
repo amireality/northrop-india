@@ -50,7 +50,7 @@ const insightsData = {
   ],
   mandateHighlight: {
     quote: "\"The true cost of capital is not what you pay, but what you forgo.\"",
-    author: "— Excerpt from the Chairman's 2024 Mandate",
+    author: "— Excerpt from the Chairman's 2026 Mandate",
     image: "/insight/mandatehighlight.png"
   }
 };
@@ -90,7 +90,7 @@ export default function Insights() {
         <section className="mb-[128px]">
           <div className="flex items-center justify-between mb-[48px] border-b border-[#c4c6cf]/15 pb-[16px]">
             <h2 className="text-[36px] font-playfair font-[700] text-[#001f3f]">Institutional Research</h2>
-            {/* <span className="text-[12px] uppercase tracking-widest text-[#43474e]">Volume IV • Q3 2024</span> */}
+            {/* <span className="text-[12px] uppercase tracking-widest text-[#43474e]">Volume IV • Q3 2026</span> */}
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-12 gap-[32px]">
@@ -242,7 +242,7 @@ export default function Insights() {
                 <img
                   className="w-full h-full object-cover"
                   src={insightsData.mandateHighlight.image}
-                  alt="Chairman's 2024 Mandate — Northrop Management institutional perspective highlight"
+                  alt="Chairman's 2026 Mandate — Northrop Management institutional perspective highlight"
                   loading="lazy"
                 />
               </div>

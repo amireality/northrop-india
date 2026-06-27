@@ -56,7 +56,7 @@ const BrsrCoreAssurance = () => {
                                     <div className="flex items-start gap-[16px] mb-[24px]">
                                         <span className="material-symbols-outlined text-[#c89f50] text-[32px]">verified_user</span>
                                         <div>
-                                            <div className="font-['Inter'] text-[12px] font-bold text-[#ffffff] tracking-[0.1em]">SEBI 2024</div>
+                                            <div className="font-['Inter'] text-[12px] font-bold text-[#ffffff] tracking-[0.1em]">SEBI 2026</div>
                                             <div className="font-['Inter'] text-[12px] font-bold text-[#c89f50] tracking-[0.1em]">COMPLIANCE SEAL</div>
                                         </div>
                                     </div>
@@ -74,7 +74,7 @@ const BrsrCoreAssurance = () => {
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-[48px] gap-[24px] border-b border-[#e0e3e6] pb-[24px]">
                         <h2 className="font-['Montserrat'] text-[24px] md:text-[32px] font-semibold text-[#000f22] max-w-sm leading-[1.2]">Framework Taxonomy &amp; Critical Milestones</h2>
                         <div className="font-['Inter'] text-[12px] font-semibold text-[#74777e] tracking-[0.1em] uppercase">
-                            DOCUMENT REF: BRSR-CR-2024
+                            DOCUMENT REF: BRSR-CR-2026
                         </div>
                     </div>
                     

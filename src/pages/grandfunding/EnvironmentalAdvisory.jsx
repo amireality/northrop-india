@@ -115,7 +115,7 @@ const EnvironmentalAdvisory = () => {
                   <h3 className="font-newsreader font-normal text-[32px] leading-[1.2] text-white italic relative z-10">Net Zero or Net Noise?</h3>
                 </div>
               </div>
-              <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#444748] block mb-2">PUBLICATION / Q4 2024</span>
+              <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#444748] block mb-2">PUBLICATION / Q4 2026</span>
               <h3 className="font-newsreader font-normal text-[24px] leading-[1.3] mb-3 group-hover:underline underline-offset-4 decoration-1">The Critical Distinction Between Offsetting and Real-World Decarbonisation</h3>
               <p className="font-inter font-normal text-[15px] leading-[1.6] text-[#444748]">An interrogation of current corporate carbon strategies and the rising regulatory risk of greenwashing in institutional reporting.</p>
             </div>

@@ -34,7 +34,7 @@ const FcraCompliancePmla = () => {
                     <div className="relative z-20 w-full px-[16px] md:px-[40px] max-w-[1280px] mx-auto text-[#ffffff]">
                         <div className="flex items-center gap-4 mb-[16px]">
                             <span className="font-['Inter'] text-[12px] font-medium bg-[#003ea8] px-3 py-1 rounded-[4px]">VOL. 16</span>
-                            <span className="font-['Inter'] text-[12px] font-medium opacity-80 tracking-[0.1em] uppercase">October 2024 • Strategy Ledger</span>
+                            <span className="font-['Inter'] text-[12px] font-medium opacity-80 tracking-[0.1em] uppercase">October 2026 • Strategy Ledger</span>
                         </div>
                         <h1 className="font-['Montserrat'] text-[32px] md:text-[48px] font-bold max-w-4xl leading-tight mb-[32px] tracking-[-0.02em]">
                             FCRA Compliance and PMLA Obligations — Why Financial Governance Is Core to NGO Survival

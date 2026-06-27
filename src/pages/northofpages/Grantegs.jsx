@@ -19,7 +19,7 @@ const Grantegs = () => {
             <div className="max-w-4xl">
               <div className="flex items-center gap-3 mb-6">
                 <span className="inline-block bg-[#166534] text-white px-3 py-1 font-black text-[10px] uppercase tracking-widest">PROFESSIONAL PROGRAM</span>
-                <span className="text-[12px] uppercase text-[#ffff] font-bold">Executive Cohort 2024</span>
+                <span className="text-[12px] uppercase text-[#ffff] font-bold">Executive Cohort 2026</span>
               </div>
               <h1 className="text-[48px] md:text-[72px] text-[#ffff] mb-6 font-black leading-[0.95] tracking-tighter">GRANT FUNDING, ESG & SUSTAINABLE FINANCE</h1>
               <h2 className="text-[24px] md:text-[32px] text-[#ffff] mb-8 italic font-bold">Mastering the Impact Machine: The Mechanics of Impact Capital</h2>

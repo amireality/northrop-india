@@ -43,7 +43,7 @@ const TaxRegulatoryDueDiligence = () => {
     {
       type: "REGULATORY REPORT",
       title:
-        "Tax Due Diligence in India: A Regulatory Roadmap for 2024",
+        "Tax Due Diligence in India: A Regulatory Roadmap for 2026",
       description:
         "An analysis of upcoming changes in direct tax assessments and digital reporting mandates.",
       image:

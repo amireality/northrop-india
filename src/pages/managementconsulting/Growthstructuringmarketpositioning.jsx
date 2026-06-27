@@ -15,7 +15,7 @@ const Growthstructuringmarketpositioning = () => {
             <img
               alt="Corporate architectural detail symbolizing strength and structure"
               className="w-full h-full object-cover grayscale brightness-50"
-              src="/managmentcounsaltingimg/growth-structuring.png"
+              src="/managmentcounsaltingimg/growth-structuring.jpeg"
             />
           </div>
           <div className="relative z-10 w-full max-w-[1200px] mx-auto px-[64px]">
@@ -84,7 +84,7 @@ const Growthstructuringmarketpositioning = () => {
                 <img
                   alt="Strategic analytical meeting in a modern setting"
                   className="w-full h-[400px] md:h-[600px] object-cover grayscale border-4 border-[#000000] shadow-[16px_16px_0px_0px_rgba(0,0,0,1)]"
-                  src="/managmentcounsaltingimg/growth-structuring1.png"
+                  src="/managmentcounsaltingimg/growth-structuring-market-positioning.jpeg"
                 />
               </div>
               <div className="col-span-12 lg:col-span-5 lg:col-start-8">
@@ -136,8 +136,8 @@ const Growthstructuringmarketpositioning = () => {
             <div className="col-span-12 lg:col-span-6 lg:col-start-7 mt-16 lg:mt-0">
               <img
                 alt="Executive strategist analyzing complex data visualizations"
-                className="w-full h-[500px] md:h-[700px] object-cover border-4 border-[#000000] grayscale rounded-none shadow-[-8px_8px_0px_0px_rgba(0,0,0,1)]"
-                src="/managmentcounsaltingimg/growth-structuring2.png"
+                className="w-full h-[500px] md:h-[700px] grayscale border-4 border-[#000000] rounded-none shadow-[-8px_8px_0px_0px_rgba(0,0,0,1)]"
+                src="/managmentcounsaltingimg/growth-structuring2.jpeg"
               />
             </div>
           </section>

@@ -141,7 +141,7 @@ const FromIsae3000 = () => {
               <div className="relative pl-12 pb-12">
                 <div className="absolute left-0 top-1 w-6 h-6 bg-[#001F3F] rounded-full border-4 border-[#f8f9fa] ring-2 ring-[#001F3F]"></div>
                 <div className="flex flex-col gap-2">
-                  <span className="font-mono text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase text-[#7c5800]">PHASE 01: Q2-Q3 2024</span>
+                  <span className="font-mono text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase text-[#7c5800]">PHASE 01: Q2-Q3 2026</span>
                   <h4 className="font-serif text-[24px] leading-[32px] font-semibold text-[#001F3F]">Structural Diagnostic &amp; Control Mapping</h4>
                   <p className="text-[14px] leading-[20px] text-[#4A5568]">Mapping existing internal controls over financial reporting (ICFR) to non-financial data streams.</p>
                 </div>
@@ -151,7 +151,7 @@ const FromIsae3000 = () => {
               <div className="relative pl-12 pb-12">
                 <div className="absolute left-0 top-1 w-6 h-6 bg-[#001F3F] rounded-full border-4 border-[#f8f9fa] ring-2 ring-[#001F3F]"></div>
                 <div className="flex flex-col gap-2">
-                  <span className="font-mono text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase text-[#7c5800]">PHASE 02: Q4 2024 - Q2 2025</span>
+                  <span className="font-mono text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase text-[#7c5800]">PHASE 02: Q4 2026 - Q2 2025</span>
                   <h4 className="font-serif text-[24px] leading-[32px] font-semibold text-[#001F3F]">Systems Integration &amp; Ledger Deployment</h4>
                   <p className="text-[14px] leading-[20px] text-[#4A5568]">Deploying centralized ESG data hubs with cryptographic audit trails for automated verification.</p>
                 </div>

@@ -56,7 +56,7 @@ const EsgAsAlpha = () => {
             </p>
             <div className="bg-[#f3f4f5] p-8 border border-[#c5c6cd]">
               <h4 className="text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase text-[#001F3F] mb-4">FORENSIC FINDING</h4>
-              <p className="text-[16px] leading-[24px]">92% of institutional investors now deploy secondary forensic teams specifically to audit ESG reporting lines prior to deal signing, up from 34% in 2024.</p>
+              <p className="text-[16px] leading-[24px]">92% of institutional investors now deploy secondary forensic teams specifically to audit ESG reporting lines prior to deal signing, up from 34% in 2026.</p>
             </div>
           </div>
         </section>

@@ -74,7 +74,7 @@ const AnatomyOfAllocation = () => {
               <div className="bg-[#ffffff] p-[40px] border border-[#c4c6d0]">
                 <h3 className="font-serif text-[24px] font-medium leading-[1.3] text-[#001736] mb-[16px]">The Bengaluru vs. Delhi-NCR Dynamic</h3>
                 <p className="font-sans text-[16px] font-normal leading-[1.5] text-[#5d5f5f] leading-relaxed mb-[24px]">
-                  A clear divergence has emerged between the two primary hubs. Bengaluru's ecosystem has pivoted toward deep-tech and SaaS with an average 18% lower burn-to-revenue ratio compared to 2024. Conversely, the Delhi-NCR consumer-tech corridor is facing a reckoning, with several legacy hyper-growth platforms forced into drastic restructuring to achieve positive EBITDA.
+                  A clear divergence has emerged between the two primary hubs. Bengaluru's ecosystem has pivoted toward deep-tech and SaaS with an average 18% lower burn-to-revenue ratio compared to 2026. Conversely, the Delhi-NCR consumer-tech corridor is facing a reckoning, with several legacy hyper-growth platforms forced into drastic restructuring to achieve positive EBITDA.
                 </p>
                 <div className="grid grid-cols-2 gap-[24px] pt-[24px] border-t border-[#c4c6d0]">
                   <div>

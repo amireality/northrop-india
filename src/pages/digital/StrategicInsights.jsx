@@ -7,7 +7,7 @@ const StrategicInsights = () => {
     <>
       <Helmet>
         <title>Strategic Insights & Case Studies | Northrop Management</title>
-        <meta name="description" content="Explore our comprehensive 2024 analysis on AI-driven transformation, global ERP overhauls, and cybersecurity resilience for the modern enterprise." />
+        <meta name="description" content="Explore our comprehensive 2026 analysis on AI-driven transformation, global ERP overhauls, and cybersecurity resilience for the modern enterprise." />
     
       </Helmet>
 
@@ -28,7 +28,7 @@ const StrategicInsights = () => {
                 AI-Driven Transformation: Navigating the Next Frontier of Enterprise Growth.
               </h1>
               <p className="text-[18px] text-white/90 max-w-2xl leading-[1.6]">
-                Explore our comprehensive 2024 analysis on how global enterprises are leveraging generative AI to restructure legacy operations and secure a sustainable competitive advantage in a volatile market.
+                Explore our comprehensive 2026 analysis on how global enterprises are leveraging generative AI to restructure legacy operations and secure a sustainable competitive advantage in a volatile market.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Link to="/contact">

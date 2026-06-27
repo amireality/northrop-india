@@ -23,7 +23,7 @@ const SovereignWealthShift = () => {
                   Q1 2026 STRATEGIC INTELLIGENCE
                 </span>
                 <h1 className="font-[Newsreader] text-[48px] font-semibold leading-[1.1] tracking-[-0.02em] text-[#001736]">
-                  Analysis Report: The Sovereign Wealth Shift (2024–2026)
+                  Analysis Report: The Sovereign Wealth Shift (2026–2026)
                 </h1>
               </div>
               {/* <div className="text-right">
@@ -115,14 +115,14 @@ const SovereignWealthShift = () => {
                       2015
                     </span>
                   </div>
-                  {/* 2024 */}
+                  {/* 2026 */}
                   <div className="flex-1 flex flex-col items-center gap-[8px]">
                     <div className="w-full flex items-end gap-[8px] h-[180px]">
                       <div className="flex-1 bg-[#001736]" style={{ height: '24%' }}></div>
                       <div className="flex-1 bg-[#cd805d]" style={{ height: '20%' }}></div>
                     </div>
                     <span className="font-[Inter] text-[14px] font-medium leading-[1.4] tracking-[0.02em] text-[#5d5f5f]">
-                      2024 (EST)
+                      2026 (EST)
                     </span>
                   </div>
                   {/* 2026 */}
@@ -223,7 +223,7 @@ const SovereignWealthShift = () => {
                       SECTOR FOCUS
                     </th>
                     <th className="p-[24px] font-[Inter] text-[12px] font-semibold leading-[1] tracking-[0.08em] uppercase">
-                      KEY DYNAMICS (2024–2026)
+                      KEY DYNAMICS (2026–2027)
                     </th>
                     <th className="p-[24px] font-[Inter] text-[12px] font-semibold leading-[1] tracking-[0.08em] uppercase">
                       QUANTITATIVE IMPACT

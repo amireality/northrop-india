@@ -163,10 +163,10 @@ const WorkingCapitalLiquidityOptimization = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[24px]">
               {[
-                { category: "Finance • Q4 2024", title: "The Future of Liquidity in a High-Rate Environment", img: "/financialadvisory/working-capital2.png" },
-                { category: "Governance • Q3 2024", title: "Boardroom Priorities: Beyond the Balance Sheet", img: "/financialadvisory/working-capital3.png" },
-                { category: "Operations • Q3 2024", title: "Supply Chain Resilience as a Financial Lever", img: "/financialadvisory/working-capital4.png" },
-                { category: "Technology • Q2 2024", title: "AI-Driven Cash Forecasting: The New Standard", img: "/financialadvisory/working-capital5.png" }
+                { category: "Finance • Q4 2026", title: "The Future of Liquidity in a High-Rate Environment", img: "/financialadvisory/working-capital2.png" },
+                { category: "Governance • Q3 2026", title: "Boardroom Priorities: Beyond the Balance Sheet", img: "/financialadvisory/working-capital3.png" },
+                { category: "Operations • Q3 2026", title: "Supply Chain Resilience as a Financial Lever", img: "/financialadvisory/working-capital4.png" },
+                { category: "Technology • Q2 2026", title: "AI-Driven Cash Forecasting: The New Standard", img: "/financialadvisory/working-capital5.png" }
               ].map((article, idx) => (
                 <Link key={idx} to="/insights" className="group block cursor-pointer">
                   <div className="aspect-[16/10] overflow-hidden mb-6 bg-[#f0eee9] border border-[#c4c7c7] shadow-sm">

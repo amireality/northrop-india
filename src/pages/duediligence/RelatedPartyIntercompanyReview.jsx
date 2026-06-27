@@ -54,7 +54,7 @@ const RelatedPartyIntercompanyReview = () => {
     },
     {
       type: "Regulatory Update",
-      title: "SEBI Disclosure Mandates: A 2024 Readiness Guide",
+      title: "SEBI Disclosure Mandates: A 2026 Readiness Guide",
       description:
         "How new reporting standards for related-party transactions will impact listed entity valuations.",
       image:

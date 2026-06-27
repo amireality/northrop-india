@@ -80,7 +80,7 @@ const InsolvencyTransactionAudits = () => {
       category: "MARKET WATCH",
       type: "GLOBAL INTELLIGENCE",
       icon: "language",
-      title: "Global Recovery Benchmarks 2024",
+      title: "Global Recovery Benchmarks 2026",
       description:
         "Comparative analysis of insolvency recovery rates across emerging markets.",
       image:

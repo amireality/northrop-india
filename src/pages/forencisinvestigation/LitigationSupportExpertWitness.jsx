@@ -27,7 +27,7 @@ const LitigationSupportExpertWitness = () => {
   const publications = [
     {
       number: "01",
-      type: "Journal | Q4 2024",
+      type: "Journal | Q4 2026",
       title: "The Expert Witness Edge",
       image:
         "https://lh3.googleusercontent.com/aida-public/AB6AXuD_bOsOJAAZCfWuhYF0yd3Sop6kCYOH2CXk0JCHPNM867Tn5wZhp0crnAHNvHY7sk5wbqleoDA-WJnU2yYIdlNaGUabnzIsAn2YgUHhHrJOGthItXgGIdxeMZkJjOGAL48cytft_r1m81SlDIJkcXSU9625l_nTlK40VzPujUT26VNKh2GWp0oat4DnKwmjqwsosnW_bW-AmNYxzX4Alk8EtksaR25zlLXIRmtS2Ub8tdDX0mSqmxG33iRPi3NVilVtE2KUc6MWWjs",

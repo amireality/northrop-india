@@ -204,7 +204,7 @@ const InstitutionalGrantManagement = () => {
                 "Climate risk is no longer a peripheral concern for grant-makers; it is the primary lens through which institutional capital must be evaluated and deployed."
               </blockquote>
               <p className="font-manrope font-semibold text-[12px] leading-[1.2] uppercase tracking-[0.1em] text-[#5d5f5d]">
-                — Northrop Intelligence Report: Q4 2024 Social Mandates
+                — Northrop Intelligence Report: Q4 2026 Social Mandates
               </p>
               <div className="mt-12">
                 <a className="font-manrope font-semibold text-[12px] leading-[1.2] uppercase tracking-[0.1em] text-[#000000] border-b border-[#000000] pb-1 hover:opacity-70 transition-all duration-200 inline-block" href="#">

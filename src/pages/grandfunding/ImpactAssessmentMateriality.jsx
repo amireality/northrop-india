@@ -132,7 +132,7 @@ const ImpactAssessmentMateriality = () => {
                   <div className="p-12 text-center relative z-10">
                     <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#5e5e5e] block mb-[16px]">NORTHROP INTELLIGENCE</span>
                     <div className="font-newsreader font-normal text-[48px] leading-[1.1] tracking-[-0.02em] border-y border-[#c4c7c7] py-4 bg-white/80 backdrop-blur-sm">DOUBLE MATERIALITY</div>
-                    <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] mt-[16px] block">VOLUME IV / 2024</span>
+                    <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] mt-[16px] block">VOLUME IV / 2026</span>
                   </div>
                 </div>
               </div>

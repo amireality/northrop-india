@@ -7,7 +7,7 @@ const BusinessTransformation = () => {
     <>
       <Helmet>
         <title>Strategic Insights & Case Studies | Northrop Management</title>
-        <meta name="description" content="AI-Driven Transformation: Navigating the Next Frontier of Enterprise Growth. Explore our comprehensive 2024 analysis on global enterprise restructuring." />
+        <meta name="description" content="AI-Driven Transformation: Navigating the Next Frontier of Enterprise Growth. Explore our comprehensive 2026 analysis on global enterprise restructuring." />
       </Helmet>
 
       <main className="bg-[#fcf9f8] text-[#1c1b1b] font-inter selection:bg-[#aac7ff] selection:text-[#001736] overflow-x-hidden">
@@ -27,7 +27,7 @@ const BusinessTransformation = () => {
                 AI-Driven Transformation: Navigating the Next Frontier of Enterprise Growth.
               </h1>
               <p className="font-inter text-[16px] md:text-[18px] text-white opacity-90 max-w-2xl leading-[1.6]">
-                Explore our comprehensive 2024 analysis on how global enterprises are leveraging generative AI to restructure legacy operations and secure a sustainable competitive advantage in a volatile market.
+                Explore our comprehensive 2026 analysis on how global enterprises are leveraging generative AI to restructure legacy operations and secure a sustainable competitive advantage in a volatile market.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <button className="bg-white text-[#001736] px-8 py-4 font-inter text-[15px] font-medium tracking-widest flex items-center justify-center gap-2 border border-white hover:bg-[#eae7e7] transition-colors uppercase">

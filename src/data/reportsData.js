@@ -100,7 +100,7 @@ export const reportsData = {
         category: 'REGULATORY REPORTING',
         title: 'RBI Reports Bank Fraud Rising to ₹36,014 Crore — Three Times the Prior Year',
         subheadline: 'Organisations must move from reactive investigation to continuous fraud surveillance.',
-        date: 'JUNE 2024',
+        date: 'JUNE 2026',
         readTime: '15 MIN READ',
         heroImg: '/reportimg/3rd.png',
         content: [
@@ -112,7 +112,7 @@ export const reportsData = {
             {
                 type: 'paragraph',
                 dropCap: true,
-                text: "According to the Reserve Bank of India’s Annual Report for 2024-25, the total value of bank frauds reported jumped nearly three-fold to ₹36,014 crore in FY25 from ₹12,230 crore in the previous year — a 194% surge. The number of cases, however, declined from 36,060 to 23,953. Public sector banks accounted for a disproportionate 71% of the value involved despite fewer cases, largely due to loan-related frauds that made up over 92% of the total amount. Private banks reported the majority of cases (around 59%)."
+                text: "According to the Reserve Bank of India’s Annual Report for 2026-27, the total value of bank frauds reported jumped nearly three-fold to ₹36,014 crore in FY25 from ₹12,230 crore in the previous year — a 194% surge. The number of cases, however, declined from 36,060 to 23,953. Public sector banks accounted for a disproportionate 71% of the value involved despite fewer cases, largely due to loan-related frauds that made up over 92% of the total amount. Private banks reported the majority of cases (around 59%)."
             },
             {
                 type: 'paragraph',
@@ -172,7 +172,7 @@ export const reportsData = {
             }
         ],
         sources: [
-            'RBI Annual Report 2024-25',
+            'RBI Annual Report 2026-27',
             'Indian Express, The Hindu BusinessLine',
             'Moneycontrol',
             'EY Insights on AI fraud monitoring',
@@ -281,7 +281,7 @@ export const reportsData = {
         ],
         sources: [
             'Institute of Chartered Accountants of India (ICAI) - FAIS Framework,',
-            'SEBI Guidance Note on Corporate Governance 2024',
+            'SEBI Guidance Note on Corporate Governance 2026',
             'Ministry of Corporate Affairs (MCA) - Discussion Paper on Fraud Detection'
         ],
         series: {

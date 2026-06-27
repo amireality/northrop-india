@@ -163,7 +163,7 @@ const PrivateEquityGrowthCapitalAdvisory = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[24px]">
             {[
-              { category: "Market Analysis", title: "The Shift in LBO Debt Structures for 2024", desc: "Navigating the rising cost of capital in mid-market transactions and its impact on exit multiples.", img: "/financialadvisory/private-equity3.png" },
+              { category: "Market Analysis", title: "The Shift in LBO Debt Structures for 2026", desc: "Navigating the rising cost of capital in mid-market transactions and its impact on exit multiples.", img: "/financialadvisory/private-equity3.png" },
               { category: "Governance", title: "Redefining Minority Rights in Growth Capital", desc: "How founders are reclaiming board sovereignty through creative secondary market instruments.", img: "/financialadvisory/private-equity4.png" },
               { category: "Deal Flow", title: "Cross-Border PE Strategy in Emerging Markets", desc: "A structural analysis of currency risk mitigation in high-yield secondary equity offerings.", img: "/financialadvisory/private-equity5.png" },
               { category: "Whitepaper", title: "The Anatomy of a Term Sheet Restructuring", desc: "Detailed teardown of a successful pivot from predatory terms to institutional-grade equity.", img: "/financialadvisory/private-equity6.png" }

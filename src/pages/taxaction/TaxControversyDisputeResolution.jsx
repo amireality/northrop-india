@@ -113,7 +113,7 @@ const TaxControversyDisputeResolution = () => {
               {/* Case Study */}
               <div className="col-span-12 md:col-span-8 bg-[#eeeeee] p-12">
                 <div className="flex justify-between items-start mb-[24px]">
-                  <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#444748] uppercase">Case Study 2024</span>
+                  <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#444748] uppercase">Case Study 2026</span>
                   <span className="bg-[#000000] text-[#ffffff] px-3 py-1 font-['Inter'] text-[10px] leading-[1.2] tracking-[0.1em] font-semibold uppercase">Outcome: Successful</span>
                 </div>
                 <h2 className="font-['Newsreader'] text-[48px] leading-[1.1] tracking-[-0.02em] font-normal mb-[16px]">Rs.220 Cr Demand Dropped.</h2>

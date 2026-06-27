@@ -107,7 +107,7 @@ const SustainableSupplyChain = () => {
               <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#5e5e5e] block mb-6">INTELLIGENCE BRIEF</span>
               <div className="border-t border-[#000000] pt-6">
                 <h3 className="font-newsreader font-normal text-[24px] leading-[1.3] mb-4">'The Hidden ESG Risk in India's Supply Chains'</h3>
-                <p className="text-[#444748] font-inter font-normal text-[15px] leading-[1.6] mb-8">An institutional analysis of regulatory gaps and emerging enforcement trends affecting the global manufacturing sector in 2024.</p>
+                <p className="text-[#444748] font-inter font-normal text-[15px] leading-[1.6] mb-8">An institutional analysis of regulatory gaps and emerging enforcement trends affecting the global manufacturing sector in 2026.</p>
                 <button className="border border-[#000000] px-[24px] py-3 font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] hover:bg-[#000000] hover:text-[#ffffff] transition-colors duration-200">DOWNLOAD WHITE PAPER</button>
               </div>
             </div>

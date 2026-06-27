@@ -199,7 +199,7 @@ const EBITDANormalizationValuationAdvisory = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
-                { cat: "White Paper", title: "The 2024 EBITDA Multiplier Report: Sector Shifts", desc: "How market conditions are redefining what counts as 'sustainable' earnings.", img: "/financialadvisory/ebitda-valuation3.png" },
+                { cat: "White Paper", title: "The 2026 EBITDA Multiplier Report: Sector Shifts", desc: "How market conditions are redefining what counts as 'sustainable' earnings.", img: "/financialadvisory/ebitda-valuation3.png" },
                 { cat: "Strategic Brief", title: "Navigating QofE for Mid-Market Manufacturing", desc: "Key pitfalls in inventory valuation and labor cost capitalization during exit prep.", img: "/financialadvisory/ebitda-valuation4.png" },
                 { cat: "Market Intelligence", title: "Post-COVID Normalization: The Final Wave", desc: "Defining non-recurring impacts in the current low-inflation environment.", img: "/financialadvisory/ebitda-valuation5.png" },
                 { cat: "Executive Summary", title: "Defending the Premium: Tech Valuation Anchoring", desc: "Structuring deferred revenue narratives to protect SaaS valuation multiples.", img: "/financialadvisory/ebitda-valuation6.png" }

@@ -26,7 +26,7 @@ const PortfolioRationalizationBusinessExits = () => {
             <img
               alt="Minimalist architectural void"
               className="w-full h-full object-cover grayscale brightness-90"
-              src="/managmentcounsaltingimg/portfolio-rationalization.png"
+              src="/managmentcounsaltingimg/portfolio-rationalization1.jpeg"
             />
             <div className="absolute inset-0 bg-black/10"></div>
             <div className="absolute bottom-12 left-12">
@@ -83,7 +83,7 @@ const PortfolioRationalizationBusinessExits = () => {
                 <img
                   alt="Aerial view of complex infrastructure"
                   className="w-full h-full object-cover grayscale brightness-75"
-                  src="/managmentcounsaltingimg/portfolio-rationalization1.png"
+                  src="/managmentcounsaltingimg/portfolio-rationalization.jpeg"
                 />
               </div>
             </div>

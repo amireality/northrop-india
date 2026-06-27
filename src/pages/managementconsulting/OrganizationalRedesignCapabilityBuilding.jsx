@@ -14,9 +14,11 @@ const OrganizationalRedesignCapabilityBuilding = () => {
           <div className="absolute inset-0 z-0">
             <img
               alt="Modern Architecture Detail"
-              className="w-full h-full object-cover"
-              src="/managmentcounsaltingimg/managmentconsulting.jpeg"
+              className="w-full h-full "
+              src="/managmentcounsaltingimg/managmentconsulting1.jpeg"
             />
+
+            {/* <div className="absolute inset-0 bg-black/50"></div> */}
             
           </div>
           <div className="relative z-10 px-[32px] md:px-[64px] max-w-[1200px] mx-auto w-full">
@@ -66,8 +68,8 @@ const OrganizationalRedesignCapabilityBuilding = () => {
         <section className="w-full h-[400px] md:h-[600px] overflow-hidden">
           <img
             alt="High-end Workspace Architecture"
-            className="w-full h-full object-cover grayscale brightness-90"
-            src="/managmentcounsaltingimg/organizational-redesign1.png"
+            className="w-full h-full "
+            src="/managmentcounsaltingimg/organizational-redesign1.jpeg"
           />
         </section>
 

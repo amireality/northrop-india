@@ -67,7 +67,7 @@ const ITCyberSystemIntegrityAssurance = () => {
       type: "RESEARCH",
       title: "The Cloud Governance Gap",
       description:
-        "Analyzing systemic weaknesses in hybrid cloud architectures for 2024.",
+        "Analyzing systemic weaknesses in hybrid cloud architectures for 2026.",
       image:
         "/riskadvisoryimg/it-cyber-system2.png",
     },

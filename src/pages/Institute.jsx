@@ -195,7 +195,7 @@ const Institute = () => {
             {/* Small Feature 2 */}
             <div className="md:col-span-4 bg-[#ffffff] border border-[#00113a] p-[24px] md:p-[32px] overflow-y-auto">
               <h4 className="text-[12px] leading-[1] font-[600] text-[#00113a] uppercase mb-4">Global Hub for Finance, Policy, and Sustainable Development</h4>
-              <p className="text-[24px] md:text-[32px] leading-[1.3] font-[600] text-[#00113a] mb-8">Geneva, Oct 2024</p>
+              <p className="text-[24px] md:text-[32px] leading-[1.3] font-[600] text-[#00113a] mb-8">Geneva, Oct 2026</p>
               <div className="text-[14px] md:text-[16px] leading-[1.6] font-[400] text-[#444650] flex flex-col gap-4">
                 <p>Geneva is internationally recognized as one of the world’s leading centres for global finance, international policy, and sustainable development. The city brings together governments, financial institutions, multinational corporations, development organizations, and industry experts to address complex economic and financial challenges.</p>
                 <p>As a hub for sustainable finance, infrastructure investment, financial governance, and economic resilience, Geneva hosts high-level forums and strategic dialogues that influence global policy and investment decisions. Its collaborative ecosystem promotes innovation, responsible leadership, and cross-border partnerships that support long-term economic growth.</p>

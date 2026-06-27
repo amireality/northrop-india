@@ -67,7 +67,7 @@ const StatutoryExternalAuditAssurance = () => {
     },
     {
       type: "ANALYSIS",
-      title: "Managing Materiality in 2024",
+      title: "Managing Materiality in 2026",
       description:
         "Redefining risk thresholds in an era of heightened institutional scrutiny.",
       image:
