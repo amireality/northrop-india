@@ -106,8 +106,8 @@ const CorporateGovernanceBoardAdvisory = () => {
                   />
                 </div>
                 <div className="absolute -bottom-8 -right-8 bg-[#000000] text-[#ffffff] p-12 max-w-xs hidden md:block">
-                  <p className="font-serif text-[28px] mb-4 italic">"A transformation in valuation."</p>
-                  <p className="font-sans text-[12px] tracking-widest opacity-70 uppercase font-semibold">— CEO, GLOBAL MANUFACTURING GROUP</p>
+                  <p className="font-serif text-[28px] mb-4 italic">"Turning Governance into Competitive Advantage."</p>
+                  <p className="font-sans text-[12px] tracking-widest opacity-70 uppercase font-semibold">CEO, DIRECTOR, PRATHAM SHARMA</p>
                 </div>
               </div>
               <div>

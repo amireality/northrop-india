@@ -18,7 +18,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
               src="/managmentcounsaltingimg/managmentconsulting1.jpeg"
             />
 
-            {/* <div className="absolute inset-0 bg-black/50"></div> */}
+            <div className="absolute inset-0 bg-black/50"></div>
             
           </div>
           <div className="relative z-10 px-[32px] md:px-[64px] max-w-[1200px] mx-auto w-full">
@@ -68,8 +68,8 @@ const OrganizationalRedesignCapabilityBuilding = () => {
         <section className="w-full h-[400px] md:h-[600px] overflow-hidden">
           <img
             alt="High-end Workspace Architecture"
-            className="w-full h-full "
-            src="/managmentcounsaltingimg/organizational-redesign1.jpeg"
+            className="w-full h-full  object-cover"
+            src="/managmentcounsaltingimg/organizational-redesign11.jpeg"
           />
         </section>
 
@@ -145,7 +145,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
               <img
                 alt="Corporate Strategy Workshop"
                 className="w-full h-[400px] md:h-[600px] object-cover shadow-2xl grayscale"
-                src="/managmentcounsaltingimg/organizational-redesign3.png"
+                src="/managmentcounsaltingimg/organizational-redesign1.jpeg"
               />
             </div>
           </div>
@@ -179,7 +179,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
                 <img
                   alt="Article 2"
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-500"
-                  src="/managmentcounsaltingimg/organizational-redesign5.png"
+                  src="/managmentcounsaltingimg/organizational-redesign1.jpeg"
                 />
               </div>
               <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Strategy / 08 Oct 2024</span>
