@@ -13,7 +13,7 @@ function Pillar_5_ma_integration() {
           </div>
           <div className="col-span-12 lg:col-span-4 pb-4">
             <p className="font-['Inter',sans-serif] text-[16px] md:text-[18px] leading-[1.6] font-normal text-[#44474e]">
-              Acquisitions are the highest-variance bet a CEO makes. We focus on the post-deal phase—integrating people, systems, and culture so that synergy targets are actually captured rather than just promised.
+              Acquisitions are the highest-variance bet a CEO makes. We focus on the post-deal phase integrating people, systems, and culture so that synergy targets are actually captured rather than just promised.
             </p>
           </div>
         </section>
@@ -23,8 +23,8 @@ function Pillar_5_ma_integration() {
           <div className="w-full h-[300px] md:h-[400px] bg-[#dadada] relative border border-[#c4c6cf]/30 overflow-hidden group">
             <img 
               alt="Architectural integration" 
-              className="w-full h-full object-cover grayscale opacity-90 mix-blend-multiply" 
-              src="/eightpillar/ma-interagate.png"
+              className="w-full h-full " 
+              src="/eightpillar/ma-integration.jpeg"
             />
           </div>
           <div className="mt-4 flex justify-end">

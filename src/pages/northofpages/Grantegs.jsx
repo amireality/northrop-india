@@ -13,7 +13,7 @@ const Grantegs = () => {
               alt="Modern high-tech greenhouse architecture"
               src="/insituted/grant-funding-esg.jpeg"
             />
-            <div className="absolute inset-0 bg-black/50"></div>
+            <div className="absolute inset-0 bg-black/40"></div>
           </div>
           <div className="container mx-auto px-6 md:px-16 relative z-10">
             <div className="max-w-4xl">

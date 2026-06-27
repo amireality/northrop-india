@@ -261,7 +261,7 @@ const EsgDueDiligenceMaIndia = () => {
                         <div className="max-w-2xl">
                             <h2 className="font-esg-display-lg text-[24px] md:text-[32px] font-bold text-esg-primary mb-[16px] uppercase">The Northrop Advantage</h2>
                             <p className="font-esg-body-lg text-[16px] md:text-[18px] text-esg-secondary mb-[32px]">
-                                We deliver Big 4 quality with an agile, forensic focus. Our advisors don't just identify risks—they engineer strategic clarity to protect your deal's valuation.
+                                We deliver Big 4 quality with an agile, forensic focus. Our advisors don't just identify risks they engineer strategic clarity to protect your deal's valuation.
                             </p>
                             <div className="flex flex-wrap gap-[16px]">
                                 <Link to="/contact" className="bg-[#0a2540] text-white px-[32px] py-4 font-sans text-[14px] font-semibold uppercase tracking-[0.15em] hover:bg-[#000f22] transition-all">Secure Advisory Access</Link>

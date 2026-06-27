@@ -15,11 +15,12 @@ const EnergyUtilities = () => {
         <div className="absolute inset-0 z-0">
           <img 
             alt="Energy infrastructure" 
-            className="w-full h-full object-cover " 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD5Iw6hqfChDUvShAKpjbr52tsf0N8wu7FQ2PM-twZnOEUA46Ks9td0UNgYpxt7CHnO1RQMkk0bFOWYS6msUltUVAg14AtScpQk70_b4imsC4Ftb1MU1Wwc3lH8ueEMjmIsoIUU7WeBShx6ovSsM4EYCTuJ3Mh36kjf0uG7-soP59GtwzwdwgF3YqAZ0SqbgmKmhH70Au7sZT2MIScsbppzNsMh9JBcvmx-lQ4kPNmVH_4_y45gA3oCoNt9RLFaKv852lBAQDNIBVs" 
+            className="w-full h-full " 
+            src="/energy-utilities11.jpeg" 
 
             // src='/industryimg/energy-utilities.jpeg'
           />
+           <div className="absolute inset-0 bg-black/50"></div>
         </div>
         <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full py-16">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-8">

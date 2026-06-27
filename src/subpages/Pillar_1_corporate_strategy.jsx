@@ -20,8 +20,8 @@ function Pillar_1_corporate_strategy() {
           <section className="w-full  md:h-[614px] mb-[64px] md:mb-[58px] overflow-hidden border border-[#c4c6cf]">
             <img 
               alt="Architectural pillar" 
-              className="w-full h-full object-cover grayscale-[20%]" 
-              src="/eightpillar/corpoimg.png"
+              className="w-full h-full " 
+              src="/corporate-strategy.jpeg"
             />
           </section>
 
@@ -72,7 +72,7 @@ function Pillar_1_corporate_strategy() {
                 "67% of well-formulated strategies fail because of poor execution."
               </p>
               <p className="font-['Inter',sans-serif] text-[12px] leading-none tracking-[0.1em] font-semibold text-[#74777f] uppercase">
-                — Harvard Business Review
+                Harvard Business Review
               </p>
             </div>
             <div className="md:col-span-4 flex justify-start md:justify-end mt-8 md:mt-0">

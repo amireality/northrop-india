@@ -43,7 +43,7 @@ const InvestorRelationsEquityPositioning = () => {
             <div className="absolute inset-0 bg-[#000000]/10"></div>
             <div className="absolute bottom-12 left-12 bg-[#ffffff] p-8 max-w-md hidden lg:block border border-[#747878]/10 shadow-xl">
               <p className="font-sans text-[10px] tracking-widest text-[#444748] mb-2 font-bold uppercase">OPERATIONAL INSIGHT</p>
-              <p className="font-serif text-[18px] leading-snug font-medium italic">"The most effective IR strategies don't just communicate value—they create the structural conditions for it to be recognized."</p>
+              <p className="font-serif text-[18px] leading-snug font-medium italic">"The most effective IR strategies don't just communicate value they create the structural conditions for it to be recognized."</p>
             </div>
           </div>
         </section>

@@ -9,8 +9,8 @@ function Pillar_3_risk_governance() {
           <div className="lg:col-span-12  md:h-[614px] w-full mb-12 bg-[#eeeeee] overflow-hidden">
             <img 
               alt="Architectural structure" 
-              className="w-full h-full object-cover filter grayscale opacity-90 mix-blend-multiply" 
-              src="/eightpillar/riskgovernance.png"
+              className="w-full h-full " 
+              src="/risk-governance.jpeg"
             />
           </div>
           <div className="lg:col-span-8 lg:col-start-3 text-center">
@@ -83,7 +83,7 @@ function Pillar_3_risk_governance() {
             <blockquote className="font-['Noto_Serif',serif] text-[24px] md:text-[32px] leading-[1.2] tracking-[-0.01em] font-normal text-[#000a1e] mb-6">
               "20–25% valuation premium for firms with mature enterprise risk management."
             </blockquote>
-            <cite className="font-['Inter',sans-serif] text-[12px] leading-none tracking-[0.1em] font-semibold uppercase text-[#44474e] not-italic">— Deloitte–Aon</cite>
+            {/* <cite className="font-['Inter',sans-serif] text-[12px] leading-none tracking-[0.1em] font-semibold uppercase text-[#44474e] not-italic">Deloitte–Aon</cite> */}
           </div>
           <div className="md:text-right mt-8 md:mt-0">
             <Link 

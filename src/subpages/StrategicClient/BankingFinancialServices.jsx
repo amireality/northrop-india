@@ -198,7 +198,7 @@ const BankingFinancialServices = () => {
                 <div className="md:w-1/2 h-48 bg-[#f0eded] border border-[#c4c6cf]/20 flex items-center justify-center overflow-hidden">
                   <div 
                     className="w-full h-full opacity-30 bg-cover bg-center" 
-                    style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDnJDuKhQBsl_un_SQ2LY1OMyOLZucYWxAR_hu_7gkQc_PnLzqlHYRBDpS2SbAEsYaii8BcEFdP0rHypFNjGvkVgPn0Cx-J24Ai78Gq6qwapSS3zKLlOrvtohGEQo69a8kC2N4quFbzQlaLIh6aDtkVDoi-UmWjPvgNyUbVM7YwItMTnByqxnVIa3leAafdBlQ6yGThk1hfqNaqBmZ2FbgdaDgI6f97EK6B80nA68ZxJ7-Fg3qHQNus4DKaH7QBZxssmZ5O7VxZs2g')" }}
+                    style={{ backgroundImage: "url('banking-financial-services.jpeg')" }}
                   ></div>
                 </div>
               </div>

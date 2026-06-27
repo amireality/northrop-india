@@ -224,7 +224,7 @@ export const reportsData = {
             },
             {
                 type: 'paragraph',
-                text: "In an era where digital malfeasance and complex accounting maneuvers are the norm, these 20 obligations are not suggestions—they are the new minimum requirements for effective governance."
+                text: "In an era where digital malfeasance and complex accounting maneuvers are the norm, these 20 obligations are not suggestions they are the new minimum requirements for effective governance."
             },
             {
                 type: 'heading',

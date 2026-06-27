@@ -16,7 +16,7 @@ function Pillar_4_financial_controls() {
             </div>
             <div className="md:col-span-4 flex flex-col justify-end h-full mt-8 md:mt-0">
               <p className="font-['Inter',sans-serif] text-[16px] md:text-[18px] leading-[1.6] font-normal text-[#44474e] max-w-md pt-4 border-t-[0.5px] border-[#c4c6cf]">
-                Numbers are no longer just a record of the past—they are the product the company sells to its board and investors. We engineer finance functions whose data is accurate, timely, and defensible under any level of scrutiny.
+                Numbers are no longer just a record of the past they are the product the company sells to its board and investors. We engineer finance functions whose data is accurate, timely, and defensible under any level of scrutiny.
               </p>
             </div>
           </div>
@@ -27,8 +27,8 @@ function Pillar_4_financial_controls() {
           <div className="w-full h-[400px]  bg-[#eeeeee] relative overflow-hidden border-[0.5px] border-[#c4c6cf]">
             <img 
               alt="Modern office architecture" 
-              className="w-full h-full object-cover grayscale opacity-90 mix-blend-multiply" 
-              src="/eightpillar/financila.png"
+              className="w-full h-full" 
+              src="/eightpillar/financial-controls.jpeg"
             />
           </div>
         </section>

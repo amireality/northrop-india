@@ -14,6 +14,8 @@ const TheFounderCapitalStack = () => {
               className="w-full h-full " 
               src="/insituted/founders-capital-stack1.jpeg"
             />
+
+             <div className="absolute inset-0 bg-black/50"></div>
             <div className="absolute inset-0 bg-white/10 backdrop-contrast-[1.1]"></div>
           </div>
           <div className="relative z-10 max-w-[1280px] mx-auto px-[24px] md:px-[64px] text-center">
