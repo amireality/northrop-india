@@ -7,21 +7,32 @@ const Agecorporate = () => {
       
       <main className="">
         {/* Hero Section: The Command Center */}
-        <section className="grid grid-cols-1 md:grid-cols-12 min-h-[85vh] bg-white border-b-2 border-[#00113a]">
-          <div className="md:col-span-7 flex flex-col justify-center p-[24px] md:p-[64px] relative">
-            <div className="absolute inset-0 brutalist-line-art pointer-events-none"></div>
+        <section className="relative min-h-[85vh] border-b-2 border-[#00113a] flex items-center">
+          {/* Background Image Setup */}
+          <div className="absolute inset-0 z-0">
+            <img 
+              className="absolute inset-0 w-full h-full object-cover" 
+              alt="Professional high-key office environment"
+              src="/insituted/newage1.jpeg"
+            />
+            {/* Optional Overlay to ensure text readability */}
+            {/* <div className="absolute inset-0 bg-white/80"></div> */}
+          </div>
+
+          <div className="relative z-10 w-full flex flex-col justify-center p-[24px] md:p-[64px]">
+            <div className="absolute inset-0 brutalist-line-art pointer-events-none opacity-50"></div>
             
-            <div className="relative z-10">
-              <span className="text-[12px] leading-none tracking-[0.1em] font-semibold text-[#00113a] uppercase mb-4 block border-l-4 border-[#00113a] pl-4">
+            <div className="relative z-10 max-w-4xl">
+              <span className="text-[12px] leading-none tracking-[0.1em] font-semibold text-[#ffff] uppercase mb-4 block border-l-4 border-[#ffff] pl-4">
                 Institutional Core
               </span>
               
-              <h1 className="text-[32px] md:text-[72px] leading-[1.05] font-bold tracking-tight text-[#00113a] mb-8">
-                New Age Corporate Finance: <span className="text-[#595f67] opacity-60 italic">Deployment & Value.</span>
+              <h1 className="text-[32px] md:text-[72px] leading-[1.05] font-bold tracking-tight text-[#ffff] mb-8">
+                New Age Corporate Finance: <span className="text-[#ffff] opacity-80 italic">Deployment & Value.</span>
               </h1>
               
-              <p className="text-[20px] leading-[1.6] tracking-[0.01em] font-normal text-[#444650] max-w-2xl mb-12">
-                Redefining the financial function as the <strong className="text-[#00113a] font-bold">Command Center</strong> of the modern enterprise. Navigate complex capital stacks, algorithmic valuation, and the digital treasury frontier.
+              <p className="text-[20px] leading-[1.6] tracking-[0.01em] font-normal text-[#ffff] max-w-2xl mb-12">
+                Redefining the financial function as the <strong className="text-[#ffff] font-bold">Command Center</strong> of the modern enterprise. Navigate complex capital stacks, algorithmic valuation, and the digital treasury frontier.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
@@ -33,42 +44,30 @@ const Agecorporate = () => {
                 </Link>
                 <Link 
                   to="/contact" 
-                  className="border border-[#00113a] text-[#00113a] px-10 py-5 text-[12px] font-semibold uppercase tracking-[0.1em] hover:bg-[#00113a] hover:text-white transition-all text-center"
+                  className="border border-[#00113a] text-[#00113a] px-10 py-5 text-[12px] font-semibold uppercase tracking-[0.1em] hover:bg-[#00113a] hover:text-white transition-all text-center bg-white/50 backdrop-blur-sm"
                 >
                   Download Prospectus
                 </Link>
               </div>
 
               {/* Brutalist Diagram: Debt vs Equity */}
-              <div className="mt-16 pt-8 border-t border-[#00113a]/10 max-w-md">
+              <div className="mt-16 pt-8 border-t border-[#00113a]/20 max-w-md bg-white/30 backdrop-blur-md p-6 border-x border-[#00113a]/10">
                 <div className="flex justify-between items-end h-24 mb-2">
                   <div className="w-1/2 border-r border-[#00113a] h-full flex flex-col justify-end items-center pb-2">
-                    <span className="font-['JetBrains_Mono'] text-[10px] text-[#595f67] uppercase font-bold">Debt</span>
+                    <span className="font-['JetBrains_Mono'] text-[10px] text-[#00113a] uppercase font-bold">Debt</span>
                     <div className="w-8 bg-[#00113a] h-[80%]"></div>
                   </div>
                   <div className="w-1/2 h-full flex flex-col justify-end items-center pb-2">
-                    <span className="font-['JetBrains_Mono'] text-[10px] text-[#595f67] uppercase font-bold">Equity</span>
-                    <div className="w-8 border border-[#00113a] h-[40%]"></div>
+                    <span className="font-['JetBrains_Mono'] text-[10px] text-[#00113a] uppercase font-bold">Equity</span>
+                    <div className="w-8 border-2 border-[#00113a] h-[40%] bg-white"></div>
                   </div>
                 </div>
                 <div className="text-center">
-                  <code className="font-['JetBrains_Mono'] text-xs font-bold bg-[#f5f3f3] px-2 py-1">
+                  <code className="font-['JetBrains_Mono'] text-xs font-bold bg-[#00113a] text-white px-2 py-1 inline-block">
                     WACC = (E/V * Re) + (D/V * Rd * (1-T))
                   </code>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <div className="md:col-span-5 relative bg-[#efeded] overflow-hidden min-h-[400px]">
-            <img 
-              className="absolute inset-0 w-full h-full" 
-              alt="Professional high-key office environment"
-              src="/insituted/newage.jpeg"
-            />
-            <div className="absolute bottom-0 left-0 bg-[#00113a] text-white p-8 w-full md:w-auto">
-              <p className="text-[12px] font-semibold uppercase tracking-[0.1em] mb-1">Global Standard</p>
-              <p className="text-[32px] font-semibold leading-tight">Tier 01 Institutional</p>
             </div>
           </div>
         </section>

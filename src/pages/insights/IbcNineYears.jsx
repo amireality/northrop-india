@@ -23,7 +23,7 @@ const IbcNineYears = () => {
                             <div className="flex flex-wrap items-center gap-x-[24px] gap-y-[8px] py-[16px] border-y border-[#c4c6ce] mb-[32px] font-['Inter'] text-[12px] font-medium text-[#43474d]">
                                 <div className="flex items-center gap-[4px]">
                                     <span className="material-symbols-outlined text-[16px]">calendar_month</span>
-                                    October 15, 2024
+                                    October 15, 2026
                                 </div>
                                 <div className="flex items-center gap-[4px]">
                                     <span className="material-symbols-outlined text-[16px]">schedule</span>
@@ -34,7 +34,9 @@ const IbcNineYears = () => {
                                 </div>
                             </div>
                             <div className="w-full aspect-[16/9] mb-[32px] bg-[#ebeef1] border border-[#c4c6ce] relative overflow-hidden rounded-[4px]">
-                                <img className="object-cover w-full h-full absolute inset-0" alt="Editorial illustration depicting structural financial order and credit discipline" src="/insightpage/ibcnine.png" />
+                                <img className="object-cover w-full h-full absolute inset-0" 
+                                alt="Editorial illustration depicting structural financial order and credit discipline" 
+                                src="/insightpage/ibcnine.png" />
                             </div>
                         </header>
                         

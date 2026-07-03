@@ -20,7 +20,7 @@ const IndiasNextCapitalCycle = () => {
             <img
               alt="Modern Indian Infrastructure"
               className="w-full h-full object-cover"
-              src="/insight/unnamed1.jpg"
+              src="/insight/unnamed11.jpeg"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#000a1e]/95 to-[#000a1e]/40"></div>
           </div>

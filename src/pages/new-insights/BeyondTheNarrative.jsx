@@ -19,19 +19,13 @@ const BeyondTheNarrative = () => {
           <div className="absolute inset-0 z-0">
             <div 
               className="absolute inset-0 bg-cover bg-center" 
-              style={{ backgroundImage: "url('/insightpage/beyond.png')" }}
+              style={{ backgroundImage: "url('/insightpage/beyond.jpeg')" }}
             ></div>
             {/* <div className="absolute inset-0 bg-gradient-to-t from-[#001F3F] via-[#001F3F]/60 to-transparent mix-blend-multiply"></div> */}
+            <div className="absolute inset-0 bg-black/40"></div>
           </div>
           <div className="relative z-10 text-center text-white max-w-[1200px] px-[20px] md:px-[64px]">
-            <div className="flex flex-wrap justify-center gap-4 mb-8">
-              <span className="font-mono text-[10px] tracking-widest bg-white/10 backdrop-blur-md px-3 py-1 border border-white/20 uppercase font-bold">
-                [ STRATEGY LEDGER VOL. 26 ]
-              </span>
-              <span className="font-mono text-[10px] tracking-widest bg-white/10 backdrop-blur-md px-3 py-1 border border-white/20 uppercase font-bold">
-                [ 2026 REGULATORY MANDATE ]
-              </span>
-            </div>
+            
             <h1 className="font-serif text-[40px] md:text-[64px] leading-[48px] md:leading-[72px] font-bold uppercase tracking-tight mb-6">
               Beyond the Narrative
             </h1>

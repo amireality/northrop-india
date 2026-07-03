@@ -45,7 +45,9 @@ const OpportunityCostOfCapital = () => {
           </div>
           {/* Hero Image */}
           <div className="md:col-span-7 h-full min-h-[400px] overflow-hidden rounded-sm relative">
-            <img alt="Modern Corporate Finance Infrastructure April 2026" className="w-full h-full object-cover transition-all duration-700" src="/insight/unnamed1.jpg" />
+            <img alt="Modern Corporate Finance Infrastructure April 2026" 
+            className="w-full h-full object-cover transition-all duration-700" 
+            src="/insight/unnamed111.jpeg" />
           </div>
         </section>
 
@@ -116,7 +118,8 @@ const OpportunityCostOfCapital = () => {
             </div>
             {/* Visual Context Image */}
             <div className="md:col-span-6 h-[300px] overflow-hidden">
-              <img alt="Indian Business Hub" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" src="/insight/unnamed8.png" />
+              <img alt="Indian Business Hub" className="w-full h-full object-cover " 
+              src="/insight/unnamed8.jpeg" />
             </div>
             {/* Data Callout 2 */}
             <div className="md:col-span-3 border border-[#c4c6d0] p-[24px] bg-[#ffffff] flex flex-col justify-center">

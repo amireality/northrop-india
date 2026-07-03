@@ -14,14 +14,11 @@ const CsrImpactEvidence = () => {
                         <img
                             alt="Hero Image"
                             className="w-full h-full object-cover "
-                            src="/insightpage/csr2.png"
+                            src="/insightpage/csr2.jpeg"
                         />
-                        {/* <div className="absolute inset-0 bg-gradient-to-t from-[#000f22] via-[#000f22]/40 to-transparent"></div> */}
+                        <div className="absolute inset-0 bg-black/40"></div>
                     </div>
-                    <div className="absolute top-[40px] left-[40px] z-10 flex flex-col gap-1 border-l border-[#ffffff]/30 pl-4">
-                        <span className="font-['Inter'] text-[12px] font-medium text-[#ffffff]/60 tracking-[0.05em] uppercase">STRATEGY LEDGER VOL. 15</span>
-                        <span className="font-['Inter'] text-[12px] font-medium text-[#ffffff]/60 tracking-[0.05em] uppercase">COORD: 28.6139° N, 77.2090° E</span>
-                    </div>
+                   
                     <div className="relative z-10 max-w-[1280px] mx-auto px-[16px] md:px-[40px] pb-[80px] w-full">
                         <div className="max-w-4xl">
                             <h1 className="font-['Montserrat'] text-[32px] md:text-[48px] font-bold text-[#ffffff] mb-6 leading-tight tracking-[-0.02em]">

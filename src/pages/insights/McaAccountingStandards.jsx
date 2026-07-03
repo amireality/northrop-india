@@ -24,14 +24,14 @@ const McaAccountingStandards = () => {
                 {/* Hero Header */}
                 <section className="relative pt-[120px] pb-[120px] overflow-hidden border-b border-[#c4c6ce]">
                     <div className="absolute inset-0 z-0">
-                        <img src="/reportimg/mca-accounting.avif" alt="MCA Background" className="w-full h-full object-cover" />
+                        <img src="/reportimg/mca-accounting.jpeg" alt="MCA Background" className="w-full h-full object-cover" />
                        
                     </div>
                     <div className="max-w-[1280px] mx-auto px-[16px] md:px-[40px] grid grid-cols-1 md:grid-cols-12 gap-[24px] relative z-10">
                         <div className="md:col-span-7 space-y-[16px]">
                             <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#e0e3e6]/50 backdrop-blur-sm text-[#000f22] rounded-sm border border-[#74777e]/30">
                                 <span className="material-symbols-outlined text-[14px]">verified</span>
-                                <span className="font-['Inter'] text-[12px] uppercase tracking-widest font-bold">PREMIUM EDITION // VOL. 2026.01</span>
+                                <span className="font-['Inter'] text-[12px] uppercase tracking-widest font-bold">PREMIUM EDITION </span>
                             </div>
                             <h1 className="font-['Montserrat'] text-[32px] md:text-[48px] text-[#ffff] leading-tight font-bold">
                                 MCA’s Accounting Standards<br />
@@ -238,8 +238,8 @@ const McaAccountingStandards = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
                             <div className="relative order-2 md:order-1">
                                 <div className="w-full h-[500px] bg-[#000f22] border border-[#c4c6ce] relative overflow-hidden group mca-shadow-forensic">
-                                    <div className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105" style={{ backgroundImage: "url('https://lh3.googleusercontent.com/aida-public/AB6AXuAM0MEHp-ttXmChAtMEOBOdH93uBxUFsmdK6H92Ui6KfHBDFmJKr577nHosPfnSiyMC2PD3xS6PMasWDtR3M33c8FUnTyWhdMajd4xgo4gA0qzLT82XY-0P3DY2eDNIXiYXycpJWyEsNsr3FNfOWU3jMLlRm9kU-hOq_ewI3w-Y2w58bl2gX-0akvkFyKYDl-w7DiogB3i9u1x8BdMjE_u2BRw7baf1ZyeIFUuRknBo40Mw0LR0n2i-I7mvo8RqRZC5HK_Up2TF_-M')" }}></div>
-                                    <div className="absolute inset-0 bg-[#000f22]/30 mix-blend-multiply"></div>
+                                    <div className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105" style={{ backgroundImage: "url('/reportimg/mca-accounting1.jpeg')" }}></div>
+                                    {/* <div className="absolute inset-0 bg-[#000f22]/30 mix-blend-multiply"></div> */}
                                     {/* Premium branding overlay */}
                                     <div className="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-[#000f22] to-transparent">
                                         <div className="flex items-center gap-4 text-[#ffffff]">

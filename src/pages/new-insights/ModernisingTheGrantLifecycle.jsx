@@ -21,7 +21,7 @@ const ModernisingTheGrantLifecycle = () => {
               className="w-full h-full object-cover"
               src="/insightpage/modern.jpeg" 
             />
-            {/* <div className="absolute inset-0 bg-gradient-to-t from-[#001F3F]/80 via-[#001F3F]/40 to-transparent"></div> */}
+            <div className="absolute inset-0 bg-black/40"></div>
           </div>
           <div className="relative z-10 w-full max-w-[1200px] px-[20px] md:px-[64px] text-center text-white">
             <div className="flex flex-col items-center gap-6">

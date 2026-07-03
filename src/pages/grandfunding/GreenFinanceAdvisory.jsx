@@ -43,8 +43,8 @@ const GreenFinanceAdvisory = () => {
               <div className="col-span-12 md:col-span-6 relative h-[600px] overflow-hidden">
                 <img
                   alt="Brutalist Architecture"
-                  className="w-full h-full object-cover grayscale contrast-125 transition-transform duration-700 hover:scale-105"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCV-7Q6buNqq2PM1rkYEpYX0XxJR728UWh9QKwg5bzgF9ewPhq9TWk0j2nHvMDvdhki1YR63b1lTQccaxelIv21HUb1ZFOngZmVin3-ulVtSAk-_Z78WSW6IdR_-DllrlRZY3HXVOC81FdS2m2GVkBLMxPLNUhSF5Rx-6GFB57KnOTiSR908-KIHS64y_uFec1AQ87biJ9t3ftWPU3iz_paTL8zwXaKtP8lES6gzzlvx7ie7zzsmLUhqz22SkEjNfsgt_4hnr8SttY"
+                  className="w-full h-full object-cover "
+                  src="/grandesgimg/green-finance-investment-advisory.jpeg"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 text-[#ffffff]">
@@ -201,8 +201,8 @@ const GreenFinanceAdvisory = () => {
                 <div className="max-w-md text-center">
                   <img
                     alt="Geometric Concrete Detail"
-                    className="w-full h-48 object-cover grayscale contrast-125 mb-[24px]"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgdjVfms4AuADc4ZhiIzdYV1vtU5u2MgACBI1r---l6_Vm1SkjC7a1YIshUShOCC30quPICO37tlhyBYY3QsVguhOnmNwwt8I5Yayf6teg4YdJmfGXI52sP_zZnev63-pPkhilma7iVUg6S48NB3KMKuexHltiJqflFCl7fCfALVA337KdbGMmpHFwBN9ifqZPJik9UGAdAyKNiOPXwex3Ye1F-opunN56S3c8YefGR6FNJSsVv4z69GxWnQdDCBEctm97Ylz9wdk"
+                    className="w-full h-48 object-cover "
+                    src="/grandesgimg/green-finance-investment-advisory1.jpeg"
                   />
                   <h4 className="font-[Newsreader] text-[24px] font-normal leading-[1.3] mb-[8px]">
                     Institutional Frameworks

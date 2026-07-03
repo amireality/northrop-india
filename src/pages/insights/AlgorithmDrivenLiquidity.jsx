@@ -33,10 +33,10 @@ const AlgorithmDrivenLiquidity = () => {
               <div className="relative w-full h-[450px] overflow-hidden border border-[#c4c6d0]">
                 <img
                   alt="Digital Market Infrastructure"
-                  className="w-full h-full object-cover grayscale brightness-50"
-                  src="/insight/unnamed2.png"
+                  className="w-full h-full object-cover "
+                  src="/insight/unnamed2.jpeg"
                 />
-                <div className="absolute inset-0 bg-[#001736]/20 mix-blend-multiply"></div>
+             
               </div>
             </section>
 

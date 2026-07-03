@@ -13,9 +13,9 @@ const Tier2Cities = () => {
                     <img
                         alt="Aerial view of a futuristic smart city in India with warm sunset lighting and complex architectural patterns"
                         className="w-full h-full object-cover "
-                        src="/insightpage/tire2city.jpg"
+                        src="/insightpage/tier-2-cities.jpeg"
                     />
-                    {/* <div className="absolute inset-0 t2-hero-gradient"></div> */}
+                   <div className="absolute inset-0 bg-black/40"></div>
                 </div>
                 <div className="relative z-10 w-full max-w-[1280px] mx-auto px-[16px] md:px-[40px] pb-[80px]">
                     <div className="flex flex-col gap-[16px] max-w-4xl">
@@ -27,10 +27,7 @@ const Tier2Cities = () => {
                             India’s Three Strategic Growth Vectors: Tier-2 Cities, GCCs, and Supply Chain Resilience
                         </h1>
                         <div className="flex items-center gap-6 border-t border-[#ffffff]/20 pt-[16px] mt-[16px]">
-                            <div className="flex flex-col">
-                                <span className="font-['Inter'] text-[10px] text-[#ffffff]/50 uppercase tracking-tighter font-medium">Coordinates</span>
-                                <span className="font-['Inter'] text-[#B09E6D] text-[14px]">23.0225° N, 72.5714° E</span>
-                            </div>
+                           
                             <div className="flex flex-col">
                                 <span className="font-['Inter'] text-[10px] text-[#ffffff]/50 uppercase tracking-tighter font-medium">Publication</span>
                                 <span className="font-['Inter'] text-[#ffffff]/90 text-[14px]">MAY 2026</span>

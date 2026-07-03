@@ -14,15 +14,12 @@ const EsgDueDiligenceMaIndia = () => {
                             className="esg-hero-bg w-full h-full bg-cover bg-center" 
                             style={{ backgroundImage: "url('/reportimg/2ND .png')" }}
                         >
-                            {/* <div className="absolute inset-0 bg-gradient-to-r from-esg-primary/80 to-transparent"></div> */}
+                        <div className="absolute inset-0 bg-black/40"></div>
                         </div>
                     </div>
                     <div className="relative z-10 px-[16px] md:px-[40px] w-full max-w-[1280px] mx-auto">
                         <div className="max-w-4xl space-y-[16px]">
-                            <div className="flex items-center gap-[8px] text-esg-surface-variant font-esg-mono-label text-[12px] tracking-widest uppercase mb-4">
-                                <span className="bg-esg-primary px-2 py-0.5 border border-esg-outline-variant text-white">Strategy Ledger Vol. 17</span>
-                                <span className="text-white">28.6139° N, 77.2090° E</span>
-                            </div>
+                            
                             <h1 className="font-esg-display-lg text-[32px] md:text-[48px] leading-[40px] md:leading-[56px] tracking-[-0.01em] md:tracking-[-0.02em] font-bold text-white uppercase">
                                 ESG IS NOW A <span className="text-esg-secondary-fixed">DEAL ESSENTIAL</span> IN EVERY M&A REVIEW
                             </h1>

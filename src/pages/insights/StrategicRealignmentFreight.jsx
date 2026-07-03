@@ -36,7 +36,7 @@ const StrategicRealignmentFreight = () => {
               <img
                 alt="Modern cargo train"
                 className="w-full h-full object-cover"
-                src="/insight/unnamed1.png"
+                src="/insight/unnamed1.jpeg"
               />
             </div>
           </section>

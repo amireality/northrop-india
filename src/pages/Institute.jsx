@@ -62,7 +62,7 @@ const Institute = () => {
         <div className="max-w-[1280px] mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-baseline mb-12 md:mb-20 gap-4">
             <h2 className="text-[32px] md:text-[48px] leading-[1.2] font-[700] text-[#00113a] border-b-4 border-[#00113a] pb-4">
-              Advanced Curricula
+              Advanced Curriculum 
             </h2>
             <span className="text-[12px] leading-[1] font-[600] uppercase tracking-widest text-[#444650]">
               Academic Year 2026/2027 • Modern Academic Program

@@ -55,7 +55,8 @@ const AnatomyOfAllocation = () => {
                 </p>
               </div>
               <div className="relative aspect-[16/7] w-full overflow-hidden bg-[#eaeef4] mt-[24px]">
-                <img alt="Modern Architecture Detail" className="w-full h-full object-cover grayscale brightness-75" src="/insight/unnamed3.png"/>
+                <img alt="Modern Architecture Detail" className="w-full h-full object-cover "
+                 src="/insight/unnamed3.jpeg"/>
               </div>
             </div>
           </div>

@@ -36,13 +36,13 @@ const AiIntegrationFailures = () => {
                     <img
                         alt="Strategy Ledger Vol. 14 Hero Image"
                         className="w-full h-full object-cover"
-                        src="/insightpage/aiintelegent.jpg"
+                        src="/insightpage/aiintelegent.jpeg"
                     />
+
+                    <div className="absolute inset-0 bg-black/40"></div> 
                 </div>
                 <div className="relative z-20 w-full max-w-[1280px] mx-auto px-[16px] md:px-[40px]">
-                    <div className="inline-flex items-center px-4 py-1.5 bg-[#5884ff] text-[#ffffff] font-['Inter'] text-[14px] font-bold uppercase tracking-[0.05em] mb-[16px] rounded-lg">
-                        Strategy Ledger Vol. 14
-                    </div>
+                  
                     <h1 className="font-['Montserrat'] text-[48px] font-bold text-[#ffffff] max-w-4xl mb-[8px] text-shadow-sm leading-[1.1] tracking-[-0.02em]">
                         AI Governance Design: The Hidden Architect of Integration Success
                     </h1>

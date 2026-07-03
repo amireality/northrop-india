@@ -116,7 +116,7 @@ const SustainableSupplyChain = () => {
                   <div>
                     <div className="flex justify-between font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] mb-2">
                       <span>LABOR STANDARDS RISK</span>
-                      <span>68%</span>
+                      <span className="text-blue-600">68%</span>
                     </div>
                     <div className="w-full h-1 bg-[#e2e2e2]">
                       <div className="h-full bg-[#000000]" style={{ width: '68%' }}></div>
@@ -125,7 +125,7 @@ const SustainableSupplyChain = () => {
                   <div>
                     <div className="flex justify-between font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] mb-2">
                       <span>GOVERNANCE OPAQUENESS</span>
-                      <span>42%</span>
+                      <span className="text-blue-600">42%</span>
                     </div>
                     <div className="w-full h-1 bg-[#e2e2e2]">
                       <div className="h-full bg-[#000000]" style={{ width: '42%' }}></div>

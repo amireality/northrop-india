@@ -29,13 +29,14 @@ const FcraCompliancePmla = () => {
                 <section className="relative min-h-[870px] flex items-center overflow-hidden">
                     <div className="absolute inset-0 z-0">
                         {/* <div className="absolute inset-0 fcra-hero-gradient z-10"></div> */}
-                        <img className="w-full h-full object-cover" alt="A cinematic architectural shot of a modern institutional glass building during twilight" src="/insightpage/fcracomplamce.png" />
+                        <img className="w-full h-full object-cover"
+                         alt="A cinematic architectural shot of a modern institutional glass building during twilight" 
+                         src="/insightpage/fcracomplamce.png" />
+
+                         <div className="absolute inset-0 bg-black/40"></div>
                     </div>
                     <div className="relative z-20 w-full px-[16px] md:px-[40px] max-w-[1280px] mx-auto text-[#ffffff]">
-                        <div className="flex items-center gap-4 mb-[16px]">
-                            <span className="font-['Inter'] text-[12px] font-medium bg-[#003ea8] px-3 py-1 rounded-[4px]">VOL. 16</span>
-                            <span className="font-['Inter'] text-[12px] font-medium opacity-80 tracking-[0.1em] uppercase">October 2026 • Strategy Ledger</span>
-                        </div>
+                        
                         <h1 className="font-['Montserrat'] text-[32px] md:text-[48px] font-bold max-w-4xl leading-tight mb-[32px] tracking-[-0.02em]">
                             FCRA Compliance and PMLA Obligations — Why Financial Governance Is Core to NGO Survival
                         </h1>

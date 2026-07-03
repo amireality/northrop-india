@@ -16,7 +16,7 @@ const IndiaMa2025 = () => {
                             className="w-full h-full object-cover"
                             src="/reportimg/1st.png"
                         />
-                        {/* <div className="absolute inset-0 bg-[#000f22]/70 z-10"></div> */}
+                        <div className="absolute inset-0 bg-black/50"></div>
                     </div>
                     <div className="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-[24px] relative z-20 w-full">
                         <div className="lg:col-span-7 flex flex-col justify-center">

@@ -25,26 +25,20 @@ const DpdpRules2025 = () => {
                 {/* Hero Section */}
                 <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-[#0a2540]">
                     <div className="absolute inset-0 z-0">
-                        <img alt="Security Operations Center" className="w-full h-full object-cover opacity-50 scale-105" src="/insightpage/dpdp.png" />
-                        <div className="absolute inset-0 bg-gradient-to-r from-[#0a2540] via-[#0a2540]/40 to-transparent"></div>
+                        <img alt="Security Operations Center" className="w-full h-full object-cover opacity-50 scale-105" 
+                        src="/insightpage/dpdp.jpeg" />
+                        {/* <div className="absolute inset-0 bg-gradient-to-r from-[#0a2540] via-[#0a2540]/40 to-transparent"></div> */}
                     </div>
                     {/* Subtle Coordinate Grid Overlay */}
                     <div className="absolute inset-0 pointer-events-none opacity-20 dpdp-forensic-grid"></div>
                     <div className="relative z-10 max-w-[1280px] mx-auto px-[16px] md:px-[40px] w-full">
                         <div className="dpdp-glass-shield max-w-5xl p-[32px] md:p-[64px] relative overflow-hidden">
-                            {/* Decorative Accent Node */}
-                            <div className="absolute top-4 left-4 dpdp-golden-accent-node"></div>
-                            <div className="absolute bottom-4 right-4 dpdp-golden-accent-node opacity-50"></div>
+                           
                             
-                            <div className="mb-8 flex flex-col md:flex-row md:items-center gap-4">
-                                <span className="font-['Inter'] text-[12px] font-medium px-4 py-1.5 bg-white/10 text-[#b0c8eb] rounded-full backdrop-blur-md border border-white/20 uppercase tracking-widest inline-block">
-                                    Strategy Ledger Vol. 12
-                                </span>
-                                <span className="text-white/40 font-['Inter'] text-[12px] font-medium uppercase tracking-widest">— COORD: 14.11.2025 // SEC-LEVEL: 01</span>
-                            </div>
+                           
                             <h1 className="font-['Montserrat'] text-[36px] md:text-[72px] text-white mb-8 leading-[1.05] tracking-tight font-bold">
                                 DPDP Rules 2025: <br />
-                                <span className="text-[#b0c8eb] font-light italic">Data Privacy as a</span><br />
+                                <span className="text-[#ffff] font-light italic">Data Privacy as a</span><br />
                                 Board-Level Compliance Imperative
                             </h1>
                             <p className="font-['Inter'] text-[18px] md:text-[20px] text-[#e0e3e6] max-w-2xl leading-relaxed mb-12 border-l-2 border-[#b0c8eb] pl-6">

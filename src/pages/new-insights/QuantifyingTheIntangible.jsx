@@ -19,9 +19,9 @@ const QuantifyingTheIntangible = () => {
           <div className="absolute inset-0 z-0">
             <div 
               className="w-full h-full bg-cover bg-center transition-transform duration-1000 hover:scale-105" 
-              style={{ backgroundImage: "url('/insightpage/quantifying.png')" }}
+              style={{ backgroundImage: "url('/insightpage/quantifying.jpeg')" }}
             ></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-[#001F3F]/90 via-[#001F3F]/50 to-transparent"></div>
+           <div className="absolute inset-0 bg-black/40"></div>
           </div>
           <div className="relative z-10 w-full max-w-[1200px] mx-auto px-[20px] md:px-[64px] pb-16 md:pb-24">
             <div className="flex flex-col space-y-4 md:space-y-6">
