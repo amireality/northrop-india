@@ -136,8 +136,8 @@ const ConglomerateStrategyHoldingStructures = () => {
                 <div className="relative overflow-hidden aspect-[16/10] shadow-2xl border-4 border-[#000000]">
                   <img
                     alt="Case Study Hero"
-                    className="w-full h-full object-cover grayscale brightness-75"
-                    src="/managmentcounsaltingimg/conglomerate-strategy2.png"
+                    className="w-full h-full object-cover "
+                    src="/managmentcounsaltingimg/conglomerate-strategy2.jpeg"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#000000]/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-12 left-12 right-12">

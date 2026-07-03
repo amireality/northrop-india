@@ -104,13 +104,13 @@ const ITCyberSystemIntegrityAssurance = () => {
           <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden bg-black">
             <div className="absolute inset-0 grayscale contrast-[1.1] brightness-[0.8]">
               <img
-                src="/riskadvisoryimg/it-cyber-system.png"
+                src="/riskadvisoryimg/it-cyber-system.jpeg"
                 alt="Hero"
                 className="w-full h-full object-cover"
               />
             </div>
 
-            <div className="absolute inset-0 hero-gradient-overlay z-10"></div>
+            {/* <div className="absolute inset-0 hero-gradient-overlay z-10"></div> */}
 
             <div className="relative z-20 max-w-[1280px] px-8 w-full text-center">
               <div className="text-[11px] uppercase tracking-[0.3em] text-white/70 mb-4">

@@ -177,8 +177,8 @@ const Institute = () => {
               <div className="flex justify-between items-end">
                 <Link to="/insights" className="text-[#00113a] text-[12px] leading-[1] font-[600] uppercase border-b-2 border-[#00113a] pb-1 hover:text-[#595f67] hover:border-[#595f67] transition-colors cursor-pointer">Download PDF</Link>
                 <img 
-                  className="w-24 h-24 md:w-32 md:h-32 object-cover grayscale" 
-                  src="/arcticture1.png"
+                  className="w-24 h-24 md:w-32 md:h-32 object-cover " 
+                  src="/mdimage.jpeg"
                   alt="Executive"
                 />
               </div>

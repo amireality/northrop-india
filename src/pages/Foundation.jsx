@@ -30,7 +30,7 @@ const Foundation = () => {
                   Featured Research
                 </span>
                 <span className="text-[rgba(255,255,255,0.38)] text-[10.5px] tracking-[0.1em] uppercase">
-                  Annual Governance Report · 2025
+                  Annual Governance Report · 2026
                 </span>
               </div>
               <h1 className="foundation-serif text-[40px] md:text-[54px] text-white leading-[1.08] mb-[22px] animate-fade-up [animation-delay:0.12s]">
@@ -52,7 +52,7 @@ const Foundation = () => {
                   <div className="text-[11px] text-[rgba(255,255,255,0.38)]">Founder & Director of Research, NRF</div>
                 </div>
               </div>
-              <div className="text-[11px] text-[rgba(255,255,255,0.35)] tracking-[0.05em]">May 2025 &nbsp;·&nbsp; 84 pages</div>
+              <div className="text-[11px] text-[rgba(255,255,255,0.35)] tracking-[0.05em]">May 2026 &nbsp;·&nbsp; 84 pages</div>
               <Link to="/contact" className="inline-flex items-center gap-[8px] px-[30px] py-[13px] border border-[rgba(197,150,58,0.45)] text-[#C5963A] text-[11.5px] tracking-[0.09em] uppercase font-medium hover:bg-[rgba(197,150,58,0.1)] hover:border-[#C5963A] transition-all">
                 Read Report
                 <svg className="w-[14px] h-[14px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -65,10 +65,10 @@ const Foundation = () => {
               Latest from NRF
             </div>
             {[
-              { cat: "Policy Brief", title: "IBC 2.0: Reforming the Resolution Timeline for Operational Creditors", meta: "Pranav Mishra · Apr 2025" },
-              { cat: "Working Paper", title: "ESG Disclosure Readiness Among Mid-Sized Indian Corporates: A Baseline Assessment", meta: "CA Sudhanshu Rao · Apr 2025" },
-              { cat: "Research Note", title: "Fraud Risk in Infrastructure Procurement: Evidence from Six State Audits", meta: "Pratham Sharma · Mar 2025" },
-              { cat: "CFO Survey", title: "India CFO Governance Confidence Index — Q1 2025", meta: "NRF Research Team · Mar 2025" }
+              { cat: "Policy Brief", title: "IBC 2.0: Reforming the Resolution Timeline for Operational Creditors", meta: "Pranav Mishra · Apr 2026" },
+              { cat: "Working Paper", title: "ESG Disclosure Readiness Among Mid-Sized Indian Corporates: A Baseline Assessment", meta: "CA Sudhanshu Rao · Apr 2026" },
+              { cat: "Research Note", title: "Fraud Risk in Infrastructure Procurement: Evidence from Six State Audits", meta: "Pratham Sharma · Mar 2026" },
+              { cat: "CFO Survey", title: "India CFO Governance Confidence Index — Q1 2026", meta: "NRF Research Team · Mar 2026" }
             ].map((item, idx) => (
               <div key={idx} className="py-[18px] border-b border-[rgba(255,255,255,0.06)] last:border-b-0 cursor-pointer hover:opacity-75 transition-opacity">
                 <div className="text-[9.5px] text-[#C5963A] tracking-[0.12em] uppercase mb-[7px]">{item.cat}</div>
@@ -111,8 +111,8 @@ const Foundation = () => {
           </span>
           <div className="flex items-center">
             {[
-              "India MSME Governance Report 2025", "IBC Resolution Timeline Study", 
-              "CFO Governance Index Q1 2025", "ESG Disclosure Readiness Survey", "Fraud in Infrastructure Procurement"
+              "India MSME Governance Report 2026", "IBC Resolution Timeline Study", 
+              "CFO Governance Index Q1 2026", "ESG Disclosure Readiness Survey", "Fraud in Infrastructure Procurement"
             ].map((item, idx) => (
               <span key={idx} className="flex items-center px-[22px] text-[12px] text-[#3D3830] border-r border-[#EDE8DF] h-[48px] whitespace-nowrap cursor-pointer hover:bg-[#FDFAF5] transition-all font-medium">
                 {item}
@@ -159,7 +159,7 @@ const Foundation = () => {
                   <span className="text-[12px] text-[#3D3830] font-medium">Pratham Sharma</span>
                 </div>
                 <span className="text-[11px] text-[#D8D0C0] px-1">·</span>
-                <span className="text-[11px] text-[#6B6257]">February 2025</span>
+                <span className="text-[11px] text-[#6B6257]">February 2026</span>
               </div>
             </div>
             <div className="flex flex-col items-center justify-center p-[32px_28px] border-t md:border-t-0 md:border-l border-[#D8D0C0] gap-[16px] min-w-[160px]">
@@ -179,12 +179,12 @@ const Foundation = () => {
         <div className="max-w-[1360px] mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[1px] bg-[#D8D0C0] border border-[#D8D0C0]">
             {[
-              { type: "Policy Brief", code: "NRF-PB-025", title: "Reforming Section 135 CSR: Towards Outcome-Linked Compliance and Third-Party Assurance", excerpt: "The current CSR compliance framework incentivises spending over impact. This brief recommends a shift to outcome-linked reporting with mandatory third-party social audits for entities exceeding ₹50 Cr CSR obligation.", author: "CA Sudhanshu Rao", date: "May 2025", color: "bg-[#EBF4FF] text-[#0C447C]" },
-              { type: "Working Paper", code: "NRF-WP-018", title: "Digital Forensics in Financial Fraud Detection: An Evidentiary Framework for Indian Courts", excerpt: "As financial fraud increasingly migrates to digital channels, Indian courts face an evidentiary gap. This paper proposes a standardised admissibility framework for digitally sourced forensic evidence under the Information Technology Act.", author: "Pratham Sharma", date: "Apr 2025", color: "bg-[#E1F5EE] text-[#085041]" },
-              { type: "Research Report", code: "NRF-RR-011", title: "The State of Internal Audit in Indian NBFCs: Gaps, Risks, and Regulatory Expectations", excerpt: "Based on a study of 180 registered NBFCs, this report benchmarks internal audit function maturity against RBI guidelines, identifying critical gaps in risk-based auditing, board oversight, and third-line independence.", author: "Ashish Chaudhary", date: "Apr 2025", color: "bg-[#FAF3E0] text-[#7A5820]" },
-              { type: "Discussion Paper", code: "NRF-DP-009", title: "Operational Creditor Rights Under IBC: Structural Inequities and the Case for Parity Reform", excerpt: "Operational creditors remain structurally disadvantaged in IBC resolution processes. This paper analyses 220 CIRP cases to quantify recovery rate disparities and proposes legislative amendments for equitable treatment.", author: "Pranav Mishra", date: "Mar 2025", color: "bg-[#F3E8FF] text-[#4A1B6A]" },
-              { type: "CFO Survey", code: "NRF-SR-006", title: "India CFO Governance Confidence Index: Q1 2025 — Risk Perception, Audit Quality & Board Independence", excerpt: "Quarterly survey of 340 CFOs across manufacturing, services, and financial sectors measuring confidence in governance infrastructure, audit quality, internal controls, and regulatory environment.", author: "NRF Research Team", date: "Mar 2025", color: "bg-[#FEF3E2] text-[#7C4A00]" },
-              { type: "Policy Brief", code: "NRF-PB-024", title: "SEBI's Related Party Transaction Framework: Implementation Gaps and the Path to Substantive Compliance", excerpt: "An audit of related-party transaction disclosures across 500 NSE-listed companies reveals significant substantive non-compliance beneath formal adherence to SEBI's LODR regulations. This brief recommends enhanced board committee protocols.", author: "CA Sudhanshu Rao", date: "Feb 2025", color: "bg-[#EBF4FF] text-[#0C447C]" }
+              { type: "Policy Brief", code: "NRF-PB-025", title: "Reforming Section 135 CSR: Towards Outcome-Linked Compliance and Third-Party Assurance", excerpt: "The current CSR compliance framework incentivises spending over impact. This brief recommends a shift to outcome-linked reporting with mandatory third-party social audits for entities exceeding ₹50 Cr CSR obligation.", author: "CA Sudhanshu Rao", date: "May 2026", color: "bg-[#EBF4FF] text-[#0C447C]" },
+              { type: "Working Paper", code: "NRF-WP-018", title: "Digital Forensics in Financial Fraud Detection: An Evidentiary Framework for Indian Courts", excerpt: "As financial fraud increasingly migrates to digital channels, Indian courts face an evidentiary gap. This paper proposes a standardised admissibility framework for digitally sourced forensic evidence under the Information Technology Act.", author: "Pratham Sharma", date: "Apr 2026", color: "bg-[#E1F5EE] text-[#085041]" },
+              { type: "Research Report", code: "NRF-RR-011", title: "The State of Internal Audit in Indian NBFCs: Gaps, Risks, and Regulatory Expectations", excerpt: "Based on a study of 180 registered NBFCs, this report benchmarks internal audit function maturity against RBI guidelines, identifying critical gaps in risk-based auditing, board oversight, and third-line independence.", author: "Ashish Chaudhary", date: "Apr 2026", color: "bg-[#FAF3E0] text-[#7A5820]" },
+              { type: "Discussion Paper", code: "NRF-DP-009", title: "Operational Creditor Rights Under IBC: Structural Inequities and the Case for Parity Reform", excerpt: "Operational creditors remain structurally disadvantaged in IBC resolution processes. This paper analyses 220 CIRP cases to quantify recovery rate disparities and proposes legislative amendments for equitable treatment.", author: "Pranav Mishra", date: "Mar 2026", color: "bg-[#F3E8FF] text-[#4A1B6A]" },
+              { type: "CFO Survey", code: "NRF-SR-006", title: "India CFO Governance Confidence Index: Q1 2026 — Risk Perception, Audit Quality & Board Independence", excerpt: "Quarterly survey of 340 CFOs across manufacturing, services, and financial sectors measuring confidence in governance infrastructure, audit quality, internal controls, and regulatory environment.", author: "NRF Research Team", date: "Mar 2026", color: "bg-[#FEF3E2] text-[#7C4A00]" },
+              { type: "Policy Brief", code: "NRF-PB-024", title: "SEBI's Related Party Transaction Framework: Implementation Gaps and the Path to Substantive Compliance", excerpt: "An audit of related-party transaction disclosures across 500 NSE-listed companies reveals significant substantive non-compliance beneath formal adherence to SEBI's LODR regulations. This brief recommends enhanced board committee protocols.", author: "CA Sudhanshu Rao", date: "Feb 2026", color: "bg-[#EBF4FF] text-[#0C447C]" }
             ].map((pub, idx) => (
               <div key={idx} className="bg-white p-[28px] hover:bg-[#FDFAF5] transition-colors cursor-pointer flex flex-col group">
                 <div className="flex justify-between items-start mb-[16px]">
@@ -287,9 +287,9 @@ const Foundation = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-[28px]">
             {[
-              { pub: "The Economic Times", title: "\"NRF report exposes governance vacuum in 60% of surveyed MSMEs, calls for mandatory audit threshold reform\"", excerpt: "Northrop Research Foundation's annual study finds that fewer than two in five MSMEs with turnover exceeding ₹10 Cr maintain a functioning internal audit mechanism, prompting calls for statutory intervention.", meta: "May 8, 2025" },
-              { pub: "Business Standard", title: "\"Think tank flags structural bias against operational creditors in IBC resolution outcomes\"", excerpt: "A new discussion paper from NRF's insolvency research unit analysing 220 CIRP cases finds that operational creditors recover an average of 4.2 paise per rupee, compared to 18.6 paise for financial creditors.", meta: "Apr 24, 2025" },
-              { pub: "Financial Express", title: "\"India Inc's ESG disclosures lack independent verification, NRF baseline study finds\"", excerpt: "NRF's inaugural ESG Disclosure Readiness Survey, covering 280 listed entities, reveals that only 11% have subjected their BRSR disclosures to any form of third-party assurance, raising concerns about disclosure credibility.", meta: "Apr 11, 2025" }
+              { pub: "The Economic Times", title: "\"NRF report exposes governance vacuum in 60% of surveyed MSMEs, calls for mandatory audit threshold reform\"", excerpt: "Northrop Research Foundation's annual study finds that fewer than two in five MSMEs with turnover exceeding ₹10 Cr maintain a functioning internal audit mechanism, prompting calls for statutory intervention.", meta: "May 8, 2026" },
+              { pub: "Business Standard", title: "\"Think tank flags structural bias against operational creditors in IBC resolution outcomes\"", excerpt: "A new discussion paper from NRF's insolvency research unit analysing 220 CIRP cases finds that operational creditors recover an average of 4.2 paise per rupee, compared to 18.6 paise for financial creditors.", meta: "Apr 24, 2026" },
+              { pub: "Financial Express", title: "\"India Inc's ESG disclosures lack independent verification, NRF baseline study finds\"", excerpt: "NRF's inaugural ESG Disclosure Readiness Survey, covering 280 listed entities, reveals that only 11% have subjected their BRSR disclosures to any form of third-party assurance, raising concerns about disclosure credibility.", meta: "Apr 11, 2026" }
             ].map((news, idx) => (
               <div key={idx} className="border-t-2 border-[#D8D0C0] pt-[20px]">
                 <div className="text-[12px] font-bold text-[#0A1628] tracking-[0.04em] mb-[8px] uppercase">{news.pub}</div>
@@ -342,9 +342,9 @@ const Foundation = () => {
 
           <div className="flex flex-col">
             {[
-              { day: "22", month: "May", year: "2025", tag: "Roundtable", title: "Governing the Ungoverned: Internal Audit Reform for India's NBFC Sector", sub: "High-level closed roundtable with CFOs, audit committee chairs, and RBI-registered auditors", loc: "India International Centre, New Delhi · Invitation only", btn: "Request Invite" },
-              { day: "06", month: "Jun", year: "2025", tag: "Public Lecture", title: "The Political Economy of Insolvency: Why IBC Outcomes Diverge from Legislative Intent", sub: "Annual NRF lecture in collaboration with FICCI & Indian Institute of Insolvency Professionals", loc: "FICCI Federation House, New Delhi · Open Registration", btn: "Register →" },
-              { day: "18", month: "Jun", year: "2025", tag: "Workshop", title: "ESG for MSMEs: A Practical Framework for BRSR Compliance & Impact Measurement", sub: "Half-day practitioner workshop for finance and compliance professionals from mid-sized enterprises", loc: "Online & The Lalit, New Delhi · Limited seats", btn: "Register →" }
+              { day: "22", month: "May", year: "2026", tag: "Roundtable", title: "Governing the Ungoverned: Internal Audit Reform for India's NBFC Sector", sub: "High-level closed roundtable with CFOs, audit committee chairs, and RBI-registered auditors", loc: "India International Centre, New Delhi · Invitation only", btn: "Request Invite" },
+              { day: "06", month: "Jun", year: "2026", tag: "Public Lecture", title: "The Political Economy of Insolvency: Why IBC Outcomes Diverge from Legislative Intent", sub: "Annual NRF lecture in collaboration with FICCI & Indian Institute of Insolvency Professionals", loc: "FICCI Federation House, New Delhi · Open Registration", btn: "Register →" },
+              { day: "18", month: "Jun", year: "2026", tag: "Workshop", title: "ESG for MSMEs: A Practical Framework for BRSR Compliance & Impact Measurement", sub: "Half-day practitioner workshop for finance and compliance professionals from mid-sized enterprises", loc: "Online & The Lalit, New Delhi · Limited seats", btn: "Register →" }
             ].map((event, idx) => (
               <div key={idx} className="grid grid-cols-1 md:grid-cols-[120px_1fr_auto] items-center gap-[0] border-b border-[#D8D0C0] py-[28px] group cursor-pointer hover:bg-[rgba(197,150,58,0.02)] transition-colors">
                 <div className="text-center md:border-r border-[#D8D0C0] md:pr-[32px]">
@@ -455,7 +455,7 @@ const Foundation = () => {
                 { code: "NRF-WP-018", title: "Digital Forensics in Financial Fraud" },
                 { code: "NRF-RR-011", title: "Internal Audit in Indian NBFCs" },
                 { code: "NRF-DP-009", title: "Operational Creditor Rights Under IBC" },
-                { code: "NRF-SR-006", title: "CFO Governance Index Q1 2025" },
+                { code: "NRF-SR-006", title: "CFO Governance Index Q1 2026" },
                 { code: "NRF-PB-024", title: "SEBI Related Party Transactions" }
               ].map((item, idx) => (
                 <span key={idx} className="text-[12px] text-[rgba(255,255,255,0.5)] pr-[48px]">
@@ -468,7 +468,7 @@ const Foundation = () => {
                 { code: "NRF-WP-018", title: "Digital Forensics in Financial Fraud" },
                 { code: "NRF-RR-011", title: "Internal Audit in Indian NBFCs" },
                 { code: "NRF-DP-009", title: "Operational Creditor Rights Under IBC" },
-                { code: "NRF-SR-006", title: "CFO Governance Index Q1 2025" },
+                { code: "NRF-SR-006", title: "CFO Governance Index Q1 2026" },
                 { code: "NRF-PB-024", title: "SEBI Related Party Transactions" }
               ].map((item, idx) => (
                 <span key={idx + 6} className="text-[12px] text-[rgba(255,255,255,0.5)] pr-[48px]">

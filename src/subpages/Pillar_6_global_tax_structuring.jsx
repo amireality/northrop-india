@@ -15,10 +15,10 @@ function Pillar_6_global_tax_structuring() {
           <div className="md:col-span-12 h-[300px] md:h-[400px] w-full bg-[#eeeeee] border border-[#c4c6cf] relative overflow-hidden flex items-center justify-center">
             <img 
               alt="Minimalist corporate architecture" 
-              className="absolute inset-0 w-full h-full object-cover opacity-80 mix-blend-multiply" 
-              src="/eightpillar/globaltax.png"
+              className="absolute  w-full h-full object-cover " 
+              src="/eightpillar/globaltax.jpeg"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#f9f9f9] to-transparent opacity-50"></div>
+           <div className="absolute inset-0 bg-black/40"></div>
           </div>
         </section>
 

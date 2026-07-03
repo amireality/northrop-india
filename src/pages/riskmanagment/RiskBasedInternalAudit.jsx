@@ -95,14 +95,14 @@ const RiskBasedInternalAudit = () => {
           <section className="relative h-[90vh] flex items-center overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img
-                src="/riskadvisoryimg/risk-based.png"
+                src="/riskadvisoryimg/risk-based.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale contrast-125 brightness-75"
+                className="w-full h-full object-cover "
               />
 
-              <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/40 to-transparent"></div>
+             
 
-              <div className="absolute inset-0 bg-black/10"></div>
+             <div className="absolute inset-0 bg-black/40"></div>
             </div>
 
             <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full">

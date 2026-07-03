@@ -98,12 +98,12 @@ const StatutoryExternalAuditAssurance = () => {
           <section className="relative h-[90vh] min-h-[700px] flex items-center overflow-hidden bg-black">
             <div className="absolute inset-0">
               <img
-                src="/riskadvisoryimg/statutory-external.png"
+                src="/riskadvisoryimg/statutory-external.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale contrast-125 brightness-75 scale-105"
+                className="w-full h-full object-cover "
               />
 
-              <div className="absolute inset-0 hero-gradient"></div>
+              <div className="absolute inset-0 bg-black/40"></div>
             </div>
 
             <div className="relative w-full max-w-[1280px] mx-auto px-8 z-10">

@@ -84,14 +84,12 @@ const ProcessReengineeringControlOptimisation = () => {
           <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-black">
             <div className="absolute inset-0 z-0">
               <img
-                src="/riskadvisoryimg/process-reengineering.png"
+                src="/riskadvisoryimg/process-reengineering.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale brightness-50 contrast-125"
+                className="w-full h-full object-cover "
               />
-
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-black/60"></div>
-
-              <div className="absolute inset-0 bg-black/20 mix-blend-overlay"></div>
+<div className="absolute inset-0 bg-black/40"></div>
+       
             </div>
 
             <div className="relative z-10 w-full px-8 max-w-[1280px] mx-auto">
@@ -241,9 +239,9 @@ const ProcessReengineeringControlOptimisation = () => {
                 {/* Right */}
                 <div className="col-span-12 md:col-span-7 aspect-video bg-[#2f3131] overflow-hidden">
                   <img
-                    src="/riskadvisoryimg/process-reengineering1.png"
+                    src="/riskadvisoryimg/process-reengineering1.jpeg"
                     alt="Case Study"
-                    className="w-full h-full object-cover grayscale brightness-75 hover:scale-105 transition-transform duration-700"
+                    className="w-full h-full object-cover "
                   />
                 </div>
               </div>

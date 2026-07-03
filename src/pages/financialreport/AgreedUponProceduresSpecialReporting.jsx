@@ -61,7 +61,7 @@ const AgreedUponProceduresSpecialReporting = () => {
       description:
         "An executive guide to navigating the complexities of non-standard audit procedures for institutional reporting.",
       image:
-        "/financialreportingimg/agreed-upon-procedures3.png",
+        "/financialreportingimg/agreed-upon-procedures3.jpeg",
     },
     {
       type: "REGULATORY / UPDATE",
@@ -204,28 +204,26 @@ const AgreedUponProceduresSpecialReporting = () => {
 
                 {/* Right */}
                 <div className="col-span-12 md:col-span-6 px-12">
-                  <h3 className="font-['Newsreader'] text-[28px] italic mb-6 text-[#444748] leading-[1.4]">
-                    "In a landscape of shifting compliance, our special
-                    reporting provides the bedrock of certainty required for
-                    complex cross-border transactions."
+                  <h3 className="font-['Newsreader'] text-[28px]  mb-6 text-[#444748] leading-[1.4]">
+                    "When stakeholders require answers beyond a statutory audit, targeted procedures deliver the factual assurance needed for informed decisions"
                   </h3>
 
                   <div className="flex items-center gap-4">
-                    <div className="h-10 w-10 bg-[#e2e2e2] rounded-full overflow-hidden">
+                    {/* <div className="h-10 w-10 bg-[#e2e2e2] rounded-full overflow-hidden">
                       <img
-                        src="/financialreportingimg/agreed-upon-procedures1.png"
+                        src="/mdimage.jpeg"
                         alt="Partner"
                         className="w-full h-full object-cover"
                       />
-                    </div>
+                    </div> */}
 
                     <div>
                       <p className="text-[11px] uppercase tracking-[0.1em] font-semibold">
-                        DR. MARCUS NORTHROP
+                       —  Ashish chaudhary
                       </p>
 
                       <p className="text-[12px] text-[#444748]">
-                        Senior Managing Partner
+                         managing director 
                       </p>
                     </div>
                   </div>

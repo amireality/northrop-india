@@ -56,9 +56,9 @@ const ConsolidationGroupReporting = () => {
           <section className="relative min-h-[819px] flex items-center overflow-hidden bg-[#1c1b1b]">
             <div className="absolute inset-0 z-0">
               <img
-                src="/financialreportingimg/consolidation-group.png"
+                src="/financialreportingimg/consolidation-group.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover opacity-60 grayscale"
+                className="w-full h-full object-cover"
               />
             </div>
 
@@ -247,9 +247,9 @@ const ConsolidationGroupReporting = () => {
                 {/* Protocol 4 */}
                 <div className="col-span-12 md:col-span-6 overflow-hidden brutalist-border">
                   <img
-                    src="/financialreportingimg/consolidation-group1.png"
+                    src="/financialreportingimg/consolidation-group1.jpeg"
                     alt="Architecture"
-                    className="w-full h-full object-cover grayscale hover:scale-105 transition-transform duration-700"
+                    className="w-full h-full object-cover "
                   />
                 </div>
               </div>

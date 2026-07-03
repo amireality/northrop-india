@@ -96,11 +96,11 @@ const WorkingCapitalLiquidityOptimization = () => {
               </Link>
             </div>
             <div className="col-span-12 md:col-span-6 md:col-start-7">
-              <div className="aspect-[4/3] relative overflow-hidden shadow-2xl border border-[#30312e]">
+              <div className="aspect-[4/3] relative overflow-hidden shadow-2xl ">
                 <img
                   alt="Strategic analysis visualization"
-                  className="w-full h-full object-cover grayscale opacity-80 group-hover:scale-105 transition-transform duration-700"
-                  src="/financialadvisory/working-capital1.png"
+                  className="w-full h-full object-cover "
+                  src="/financialadvisory/working-capital1.jpeg"
                 />
               </div>
             </div>
@@ -186,11 +186,11 @@ const WorkingCapitalLiquidityOptimization = () => {
 
         {/* Large Scale Strategic Imagery 2 */}
         <section className="w-full mb-[20px]">
-          <div className="w-full h-[600px] relative overflow-hidden consulting-img-overlay shadow-2xl border-y border-[#c4c7c7]">
+          <div className="w-full h-[600px] relative overflow-hidden consulting-img-overlay shadow-2xl ">
             <img
               alt="Abstract business strategy visualization"
-              className="w-full h-full object-cover grayscale brightness-90"
-              src="/financialadvisory/working-capital6.png"
+              className="w-full h-full object-cover"
+              src="/financialadvisory/working-capital6.jpeg"
             />
           </div>
         </section>

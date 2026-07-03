@@ -92,14 +92,14 @@ const EnterpriseRiskManagementStrategy = () => {
           <header className="relative h-[85vh] min-h-[700px] flex items-center overflow-hidden bg-black">
             <div className="absolute inset-0 z-0">
               <img
-                src="/riskadvisoryimg/enterprise-risk.png"
+                src="/riskadvisoryimg/enterprise-risk.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale contrast-125 brightness-[0.6]"
+                className="w-full h-full object-cover"
               />
+              <div className="absolute inset-0 bg-black/40"></div>
 
-              <div className="absolute inset-0 bg-gradient-to-tr from-black via-black/40 to-transparent"></div>
+              
 
-              <div className="absolute inset-0 bg-black/20"></div>
             </div>
 
             <div className="relative z-10 w-full px-8 max-w-[1280px] mx-auto">

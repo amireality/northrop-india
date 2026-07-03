@@ -35,9 +35,9 @@ const DistressedAssetTurnaroundAdvisory = () => {
               <div className="col-span-12 lg:col-span-5 hidden lg:block">
                 <div className="border-l border-[#747878]/20 pl-12 pb-4">
                   <p className="italic font-serif text-[20px] md:text-[24px] text-[#444748] leading-relaxed">
-                    "In structural distress, speed is a secondary metric. Precision of posture is what dictates survival."
+                    " Corporate turnaround is not driven by urgency alone. It requires strategic restructuring, liquidity preservation, lender negotiations, and disciplined execution."
                   </p>
-                  <cite className="block mt-6 not-italic font-sans text-[12px] tracking-widest uppercase text-[#000000] font-bold">— Senior Managing Partner</cite>
+                  <cite className="block mt-6 not-italic font-sans text-[12px] tracking-widest uppercase text-[#000000] font-bold">Pratham Sharma, Northrop, Director</cite>
                 </div>
               </div>
             </div>
@@ -121,14 +121,14 @@ const DistressedAssetTurnaroundAdvisory = () => {
                   <img
                     alt="Strategic imagery - industrial abstract"
                     className="w-full h-full object-cover grayscale opacity-80 group-hover:scale-110 transition-transform duration-[3000ms]"
-                    src="/financialadvisory/distressed-asset.png"
+                    src="/financialadvisory/distressed-asset.jpeg"
                   />
                 </div>
                 <div className="absolute -bottom-10 -right-10 bg-[#ffffff] p-12 text-[#141414] hidden md:block shadow-2xl border border-[#c4c7c7]">
-                  <p className="font-serif italic text-[20px] leading-relaxed font-bold">
-                    "Northrop's intervention was the turning point. They didn't just advise; they architected the exit."
+                  <p className="font-serif  text-[20px] leading-relaxed ">
+                    "Northrop transformed a distressed asset into a stable, investment-ready business through strategic restructuring, liquidity management, and operational turnaround."
                   </p>
-                  <p className="mt-4 text-[10px] font-bold uppercase tracking-widest">— CEO, Global Industrial Group</p>
+                  <p className="mt-4 text-[10px] font-bold uppercase tracking-widest">—  Ashish Chaudhary, NORTHROP, managing director.</p>
                 </div>
               </div>
             </div>
@@ -170,8 +170,8 @@ const DistressedAssetTurnaroundAdvisory = () => {
             <div className="relative overflow-hidden border border-[#c4c7c7] shadow-2xl">
               <img
                 alt="Strategic high-end architectural symmetry"
-                className="w-full h-[600px] object-cover grayscale brightness-90 hover:grayscale-0 transition-all duration-[4000ms]"
-                src="/financialadvisory/distressed-asset2.png"
+                className="w-full h-[600px] object-cover"
+                src="/financialadvisory/distressed-asset2.jpeg"
               />
             </div>
           </div>

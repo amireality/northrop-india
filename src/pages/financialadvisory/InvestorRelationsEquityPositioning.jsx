@@ -34,13 +34,13 @@ const InvestorRelationsEquityPositioning = () => {
 
         {/* Primary Large Image Section */}
         <section className="max-w-[1440px] mx-auto px-8 md:px-16 mb-[80px] md:mb-[120px]">
-          <div className="w-full aspect-[21/9] relative overflow-hidden group shadow-2xl border border-[#c4c7c7]">
+          <div className="w-full  relative overflow-hidden group shadow-2xl border border-[#c4c7c7]">
             <img
               alt="Strategic Corporate Perspective"
-              className="w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-[2000ms] ease-out"
-              src="/financialadvisory/investor-relations.png"
+              className="w-full h-full "
+              src="/financialreportingimg/investor-relations.jpeg"
             />
-            <div className="absolute inset-0 bg-[#000000]/10"></div>
+            {/* <div className="absolute inset-0 bg-[#000000]/10"></div> */}
             <div className="absolute bottom-12 left-12 bg-[#ffffff] p-8 max-w-md hidden lg:block border border-[#747878]/10 shadow-xl">
               <p className="font-sans text-[10px] tracking-widest text-[#444748] mb-2 font-bold uppercase">OPERATIONAL INSIGHT</p>
               <p className="font-serif text-[18px] leading-snug font-medium italic">"The most effective IR strategies don't just communicate value they create the structural conditions for it to be recognized."</p>

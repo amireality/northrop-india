@@ -59,8 +59,8 @@ const PrivateEquityGrowthCapitalAdvisory = () => {
           <div className="w-full aspect-[21/9] bg-stone-200 overflow-hidden relative shadow-2xl border border-[#c4c7c7]">
             <img
               alt="Aerial view of a sprawling metropolitan business district."
-              className="w-full h-full object-cover grayscale brightness-75 contrast-125"
-              src="/financialadvisory/private-equity1.png"
+              className="w-full h-full object-cover "
+              src="/financialadvisory/private-equity1.jpeg"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-[#000000]/10">
               <div className="max-w-2xl text-center px-8">

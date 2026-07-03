@@ -152,12 +152,13 @@ const BuySideFinancialDueDiligence = () => {
         <main>
           {/* Hero */}
           <section className="relative h-[819px] flex items-center overflow-hidden bg-black">
-            <div className="absolute inset-0 opacity-40">
+            <div className="absolute inset-0 ">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRISJI8E43T_yi_9rn_CP_vsLlN5hcIS1yzasqcVF3NvqX5namx-3gikPQFCj5MGyGCg-nCJfxdtWgPk8yYITidxrQdjNhjRPv5niTKSzn_obLzOM0IFinalHqBWMB0WCcLkWn-HmguXjqmnjJKdsbligy9DDuT4TZdM3N-_1WlipxME8u8oXQN1VXsfUVqSuPqfdxjU4z7jZXyP7kVTrs-CrG0A4WvCCzFdkLDBqPdxAGjTYfx-GKYxQEEMNMJbxBojExf8961h8"
+                src="/byside.jpeg"
                 alt="Hero"
                 className="w-full h-full object-cover"
               />
+           
             </div>
 
             <div className="relative z-10 w-full px-8 max-w-[1280px] mx-auto text-white">

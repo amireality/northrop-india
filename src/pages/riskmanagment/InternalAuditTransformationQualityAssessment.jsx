@@ -105,14 +105,16 @@ const InternalAuditTransformationQualityAssessment = () => {
           <section className="relative h-[90vh] min-h-[700px] flex items-center overflow-hidden bg-black">
             <div className="absolute inset-0 z-0">
               <img
-                src="/riskadvisoryimg/internal-audit.png"
+                src="/riskadvisoryimg/internal-audit1.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale brightness-90 contrast-125"
+                className="w-full h-full object-cover "
               />
 
-              <div className="absolute inset-0 hero-gradient"></div>
+              <div className="absolute inset-0 bg-black/40"></div>
 
-              <div className="absolute inset-0 bg-black/10 mix-blend-multiply"></div>
+             
+
+         
             </div>
 
             <div className="relative z-10 w-full max-w-[1280px] mx-auto px-8">

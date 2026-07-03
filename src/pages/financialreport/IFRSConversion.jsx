@@ -17,17 +17,19 @@ const IFRSConversion = () => {
           <section className="relative h-[819px] flex items-center overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img
-                src="/financialreportingimg/ifrs-conversion.png"
+                src="/financialreportingimg/ifrs-conversion.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale brightness-75"
+                className="w-full h-full object-cover"
               />
 
-              <div className="absolute inset-0 monolithic-overlay"></div>
+
+              <div className="absolute inset-0 bg-black/40"></div>
+
             </div>
 
             <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full">
               <div className="max-w-2xl">
-                <span className="text-[11px] tracking-[0.1em] uppercase text-[#858383] mb-4 block font-semibold">
+                <span className="text-[11px] tracking-[0.1em] uppercase text-[#ffff] mb-4 block font-semibold">
                   GLOBAL ACCOUNTING ADVISORY
                 </span>
 

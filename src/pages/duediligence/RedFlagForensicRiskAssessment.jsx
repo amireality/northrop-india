@@ -49,28 +49,31 @@ const RedFlagForensicRiskAssessment = () => {
       description:
         "A definitive guide for investment committees on identifying subtle forensic anomalies.",
       image:
-        "https://lh3.googleusercontent.com/aida-public/AB6AXuANAwAljmupE2n7dnffCJvsBf18SMaFC7S9INAD5-91tJHcTEvGTfMROIaML-D8udi7BFfI3ahkFuZHG7VOk3p4r1gw5fkqlW1yHnkJRY2EQN25MBDBfrjH9Vx4JAsNtyx1fFVk2A3OGEmdqFPY04aSwmscBZ6U6801ez_jPHTKQygLdADA0cncV0tvEt_-dkrzjr6VskvDn8U5J6qhlaTNUumw8y7waCGNg4B803_3kYe2fgS9P69QoLz5iXmP6fV_CQtvDy2JMUw",
+        "/duediligence/duediligence.jpeg",
     },
     {
       type: "Analysis",
       title: "Forensic Trends in Emerging Markets",
       description:
         "Examining the evolution of corporate governance failures in growth economies.",
-      icon: "monitoring",
+      image:
+        "/duediligence/duediligence1.jpeg",
     },
     {
       type: "Global Risk",
       title: "Cross-Border Litigation Landscapes",
       description:
         "Strategic implications of recent legal shifts on asset recovery efforts.",
-      icon: "shield",
+      image:
+        "/duediligence/duediligence2.jpeg",
     },
     {
       type: "Whitepaper",
       title: "Integrity in Private Equity",
       description:
         "Building a framework for rapid ethics-based due diligence in competitive bids.",
-      icon: "description",
+        image:
+        "/duediligence/duediligence3.jpeg",
     },
   ];
 

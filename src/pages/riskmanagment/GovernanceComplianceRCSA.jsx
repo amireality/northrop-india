@@ -81,14 +81,13 @@ const GovernanceComplianceRCSA = () => {
           <section className="relative h-[90vh] flex items-center justify-center overflow-hidden bg-black">
             <div className="absolute inset-0">
               <img
-                src="/riskadvisoryimg/governance-compliance.png"
+                src="/riskadvisoryimg/governance-compliance.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale contrast-125 brightness-75"
+                className="w-full h-full object-cover"
               />
 
-              <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/20 to-black/80"></div>
 
-              <div className="absolute inset-0 bg-black/30"></div>
+       
             </div>
 
             <div className="relative z-10 text-center px-6 max-w-5xl">

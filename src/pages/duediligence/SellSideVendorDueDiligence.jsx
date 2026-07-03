@@ -129,17 +129,18 @@ const SellSideVendorDueDiligence = () => {
         <main>
           {/* Hero */}
           <section className="relative h-[819px] flex items-center overflow-hidden bg-black">
-            <div className="absolute inset-0 opacity-40">
+            <div className="absolute inset-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJ0cHLnE_XJDKlSw698Cg4fBA5TLJTys_YL66mR9jhylRe4QdAHSkMx_VSdD1UvOcFdG4dhLHhN3eA70Ho2HLfkkRZ_DUeEnUsqj6XIz7kQKKL8dLZREavZ1DGKkNTuBvGwLAMH7GZgBiBJTkhi-Aa0vaSAWJg_rVoQ3qfYThphrsbop9ZHdFBv9bJHYenIjWVjj0ky0t1BYAwQBo-2YE66Pamd2xXouijb0nPHUjk7g4la6s6P_wj44cVltb9MAKZ7ufYt9YgDeg"
+                src="/sell-side-financial-due-diligence.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
+              <div className="absolute inset-0 bg-black/40"></div>
             </div>
 
             <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full grid grid-cols-12">
               <div className="col-span-12 md:col-span-8 lg:col-span-7">
-                <span className="text-[11px] uppercase tracking-[0.1em] text-[#858383] mb-4 block">
+                <span className="text-[11px] uppercase tracking-[0.1em] text-[#ffff] mb-4 block">
                   ADVISORY / M&A SERVICES
                 </span>
 
@@ -147,7 +148,7 @@ const SellSideVendorDueDiligence = () => {
                   Sell-Side & Vendor Due Diligence (VDD)
                 </h1>
 
-                <p className="text-[18px] leading-[1.6] text-[#858383] max-w-xl">
+                <p className="text-[18px] leading-[1.6] text-[#ffff] max-w-xl">
                   Maximizing transaction velocity and exit value through
                   rigorous preparation and narrative control.
                 </p>
@@ -302,9 +303,9 @@ const SellSideVendorDueDiligence = () => {
 
                 <div className="col-span-12 md:col-span-6 min-h-[400px]">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBibGMlrI2PU_MEi1nH_VoATxBBzOYwAiHfxqT2U-MmD04UgWwQLar1m5EJKBTq3uHbEPJNqct4kuyVTVc6iCqQiSjztG464CgVU_wj_VaxU7AowFY8RiWUk9Drt73oJgQRYBXyT2ZG_2IgH_x0PrI477VulYjcqQMYH32fwX82Nvu_5-ipG9CoxhngQN9RUPM94lxR1bORVj0vJXK_1ZJod7SuGmx-KC5f1rHmWZMBmTu9IfSiU5ObaVqahP2Wo0Raz6PtcN8mrrU"
+                    src="/sell-side-financial-due-diligence1.jpeg"
                     alt="Case Study"
-                    className="w-full h-full object-cover grayscale"
+                    className="w-full h-full"
                   />
                 </div>
               </div>

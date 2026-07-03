@@ -128,9 +128,9 @@ const QualityOfEarningsAnalysis = () => {
           <section className="relative w-full h-[819px] flex items-center bg-black overflow-hidden">
             <div className="absolute inset-0 opacity-40">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaPsJfsd52xYV9U9vLdViZjjMggtIjo9cOBE38KJmEEWO5yhCcyyfBG_245MprX4VAZFDrcHHEsflkAcfkVKdobGcmFmljDaFPoSUMpfCl6mbQ6KzK9tERJG1E2hiu-ZvctA_A63YJ6b2XTuts0uvpy_zkqhsw4GebxsJbZR4uiViSw0YV0Kc1jrKfBM7MR9FmLMGw0YUPYkGOj2PkiQ8Kp7VXFA9bvK_Gzp8C5kDRETeqxow32c5q__ptcFUPo3M62lR31iQ9eWQ"
+                src="/quality-of-earnings-analysis.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover "
               />
             </div>
 

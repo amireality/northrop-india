@@ -203,9 +203,9 @@ const FinancialStatementPreparationReview = () => {
                 {/* Right */}
                 <div className="md:col-span-6 md:col-start-7">
                   <img
-                    src="/financialreportingimg/financial-statement1.png"
+                    src="/financialreportingimg/financial-statement1.jpeg"
                     alt="Corporate"
-                    className="w-full aspect-[4/5] object-cover grayscale"
+                    className="w-full aspect-[4/5] object-cover"
                   />
                 </div>
               </div>

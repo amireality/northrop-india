@@ -29,7 +29,7 @@ const CrossBorderFinancialStructuring = () => {
           <img
             alt="Strategic architectural perspective"
             className="w-full h-full object-cover grayscale brightness-90 hover:scale-105 transition-transform duration-[2000ms]"
-            src="/financialadvisory/cross-border.png"
+            src="/financialadvisory/cross-border.jpeg"
           />
         </div>
 
@@ -145,11 +145,11 @@ const CrossBorderFinancialStructuring = () => {
         </section>
 
         {/* Secondary Large Imagery */}
-        <div className="w-full h-[50vh] mb-[20px] overflow-hidden grayscale border-y border-[#c4c7c7] shadow-2xl">
+        <div className="w-full h-[50vh] mb-[20px] overflow-hidden  border-y border-[#c4c7c7] shadow-2xl">
           <img
             alt="Institutional architectural detail"
-            className="w-full h-full object-cover opacity-80 hover:scale-105 transition-transform duration-[4000ms]"
-            src="/financialadvisory/cross-border6.png"
+            className="w-full h-full object-cover "
+            src="/financialadvisory/cross-border6.jpeg"
           />
         </div>
 
