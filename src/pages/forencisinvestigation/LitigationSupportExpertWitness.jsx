@@ -119,7 +119,7 @@ const LitigationSupportExpertWitness = () => {
 
               <div className="col-span-12 md:col-span-5 overflow-hidden h-[600px] bg-[#eeeeee] shadow-2xl">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUuhOjrZ5RH1vh0gcr_meQDST0PZCSmIyEiPFRF4OCy20sMOxk9O1Lh8E8VAPzcaNaV0tBasm5HknxJJNJYIVyT50_qxeDKe7m76ejrymRE54oHwlRK1tK4UNCbrB0duWaUG4o0OvmK8vlukE4KXuOoJoF9FlsGF3iUKom0PzH95LJs6MqwvQ2C0Rvb-B7c82AVsQ9sQrwXG4LduXnfJWKso1FpOpCKATIlzEoab4fHDqeRoSXTJ-Qg7rtfLi2mkwJKy0iTsFnqYo"
+                  src="/litigation-support-expert-witness-services.jpeg"
                   alt="Hero"
                   className="w-full h-full object-cover grayscale contrast-125 brightness-90 hover:scale-105 transition-transform duration-1000"
                 />

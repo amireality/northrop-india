@@ -104,10 +104,11 @@ const CommercialMarketDueDiligence = () => {
           <section className="relative h-[819px] flex flex-col justify-end bg-black overflow-hidden">
             <div className="absolute inset-0 opacity-40">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFHUZ2W7uYOwqwf3iLuf35yqouoOcoWkKtzIqpNGdHhS8Piz_riV2LCb204Sg3dilqWYY_N8awM04xGZl0lEZI813vz8fvcfKEc1T5hsSfd1N1B5AY5C9O8GUxtU8kGjKSIzlWBP1RjNpmIWNr6f5A1LM6n2jk0CIcIODK8p_wdeOKNsXHkYEdJi0zvF4rmVImYA5C4lIUYuO6b3ECEx7APxGgcTsTGPfc4r8sluaEaxF8lNJXDwTb2JILRmqh4_lCJmR8FJTVrtQ"
+                src="/commercial-market-due-diligence.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover "
               />
+              <div className="absolute inset-0 bg-black/40"></div>
             </div>
 
             <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full pb-[120px]">

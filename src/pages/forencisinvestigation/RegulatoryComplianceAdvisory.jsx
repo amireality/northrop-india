@@ -34,11 +34,11 @@ const RegulatoryComplianceAdvisory = () => {
                 <h1 className="font-['Newsreader'] text-[48px] leading-[1.1] tracking-[-0.02em] text-[#1a1c1c] mb-[24px] leading-none">Build robust AML/KYC frameworks that meet regulatory expectations.</h1>
                 <p className="font-['Inter'] text-[18px] leading-[1.6] text-[#444748] max-w-md">Institutional intelligence for global financial markets. We architect compliance ecosystems that transform regulatory burden into strategic stability.</p>
               </div>
-              <div className="col-span-12 lg:col-span-6">
+              {/* <div className="col-span-12 lg:col-span-6">
                 <div className="aspect-[4/5] bg-[#eeeeee] relative overflow-hidden">
                   <img alt="Commanding monolithic brutalist concrete structure with deep geometric shadows and sharp edges" className="w-full h-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIgE1AeXfKD27oUvIc03nQuz2mIl9f50iQop1o6HrZnVzFYqZdJM-3qkadMKTfMP-Lrg4NW71o4UbZUVAzaMK9t8h4QI7-uL8KXgHEZYDAijeSIr-sJcyBYJtUcb63OmSI4lBYC1m1jV6LdbGe7vA7Kn93JO-BMCrePYQzxFTfp1xokkxP1aNRrfczql0lXO3l_a-N4qXmkeeScXPhc5wXyFu49kcvDtCM9xPQrqDPxtnSiC08CW5-D5o85B6q3ekTM3JTYkrMIto" />
                 </div>
-              </div>
+              </div> */}
             </div>
           </section>
 
@@ -106,9 +106,9 @@ const RegulatoryComplianceAdvisory = () => {
                   <div className="p-[24px] bg-[#f9f9f9] border border-[#c4c7c7]">
                     <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#444748] block mb-[16px] uppercase">Core Philosophy</span>
                     <blockquote className="font-['Newsreader'] text-[28px] leading-[1.4] text-[#1a1c1c] italic mb-[24px]">
-                      "Compliance is not a checkbox; it is the structural integrity of the modern financial system. Without rigorous AML frameworks, the speed of capital becomes a liability."
+                      " The strongest institutions are not defined by how they react to regulation, but by how they govern themselves before regulation demands it"
                     </blockquote>
-                    <p className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase text-[#1a1c1c]">— David Northrop, Managing Partner</p>
+                    <p className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase text-[#1a1c1c]">— Ashish Chaudhsary , Managing director</p>
                   </div>
                 </div>
               </div>
@@ -137,7 +137,7 @@ const RegulatoryComplianceAdvisory = () => {
                 </div>
               </div>
               <div className="relative bg-[#e2e2e2] overflow-hidden">
-                <img alt="Strong vertical concrete columns creating a sense of unshakeable order and structural security" className="w-full h-full object-cover grayscale" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBONTLLIU85N9xguEomD0Uk9K-UHly9fNTCGBuuCDchaLBiXwU-MGm9BABFqjIyiJYcOcgKHAM8nD8TyhcvWqDYV03UtnRPRrS96fJTAvJbIC9AaAALQCSQFY4v2gDzrUKfgHceSuevn3kWYdBLHbo8smzbGOgeFDnFOc0BdZAMExNp9TXJ5ao9cFBbck5CMgpO_Px9_SHlqzSROPvU79RSixXPgar9mLx7q8vK7BWspHzkAM3jG3K2Hyi2W4ysWG2Qf1RgfAJWykk" />
+                <img alt="Strong vertical concrete columns creating a sense of unshakeable order and structural security" className="w-full h-full object-cover" src="/aml-kyc-sanctions-compliance3.jpeg" />
                 <div className="absolute bottom-[24px] left-[24px]">
                   <div className="bg-[#0F0F0F] text-[#ffffff] p-[16px] font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase">Full Report Available</div>
                 </div>

@@ -14,17 +14,23 @@ const ImpactAssessmentMateriality = () => {
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
       </Helmet>
 
-      <main className="pt-32">
+      <main className="">
         {/* Hero Section */}
-        <header className="max-w-[1280px] mx-auto px-8 mb-[64px]">
-          <div className="grid grid-cols-12 gap-[32px]">
-            <div className="col-span-12 md:col-span-8">
-              <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#5e5e5e] mb-[16px] block">SERVICE 1E</span>
-              <h1 className="font-newsreader font-normal text-[48px] leading-[1.1] tracking-[-0.02em] mb-[24px]">Knowing what matters most — to your business and to society — is the foundation of credible ESG.</h1>
-              <p className="font-inter font-normal text-[18px] leading-[1.6] text-[#444748] max-w-2xl">Impact Assessment and Materiality Analysis form the intellectual backbone of sustainable strategy, aligning corporate performance with stakeholder expectations and regulatory rigor.</p>
+        <section className="relative w-full min-h-[85vh] flex items-end pb-[120px] overflow-hidden mb-[64px]">
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0">
+            <img src="/grandesgimg/impact-assessment-materiality-analysis.jpeg" alt="" className="w-full h-full object-cover" />
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div> */}
+          </div>
+
+          <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full pt-[120px]">
+            <div className="max-w-4xl">
+              <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#e2e2e2] mb-[16px] block">SERVICE 1E</span>
+              <h1 className="font-newsreader font-normal text-[48px] md:text-[56px] leading-[1.1] tracking-[-0.02em] text-white mb-[24px]">Knowing what matters most — to your business and to society — is the foundation of credible ESG.</h1>
+              <p className="font-inter font-normal text-[18px] leading-[1.6] text-[#d1d1d1] max-w-2xl">Impact Assessment and Materiality Analysis form the intellectual backbone of sustainable strategy, aligning corporate performance with stakeholder expectations and regulatory rigor.</p>
             </div>
           </div>
-        </header>
+        </section>
 
         {/* Main Content & Services */}
         <section className="max-w-[1280px] mx-auto px-8 py-[120px] border-t border-[#e2e2e2]">
@@ -67,8 +73,8 @@ const ImpactAssessmentMateriality = () => {
               <div className="col-span-12 md:col-span-7 h-[450px] relative overflow-hidden">
                 <img 
                   alt="Brutalist architectural form" 
-                  className="w-full h-full object-cover grayscale brightness-75" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHbc4MU5zzLO_HOxyPJlvAdSRrww137G_hzCp8SkiShYuSLRAwxFn-HV4qb00iqTiuNVlfnOFYuSTYlCnsJhmghQPwK07NnUH3PwwnSzyZnCZI9jV76ReweaKBdADmd-j-7hZj66ILtEcCutNEvEHOeXv12KbQCjyS-WdFe_r5wdWE5ySCd0lmvT3FmHgrbAr7YO4w27eI9_6rj1RkUmRYu486Fv_zN9nOmyni4GWlmHM6vunT3jzvCBekWgPLjFnHq8JtuB72hH4" 
+                  className="w-full h-full  " 
+                  src="/grandesgimg/impact-assessment-materiality-analysis1.jpeg" 
                 />
               </div>
             </div>

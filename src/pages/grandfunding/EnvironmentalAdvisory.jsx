@@ -87,8 +87,8 @@ const EnvironmentalAdvisory = () => {
               <div className="col-span-12 lg:col-span-6 min-h-[500px] relative overflow-hidden">
                 <img 
                   alt="A high-contrast, black and white photograph of a massive, brutalist concrete structure. The architecture features sharp geometric angles and deep, stark shadows cast by a low-hanging sun. The raw, textured concrete surface is highly detailed, emphasizing its heavy, institutional presence. The composition is authoritative and stable, capturing a monolithic industrial landmark against a clear sky." 
-                  className="absolute inset-0 w-full h-full object-cover grayscale contrast-125 brightness-75 hover:grayscale-0 transition-all duration-700" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQXQH3Ni1ASkrlWgpVB7D4yFMBWc_sQWNhZzS8E-uONtGBky_9ZtyPq9nkDVdrZMowW2mEIH7nPPEydhNHEF0v4h0ZwalK0BRyeySSvbgQd9MHNnhw511ThECpLKJTV6Iyo09ph8GJjqIOpkVA1G9_usXJ7Hvmjw9FeFJGM6owjAbA-qxsHlhvLNTI1EIswxAkzFRiT5Z4X285gpsOF04Ym0r5Bg6KVTcaVnfiB9xqo1LhV86p_JrOy4M6oDfMjd4zgju-ckE062s"
+                  className="absolute inset-0 w-full h-full" 
+                  src="/grandesgimg/carbon-footprint-net-zero-planning.jpeg"
                 />
               </div>
             </div>
@@ -129,7 +129,7 @@ const EnvironmentalAdvisory = () => {
                 />
               </div>
               <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#444748] mb-4 relative z-10">DATA MODULE / GLOBAL RISK INDEX</span>
-              <h3 className="font-newsreader font-normal text-[24px] leading-[1.3] mb-6 relative z-10">Industrial Carbon Exposure (2025 Forecast)</h3>
+              <h3 className="font-newsreader font-normal text-[24px] leading-[1.3] mb-6 relative z-10">Industrial Carbon Exposure (2026 Forecast)</h3>
               <div className="space-y-8 relative z-10">
                 <div className="space-y-2">
                   <div className="flex justify-between font-inter font-semibold uppercase tracking-[0.1em] text-[10px]">

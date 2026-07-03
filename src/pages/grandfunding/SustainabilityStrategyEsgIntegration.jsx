@@ -36,8 +36,8 @@ const SustainabilityStrategyEsgIntegration = () => {
               <div className="aspect-video bg-[#eeeeee] overflow-hidden">
                 <img 
                   alt="A brutalist architectural masterwork of raw, cast-in-place concrete. Sharp geometric planes intersect, casting deep, high-contrast shadows. The image captures the imposing, institutional weight of the structure against a stark white sky, emphasizing monolithic authority and industrial permanence." 
-                  className="w-full h-full object-cover grayscale contrast-125 brightness-75" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwR9yvcFzEW9edalu5ySjd8UuZ8xMsBCj79Rp_dooo3BWu6eDsQhbFuckh1u1ivi8nKgcbpXqSy8KIu-rFrFOe_XecthZ50rK9VvitrZNPgkEcFqoXnIwnzZyb5P_nG6mMv3cTPahtiT80HcGxuwJ2NKLf2nFBnibmrg2_VBPg_DybArIs2fO34_Fu6BvBkQq3kh3XhjMZZlIZQoz9N17d2PARoUkrfsn8PtbVW3Nq5JTkNrm8jsGaNTJB-vJMFn7SmPpilnRKi7U"
+                  className="w-full h-full object-cover " 
+                  src="/grandesgimg/sustainability-strategy-esg-integration.jpeg"
                 />
               </div>
             </div>
@@ -163,12 +163,13 @@ const SustainabilityStrategyEsgIntegration = () => {
               <p className="font-inter font-normal text-[15px] leading-[1.6] text-[#444748]">An analysis of why institutional investors are doubling down on core ESG data despite political headwinds.</p>
             </div>
             <div className="col-span-12 md:col-span-8 flex flex-col justify-between py-[24px] border-l border-[#c4c7c7] pl-12 hidden md:flex">
-              <blockquote className="font-newsreader font-normal text-[28px] leading-[1.4] text-[#1a1c1c] italic max-w-3xl">
-                "In the next decade, the ability to navigate complex climate risks and social mandates will be the primary differentiator between successful global firms and those that become irrelevant."
+              <blockquote className="font-newsreader font-normal text-[28px] leading-[1.4] text-[#1a1c1c]  max-w-3xl">
+                "Tomorrow’s market leaders will not be defined by revenue alone, but by the strength of their governance, sustainability strategy, and ability to manage emerging risks."
+
               </blockquote>
               <div className="flex items-center gap-4">
                 <div className="h-[1px] w-12 bg-[#000000]"></div>
-                <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#000000]">Senior Managing Director, Global Risk</span>
+                <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#000000]"> Ashish Chaudhary , Managing Director</span>
               </div>
             </div>
           </div>

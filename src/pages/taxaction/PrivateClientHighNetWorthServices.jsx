@@ -15,21 +15,30 @@ const PrivateClientHighNetWorthServices = () => {
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c] font-['Inter'] text-[15px] leading-[1.6] antialiased selection:bg-[#e5e2e1] selection:text-[#000000]">
         <main>
+
           {/* Hero Section */}
-          <section className="max-w-[1280px] mx-auto px-8 pt-[120px]">
-            <div className="grid grid-cols-12 gap-[32px] border-b border-[#c4c7c7] pb-[120px]">
-              <div className="col-span-12 lg:col-span-8">
-                <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] mb-[16px] block">SERVICE SUB-PAGE 3F</span>
-                <h1 className="font-['Newsreader'] text-[48px] leading-[1.1] tracking-[-0.02em] font-normal text-[#000000] max-w-3xl mb-[24px]">Private Client &amp; High Net-Worth Services</h1>
-                <p className="font-['Inter'] text-[18px] leading-[1.6] font-normal text-[#444748] max-w-2xl">
-                  At Northrop Management, we provide institutional-grade intelligence and tactical execution for the world's most complex private wealth structures. Our multidisciplinary approach ensures that generational legacies are preserved through rigorous risk management, cross-border tax optimization, and strategic governance.
-                </p>
-              </div>
-              <div className="col-span-12 lg:col-span-4 self-end">
-                <div className="bg-[#eeeeee] p-[24px] border border-[#c4c7c7]">
-                  <p className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold mb-2">PRACTICE LEAD</p>
-                  <p className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-1">Marcus Northrop</p>
-                  <p className="font-['Inter'] text-[15px] leading-[1.6] font-normal text-[#444748]">Global Managing Partner</p>
+          <section className="relative w-full min-h-[85vh] flex flex-col justify-end overflow-hidden border-b border-[#c4c7c7]">
+            {/* Background Image */}
+            <div className="absolute inset-0 z-0">
+              <img src="/taxationimg/private-client-high-net-worth.jpeg" alt="" className='w-full h-full object-cover grayscale contrast-125 brightness-[0.4]' />
+              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div> */}
+            </div>
+
+            <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full pt-[120px] pb-[120px]">
+              <div className="grid grid-cols-12 gap-[32px]">
+                <div className="col-span-12 lg:col-span-8">
+                  <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#e2e2e2] mb-[16px] block">SERVICE SUB-PAGE 3F</span>
+                  <h1 className="font-['Newsreader'] text-[48px] md:text-[56px] leading-[1.1] tracking-[-0.02em] font-normal text-white max-w-3xl mb-[24px]">Private Client &amp; High Net-Worth Services</h1>
+                  <p className="font-['Inter'] text-[18px] leading-[1.6] font-normal text-[#d1d1d1] max-w-2xl">
+                    At Northrop Management, we provide institutional-grade intelligence and tactical execution for the world's most complex private wealth structures. Our multidisciplinary approach ensures that generational legacies are preserved through rigorous risk management, cross-border tax optimization, and strategic governance.
+                  </p>
+                </div>
+                <div className="col-span-12 lg:col-span-4 self-end">
+                  <div className="bg-white/10 backdrop-blur-md p-[24px] border border-white/20 text-white">
+                    <p className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#e2e2e2] mb-2">PRACTICE LEAD</p>
+                    <p className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-1">Ashish Chaudhary , Managing</p>
+                    <p className="font-['Inter'] text-[15px] leading-[1.6] font-normal text-[#d1d1d1]">Global Managing Partner</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -60,7 +69,8 @@ const PrivateClientHighNetWorthServices = () => {
                 <p className="text-[#444748] font-['Inter'] text-[15px] leading-[1.6] font-normal">Acquisition, financing, and risk-mitigation for high-value collectibles, real estate, and private aviation portfolios.</p>
               </div>
               <div className="col-span-12 lg:col-span-8 border border-[#c4c7c7] p-0 overflow-hidden group">
-                <img alt="Architectural Minimalism" className="w-full h-full object-cover grayscale brightness-75 group-hover:scale-105 transition-transform duration-700" src="/taxationimg/private-client.png" />
+                <img alt="Architectural Minimalism" className="w-full h-full object-cover " 
+                src="/taxationimg/private-client.jpeg" />
               </div>
             </div>
           </section>
@@ -127,11 +137,11 @@ const PrivateClientHighNetWorthServices = () => {
                     </div>
                     <div className="flex justify-between items-end border-b border-[#c4c7c7] pb-2">
                       <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold">POST-RESTRUCTURE LEAKAGE</span>
-                      <span className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal text-[#000000]">14%</span>
+                      <span className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal text-[#ba1a1a]">14%</span>
                     </div>
                     <div className="flex justify-between items-end border-b border-[#c4c7c7] pb-2">
                       <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold">GENERATIONAL ALIGNMENT</span>
-                      <span className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal text-[#000000]">100%</span>
+                      <span className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal text-[#bd913a]">100%</span>
                     </div>
                     <div className="pt-[24px]">
                       <button className="w-full border border-[#000000] text-[#000000] py-4 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold hover:bg-[#000000] hover:text-[#ffffff] transition-colors">DOWNLOAD FULL ANALYSIS (PDF)</button>

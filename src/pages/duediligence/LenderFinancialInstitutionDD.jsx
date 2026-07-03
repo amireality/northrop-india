@@ -132,9 +132,9 @@ const LenderFinancialInstitutionDD = () => {
           <header className="relative w-full h-[819px] flex items-center overflow-hidden bg-[#1c1b1b]">
             <div className="absolute inset-0 z-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuADKuTvJBf-rJUySV8LtlA1G7zR4vzmhILoTCyVJ-CwXFRHOZtAkwjedeQ5pZ5c08tlWc0Hw5YlfLQaO9OAQf_mAA3_UW9PT3dZSmFQnhOUo7zmGoDDE0UUVovrbO2xEeUGcdtdiIpeh__ifKHnc4Tb_o9vy7-Lx1lVtavBR46Q0Z0wFio69TeZnkMge8yr5pYGDIA62MzXIw18V-_RZa5B96xJ8894J_UHN6X1fHsl8sS70Q69PM-Yi8qWCcaUAqEi4znqDaa5kKQ"
+                src="/lender-financial-institution-dd.jpeg"
                 alt="Lender & Financial Institution DD"
-                className="w-full h-full object-cover opacity-50 grayscale"
+                className="w-full h-full object-cover"
               />
             </div>
 
@@ -231,9 +231,9 @@ const LenderFinancialInstitutionDD = () => {
               <div className="flex flex-col md:flex-row bg-white border border-[#c4c7c7] overflow-hidden">
                 <div className="w-full md:w-1/2 min-h-[400px]">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1RBb_ZDLknerN6AC8C9NksFAJq7iFdRH-KhpgovAT6rxQZIXWVosa1fLzWEVEwNHmsWHcQZCbBnldG6AP22PoecXz-rMNph2anervUWpsSAha5YdNM2GDuoY72vWyISqnqPTVaWBR7b8Z53w-f6VlvSAr7G7BzEc4t-IJrNwZj-eClAiTrwNH1STnVRLQr4gwtvqryQ6QInjM7tylRWvHl1EPFTKdG2mf4-0HMl7W3YOCBfUBUo2EtBHMKN3JcsrVmlxosQ-lFnM"
+                    src="/lender-financial-institution-dd1.jpeg"
                     alt="Case Study"
-                    className="w-full h-full object-cover grayscale"
+                    className="w-full h-full  "
                   />
                 </div>
 

@@ -16,26 +16,24 @@ const SustainableSupplyChain = () => {
 
       <main>
         {/* Hero Section */}
-        <section className="max-w-[1280px] mx-auto px-8 pt-[120px] pb-[64px]">
-          <div className="grid grid-cols-12 gap-[32px] items-end">
-            <div className="col-span-12 lg:col-span-8">
-              <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#5e5e5e] block mb-4">Service 1G</span>
-              <h1 className="font-newsreader font-normal text-[48px] leading-[1.1] tracking-[-0.02em] mb-8">Sustainable Supply Chain Due Diligence.</h1>
-              <p className="font-newsreader font-normal text-[28px] leading-[1.4] text-[#444748] max-w-2xl">
+        <section className="relative w-full min-h-[85vh] flex items-end pb-[120px] overflow-hidden border-b border-[#c4c7c7]">
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0">
+            <img alt="A brutalist, high-contrast black and white photograph of a massive raw concrete structure featuring sharp geometric angles and deep, stark shadows."
+              className="w-full h-full object-cover "
+              src="/grandesgimg/sustainable-supply-chain-due-diligence1.jpeg" />
+
+          </div>
+
+          <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full pt-[120px]">
+            <div className="max-w-3xl">
+              <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#e2e2e2] block mb-4">Service 1G</span>
+              <h1 className="font-newsreader font-normal text-[48px] md:text-[56px] leading-[1.1] tracking-[-0.02em] text-white mb-8">Sustainable Supply Chain Due Diligence.</h1>
+              <p className="font-newsreader font-normal text-[28px] leading-[1.4] text-[#d1d1d1] max-w-2xl">
                 Your ESG credibility is only as strong as your weakest supplier.
               </p>
             </div>
-            <div className="col-span-12 lg:col-span-4 flex justify-end">
-              <div className="w-full aspect-[3/4] bg-[#e8e8e8] relative overflow-hidden">
-                <img 
-                  alt="A brutalist, high-contrast black and white photograph of a massive raw concrete structure featuring sharp geometric angles and deep, stark shadows. The image captures a heavy, institutional architectural form that conveys authority and permanence, with raw industrial textures visible on the concrete surfaces." 
-                  className="w-full h-full object-cover grayscale contrast-125" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAj3Zie3oquO8G-r2kZwa6jueil-0GnI0xpV7nbHEN5VEt1WZq7tbD-BzuDcGSIp4fMbYw_hxHR51QYh9YWVC1BKC-kozlKiKFLT_svEObXGEf6LenZ_tedATpLuu-nQcQChuU6Znc-5wvbzmWmiAkpZ5mG10dVrJqsvXqwrI1Y0Dbkub2ZeeU_ZtGHpxsPMnjFZmFYsQEaj4o17sSSh3-EriYb1RPE5L5CEzCZJblGkRSDDD_jhWo2TB8JhpvZ0vDuq2ElR39EyYk"
-                />
-              </div>
-            </div>
           </div>
-          <hr className="mt-[24px] border-[#000000] border-t-2 w-full" />
         </section>
 
         {/* Service Capabilities */}
@@ -84,9 +82,9 @@ const SustainableSupplyChain = () => {
               </a>
             </div>
             <div className="col-span-12 lg:col-span-6 relative min-h-[400px]">
-              <img 
-                alt="A stark, desaturated architectural shot of a brutalist concrete monolith. Sharp diagonal shadows cut across the raw industrial surface, emphasizing the heavy, institutional weight of the structure. The composition is geometric and bold, perfectly mirroring the concept of uncompromising traceability and authoritative oversight." 
-                className="absolute inset-0 w-full h-full object-cover grayscale contrast-150" 
+              <img
+                alt="A stark, desaturated architectural shot of a brutalist concrete monolith. Sharp diagonal shadows cut across the raw industrial surface, emphasizing the heavy, institutional weight of the structure. The composition is geometric and bold, perfectly mirroring the concept of uncompromising traceability and authoritative oversight."
+                className="absolute inset-0 w-full h-full object-cover grayscale contrast-150"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWV6JIVXjx37sg0dx0sAYZRYCWK4efGamAk3YnWFAO_7Xq32LahvO_26EBz1iD1vNhcaWy1DiR1_Rv9LyMogW-9cigTPthMmWIRNCABubBFhoSX0oAyh1aUxu-iVuVYXIsuvNSoIxUU1hqiuoPUwcunyoGNUwpPI3Aa6dCjQxedHN-F7qw9Cawf5SJhAE6eETJMcHSnAl6RFg2WmwDawwSBywxMfEusUlZQnx2vmwKyrZmfPF7tfUVohBx5DMMx87zwQI6Z3K0boU"
               />
               <div className="absolute inset-0 bg-[#000000]/40 mix-blend-multiply"></div>
@@ -136,14 +134,14 @@ const SustainableSupplyChain = () => {
                   <div>
                     <div className="flex justify-between font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] mb-2">
                       <span>ENVIRONMENTAL COMPLIANCE</span>
-                      <span>81%</span>
+                      <span className="text-blue-600">81%</span>
                     </div>
                     <div className="w-full h-1 bg-[#e2e2e2]">
                       <div className="h-full bg-[#000000]" style={{ width: '81%' }}></div>
                     </div>
                   </div>
                 </div>
-                <p className="mt-8 text-[12px] font-inter font-semibold uppercase tracking-[0.1em] text-[#444748] tracking-tighter">Source: Northrop Management Internal Audit Database 2023-24</p>
+                <p className="mt-8 text-[12px] font-inter font-semibold uppercase tracking-[0.1em] text-[#444748] tracking-tighter">Source: Northrop Management Internal Audit Database 2026-27</p>
               </div>
             </div>
           </div>
@@ -151,9 +149,9 @@ const SustainableSupplyChain = () => {
 
         {/* Final CTA */}
         <section className="bg-[#000000] text-[#ffffff] py-[120px] relative overflow-hidden">
-          <img 
-            alt="A brutalist architectural detail of repeating raw concrete pillars and sharp, rhythmic shadows. The image provides an authoritative and heavy backdrop for the final call to action." 
-            className="absolute inset-0 w-full h-full object-cover grayscale opacity-20 contrast-125" 
+          <img
+            alt="A brutalist architectural detail of repeating raw concrete pillars and sharp, rhythmic shadows. The image provides an authoritative and heavy backdrop for the final call to action."
+            className="absolute inset-0 w-full h-full object-cover grayscale opacity-20 contrast-125"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2lx7PosSOw1gHCYegg2kOTBcADiTrdAknE3WKY7jttZZTdeiBca4Jct9ipvMO6O01mduXuBxyk1cMAKBCu0hF9uCbPs2fsOe074IgStulFJdS-dMDWM5shysIy0Va0Ew_Nszpo-maCu8HUUvR022zt1I2JSWfIQLKDxhJZG9qvtzQejZHWiHjd3V8Ay-ACH9hWQSpz65FaRiS1yJ5Dxzzqf4fafDVltofWn7LsTVsVhwkMiu8Pl6Bo8OPJmMX3WvfjLYHbX1lvgQ"
           />
           <div className="max-w-[1280px] mx-auto px-8 text-center relative z-10">

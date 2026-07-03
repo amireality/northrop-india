@@ -34,7 +34,8 @@ const CorporateRestructuringTurnaroundAdvisory = () => {
             </div>
           </div>
           <div className="max-w-[1280px] mx-auto mt-[4px] h-[500px] overflow-hidden">
-            <img className="w-full h-full object-cover filter grayscale contrast-125 brightness-90" alt="Institutional Integrity" src="/transactionadvisoryimg/corporate-restructuring.png" />
+            <img className="w-full h-full object-cover filter grayscale contrast-125 brightness-90" 
+            alt="Institutional Integrity" src="/transactionadvisoryimg/corporate-restructuring.jpeg" />
           </div>
         </section>
 

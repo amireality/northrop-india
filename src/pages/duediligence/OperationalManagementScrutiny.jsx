@@ -136,10 +136,10 @@ const OperationalManagementScrutiny = () => {
 
               <div className="col-span-12 md:col-span-4 flex items-end justify-end">
                 <div
-                  className="w-full h-[400px] grayscale opacity-20 contrast-125 bg-cover bg-center border border-[#c4c7c7]"
+                  className="w-full h-[500px] bg-cover bg-center border border-[#c4c7c7]"
                   style={{
                     backgroundImage:
-                      "url('https://lh3.googleusercontent.com/aida-public/AB6AXuDw6G729mUOjjL0LHLjZcn6YRR0sSY_E7mdfpk2EapRkxkoJY4JVZj48H7edBNRLTwfyDnA0QYZz3LskjosffI5Ayxs5BwePEMm6JzWkcWDTPpo7hqrVj2pc8XCgRVFVM3ksaT0cBI6aTovetocWjzgXwqLH32GOcZoT0jPRq_N0DFDCN2QNTYdFue37HW-9uRoKYPQaXLbPXcjgsb-8TxFjDdPcjtc0FXvfe4orPNI0AnpsOq4WtNKy52i7J6BP0ZvB77ROqNvJhQ')",
+                      "url('/operational-management-scrutiny.jpeg')",
                   }}
                 ></div>
               </div>
@@ -218,11 +218,11 @@ const OperationalManagementScrutiny = () => {
               </div>
 
               <div className="col-span-12 md:col-span-6">
-                <div className="aspect-square bg-[#eeeeee] border border-[#c4c7c7] overflow-hidden relative grayscale">
+                <div className="aspect-square bg-[#eeeeee] border border-[#c4c7c7] overflow-hidden relative">
                   <img
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlXIw_bj2-ujfEXqOmLHuENwSr9PJK2P3pUBRP0eaHNEe7zQ43SjyOlZ3OGSFL_c6TukNgCAfSk4lytkT4kJU-GW-YoHyPzMLfxMogcRYVfNr81W8NTbjtooAfcSGDp-5T1_BZapnZ1Y7gVOYGJVgeFopsEg0J4jZ4b8nQjdX1kK5mkRtOm9pdpAI8cgyjWxWlUzn0yOQZWS4F4o6z8cbteriQCeupEAV3oA-edPMWvk5jlVoCM4LxGhhf-ZGgnw5Gg2el4OaT6R4"
+                    src="/operational-management-scrutiny1.jpeg"
                     alt="Who It's For"
-                    className="w-full h-full object-cover mix-blend-multiply opacity-80"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>

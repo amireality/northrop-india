@@ -24,8 +24,11 @@ const IndirectTaxGstAdvisory = () => {
                 At Northrop Management, we provide institutional-grade intelligence to resolve the structural inefficiencies of Goods and Services Tax. Our advisory model combines technical precision with strategic foresight to safeguard liquidity and ensure absolute compliance in a shifting regulatory landscape.
               </p>
             </div>
+
+
             <div className="col-span-12 md:col-span-4 flex items-end justify-end">
-              <img alt="Institutional Architecture" className="w-full h-80 object-cover grayscale brightness-90 contrast-125" src="/taxationimg/indirect-tax.png" />
+              <img alt="Institutional Architecture" className="w-full h-80 object-cover "
+               src="/taxationimg/indirect-tax.jpeg" />
             </div>
           </div>
         </section>

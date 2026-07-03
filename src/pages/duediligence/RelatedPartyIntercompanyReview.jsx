@@ -121,9 +121,9 @@ const RelatedPartyIntercompanyReview = () => {
           <section className="relative h-[819px] flex items-center overflow-hidden">
             <div className="absolute inset-0 bg-black z-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuATjJVc8Lv3ahul1SMkuMBOl-zkJd7D2hfpFd3lQvWPTo7qEeELuImHpO4Xv1FBSKIGnbXab9_EC1JaPFVml1ja9k-SXz1VegXr4VcQADtI4N4i-bKYwQmEwdfKIxs0_MNfFGlbICgvxoNd10NHREld9w6zHms9uhLYKF9kHKPsdWQrpoQm_mqe2Lf2Nr8IIb2cVjswPvoIBXErHLG4qEE13Tzvyg8UoM2mLRJfzPEKxXQJPAtSPgNkyr-iXiISa71Z1G4CBp5yXS0"
+                src="/related-party-intercompany-review.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover opacity-60 grayscale"
+                className="w-full h-full object-cover"
               />
             </div>
 
@@ -252,9 +252,9 @@ const RelatedPartyIntercompanyReview = () => {
 
               <div className="col-span-12 md:col-span-6">
                 <img
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAf2LaTIWL6cZD0jtXOYfi4sldpl4OVTruUo0-gAmBhlASXH_w7jMGel5fU6DwmtpOtD4YL46ZwI04IcTnlH07zRPoRw7L2_ImA2wcZjnaj2YTZn8gfvmiZ2zgSfmNHChc9Ew3a4HQ7KZaG-idp1FF6HIUtJPSqJw9gmKF5JB6I32tIRR96AWLRJ8iyMl-w4WSZEIh0xVia56vkSIEManOExpvIUaV9E_DQNvJydpgS5l6lhDhyRkinFiZzKvrXbvV2o7E3WS5xfTM"
+                  src="/related-party-intercompany-review1.jpeg"
                   alt="Boardroom"
-                  className="w-full aspect-[4/3] object-cover grayscale border border-[#c4c7c7]"
+                  className="w-full aspect-[4/3] object-cover "
                 />
               </div>
             </div>

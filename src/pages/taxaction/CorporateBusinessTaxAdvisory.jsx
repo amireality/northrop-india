@@ -25,7 +25,7 @@ const CorporateBusinessTaxAdvisory = () => {
               </p>
             </div>
             <div className="col-span-12 aspect-[21/9] bg-[#eeeeee] relative overflow-hidden border border-[#E0E0E0]">
-              <img className="w-full h-full object-cover grayscale" alt="A brutalist architectural shot of a massive concrete structure" src="/taxationimg/corporate-business.png" />
+              <img className="w-full h-full object-cover grayscale" alt="A brutalist architectural shot of a massive concrete structure" src="/corporate-business-tax-advisory.jpeg" />
             </div>
           </div>
         </section>

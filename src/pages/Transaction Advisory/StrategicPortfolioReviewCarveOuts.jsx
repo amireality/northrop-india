@@ -25,8 +25,9 @@ const StrategicPortfolioReviewCarveOuts = () => {
               </p>
             </div>
           </div>
-          <div className="mt-[64px] w-full aspect-[21/9] overflow-hidden grayscale-filter">
-            <img alt="Brutalist Architecture" className="w-full h-full object-cover" src="/transactionadvisoryimg/strategic-portfolio.png" />
+          <div className="mt-[64px] w-full  overflow-hidden ">
+            <img alt="Brutalist Architecture" className="w-full h-full "
+             src="/transactionadvisoryimg/strategic-portfolio.jpeg" />
           </div>
         </section>
 

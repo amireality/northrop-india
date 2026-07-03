@@ -24,7 +24,7 @@ const AntiBriberyCompliance = () => {
         <main>
           {/* Hero Section: Brutalist Columns */}
           <section className="relative w-full h-[90vh] overflow-hidden bg-[#1c1b1b]">
-            <img alt="Monolithic brutalist concrete structure" className="w-full h-full object-cover grayscale contrast-125 brightness-75" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdgpvATCQ88HbFYoJxoaDZkG3xdTEaRCbKpTAHzPc0VQDN6ZAzRUUStFcep4ZG3paLyvFEIiapLKu6iBmnHBDDb4Q3UGhliV7yUu43146tKlhf8f2URuylEcX1vKfyq6s_Q-MFj-bjx38r6sGe8yjxLq946t6oNyto38SnfGXRzzIVhHykPOLPTic3Q8FbI5B2yVjh8lMqwVqfO8eED-PsICIK_l2XINad9UqaUqqPM79Z8hMyc9kRRcrm3W7QwGJwYSnvrpRaDQU" />
+            <img alt="Monolithic brutalist concrete structure" className="w-full h-full object-cover" src="/anti-bribery-corruption-integrity-services.jpeg" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-[120px]">
               <div className="max-w-[1280px] mx-auto w-full">
                 <span className="font-['Inter'] text-[11px] leading-[1.2] font-semibold text-white/70 mb-[16px] block tracking-[0.2em] uppercase">ADVISORY SERVICES</span>
@@ -40,12 +40,14 @@ const AntiBriberyCompliance = () => {
           <section className="py-[120px] px-8 max-w-[1280px] mx-auto grid grid-cols-12 gap-[32px] items-start">
             <div className="col-span-12 md:col-span-7">
               <p className="font-['Inter'] text-[18px] leading-relaxed text-[#1a1c1c] mb-[24px]">
-                In an era of unprecedented regulatory scrutiny and global enforcement, Northrop Management provides the definitive framework for institutional integrity. We transform regulatory obligation into strategic fortification, ensuring that transparency and ethical conduct are woven into the very fabric of global operations.
+                In an increasingly complex regulatory environment, integrity is no longer a policy, it is a strategic business imperative. Northrop Management helps organizations design, assess, and strengthen anti-bribery and anti-corruption frameworks that withstand regulatory scrutiny while reinforcing stakeholder confidence. From governance structures and third-party due diligence to internal controls, investigations, and compliance monitoring, we build practical integrity programs aligned with global standards and business realities.
               </p>
               <div className="h-px w-full bg-[#c4c7c7]"></div>
             </div>
             <div className="col-span-12 md:col-span-4 md:col-start-9">
-              <img alt="Brutalist concrete staircase" className="w-full aspect-square object-cover grayscale border border-[#c4c7c7]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuClE7AlnlYZmCz7PbHlKc2LCiLMjj-a9wfmsasiGaa2U2HRIriHfE64TNybz8v7DH8VLSS9sCp_rO1PhurGCFfr6TzGI9saFwf3UF3ppaoD-dvkB3iwx0UE1KwU5l5DBIs_rarvIToTyq9dNpKE1U-mJX88G3nif_gFTx2W6WN7z69vO8SiT_4vUi7itRB3IxAGQ1Wa-AgoP1wwXnRlw8UMtormuGxojzIzX8P_JGBquAbZXzY2SgGZBNw_Ogxgno4RG-iXDKw1mj0" />
+              <img alt="Brutalist concrete staircase" 
+              className="w-full aspect-square object-cover grayscale border border-[#c4c7c7]" 
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuClE7AlnlYZmCz7PbHlKc2LCiLMjj-a9wfmsasiGaa2U2HRIriHfE64TNybz8v7DH8VLSS9sCp_rO1PhurGCFfr6TzGI9saFwf3UF3ppaoD-dvkB3iwx0UE1KwU5l5DBIs_rarvIToTyq9dNpKE1U-mJX88G3nif_gFTx2W6WN7z69vO8SiT_4vUi7itRB3IxAGQ1Wa-AgoP1wwXnRlw8UMtormuGxojzIzX8P_JGBquAbZXzY2SgGZBNw_Ogxgno4RG-iXDKw1mj0" />
             </div>
           </section>
 
@@ -109,7 +111,7 @@ const AntiBriberyCompliance = () => {
                 <p className="font-['Inter'] text-[18px] leading-[1.6] text-[#444748] mb-[24px]">
                   Our services are tailored for multinational organizations operating in high-risk jurisdictions where regulatory clarity is often elusive.
                 </p>
-                <img alt="Angular concrete structure" className="w-full aspect-[4/3] object-cover grayscale border border-[#c4c7c7]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlparUtYNseJpCs1s9q4UqAkGf2Yxe8GpP8B7LVonrDpH5KjnFqBrI9GjGGA5S2vEwgSvb1U9Tlqic7gEo7nSkZA2Its6P67mwSmuZLRBxRJokWLsgHjynYiOYjZiFhZNMqOA5p-rE-7P3fLvDb4kFy0Y8O8gTJOksubpzhBM0XeMv_Xizqk3IEQlQHN6Ob-CHrHuw3C1tlibngbmzeJEi_EV9uvra52lX2JhBwQ_sND3nzwrxoM9wUJWxJQYgkLWAsMHDzHMvFxI" />
+                <img alt="Angular concrete structure" className="w-full aspect-[4/3] " src="/anti-bribery-corruption-integrity-services1.jpeg" />
               </div>
               <div className="col-span-12 md:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-[24px] md:pl-[32px]">
                 <div className="border-l border-[#0F0F0F] pl-[16px] py-4">
@@ -165,8 +167,9 @@ const AntiBriberyCompliance = () => {
                       <div className="font-['Inter'] text-[11px] leading-[1.2] font-semibold tracking-[0.15em] text-[#c8c6c5]">REGULATORY FINES</div>
                     </div>
                     <div className="col-span-2 pt-[24px] border-t border-white/20">
-                      <p className="font-['Newsreader'] text-[28px] leading-[1.4] italic">"Northrop Management didn't just find the issues; they built the foundation so they would never happen again."</p>
-                      <p className="font-['Inter'] text-[11px] leading-[1.2] font-semibold tracking-[0.15em] mt-[16px] text-[#c8c6c5] uppercase">— CHIEF COMPLIANCE OFFICER</p>
+                      <p className="font-['Newsreader'] text-[28px] leading-[1.4] italic">
+                        "Northrop built a compliance framework that protects our business, reputation, and future. "</p>
+                      <p className="font-['Inter'] text-[11px] leading-[1.2] font-semibold tracking-[0.15em] mt-[16px] text-[#c8c6c5] uppercase"> — MD, Ashish Chaudhary</p>
                     </div>
                   </div>
                 </div>

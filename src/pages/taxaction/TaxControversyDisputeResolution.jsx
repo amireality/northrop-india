@@ -26,7 +26,8 @@ const TaxControversyDisputeResolution = () => {
                 </p>
               </div>
               <div className="col-span-12 md:col-span-5 h-[400px] overflow-hidden">
-                <img alt="Architectural Brutalist Building" className="w-full h-full object-cover grayscale brightness-90" src="/taxationimg/tax-controversy.png" />
+                <img alt="Architectural Brutalist Building" className="w-full h-full object-cover" 
+                src="/taxationimg/transfer-pricing.jpeg" />
               </div>
             </div>
             <div className="border-b border-[#747878] mt-[24px]"></div>

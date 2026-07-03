@@ -29,7 +29,8 @@ const DigitalForensics = () => {
         {/* Hero Section */}
         <section className="relative w-full min-h-[85vh] flex flex-col justify-end">
           <div className="absolute inset-0 z-0 overflow-hidden">
-            <img alt="Monolithic brutalist concrete structure with deep geometric shadows" className="w-full h-full object-cover grayscale brightness-90 contrast-125" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAGPbdqJNa315X3xf8ympVjtCar4Ew8boJznha08Z-aOHpKl7qgFGxcj0zgDZH_QozF0LNDtart2wAFBHbRUnX2qAnS9TvHesSwx7EEgnjIXV9e3c2GDFSfC6MceVDRXMncwajACz9zdv1IFdC194dEKdsNRRxa2Wl8g9UpX6OM5ji7FV9rOeWNvnT6ATZM_icQPjbLuoq0BOS0vXbAe3FnoMfs9a1HbY10jdsyeq4BEO_RUzu1qZPm4BX2Niz3NTbRdL2BGv1NXlQ" />
+            <img alt="Monolithic brutalist concrete structure with deep geometric shadows"
+             className="w-full h-full object-cover " src="/digital-forensic-cyber-investigations.jpeg" />
           </div>
           <div className="relative z-10 max-w-[1280px] mx-auto w-full px-8 pb-[120px]">
             <div className="bg-white/95 backdrop-blur-md p-[24px] max-w-3xl border border-[#c4c7c7] shadow-2xl">
@@ -47,7 +48,8 @@ const DigitalForensics = () => {
               <h2 className="font-['Newsreader'] text-[32px] leading-[1.2] font-normal mb-[16px]">What We Do</h2>
               <p className="font-['Inter'] text-[15px] leading-[1.6] font-normal text-[#444748] mb-[24px]">Uncovering the truth through rigorous technical analysis and a deep understanding of the digital threat landscape.</p>
               <div className="aspect-square w-full overflow-hidden border border-[#c4c7c7] grayscale brightness-75 hover:grayscale-0 transition-all duration-700">
-                <img alt="Geometric concrete patterns" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBV3yAotGqU5CwLFM1_2N-O7VaSNgAyq67DkX9gw9aRk81KdJz4kVmRC4sehTv-ftpMa1coOpov_5RxftCMjGsYrJdsHBMlVr8AAPdw7wLM-WBH3rnJ2fEOu9Su1QmpJaH3QPakpMwWJwTzLhAqwpH1ejJxqbh-TTXjJFRmrMwI9qET_enhTSY07dfBIMHGlhmOT7s8SLGYcLsz1JC9Jlio8QeXmI82fINLSiSe0oz-aV2yno4BxmbxQsqmg6Ho2wKsUjY8_SJml1Y" />
+                <img alt="Geometric concrete patterns" className="w-full h-full object-cover"
+                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBV3yAotGqU5CwLFM1_2N-O7VaSNgAyq67DkX9gw9aRk81KdJz4kVmRC4sehTv-ftpMa1coOpov_5RxftCMjGsYrJdsHBMlVr8AAPdw7wLM-WBH3rnJ2fEOu9Su1QmpJaH3QPakpMwWJwTzLhAqwpH1ejJxqbh-TTXjJFRmrMwI9qET_enhTSY07dfBIMHGlhmOT7s8SLGYcLsz1JC9Jlio8QeXmI82fINLSiSe0oz-aV2yno4BxmbxQsqmg6Ho2wKsUjY8_SJml1Y" />
               </div>
             </div>
             <div className="col-span-12 md:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-[24px]">

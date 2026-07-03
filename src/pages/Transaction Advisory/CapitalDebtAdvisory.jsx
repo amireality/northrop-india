@@ -38,14 +38,14 @@ const CapitalDebtAdvisory = () => {
               <img 
                 alt="A high-contrast black and white photograph of a brutalist concrete building with sharp diagonal lines and heavy geometric shadows." 
                 className="w-full h-full object-cover grayscale transition-transform duration-700 hover:scale-105" 
-                src="/transactionadvisoryimg/capital-debt.png" 
+                src="/transactionadvisoryimg/capital-debt.jpeg" 
               />
             </div>
             <div className="col-span-5 aspect-[4/5] overflow-hidden grayscale contrast-150 border border-[#747878] mt-12">
               <img 
                 alt="A dramatic low-angle shot of a massive concrete monolith against a clear, high-contrast sky. " 
                 className="w-full h-full object-cover grayscale transition-transform duration-700 hover:scale-105" 
-                src="/transactionadvisoryimg/capital-debt1.png" 
+                src="/transactionadvisoryimg/capital-debt1.jpeg" 
               />
             </div>
           </div>

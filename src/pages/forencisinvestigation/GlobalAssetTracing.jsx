@@ -53,24 +53,24 @@ const GlobalAssetTracing = () => {
 
       <main className="font-['Inter'] text-[15px] leading-[1.6] text-[#1a1c1c] selection:bg-[#1c1b1b] selection:text-[#858383]">
         {/* Hero Section */}
-        <section className="relative w-full overflow-hidden border-b border-[#c4c7c7]">
-          <div className="max-w-[1280px] mx-auto px-8 grid grid-cols-12 items-end min-h-[85vh]">
-            <div className="col-span-12 md:col-span-8 pb-[120px] z-10 w-full">
-              <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] mb-[16px] block uppercase tracking-widest">Asset Recovery Division</span>
-              <h1 className="font-['Newsreader'] text-[48px] leading-[1.1] tracking-[-0.02em] font-normal text-[#1a1c1c] max-w-2xl mb-[24px]">
+        <section className="relative w-full min-h-[85vh] flex items-end pb-[120px] overflow-hidden border-b border-[#c4c7c7]">
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0">
+            <img className="w-full h-full object-cover grayscale contrast-125 brightness-[0.4]" 
+            alt="A towering, monolithic brutalist concrete structure with sharp geometric shadows cast across its faceted surfaces. The composition is stark and vertical, emphasizing institutional weight and unyielding permanence. The high-contrast black and white photography highlights the raw texture of the concrete."
+             src="/global-asset-tracing-recovery.jpeg"/>
+          </div>
+
+          <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full">
+            <div className="max-w-3xl">
+              <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#e2e2e2] mb-[16px] block uppercase tracking-widest">Asset Recovery Division</span>
+              <h1 className="font-['Newsreader'] text-[48px] md:text-[56px] leading-[1.1] tracking-[-0.02em] font-normal text-white mb-[24px]">
                   Locate and recover assets wherever they have been moved.
               </h1>
-              <div className="w-24 h-px bg-[#000000] mb-[24px]"></div>
-              <p className="font-['Inter'] text-[18px] leading-[1.6] font-normal text-[#444748] max-w-xl">
+              <div className="w-24 h-px bg-[#ffffff] mb-[24px]"></div>
+              <p className="font-['Inter'] text-[18px] leading-[1.6] font-normal text-[#d1d1d1] max-w-xl">
                   A brutalist approach to financial restoration. We deploy sophisticated OSINT and multi-jurisdictional intelligence to navigate the labyrinth of global offshore movements.
               </p>
-            </div>
-            
-            {/* Commanding Hero Image */}
-            <div className="col-span-12 md:col-span-4 h-full min-h-[600px] md:min-h-0 relative">
-              <div className="absolute inset-0 bg-[#eeeeee]">
-                <img className="w-full h-full object-cover grayscale contrast-125 brightness-90" alt="A towering, monolithic brutalist concrete structure with sharp geometric shadows cast across its faceted surfaces. The composition is stark and vertical, emphasizing institutional weight and unyielding permanence. The high-contrast black and white photography highlights the raw texture of the concrete." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ6I69asYwlIF7wvhYH8U8KgicBqwMKEI9AIuO0se54SOFdFVabVn04umsaXDU55dlwAy1C1r36CGSktV98s_1aPD_wzW9l38NHGd-0hfhX8bXW-E4h_5VvpCuyJwBaVm75hOATuws4ihsS2pbsjW5SqABgpAOBvzoSpBsgd5zrU9PjWrpkJlqrIXZaB-6aQ93rRSF1-6DUx1FNX_iypEuf8JdJcrdokBQPQG27fPFpg0VS2yOD1MXgFTpu7VfAv4RQbIVSKMiT9U"/>
-              </div>
             </div>
           </div>
         </section>

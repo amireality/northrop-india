@@ -79,8 +79,8 @@ const EsgComplianceGapAnalysis = () => {
           <div className="h-[600px] w-full overflow-hidden relative">
             <img 
               alt="A stark, brutalist architectural photograph of raw concrete pillars and heavy geometric forms. Deep shadows cast sharp diagonal lines across industrial textures. The composition is monolithic and authoritative, capturing the weight and permanence of institutional structures in high-contrast black and white." 
-              className="w-full h-full object-cover grayscale contrast-125" 
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3pIrSGrZZhKPiOwUAgDLQ6Ui21J0gPcuTiAC-oYRyh3Co4hjHZnytWEm_JGKBBCdOieWVByb4reKg8DxLrhUypkniNS_il9RsA481QD90l-OdB4XNqG7nzSVmUwRvgyxUw99ABKdQskP-UZLCOscksIQW9zlP0ZT-Ha3gljRsaS2o5U2B3uV4bmMyRWCjL2xxr5Ic1_TBNINq7bljkF3j9hJXdw9CUAH3ol0eDu29VUjGTBMMhAZZpQ4LEapUVnVidTxiJjz616g"
+              className="w-full h-full object-cover contrast-125 brightness-75" 
+              src="/grandesgimg/esg-compliance-gap-analysis.jpeg"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-[#f9f9f9]/80 to-transparent flex items-center">
               <div className="max-w-[1280px] mx-auto px-8 w-full">

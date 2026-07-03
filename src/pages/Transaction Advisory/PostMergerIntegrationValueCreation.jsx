@@ -13,18 +13,24 @@ const PostMergerIntegrationValueCreation = () => {
        
       </Helmet>
 
-      <div className="bg-[#f9f9f9] text-[#1a1c1c] pt-24 font-['Inter'] antialiased">
+      <div className="bg-[#f9f9f9] text-[#1a1c1c] font-['Inter'] antialiased">
         {/* Hero Section */}
-        <section className="px-8 border-b border-[#c4c7c7] max-w-[1280px] mx-auto grid grid-cols-12 gap-[32px] items-center">
-          <div className="col-span-12 md:col-span-7">
-            <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#444748] uppercase mb-[16px] block">Service 2E</span>
-            <h1 className="font-['Newsreader'] text-[48px] leading-[1.1] tracking-[-0.02em] font-normal text-[#1a1c1c] mb-[24px] leading-tight">Post Merger Integration &amp; Value Creation</h1>
-            <p className="font-['Inter'] text-[18px] leading-[1.6] font-normal text-[#444748] max-w-xl">
-              Ensure synergies are captured, cultures aligned, and the combined entity outperforms the sum of its parts through rigorous industrial discipline.
-            </p>
+        <section className="relative w-full min-h-[85vh] flex items-end pb-[120px] overflow-hidden border-b border-[#c4c7c7]">
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0">
+            <img alt="Brutalist Architecture" className="w-full h-full object-cover grayscale contrast-125 brightness-[0.4]" 
+            src="/transactionadvisoryimg/post-merger-integration.jpeg" />
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div> */}
           </div>
-          <div className="col-span-12 md:col-span-5 h-[500px] bg-[#e8e8e8] relative overflow-hidden">
-            <img alt="Brutalist Architecture" className="w-full h-full object-cover grayscale brightness-90 contrast-125" src="/transactionadvisoryimg/post-merger-integration.png" />
+
+          <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full pt-[120px]">
+            <div className="max-w-3xl">
+              <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#e2e2e2] uppercase mb-[16px] block">Service 2E</span>
+              <h1 className="font-['Newsreader'] text-[48px] md:text-[56px] leading-[1.1] tracking-[-0.02em] font-normal text-white mb-[24px] leading-tight">Post Merger Integration &amp; Value Creation</h1>
+              <p className="font-['Inter'] text-[18px] leading-[1.6] font-normal text-[#d1d1d1] max-w-xl">
+                Ensure synergies are captured, cultures aligned, and the combined entity outperforms the sum of its parts through rigorous industrial discipline.
+              </p>
+            </div>
           </div>
         </section>
 

@@ -116,9 +116,9 @@ const InsolvencyTransactionAudits = () => {
           {/* Hero */}
           <section className="relative h-[90vh] flex items-end overflow-hidden">
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7F9L4NmXG6MTAm0cFXjBhU5oAxpYNBUu5pngWCicVBCv_uKUkaLLVOqzE4I4rzNUfELFTatIf01CrZCJqBNe9Y_6Nh0ejEFxFKMBa569oYsj6dTBB93FQoV_WzDfDTwF20xhrk44SJaOH3nEiluu6E7Z4r8E4viCK7QvvZRJ8YKBi0Lq8kXA8yCnHNFNGHRC8-A7RRCdshsfVvcZBypCc7fswaISuySEwUFLxCvnmcJ_p2c0lvWZ7tFkqNQ9V746JC7RUgYK7S9k"
+              src="/insolvency-transaction-audits-ibc.jpeg"
               alt="Hero"
-              className="absolute inset-0 w-full h-full object-cover grayscale contrast-125 brightness-75"
+              className="absolute inset-0 w-full h-full object-cover "
             />
 
             <div className="relative z-10 w-full max-w-[1280px] mx-auto px-8 pb-24">

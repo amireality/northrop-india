@@ -24,7 +24,8 @@ const InternationalTaxCrossBorderPlanning = () => {
             </p>
           </div>
           <div className="col-span-12 md:col-span-5 h-[400px] overflow-hidden">
-            <img alt="Brutalist corporate architecture" className="w-full h-full object-cover grayscale contrast-125" src="/taxationimg/international-tax.png" />
+            <img alt="Brutalist corporate architecture" className="w-full h-full " 
+            src="/taxationimg/international-tax.jpeg" />
           </div>
         </header>
 

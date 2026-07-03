@@ -38,7 +38,8 @@ const ValuationFinancialBusinessModelling = () => {
         {/* Image Break 1 */}
         <section className="max-w-[1280px] mx-auto px-8">
           <div className="w-full h-[600px] overflow-hidden grayscale contrast-125">
-            <img className="w-full h-full object-cover" alt="Brutalist concrete architecture" src="/transactionadvisoryimg/valuation-financial.png" />
+            <img className="w-full h-full object-cover" alt="Brutalist concrete architecture" 
+            src="/transactionadvisoryimg/valuation-financial.jpeg" />
           </div>
         </section>
 
@@ -110,7 +111,8 @@ const ValuationFinancialBusinessModelling = () => {
           <div className="max-w-[1280px] mx-auto px-8 grid grid-cols-12 gap-[32px] items-center">
             <div className="col-span-12 md:col-span-5 mb-[24px] md:mb-0">
               <div className="w-full aspect-square overflow-hidden grayscale contrast-150">
-                <img className="w-full h-full object-cover" alt="Minimalist concrete wall" src="/transactionadvisoryimg/valuation-financial.png" />
+                <img className="w-full h-full object-cover" alt="Minimalist concrete wall" 
+                src="/transactionadvisoryimg/valuation-financial1.jpeg" />
               </div>
             </div>
             <div className="col-span-12 md:col-span-7 md:pl-[32px]">

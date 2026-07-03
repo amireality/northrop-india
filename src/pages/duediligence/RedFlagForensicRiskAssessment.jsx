@@ -118,12 +118,14 @@ const RedFlagForensicRiskAssessment = () => {
         <main>
           {/* Hero */}
           <section className="relative min-h-[819px] flex items-center overflow-hidden bg-black text-white">
-            <div className="absolute inset-0 opacity-40">
+            <div className="absolute inset-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuClmDbpOX5KZ4hgwPmDAlxKrKepQDLXZwIpjSz5AfPczvGPPIVdG3D6I74Z69Q1tddRNDIkpHHz1AfLK6vhYbBAHQrRhDGgNGe29rNWrDUpeDVe2rOJ4W5KuDKfSePVFvfQOl8CwQynKF6i0fqDVZZtT6P81WoIZC9CmXliJdsCxFyN2mbYBtSze7jawMUajpqS0vRrd7llxKyg2PzXpN9UvosewdaLgGsdfPyhHmNVtknpdT3XRi3RPt3fYSwIP02Lpmyix0x_zSI"
+                src="/red-flag-forensic-risk-assessment.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
+
+              <div className="absolute inset-0 bg-black/40"></div>
             </div>
 
             <div className="relative z-10 max-w-[1280px] mx-auto px-8 w-full grid grid-cols-12 gap-8">

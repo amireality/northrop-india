@@ -57,8 +57,10 @@ const ForensicAccounting = () => {
             </div>
             <div className="col-span-12 md:col-span-6 relative bg-[#eeeeee] border-l border-[#c4c7c7]">
               <div className="absolute inset-0 overflow-hidden">
-                <img alt="Hero: Monolithic Brutalist Concrete Structure" className="w-full h-full object-cover grayscale contrast-125 brightness-95" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8W_3lhi5joeiFV5_WqSIZQabRW7KHbBWizQBfF_aYUP32dEE4okeyE1SrKkeBICsWGDoelrpbvi6SZwdOtRhyLQFME20enqBMR6GLPfpHcz7rm1TDR8Us4i4059vLLbqILwJ3Fn2iUfHk3swzAF6d8iGBMPuVJpCi2rETnrv6sejVQ0aZNgkdeiIawTpLOhaDJqR_lQrOLH7LWNaqJ9k7LY2qBOSBkGjjkhr8pJnfnMXjXk6pIIC5glVZ6ZecmFti4M9rMrxVzgI" />
-                <div className="absolute inset-0 bg-[#0f0f0f]/5 mix-blend-multiply"></div>
+                <img alt="Hero: Monolithic Brutalist Concrete Structure" 
+                className="w-full h-full object-cover " 
+                src="/forensic-accounting-fraud-investigations.jpeg" />
+                {/* <div className="absolute inset-0 bg-[#0f0f0f]/5 mix-blend-multiply"></div> */}
               </div>
             </div>
           </div>

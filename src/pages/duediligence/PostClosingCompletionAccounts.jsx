@@ -117,12 +117,12 @@ const PostClosingCompletionAccounts = () => {
         <main>
           {/* Hero */}
           <section className="relative h-[819px] flex items-center justify-center overflow-hidden">
-            <div className="absolute inset-0 bg-black/40 z-10"></div>
+            <div className="absolute inset-0 "></div>
 
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCFsorFgrJC0yBrxykyiUncbm77enqxW-MtINkC81S-yu9ohfM0_rYK-VINNAHm-Aa9lQpSi8PpOfvoWc_nSZXbROSO3KTri9sB9Z7ZpDVedjmmakPYFphEXH2D64cfHVtj98axYFgwutTDP5jfL2T2uVEg8mKt30aJliWdqhSWOeMzPZHY1W8U3PKJ8Nd7knoXuZfBYclH7PRD_lVd1JzvQXp1MsDZGjfviIFDx15GceEgFtUHWB3XbYHX0NNgHcLsse6ecTM_89k"
+              src="/post-closing-completion-accounts.jpeg"
               alt="Hero"
-              className="absolute inset-0 w-full h-full object-cover grayscale"
+              className="absolute inset-0 w-full h-full object-cover"
             />
 
             <div className="relative z-20 text-center max-w-4xl px-8">

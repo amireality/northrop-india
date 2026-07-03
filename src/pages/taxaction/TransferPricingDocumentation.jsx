@@ -26,7 +26,8 @@ const TransferPricingDocumentation = () => {
             </div>
             <div className="col-span-12 md:col-span-5 flex items-end">
               <div className="w-full aspect-square bg-[#eeeeee] border border-[#c4c7c7] overflow-hidden">
-                <img alt="Architectural Building" className="w-full h-full object-cover grayscale" src="/taxationimg/transfer-pricing.png" />
+                <img alt="Architectural Building" className="w-full h-full object-cover grayscale" 
+                src="/taxationimg/transfer-pricing1.jpeg" />
               </div>
             </div>
           </header>

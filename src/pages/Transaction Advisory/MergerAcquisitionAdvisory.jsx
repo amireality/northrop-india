@@ -42,7 +42,8 @@ const MergerAcquisitionAdvisory = () => {
         {/* Image Break 1 */}
         <section className="max-w-[1280px] mx-auto px-8 py-[120px]">
           <div className="h-[600px] w-full overflow-hidden bg-[#eeeeee] relative">
-            <img alt="Brutalist Architecture" className="w-full h-full object-cover grayscale contrast-125 brightness-90" src="/transactionadvisoryimg/merger-acquisition.png" />
+            <img alt="Brutalist Architecture" className="w-full h-full object-cover grayscale contrast-125 brightness-90" 
+            src="/transactionadvisoryimg/merger-acquisition.jpeg" />
             <div className="absolute bottom-0 right-0 bg-[#000000] text-[#ffffff] p-8 md:w-1/3">
               <p className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal italic">"Complexity is not a barrier; it is the landscape in which we find the greatest arbitrage for our clients."</p>
             </div>
@@ -125,7 +126,7 @@ const MergerAcquisitionAdvisory = () => {
                   <h3 className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold opacity-60 mb-8">THE INTERVENTION</h3>
                   <p className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mb-8">"Northrop's ability to navigate the interplay between FDI policy and antitrust regulations was the critical factor in closing this deal on schedule."</p>
                   <div className="border-t border-white/20 pt-4 flex justify-between items-center">
-                    <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-white">CHAIRMAN, LEADING INFRASTRUCTURE FUND</span>
+                    <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-white">CHAIRMAN, Pratham Sharma , Director</span>
                     <span className="material-symbols-outlined">corporate_fare</span>
                   </div>
                 </div>

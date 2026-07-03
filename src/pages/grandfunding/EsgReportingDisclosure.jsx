@@ -45,7 +45,7 @@ const EsgReportingDisclosure = () => {
         <section className="w-full">
           <div className="max-w-[1280px] mx-auto px-8">
             <div className="w-full h-[500px] overflow-hidden relative border border-[#c4c7c7]">
-              <img alt="Low-angle shot of a monolithic concrete structure with sharp geometric edges against a stark sky. The brutalist architecture features raw textures and heavy shadows, projecting institutional power and permanence." className="w-full h-full object-cover grayscale contrast-125" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6a5HN7oUyXq00BjxYgpOzHhDMJxVHlqnTM0P-vpoIQp7RF9qBBCi96jz0fy-7rXGOFav6QMvx8LVzEq8JNJopeXIFqzqlKsOz6pWm0dRfnMVr_cYd3o3tLAAcIbEpKWNXYJjuI8K3UjDZ1AEVIbPyWOZbIACOd2MtZoaunOyHlZeNhWwS8cm_ORGl9_4_koiHSbvlG1kqYiIRcp2DJh5n_mrzpNAyvRVyYkGxxLRQGEVXkeRf4FJBIyIuz1wwl_ROGHnhgOjEUTw"/>
+              <img alt="Low-angle shot of a monolithic concrete structure with sharp geometric edges against a stark sky. The brutalist architecture features raw textures and heavy shadows, projecting institutional power and permanence." className="w-full h-full object-cover " src="/grandesgimg/esg-reporting-disclosure.jpeg"/>
               <div className="absolute bottom-8 left-8 bg-[#f9f9f9] px-6 py-4 border border-[#c4c7c7]">
                 <p className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2]">PORTFOLIO ASSURANCE</p>
               </div>
@@ -102,7 +102,10 @@ const EsgReportingDisclosure = () => {
               <div className="col-span-12 md:col-span-6 flex flex-col justify-center">
                 {/* Brutalist Image instead of Mock */}
                 <div className="relative w-full h-[400px] border border-[#c4c7c7] overflow-hidden group">
-                  <img alt="A high-contrast black and white photograph of an industrial facility with repeating geometric windows and raw concrete pillars." className="w-full h-full object-cover grayscale contrast-150 brightness-75" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtSg66Hqey7e5ZlWDT13TtJEVgN6fW1LOcS_bhRFQnCEo4_lGfwfq8ndQzZmmxB_yVQUw1OVhZg4BxWI250KkwGYtiMvJhpTEiMbYsm89LIcBmZ9mSsYnXxO3TteTNIJLwQOCvM3Qy4GX0tfzYttfb5W29Nd6RbZWHv4u6N_p8wqYsaohOXJ6SN2pzhVUXBwqtzgY0m_StBUrqQnf6nrokPFV9vhmAcRwnLzXmX-Jyheg3urIyuR9IQoRjtq-RvFEitsgURcwDra8"/>
+                  <img alt="A high-contrast black and white photograph of an industrial facility with repeating geometric windows and raw concrete pillars."
+                   className="w-full h-full object-cover grayscale contrast-150 brightness-75"
+                   
+                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtSg66Hqey7e5ZlWDT13TtJEVgN6fW1LOcS_bhRFQnCEo4_lGfwfq8ndQzZmmxB_yVQUw1OVhZg4BxWI250KkwGYtiMvJhpTEiMbYsm89LIcBmZ9mSsYnXxO3TteTNIJLwQOCvM3Qy4GX0tfzYttfb5W29Nd6RbZWHv4u6N_p8wqYsaohOXJ6SN2pzhVUXBwqtzgY0m_StBUrqQnf6nrokPFV9vhmAcRwnLzXmX-Jyheg3urIyuR9IQoRjtq-RvFEitsgURcwDra8"/>
                   <div className="absolute inset-0 bg-black/20"></div>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <div className="bg-white p-12 border border-[#c4c7c7] shadow-xl w-3/4">

@@ -45,7 +45,7 @@ const InstitutionalGrantManagement = () => {
                 <img 
                   alt="Institutional architecture" 
                   className="w-full h-full object-cover grayscale brightness-75 contrast-125 hover:scale-105 transition-transform duration-700" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuA92Y58hWlX3045sdr7JquddBpZAo2re8NOqdsSs_znNf0faM8gPqnpHLIPFWbFGMpprDvqhYI4gZifEap1ueDJ0BHy1EvChDzD7aHE0h-R0ax074wMFfEKLTa_jfVrjzu_0ijqk_dNnpwN29cBo-aQ68uG0t9_gRJyz8yQfSQUwvXIOPPmpqhqykkxDo-MGsTgqx8igheLhb__oegQ_2RwTsSU5xnBr6Ri_BOkoyAfVyedeyr76W5ACSzj5DR4OPmt-yLPJFWw1A" 
+                  src="/transactionadvisoryimg/institutional-grant-management.jpeg" 
                 />
               </div>
               <div className="absolute -bottom-8 -left-8 hidden lg:block bg-[#faf9f5] p-8 border border-[#747878]/10">

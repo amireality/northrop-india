@@ -134,33 +134,32 @@ const RegulatoryInvestigationsForensicAudits = () => {
         {/* Navbar */}
        
 
-        <main className="mt-[84px]">
+        <main className="mt-[4px]">
           {/* Hero */}
           <section className="relative w-full h-[85vh] overflow-hidden flex items-end">
             <div className="absolute inset-0">
               <img
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7PhSjB56AoJbs8grjUBX7HI1n6s_s35HJI-rjEwCGMufbnurqiZe_Qmt4M2LI-Zd8pSywGLMynNiv4GR5HI5MgMW65dLuN0FPRZlHARS3w-jRMv-Hbdfc98b8rk7Q4xnU2NmtBl33iQ4O5X3vcHy4lp14qV-P0yhPZPqgVErfZPe6I289yFQZ3mH6QKTUqHhXrje-hVP_hlSVTSPHDxlT6oAaZaAqepcUFn5no6KwFkPv107EJdglrZFcznJoGc4AeROvJYzazYY"
+                src="/regulatory-investigations-rbi-forensic-audits.jpeg"
                 alt="Hero"
-                className="w-full h-full object-cover grayscale"
+                className="w-full h-full object-cover"
               />
 
               <div className="absolute inset-0 bg-black/20"></div>
 
-              <div className="absolute inset-0 bg-gradient-to-t from-[#f9f9f9] via-[#f9f9f999] to-transparent"></div>
             </div>
 
             <div className="relative z-10 max-w-[1280px] mx-auto w-full px-8 pb-[120px]">
               <div className="max-w-4xl">
-                <span className="block text-[11px] uppercase tracking-[0.2em] font-bold mb-4">
+                <span className="block text-[11px] uppercase tracking-[0.2em] font-bold mb-4 text-[#ffff]">
                   Regulatory Investigations & Audit
                 </span>
 
-                <h1 className="font-['Newsreader'] text-[48px] leading-none mb-6">
+                <h1 className="font-['Newsreader'] text-[48px] leading-none mb-6  text-[#ffff]">
                   Supporting organisations through India's most complex
                   regulatory mandates.
                 </h1>
 
-                <div className="w-24 h-1.5 bg-black"></div>
+                <div className="w-24 h-1.5 bg-[#ffff]"></div>
               </div>
             </div>
           </section>

@@ -116,13 +116,14 @@ const TaxRegulatoryDueDiligence = () => {
         <main>
           {/* Hero */}
           <header className="relative w-full h-[819px] flex items-end overflow-hidden">
-            <div className="absolute inset-0 bg-black/40 z-10"></div>
+            <div className="absolute inset-0"></div>
 
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDaT5E1_sjASgNEFi3GY6VykDz4zlxeaDIIaeUjeBCOt878KhiDLpG2T0wu_G7dbzcVdWx0FFrQ_siMQwAWiVuostcJRy_Lm_RkqI6owGomoUn3MwPIuGFt9XaG18s1HLx9tosk0AXeFTVgMJpXaHQjpYHZTexCrA5FODaAdwbKvfPLf0yFtomcFJmQk1C-A0nmRSeMqEURCfPIMq1WQyGbNIXcSCDaEt_KGncMid0sVXHhiNt9Hzq3hJGk8CLGHqYk039H7jrDf-M"
+              src="/tax-regulatory-due-diligence.jpeg"
               alt="Hero"
-              className="absolute inset-0 w-full h-full object-cover grayscale brightness-50"
+              className="absolute inset-0 w-full h-full object-cover "
             />
+            <div className="absolute inset-0 bg-black/40"></div>
 
             <div className="relative z-20 max-w-[1280px] mx-auto w-full px-8 pb-[120px]">
               <div className="max-w-4xl">
