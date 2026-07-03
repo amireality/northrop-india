@@ -82,7 +82,10 @@ const QualityOfEarningsAnalysis = () => {
       title: "The 2026 Valuation Handbook",
       description:
         "A comprehensive guide for analysts on bridging the gap between audit financials and investment-ready data.",
-      icon: "auto_stories",
+   image:"/test.jpeg"
+
+
+
     },
   ];
 
