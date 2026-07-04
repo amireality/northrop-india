@@ -163,7 +163,9 @@ const EsgReportingDisclosure = () => {
                   <h4 className="font-newsreader font-normal text-[24px] leading-[1.3] mb-[16px]">Secure Your Compliance Roadmap</h4>
                   <p className="font-inter font-normal text-[15px] leading-[1.6] opacity-80 mb-[24px]">Our experts are ready to audit your current ESG infrastructure and define a 12-month disclosure strategy.</p>
                 </div>
-                <button className="relative z-10 w-full border border-[#ffffff] py-4 font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] hover:bg-white hover:text-[#000000] transition-colors">Contact Advisory Team</button>
+                <Link to={"/contact"}>
+                  <button className="relative z-10 w-full border border-[#ffffff] py-4 font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] hover:bg-white hover:text-[#000000] transition-colors">Contact Advisory Team</button>
+                </Link>
               </div>
             </div>
           </div>

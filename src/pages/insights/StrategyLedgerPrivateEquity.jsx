@@ -183,9 +183,12 @@ const StrategyLedgerPrivateEquity = () => {
               <h3 className="font-serif text-[24px] font-medium text-[#ffffff] mb-2">Access the Full Strategy Ledger</h3>
               <p className="font-sans text-[16px] text-[#78849d] opacity-80">Full 142-page institutional analysis including sector-specific heatmaps.</p>
             </div>
+
+               <Link to="/insights">
             <button className="bg-[#ffdea5] text-[#261900] px-8 py-4 font-sans text-[12px] font-semibold tracking-[0.02em] uppercase hover:brightness-110 transition-all flex items-center gap-2">
               Download PDF <span className="material-symbols-outlined">download</span>
             </button>
+               </Link>
           </div>
         </section>
 

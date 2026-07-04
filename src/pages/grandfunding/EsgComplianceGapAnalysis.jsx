@@ -160,9 +160,13 @@ const EsgComplianceGapAnalysis = () => {
                 <p className="font-inter font-normal text-[18px] leading-[1.6] text-[#444748] mb-[24px]">
                   An analysis of cross-border ESG regulatory friction and the convergence of BRSR and CSRD frameworks.
                 </p>
+
+                <Link to="/insights">
+               
                 <button className="border border-[#000000] px-[24px] py-[16px] font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] hover:bg-[#000000] hover:text-[#ffffff] transition-all">
                   DOWNLOAD PDF
                 </button>
+                 </Link>
               </div>
             </div>
             <div className="col-span-12 md:col-span-6">
