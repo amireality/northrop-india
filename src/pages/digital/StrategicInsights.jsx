@@ -1,193 +1,257 @@
-
-import { Helmet } from 'react-helmet-async'
-import { Link } from 'react-router-dom'
+import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const StrategicInsights = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
       <Helmet>
-        <title>Strategic Insights & Case Studies | Northrop Management</title>
-        <meta name="description" content="Explore our comprehensive 2026 analysis on AI-driven transformation, global ERP overhauls, and cybersecurity resilience for the modern enterprise." />
-    
+        <title>The Strategy Ledger | Northrop India</title>
       </Helmet>
-
-      <main className="bg-[#fcf9f8] text-[#1c1b1b] font-['Inter',sans-serif]">
-        {/* Featured Report Hero */}
-        <section className="relative w-full min-h-[500px] flex items-center overflow-hidden bg-[#001736] py-[120px]">
-          <div className="absolute inset-0 z-0 opacity-30">
+      <main className=" text-white">
+        {/* Hero Section */}
+        <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
+          <div className="absolute inset-0 z-0">
             <img 
-              className="w-full h-full object-cover grayscale contrast-125" 
-              alt="Sophisticated abstract AI neural network visualization" 
-              src="/digitalimg/digitalinsight.png" 
+              alt="Cinematic architectural glass facade with technical data overlays." 
+              className="w-full h-full object-cover" 
+              src="/digitalimg/digitalinsight.jpeg"
             />
           </div>
-          <div className="relative z-10 max-w-[1280px] mx-auto px-8 lg:px-16 w-full grid grid-cols-12 gap-8">
-            <div className="col-span-12 md:col-span-8 flex flex-col items-start space-y-8 animate-fade-in-up">
-              <span className="bg-[#d6e3ff] text-[#001b3e] px-3 py-1 font-semibold text-[12px] tracking-[0.05em] uppercase">Featured Report</span>
-              <h1 className="font-['Noto_Serif',serif] text-[36px] md:text-[48px] text-white max-w-4xl font-bold leading-[1.2]">
-                AI-Driven Transformation: Navigating the Next Frontier of Enterprise Growth.
-              </h1>
-              <p className="text-[18px] text-white/90 max-w-2xl leading-[1.6]">
-                Explore our comprehensive 2026 analysis on how global enterprises are leveraging generative AI to restructure legacy operations and secure a sustainable competitive advantage in a volatile market.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Link to="/contact">
-                  <button className="bg-white text-[#001736] px-8 py-4 text-[15px] font-medium tracking-widest flex items-center gap-2 border border-white hover:bg-[#eae7e7] transition-colors w-full sm:w-auto uppercase cursor-pointer">
-                    DOWNLOAD WHITEPAPER
-                    <span className="material-symbols-outlined">download</span>
+          <div className="relative z-10 text-center text-white px-4 md:px-8 max-w-5xl mx-auto">
+            {/* <div className="inline-block py-1 px-3 bg-white/10 backdrop-blur-md border border-white/20 rounded-full mb-8">
+              <span className="font-mono text-[10px] uppercase tracking-[0.3em] opacity-80">// STRATEGIC_ASSET_CLASS</span>
+            </div> */}
+            <h1 className="font-['Noto_Serif',serif] text-5xl md:text-7xl lg:text-8xl italic font-bold mb-8 leading-[0.9] uppercase tracking-tighter drop-shadow-lg">
+              THE STRATEGY LEDGER
+            </h1>
+            <p className="text-lg md:text-xl opacity-70 max-w-xl mx-auto uppercase tracking-widest font-light">
+              Forensic Intelligence &amp; Predictive Governance
+            </p>
+            <div className="mt-16 flex justify-center">
+              <div className="w-px h-16 bg-gradient-to-b from-white to-transparent opacity-30"></div>
+            </div>
+          </div>
+        </section>
+
+        {/* The Mandate */}
+        <section className="py-32 bg-[#fcf9f8] text-[#1c1b1b]">
+          <div className="max-w-[1280px] mx-auto px-8 lg:px-16">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
+              <div>
+                <span className="font-mono text-[11px] text-[#43474f] block mb-6 uppercase tracking-[0.2em]">Mandate_Index_01</span>
+                <h2 className="font-['Noto_Serif',serif] text-[36px] md:text-[40px] text-[#001736] mb-8 leading-tight font-bold">
+                  Institutional Shift Toward Forensic-Grade Decisioning
+                </h2>
+              </div>
+              <div className="space-y-6 pt-2">
+                <p className="text-[18px] text-[#43474f] leading-relaxed">
+                  In an era of unprecedented volatility, traditional risk assessment is insufficient. Northrop India's 2026 mandate shifts the paradigm from retrospective reporting to <span className="text-[#001736] font-semibold">active forensic oversight</span>.
+                </p>
+                <p className="text-[18px] text-[#43474f] leading-relaxed opacity-90">
+                  We provide the institutional weight required to navigate the convergence of local compliance and international rigor, ensuring capital remains resilient against structural shifts.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Strategic Pillars */}
+        <section className="py-32 bg-white border-y border-[#c4c6d0]/30 text-[#1c1b1b]">
+          <div className="max-w-[1280px] mx-auto px-8 lg:px-16">
+            <div className="flex flex-col md:flex-row items-baseline justify-between mb-20">
+              <h2 className="font-['Noto_Serif',serif] text-[32px] md:text-[36px] text-[#001736] font-bold">Strategic Pillars</h2>
+              <span className="font-mono text-[10px] text-[#43474f] tracking-widest uppercase mt-2 md:mt-0">CORE_STRUCTURAL_RESILIENCE_V.4.0</span>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+              {/* Pillar 1 */}
+              <div className="group">
+                <div className="mb-8 w-12 h-12 flex items-center justify-center bg-[#001736] text-white rounded-sm group-hover:scale-110 transition-transform duration-500">
+                  <span className="material-symbols-outlined text-2xl">security</span>
+                </div>
+                <h3 className="font-['Noto_Serif',serif] text-[24px] text-[#001736] mb-6 font-semibold">Forensic Intelligence</h3>
+                <p className="text-[16px] text-[#43474f] leading-relaxed mb-8 opacity-90">
+                  Deep-dive data validation and risk mitigation through proprietary investigative protocols and high-integrity data streams.
+                </p>
+                <div className="pt-6 border-t border-[#c4c6d0]/40 space-y-3">
+                  <div className="flex items-center text-[11px] font-mono text-[#43474f] uppercase tracking-wider">
+                    <span className="w-1.5 h-1.5 bg-[#5493f0] rounded-full mr-3"></span> Data Lineage Verification
+                  </div>
+                  <div className="flex items-center text-[11px] font-mono text-[#43474f] uppercase tracking-wider">
+                    <span className="w-1.5 h-1.5 bg-[#5493f0] rounded-full mr-3"></span> Exposure Audits
+                  </div>
+                </div>
+              </div>
+              {/* Pillar 2 */}
+              <div className="group">
+                <div className="mb-8 w-12 h-12 flex items-center justify-center bg-[#001736] text-white rounded-sm group-hover:scale-110 transition-transform duration-500">
+                  <span className="material-symbols-outlined text-2xl">query_stats</span>
+                </div>
+                <h3 className="font-['Noto_Serif',serif] text-[24px] text-[#001736] mb-6 font-semibold">Predictive Modeling</h3>
+                <p className="text-[16px] text-[#43474f] leading-relaxed mb-8 opacity-90">
+                  Anticipating regulatory shifts and market volatility using macro-econometric analysis tailored for Indian capital markets.
+                </p>
+                <div className="pt-6 border-t border-[#c4c6d0]/40 space-y-3">
+                  <div className="flex items-center text-[11px] font-mono text-[#43474f] uppercase tracking-wider">
+                    <span className="w-1.5 h-1.5 bg-[#5493f0] rounded-full mr-3"></span> Policy Impact Simulation
+                  </div>
+                  <div className="flex items-center text-[11px] font-mono text-[#43474f] uppercase tracking-wider">
+                    <span className="w-1.5 h-1.5 bg-[#5493f0] rounded-full mr-3"></span> Stress Testing
+                  </div>
+                </div>
+              </div>
+              {/* Pillar 3 */}
+              <div className="group">
+                <div className="mb-8 w-12 h-12 flex items-center justify-center bg-[#001736] text-white rounded-sm group-hover:scale-110 transition-transform duration-500">
+                  <span className="material-symbols-outlined text-2xl">gavel</span>
+                </div>
+                <h3 className="font-['Noto_Serif',serif] text-[24px] text-[#001736] mb-6 font-semibold">Regulatory Alignment</h3>
+                <p className="text-[16px] text-[#43474f] leading-relaxed mb-8 opacity-90">
+                  Navigating the convergence of domestic SEBI/RBI mandates with global ESG and forensic standards (FATF/SEC).
+                </p>
+                <div className="pt-6 border-t border-[#c4c6d0]/40 space-y-3">
+                  <div className="flex items-center text-[11px] font-mono text-[#43474f] uppercase tracking-wider">
+                    <span className="w-1.5 h-1.5 bg-[#5493f0] rounded-full mr-3"></span> Cross-Border Compliance
+                  </div>
+                  <div className="flex items-center text-[11px] font-mono text-[#43474f] uppercase tracking-wider">
+                    <span className="w-1.5 h-1.5 bg-[#5493f0] rounded-full mr-3"></span> Governance Audits
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Insight Stream */}
+        <section className="py-32 bg-[#fcf9f8] text-[#1c1b1b]">
+          <div className="max-w-[1280px] mx-auto px-8 lg:px-16">
+            <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+              <div className="max-w-2xl">
+                <span className="font-mono text-[11px] text-[#5493f0] block mb-4 uppercase tracking-[0.3em]">Protocol_Execution_Feed</span>
+                <h2 className="font-['Noto_Serif',serif] text-[32px] md:text-[36px] text-[#001736] mb-4 font-bold">The Insight Stream</h2>
+                <p className="text-[#43474f] font-light text-[18px]">Authenticated forensic reports and predictive modeling ledger.</p>
+              </div>
+              <div className="flex items-center space-x-6 border-b border-[#c4c6d0] pb-2">
+                <span className="font-mono text-[10px] text-[#43474f] uppercase tracking-widest">Filter_Vault:</span>
+                <select className="bg-transparent border-none text-[12px] font-mono font-bold focus:ring-0 cursor-pointer uppercase py-0 pr-8 outline-none">
+                  <option>ALL_REPORTS</option>
+                  <option>FORENSIC_GRADE</option>
+                  <option>ESG_ALPHA</option>
+                  <option>REGULATORY_DELTA</option>
+                </select>
+              </div>
+            </div>
+            
+            <div className="divide-y divide-[#c4c6d0]/50">
+              {/* Report Item 1 */}
+              <Link to="/contact" className="py-10 flex flex-col md:flex-row items-start md:items-center justify-between group hover:bg-white transition-all px-6 -mx-6 rounded-lg cursor-pointer block">
+                <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16 w-full">
+                  <div className="font-mono text-[10px] text-[#43474f] w-16 shrink-0">091/26</div>
+                  <div className="flex-grow">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="bg-[#001736] text-white px-2 py-0.5 text-[10px] font-mono uppercase tracking-tighter">Forensic Grade</span>
+                      <span className="border border-[#c4c6d0] text-[#43474f] px-2 py-0.5 text-[10px] font-mono uppercase tracking-tighter">Protocol v.2026</span>
+                    </div>
+                    <h4 className="font-['Noto_Serif',serif] text-[24px] text-[#001736] mb-2 font-semibold group-hover:translate-x-2 transition-transform duration-300">Beyond the Narrative</h4>
+                    <p className="text-[16px] text-[#43474f] max-w-xl">Deep auditing of anomalies in emerging tech equity pools.</p>
+                  </div>
+                </div>
+                <div className="mt-8 md:mt-0 shrink-0">
+                  <button className="font-mono text-[10px] uppercase tracking-widest py-3 px-6 border border-[#001736] text-[#001736] group-hover:bg-[#001736] group-hover:text-white transition-all duration-300 flex items-center gap-2 cursor-pointer">
+                    Execute Protocol <span className="material-symbols-outlined text-[14px]">arrow_forward_ios</span>
                   </button>
-                </Link>
-                <button className="border border-white text-white px-8 py-4 text-[15px] font-medium tracking-widest hover:bg-white/10 transition-colors uppercase cursor-pointer">
-                  VIEW SUMMARY
+                </div>
+              </Link>
+
+              {/* Report Item 2 */}
+              <Link to="/contact" className="py-10 flex flex-col md:flex-row items-start md:items-center justify-between group hover:bg-white transition-all px-6 -mx-6 rounded-lg cursor-pointer block">
+                <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16 w-full">
+                  <div className="font-mono text-[10px] text-[#43474f] w-16 shrink-0">114/26</div>
+                  <div className="flex-grow">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="bg-[#001736] text-white px-2 py-0.5 text-[10px] font-mono uppercase tracking-tighter">Alpha Intel</span>
+                      <span className="border border-[#c4c6d0] text-[#43474f] px-2 py-0.5 text-[10px] font-mono uppercase tracking-tighter">Q3 Assessment</span>
+                    </div>
+                    <h4 className="font-['Noto_Serif',serif] text-[24px] text-[#001736] mb-2 font-semibold group-hover:translate-x-2 transition-transform duration-300">ESG as Alpha</h4>
+                    <p className="text-[16px] text-[#43474f] max-w-xl">Quantifying sustainable governance as a primary capital growth driver.</p>
+                  </div>
+                </div>
+                <div className="mt-8 md:mt-0 shrink-0">
+                  <button className="font-mono text-[10px] uppercase tracking-widest py-3 px-6 border border-[#001736] text-[#001736] group-hover:bg-[#001736] group-hover:text-white transition-all duration-300 flex items-center gap-2 cursor-pointer">
+                    Execute Protocol <span className="material-symbols-outlined text-[14px]">arrow_forward_ios</span>
+                  </button>
+                </div>
+              </Link>
+
+              {/* Report Item 3 */}
+              <Link to="/contact" className="py-10 flex flex-col md:flex-row items-start md:items-center justify-between group hover:bg-white transition-all px-6 -mx-6 rounded-lg cursor-pointer block">
+                <div className="flex flex-col md:flex-row md:items-center gap-8 md:gap-16 w-full">
+                  <div className="font-mono text-[10px] text-[#43474f] w-16 shrink-0">078/26</div>
+                  <div className="flex-grow">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="bg-[#001736] text-white px-2 py-0.5 text-[10px] font-mono uppercase tracking-tighter">Regulatory</span>
+                      <span className="border border-[#c4c6d0] text-[#43474f] px-2 py-0.5 text-[10px] font-mono uppercase tracking-tighter">FCRA Master</span>
+                    </div>
+                    <h4 className="font-['Noto_Serif',serif] text-[24px] text-[#001736] mb-2 font-semibold group-hover:translate-x-2 transition-transform duration-300">FCRA Compliance Mastery</h4>
+                    <p className="text-[16px] text-[#43474f] max-w-xl">Navigating foreign contribution regulations with institutional precision.</p>
+                  </div>
+                </div>
+                <div className="mt-8 md:mt-0 shrink-0">
+                  <button className="font-mono text-[10px] uppercase tracking-widest py-3 px-6 border border-[#001736] text-[#001736] group-hover:bg-[#001736] group-hover:text-white transition-all duration-300 flex items-center gap-2 cursor-pointer">
+                    Execute Protocol <span className="material-symbols-outlined text-[14px]">arrow_forward_ios</span>
+                  </button>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* Executive CTA */}
+        <section className="py-40 bg-[#001736] relative overflow-hidden text-white">
+          <div className="absolute inset-0 z-0">
+            <img 
+              alt="Background pattern" 
+              className="w-full h-full object-cover opacity-20 grayscale brightness-50" 
+              src="/digitalimg/digitalinsight.jpeg"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#001736] via-[#001736]/80 to-[#001736]"></div>
+          </div>
+          <div className="max-w-4xl mx-auto px-8 lg:px-16 text-center relative z-10">
+            <span className="font-mono text-[10px] text-white/50 block mb-8 uppercase tracking-[0.5em]">SECURE_ACCESS_GATEWAY</span>
+            <h2 className="font-['Noto_Serif',serif] text-[36px] md:text-[48px] lg:text-[64px] text-white mb-8 uppercase italic font-bold tracking-tight leading-tight">
+              Accessing the Ledger
+            </h2>
+            <p className="text-white/80 text-[18px] mb-16 max-w-2xl mx-auto leading-relaxed">
+              Registration required for detailed forensic appendices, high-resolution predictive models, and quarterly stress-test results.
+            </p>
+            <div className="flex flex-col md:flex-row items-center justify-center gap-6">
+              <Link to="/contact" className="w-full md:w-auto">
+                <button className="w-full bg-white text-[#001736] px-12 py-5 font-mono text-[12px] font-bold uppercase tracking-widest hover:bg-[#d6e3ff] transition-all transform hover:-translate-y-1 cursor-pointer">
+                  Download Protocol
                 </button>
-              </div>
+              </Link>
+              <Link to="/contact" className="w-full md:w-auto">
+                <button className="w-full border border-white/30 text-white px-12 py-5 font-mono text-[12px] font-bold uppercase tracking-widest hover:bg-white/10 transition-all transform hover:-translate-y-1 cursor-pointer">
+                  Request Briefing
+                </button>
+              </Link>
             </div>
-          </div>
-        </section>
-
-        {/* Case Studies Gallery Section */}
-        <section className="max-w-[1280px] mx-auto px-8 lg:px-16 py-[120px]">
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 border-b-2 border-[#001736] pb-4">
-            <div className="max-w-2xl">
-              <span className="text-[12px] font-semibold text-[#001736] tracking-[0.05em] mb-2 block uppercase">Case Studies</span>
-              <h2 className="font-['Noto_Serif',serif] text-[32px] md:text-[36px] text-[#001736] font-bold leading-[1.3]">Global Success Stories</h2>
-            </div>
-            <div className="mt-8 md:mt-0 flex flex-wrap gap-4 text-[12px] font-semibold text-[#43474f] uppercase tracking-[0.05em]">
-              <button className="text-[#001736] border-b-2 border-[#001736] pb-1 cursor-pointer">All</button>
-              <button className="hover:text-[#001736] transition-colors pb-1 cursor-pointer">Retail</button>
-              <button className="hover:text-[#001736] transition-colors pb-1 cursor-pointer">Finance</button>
-              <button className="hover:text-[#001736] transition-colors pb-1 cursor-pointer">Public Sector</button>
-              <button className="hover:text-[#001736] transition-colors pb-1 cursor-pointer">Digital</button>
-            </div>
-          </div>
-
-          {/* Bento-style Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
-            {/* Main Case Study */}
-            <div className="md:col-span-8 bg-white border-t-4 border-[#001736] shadow-[0px_4px_20px_rgba(0,43,92,0.05)] group flex flex-col cursor-pointer hover:shadow-md transition-shadow">
-              <div className="aspect-[16/9] overflow-hidden">
-                <img 
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" 
-                  alt="Futuristic retail logistics hub" 
-                  src="/digitalimg/digitalinsight1.png" 
-                />
-              </div>
-              <div className="p-8 md:p-10 flex-grow flex flex-col justify-between">
-                <div>
-                  <h3 className="font-['Noto_Serif',serif] text-[24px] md:text-[28px] text-[#001736] mb-4 font-semibold leading-[1.4]">Global Retailer ERP Overhaul</h3>
-                  <p className="text-[16px] text-[#43474f] mb-8 leading-[1.6]">
-                    Replacing a fragmented legacy architecture with a unified SAP S/4HANA environment across 45 countries. We addressed the challenge of data siloization by implementing a centralized intelligence layer that harmonized inventory, sales, and logistics in real-time.
-                  </p>
-                </div>
-                <div className="grid grid-cols-2 gap-8 border-t border-[#c4c6d0]/30 pt-8">
-                  <div>
-                    <span className="font-['Noto_Serif',serif] text-[36px] md:text-[48px] text-[#001736] block leading-none font-bold">40%</span>
-                    <span className="text-[12px] font-semibold text-[#43474f] uppercase tracking-[0.05em]">Efficiency Increase</span>
-                  </div>
-                  <div>
-                    <span className="font-['Noto_Serif',serif] text-[36px] md:text-[48px] text-[#001736] block leading-none font-bold">$1.2B</span>
-                    <span className="text-[12px] font-semibold text-[#43474f] uppercase tracking-[0.05em]">Cost Reduction</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Secondary Case Study 1 */}
-            <div className="md:col-span-4 bg-white border-t-4 border-[#001736] shadow-[0px_4px_20px_rgba(0,43,92,0.05)] group flex flex-col cursor-pointer hover:shadow-md transition-shadow">
-              <div className="aspect-square overflow-hidden">
-                <img 
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" 
-                  alt="High-performance servers in a data center" 
-                  src="/digitalimg/digitalinsight2.png" 
-                />
-              </div>
-              <div className="p-8 md:p-10 flex-grow">
-                <h3 className="font-['Noto_Serif',serif] text-[24px] text-[#001736] mb-4 font-semibold">Financial Institution Cyber Defense</h3>
-                <p className="text-[14px] text-[#43474f] mb-6 leading-[1.5]">
-                  Developing a Zero-Trust architecture for a leading investment bank to mitigate sophisticated phishing and ransomware threats.
-                </p>
-                <div className="pt-6 border-t border-[#c4c6d0]/30">
-                  <span className="font-['Noto_Serif',serif] text-[32px] md:text-[36px] text-[#001736] block leading-none font-bold">Zero</span>
-                  <span className="text-[12px] font-semibold text-[#43474f] uppercase tracking-[0.05em]">Security Breaches</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Secondary Case Study 2 */}
-            <div className="md:col-span-4 bg-white border-t-4 border-[#001736] shadow-[0px_4px_20px_rgba(0,43,92,0.05)] group flex flex-col cursor-pointer hover:shadow-md transition-shadow">
-              <div className="aspect-square overflow-hidden">
-                <img 
-                  className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" 
-                  alt="Modern public sector building architectural lines" 
-                  src="/digitalimg/digitalinsight3.png" 
-                />
-              </div>
-              <div className="p-8 md:p-10 flex-grow">
-                <h3 className="font-['Noto_Serif',serif] text-[24px] text-[#001736] mb-4 font-semibold">Public Sector Digital Transformation</h3>
-                <p className="text-[14px] text-[#43474f] mb-6 leading-[1.5]">
-                  Migrating municipal services to a cloud-native citizen portal, enhancing accessibility and service delivery speed.
-                </p>
-                <div className="pt-6 border-t border-[#c4c6d0]/30">
-                  <span className="font-['Noto_Serif',serif] text-[32px] md:text-[36px] text-[#001736] block leading-none font-bold">65%</span>
-                  <span className="text-[12px] font-semibold text-[#43474f] uppercase tracking-[0.05em]">Citizen Engagement</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Strategic Insight Card */}
-            <div className="md:col-span-8 bg-[#002b5b] text-white p-8 md:p-[64px] flex flex-col justify-center border-t-4 border-[#001736] group cursor-pointer hover:bg-[#003a7a] transition-colors">
-              <span className="text-[12px] font-semibold text-white/90 tracking-[0.05em] mb-4 uppercase">Strategic Insight</span>
-              <h3 className="font-['Noto_Serif',serif] text-[32px] md:text-[36px] text-white mb-6 font-semibold leading-[1.3]">The Resilience Paradox: Why Leading Firms Invest in Complexity During Downturns.</h3>
-              <p className="text-[18px] mb-8 max-w-2xl opacity-90 leading-[1.6]">
-                Our research indicates that organizations that maintain strategic transformation budgets through economic volatility outperform peers by 3x during the recovery phase.
-              </p>
-              <button className="flex items-center gap-2 text-[15px] font-medium tracking-widest hover:translate-x-2 transition-transform uppercase">
-                Read Full Analysis <span className="material-symbols-outlined">trending_flat</span>
-              </button>
-            </div>
-          </div>
-        </section>
-
-        {/* Newsletter / Contact CTA */}
-        <section className="bg-[#f6f3f2] py-[120px] border-t border-[#c4c6d0]">
-          <div className="max-w-[1280px] mx-auto px-8 lg:px-16 grid grid-cols-1 md:grid-cols-12 items-center gap-8">
-            <div className="md:col-span-6 animate-fade-in">
-              <h2 className="font-['Noto_Serif',serif] text-[32px] md:text-[36px] text-[#001736] mb-4 font-bold leading-[1.3]">Subscribe to Intelligence</h2>
-              <p className="text-[16px] text-[#43474f] leading-[1.6]">Stay ahead of global trends with our monthly executive briefing on transformation and strategy.</p>
-            </div>
-            <div className="md:col-span-6">
-              <form className="flex flex-col sm:flex-row gap-8 items-end" onSubmit={(e) => e.preventDefault()}>
-                <div className="flex-grow w-full">
-                  <label className="text-[12px] font-semibold text-[#43474f] mb-2 block uppercase tracking-[0.05em]">Work Email</label>
-                  <input 
-                    className="w-full bg-transparent border-b-2 border-[#c4c6d0] focus:border-[#001736] outline-none py-2 text-[16px] transition-colors" 
-                    placeholder="executive@enterprise.com" 
-                    type="email" 
-                  />
-                </div>
-                <Link to="/contact">
-                  <button className="bg-[#001736] text-white px-8 py-3 text-[15px] font-medium tracking-widest uppercase hover:bg-[#002b5b] transition-colors whitespace-nowrap cursor-pointer">Join Briefing</button>
-                </Link>
-              </form>
+            <div className="mt-20 font-mono text-[10px] text-white/40 uppercase tracking-[0.2em] flex flex-col md:flex-row justify-center gap-4 md:gap-12">
+              <span>ENCRYPTION: AES-256 SECURED</span>
+              <span className="hidden md:inline">|</span>
+              <span>AUTHORIZATION: NORTHROP_INDIA_DELHI</span>
+              <span className="hidden md:inline">|</span>
+              <span>SESSION_STATUS: ENCRYPTED</span>
             </div>
           </div>
         </section>
       </main>
-
-      <style dangerouslySetInnerHTML={{ __html: `
-        @keyframes fade-in-up {
-          from { opacity: 0; transform: translateY(20px); }
-          to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes fade-in {
-          from { opacity: 0; }
-          to { opacity: 1; }
-        }
-        .animate-fade-in-up { animation: fade-in-up 0.8s ease-out forwards; }
-        .animate-fade-in { animation: fade-in 1s ease-out forwards; }
-      `}} />
     </>
-  )
-}
+  );
+};
 
-export default StrategicInsights
+export default StrategicInsights;
