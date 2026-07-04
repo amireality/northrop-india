@@ -27,7 +27,7 @@ const services = [
   {
     title: "Strategic Insights",
     desc: "Data-driven analysis for high-stakes decision making.",
-    img: "/digitalimg/digitalinsight.png",
+    img: "/digitalimg/digitalinsight.jpeg",
     alt: "Financial charts projection",
     link: "/digital/strategic-insights"
   },

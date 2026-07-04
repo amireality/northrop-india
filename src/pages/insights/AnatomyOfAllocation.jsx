@@ -222,9 +222,13 @@ const AnatomyOfAllocation = () => {
               <h3 className="font-serif text-[24px] font-medium leading-[1.3] mb-[8px]">Access the Complete 84-Page Dataset</h3>
               <p className="font-sans text-[16px] font-normal leading-[1.5] opacity-80">Our full report details capital efficiency metrics across 12 sectors, featuring proprietary interviews with 50+ leading Global Partners.</p>
             </div>
-            <button className="bg-[#ffffff] text-[#001736] px-[40px] py-[24px] font-sans text-[12px] font-semibold leading-[1] tracking-[0.2em] uppercase whitespace-nowrap hover:bg-[#d6e3ff] transition-colors">
-              Download Full Report
-            </button>
+
+            <Link to={"/contact"}>
+              <button className="bg-[#ffffff] text-[#001736] px-[40px] py-[24px] font-sans text-[12px] font-semibold leading-[1] tracking-[0.2em] uppercase whitespace-nowrap hover:bg-[#d6e3ff] transition-colors">
+                Download Full Report
+              </button>
+            </Link>
+
           </div>
         </section>
 

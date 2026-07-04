@@ -14,7 +14,7 @@ const ConglomerateStrategyHoldingStructures = () => {
           <img
             alt="Strategic Abstract"
             className="absolute inset-0 w-full h-full object-cover opacity-60 grayscale brightness-[0.4]"
-            src="/managmentcounsaltingimg/conglomerate-strategy.png"
+            src="/managmentcounsaltingimg/conglomerate-strategy.jpeg"
           />
           <div className="relative z-10 max-w-[1200px] mx-auto px-[32px] md:px-[64px] w-full text-[#ffffff]">
             <div className="flex items-center space-x-4 mb-8">

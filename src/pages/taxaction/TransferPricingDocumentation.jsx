@@ -146,7 +146,7 @@ const TransferPricingDocumentation = () => {
                 <h2 className="font-['Newsreader'] text-[32px] leading-[1.2] font-normal">Institutional Intelligence</h2>
                 <p className="font-['Inter'] text-[15px] leading-[1.6] font-normal text-[#444748]">Quarterly briefs on the evolving landscape of global transfer pricing.</p>
               </div>
-              <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] border-b border-[#000000] uppercase tracking-wider pb-1" href="#">View Library</a>
+              <Link to={"/insights"} className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] border-b border-[#000000] uppercase tracking-wider pb-1" >View Library</Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-[32px]">
               {/* Pub 1 */}

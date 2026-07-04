@@ -132,13 +132,19 @@ const GlobalInternalControls = () => {
                 </p>
 
                 <div className="mt-16 flex flex-wrap gap-4">
+
+<Link to="/contact">  
                   <button className="px-8 py-4 bg-white text-black text-[11px] uppercase tracking-[0.1em] font-bold hover:bg-[#e2e2e2] transition-all duration-300">
                     Our Expertise
                   </button>
+</Link>
+                  
+                    <Link to="/contact">
 
                   <button className="px-8 py-4 border border-white/60 text-white text-[11px] uppercase tracking-[0.1em] hover:bg-white hover:text-black transition-all duration-300">
                     Download Framework
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -149,9 +155,12 @@ const GlobalInternalControls = () => {
             <div className="grid grid-cols-12 gap-8">
               {/* Left */}
               <div className="col-span-12 md:col-span-7">
+
+                <Link to="/contact">
                 <h2 className="font-['Newsreader'] text-[32px] mb-16 border-b border-[#c4c7c7] pb-4">
                   Our Methodology
                 </h2>
+                </Link>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-y-16 gap-x-8">
                   {methodology.map((item, index) => (
@@ -228,9 +237,19 @@ const GlobalInternalControls = () => {
                     US public markets under an accelerated timeline.
                   </p>
 
+
+
+<Link to="/insights">
+
+
+
                   <button className="px-8 py-3 border border-black text-black text-[11px] uppercase tracking-[0.1em] hover:bg-black hover:text-white transition-all duration-300">
                     Read Case Study
                   </button>
+
+                  </Link>
+
+
                 </div>
 
                 <div className="col-span-12 md:col-span-6">

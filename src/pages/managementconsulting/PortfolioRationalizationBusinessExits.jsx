@@ -185,11 +185,15 @@ const PortfolioRationalizationBusinessExits = () => {
               <span className="font-sans text-[#444748] block mb-4 uppercase tracking-widest text-[11px] font-bold">Knowledge Base</span>
               <h2 className="font-serif text-[32px] md:text-[40px] text-[#000000] font-bold">Recent Insights</h2>
             </div>
-            <a className="font-sans text-[#000000] border-b-2 border-[#000000] pb-1 text-[12px] uppercase tracking-widest font-bold hover:opacity-70 transition-opacity" href="#">View All Insights</a>
+
+            <Link to={"/insights"} className="font-sans text-[#000000] border-b-2 border-[#000000] pb-1 text-[12px] uppercase tracking-widest font-bold hover:opacity-70 transition-opacity cursor-pointer">
+              View All Insights
+              <span className="material-symbols-outlined ml-2 text-[18px]">north_east</span>
+            </Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <a className="group block" href="#">
-              <div className="aspect-video bg-[#eae8e3] mb-6 overflow-hidden">
+              <div className="aspect-video bg-[#eae8e3] mb-6 overflow-hidden">  
                 <img
                   alt="Insight 1"
                   className="w-full h-full object-cover grayscale group-hover:scale-105 transition-transform duration-500"

@@ -128,7 +128,11 @@ const CorporateRestructuringTurnaroundAdvisory = () => {
                     </div>
                   </div>
                 </div>
-                <button className="mt-[64px] border border-[#000000] px-8 py-4 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase hover:bg-[#000000] hover:text-[#ffffff] transition-all">Download Full Report</button>
+
+                <Link to={"/contact"}>
+                  <button className="mt-[64px] border border-[#000000] px-8 py-4 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase hover:bg-[#000000] hover:text-[#ffffff] transition-all">Download Full Report</button>
+                </Link>
+
               </div>
               <div className="col-span-12 lg:col-span-7 h-full min-h-[500px]">
                 <img className="w-full h-full object-cover grayscale" alt="Case Study Image" src="/transactionadvisoryimg/corporate-restructuring1.png" />

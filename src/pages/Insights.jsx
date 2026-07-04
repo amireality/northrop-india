@@ -212,9 +212,13 @@ export default function Insights() {
         <section className="mb-[48px]">
           <div className="flex items-center justify-between mb-[48px] border-b border-[#c4c6cf]/15 pb-[16px]">
             <h2 className="text-[36px] font-playfair font-[700] text-[#001f3f]">Strategic Perspectives</h2>
-            <a className="text-[12px] uppercase tracking-widest text-[#C4973B] font-[700] border-b border-[#C4973B] pb-[4px]" href="#">
+
+
+            <Link to="/insights" className="text-[12px] uppercase tracking-widest text-[#C4973B] font-[700] border-b border-[#C4973B] pb-[4px]">
               View Archives
-            </a>
+            </Link>
+
+
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-[48px]">

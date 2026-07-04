@@ -136,9 +136,14 @@ const InternalAuditTransformationQualityAssessment = () => {
                 </p>
 
                 <div className="mt-16 flex flex-wrap items-center gap-6">
+
+                    <Link to="/contact">
+
                   <button className="bg-white text-black px-10 py-4 text-[11px] uppercase tracking-[0.1em] hover:bg-[#eeeeee] transition-all duration-300 hover:-translate-y-0.5 shadow-xl">
                     Request Briefing
                   </button>
+
+                  </Link>
 
                   <button className="text-white border border-white/40 px-10 py-4 text-[11px] uppercase tracking-[0.1em] hover:bg-white/10 transition-all duration-300 hover:border-white">
                     Methodology
@@ -336,9 +341,12 @@ const InternalAuditTransformationQualityAssessment = () => {
                 maturity assessment.
               </p>
 
+              <Link to="/contact">
+
               <button className="bg-white text-black px-10 py-4 text-[11px] uppercase tracking-[0.1em] hover:bg-[#5e5e5e] hover:text-white transition-colors">
                 Request Consultation
               </button>
+              </Link>
             </div>
           </section>
         </main>

@@ -79,9 +79,11 @@ const EnvironmentalAdvisory = () => {
                   </div>
                 </div>
                 <div className="mt-12">
+                   <Link to={"/contact"}>
                   <button className="border border-[#000000] text-[#000000] px-8 py-4 font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] hover:bg-[#000000] hover:text-[#ffffff] transition-colors duration-200">
                     DOWNLOAD FULL REPORT
                   </button>
+                  </Link>
                 </div>
               </div>
               <div className="col-span-12 lg:col-span-6 min-h-[500px] relative overflow-hidden">
@@ -99,9 +101,12 @@ const EnvironmentalAdvisory = () => {
         <section className="max-w-[1280px] mx-auto px-8 py-[120px]">
           <div className="flex flex-col md:flex-row justify-between items-end mb-12 border-b border-[#e2e2e2] pb-6">
             <h2 className="font-newsreader font-normal text-[32px] leading-[1.2]">Institutional Intelligence</h2>
-            <a className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#000000] flex items-center gap-2 group" href="#">
+
+            <Link to="/insights" className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#000000] flex items-center gap-2 group" >
               VIEW ARCHIVE <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform" style={{ fontVariationSettings: "'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24" }}>arrow_forward</span>
-            </a>
+            </Link>
+
+
           </div>
           <div className="grid grid-cols-12 gap-[32px]">
             <div className="col-span-12 md:col-span-6 lg:col-span-4 group cursor-pointer">

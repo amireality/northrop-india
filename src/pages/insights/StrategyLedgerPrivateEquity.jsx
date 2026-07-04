@@ -169,9 +169,14 @@ const StrategyLedgerPrivateEquity = () => {
           </p>
           {/* CTA Card */}
           <div className="mb-[48px] flex justify-center">
+
+             <Link to={"/contact"}>
             <button className="bg-[#775a19] text-[#ffffff] px-8 py-4 font-sans text-[12px] font-semibold tracking-[0.02em] uppercase hover:brightness-110 transition-all flex items-center gap-2 rounded-none shadow-lg">
               Download Full Report (PDF) <span className="material-symbols-outlined">download</span>
             </button>
+
+            </Link>
+
           </div>
           <div className="bg-[#0f1c30] text-[#78849d] p-[48px] max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-[24px]">
             <div className="text-left">

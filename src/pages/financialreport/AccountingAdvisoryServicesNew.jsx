@@ -175,9 +175,11 @@ const AccountingAdvisoryServicesNew = () => {
                   </h2>
                 </div>
 
-                <button className="mt-6 md:mt-0 border border-black px-6 py-4 text-[11px] tracking-[0.1em] uppercase hover:bg-black hover:text-white transition-all">
-                  Download Full Report
-                </button>
+                <Link to={"/contact"}>
+                  <button className="mt-6 md:mt-0 border border-black px-6 py-4 text-[11px] tracking-[0.1em] uppercase hover:bg-black hover:text-white transition-all">
+                    Download Full Report
+                  </button>
+                </Link>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -249,8 +251,7 @@ const AccountingAdvisoryServicesNew = () => {
                 </p>
 
                 <div className="flex items-center gap-6 flex-wrap">
-                  <a
-                    href="#"
+                  <Link to={"/insights"}
                     className="text-[11px] tracking-[0.1em] uppercase flex items-center gap-2 hover:underline"
                   >
                     Read Article
@@ -258,7 +259,7 @@ const AccountingAdvisoryServicesNew = () => {
                     <span className="material-symbols-outlined">
                       arrow_forward
                     </span>
-                  </a>
+                  </Link>
 
                   <span className="text-[#c4c7c7]">|</span>
 

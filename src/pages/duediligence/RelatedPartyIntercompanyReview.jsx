@@ -376,13 +376,20 @@ const RelatedPartyIntercompanyReview = () => {
               </p>
 
               <div className="flex flex-col md:flex-row justify-center gap-6">
+                <Link to="/contact">
+                  
                 <button className="bg-white text-black px-6 py-4 text-[11px] uppercase tracking-[0.1em] hover:bg-[#f3f3f4] transition-colors">
                   Book a Consultation
                 </button>
+                </Link>
 
+                <Link to="/contact">
+                  
                 <button className="border border-white text-white px-6 py-4 text-[11px] uppercase tracking-[0.1em] hover:bg-white hover:text-black transition-colors">
                   Download Methodology
                 </button>
+
+                </Link>
               </div>
             </div>
           </section>

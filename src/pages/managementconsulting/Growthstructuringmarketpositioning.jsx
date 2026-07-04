@@ -103,9 +103,9 @@ const Growthstructuringmarketpositioning = () => {
                     <p className="font-sans text-[12px] text-[#444748] uppercase mt-2 tracking-widest font-semibold">Margin Improvement</p>
                   </div>
                 </div>
-                <a className="inline-flex items-center font-sans text-[12px] font-semibold border-b-2 border-[#000000] pb-2 hover:border-[#dbdad5] transition-colors tracking-widest uppercase" href="#">
+                <Link to={"contact"} className="inline-flex items-center font-sans text-[12px] font-semibold border-b-2 border-[#000000] pb-2 hover:border-[#dbdad5] transition-colors tracking-widest uppercase">
                   View Methodology <span className="material-symbols-outlined ml-2 text-[18px]">north_east</span>
-                </a>
+                </Link>
               </div>
             </div>
           </section>
@@ -180,7 +180,10 @@ const Growthstructuringmarketpositioning = () => {
           <section className="mb-[20px] border-t-4 border-[#000000] pt-24">
             <div className="flex justify-between items-end mb-12">
               <h2 className="font-serif text-[40px] md:text-[48px] text-[#000000] font-bold leading-[1.1]">Strategic<br />Insights</h2>
-              <a className="font-sans text-[12px] font-bold text-[#000000] border-b-2 border-[#000000] pb-1 uppercase tracking-widest" href="#">View All Research</a>
+
+              <Link to={"/insights"} className="font-sans text-[12px] font-bold text-[#000000] border-b-2 border-[#000000] pb-1 uppercase tracking-widest cursor-pointer" >View All Research
+                <span className="material-symbols-outlined ml-2 text-[18px]">north_east</span>
+              </Link>
             </div>
             <div className="grid grid-cols-12 gap-8">
               <div className="col-span-12 md:col-span-6 lg:col-span-3">

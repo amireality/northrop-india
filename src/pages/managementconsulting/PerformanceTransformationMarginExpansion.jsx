@@ -126,9 +126,11 @@ const PerformanceTransformationMarginExpansion = () => {
                   <span className="font-sans text-[10px] text-[#444748] uppercase tracking-widest font-bold">Margin Expansion</span>
                 </div>
               </div>
-              <a className="inline-flex items-center gap-3 font-sans text-[12px] text-[#000000] uppercase tracking-widest hover:gap-5 transition-all font-bold" href="#">
+
+              <Link to={"/contact"} className="font-sans text-[#000000] border-b-2 border-[#000000] pb-1 text-[12px] uppercase tracking-widest font-bold hover:opacity-70 transition-opacity cursor-pointer">
                 Download Full Report <span className="material-symbols-outlined text-sm">arrow_forward</span>
-              </a>
+              </Link>
+              
             </div>
           </div>
         </section>
@@ -141,7 +143,7 @@ const PerformanceTransformationMarginExpansion = () => {
                 <span className="block font-sans text-[#c8c6c5] mb-4 uppercase tracking-widest font-bold">Strategic Insights</span>
                 <h2 className="font-serif text-[32px] md:text-[40px] font-bold">Industry Perspectives</h2>
               </div>
-              <a className="font-sans text-[12px] text-[#ffffff] border-b border-[#ffffff] uppercase mb-2 tracking-widest font-bold hover:opacity-70 transition-all" href="#">View Library</a>
+              <Link to={"/insights"} className="font-sans text-[12px] text-[#ffffff] border-b border-[#ffffff] uppercase mb-2 tracking-widest font-bold hover:opacity-70 transition-all">View Library</Link>
             </div>
             <div className="grid grid-cols-12 gap-[24px]">
               {/* Insight 1 */}

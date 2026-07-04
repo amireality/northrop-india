@@ -45,7 +45,7 @@ const FinancialStatementPreparationReview = () => {
         <title>
           Financial Statement Preparation & Review | Northrop Management
         </title>
-      
+
       </Helmet>
 
       <div className="bg-[#f9f9f9] text-[#1a1c1c]">
@@ -294,12 +294,11 @@ const FinancialStatementPreparationReview = () => {
                   Intelligence & Publications
                 </h2>
 
-                <a
-                  href="#"
+                <Link to={"/insights"}
                   className="text-[11px] uppercase tracking-[0.1em] text-black border-b border-black hover:text-[#5e5e5e] transition-colors"
                 >
                   View Library
-                </a>
+                </Link>
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -327,6 +326,7 @@ const FinancialStatementPreparationReview = () => {
                       restructuring and high-volatility market cycles.
                     </p>
 
+                    <Link to={"/insights"}>
                     <span className="text-[11px] uppercase tracking-[0.1em] text-black flex items-center gap-2">
                       READ PUBLICATION
 
@@ -334,46 +334,48 @@ const FinancialStatementPreparationReview = () => {
                         arrow_forward
                       </span>
                     </span>
-                  </div>
+                  </Link>
+
                 </div>
+              </div>
 
-                {/* Newsletter */}
-                <div className="flex flex-col justify-center p-8 bg-[#e8e8e8] border border-[#c4c7c7]">
-                  <div className="max-w-sm">
-                    <span className="material-symbols-outlined text-black text-[48px] mb-4 block">
-                      mail
-                    </span>
+              {/* Newsletter */}
+              <div className="flex flex-col justify-center p-8 bg-[#e8e8e8] border border-[#c4c7c7]">
+                <div className="max-w-sm">
+                  <span className="material-symbols-outlined text-black text-[48px] mb-4 block">
+                    mail
+                  </span>
 
-                    <h3 className="font-['Newsreader'] text-[24px] mb-4">
-                      The Northrop Intelligence Brief
-                    </h3>
+                  <h3 className="font-['Newsreader'] text-[24px] mb-4">
+                    The Northrop Intelligence Brief
+                  </h3>
 
-                    <p className="text-[#444748] mb-6 leading-[1.6]">
-                      Direct technical updates on evolving regulatory reporting
-                      standards, delivered monthly to your office.
-                    </p>
+                  <p className="text-[#444748] mb-6 leading-[1.6]">
+                    Direct technical updates on evolving regulatory reporting
+                    standards, delivered monthly to your office.
+                  </p>
 
-                    <form className="flex flex-col gap-4">
-                      <input
-                        type="email"
-                        placeholder="OFFICE EMAIL ADDRESS"
-                        className="bg-transparent border-0 border-b border-black text-[11px] uppercase tracking-[0.1em] focus:ring-0 px-0 py-2 placeholder:text-[#444748]/50 outline-none"
-                      />
+                  <form className="flex flex-col gap-4">
+                    <input
+                      type="email"
+                      placeholder="OFFICE EMAIL ADDRESS"
+                      className="bg-transparent border-0 border-b border-black text-[11px] uppercase tracking-[0.1em] focus:ring-0 px-0 py-2 placeholder:text-[#444748]/50 outline-none"
+                    />
 
-                      <button
-                        type="submit"
-                        className="bg-black text-white px-6 py-4 text-[11px] uppercase tracking-[0.1em] self-start hover:opacity-90 transition-opacity"
-                      >
-                        SUBSCRIBE
-                      </button>
-                    </form>
-                  </div>
+                    <button
+                      type="submit"
+                      className="bg-black text-white px-6 py-4 text-[11px] uppercase tracking-[0.1em] self-start hover:opacity-90 transition-opacity"
+                    >
+                      SUBSCRIBE
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
-          </section>
-        </main>
-      </div>
+          </div>
+        </section>
+      </main>
+    </div >
     </>
   );
 };

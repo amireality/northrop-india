@@ -158,7 +158,13 @@ const OrganizationalRedesignCapabilityBuilding = () => {
               <span className="font-sans text-[12px] font-semibold text-[#000000] mb-4 block uppercase tracking-widest">Thought Leadership</span>
               <h2 className="font-serif text-[32px] md:text-[40px] text-[#000000] font-semibold">Global Insights</h2>
             </div>
-            <a className="font-sans text-[12px] font-bold text-[#444748] hover:text-[#000000] transition-colors mb-2 uppercase tracking-widest border-b-2 border-transparent hover:border-[#000000] pb-1" href="#">VIEW ALL INSIGHTS</a>
+
+
+            <Link to={"/insights"} className="font-sans text-[12px] font-bold text-[#444748] hover:text-[#000000] transition-colors mb-2 uppercase tracking-widest border-b-2 border-transparent hover:border-[#000000] pb-1 cursor-pointer" >
+              VIEW ALL INSIGHTS
+              <span className="material-symbols-outlined ml-2 text-[18px]">north_east</span>
+            </Link>
+
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[24px]">
             {/* Article 1 */}
@@ -170,7 +176,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
                   src="/managmentcounsaltingimg/organizational-redesign4.png"
                 />
               </div>
-              <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Organization / 12 Oct 2024</span>
+              <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Organization / 12 Oct 2026</span>
               <h3 className="font-serif text-[20px] md:text-[22px] text-[#000000] group-hover:underline underline-offset-4 mb-4 leading-snug font-medium">The End of the Matrix: Why Speed Demands Simplicity</h3>
             </div>
             {/* Article 2 */}
@@ -182,7 +188,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
                   src="/managmentcounsaltingimg/organizational-redesign1.jpeg"
                 />
               </div>
-              <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Strategy / 08 Oct 2024</span>
+              <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Strategy / 08 Oct 2026</span>
               <h3 className="font-serif text-[20px] md:text-[22px] text-[#000000] group-hover:underline underline-offset-4 mb-4 leading-snug font-medium">AI-Ready Structures: How to Rebuild for Automation</h3>
             </div>
             {/* Article 3 */}
@@ -194,7 +200,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
                   src="/managmentcounsaltingimg/organizational-redesign6.png"
                 />
               </div>
-              <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Leadership / 22 Sep 2024</span>
+              <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Leadership / 22 Sep 2026</span>
               <h3 className="font-serif text-[20px] md:text-[22px] text-[#000000] group-hover:underline underline-offset-4 mb-4 leading-snug font-medium">The CEO's Playbook for Organizational Transformation</h3>
             </div>
             {/* Article 4 */}
@@ -206,7 +212,7 @@ const OrganizationalRedesignCapabilityBuilding = () => {
                   src="/managmentcounsaltingimg/organizational-redesign7.png"
                 />
               </div>
-              <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Markets / 05 Sep 2024</span>
+              <span className="font-sans text-[10px] text-[#444748] uppercase mb-2 block font-semibold tracking-widest">Markets / 05 Sep 2026</span>
               <h3 className="font-serif text-[20px] md:text-[22px] text-[#000000] group-hover:underline underline-offset-4 mb-4 leading-snug font-medium">Regional Autonomy vs Global Standardisation</h3>
             </div>
           </div>

@@ -143,12 +143,15 @@ const GreenFinanceAdvisory = () => {
                         "Northrop Management designed a robust Sustainability-Linked Bond (SLB) framework that integrated aggressive capacity expansion targets with carbon intensity reduction, securing oversubscription in a volatile market."
                       </p>
                     </div>
+
+                     <Link to={"/contact"}>
                     <button className="flex items-center font-[Inter] text-[11px] font-semibold leading-[1.2] tracking-[0.1em] text-[#000000] hover:text-[#5e5e5e] transition-colors uppercase border-b border-[#000000] pb-1">
                       Download Full Report
                       <span className="material-symbols-outlined ml-2 text-sm" style={{ fontVariationSettings: "'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24" }}>
                         download
                       </span>
                     </button>
+                    </Link>
                   </div>
                 </div>
               </div>

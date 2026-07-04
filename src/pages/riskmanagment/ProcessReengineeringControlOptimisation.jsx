@@ -109,13 +109,19 @@ const ProcessReengineeringControlOptimisation = () => {
                 </p>
 
                 <div className="flex flex-wrap gap-6">
+
+                  <Link to="/contact">
+
                   <button className="bg-white text-black px-10 py-5 text-[11px] uppercase tracking-[0.1em] hover:bg-[#eeeeee] transition-all duration-300 shadow-xl">
                     Request Consultation
                   </button>
+                  </Link>
 
+  <Link to="/contact">
                   <button className="border border-white/50 text-white px-10 py-5 text-[11px] uppercase tracking-[0.1em] hover:bg-white/10 hover:border-white transition-all duration-300 backdrop-blur-sm">
                     Our Methodology
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>

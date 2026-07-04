@@ -164,7 +164,9 @@ const ForensicAccounting = () => {
                 <h2 className="font-['Newsreader'] text-[40px] leading-[1.1] font-normal mb-2">Latest Intelligence</h2>
                 <p className="font-['Inter'] text-[15px] leading-[1.6] font-normal text-[#444748]">Institutional briefings on global fraud trends and forensic developments.</p>
               </div>
-              <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.15em] font-semibold text-[#0f0f0f] border-b border-[#0f0f0f] hover:text-[#444748] hover:border-[#444748] transition-all py-1" href="#">VIEW ALL REPORTS</a>
+
+              <Link to="/insights" className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.15em] font-semibold text-[#0f0f0f] border-b border-[#0f0f0f] hover:text-[#444748] hover:border-[#444748] transition-all py-1" >VIEW ALL REPORTS</Link>
+
             </div>
             <hr className="border-[#0f0f0f] mb-12" />
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[32px]">
@@ -220,9 +222,13 @@ const ForensicAccounting = () => {
               Contact our forensic principals to discuss sensitive matters in absolute confidence and rigorous detail.
             </p>
             <div className="flex justify-center gap-6">
+
+              <Link to="/contact">
+
               <button className="bg-[#f9f9f9] text-[#0f0f0f] px-12 py-5 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.2em] font-semibold hover:bg-[#e8e8e8] transition-colors">
                 REQUEST BRIEFING
               </button>
+              </Link>
             </div>
           </div>
         </section>

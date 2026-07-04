@@ -29,9 +29,15 @@ const CorporateGovernanceBoardAdvisory = () => {
                 Governance is the operating system through which capital decides if you are investable. We architect board structures and compliance frameworks that withstand institutional scrutiny and regulatory pressure.
               </p>
               <div className="flex gap-6">
-                <button className="bg-[#fbf9f4] text-[#000000] px-8 py-4 font-sans text-[12px] uppercase tracking-widest font-semibold hover:bg-[#e4e2dd] transition-all">
+
+
+                <Link to={"/contact"}>
+                
+               
+                <button className="bg-[#fbf9f4] cursor-pointer text-[#000000] px-8 py-4 font-sans text-[12px] uppercase tracking-widest font-semibold hover:bg-[#e4e2dd] transition-all">
                   Download Framework
                 </button>
+                   </Link>
               </div>
             </div>
             <div className="hidden md:block w-full md:w-2/5">
@@ -130,10 +136,11 @@ const CorporateGovernanceBoardAdvisory = () => {
                     </div>
                   </div>
                 </div>
-                <a className="inline-flex items-center text-[#000000] font-sans text-[12px] uppercase tracking-widest border-b border-[#000000] pb-2 hover:opacity-70 transition-all font-semibold" href="#">
+                
+                <Link className="inline-flex items-center text-[#000000] font-sans text-[12px] uppercase tracking-widest border-b border-[#000000] pb-2 hover:opacity-70 transition-all font-semibold" to="/contact">
                   Read Full Case Study
                   <span className="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -207,11 +214,11 @@ const CorporateGovernanceBoardAdvisory = () => {
               <div>
                 <span className="font-sans text-[12px] text-[#000000] block mb-4 uppercase tracking-[0.3em] font-semibold">Knowledge Hub</span>
                 <h2 className="font-serif text-[32px] md:text-[40px] font-semibold">Strategic Insights</h2>
-              </div>
-              <a className="hidden md:flex items-center text-[#000000] font-sans text-[12px] uppercase tracking-widest border-b border-[#000000] pb-1 hover:opacity-70 font-semibold" href="#">
+              </div>  
+              <Link to={"/insights"} className="hidden md:flex items-center text-[#000000] font-sans text-[12px] uppercase tracking-widest border-b border-[#000000] pb-1 hover:opacity-70 font-semibold" >
                 View All Insights
                 <span className="material-symbols-outlined ml-2 text-sm">east</span>
-              </a>
+              </Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {/* Insight Card 1 */}

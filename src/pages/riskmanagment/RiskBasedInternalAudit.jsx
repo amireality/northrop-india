@@ -122,9 +122,12 @@ const RiskBasedInternalAudit = () => {
                 </p>
 
                 <div className="mt-12 flex gap-4">
+
+                  <Link to={"/contact"}>
                   <button className="bg-white text-black text-[11px] uppercase tracking-[0.1em] px-10 py-5 hover:bg-[#dadada] transition-all duration-300 hover:-translate-y-0.5">
                     Learn More
                   </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -265,12 +268,9 @@ const RiskBasedInternalAudit = () => {
                 </h2>
               </div>
 
-              <a
-                href="#"
-                className="text-[11px] uppercase tracking-[0.1em] text-black border-b border-black pb-1"
-              >
+              <Link to="/insights" className="text-[11px] uppercase tracking-[0.1em] text-black border-b border-black pb-1">
                 View All Reports
-              </a>
+              </Link>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

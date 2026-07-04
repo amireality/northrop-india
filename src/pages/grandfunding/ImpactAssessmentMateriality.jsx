@@ -125,7 +125,13 @@ const ImpactAssessmentMateriality = () => {
                 <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#5e5e5e] mb-[16px] block">LATEST PUBLICATION</span>
                 <h2 className="font-newsreader font-normal text-[32px] leading-[1.2]">'Double Materiality in Practice'</h2>
               </div>
-              <a className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] border-b border-[#000000] pb-1 hover:text-[#5e5e5e] transition-colors" href="#">Download Report</a>
+
+
+
+              <Link to={"/contact"}className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] border-b border-[#000000] pb-1 hover:text-[#5e5e5e] transition-colors">
+                Download Report
+                </Link>
+            
             </div>
             <div className="grid grid-cols-12 gap-[32px]">
               <div className="col-span-12 md:col-span-6 bg-white p-1 border border-[#e2e2e2]">

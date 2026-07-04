@@ -285,15 +285,18 @@ const CommercialMarketDueDiligence = () => {
                   Latest Intelligence
                 </h2>
 
-                <a
-                  href="#"
+                <Link
+                to="/insights"
+                 
                   className="text-[11px] uppercase tracking-[0.1em] underline flex items-center gap-2"
                 >
                   View Archive
                   <span className="material-symbols-outlined">
                     arrow_forward
                   </span>
-                </a>
+                </Link>
+
+
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

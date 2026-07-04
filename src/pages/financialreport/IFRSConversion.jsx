@@ -255,9 +255,11 @@ const IFRSConversion = () => {
                     </h2>
                   </div>
 
-                  <button className="border border-white text-white text-[11px] tracking-[0.1em] uppercase py-4 mt-8 hover:bg-white hover:text-black transition-colors">
-                    Download Report
-                  </button>
+                  <Link to={"/contact"}>
+                    <button className="border border-white text-white text-[11px] tracking-[0.1em] uppercase py-4 mt-8 hover:bg-white hover:text-black transition-colors">
+                      Download Report
+                    </button>
+                  </Link>
                 </div>
 
                 <div className="col-span-12 md:col-span-8">

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const StatutoryExternalAuditAssurance = () => {
   useEffect(() => {
@@ -126,13 +127,20 @@ const StatutoryExternalAuditAssurance = () => {
                 </p>
 
                 <div className="mt-12 flex flex-wrap gap-6">
+
+<Link to="/contact">
                   <button className="bg-white text-black px-10 py-5 text-[11px] uppercase tracking-[0.1em] hover:bg-[#e2e2e2] transition-all duration-300 shadow-xl">
                     Request Consultation
                   </button>
-
+</Link>
+                  
+<Link to="/contact">
                   <button className="border border-white/50 text-white px-10 py-5 text-[11px] uppercase tracking-[0.1em] hover:bg-white/10 backdrop-blur-sm transition-all duration-300">
                     Our Methodology
                   </button>
+
+                  </Link>
+
                 </div>
               </div>
             </div>
@@ -271,12 +279,14 @@ const StatutoryExternalAuditAssurance = () => {
                   Latest Intelligence
                 </h2>
 
-                <a
-                  href="#"
+                <Link
+                to="/insights"
                   className="text-[11px] uppercase tracking-[0.1em] mb-1"
                 >
                   View Archive
-                </a>
+                </Link>
+
+
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

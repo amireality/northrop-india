@@ -396,13 +396,18 @@ const AgreedUponProceduresSpecialReporting = () => {
               </p>
 
               <div className="flex flex-wrap justify-center gap-8">
+
+                <Link  to={"contact"}>
                 <button className="bg-white text-black px-10 py-4 text-[11px] uppercase tracking-[0.1em] hover:bg-[#e2e2e2] transition-colors">
                   SCHEDULE BRIEFING
                 </button>
+                </Link>
 
+                <Link  to={"contact"}>
                 <button className="border border-white text-white px-10 py-4 text-[11px] uppercase tracking-[0.1em] hover:bg-white hover:text-black transition-colors">
                   DOWNLOAD CAPABILITIES
                 </button>
+                </Link>
               </div>
             </div>
           </section>

@@ -1,5 +1,6 @@
 
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const Advisory = () => {
   return (
@@ -199,9 +200,13 @@ const Advisory = () => {
                                 <h3 className="font-headline text-2xl md:text-3xl mb-4">The Architecture of Growth</h3>
                                 <p className="text-surface-dim max-w-xl mx-auto md:mx-0">Every stage of your business journey requires a different lens. We provide the clarity and expertise needed to evolve at every milestone.</p>
                             </div>
+
+                            <Link to="/contact">
+                         
                             <button className="w-full md:w-auto px-10 md:px-12 py-4 md:py-5 bg-white text-primary font-bold text-xs tracking-widest uppercase hover:bg-secondary transition-colors duration-300">
                                 Download Methodology
                             </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

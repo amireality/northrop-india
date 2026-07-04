@@ -136,10 +136,16 @@ const IndiasNextCapitalCycle = () => {
             <div className="bg-[#000a1e] text-white p-12 text-center flex flex-col items-center shadow-xl">
               <h3 className="font-serif text-[32px] mb-4 font-bold">Access the Comprehensive Analysis</h3>
               <p className="text-[#708ab5] mb-8 max-w-md text-[16px]">Our full 84-page report includes detailed sub-sector breakdowns, proprietary data models, and analyst price targets.</p>
+             
+
+              <Link to={"/contact"}>
               <button className="bg-[#ffdea5] text-[#261900] px-10 py-4 text-[12px] font-bold uppercase tracking-widest flex items-center gap-3 hover:bg-[#e9c176] transition-all active:scale-95 shadow-lg">
                 <span className="material-symbols-outlined">download</span>
                 Download Full Report (PDF)
               </button>
+
+              </Link>
+
             </div>
           </div>
         </section>

@@ -203,9 +203,14 @@ const TraditionalToAgile = () => {
                   <span className="text-[18px] md:text-[24px] font-bold text-white">GST/IBC/DPDP</span>
                 </div>
               </div>
+
+              <Link to="/contact">
+
               <button className="mt-8 md:mt-12 w-full py-4 bg-white text-[#000f22] font-bold rounded-lg hover:bg-gray-100 transition-colors text-[14px] md:text-[16px]">
                 Download Methodology Whitepaper
               </button>
+
+              </Link>
             </div>
           </div>
         </section>

@@ -132,7 +132,7 @@ const Foundation = () => {
               </small>
               Latest Publications
             </div>
-            <Link to="#" className="text-[12px] text-[#6B6257] tracking-[0.04em] border-b border-[#D8D0C0] pb-[2px] hover:text-[#0A1628] hover:border-[#0A1628] transition-all font-medium whitespace-nowrap">
+            <Link to="/insights" className="text-[12px] text-[#6B6257] tracking-[0.04em] border-b border-[#D8D0C0] pb-[2px] hover:text-[#0A1628] hover:border-[#0A1628] transition-all font-medium whitespace-nowrap">
               View all publications →
             </Link>
           </div>

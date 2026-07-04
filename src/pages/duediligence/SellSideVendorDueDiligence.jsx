@@ -371,9 +371,13 @@ const SellSideVendorDueDiligence = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+                  <Link to="/contact">
+
                 <button className="bg-white text-black px-10 py-4 text-[11px] uppercase tracking-[0.1em] hover:bg-[#c7c6c6] transition-colors">
                   Request Consultation
                 </button>
+                </Link>
 
                 <button className="border border-[#858383] text-white px-10 py-4 text-[11px] uppercase tracking-[0.1em] hover:bg-[#474646] transition-colors">
                   Download Service Profile
