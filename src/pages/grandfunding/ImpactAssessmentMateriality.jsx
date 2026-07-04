@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import { Link } from 'react-router-dom';
 
 const ImpactAssessmentMateriality = () => {
   useEffect(() => {
@@ -126,11 +127,9 @@ const ImpactAssessmentMateriality = () => {
                 <h2 className="font-newsreader font-normal text-[32px] leading-[1.2]">'Double Materiality in Practice'</h2>
               </div>
 
-
-
-              <Link to={"/contact"}className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] border-b border-[#000000] pb-1 hover:text-[#5e5e5e] transition-colors">
+              <Link to="/contact" className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] border-b border-[#000000] pb-1 hover:text-[#5e5e5e] transition-colors">
                 Download Report
-                </Link>
+              </Link>
             
             </div>
             <div className="grid grid-cols-12 gap-[32px]">

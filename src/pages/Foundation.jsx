@@ -93,7 +93,7 @@ const Foundation = () => {
             ].map((theme, idx) => (
               <Link 
                 key={idx} 
-                to="#" 
+                to="/insights" 
                 className={`flex items-center px-[20px] text-[12px] font-medium border-r border-[#EDE8DF] transition-all hover:bg-[rgba(10,22,40,0.03)] whitespace-nowrap ${idx === 0 ? 'text-[#C5963A]' : 'text-[#3D3830]'}`}
               >
                 {theme}
@@ -201,7 +201,7 @@ const Foundation = () => {
             ))}
           </div>
           <div className="text-center mt-[36px]">
-            <Link to="#" className="inline-block text-[12.5px] text-[#6B6257] tracking-[0.06em] border border-[#D8D0C0] px-[32px] py-[12px] font-medium hover:border-[#0A1628] hover:text-[#0A1628] transition-all">
+            <Link to="/insights" className="inline-block text-[12.5px] text-[#6B6257] tracking-[0.06em] border border-[#D8D0C0] px-[32px] py-[12px] font-medium hover:border-[#0A1628] hover:text-[#0A1628] transition-all">
               Browse Full Publications Archive →
             </Link>
           </div>
@@ -218,7 +218,7 @@ const Foundation = () => {
               </small>
               Research Themes
             </div>
-            <Link to="#" className="text-[12px] text-[rgba(255,255,255,0.4)] border-b border-[rgba(255,255,255,0.2)] pb-[2px] hover:text-white hover:border-white transition-all font-medium">
+            <Link to="/insights" className="text-[12px] text-[rgba(255,255,255,0.4)] border-b border-[rgba(255,255,255,0.2)] pb-[2px] hover:text-white hover:border-white transition-all font-medium">
               All themes →
             </Link>
           </div>
@@ -281,7 +281,7 @@ const Foundation = () => {
               </small>
               NRF in the Press
             </div>
-            <Link to="#" className="text-[12px] text-[#6B6257] border-b border-[#D8D0C0] pb-[2px] hover:text-[#0A1628] hover:border-[#0A1628] transition-all font-medium">
+            <Link to="/insights" className="text-[12px] text-[#6B6257] border-b border-[#D8D0C0] pb-[2px] hover:text-[#0A1628] hover:border-[#0A1628] transition-all font-medium">
               All press mentions →
             </Link>
           </div>
@@ -335,7 +335,7 @@ const Foundation = () => {
               </small>
               Upcoming Events
             </div>
-            <Link to="#" className="text-[12px] text-[#6B6257] border-b border-[#D8D0C0] pb-[2px] hover:text-[#0A1628] hover:border-[#0A1628] transition-all font-medium">
+            <Link to="/insights" className="text-[12px] text-[#6B6257] border-b border-[#D8D0C0] pb-[2px] hover:text-[#0A1628] hover:border-[#0A1628] transition-all font-medium">
               Full events calendar →
             </Link>
           </div>
@@ -382,7 +382,7 @@ const Foundation = () => {
               </small>
               Research Fellows & Associates
             </div>
-            <Link to="#" className="text-[12px] text-[#6B6257] border-b border-[#D8D0C0] pb-[2px] hover:text-[#0A1628] hover:border-[#0A1628] transition-all font-medium">
+            <Link to="/about" className="text-[12px] text-[#6B6257] border-b border-[#D8D0C0] pb-[2px] hover:text-[#0A1628] hover:border-[#0A1628] transition-all font-medium">
               All fellows →
             </Link>
           </div>
