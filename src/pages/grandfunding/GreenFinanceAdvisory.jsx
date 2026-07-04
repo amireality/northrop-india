@@ -170,9 +170,13 @@ const GreenFinanceAdvisory = () => {
                 </h2>
               </div>
               <div className="mt-[16px] md:mt-0">
-                <a className="font-[Inter] text-[11px] font-semibold leading-[1.2] tracking-[0.1em] text-[#000000] uppercase border-b border-[#000000] pb-1" href="#insights">
+
+
+               <Link to="/insights"  className="font-[Inter] text-[11px] font-semibold leading-[1.2] tracking-[0.1em] text-[#000000] uppercase border-b border-[#000000] pb-1"
+                >
                   View All Insights
-                </a>
+                
+                </Link>
               </div>
             </div>
             <div className="grid grid-cols-12 gap-[32px]">

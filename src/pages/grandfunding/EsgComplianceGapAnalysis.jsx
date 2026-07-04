@@ -109,9 +109,10 @@ const EsgComplianceGapAnalysis = () => {
                   </h2>
                 </div>
                 <div className="mt-8">
-                  <a className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] border-b border-[#000000] py-1 hover:text-[#5e5e5e] hover:border-[#5e5e5e] transition-colors" href="#">
+
+                  <Link to="/insights" className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] border-b border-[#000000] py-1 hover:text-[#5e5e5e] hover:border-[#5e5e5e] transition-colors">
                     READ REPORT
-                  </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-span-12 md:col-span-8 grid grid-cols-1 md:grid-cols-2">

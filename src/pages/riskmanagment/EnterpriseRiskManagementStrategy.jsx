@@ -119,9 +119,11 @@ const EnterpriseRiskManagementStrategy = () => {
                 </p>
 
                 <div className="mt-12 flex items-center gap-6">
+<Link to="/contact">
                   <button className="bg-white text-black px-10 py-5 text-[11px] uppercase tracking-[0.1em] hover:bg-[#e2e2e2] transition-all duration-300 shadow-xl">
                     Explore Framework
                   </button>
+</Link>
                 </div>
               </div>
             </div>
@@ -274,12 +276,12 @@ const EnterpriseRiskManagementStrategy = () => {
                 Latest Intelligence
               </h2>
 
-              <a
-                href="#"
+              <Link to="/insights" 
+               
                 className="text-[11px] uppercase tracking-[0.1em] hover:underline"
               >
                 VIEW ALL INSIGHTS
-              </a>
+              </Link>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

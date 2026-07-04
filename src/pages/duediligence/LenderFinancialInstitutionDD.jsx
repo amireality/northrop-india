@@ -293,13 +293,12 @@ const LenderFinancialInstitutionDD = () => {
                   Latest Intelligence
                 </h2>
 
-                <a
-                
-                  href="#"
+                <Link to="/insights"
                   className="text-[11px] uppercase tracking-[0.1em] text-[#5e5e5e] border-b border-[#5e5e5e] pb-1"
                 >
                   VIEW ALL PUBLICATIONS
-                </a>
+                </Link>
+                
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

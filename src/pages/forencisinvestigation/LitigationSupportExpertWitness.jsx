@@ -280,12 +280,12 @@ const LitigationSupportExpertWitness = () => {
                   </h2>
                 </div>
 
-                <a
-                  href="#"
+                <Link to="/insights"
                   className="text-[11px] uppercase tracking-[0.1em]"
                 >
                   View All Publications
-                </a>
+                </Link>
+                
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

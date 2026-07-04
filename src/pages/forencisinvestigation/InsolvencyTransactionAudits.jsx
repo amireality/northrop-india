@@ -211,15 +211,15 @@ const InsolvencyTransactionAudits = () => {
                 Latest Intelligence
               </h2>
 
-              <a
-                href="#"
+              <Link to="/insights"
                 className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.1em]"
               >
                 View All Publications
                 <span className="material-symbols-outlined">
                   north_east
                 </span>
-              </a>
+              </Link>
+              
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

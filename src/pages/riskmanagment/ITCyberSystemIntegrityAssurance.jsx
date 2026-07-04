@@ -129,9 +129,12 @@ const ITCyberSystemIntegrityAssurance = () => {
               </p>
 
               <div className="mt-16">
+
+<Link to="/contact">
                 <button className="border border-white/40 text-white text-[11px] uppercase tracking-[0.2em] px-10 py-4 hover:bg-white hover:text-black transition-all duration-300">
                   Explore Methodology
                 </button>
+                </Link>
               </div>
             </div>
           </section>

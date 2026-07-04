@@ -369,12 +369,12 @@ const RegulatoryInvestigationsForensicAudits = () => {
                 </p>
               </div>
 
-              <a
-                href="#"
+              <Link to="/insights"
                 className="text-[11px] uppercase tracking-[0.1em] border-b border-black pb-1"
               >
                 View All Publications
-              </a>
+              </Link>
+              
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">

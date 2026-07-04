@@ -326,12 +326,12 @@ const RelatedPartyIntercompanyReview = () => {
                   Latest Intelligence
                 </h2>
 
-                <a
-                  href="#"
+                <Link to="/insights"
                   className="text-[11px] uppercase tracking-[0.1em] border-b border-black pb-1 hover:text-[#5e5e5e] transition-colors"
                 >
                   View All Insights
-                </a>
+                </Link>
+                
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

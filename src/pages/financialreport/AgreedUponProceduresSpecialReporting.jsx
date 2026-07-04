@@ -344,12 +344,12 @@ const AgreedUponProceduresSpecialReporting = () => {
                 Recent Intelligence
               </h2>
 
-              <a
-                href="#"
+              <Link to="/insights"
                 className="text-[11px] uppercase tracking-[0.1em] text-black border-b border-black hover:text-[#5e5e5e] hover:border-[#5e5e5e] transition-colors mt-4 md:mt-0"
               >
                 VIEW ALL PUBLICATIONS
-              </a>
+              </Link>
+              
             </div>
 
             <div className="grid grid-cols-12 gap-8">

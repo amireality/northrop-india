@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const GlobalInternalControls = () => {
   useEffect(() => {
@@ -306,12 +307,12 @@ const GlobalInternalControls = () => {
                 </h2>
               </div>
 
-              <a
-                href="#"
+              <Link to="/insights"
                 className="text-[11px] uppercase tracking-[0.1em] text-black border-b border-black hover:text-[#5e5e5e] hover:border-[#5e5e5e] transition-all"
               >
                 View All Publications
-              </a>
+              </Link>
+              
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">

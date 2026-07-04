@@ -135,7 +135,8 @@ const CapitalDebtAdvisory = () => {
                 <span className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#444748] block mb-2">INTELLIGENCE</span>
                 <h2 className="font-newsreader font-normal text-[32px] leading-[1.2]">Recent Publication</h2>
               </div>
-              <a className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#000000] hover:text-[#5e5e5e] transition-colors mb-2" href="#">View All Publications</a>
+              <Link to="/insights"className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#000000] hover:text-[#5e5e5e] transition-colors mb-2" 
+              >View All Publications</Link>
             </div>
             <div className="grid grid-cols-12 gap-[32px]">
               <div className="col-span-12 lg:col-span-4 group cursor-pointer">
