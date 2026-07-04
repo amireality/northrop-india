@@ -13,16 +13,17 @@ const CybersecurityResilience = () => {
       <main className="bg-[#fcf9f8] text-[#1c1b1b] font-['Inter',sans-serif]">
         {/* Hero Section */}
         <section className="relative min-h-[600px] md:h-[819px] flex items-center bg-[#002b5c] overflow-hidden">
-          <div className="absolute inset-0 opacity-40 mix-blend-overlay">
+          <div className="absolute inset-0 ">
             <img 
+
               className="w-full h-full object-cover" 
               alt="Advanced digital security network visualization" 
-              src="/digitalimg/cyberimg.png" 
+              src="/digitalimg/cyberimg.jpeg" 
             />
           </div>
           <div className="max-w-[1280px] mx-auto px-8 lg:px-16 relative z-10 w-full py-20 md:py-0">
             <div className="max-w-3xl animate-fade-in-up">
-              <span className="text-[#7594cb] font-semibold text-[12px] tracking-[0.05em] mb-4 block uppercase">Strategic Resilience</span>
+              <span className="text-[#ffff] font-semibold text-[12px] tracking-[0.05em] mb-4 block uppercase">Strategic Resilience</span>
               <h1 className="text-white font-['Noto_Serif',serif] text-[36px] md:text-[48px] leading-[1.1] font-bold mb-8 tracking-[-0.02em]">Securing the Resilient Enterprise</h1>
               <p className="text-white text-[16px] md:text-[18px] mb-[64px] max-w-2xl opacity-90 leading-[1.6]">
                 We navigate the complexity of modern threats through rigorous architecture, cognitive intelligence, and elite response strategies to protect global institutional capital.
@@ -112,9 +113,9 @@ const CybersecurityResilience = () => {
               <div className="relative">
                 <div className="absolute -top-10 -left-10 w-40 h-40 bg-[#d6e3ff] opacity-20 -z-10"></div>
                 <img 
-                  className="w-full aspect-square object-cover shadow-[0px_4px_20px_rgba(0,43,92,0.05)]" 
+                  className="w-full aspect-square object-cover " 
                   alt="Futuristic Security Operations Center (SOC)" 
-                  src="/digitalimg/cyberimg1.png" 
+                  src="/digitalimg/cyberimg1.jpeg" 
                 />
                 <div className="absolute bottom-8 right-8 bg-[#002b5c] text-white p-6 md:p-8 max-w-[200px] md:max-w-xs animate-pulse-subtle">
                   <div className="text-[32px] md:text-[40px] leading-none mb-2 font-light tracking-[-0.01em]">24/7</div>
@@ -142,7 +143,7 @@ const CybersecurityResilience = () => {
                   </li>
                 </ul>
                 <button className="border-b-2 border-[#002b5c] pb-2 text-[12px] font-bold uppercase tracking-widest text-[#002b5c] hover:opacity-70 transition-all flex items-center gap-2">
-                  Explore SOC Capabilities <span className="material-symbols-outlined text-sm">arrow_forward</span>
+                 <Link to="/contact"> Explore SOC Capabilities <span className="material-symbols-outlined text-sm">arrow_forward</span> </Link>
                 </button>
               </div>
             </div>
@@ -150,7 +151,7 @@ const CybersecurityResilience = () => {
         </section>
 
         {/* Section 4: Strategic Partners */}
-        <section className="py-[120px] border-t border-[#c4c6d0]">
+        {/* <section className="py-[120px] border-t border-[#c4c6d0]">
           <div className="max-w-[1280px] mx-auto px-8 lg:px-16">
             <p className="text-center font-bold text-[12px] text-[#43474f] uppercase tracking-widest mb-[64px]">Global Ecosystem Partners</p>
             <div className="flex flex-wrap justify-center gap-x-24 gap-y-12 items-center opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
@@ -160,7 +161,7 @@ const CybersecurityResilience = () => {
               <img className="h-10 w-auto" alt="Corporate partner logo" src="/digitalimg/cyberimglogo3.png" />
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Final CTA */}
         <section className="bg-[#002b5c] py-[120px]">

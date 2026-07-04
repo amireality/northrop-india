@@ -13,12 +13,12 @@ const WebDevelopment = () => {
 
       <main className="bg-[#fcf9f8] text-[#1c1b1b] font-['Inter',sans-serif]">
         {/* Hero Section */}
-        <section className="relative h-[716px] flex items-center bg-[#001736] overflow-hidden">
-          <div className="absolute inset-0 opacity-20">
+        <section className="relative h-[716px] flex items-center">
+          <div className="absolute inset-0 ">
             <img 
               className="w-full h-full object-cover" 
               alt="Modern tech workspace with multiple monitors" 
-              src="/digitalimg/webdevelope1.png" 
+              src="/digitalimg/webdevelope1.jpeg" 
             />
           </div>
           <div className="relative z-10 px-8 lg:px-16 max-w-[1280px] mx-auto w-full animate-fade-in-up">
@@ -30,8 +30,11 @@ const WebDevelopment = () => {
                 <Link to="/contact">
                   <button className="bg-white text-[#001736] text-[15px] px-10 py-5 uppercase font-medium tracking-widest rounded-sm hover:bg-[#d6e3ff] transition-colors w-full sm:w-auto cursor-pointer">Start Project</button>
                 </Link>
-                <button className="border border-white text-white text-[15px] px-10 py-5 uppercase font-medium tracking-widest rounded-sm hover:bg-white/10 transition-colors w-full sm:w-auto">Technical Stack</button>
-              </div>
+
+                   <Link to="/contact">
+                <button className="border cursor-pointer border-white text-white text-[15px] px-10 py-5 uppercase font-medium tracking-widest rounded-sm hover:bg-white/10 transition-colors w-full sm:w-auto">Technical Stack</button>
+              
+              </Link></div>
             </div>
           </div>
         </section>
@@ -146,9 +149,9 @@ const WebDevelopment = () => {
             <div className="relative group animate-fade-in">
               <div className="absolute -inset-4 bg-[#001735]/10 rounded-sm blur-xl group-hover:bg-[#001735]/20 transition-all"></div>
               <img 
-                className="relative rounded-sm border border-[#c4c6d0] shadow-xl grayscale-[50%] group-hover:grayscale-0 transition-all duration-1000" 
+                className="relative rounded-sm border border-[#c4c6d0]" 
                 alt="Sleek laptop screen showing code" 
-                src="/digitalimg/webdevelope3.png" 
+                src="/digitalimg/webdevelope3.jpeg" 
               />
             </div>
           </div>

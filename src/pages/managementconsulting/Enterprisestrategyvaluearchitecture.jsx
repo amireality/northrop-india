@@ -1,4 +1,5 @@
 import  { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Enterprisestrategyvaluearchitecture = () => {
   useEffect(() => {
@@ -180,9 +181,9 @@ const Enterprisestrategyvaluearchitecture = () => {
               <p className="font-body-lg text-[18px] md:text-[18px] text-[#ffffff]/70 mb-12">
                 How a $4B diversified holding company restructured its core to unlock $800M in hidden equity value through ruthless divestment and capital redirection.
               </p>
-              <a className="inline-flex items-center gap-4 text-[#ffffff] font-label-caps tracking-widest border-b border-[#ffffff] pb-2 hover:opacity-70 transition-opacity" href="#">
+              <Link className="inline-flex items-center gap-4 text-[#ffffff] font-label-caps tracking-widest border-b border-[#ffffff] pb-2 hover:opacity-70 transition-opacity" to="/contact">
                 VIEW FULL CASE STUDY <span className="material-symbols-outlined">arrow_outward</span>
-              </a>
+              </Link>
             </div>
             <div className="col-span-12 lg:col-span-7 lg:col-start-6">
               <div className="grid grid-cols-2 gap-12">
@@ -256,7 +257,7 @@ const Enterprisestrategyvaluearchitecture = () => {
               <span className="font-label-caps text-[12px] text-[#747878] block mb-4 uppercase tracking-widest">INTELLIGENCE</span>
               <h2 className="font-headline-lg text-[32px] md:text-[40px] text-[#000000] tracking-tight">Strategic Insights.</h2>
             </div>
-            <a className="font-label-caps text-[12px] tracking-widest border border-[#000000] px-6 py-3 hover:bg-[#000000] hover:text-[#ffffff] transition-all duration-300 uppercase" href="#">VIEW ALL PUBLICATIONS</a>
+            <Link className="font-label-caps text-[12px] tracking-widest border border-[#000000] px-6 py-3 hover:bg-[#000000] hover:text-[#ffffff] transition-all duration-300 uppercase" to="/insights">VIEW ALL PUBLICATIONS</Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Article 1 */}
@@ -271,7 +272,7 @@ const Enterprisestrategyvaluearchitecture = () => {
               <span className="font-label-caps text-[10px] text-[#747878] uppercase tracking-widest mb-2">Capital Allocation / 01</span>
               <h3 className="font-headline-md text-[20px] text-[#000000] mb-4 leading-snug">The End of Cheap Capital: A Survival Guide.</h3>
               <p className="font-body-md text-[14px] text-[#444748] mb-6 flex-grow">How the shift in ZIRP regimes is forcing a structural re-evaluation of holding company leverage.</p>
-              <a className="text-[12px] font-bold font-label-caps tracking-widest flex items-center gap-2 hover:gap-4 transition-all uppercase" href="#">READ ARTICLE <span className="material-symbols-outlined text-sm">arrow_forward</span></a>
+              <Link className="text-[12px] font-bold font-label-caps tracking-widest flex items-center gap-2 hover:gap-4 transition-all uppercase" to="/insights">READ ARTICLE <span className="material-symbols-outlined text-sm">arrow_forward</span></Link>
             </article>
             {/* Article 2 */}
             <article className="flex flex-col h-full">
@@ -285,7 +286,7 @@ const Enterprisestrategyvaluearchitecture = () => {
               <span className="font-label-caps text-[10px] text-[#747878] uppercase tracking-widest mb-2">Governance / 02</span>
               <h3 className="font-headline-md text-[20px] text-[#000000] mb-4 leading-snug">The Architectural Board: Beyond Compliance.</h3>
               <p className="font-body-md text-[14px] text-[#444748] mb-6 flex-grow">Shifting the board narrative from reactive oversight to proactive strategic architecture.</p>
-              <a className="text-[12px] font-bold font-label-caps tracking-widest flex items-center gap-2 hover:gap-4 transition-all uppercase" href="#">READ ARTICLE <span className="material-symbols-outlined text-sm">arrow_forward</span></a>
+              <Link className="text-[12px] font-bold font-label-caps tracking-widest flex items-center gap-2 hover:gap-4 transition-all uppercase" to="/insights">READ ARTICLE <span className="material-symbols-outlined text-sm">arrow_forward</span></Link>
             </article>
             {/* Article 3 */}
             <article className="flex flex-col h-full">
@@ -299,7 +300,7 @@ const Enterprisestrategyvaluearchitecture = () => {
               <span className="font-label-caps text-[10px] text-[#747878] uppercase tracking-widest mb-2">Mergers & Acquisitions / 03</span>
               <h3 className="font-headline-md text-[20px] text-[#000000] mb-4 leading-snug">The Complexity Discount: A Quantification.</h3>
               <p className="font-body-md text-[14px] text-[#444748] mb-6 flex-grow">Measuring the tangible market penalty for opaque conglomerate structures and cross-subsidies.</p>
-              <a className="text-[12px] font-bold font-label-caps tracking-widest flex items-center gap-2 hover:gap-4 transition-all uppercase" href="#">READ ARTICLE <span className="material-symbols-outlined text-sm">arrow_forward</span></a>
+              <Link className="text-[12px] font-bold font-label-caps tracking-widest flex items-center gap-2 hover:gap-4 transition-all uppercase" to="/insights">READ ARTICLE <span className="material-symbols-outlined text-sm">arrow_forward</span></Link>
             </article>
             {/* Article 4 */}
             <article className="flex flex-col h-full">
@@ -313,7 +314,7 @@ const Enterprisestrategyvaluearchitecture = () => {
               <span className="font-label-caps text-[10px] text-[#747878] uppercase tracking-widest mb-2">Leadership / 04</span>
               <h3 className="font-headline-md text-[20px] text-[#000000] mb-4 leading-snug">Strategy in the Age of Volatility.</h3>
               <p className="font-body-md text-[14px] text-[#444748] mb-6 flex-grow">Building resilient frameworks that prioritize optionality without sacrificing operational focus.</p>
-              <a className="text-[12px] font-bold font-label-caps tracking-widest flex items-center gap-2 hover:gap-4 transition-all uppercase" href="#">READ ARTICLE <span className="material-symbols-outlined text-sm">arrow_forward</span></a>
+              <Link className="text-[12px] font-bold font-label-caps tracking-widest flex items-center gap-2 hover:gap-4 transition-all uppercase" to="/insights">READ ARTICLE <span className="material-symbols-outlined text-sm">arrow_forward</span></Link>
             </article>
           </div>
         </section>
@@ -324,9 +325,9 @@ const Enterprisestrategyvaluearchitecture = () => {
             "Strategy that doesn't survive scrutiny isn't strategy.<br />It's vocabulary."
           </h2>
           <div className="flex flex-col items-center gap-8">
-            <a className="inline-block bg-[#000000] text-[#ffffff] font-label-caps text-[14px] px-16 py-6 border border-[#000000] hover:bg-transparent hover:text-[#000000] transition-all duration-500 tracking-[0.2em] uppercase" href="#">
+            <Link className="inline-block bg-[#000000] text-[#ffffff] font-label-caps text-[14px] px-16 py-6 border border-[#000000] hover:bg-transparent hover:text-[#000000] transition-all duration-500 tracking-[0.2em] uppercase" to="/contact">
               INITIATE CONSULTATION
-            </a>
+            </Link>
             <p className="font-label-caps text-[10px] text-[#747878] tracking-widest uppercase">STRICT CONFIDENTIALITY MAINTAINED</p>
           </div>
         </section>

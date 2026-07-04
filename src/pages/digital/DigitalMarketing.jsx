@@ -22,20 +22,22 @@ const DigitalMarketing = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
-                  <button className="bg-[#001736] text-white px-8 py-4 rounded-sm text-[15px] font-medium uppercase tracking-widest hover:bg-[#002b5c] transition-colors shadow-lg w-full sm:w-auto">Start Scaling</button>
+                  <button className="bg-[#001736] cursor-pointer text-white px-8 py-4 rounded-sm text-[15px] font-medium uppercase tracking-widest hover:bg-[#002b5c] transition-colors shadow-lg w-full sm:w-auto">Start Scaling</button>
                 </Link>
-                <button className="border border-[#001736] text-[#001736] px-8 py-4 rounded-sm text-[15px] font-medium uppercase tracking-widest hover:bg-white/50 transition-colors">Our Methodology</button>
-              </div>
+
+                 <Link to="/contact">
+                <button className="border cursor-pointer border-[#001736] text-[#001736] px-8 py-4 rounded-sm text-[15px] font-medium uppercase tracking-widest hover:bg-white/50 transition-colors">Our Methodology</button>
+              </Link></div>
             </div>
             <div className="lg:col-span-5 relative group">
-              <div className="aspect-square bg-white border border-[#c4c6d0] p-2 relative z-10 shadow-xl overflow-hidden">
+              <div className="aspect-square ">
                 <img 
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+                  className="w-full h-full object-contain " 
                   alt="Professional data visualization dashboard" 
-                  src="/digitalimg/digitalmarket.png" 
+                  src="/digitalimg/digitalmarket.jpeg" 
                 />
               </div>
-              <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-[#aac7ff] -z-0"></div>
+              {/* <div className="absolute -bottom-6 -right-6 w-full h-full border-2 border-[#aac7ff] -z-0"></div> */}
             </div>
           </div>
         </section>
@@ -193,10 +195,11 @@ const DigitalMarketing = () => {
             <p className="text-[18px] text-white/80 mb-10 leading-relaxed">Connect with our engineering and marketing directors to discuss a data-driven growth audit for your product.</p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <Link to="/contact">
-                <button className="bg-white text-[#001736] px-10 py-5 rounded-sm text-[15px] font-medium uppercase tracking-widest hover:bg-[#d6e3ff] transition-colors shadow-xl hover:scale-105 transition-all w-full sm:w-auto">Request Growth Audit</button>
+                <button className="bg-white cursor-pointer text-[#001736] px-10 py-5 rounded-sm text-[15px] font-medium uppercase tracking-widest hover:bg-[#d6e3ff] transition-colors shadow-xl hover:scale-105 transition-all w-full sm:w-auto">Request Growth Audit</button>
               </Link>
-              <button className="border border-white/30 text-white px-10 py-5 rounded-sm text-[15px] font-medium uppercase tracking-widest hover:bg-white/10 transition-colors">View Case Studies</button>
-            </div>
+               <Link to="/contact">
+              <button className="border cursor-pointer border-white/30 text-white px-10 py-5 rounded-sm text-[15px] font-medium uppercase tracking-widest hover:bg-white/10 transition-colors">View Case Studies</button>
+            </Link></div>
           </div>
         </section>
       </main>

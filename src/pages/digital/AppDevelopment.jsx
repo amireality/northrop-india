@@ -30,10 +30,15 @@ export default function AppDevelopment() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
-                  <button className="bg-white text-[#001736] px-8 py-4 text-[15px] font-medium uppercase tracking-wider hover:bg-[#d6e3ff] transition-all hover:scale-[1.02] w-full sm:w-auto">Start a Consultation</button>
+                  <button className="bg-white text-[#001736] px-8 cursor-pointer py-4 text-[15px] font-medium uppercase tracking-wider hover:bg-[#d6e3ff] transition-all hover:scale-[1.02] w-full sm:w-auto">Start a Consultation</button>
                 </Link>
-                <button className="border border-white text-white px-8 py-4 text-[15px] font-medium uppercase tracking-wider hover:bg-white/10 transition-all hover:scale-[1.02]">View Portfolio</button>
+
+                 <Link to="/contact">
+                <button className="border border-white text-white px-8 cursor-pointer py-4 text-[15px] font-medium uppercase tracking-wider hover:bg-white/10 transition-all hover:scale-[1.02]">View Portfolio</button>
+             
+             </Link>
               </div>
+
             </div>
             <div className="hidden lg:block animate-fade-in">
               <div className="p-2 bg-white/5 backdrop-blur-md border border-white/10 rounded-xl">

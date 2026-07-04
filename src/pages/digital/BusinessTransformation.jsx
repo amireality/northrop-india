@@ -15,9 +15,9 @@ const BusinessTransformation = () => {
         <section className="relative w-full min-h-[600px] flex items-center overflow-hidden bg-[#001736] py-16 md:py-24">
           <div className="absolute inset-0 z-0 opacity-30">
             <img
-              className="w-full h-full object-cover grayscale contrast-125"
+              className="w-full h-full object-cover "
               alt="AI neural network visualization"
-              src="/business-transformation1.png"
+              src="/business-transformation1.jpeg"
             />
           </div>
           <div className="relative z-10 max-w-[1280px] mx-auto px-8 md:px-12 lg:px-16 w-full grid grid-cols-12 gap-8">
@@ -66,12 +66,12 @@ const BusinessTransformation = () => {
                 <img 
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" 
                   alt="Futuristic retail logistics hub" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnORNOyURUh_txgYOxBax9uQid24FkKP0L9ETWbrkBVok4ZxnhTO3h8M42FByqonPZPSYUzKgc0yg2wr2A-hXSRY7Tslve_8KlrNJ63SLcmngVy5p65Vhuk53Lb94uLi5bgF0vcOK7uyonpPSgARSwJuA-3KzO7XT4yOF0bJmNnUn9kj1A4m2t0-QjO_zRHbFzZEKQlBd1RFojR-JeVKEkicIF-RIMLnIYC9rpgOda2NbMfQGtRYQUhKtISoiKYHQvCIcl7vDQmrw" 
+                  src="/business-transformation2.jpeg" 
                 />
               </div>
               <div className="p-8 md:p-12 flex-grow flex flex-col justify-between">
                 <div>
-                  <h3 className="font-serif text-[24px] md:text-[28px] text-[#001736] mb-4 font-semibold">Global Retailer ERP Overhaul</h3>
+                  {/* <h3 className="font-serif text-[24px] md:text-[28px] text-[#001736] mb-4 font-semibold">Global Retailer ERP Overhaul</h3> */}
                   <p className="font-inter text-[16px] text-[#43474f] mb-8 leading-[1.6]">
                     Replacing a fragmented legacy architecture with a unified SAP S/4HANA environment across 45 countries. We addressed the challenge of data siloization by implementing a centralized intelligence layer that harmonized inventory, sales, and logistics in real-time.
                   </p>
@@ -95,7 +95,7 @@ const BusinessTransformation = () => {
                 <img 
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" 
                   alt="High-performance servers in a data center" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuA8Oc6yTxOUG4usYx0dgWH_GhETa6epFJA471dZQqqf5Nn-1mrf5i-tHUqw-HPI-lj80INuouKax1b9eDarR_QjnKdZVVQouIe2x916GmL_aFPtyAgyRO8X1CQE-BN6S__mjEdB_jFk8xPC-BUmNjdZfYWiNMnzuox42REd8nNY7Z1opfuVkr95jeAAdAbRfy5YrgP5pcXO-i4c11vuyc0RaWij23Acx4B9I2MNZSu4oY1kgL7ca6FSYA-zrnooWMR5D6q-UwI9BUs" 
+                  src="/business-transformation3.jpeg" 
                 />
               </div>
               <div className="p-8 flex-grow">
@@ -116,7 +116,7 @@ const BusinessTransformation = () => {
                 <img 
                   className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 group-hover:scale-105" 
                   alt="Modern public sector building architectural lines" 
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgttD20BRWFJnSH5sMauTw5SCypWVRW5eIUOPUne1aLD1OnuLKknqEBiUEcLoccaFPwo9HudhxR1-tpCVJ9bUraygK3VoxaKEYPVPLbRRYIBTZKb84bLA0LeLev8xgi4yG_qpoJ3M1UNGpkQuXfx30Xt2oN6ikQCrqyZ-F1ny2uyobB07_In5kH2DDluED46DKMivTZTLLxMpPMrt8MBWmVUbqSEdB21M9UfRoWrhyLyejGstm9q7azRsbzSJOn7WMvWZRAbDtBkk" 
+                  src="/business-transformation4.jpeg" 
                 />
               </div>
               <div className="p-8 flex-grow">

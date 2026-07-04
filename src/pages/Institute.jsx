@@ -20,7 +20,7 @@ const Institute = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact" className="bg-[#00113a] text-[#ffffff] px-10 py-5 text-[12px] leading-[1] font-[600] uppercase tracking-widest hover:bg-[#595f67] transition-all cursor-pointer text-center">
-                  Explore Curricula
+                 Curriculum
                 </Link>
                 <Link to="/insights" className="border border-[#00113a] text-[#00113a] px-10 py-5 text-[12px] leading-[1] font-[600] uppercase tracking-widest hover:bg-[#00113a] hover:text-[#ffffff] transition-all cursor-pointer text-center">
                   The 2026 Report

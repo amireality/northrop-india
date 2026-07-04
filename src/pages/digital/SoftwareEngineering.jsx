@@ -23,17 +23,19 @@ const SoftwareEngineering = () => {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link to="/contact">
-                  <button className="bg-[#5493f0] text-[#001736] text-[15px] py-4 px-8 rounded-sm font-bold uppercase tracking-widest hover:bg-[#d6e3ff] transition-all w-full sm:w-auto cursor-pointer">Consult an Architect</button>
+                  <button className="bg-[#5493f0] cursor-pointer text-[#001736] text-[15px] py-4 px-8 rounded-sm font-bold uppercase tracking-widest hover:bg-[#d6e3ff] transition-all w-full sm:w-auto cursor-pointer">Consult an Architect</button>
                 </Link>
-                <button className="border border-[#c4c6d0] text-white text-[15px] py-4 px-8 rounded-sm hover:bg-white/10 transition-colors uppercase tracking-widest">View Frameworks</button>
-              </div>
+                   <Link to="/contact">
+                <button className="border cursor-pointer border-[#c4c6d0] text-white text-[15px] py-4 px-8 rounded-sm hover:bg-white/10 transition-colors uppercase tracking-widest">View Frameworks</button>
+              
+              </Link> </div>
             </div>
             <div className="md:w-1/2 relative">
               <div className="aspect-video bg-[#e5e2e1] rounded-sm overflow-hidden border border-white/20 shadow-2xl">
                 <img 
-                  className="w-full h-full object-cover grayscale-[20%] contrast-125" 
+                  className="w-full h-full object-cover " 
                   alt="Professional engineering team collaborating" 
-                  src="/digitalimg/software.png" 
+                  src="/digitalimg/software.jpeg" 
                 />
               </div>
             </div>
@@ -166,8 +168,11 @@ const SoftwareEngineering = () => {
                 <h2 className="font-['Noto_Serif',serif] text-[32px] md:text-[36px] text-[#001736] font-bold">Strategic Modernization Pathways</h2>
                 <p className="text-[18px] text-[#5c5f60] mt-4 leading-[1.6]">Legacy systems shouldn't be a liability. We transform rigid monolithic structures into agile, cloud-native services.</p>
               </div>
-              <button className="text-[#001736] font-medium border-b-2 border-[#001736] pb-1 hover:text-[#5493f0] hover:border-[#5493f0] transition-all uppercase tracking-widest text-[15px]">Explore Case Studies</button>
-            </div>
+
+              <Link to="/contact">
+              <button className="text-[#001736] cursor-pointer font-medium border-b-2 border-[#001736] pb-1 hover:text-[#5493f0] hover:border-[#5493f0] transition-all uppercase tracking-widest text-[15px]">Explore Case Studies</button>
+              </Link>
+              </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="group flex gap-6 p-6 hover:bg-[#f0eded] rounded-sm transition-colors border border-transparent hover:border-[#c4c6d0] cursor-pointer">
                 <div className="shrink-0 h-12 w-12 bg-[#001736] flex items-center justify-center rounded-sm text-white">
@@ -218,7 +223,11 @@ const SoftwareEngineering = () => {
               <Link to="/contact">
                 <button className="bg-[#001736] text-white px-12 py-5 rounded-sm text-[15px] font-medium uppercase tracking-widest shadow-xl hover:bg-[#002b5b] transition-all w-full sm:w-auto cursor-pointer">Schedule Assessment</button>
               </Link>
+              <Link to="/contact">
               <button className="bg-white border border-[#c4c6d0] text-[#001736] px-12 py-5 rounded-sm text-[15px] font-medium uppercase tracking-widest shadow-sm hover:bg-[#fcf9f8] transition-all">Technical Whitepapers</button>
+            
+            </Link>
+            
             </div>
           </div>
         </section>

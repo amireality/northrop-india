@@ -16,7 +16,7 @@ const EnergyUtilities = () => {
           <img 
             alt="Energy infrastructure" 
             className="w-full h-full " 
-            src="/energy-utilities11.jpeg" 
+            src="/industryimg/energy-utilities11.jpeg" 
 
             // src='/industryimg/energy-utilities.jpeg'
           />
@@ -179,7 +179,7 @@ const EnergyUtilities = () => {
                 alt="Grid infrastructure" 
                 className='w-full h-full  ' 
 
-                src="/industryimg/energy-utilities1.jpeg"
+                src="/industryimg/energy-utilities111.jpeg"
               />
             </div>
           </div>

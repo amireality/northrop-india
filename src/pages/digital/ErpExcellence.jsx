@@ -38,11 +38,11 @@ const ErpExcellence = () => {
               </div>
             </div>
             <div className="md:col-span-5 relative h-[400px] md:h-[500px]">
-              <div className="absolute inset-0 bg-[#002b5c] opacity-10 transform translate-x-4 translate-y-4"></div>
+              <div className="absolute inset-0 opacity-10 transform translate-x-4 translate-y-4"></div>
               <img 
                 alt="Strategic data visualization" 
-                className="w-full h-full object-cover relative z-10 shadow-[0px_4px_20px_rgba(0,43,92,0.08)]" 
-                src="/digitalimg/erp.png" 
+                className="w-full h-full object-cover " 
+                src="/digitalimg/erp.jpeg" 
               />
             </div>
           </div>
@@ -109,7 +109,9 @@ const ErpExcellence = () => {
                   <li className="text-[14px] text-[#1c1b1b] flex items-center before:content-[''] before:inline-block before:w-2 before:h-2 before:bg-[#002b5c] before:mr-3">Supply Chain Management</li>
                   <li className="text-[14px] text-[#1c1b1b] flex items-center before:content-[''] before:inline-block before:w-2 before:h-2 before:bg-[#002b5c] before:mr-3">Ariba Network Integration</li>
                 </ul>
-                <button className="text-[12px] font-bold text-[#002b5c] border-b border-[#002b5c] self-start hover:opacity-70 transition-opacity uppercase tracking-widest">Explore SAP Services</button>
+                <Link to="/contact">
+                  <button className="text-[12px] font-bold text-[#002b5c] border-b border-[#002b5c] self-start hover:opacity-70 transition-opacity uppercase tracking-widest">Explore SAP Services</button>
+                </Link>
               </div>
               {/* Oracle */}
               <div className="bg-white p-8 md:p-10 border-t-2 border-[#002b5c] shadow-[0px_4px_20px_rgba(0,43,92,0.08)] flex flex-col h-full cursor-pointer hover:-translate-y-1 transition-transform duration-300">
@@ -121,7 +123,9 @@ const ErpExcellence = () => {
                   <li className="text-[14px] text-[#1c1b1b] flex items-center before:content-[''] before:inline-block before:w-2 before:h-2 before:bg-[#002b5c] before:mr-3">EPM & Financial Reporting</li>
                   <li className="text-[14px] text-[#1c1b1b] flex items-center before:content-[''] before:inline-block before:w-2 before:h-2 before:bg-[#002b5c] before:mr-3">HCM Cloud Integration</li>
                 </ul>
-                <button className="text-[12px] font-bold text-[#002b5c] border-b border-[#002b5c] self-start hover:opacity-70 transition-opacity uppercase tracking-widest">Explore Oracle Services</button>
+                <Link to="/contact">
+                  <button className="text-[12px] font-bold text-[#002b5c] border-b border-[#002b5c] self-start hover:opacity-70 transition-opacity uppercase tracking-widest">Explore Oracle Services</button>
+                </Link>
               </div>
               {/* MS Dynamics */}
               <div className="bg-white p-8 md:p-10 border-t-2 border-[#002b5c] shadow-[0px_4px_20px_rgba(0,43,92,0.08)] flex flex-col h-full cursor-pointer hover:-translate-y-1 transition-transform duration-300">
@@ -133,7 +137,9 @@ const ErpExcellence = () => {
                   <li className="text-[14px] text-[#1c1b1b] flex items-center before:content-[''] before:inline-block before:w-2 before:h-2 before:bg-[#002b5c] before:mr-3">Power BI Visualizations</li>
                   <li className="text-[14px] text-[#1c1b1b] flex items-center before:content-[''] before:inline-block before:w-2 before:h-2 before:bg-[#002b5c] before:mr-3">Azure Cloud Migration</li>
                 </ul>
-                <button className="text-[12px] font-bold text-[#002b5c] border-b border-[#002b5c] self-start hover:opacity-70 transition-opacity uppercase tracking-widest">Explore MS Services</button>
+                <Link to="/contact">
+                  <button className="text-[12px] font-bold text-[#002b5c] border-b border-[#002b5c] self-start hover:opacity-70 transition-opacity uppercase tracking-widest">Explore MS Services</button>
+                </Link>
               </div>
             </div>
           </div>
