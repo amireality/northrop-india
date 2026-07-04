@@ -159,8 +159,14 @@ const SustainableSupplyChain = () => {
             <h2 className="font-newsreader font-normal text-[48px] leading-[1.1] tracking-[-0.02em] mb-[24px]">Secure Your Value Chain.</h2>
             <p className="font-inter font-normal text-[18px] leading-[1.6] text-[#858383] max-w-xl mx-auto mb-[64px]">Institutional-grade due diligence for firms operating in high-complexity global markets.</p>
             <div className="flex flex-col md:flex-row justify-center gap-[16px]">
+
+              <Link to="/contact">
               <button className="bg-[#ffffff] text-[#000000] px-12 py-4 font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2]">SCHEDULE AUDIT</button>
+              </Link>
+
+              <Link to="/insights">
               <button className="border border-[#ffffff] text-[#ffffff] px-12 py-4 font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2]">VIEW METHODOLOGY</button>
+              </Link>
             </div>
           </div>
         </section>
