@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -135,7 +136,7 @@ const TaxControversyDisputeResolution = () => {
                 <p className="font-['Inter'] text-[18px] leading-[1.6] font-normal mb-[24px]">
                   The firm secured a definitive victory for a European tech conglomerate against a substantial tax demand, establishing a precedent for brand-royalty payments in the digital economy.
                 </p>
-                <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold border-b border-[#000000] pb-1 uppercase inline-flex items-center gap-2" href="#">Read Full Report <span className="material-symbols-outlined text-sm">arrow_forward</span></a>
+                <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold border-b border-[#000000] pb-1 uppercase inline-flex items-center gap-2" to="/insights">Read Full Report <span className="material-symbols-outlined text-sm">arrow_forward</span></Link>
               </div>
             </div>
           </section>
@@ -145,7 +146,7 @@ const TaxControversyDisputeResolution = () => {
             <div className="max-w-[1280px] mx-auto px-8">
               <div className="flex justify-between items-end mb-[64px]">
                 <h2 className="font-['Newsreader'] text-[48px] leading-[1.1] tracking-[-0.02em] font-normal text-[#ffffff]">Latest Intelligence.</h2>
-                <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#858383] hover:text-[#ffffff] transition-colors uppercase" href="#">View All Publications</a>
+                <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#858383] hover:text-[#ffffff] transition-colors uppercase" to="/insights">View All Publications</Link>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-4 gap-[32px]">
                 {/* Card 1 */}

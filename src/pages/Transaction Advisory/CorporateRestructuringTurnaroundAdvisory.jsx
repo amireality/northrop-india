@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -146,7 +147,7 @@ const CorporateRestructuringTurnaroundAdvisory = () => {
           <div className="max-w-[1280px] mx-auto">
             <div className="flex justify-between items-center mb-[64px]">
               <h2 className="font-['Newsreader'] text-[32px] leading-[1.2] font-normal uppercase tracking-tighter">Publication</h2>
-              <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] underline" href="#">View All Briefings</a>
+              <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] underline" to="/insights">View All Briefings</Link>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 border border-[#c4c7c7] p-8 bg-[#ffffff]">
               <div className="flex flex-col justify-center">
@@ -179,8 +180,17 @@ const CorporateRestructuringTurnaroundAdvisory = () => {
               We provide discreet, high-stakes advisory for Promoters, Lenders, and Resolution Professionals facing critical distress scenarios.
             </p>
             <div className="flex flex-col md:flex-row justify-center gap-[32px]">
-              <button className="bg-[#ffffff] text-[#000000] px-10 py-5 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase font-bold tracking-widest hover:opacity-90 transition-opacity">Submit Mandate Inquiry</button>
+
+              <Link to={"/contact"}>
+                <button className="bg-[#ffffff] text-[#000000] px-10 py-5 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase font-bold tracking-widest hover:opacity-90 transition-opacity">Submit Mandate Inquiry</button>
+
+              </Link>
+             
+             <Link to={"/contact"}>
+            
               <button className="border border-[#ffffff] text-[#ffffff] px-10 py-5 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase hover:bg-[#ffffff] hover:text-[#000000] transition-all">Direct Office Line</button>
+            
+             </Link>
             </div>
           </div>
         </section>

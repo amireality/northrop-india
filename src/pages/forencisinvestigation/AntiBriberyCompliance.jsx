@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -181,7 +182,7 @@ const AntiBriberyCompliance = () => {
           <section className="py-[120px] px-8 max-w-[1280px] mx-auto">
             <div className="flex items-center justify-between mb-[64px] border-b border-[#c4c7c7] pb-[8px]">
               <h2 className="font-['Newsreader'] text-[32px] leading-[1.2] uppercase tracking-[0.15em]">Latest Intelligence</h2>
-              <a className="font-['Inter'] text-[11px] leading-[1.2] font-semibold tracking-[0.15em] border-b border-[#0F0F0F] hover:text-[#0F0F0F] transition-colors uppercase" href="#">VIEW ALL PUBLICATIONS</a>
+              <Link className="font-['Inter'] text-[11px] leading-[1.2] font-semibold tracking-[0.15em] border-b border-[#0F0F0F] hover:text-[#0F0F0F] transition-colors uppercase" to="/insights">VIEW ALL PUBLICATIONS</Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[32px]">
               {/* Publication 1 */}

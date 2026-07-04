@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -134,10 +135,10 @@ const InternationalTaxCrossBorderPlanning = () => {
                   <p className="font-['Inter'] text-[15px] leading-[1.6]">Achieved a 22% reduction in effective global tax rate and a streamlined reporting process that met all BEPS 2.0 standards.</p>
                 </div>
               </div>
-              <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold flex items-center gap-2 hover:underline" href="#">
+              <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold flex items-center gap-2 hover:underline" to="/insights">
                 VIEW FULL REPORT
                 <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
-              </a>
+              </Link>
             </div>
             <div className="relative h-[400px] md:h-auto bg-[#1c1b1b]">
               <img alt="Abstract geometric architecture" className="absolute inset-0 w-full h-full object-cover grayscale opacity-80 mix-blend-luminosity" src="/taxationimg/international-tax1.png" />

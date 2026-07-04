@@ -192,7 +192,7 @@ const PortfolioRationalizationBusinessExits = () => {
             </Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-            <a className="group block" href="#">
+            <Link className="group block" to="/insights">
               <div className="aspect-video bg-[#eae8e3] mb-6 overflow-hidden">  
                 <img
                   alt="Insight 1"
@@ -202,8 +202,8 @@ const PortfolioRationalizationBusinessExits = () => {
               </div>
               <h4 className="font-serif text-[18px] md:text-[20px] mb-3 leading-tight group-hover:text-[#444748] transition-colors font-semibold">The 2024 Divestiture Report: Unlocking Liquidity</h4>
               <p className="font-sans text-[14px] text-[#444748] leading-relaxed">Examining the rise of spin-offs in a high-interest environment.</p>
-            </a>
-            <a className="group block" href="#">
+            </Link>
+            <Link className="group block" to="/insights">
               <div className="aspect-video bg-[#eae8e3] mb-6 overflow-hidden">
                 <img
                   alt="Insight 2"
@@ -213,8 +213,8 @@ const PortfolioRationalizationBusinessExits = () => {
               </div>
               <h4 className="font-serif text-[18px] md:text-[20px] mb-3 leading-tight group-hover:text-[#444748] transition-colors font-semibold">Operational Stranded Costs in Carve-Outs</h4>
               <p className="font-sans text-[14px] text-[#444748] leading-relaxed">Mitigating the margin drag during corporate separation.</p>
-            </a>
-            <a className="group block" href="#">
+            </Link>
+            <Link className="group block" to="/insights">
               <div className="aspect-video bg-[#eae8e3] mb-6 overflow-hidden">
                 <img
                   alt="Insight 3"
@@ -224,8 +224,8 @@ const PortfolioRationalizationBusinessExits = () => {
               </div>
               <h4 className="font-serif text-[18px] md:text-[20px] mb-3 leading-tight group-hover:text-[#444748] transition-colors font-semibold">Private Equity Exit Strategy Refinement</h4>
               <p className="font-sans text-[14px] text-[#444748] leading-relaxed">Preparing 'orphan' assets for high-multiple trade sales.</p>
-            </a>
-            <a className="group block" href="#">
+            </Link>
+            <Link className="group block" to="/insights">
               <div className="aspect-video bg-[#eae8e3] mb-6 overflow-hidden">
                 <img
                   alt="Insight 4"
@@ -235,7 +235,7 @@ const PortfolioRationalizationBusinessExits = () => {
               </div>
               <h4 className="font-serif text-[18px] md:text-[20px] mb-3 leading-tight group-hover:text-[#444748] transition-colors font-semibold">Digital Decoupling: IT Separation Hazards</h4>
               <p className="font-sans text-[14px] text-[#444748] leading-relaxed">A technical framework for complex business exits.</p>
-            </a>
+            </Link>
           </div>
         </section>
 

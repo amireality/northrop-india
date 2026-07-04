@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -178,7 +179,7 @@ const GlobalAssetTracing = () => {
               <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase mb-[8px] block">Knowledge Base</span>
               <h2 className="font-['Newsreader'] text-[32px] leading-[1.2] font-normal">Latest Intelligence</h2>
             </div>
-            <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase hover:text-[#000000] border-b border-transparent hover:border-[#000000] transition-all pb-1" href="#">Archive</a>
+            <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e] uppercase hover:text-[#000000] border-b border-transparent hover:border-[#000000] transition-all pb-1" to="/insights">Archive</Link>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[32px]">

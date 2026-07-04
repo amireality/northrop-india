@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -166,7 +167,7 @@ const DigitalForensics = () => {
               <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase text-[#000000] mb-2 block">QUARTERLY BRIEFING</span>
               <h2 className="font-['Newsreader'] text-[32px] leading-[1.2] font-normal">Latest Intelligence</h2>
             </div>
-            <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase text-[#444748] hover:text-[#000000] border-b border-[#747878] hover:border-[#000000] pb-1 transition-all" href="#">View All Publications</a>
+            <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase text-[#444748] hover:text-[#000000] border-b border-[#747878] hover:border-[#000000] pb-1 transition-all" to="/insights">View All Publications</Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-[32px]">
             {/* Pub 1 */}

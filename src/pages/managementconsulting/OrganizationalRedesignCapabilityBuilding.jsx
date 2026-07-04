@@ -100,10 +100,10 @@ const OrganizationalRedesignCapabilityBuilding = () => {
                     </p>
                   </div>
                 </div>
-                <a className="inline-flex items-center gap-2 font-sans text-[12px] font-bold text-[#000000] group uppercase tracking-widest" href="#">
+                <Link className="inline-flex items-center gap-2 font-sans text-[12px] font-bold text-[#000000] group uppercase tracking-widest" to="/insights">
                   VIEW FULL CASE STUDY 
                   <span className="material-symbols-outlined transition-transform group-hover:translate-x-1 text-[18px]">arrow_forward</span>
-                </a>
+                </Link>
               </div>
               <div className="col-span-12 md:col-span-5 md:col-start-8 relative mt-12 md:mt-0">
                 <div className="aspect-[4/5] bg-[#000000] relative overflow-hidden shadow-2xl">

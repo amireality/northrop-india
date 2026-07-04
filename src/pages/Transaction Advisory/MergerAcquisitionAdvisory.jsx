@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -117,9 +118,9 @@ const MergerAcquisitionAdvisory = () => {
                   </div>
                 </div>
                 <p className="font-['Inter'] text-[15px] leading-[1.6] font-normal text-[#444748] mb-[24px]">From Term Sheet to CCI Clearance. Our intervention involved complex cross-border structuring and intense regulatory coordination to meet a compressed transaction window.</p>
-                <a className="inline-flex items-center gap-2 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] border-b border-[#000000] pb-1 hover:text-[#5e5e5e] transition-colors" href="#">
+                <Link className="inline-flex items-center gap-2 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] border-b border-[#000000] pb-1 hover:text-[#5e5e5e] transition-colors" to="/insights">
                   READ FULL REPORT <span className="material-symbols-outlined text-sm">arrow_forward</span>
-                </a>
+                </Link>
               </div>
               <div className="col-span-12 md:col-span-6 mt-12 md:mt-0">
                 <div className="bg-[#000000] p-12 text-[#ffffff]">
@@ -149,10 +150,15 @@ const MergerAcquisitionAdvisory = () => {
               <p className="font-['Inter'] text-[18px] leading-[1.6] font-normal text-[#444748] mb-8 max-w-xl">
                 An exhaustive analysis of the evolving deal-making environment, examining the impact of new SEBI amendments and the shift towards platform-driven acquisitions.
               </p>
+
+              <Link to={"/contact"}>
+          
               <button className="bg-[#000000] text-[#ffffff] px-10 py-4 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold hover:bg-[#444748] transition-colors flex items-center gap-4">
                 DOWNLOAD PUBLICATION
                 <span className="material-symbols-outlined">download</span>
               </button>
+
+    </Link>
             </div>
           </div>
         </section>

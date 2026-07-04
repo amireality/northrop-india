@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -138,10 +139,10 @@ const StrategicPortfolioReviewCarveOuts = () => {
                   <p className="font-['Inter'] text-[15px] leading-[1.6] font-normal text-[#838484] max-w-md">An in-depth analysis of the divestiture trends shaping the Indian corporate landscape in the current regulatory environment.</p>
                 </div>
                 <div className="mt-[24px]">
-                  <a className="inline-flex items-center gap-2 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase hover:underline text-[#ffffff]" href="#">
+                  <Link className="inline-flex items-center gap-2 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase hover:underline text-[#ffffff]" to="/insights">
                     READ THE WHITE PAPER 
                     <span className="material-symbols-outlined text-[14px]" data-icon="arrow_forward">arrow_forward</span>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

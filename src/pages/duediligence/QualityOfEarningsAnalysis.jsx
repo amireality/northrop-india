@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
@@ -276,12 +277,12 @@ const QualityOfEarningsAnalysis = () => {
                     </div>
 
                     <div className="pt-4">
-                      <a
-                        href="#"
+                      <Link
+                        to="/insights"
                         className="text-[11px] uppercase tracking-[0.1em] underline hover:text-[#5e5e5e]"
                       >
                         Read Full Report
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>

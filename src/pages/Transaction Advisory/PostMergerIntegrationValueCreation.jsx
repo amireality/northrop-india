@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -108,7 +109,7 @@ const PostMergerIntegrationValueCreation = () => {
                   </div>
                 </div>
               </div>
-              <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] border-b border-[#000000] w-fit pb-1 uppercase hover:text-[#5e5e5e] hover:border-[#5e5e5e] transition-colors duration-200" href="#">View Full Briefing</a>
+              <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] border-b border-[#000000] w-fit pb-1 uppercase hover:text-[#5e5e5e] hover:border-[#5e5e5e] transition-colors duration-200" to="/insights">View Full Briefing</Link>
             </div>
             <div className="col-span-12 md:col-span-6 h-full min-h-[400px]">
               <img alt="Architectural Geometry" className="w-full h-full object-cover grayscale contrast-125" src="/transactionadvisoryimg/post-merger-integration1.png" />
@@ -125,7 +126,12 @@ const PostMergerIntegrationValueCreation = () => {
               <p className="font-['Inter'] text-[18px] leading-[1.6] font-normal text-[#858383] mb-[24px] max-w-2xl">
                 A proprietary research paper on tactical post-close execution strategies for private equity and institutional acquirers.
               </p>
+
+<Link to={"/contact"}>
               <button className="bg-[#f9f9f9] text-[#000000] px-10 py-4 font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold uppercase hover:bg-[#e3e2e2] transition-colors duration-200">Download Publication</button>
+           
+           
+</Link>
             </div>
             <div className="col-span-12 md:col-span-4 p-12 bg-[#474646] h-full flex items-center justify-center">
               <div className="border-2 border-[#ffffff] p-8 text-center aspect-[3/4] w-48 flex flex-col justify-center items-center">

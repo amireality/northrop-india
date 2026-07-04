@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -161,7 +162,7 @@ const InstitutionalGrantManagement = () => {
               <span className="font-manrope font-semibold text-[12px] leading-[1.2] uppercase tracking-[0.1em] text-[#5d5f5d] block mb-4">Intelligence</span>
               <h2 className="font-newsreader font-light leading-[1.1] tracking-[-0.02em] text-5xl">Publications & Insights</h2>
             </div>
-            <a className="font-manrope font-semibold text-[12px] leading-[1.2] uppercase tracking-[0.1em] text-[#000000] border-b border-[#000000] pb-1 hover:opacity-70 transition-all duration-200" href="#">View all intelligence</a>
+            <Link className="font-manrope font-semibold text-[12px] leading-[1.2] uppercase tracking-[0.1em] text-[#000000] border-b border-[#000000] pb-1 hover:opacity-70 transition-all duration-200" to="/insights">View all intelligence</Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[32px]">
             {/* Article 01 */}
@@ -207,9 +208,9 @@ const InstitutionalGrantManagement = () => {
                 — Northrop Intelligence Report: Q4 2026 Social Mandates
               </p>
               <div className="mt-12">
-                <a className="font-manrope font-semibold text-[12px] leading-[1.2] uppercase tracking-[0.1em] text-[#000000] border-b border-[#000000] pb-1 hover:opacity-70 transition-all duration-200 inline-block" href="#">
+                <Link className="font-manrope font-semibold text-[12px] leading-[1.2] uppercase tracking-[0.1em] text-[#000000] border-b border-[#000000] pb-1 hover:opacity-70 transition-all duration-200 inline-block" to="/insights">
                   Download the mandate report
-                </a>
+                </Link>
               </div>
             </div>
           </div>

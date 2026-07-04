@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -152,7 +153,7 @@ const RegulatoryComplianceAdvisory = () => {
                 <h2 className="font-['Newsreader'] text-[32px] leading-[1.2]">Latest Intelligence</h2>
                 <p className="text-[#444748]">Briefings on the shifting global regulatory landscape.</p>
               </div>
-              <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold border-b border-[#0F0F0F] uppercase" href="#">View Archive</a>
+              <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold border-b border-[#0F0F0F] uppercase" to="/insights">View Archive</Link>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[32px]">
               {/* Publication 1 */}

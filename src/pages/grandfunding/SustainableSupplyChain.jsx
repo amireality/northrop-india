@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -77,9 +78,9 @@ const SustainableSupplyChain = () => {
                   <p className="text-[#444748]">Full certification achieved 6 months ahead of schedule, securing $400M in European contracts and establishing an industry-leading traceability framework.</p>
                 </div>
               </div>
-              <a className="inline-flex items-center font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#000000] hover:gap-2 transition-all" href="#">
+              <Link className="inline-flex items-center font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#000000] hover:gap-2 transition-all" to="/insights">
                 VIEW FULL REPORT <span className="material-symbols-outlined ml-2 text-[16px]" style={{ fontVariationSettings: "'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24", display: 'inline-block', lineHeight: 1 }}>arrow_forward</span>
-              </a>
+              </Link>
             </div>
             <div className="col-span-12 lg:col-span-6 relative min-h-[400px]">
               <img

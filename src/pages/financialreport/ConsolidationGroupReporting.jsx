@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
@@ -232,8 +233,8 @@ const ConsolidationGroupReporting = () => {
                     mandates.
                   </p>
 
-                  <a
-                    href="#"
+                  <Link
+                    to="/insights"
                     className="text-[11px] uppercase tracking-[0.1em] underline flex items-center gap-2"
                   >
                     View Calculation Logic
@@ -241,7 +242,7 @@ const ConsolidationGroupReporting = () => {
                     <span className="material-symbols-outlined text-sm">
                       arrow_forward
                     </span>
-                  </a>
+                  </Link>
                 </div>
 
                 {/* Protocol 4 */}

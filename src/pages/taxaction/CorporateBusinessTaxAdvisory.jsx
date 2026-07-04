@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -127,7 +128,7 @@ const CorporateBusinessTaxAdvisory = () => {
           <div className="max-w-[1280px] mx-auto px-8">
             <div className="flex justify-between items-baseline mb-[64px]">
               <h2 className="font-['Newsreader'] text-[32px] leading-[1.2] font-normal">Institutional Intelligence</h2>
-              <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold border-b border-[#000000] uppercase" href="#">Archive</a>
+              <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold border-b border-[#000000] uppercase" to="/insights">Archive</Link>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-[32px]">
               {/* Publication 1 */}

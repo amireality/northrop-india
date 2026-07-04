@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -164,7 +165,7 @@ const PrivateClientHighNetWorthServices = () => {
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e]">REPORT</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mt-1 mb-2 leading-tight">The HNW Tax Handbook 2026</h3>
                 <p className="font-['Inter'] text-[15px] leading-[1.6] font-normal text-[#444748] mb-4">A definitive guide to the evolving landscape of global wealth taxes and reporting standards.</p>
-                <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] underline underline-offset-4" href="#">READ MORE</a>
+                <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] underline underline-offset-4" to="/insights">READ MORE</Link>
               </div>
               {/* Card 2 */}
               <div className="col-span-12 md:col-span-6 lg:col-span-3">
@@ -174,7 +175,7 @@ const PrivateClientHighNetWorthServices = () => {
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e]">ADVISORY</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mt-1 mb-2 leading-tight">Succession vs. Inheritance: A Global Guide</h3>
                 <p className="font-['Inter'] text-[15px] leading-[1.6] font-normal text-[#444748] mb-4">Navigating the legal and emotional complexities of transfering control vs. assets.</p>
-                <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] underline underline-offset-4" href="#">READ MORE</a>
+                <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] underline underline-offset-4" to="/insights">READ MORE</Link>
               </div>
               {/* Card 3 */}
               <div className="col-span-12 md:col-span-6 lg:col-span-3">
@@ -184,7 +185,7 @@ const PrivateClientHighNetWorthServices = () => {
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e]">WHITE PAPER</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mt-1 mb-2 leading-tight">Family Trusts &amp; Asset Protection</h3>
                 <p className="font-['Inter'] text-[15px] leading-[1.6] font-normal text-[#444748] mb-4">Advanced strategies for shielding generational wealth from unforeseen systemic risks.</p>
-                <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] underline underline-offset-4" href="#">READ MORE</a>
+                <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] underline underline-offset-4" to="/insights">READ MORE</Link>
               </div>
               {/* Card 4 */}
               <div className="col-span-12 md:col-span-6 lg:col-span-3">
@@ -194,7 +195,7 @@ const PrivateClientHighNetWorthServices = () => {
                 <span className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#5e5e5e]">PHILANTHROPY</span>
                 <h3 className="font-['Newsreader'] text-[24px] leading-[1.3] font-normal mt-1 mb-2 leading-tight">Tax-Efficient Philanthropy for Promoters</h3>
                 <p className="font-['Inter'] text-[15px] leading-[1.6] font-normal text-[#444748] mb-4">How to structure high-impact giving while maintaining capital efficiency and tax benefits.</p>
-                <a className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] underline underline-offset-4" href="#">READ MORE</a>
+                <Link className="font-['Inter'] text-[11px] leading-[1.2] tracking-[0.1em] font-semibold text-[#000000] underline underline-offset-4" to="/insights">READ MORE</Link>
               </div>
             </div>
           </section>

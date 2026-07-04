@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet-async";
 
@@ -264,12 +265,12 @@ const TaxRegulatoryDueDiligence = () => {
                 Latest Intelligence
               </h2>
 
-              <a
-                href="#"
+              <Link
+                to="/insights"
                 className="text-[11px] uppercase tracking-[0.1em] text-black hover:underline"
               >
                 View All Research
-              </a>
+              </Link>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

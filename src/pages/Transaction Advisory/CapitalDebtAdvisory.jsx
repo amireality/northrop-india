@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -45,7 +46,7 @@ const CapitalDebtAdvisory = () => {
               <img 
                 alt="A dramatic low-angle shot of a massive concrete monolith against a clear, high-contrast sky. " 
                 className="w-full h-full object-cover grayscale transition-transform duration-700 hover:scale-105" 
-                src="/transactionadvisoryimg/capital-debt1.jpeg" 
+                src="/transactionadvisoryimg/capital-debt11.jpeg" 
               />
             </div>
           </div>
@@ -120,7 +121,7 @@ const CapitalDebtAdvisory = () => {
                 <div className="p-12 border border-[#c4c7c7] bg-[#f9f9f9]">
                   <h4 className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] mb-[16px]">THE OUTCOME</h4>
                   <p className="font-newsreader font-normal text-[28px] leading-[1.4] italic mb-[16px] leading-snug">"The structural integrity of the deal allowed for immediate liquidity without compromising long-term equity control for the promoters."</p>
-                  <a className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#000000] border-b border-[#000000] hover:text-[#5e5e5e] transition-colors inline-block" href="#">Read the Report</a>
+                  <Link className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] text-[#000000] border-b border-[#000000] hover:text-[#5e5e5e] transition-colors inline-block" to="/insights">Read the Report</Link>
                 </div>
               </div>
             </div>
@@ -154,7 +155,13 @@ const CapitalDebtAdvisory = () => {
                 <div className="max-w-xl">
                   <p className="font-newsreader font-normal text-[28px] leading-[1.4] mb-[24px]">A definitive guide to navigating the evolving regulatory landscape and liquidity trends in the world's fastest-growing major economy.</p>
                   <p className="font-inter font-normal text-[15px] leading-[1.6] text-[#444748] mb-[24px]">This publication dissects the shift from traditional banking to private credit and the rising prominence of family offices in late-stage growth rounds.</p>
+                 
+
+                 <Link to={"/insights"}>
+               
                   <button className="border border-[#000000] px-8 py-4 font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] hover:bg-[#000000] hover:text-[#ffffff] transition-colors">Download Full Playbook</button>
+                  </Link>
+                
                 </div>
               </div>
             </div>
@@ -167,7 +174,10 @@ const CapitalDebtAdvisory = () => {
             <h2 className="font-newsreader font-normal text-[48px] leading-[1.1] tracking-[-0.02em] mb-[24px]">Structured for Growth</h2>
             <p className="font-inter font-normal text-[18px] leading-[1.6] text-[#444748] mb-[24px] max-w-2xl mx-auto">Engage our advisory team to conduct a complimentary capital structure review for your enterprise.</p>
             <div className="flex justify-center gap-[16px]">
+<Link to={"/contact"}>
               <button className="bg-[#000000] text-[#ffffff] px-12 py-5 font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] tracking-widest hover:bg-[#5e5e5e] transition-colors">Schedule Mandate Call</button>
+          
+          </Link>
             </div>
           </div>
         </section>

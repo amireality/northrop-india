@@ -116,9 +116,9 @@ export default function AppDevelopment() {
                     Scalable solutions using React Native and Flutter. Optimize TTM (Time To Market) without compromising on the user experience.
                   </p>
                 </div>
-                <a className="mt-12 flex items-center text-[#d6e3ff] text-[15px] font-medium tracking-wider group-hover:translate-x-2 transition-all relative z-10" href="#">
+                <Link className="mt-12 flex items-center text-[#d6e3ff] text-[15px] font-medium tracking-wider group-hover:translate-x-2 transition-all relative z-10" to="/insights">
                   EXPLORE FRAMEWORKS <span className="material-symbols-outlined ml-2 group-hover:translate-x-2 transition-transform">arrow_forward</span>
-                </a>
+                </Link>
                 <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full -mr-16 -mt-16 blur-2xl"></div>
               </div>
               {/* UX-Led Engineering */}

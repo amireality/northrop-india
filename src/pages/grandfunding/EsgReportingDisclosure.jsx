@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 
@@ -136,7 +137,7 @@ const EsgReportingDisclosure = () => {
         <section className="max-w-[1280px] mx-auto px-8 py-[120px]">
           <div className="border-t border-[#000000] pt-[24px] mb-[64px] flex justify-between items-end">
             <h3 className="font-newsreader font-normal text-[32px] leading-[1.2]">Research & Intelligence</h3>
-            <a className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] underline hover:text-[#5e5e5e] transition-colors" href="#">View All Publications</a>
+            <Link className="font-inter font-semibold uppercase tracking-[0.1em] text-[11px] leading-[1.2] underline hover:text-[#5e5e5e] transition-colors" to="/insights">View All Publications</Link>
           </div>
           <div className="grid grid-cols-12 gap-[32px]">
             <div className="col-span-12 md:col-span-4 group cursor-pointer">
