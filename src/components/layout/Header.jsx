@@ -45,11 +45,7 @@ export default function Header() {
       <nav className="flex h-[50px] items-center px-6 lg:px-12 gap-8">
         {/* LEFT — Brand Name only */}
         <Link to="/" className="flex items-center h-full shrink-0">
-          <span
-            style={{ fontFamily: "'Inter', sans-serif", fontWeight: 700, fontSize: '20px', lineHeight: 1, letterSpacing: '0.08em', color: '#001f3f', textTransform: 'uppercase' }}
-          >
-            NORTHROP
-          </span>
+          <img src="/logo-horizontal.png" alt="Northrop Management" className="h-10 w-auto object-contain py-1" />
         </Link>
 
         {/* CENTER-LEFT — Nav links (next to NORTHROP) */}
@@ -167,7 +163,7 @@ export default function Header() {
         <div className="fixed inset-0 z-[60] flex flex-col bg-black text-white overflow-y-auto xl:hidden">
           <div className="flex h-[80px] items-center justify-between px-6 border-b border-gray-800">
             <Link to="/" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center text-2xl font-bold tracking-tighter">
-              <span>Northrop</span>
+              <img src="/logo-horizontal.png" alt="Northrop Management" className="h-10 w-auto object-contain bg-white/90 p-1 rounded-sm" />
             </Link>
             <button onClick={() => setIsMobileMenuOpen(false)}><X size={32} /></button>
           </div>
