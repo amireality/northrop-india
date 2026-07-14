@@ -24,7 +24,7 @@ const teamProfiles = [
     id: "pratham",
     name: "Pratham Sharma",
     role: "Director",
-    image: "https://ui-avatars.com/api/?name=Pratham+Sharma&background=001f3f&color=fff&size=512",
+    image: "/pratham.png",
     shortDesc: "Pratham Sharma is a Director at Northrop Management Private Limited, a multidisciplinary advisory firm based in Delhi NCR...",
     fullDesc: (
       <>
