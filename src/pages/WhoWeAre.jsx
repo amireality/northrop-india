@@ -1,5 +1,5 @@
-import { useEffect, useRef } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { useEffect, useRef, useState } from "react";
+import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import { Helmet } from "react-helmet-async";
 import {
   Globe,
@@ -15,8 +15,84 @@ import {
   Merge,
   Database,
   Sparkles,
+  X,
 } from "lucide-react";
 import { Link } from "react-router-dom";
+
+const teamProfiles = [
+  {
+    id: "pratham",
+    name: "Pratham Sharma",
+    role: "Director",
+    image: "https://ui-avatars.com/api/?name=Pratham+Sharma&background=001f3f&color=fff&size=512",
+    shortDesc: "Pratham Sharma is a Director at Northrop Management Private Limited, a multidisciplinary advisory firm based in Delhi NCR...",
+    fullDesc: (
+      <>
+        <p className="mb-4">Pratham Sharma is a Director at Northrop Management Private Limited, a multidisciplinary advisory firm based in Delhi NCR, serving founders, enterprises, and institutions across audit & assurance, IBC advisory, credit risk monitoring, and capital advisory. With a career spanning audit, assurance, and transaction advisory, he brings deep institutional expertise across financial services, manufacturing, and services sectors.</p>
+        <p className="mb-4">He began his career at D Pathak & Co., a chartered accountancy firm specializing in banking sector assurance, where he executed 15+ stock and receivable audits covering credit portfolios worth ₹500+ Crore, performed ASM audits verifying loan documentation and collateral valuations, conducted forensic and transaction audits identifying fraud indicators and control weaknesses, and managed end-to-end tax and GST compliance - achieving 100% on-time statutory adherence across all engagements.</p>
+        <p className="mb-4">He subsequently working in Assurance, leading statutory and internal audit engagements for 5+ clients with combined revenues exceeding ₹200 Crore. He executed IFC testing under the Companies Act, 2013 and ISA standards, prepared consolidated financial statements under Indian AS and US GAAP - covering intercompany eliminations, equity method accounting, and VIE analysis under ASC 810 - and executed SOX-aligned control testing producing risk ratings and management action plans for audit committee reporting.</p>
+        <p>In his current role at Northrop Management, Pratham contributes across audit & assurance, IBC and NCLT advisory, credit risk monitoring, and capital advisory - supporting the firm's work with founders, enterprises, and institutions on strategy, M&A, tax structuring, digital transformation, and IPO readiness.</p>
+      </>
+    )
+  },
+  {
+    id: "sathi",
+    name: "Sathi Devanand",
+    role: "Program Manager",
+    image: "/sathi.jpg",
+    shortDesc: "Sathi Devanand is a highly organized program and administrative management professional with over 25 years of experience...",
+    fullDesc: (
+      <>
+        <p className="mb-4"><strong>Professional Summary</strong><br/>Sathi Devanand is a highly organized program and administrative management professional with over 25 years of experience supporting executive leadership, managing budgets and procurement, and coordinating high-stakes projects across international development and government sectors. She brings a rare combination of operational precision, discretion, and interpersonal grace, built primarily through a long tenure with the United States Agency for International Development (USAID)/India.</p>
+        <p className="mb-2"><strong>Career Highlights</strong></p>
+        <p className="mb-2"><strong>USAID/India — Administrative Assistant to Project Management Assistant (1994–2021)</strong><br/>Over more than two decades at USAID, Sathi rose through progressively senior roles, becoming a trusted operational backbone for senior executives and program teams. Her contributions included:</p>
+        <ul className="list-disc pl-5 mb-4 space-y-1">
+          <li>Preparing and reviewing budget worksheets, cost estimates, and pipeline analyses for new and ongoing activities</li>
+          <li>Monitoring project progress and advising implementing partners on scaling programs effectively</li>
+          <li>Drafting position descriptions that significantly reduced hiring timelines</li>
+          <li>Managing complex, multi-time-zone executive calendars and travel logistics</li>
+          <li>Organizing large-scale conferences, security clearances, and high-profile visits — including a U.S. Ambassador's visit and logistical coordination for a U.S. Presidential visit to a project site</li>
+          <li>Onboarding new staff and maintaining accurate partner and client databases</li>
+        </ul>
+        <p className="mb-4"><strong>Jefferson Solutions (JBC), USA — Mid-Level Acquisition & Assistance Specialist (2021–2022)</strong><br/>Supported USAID/India's Health Office technical team on procurement actions, budget analysis, and documentation for critical health programming.</p>
+        <p className="mb-4"><strong>SmartIT (USA) — Consultant / Project Manager (2024)</strong><br/>Provided project coordination for a Digital Automation and Transformation client, managing documentation, meeting schedules, and deadline tracking over an eight-week engagement.</p>
+        <p className="mb-2"><strong>Awards & Recognition</strong></p>
+        <ul className="list-disc pl-5 mb-4 space-y-1">
+          <li>Certificate of Appreciation — for supporting the U.S. President's visit to India (2010)</li>
+          <li>U.S. Department Recognition — for dedication and teamwork in Health Office budget allocation, fiscal years 2016–2017</li>
+          <li>Spot Award — for outstanding leadership enabling a successful U.S. Ambassador site visit</li>
+          <li>Star Performer of the Month — for exceptional support organizing the "Mumbai Dialogue: Towards a TB-free India" roundtable and press briefing</li>
+        </ul>
+        <p className="mb-4"><strong>Core Skills:</strong> Executive & Calendar Management, Budget Analysis & Financial Tracking, Procurement & Documentation, Cross-Cultural Communication, Confidentiality & Sensitive Information Handling, Event & Conference Coordination, Microsoft Office, Google Workspace, Teams/SharePoint, Zoom.</p>
+        <p className="mb-4"><strong>Languages:</strong> English (Fluent) · Hindi (Fluent) · Tamil (Conversational) · Malayalam (Conversational)</p>
+        <p className="mb-4"><strong>Education:</strong> Bachelor of Arts (B.A.) in Humanities, Himalayan University, India (2017)</p>
+        <p><strong>Certifications:</strong> Business Analyst</p>
+      </>
+    )
+  },
+  {
+    id: "harvey",
+    name: "Harvey",
+    role: "Chief Happiness Officer",
+    image: "/harvey.png",
+    shortDesc: "She has no CA, no CS, no MBA. She has never read a single forensic audit report. And yet she has the lowest stress levels...",
+    fullDesc: (
+      <>
+        <p className="mb-4">She has no CA, no CS, no MBA. She has never read a single forensic audit report. And yet she has the lowest stress levels in the entire office.</p>
+        <p className="mb-2"><strong>His job description:</strong></p>
+        <ul className="list-disc pl-5 mb-4 space-y-1">
+          <li>Audit every chair for comfort (100% pass rate, zero exceptions)</li>
+          <li>Supervise keyboard activity (by sitting directly on it)</li>
+          <li>Conduct random desk inspections at 3pm daily</li>
+          <li>Maintain team morale through sheer indifference to deadlines</li>
+        </ul>
+        <p className="mb-4">Here's the thing: in a firm that spends its day flagging red flags in other people's balance sheets, someone needs to remind us that not everything needs to be stress-tested.</p>
+        <p className="mb-4">He does that. Unpaid. Un-appraised. Unbothered.</p>
+        <p>Every high-pressure team needs one member who refuses to take the P&L personally. Ours has fur.</p>
+      </>
+    )
+  }
+];
 
 const valuesData = [
   {
@@ -222,6 +298,7 @@ const AnimatedText = ({
 
 export default function WhoWeAre() {
   const heroRef = useRef(null);
+  const [selectedProfile, setSelectedProfile] = useState(null);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -308,6 +385,42 @@ export default function WhoWeAre() {
               </div>
             </div>
           </Link>
+
+          {/* Team Members Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-[32px] mt-[48px]">
+            {teamProfiles.map((profile) => (
+              <div 
+                key={profile.id}
+                onClick={() => setSelectedProfile(profile)}
+                className="flex flex-col items-center gap-[24px] p-[32px] rounded-2xl transition-all duration-500 hover:bg-gray-50 border border-transparent hover:border-[#C4973B]/20 hover:shadow-2xl cursor-pointer group"
+              >
+                <div className="flex-shrink-0">
+                  <div className="w-[140px] h-[140px] rounded-full overflow-hidden border-[4px] border-[#001f3f] group-hover:border-[#C4973B] transition-colors duration-500 shadow-lg mx-auto">
+                    <img
+                      src={profile.image}
+                      alt={profile.name}
+                      className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                    />
+                  </div>
+                </div>
+                <div className="text-center">
+                  <h3 className="text-[24px] font-playfair text-[#001f3f] font-bold mb-[4px] group-hover:text-[#C4973B] transition-colors duration-500">
+                    {profile.name}
+                  </h3>
+                  <h4 className="text-[14px] text-[#C4973B] mb-[12px] font-semibold tracking-wide uppercase">
+                    {profile.role}
+                  </h4>
+                  <p className="text-[#43474e] text-[15px] leading-[1.6] font-light line-clamp-3">
+                    {profile.shortDesc}
+                  </p>
+                  <div className="mt-4 inline-flex items-center text-[#001f3f] font-semibold text-xs tracking-widest uppercase group-hover:text-[#C4973B] transition-colors duration-300">
+                    Read Full Profile <span className="ml-2">→</span>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
         </div>
       </section>
       
@@ -550,6 +663,60 @@ export default function WhoWeAre() {
           </div>
         </div>
       </section>
+
+      {/* Profile Modal */}
+      <AnimatePresence>
+        {selectedProfile && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6">
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setSelectedProfile(null)}
+              className="absolute inset-0 bg-[#001f3f]/80 backdrop-blur-sm"
+            />
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95, y: 20 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              exit={{ opacity: 0, scale: 0.95, y: 20 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
+              className="relative w-full max-w-3xl bg-white rounded-2xl shadow-2xl overflow-hidden flex flex-col max-h-[90vh]"
+            >
+              {/* Header */}
+              <div className="flex items-start justify-between p-6 sm:p-8 border-b border-gray-100 bg-[#f9f9ff]">
+                <div className="flex items-center gap-6">
+                  <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full overflow-hidden border-2 border-[#C4973B] shadow-md flex-shrink-0">
+                    <img
+                      src={selectedProfile.image}
+                      alt={selectedProfile.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-2xl sm:text-3xl font-playfair text-[#001f3f] font-bold mb-1">
+                      {selectedProfile.name}
+                    </h3>
+                    <h4 className="text-sm sm:text-base text-[#C4973B] font-semibold tracking-wide uppercase">
+                      {selectedProfile.role}
+                    </h4>
+                  </div>
+                </div>
+                <button
+                  onClick={() => setSelectedProfile(null)}
+                  className="p-2 text-gray-400 hover:text-[#001f3f] transition-colors rounded-full hover:bg-gray-100"
+                >
+                  <X size={24} />
+                </button>
+              </div>
+              
+              {/* Content */}
+              <div className="p-6 sm:p-8 overflow-y-auto text-[#43474e] text-[15px] leading-relaxed font-light">
+                {selectedProfile.fullDesc}
+              </div>
+            </motion.div>
+          </div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }
