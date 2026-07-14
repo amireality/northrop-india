@@ -93,7 +93,7 @@ import GlobalEmployerServices from './pages/services/GlobalEmployerServices'
 
 
 
-import Foundation from './pages/Foundation'
+
 import About from './components/home/About'
 import MaAdvisory from './pages/Transaction Advisory/MaAdvisory'
 import Restructuring from './pages/Transaction Advisory/Restructuring'
@@ -276,7 +276,7 @@ function App() {
           <Route path="/institute/risk-management-assurance" element={<Riskstergery />} />
           <Route path="/institute/founders-capital-stack" element={<TheFounderCapitalStack />} />
           <Route path="/advisory" element={<Advisory />} />
-          <Route path="/foundation" element={<Foundation />} />
+
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/insights" element={<Insights />} />

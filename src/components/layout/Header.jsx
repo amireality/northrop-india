@@ -84,9 +84,7 @@ export default function Header() {
               <NavItem label="Digital" href="/digital" hasDropdown={false} />
             </div>
 
-            <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
-              <NavItem label="Northrop Research Foundation" href="/foundation" hasDropdown={false} />
-            </div>
+
 
             <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
               <NavItem label="Contact" href="/contact" hasDropdown={false} />
@@ -183,7 +181,7 @@ export default function Header() {
                 <MobileNavItem label="Northrop Institute of Global Finance" href="/institute" onClick={() => setIsMobileMenuOpen(false)} />
                 <MobileNavItem label="Insights" href="/insights" onClick={() => setIsMobileMenuOpen(false)} />
                 <MobileNavItem label="Digital" href="/digital" onClick={() => setIsMobileMenuOpen(false)} />
-                <MobileNavItem label="Northrop Research Foundation" href="/foundation" onClick={() => setIsMobileMenuOpen(false)} />
+
                 <MobileNavItem label="Contact" href="/contact" onClick={() => setIsMobileMenuOpen(false)} />
               </div>
             )}
