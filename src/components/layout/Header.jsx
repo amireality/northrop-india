@@ -163,7 +163,7 @@ export default function Header() {
         <div className="fixed inset-0 z-[60] flex flex-col bg-black text-white overflow-y-auto xl:hidden">
           <div className="flex h-[80px] items-center justify-between px-6 border-b border-gray-800">
             <Link to="/" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center text-2xl font-bold tracking-tighter">
-              <img src="/logo-horizontal.png" alt="Northrop Management" className="h-10 w-auto object-contain bg-white/90 p-1 rounded-sm" />
+              <img src="/logo-horizontal.png" alt="Northrop Management" className="h-10 w-auto object-contain" />
             </Link>
             <button onClick={() => setIsMobileMenuOpen(false)}><X size={32} /></button>
           </div>

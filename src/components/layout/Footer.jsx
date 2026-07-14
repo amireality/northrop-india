@@ -25,7 +25,7 @@ function Footer() {
           {/* Logo Column */}
           <div className="space-y-6">
             <div className="flex items-center text-3xl font-bold tracking-tighter font-serif">
-              <img src="/logo-horizontal.png" alt="Northrop Management" className="h-12 w-auto object-contain bg-white/90 p-1.5 rounded-sm" />
+              <img src="/logo-horizontal.png" alt="Northrop Management" className="h-12 w-auto object-contain" />
             </div>
 
             {/* G-04 / G-12: Fixed tagline — removed "since 2022" */}
