@@ -38,61 +38,63 @@ const teamProfiles = [
   {
     id: "sathi",
     name: "Sathi Devanand",
-    role: "Program Manager",
+    role: "Consultant Non Profit",
     image: "/sathi.jpg",
-    shortDesc: "Sathi Devanand is a highly organized program and administrative management professional with over 25 years of experience...",
+    shortDesc: "For 27 years, when something important happened at USAID/India, Sathi Devanand was usually somewhere behind it, making sure it worked.",
     fullDesc: (
       <>
-        <p className="mb-4"><strong>Professional Summary</strong><br/>Sathi Devanand is a highly organized program and administrative management professional with over 25 years of experience supporting executive leadership, managing budgets and procurement, and coordinating high-stakes projects across international development and government sectors. She brings a rare combination of operational precision, discretion, and interpersonal grace, built primarily through a long tenure with the United States Agency for International Development (USAID)/India.</p>
-        <p className="mb-2"><strong>Career Highlights</strong></p>
-        <p className="mb-2"><strong>USAID/India — Administrative Assistant to Project Management Assistant (1994–2021)</strong><br/>Over more than two decades at USAID, Sathi rose through progressively senior roles, becoming a trusted operational backbone for senior executives and program teams. Her contributions included:</p>
-        <ul className="list-disc pl-5 mb-4 space-y-1">
-          <li>Preparing and reviewing budget worksheets, cost estimates, and pipeline analyses for new and ongoing activities</li>
-          <li>Monitoring project progress and advising implementing partners on scaling programs effectively</li>
-          <li>Drafting position descriptions that significantly reduced hiring timelines</li>
-          <li>Managing complex, multi-time-zone executive calendars and travel logistics</li>
-          <li>Organizing large-scale conferences, security clearances, and high-profile visits — including a U.S. Ambassador's visit and logistical coordination for a U.S. Presidential visit to a project site</li>
-          <li>Onboarding new staff and maintaining accurate partner and client databases</li>
-        </ul>
-        <p className="mb-4"><strong>Jefferson Solutions (JBC), USA — Mid-Level Acquisition & Assistance Specialist (2021–2022)</strong><br/>Supported USAID/India's Health Office technical team on procurement actions, budget analysis, and documentation for critical health programming.</p>
-        <p className="mb-4"><strong>SmartIT (USA) — Consultant / Project Manager (2024)</strong><br/>Provided project coordination for a Digital Automation and Transformation client, managing documentation, meeting schedules, and deadline tracking over an eight-week engagement.</p>
-        <p className="mb-2"><strong>Awards & Recognition</strong></p>
-        <ul className="list-disc pl-5 mb-4 space-y-1">
-          <li>Certificate of Appreciation — for supporting the U.S. President's visit to India (2010)</li>
-          <li>U.S. Department Recognition — for dedication and teamwork in Health Office budget allocation, fiscal years 2016–2017</li>
-          <li>Spot Award — for outstanding leadership enabling a successful U.S. Ambassador site visit</li>
-          <li>Star Performer of the Month — for exceptional support organizing the "Mumbai Dialogue: Towards a TB-free India" roundtable and press briefing</li>
-        </ul>
-        <p className="mb-4"><strong>Core Skills:</strong> Executive & Calendar Management, Budget Analysis & Financial Tracking, Procurement & Documentation, Cross-Cultural Communication, Confidentiality & Sensitive Information Handling, Event & Conference Coordination, Microsoft Office, Google Workspace, Teams/SharePoint, Zoom.</p>
-        <p className="mb-4"><strong>Languages:</strong> English (Fluent) · Hindi (Fluent) · Tamil (Conversational) · Malayalam (Conversational)</p>
-        <p className="mb-4"><strong>Education:</strong> Bachelor of Arts (B.A.) in Humanities, Himalayan University, India (2017)</p>
-        <p><strong>Certifications:</strong> Business Analyst</p>
+        <p className="mb-4"><strong>27 Years with USAID / Ex Jefferson</strong></p>
+        <p className="mb-4">For 27 years, when something important happened at USAID/India, Sathi Devanand was usually somewhere behind it, making sure it worked.</p>
+        <p className="mb-4">She joined in 1994 as an administrative assistant and stayed nearly three decades, which tells you two things: the institution trusted her, and she kept delivering long after the novelty wore off. Over those years she moved from managing calendars to managing money, budget worksheets, cost estimates, pipeline analyses for USAID health programming, and advising implementing partners on how to scale what was actually working.</p>
+        <p className="mb-4">When the President of the United States visited a project site in 2010, she handled the logistics. She has the certificate to prove it. When a US Ambassador's site visit needed to go perfectly, she earned a Spot Award for making it happen. When Mumbai hosted the "Towards a TB-free India" roundtable, she was named Star Performer for pulling the event and press briefing together. That's the pattern of her whole career: quiet, precise work that senior people stake their reputations on.</p>
+        <p className="mb-4">After USAID, she supported procurement and budget analysis for the Health Office through Jefferson Solutions, then managed project coordination for a US digital transformation client, same discipline, new sectors, new tools.</p>
+        <p className="mb-4">She's fluent in English and Hindi, conversational in Tamil and Malayalam, and handles sensitive information the way you'd hope: quietly.</p>
+        <p>If you need someone who has lived this work, Presidential visits, ambassador schedules, two decades of US government scrutiny, rather than learned it from a course, this is who you hire.</p>
       </>
     )
   },
   {
-    id: "harvey",
-    name: "Harvey",
-    role: "Chief Happiness Officer",
-    image: "/harvey.png",
-    shortDesc: "She has no CA, no CS, no MBA. She has never read a single forensic audit report. And yet she has the lowest stress levels...",
+    id: "gopal",
+    name: "Gopal Banka",
+    role: "Fundraising, Debt Syndication & IPO Readiness",
+    image: "/gopal.png",
+    shortDesc: "Most founders can build a product. Far fewer can sit across from a banker or an investor and come away with capital on good terms...",
     fullDesc: (
       <>
-        <p className="mb-4">She has no CA, no CS, no MBA. She has never read a single forensic audit report. And yet she has the lowest stress levels in the entire office.</p>
-        <p className="mb-2"><strong>His job description:</strong></p>
-        <ul className="list-disc pl-5 mb-4 space-y-1">
-          <li>Audit every chair for comfort (100% pass rate, zero exceptions)</li>
-          <li>Supervise keyboard activity (by sitting directly on it)</li>
-          <li>Conduct random desk inspections at 3pm daily</li>
-          <li>Maintain team morale through sheer indifference to deadlines</li>
-        </ul>
-        <p className="mb-4">Here's the thing: in a firm that spends its day flagging red flags in other people's balance sheets, someone needs to remind us that not everything needs to be stress-tested.</p>
-        <p className="mb-4">He does that. Unpaid. Un-appraised. Unbothered.</p>
-        <p>Every high-pressure team needs one member who refuses to take the P&L personally. Ours has fur.</p>
+        <p className="mb-4">Most founders can build a product. Far fewer can sit across from a banker or an investor and come away with capital on good terms. That second skill is what Gopal Banka has spent 21 years building.</p>
+        <p className="mb-4">He is a Chartered Accountant and registered Insolvency Professional who spent more than two decades in corporate finance with some of India's leading business houses before turning that experience into a Virtual CFO practice for SMEs and startups. His work sits in the gap most growing companies fall into: the books are maintained, but nobody is preparing the company to actually receive money. He closes that gap.</p>
+        <p className="mb-4">When a company is raising equity, he turns the financial data into an investment story that holds up. He builds the information memorandum, the pitch deck and the financial model, runs the data room so due diligence moves instead of stalling, and sits at the table when valuation is negotiated. He has raised multiple Crores across equity and debt for clients in tech, manufacturing and services.</p>
+        <p className="mb-4">On the debt side, he structures term loans, working capital and project finance, and negotiates directly with banks, NBFCs and venture debt funds. Founders are often surprised to learn the rate on the first term sheet is an opening position, not a price tag. He treats it accordingly.</p>
+        <p className="mb-4">His sharpest edge is IPO readiness. He takes private companies through the discipline of becoming listable, on the SME platform or the Main Board: internal controls that survive scrutiny, audit readiness, SEBI and Companies Act compliance, GST and TDS health checks, ERP implementation, and the financial narrative public investors will actually read. He also advises on capital structure in the run up to listing, including growth capital raised before the IPO.</p>
+        <p className="mb-4">The engagement model is fractional. You get a finance leader with 21 years of experience without the full time salary, available immediately and scoped to your milestones. While you focus on product and sales, he watches margins, cash, burn and valuation, and puts controls in place at the ground level so the numbers stay trustworthy as you scale.</p>
+        <p>If your company is somewhere between raising its first serious round and ringing the bell at an exchange, this is the person who gets your numbers ready for scrutiny.</p>
       </>
     )
   }
 ];
+
+const harveyProfile = {
+  id: "harvey",
+  name: "Harvey",
+  role: "Chief Happiness Officer",
+  image: "/harvey.png",
+  shortDesc: "He has no CA, no CS, no MBA. He has never read a single forensic audit report. And yet he has the lowest stress levels...",
+  fullDesc: (
+    <>
+      <p className="mb-4">He has no CA, no CS, no MBA. He has never read a single forensic audit report. And yet he has the lowest stress levels in the entire office.</p>
+      <p className="mb-2"><strong>His job description:</strong></p>
+      <ul className="list-disc pl-5 mb-4 space-y-1">
+        <li>Audit every chair for comfort (100% pass rate, zero exceptions)</li>
+        <li>Supervise keyboard activity (by sitting directly on it)</li>
+        <li>Conduct random desk inspections at 3pm daily</li>
+        <li>Maintain team morale through sheer indifference to deadlines</li>
+      </ul>
+      <p className="mb-4">Here's the thing: in a firm that spends its day flagging red flags in other people's balance sheets, someone needs to remind us that not everything needs to be stress-tested.</p>
+      <p className="mb-4">He does that. Unpaid. Un-appraised. Unbothered.</p>
+      <p>Every high-pressure team needs one member who refuses to take the P&L personally. Ours has fur.</p>
+    </>
+  )
+};
 
 const valuesData = [
   {
@@ -421,6 +423,41 @@ export default function WhoWeAre() {
             ))}
           </div>
 
+          <div className="flex items-center justify-center mt-16 mb-16">
+             <div className="w-1/2 h-[1px] bg-gradient-to-r from-transparent via-[#C4973B]/50 to-transparent"></div>
+          </div>
+
+          <div className="max-w-[360px] mx-auto">
+            <div 
+              onClick={() => setSelectedProfile(harveyProfile)}
+              className="flex flex-col items-center gap-[24px] p-[32px] rounded-2xl transition-all duration-500 hover:bg-gray-50 border border-transparent hover:border-[#C4973B]/20 hover:shadow-2xl cursor-pointer group"
+            >
+              <div className="flex-shrink-0">
+                <div className="w-[140px] h-[140px] rounded-full overflow-hidden border-[4px] border-[#001f3f] group-hover:border-[#C4973B] transition-colors duration-500 shadow-lg mx-auto">
+                  <img
+                    src={harveyProfile.image}
+                    alt={harveyProfile.name}
+                    className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                  />
+                </div>
+              </div>
+              <div className="text-center">
+                <h3 className="text-[24px] font-playfair text-[#001f3f] font-bold mb-[4px] group-hover:text-[#C4973B] transition-colors duration-500">
+                  {harveyProfile.name}
+                </h3>
+                <h4 className="text-[14px] text-[#C4973B] mb-[12px] font-semibold tracking-wide uppercase">
+                  {harveyProfile.role}
+                </h4>
+                <p className="text-[#43474e] text-[15px] leading-[1.6] font-light line-clamp-3">
+                  {harveyProfile.shortDesc}
+                </p>
+                <div className="mt-4 inline-flex items-center text-[#001f3f] font-semibold text-xs tracking-widest uppercase group-hover:text-[#C4973B] transition-colors duration-300">
+                  Read Full Profile <span className="ml-2">→</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
       
@@ -493,40 +530,6 @@ export default function WhoWeAre() {
         </div>
       </section>
 
-      {/* Global Influence Section */}
-      <section className="py-[20px] bg-[#001f3f]">
-        <div className="max-w-[1440px] mx-auto px-[32px] md:px-[40px] text-center">
-          <span className="text-[#C4973B] font-playfair italic text-[18px] mb-[16px] block">
-            International Standards
-          </span>
-          <h2 className="font-playfair text-[36px] md:text-[48px] text-[#ffffff] mb-[48px] tracking-[0px]">
-            Global Influence. Local Mastery.
-          </h2>
-          <div className="max-w-[896px] mx-auto">
-            <p className="text-[#ffffff] text-[20px] font-[300] leading-[1.6] mb-[64px]">
-              Northrop Management bridges the gap between sophisticated
-              international capital standards and the ground realities of the
-              Indian marketplace. Our advisory is rooted in local nuance but
-              executed with global precision.
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-[48px] text-left">
-              {globalInfluenceData.map((item, idx) => (
-                <div key={idx} className="flex gap-[24px]">
-                  <item.icon className="text-[#C4973B] w-[36px] h-[36px] stroke-[1.5px] mt-[4px] shrink-0" />
-                  <div>
-                    <h4 className="font-[700] text-[12px] uppercase tracking-[0.2em] text-[#ffffff] mb-[8px]">
-                      {item.title}
-                    </h4>
-                    <p className="text-[14px] text-[#ffffff] leading-[1.6]">
-                      {item.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Strategic Client Profile Section */}
       <section className="py-[64px] bg-white relative overflow-hidden">
