@@ -9,6 +9,11 @@ const brands = [
   { id: 6, src: '/brands/brand6.png', alt: 'Brand 6' },
   { id: 7, src: '/brands/brand7.png', alt: 'Brand 7' },
   { id: 8, src: '/brands/brand8.png', alt: 'Brand 8' },
+  { id: 9, src: '/brands/brand10.jpg', alt: 'Brand 10' },
+  { id: 10, src: '/brands/brand11.jpg', alt: 'Brand 11' },
+  { id: 11, src: '/brands/brand12.jpg', alt: 'Brand 12' },
+  { id: 12, src: '/brands/brand13.png', alt: 'Brand 13' },
+  { id: 13, src: '/brands/brand14.png', alt: 'Brand 14' },
 ];
 
 export default function BrandMarquee() {
@@ -26,59 +31,65 @@ export default function BrandMarquee() {
       {/* Marquee Container */}
       <div className="relative flex overflow-x-hidden group">
         {/* First marquee track */}
-        <div className="animate-scroll flex whitespace-nowrap items-center space-x-16 px-8">
+        <div className="animate-scroll flex whitespace-nowrap items-center space-x-6 px-6">
           {brands.map((brand) => (
-            <img
-              key={brand.id}
-              className={`h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 ${brand.className || ''}`}
-              src={brand.src}
-              alt={brand.alt}
-            />
+            <div key={brand.id} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
+              <img
+                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+                src={brand.src}
+                alt={brand.alt}
+              />
+            </div>
           ))}
-          {/* Duplicate brands inline for seamless loop in one track if needed, but we rely on duplicating the track */}
+          {/* Duplicate brands inline for seamless loop */}
           {brands.map((brand) => (
-            <img
-              key={`dup1-${brand.id}`}
-              className={`h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 ${brand.className || ''}`}
-              src={brand.src}
-              alt={brand.alt}
-            />
+            <div key={`dup1-${brand.id}`} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
+              <img
+                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+                src={brand.src}
+                alt={brand.alt}
+              />
+            </div>
           ))}
            {brands.map((brand) => (
-            <img
-              key={`dup2-${brand.id}`}
-              className={`h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 ${brand.className || ''}`}
-              src={brand.src}
-              alt={brand.alt}
-            />
+            <div key={`dup2-${brand.id}`} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
+              <img
+                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+                src={brand.src}
+                alt={brand.alt}
+              />
+            </div>
           ))}
         </div>
 
         {/* Second marquee track (absolute to follow the first one) */}
-        <div className="animate-scroll absolute top-0 flex whitespace-nowrap items-center space-x-16 px-8" style={{ left: '100%' }}>
+        <div className="animate-scroll absolute top-0 flex whitespace-nowrap items-center space-x-6 px-6" style={{ left: '100%' }}>
           {brands.map((brand) => (
-            <img
-              key={brand.id}
-              className={`h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 ${brand.className || ''}`}
-              src={brand.src}
-              alt={brand.alt}
-            />
+             <div key={brand.id} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
+              <img
+                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+                src={brand.src}
+                alt={brand.alt}
+              />
+            </div>
           ))}
           {brands.map((brand) => (
-            <img
-              key={`dup3-${brand.id}`}
-              className={`h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 ${brand.className || ''}`}
-              src={brand.src}
-              alt={brand.alt}
-            />
+             <div key={`dup3-${brand.id}`} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
+              <img
+                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+                src={brand.src}
+                alt={brand.alt}
+              />
+            </div>
           ))}
            {brands.map((brand) => (
-            <img
-              key={`dup4-${brand.id}`}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
-              src={brand.src}
-              alt={brand.alt}
-            />
+             <div key={`dup4-${brand.id}`} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
+              <img
+                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+                src={brand.src}
+                alt={brand.alt}
+              />
+            </div>
           ))}
         </div>
         
