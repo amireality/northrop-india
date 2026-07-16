@@ -4,7 +4,7 @@ const brands = [
   { id: 1, src: '/brands/brand1.png', alt: 'Brand 1' },
   { id: 2, src: '/brands/brand2.png', alt: 'Luv2Care', className: 'scale-[1.5]' },
   { id: 3, src: '/brands/brand3.png', alt: 'Brand 3' },
-  { id: 4, src: '/brands/brand4.png', alt: 'Brand 4', className: 'invert' }, // setupr has white text
+  { id: 4, src: '/brands/brand15.png', alt: 'setupr' }, // new setupr logo with black text
   { id: 5, src: '/brands/brand5.png', alt: 'Brand 5' },
   { id: 6, src: '/brands/brand6.png', alt: 'Brand 6' },
   { id: 7, src: '/brands/brand7.png', alt: 'Brand 7' },
@@ -20,8 +20,8 @@ const row1 = brands.slice(0, 7);
 const row2 = brands.slice(7);
 
 const renderMarqueeRow = (rowBrands, animationClass) => (
-  <div className="relative flex overflow-x-hidden group mb-6">
-    <div className={`${animationClass} flex whitespace-nowrap items-center space-x-6 px-6`}>
+  <div className="relative flex overflow-hidden group mb-6 space-x-6">
+    <div className={`flex ${animationClass} space-x-6 shrink-0`}>
       {rowBrands.map((brand) => (
         <div key={brand.id} className="flex h-24 w-60 shrink-0 items-center justify-center rounded-2xl bg-white px-8 shadow-sm">
           <img
@@ -31,7 +31,6 @@ const renderMarqueeRow = (rowBrands, animationClass) => (
           />
         </div>
       ))}
-      {/* Duplicate for seamless loop */}
       {rowBrands.map((brand) => (
         <div key={`dup1-${brand.id}`} className="flex h-24 w-60 shrink-0 items-center justify-center rounded-2xl bg-white px-8 shadow-sm">
           <img
@@ -51,8 +50,7 @@ const renderMarqueeRow = (rowBrands, animationClass) => (
         </div>
       ))}
     </div>
-    {/* Second track for continuous animation */}
-    <div className={`${animationClass} absolute top-0 flex whitespace-nowrap items-center space-x-6 px-6`} style={{ left: '100%' }}>
+    <div className={`flex ${animationClass} space-x-6 shrink-0`} aria-hidden="true">
       {rowBrands.map((brand) => (
           <div key={brand.id} className="flex h-24 w-60 shrink-0 items-center justify-center rounded-2xl bg-white px-8 shadow-sm">
           <img
@@ -101,10 +99,10 @@ export default function BrandMarquee() {
       </div>
       
       {/* Row 1: Left to Right (Reverse scroll) */}
-      {renderMarqueeRow(row1, 'animate-scroll-reverse')}
+      {renderMarqueeRow(row1, 'animate-loop-scroll-reverse')}
 
       {/* Row 2: Right to Left (Normal scroll) */}
-      {renderMarqueeRow(row2, 'animate-scroll')}
+      {renderMarqueeRow(row2, 'animate-loop-scroll')}
       
     </section>
   );
