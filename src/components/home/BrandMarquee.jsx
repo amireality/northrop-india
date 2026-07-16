@@ -2,9 +2,13 @@ import React from 'react';
 
 const brands = [
   { id: 1, src: '/brands/brand1.png', alt: 'Brand 1' },
-  { id: 2, src: '/brands/brand2.png', alt: 'Brand 2' },
+  { id: 2, src: '/brands/brand2.png', alt: 'Luv2Care', className: 'scale-[2.5]' },
   { id: 3, src: '/brands/brand3.png', alt: 'Brand 3' },
   { id: 4, src: '/brands/brand4.png', alt: 'Brand 4' },
+  { id: 5, src: '/brands/brand5.png', alt: 'Brand 5' },
+  { id: 6, src: '/brands/brand6.png', alt: 'Brand 6' },
+  { id: 7, src: '/brands/brand7.png', alt: 'Brand 7' },
+  { id: 8, src: '/brands/brand8.png', alt: 'Brand 8' },
 ];
 
 export default function BrandMarquee() {
@@ -26,7 +30,7 @@ export default function BrandMarquee() {
           {brands.map((brand) => (
             <img
               key={brand.id}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
+              className={`h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 ${brand.className || ''}`}
               src={brand.src}
               alt={brand.alt}
             />
@@ -35,7 +39,7 @@ export default function BrandMarquee() {
           {brands.map((brand) => (
             <img
               key={`dup1-${brand.id}`}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
+              className={`h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 ${brand.className || ''}`}
               src={brand.src}
               alt={brand.alt}
             />
@@ -43,7 +47,7 @@ export default function BrandMarquee() {
            {brands.map((brand) => (
             <img
               key={`dup2-${brand.id}`}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
+              className={`h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 ${brand.className || ''}`}
               src={brand.src}
               alt={brand.alt}
             />
@@ -55,7 +59,7 @@ export default function BrandMarquee() {
           {brands.map((brand) => (
             <img
               key={brand.id}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
+              className={`h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 ${brand.className || ''}`}
               src={brand.src}
               alt={brand.alt}
             />
@@ -63,7 +67,7 @@ export default function BrandMarquee() {
           {brands.map((brand) => (
             <img
               key={`dup3-${brand.id}`}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
+              className={`h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 ${brand.className || ''}`}
               src={brand.src}
               alt={brand.alt}
             />
