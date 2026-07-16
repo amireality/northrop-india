@@ -11,6 +11,7 @@ import HomeForumV3 from '../components/home/HomeForumV3';
 import HomeIndustriesV3 from '../components/home/HomeIndustriesV3';
 import ContactSection from '../components/home/ContactSection';
 import Researchreports from '../components/Researchreports';
+import BrandMarquee from '../components/home/BrandMarquee';
 
 
 function HomePage() {
@@ -63,7 +64,8 @@ function HomePage() {
       <HeroVideo />
 
       <HomeHeroV3 />
-
+      
+      <BrandMarquee />
 
        <HomeStatsV3 />
 
