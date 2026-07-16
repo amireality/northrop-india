@@ -9,12 +9,12 @@ const brands = [
 
 export default function BrandMarquee() {
   return (
-    <section className="bg-white py-16 sm:py-24 border-b border-gray-100 overflow-hidden">
+    <section className="bg-black py-16 sm:py-24 border-b border-white/10 overflow-hidden">
       <div className="mx-auto max-w-7xl px-6 lg:px-8 mb-12 text-center">
-        <h2 className="font-playfair text-[32px] md:text-[40px] text-[#001f3f] font-bold tracking-tight">
+        <h2 className="font-playfair text-[32px] md:text-[40px] text-white font-bold tracking-tight">
           Trusted by Industry Leaders
         </h2>
-        <p className="mt-4 text-lg leading-8 text-gray-600 font-sans max-w-2xl mx-auto">
+        <p className="mt-4 text-lg leading-8 text-gray-400 font-sans max-w-2xl mx-auto">
           We partner with ambitious enterprises and institutions to drive sustainable growth.
         </p>
       </div>
@@ -26,7 +26,7 @@ export default function BrandMarquee() {
           {brands.map((brand) => (
             <img
               key={brand.id}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 mix-blend-multiply"
+              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
               src={brand.src}
               alt={brand.alt}
             />
@@ -35,7 +35,7 @@ export default function BrandMarquee() {
           {brands.map((brand) => (
             <img
               key={`dup1-${brand.id}`}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 mix-blend-multiply"
+              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
               src={brand.src}
               alt={brand.alt}
             />
@@ -43,7 +43,7 @@ export default function BrandMarquee() {
            {brands.map((brand) => (
             <img
               key={`dup2-${brand.id}`}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 mix-blend-multiply"
+              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
               src={brand.src}
               alt={brand.alt}
             />
@@ -55,7 +55,7 @@ export default function BrandMarquee() {
           {brands.map((brand) => (
             <img
               key={brand.id}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 mix-blend-multiply"
+              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
               src={brand.src}
               alt={brand.alt}
             />
@@ -63,7 +63,7 @@ export default function BrandMarquee() {
           {brands.map((brand) => (
             <img
               key={`dup3-${brand.id}`}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 mix-blend-multiply"
+              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
               src={brand.src}
               alt={brand.alt}
             />
@@ -71,7 +71,7 @@ export default function BrandMarquee() {
            {brands.map((brand) => (
             <img
               key={`dup4-${brand.id}`}
-              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100 mix-blend-multiply"
+              className="h-12 md:h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-70 hover:opacity-100"
               src={brand.src}
               alt={brand.alt}
             />
@@ -79,8 +79,8 @@ export default function BrandMarquee() {
         </div>
         
         {/* Gradient overlays to fade edges */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-white to-transparent"></div>
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-white to-transparent"></div>
+        <div className="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-black to-transparent"></div>
+        <div className="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-black to-transparent"></div>
       </div>
     </section>
   );
