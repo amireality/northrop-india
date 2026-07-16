@@ -2,9 +2,9 @@ import React from 'react';
 
 const brands = [
   { id: 1, src: '/brands/brand1.png', alt: 'Brand 1' },
-  { id: 2, src: '/brands/brand2.png', alt: 'Luv2Care', className: 'scale-[2.5]' },
+  { id: 2, src: '/brands/brand2.png', alt: 'Luv2Care', className: 'scale-[1.5]' },
   { id: 3, src: '/brands/brand3.png', alt: 'Brand 3' },
-  { id: 4, src: '/brands/brand4.png', alt: 'Brand 4' },
+  { id: 4, src: '/brands/brand4.png', alt: 'Brand 4', className: 'invert' }, // setupr has white text
   { id: 5, src: '/brands/brand5.png', alt: 'Brand 5' },
   { id: 6, src: '/brands/brand6.png', alt: 'Brand 6' },
   { id: 7, src: '/brands/brand7.png', alt: 'Brand 7' },
@@ -15,6 +15,78 @@ const brands = [
   { id: 12, src: '/brands/brand13.png', alt: 'Brand 13' },
   { id: 13, src: '/brands/brand14.png', alt: 'Brand 14' },
 ];
+
+const row1 = brands.slice(0, 7);
+const row2 = brands.slice(7);
+
+const renderMarqueeRow = (rowBrands, animationClass) => (
+  <div className="relative flex overflow-x-hidden group mb-6">
+    <div className={`${animationClass} flex whitespace-nowrap items-center space-x-6 px-6`}>
+      {rowBrands.map((brand) => (
+        <div key={brand.id} className="flex h-24 w-60 shrink-0 items-center justify-center rounded-2xl bg-white px-8 shadow-sm">
+          <img
+            className={`max-h-[80%] max-w-[90%] object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+            src={brand.src}
+            alt={brand.alt}
+          />
+        </div>
+      ))}
+      {/* Duplicate for seamless loop */}
+      {rowBrands.map((brand) => (
+        <div key={`dup1-${brand.id}`} className="flex h-24 w-60 shrink-0 items-center justify-center rounded-2xl bg-white px-8 shadow-sm">
+          <img
+            className={`max-h-[80%] max-w-[90%] object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+            src={brand.src}
+            alt={brand.alt}
+          />
+        </div>
+      ))}
+       {rowBrands.map((brand) => (
+        <div key={`dup2-${brand.id}`} className="flex h-24 w-60 shrink-0 items-center justify-center rounded-2xl bg-white px-8 shadow-sm">
+          <img
+            className={`max-h-[80%] max-w-[90%] object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+            src={brand.src}
+            alt={brand.alt}
+          />
+        </div>
+      ))}
+    </div>
+    {/* Second track for continuous animation */}
+    <div className={`${animationClass} absolute top-0 flex whitespace-nowrap items-center space-x-6 px-6`} style={{ left: '100%' }}>
+      {rowBrands.map((brand) => (
+          <div key={brand.id} className="flex h-24 w-60 shrink-0 items-center justify-center rounded-2xl bg-white px-8 shadow-sm">
+          <img
+            className={`max-h-[80%] max-w-[90%] object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+            src={brand.src}
+            alt={brand.alt}
+          />
+        </div>
+      ))}
+      {rowBrands.map((brand) => (
+          <div key={`dup3-${brand.id}`} className="flex h-24 w-60 shrink-0 items-center justify-center rounded-2xl bg-white px-8 shadow-sm">
+          <img
+            className={`max-h-[80%] max-w-[90%] object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+            src={brand.src}
+            alt={brand.alt}
+          />
+        </div>
+      ))}
+        {rowBrands.map((brand) => (
+          <div key={`dup4-${brand.id}`} className="flex h-24 w-60 shrink-0 items-center justify-center rounded-2xl bg-white px-8 shadow-sm">
+          <img
+            className={`max-h-[80%] max-w-[90%] object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
+            src={brand.src}
+            alt={brand.alt}
+          />
+        </div>
+      ))}
+    </div>
+    
+    {/* Gradient overlays to fade edges */}
+    <div className="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-black to-transparent z-10"></div>
+    <div className="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-black to-transparent z-10"></div>
+  </div>
+);
 
 export default function BrandMarquee() {
   return (
@@ -28,75 +100,12 @@ export default function BrandMarquee() {
         </p>
       </div>
       
-      {/* Marquee Container */}
-      <div className="relative flex overflow-x-hidden group">
-        {/* First marquee track */}
-        <div className="animate-scroll flex whitespace-nowrap items-center space-x-6 px-6">
-          {brands.map((brand) => (
-            <div key={brand.id} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
-              <img
-                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
-                src={brand.src}
-                alt={brand.alt}
-              />
-            </div>
-          ))}
-          {/* Duplicate brands inline for seamless loop */}
-          {brands.map((brand) => (
-            <div key={`dup1-${brand.id}`} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
-              <img
-                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
-                src={brand.src}
-                alt={brand.alt}
-              />
-            </div>
-          ))}
-           {brands.map((brand) => (
-            <div key={`dup2-${brand.id}`} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
-              <img
-                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
-                src={brand.src}
-                alt={brand.alt}
-              />
-            </div>
-          ))}
-        </div>
+      {/* Row 1: Left to Right (Reverse scroll) */}
+      {renderMarqueeRow(row1, 'animate-scroll-reverse')}
 
-        {/* Second marquee track (absolute to follow the first one) */}
-        <div className="animate-scroll absolute top-0 flex whitespace-nowrap items-center space-x-6 px-6" style={{ left: '100%' }}>
-          {brands.map((brand) => (
-             <div key={brand.id} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
-              <img
-                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
-                src={brand.src}
-                alt={brand.alt}
-              />
-            </div>
-          ))}
-          {brands.map((brand) => (
-             <div key={`dup3-${brand.id}`} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
-              <img
-                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
-                src={brand.src}
-                alt={brand.alt}
-              />
-            </div>
-          ))}
-           {brands.map((brand) => (
-             <div key={`dup4-${brand.id}`} className="flex h-24 w-48 shrink-0 items-center justify-center rounded-2xl bg-white px-6 shadow-sm overflow-hidden">
-              <img
-                className={`max-h-full max-w-full object-contain grayscale hover:grayscale-0 transition-all duration-500 opacity-90 hover:opacity-100 ${brand.className || ''}`}
-                src={brand.src}
-                alt={brand.alt}
-              />
-            </div>
-          ))}
-        </div>
-        
-        {/* Gradient overlays to fade edges */}
-        <div className="pointer-events-none absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-black to-transparent"></div>
-        <div className="pointer-events-none absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-black to-transparent"></div>
-      </div>
+      {/* Row 2: Right to Left (Normal scroll) */}
+      {renderMarqueeRow(row2, 'animate-scroll')}
+      
     </section>
   );
 }
