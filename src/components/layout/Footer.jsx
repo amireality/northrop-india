@@ -115,7 +115,7 @@ function Footer() {
             </p>
             <a href="https://setupr.com/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors w-fit">
               <span>Developed by Setupr</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 100 100" fill="#E96C11">
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 100 100" fill="#E96C11">
                 <rect x="8" y="10" width="30" height="30" rx="6" transform="rotate(5, 23, 25)" />
                 <rect x="55" y="10" width="30" height="30" rx="6" transform="rotate(45, 70, 25)" />
                 <rect x="30" y="55" width="35" height="35" rx="6" transform="rotate(15, 47.5, 72.5)" />
