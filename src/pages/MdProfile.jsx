@@ -51,7 +51,7 @@ function MdProfile() {
           <p>On LinkedIn, he doesn't dress things up. He calls out institutional failure with the same precision he'd apply to a balance sheet – directly, with no theatre, and no apology for being direct. In a profession that tends to reward discretion, he's chosen, on purpose, to be the exception.</p>
           
           <h3 className="text-2xl md:text-3xl font-serif text-[#001f3f] font-bold mt-8 mb-4">BACKGROUND</h3>
-          <p>Ashish has built three ventures so far – Northrop Management, Northrop Institute of Global Finance, and Northrop Research Foundation – all resting on the foundation of his independent work under ARC Consulting and his time with previous employers. He keeps an active, visible presence on LinkedIn, with a top-tier Social Selling Index score and steady engagement across the finance, consulting, and investment community.</p>
+          <p>Ashish has built two ventures so far - Northrop Management and Northrop Research Foundation - all resting on the foundation of his independent work under ARC Consulting and his time with previous employers. He keeps an active, visible presence on LinkedIn, with a top-tier Social Selling Index score and steady engagement across the finance, consulting, and investment community.</p>
           
           <div className="mt-16 pt-8 border-t border-gray-200">
             <p className="text-xs text-gray-500 uppercase tracking-wider">Note: the organisations named above include clients served directly by Northrop Management Private Limited, as well as engagements Ashish carried out in his individual capacity – as an employee, freelance consultant, or independent advisor – prior to or alongside the firm's formal incorporation, as indicated in each section.</p>

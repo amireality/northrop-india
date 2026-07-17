@@ -72,9 +72,7 @@ export default function Header() {
               </button>
             </div>
 
-            <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
-              <NavItem label="Northrop Institute of Global Finance" href="/institute" hasDropdown={false} />
-            </div>
+
 
             <div className="flex h-full items-center" onMouseEnter={() => setIsMegaMenuOpen(false)}>
               <NavItem label="Insights" href="/insights" hasDropdown={false} />
@@ -178,7 +176,7 @@ export default function Header() {
               <div className="flex flex-col gap-10 mt-4">
                 <MobileNavItem label="Who we are" href="/who-we-are" onClick={() => setIsMobileMenuOpen(false)} />
                 <MobileNavItem label="What we do" onClick={() => setActiveSubMenu("What we do")} hasArrow />
-                <MobileNavItem label="Northrop Institute of Global Finance" href="/institute" onClick={() => setIsMobileMenuOpen(false)} />
+
                 <MobileNavItem label="Insights" href="/insights" onClick={() => setIsMobileMenuOpen(false)} />
                 <MobileNavItem label="Digital" href="/digital" onClick={() => setIsMobileMenuOpen(false)} />
 

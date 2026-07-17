@@ -6,7 +6,7 @@ const insightsData = [
     tag: "Private Equity · Forthcoming",
     title: "How Private Equity Actually Makes Money",
     desc: "A ground-level examination of how PE firms generate returns — separating the mechanics of leverage, operational value creation, and multiple expansion from the mythology.",
-    footertag:"Northrop Institute of Global Finance"
+    footertag:"Northrop Management"
   },
   {
     id:2,
@@ -20,7 +20,7 @@ const insightsData = [
     tag: "Hedge Funds · Forthcoming",
     title: "The Real Economics of Hedge Funds",
     desc: "Beyond the 2-and-20 headline — an honest look at fund economics, manager incentives, and what institutional investors actually experience over a full cycle.",
-    footertag:"Northrop Institute of Global Finance"
+    footertag:"Northrop Management"
   },
   {
     id:4,
@@ -34,14 +34,14 @@ const insightsData = [
     tag: "Credit Markets · Forthcoming",
     title: "How Credit Actually Gets Priced",
     desc: "The gap between textbook credit theory and how lenders, credit committees, and rating analysts actually assess and price risk in real transactions.",
-    footertag:"Northrop Institute of Global Finance"
+    footertag:"Northrop Management"
   },
   {
     id:6,
     // tag: "",
     title: "Research In Progress",
     desc: "Further papers, reports, and market perspectives from the Northrop team will be published here as they are completed. This section is updated on an ongoing basis.",
-    // footertag:"Northrop Institute of Global Finance"
+    // footertag:"Northrop Management"
   }
 ];
 
