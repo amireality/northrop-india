@@ -49,7 +49,7 @@ const insightsData = {
     }
   ],
   mandateHighlight: {
-    quote: "\"The true cost of capital is not what you pay, but what you forgo.\"",
+    quote: "\"The true cost of capital is not what you pay, but what you forgot.\"",
     author: "— Excerpt from the Chairman's 2026 Mandate",
     image: "/insight/mandatehighlight.png"
   }
@@ -74,7 +74,7 @@ export default function Insights() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-[48px] items-end">
             <div className="lg:col-span-8">
               <span className="text-[#C4973B] font-[500] tracking-[0.2em] text-[14px] uppercase mb-[16px] block">Northrop Management</span>
-              <h1 className="text-[72px] md:text-[96px] lg:text-[128px] font-playfair italic font-[700] tracking-tighter leading-[0.85] text-[#001f3f] mb-[32px]">
+              <h1 className="text-[72px] md:text-[96px] lg:text-[128px] font-sans font-extrabold tracking-tighter leading-[0.85] text-[#001f3f] mb-[32px]">
                 Insights & Mandate Reports
               </h1>
             </div>
@@ -89,7 +89,7 @@ export default function Insights() {
         {/* Institutional Research: Bento Grid */}
         <section className="mb-[128px]">
           <div className="flex items-center justify-between mb-[48px] border-b border-[#c4c6cf]/15 pb-[16px]">
-            <h2 className="text-[36px] font-playfair font-[700] text-[#001f3f]">Institutional Research</h2>
+            <h2 className="text-[36px] font-sans font-[700] text-[#001f3f]">Institutional Research</h2>
             {/* <span className="text-[12px] uppercase tracking-widest text-[#43474e]">Volume IV • Q3 2026</span> */}
           </div>
 
@@ -108,7 +108,7 @@ export default function Insights() {
                 <span className="inline-block px-[12px] py-[4px] bg-[#001f3f] text-white text-[10px] font-[700] tracking-tighter uppercase mb-[24px]">
                   {insightsData.featuredArticle.tag}
                 </span>
-                <h3 className="text-[48px] font-playfair font-[700] text-[#001f3f] mb-[24px] max-w-[672px] leading-[1.1]">
+                <h3 className="text-[48px] font-sans font-[700] text-[#001f3f] mb-[24px] max-w-[672px] leading-[1.1]">
                   {insightsData.featuredArticle.title}
                 </h3>
                 <p className="text-[#43474e] max-w-[576px] mb-[32px] text-[16px] leading-[1.6]">
@@ -141,7 +141,7 @@ export default function Insights() {
               <span className="text-[#C4973B] font-[700] text-[10px] tracking-widest uppercase mb-[16px] block">
                 {insightsData.sideArticles[0].tag}
               </span>
-              <h3 className="text-[30px] font-playfair font-[700] text-[#001f3f] mb-[16px] leading-[1.1]">
+              <h3 className="text-[30px] font-sans font-[700] text-[#001f3f] mb-[16px] leading-[1.1]">
                 {insightsData.sideArticles[0].title}
               </h3>
               <p className="text-[14px] text-[#43474e] mb-[32px] flex-grow leading-[1.6]">
@@ -157,7 +157,7 @@ export default function Insights() {
               <span className="text-[#C4973B] font-[700] text-[10px] tracking-widest uppercase mb-[16px] block">
                 {insightsData.sideArticles[1].tag}
               </span>
-              <h3 className="text-[30px] font-playfair font-[700] text-[#001f3f] mb-[16px] leading-[1.1]">
+              <h3 className="text-[30px] font-sans font-[700] text-[#001f3f] mb-[16px] leading-[1.1]">
                 {insightsData.sideArticles[1].title}
               </h3>
               <p className="text-[14px] text-[#43474e] mb-[32px] flex-grow leading-[1.6]">
@@ -182,7 +182,7 @@ export default function Insights() {
                 <span className="text-[#C4973B] font-[700] text-[10px] tracking-widest uppercase mb-[24px] block">
                   {insightsData.longArticle.tag}
                 </span>
-                <h3 className="text-[36px] font-playfair font-[700] text-white mb-[24px] leading-[1.1]">
+                <h3 className="text-[36px] font-sans font-[700] text-white mb-[24px] leading-[1.1]">
                   {insightsData.longArticle.title}
                 </h3>
                 <p className="text-[#9ea4b0] text-[14px] mb-[32px] leading-[1.6]">
@@ -211,7 +211,7 @@ export default function Insights() {
         {/* Strategic Perspectives: Editorial Row */}
         <section className="mb-[48px]">
           <div className="flex items-center justify-between mb-[48px] border-b border-[#c4c6cf]/15 pb-[16px]">
-            <h2 className="text-[36px] font-playfair font-[700] text-[#001f3f]">Strategic Perspectives</h2>
+            <h2 className="text-[36px] font-sans font-[700] text-[#001f3f]">Strategic Perspectives</h2>
 
 
             <Link to="/insights" className="text-[12px] uppercase tracking-widest text-[#C4973B] font-[700] border-b border-[#C4973B] pb-[4px]">
@@ -228,7 +228,7 @@ export default function Insights() {
                   <span className="text-[10px] text-[#43474e] uppercase tracking-widest mb-[8px] block">
                     {perspective.date}
                   </span>
-                  <h4 className="text-[24px] font-playfair font-[700] text-[#001f3f] group-hover:text-[#C4973B] transition-colors mb-[8px] leading-[1.2]">
+                  <h4 className="text-[24px] font-sans font-[700] text-[#001f3f] group-hover:text-[#C4973B] transition-colors mb-[8px] leading-[1.2]">
                     {perspective.title}
                   </h4>
                   <p className="text-[14px] text-[#43474e] leading-[1.6]">
@@ -251,10 +251,10 @@ export default function Insights() {
                 />
               </div>
               <div className="md:w-1/2 p-[48px] flex flex-col justify-center">
-                <h4 className="text-[36px] font-playfair font-[700] text-[#001f3f] mb-[24px] italic leading-[1.1]">
+                <h4 className="text-[36px] font-sans font-[700] text-[#001f3f] mb-[24px] leading-[1.1]">
                   {insightsData.mandateHighlight.quote}
                 </h4>
-                <p className="text-[#43474e] text-[14px] mb-[32px] italic leading-[1.6]">
+                <p className="text-[#43474e] text-[14px] mb-[32px] leading-[1.6]">
                   {insightsData.mandateHighlight.author}
                 </p>
                 <Link to="/insights/opportunity-cost-of-capital" className="text-[10px] font-[700] text-[#C4973B] uppercase tracking-widest">

@@ -60,6 +60,16 @@
   --color-on-tertiary-fixed-variant: #004b73;
   --color-outline: #74777f;
 
+  --color-advisory-background: #f9f9ff;
+  --color-advisory-on-background: #131c2a;
+  --color-advisory-surface-container: #e7eeff;
+  --color-advisory-surface-variant: #f0f3ff;
+  --color-advisory-on-surface: #001f3f;
+  --color-advisory-primary: #c5a044;
+  --color-advisory-primary-container: #fbf2db;
+  --color-advisory-on-primary-container: #775a00;
+  --color-advisory-outline: #c4c6cf;
+
   --font-headline: "Playfair Display", serif;
   --font-body: "Inter", sans-serif;
   --font-label: "Inter", sans-serif;

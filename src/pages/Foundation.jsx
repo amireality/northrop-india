@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Foundation = () => {
   return (
-    <div className="font-['Plus_Jakarta_Sans'] text-[#1A1A1A] bg-white min-h-screen antialiased">
+    <div className="font-sans text-[#1A1A1A] bg-white min-h-screen antialiased">
       <style>{`
         .foundation-serif { font-family: 'Cormorant Garamond', Georgia, serif; }
         .hero-pattern::before {
@@ -127,7 +127,7 @@ const Foundation = () => {
         <div className="max-w-[1360px] mx-auto">
           <div className="flex items-end justify-between mb-[48px] pb-[20px] border-b border-[#D8D0C0]">
             <div className="foundation-serif text-[32px] font-medium text-[#0A1628] leading-[1.1]">
-              <small className="block text-[11px] tracking-[0.14em] uppercase text-[#C5963A] font-['Plus_Jakarta_Sans'] font-bold mb-[8px]">
+              <small className="block text-[11px] tracking-[0.14em] uppercase text-[#C5963A] font-sans font-bold mb-[8px]">
                 Research Output
               </small>
               Latest Publications
@@ -213,7 +213,7 @@ const Foundation = () => {
         <div className="max-w-[1360px] mx-auto">
           <div className="flex items-end justify-between mb-[48px] pb-[20px] border-b border-[rgba(197,150,58,0.2)]">
             <div className="foundation-serif text-[32px] font-medium text-white leading-[1.1]">
-              <small className="block text-[11px] tracking-[0.14em] uppercase text-[#C5963A] font-['Plus_Jakarta_Sans'] font-bold mb-[8px]">
+              <small className="block text-[11px] tracking-[0.14em] uppercase text-[#C5963A] font-sans font-bold mb-[8px]">
                 Intellectual Focus
               </small>
               Research Themes
@@ -276,7 +276,7 @@ const Foundation = () => {
         <div className="max-w-[1360px] mx-auto">
           <div className="flex items-end justify-between mb-[48px] pb-[20px] border-b border-[#D8D0C0]">
             <div className="foundation-serif text-[32px] font-medium text-[#0A1628] leading-[1.1]">
-              <small className="block text-[11px] tracking-[0.14em] uppercase text-[#C5963A] font-['Plus_Jakarta_Sans'] font-bold mb-[8px]">
+              <small className="block text-[11px] tracking-[0.14em] uppercase text-[#C5963A] font-sans font-bold mb-[8px]">
                 Media Coverage
               </small>
               NRF in the Press
@@ -330,7 +330,7 @@ const Foundation = () => {
         <div className="max-w-[1360px] mx-auto">
           <div className="flex items-end justify-between mb-[48px] pb-[20px] border-b border-[#D8D0C0]">
             <div className="foundation-serif text-[32px] font-medium text-[#0A1628] leading-[1.1]">
-              <small className="block text-[11px] tracking-[0.14em] uppercase text-[#C5963A] font-['Plus_Jakarta_Sans'] font-bold mb-[8px]">
+              <small className="block text-[11px] tracking-[0.14em] uppercase text-[#C5963A] font-sans font-bold mb-[8px]">
                 Convening & Engagement
               </small>
               Upcoming Events
@@ -377,7 +377,7 @@ const Foundation = () => {
         <div className="max-w-[1360px] mx-auto">
           <div className="flex items-end justify-between mb-[48px] pb-[20px] border-b border-[#D8D0C0]">
             <div className="foundation-serif text-[32px] font-medium text-[#0A1628] leading-[1.1]">
-              <small className="block text-[11px] tracking-[0.14em] uppercase text-[#C5963A] font-['Plus_Jakarta_Sans'] font-bold mb-[8px]">
+              <small className="block text-[11px] tracking-[0.14em] uppercase text-[#C5963A] font-sans font-bold mb-[8px]">
                 Our Researchers
               </small>
               Research Fellows & Associates

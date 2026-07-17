@@ -2,26 +2,26 @@ import React from 'react';
 
 const WhatWeDo = () => {
   return (
-    <div className="bg-advisory-background text-advisory-on-background min-h-screen flex flex-col selection:bg-advisory-primary-container selection:text-advisory-on-primary-container font-inter">
+    <div className="bg-advisory-background text-advisory-on-background min-h-screen flex flex-col selection:bg-advisory-primary-container selection:text-advisory-on-primary-container font-sans">
       <main className="flex flex-col flex-grow">
         {/* Hero Section */}
         <section className="relative w-full border-b border-advisory-outline grid grid-cols-1 lg:grid-cols-12 min-h-[700px] bg-white overflow-hidden">
           <div className="lg:col-span-7 flex flex-col justify-center p-8 md:p-12 lg:p-24 z-10">
-            <span className="font-hanken text-[10px] md:text-xs uppercase text-advisory-primary font-bold mb-6 tracking-[0.4em] inline-block">
+            <span className="font-sans text-[10px] md:text-xs uppercase text-advisory-primary font-bold mb-6 tracking-[0.4em] inline-block">
               Protocol 01 — Executive Advisory
             </span>
-            <h1 className="font-hanken text-5xl md:text-7xl lg:text-8xl font-bold leading-none mb-10 text-advisory-on-surface">
+            <h1 className="font-sans text-5xl md:text-7xl lg:text-8xl font-bold leading-none mb-10 text-advisory-on-surface">
               RIGOUR<br />AND<br />
               <span className="text-advisory-primary-container bg-advisory-on-surface px-2">GROWTH</span>
             </h1>
-            <p className="font-inter text-lg md:text-xl max-w-xl mb-12 text-advisory-on-surface/70 leading-relaxed">
+            <p className="font-sans text-lg md:text-xl max-w-xl mb-12 text-advisory-on-surface/70 leading-relaxed">
               Northrop Advisory operates on the principle of <span className="text-advisory-on-surface font-semibold underline decoration-advisory-primary-container decoration-4 underline-offset-4">Functional Honesty</span>. We provide absolute structural clarity in financial and strategic consulting.
             </p>
             <div className="flex flex-wrap gap-6">
-              <button className="bg-advisory-on-surface text-white px-8 md:px-10 py-4 md:py-5 font-hanken text-sm font-bold uppercase rounded hover:bg-advisory-on-surface/90 transition-all">
+              <button className="bg-advisory-on-surface text-white px-8 md:px-10 py-4 md:py-5 font-sans text-sm font-bold uppercase rounded hover:bg-advisory-primary hover:text-white transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1">
                 INITIATE STRATEGY
               </button>
-              <button className="bg-white text-advisory-on-surface px-8 md:px-10 py-4 md:py-5 border border-advisory-on-surface/20 font-hanken text-sm font-bold uppercase rounded hover:bg-advisory-surface-variant transition-all">
+              <button className="bg-transparent text-advisory-on-surface px-8 md:px-10 py-4 md:py-5 border border-advisory-on-surface font-sans text-sm font-bold uppercase rounded hover:bg-advisory-on-surface hover:text-white transition-all duration-300 shadow-sm hover:shadow-lg hover:-translate-y-1">
                 VIEW REPORTS
               </button>
             </div>
@@ -38,7 +38,7 @@ const WhatWeDo = () => {
 
         {/* Minimal Commentary Bar */}
         <section className="bg-advisory-surface-container py-3 px-6 md:px-12 border-b border-advisory-outline/50">
-          <div className="flex flex-wrap justify-center md:justify-between items-center gap-6 md:gap-8 font-hanken text-[10px] md:text-xs tracking-[0.3em] uppercase text-advisory-on-surface/50">
+          <div className="flex flex-wrap justify-center md:justify-between items-center gap-6 md:gap-8 font-sans text-[10px] md:text-xs tracking-[0.3em] uppercase text-advisory-on-surface/50">
             <div className="flex items-center gap-3">
               <span className="material-symbols-outlined text-lg">architecture</span>
               <span>Absolute Clarity</span>
@@ -61,10 +61,10 @@ const WhatWeDo = () => {
         <section className="px-6 md:px-12 lg:px-24 bg-white py-16 md:py-24">
           <div className="mb-20 flex flex-col md:flex-row md:items-end justify-between border-b border-advisory-outline pb-12">
             <div className="max-w-2xl">
-              <span className="font-hanken text-xs font-bold uppercase text-advisory-primary mb-4 block tracking-widest">Division of Assets</span>
-              <h2 className="font-hanken text-4xl md:text-5xl font-bold text-advisory-on-surface uppercase tracking-tight">CORE SERVICES</h2>
+              <span className="font-sans text-xs font-bold uppercase text-advisory-primary mb-4 block tracking-widest">Division of Assets</span>
+              <h2 className="font-sans text-4xl md:text-5xl font-bold text-advisory-on-surface uppercase tracking-tight">CORE SERVICES</h2>
             </div>
-            <div className="max-w-sm font-inter text-sm mt-8 md:mt-0 text-advisory-on-surface/60 leading-relaxed">
+            <div className="max-w-sm font-sans text-sm mt-8 md:mt-0 text-advisory-on-surface/60 leading-relaxed">
               Every service offered is a block in the foundation of industrial success. We provide solutions of absolute structural integrity.
             </div>
           </div>
@@ -85,17 +85,17 @@ const WhatWeDo = () => {
                   <div className="w-10 h-10 bg-advisory-primary-container flex items-center justify-center rounded-sm text-advisory-on-primary-container">
                     <span className="material-symbols-outlined text-xl">{service.icon}</span>
                   </div>
-                  <span className="font-hanken text-[10px] text-advisory-on-surface/30 tracking-tighter">REF: {service.id}</span>
+                  <span className="font-sans text-[10px] text-advisory-on-surface/30 tracking-tighter">REF: {service.id}</span>
                 </div>
                 <div className="flex gap-4">
                   <img alt={service.title} className="w-16 h-16 object-cover rounded-sm " src={service.img} />
                   <div className="flex flex-col">
-                    <h3 className="font-hanken text-sm font-bold uppercase text-advisory-on-surface leading-tight mb-1">{service.title}</h3>
-                    <p className="font-inter text-[11px] text-advisory-on-surface/60 leading-tight">{service.desc}</p>
+                    <h3 className="font-sans text-sm font-bold uppercase text-advisory-on-surface leading-tight mb-1">{service.title}</h3>
+                    <p className="font-sans text-[11px] text-advisory-on-surface/60 leading-tight">{service.desc}</p>
                   </div>
                 </div>
                 <div className="mt-auto pt-4 flex items-center justify-between border-t border-advisory-outline/30">
-                  <span className="font-hanken text-[9px] uppercase font-bold text-advisory-primary">Specification</span>
+                  <span className="font-sans text-[9px] uppercase font-bold text-advisory-primary">Specification</span>
                   <span className="material-symbols-outlined text-sm text-advisory-primary group-hover:translate-x-1 transition-transform">arrow_right_alt</span>
                 </div>
               </div>
@@ -106,15 +106,15 @@ const WhatWeDo = () => {
         {/* CTA Section */}
         <section className="bg-white grid grid-cols-1 lg:grid-cols-2 border-t border-advisory-outline">
           <div className="p-8 md:p-12 lg:p-24 flex flex-col justify-center">
-            <h2 className="font-hanken text-5xl md:text-6xl font-bold uppercase leading-[0.9] mb-10 text-advisory-on-surface">
+            <h2 className="font-sans text-5xl md:text-6xl font-bold uppercase leading-[0.9] mb-10 text-advisory-on-surface">
               STRUCTURE IS<br />
               <span className="text-advisory-primary-container bg-advisory-on-surface px-2">PERMANENCE</span>
             </h2>
-            <p className="font-inter text-lg mb-12 text-advisory-on-surface/70 leading-relaxed max-w-lg">
+            <p className="font-sans text-lg mb-12 text-advisory-on-surface/70 leading-relaxed max-w-lg">
               Join the Northrop Advisory network. In a world of fluid boundaries, we provide the concrete framework for your legacy. Operational excellence is not a choice—it is a directive.
             </p>
             <div>
-              <button className="bg-advisory-on-surface text-white px-10 md:px-12 py-5 md:py-6 font-hanken text-sm font-bold uppercase rounded shadow-lg shadow-on-surface/10 hover:shadow-xl transition-all">
+              <button className="bg-advisory-on-surface text-white px-10 md:px-12 py-5 md:py-6 font-sans text-sm font-bold uppercase rounded shadow-lg hover:shadow-2xl hover:bg-advisory-primary hover:-translate-y-1 transition-all duration-300">
                 COMMAND ACCESS
               </button>
             </div>
