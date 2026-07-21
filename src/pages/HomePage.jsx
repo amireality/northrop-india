@@ -104,7 +104,7 @@ function HomePage() {
 
      
       
-      <HomeInsightsV3 />
+      <HomeInsightsV3 limit={8} />
 
       <Researchreports />
 

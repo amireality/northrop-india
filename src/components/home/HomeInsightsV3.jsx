@@ -6,26 +6,43 @@ const InsightCard = ({ data }) => (
     to={data.link || (data.slug ? `/reports/${data.slug}` : "/contact")}
     className="bg-white rounded-xl border border-gray-100 overflow-hidden flex flex-col transition-all duration-300 hover:shadow-xl hover:-translate-y-1.5 group cursor-pointer"
   >
-    <div className="relative h-40 overflow-hidden">
-      <img
-        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-        src={data.img}
-        alt={data.title}
-        loading="lazy"
-      />
-      <div className="absolute top-4 left-4">
-        <span className={`px-2.5 py-1 rounded-md text-[9px] font-bold uppercase tracking-wider ${data.tagClass} shadow-sm`}>
+    <div className={`relative overflow-hidden flex flex-col ${!data.img ? (data.bgGradient || 'bg-gradient-to-br from-[#1A2B45] to-[#2b4c7e]') + ' p-6 pt-16 min-h-[220px]' : 'h-48'}`}>
+      {data.img ? (
+        <img
+          className="w-full h-full absolute inset-0 object-cover transition-transform duration-700 group-hover:scale-110"
+          src={data.img}
+          alt={data.title}
+          loading="lazy"
+        />
+      ) : (
+        <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:12px_12px] opacity-50 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
+      )}
+      <div className="absolute top-4 left-4 flex gap-2 z-10">
+        <span className={`px-2.5 py-1 rounded-md text-[9px] font-bold uppercase tracking-wider shadow-sm ${data.img ? data.tagClass : 'bg-white text-gray-800'}`}>
           {data.categoryName}
         </span>
+        {data.isNew && (
+          <span className="px-2.5 py-1 rounded-md text-[9px] font-bold uppercase tracking-wider shadow-sm bg-[#C5963A] text-white animate-pulse">
+            New
+          </span>
+        )}
       </div>
+
+      {!data.img && (
+        <h3 className="relative z-10 font-serif text-[20px] font-bold text-white leading-[1.3] group-hover:text-[#C5963A] transition-colors mt-auto">
+          {data.title}
+        </h3>
+      )}
     </div>
     <div className="p-6 flex-1 flex flex-col">
       <div className="text-[10px] text-gray-400 uppercase tracking-widest mb-3 font-semibold">
         {data.date}
       </div>
-      <h3 className="font-serif text-[17px] font-bold text-[#1A2B45] leading-[1.3] mb-4 group-hover:text-[#C5963A] transition-colors">
-        {data.title}
-      </h3>
+      {data.img && (
+        <h3 className="font-serif text-[17px] font-bold text-[#1A2B45] leading-[1.3] mb-4 group-hover:text-[#C5963A] transition-colors">
+          {data.title}
+        </h3>
+      )}
       <p className="text-[13px] text-gray-500 leading-relaxed mb-6 flex-1 line-clamp-3">
         {data.text}
       </p>
@@ -40,7 +57,7 @@ const InsightCard = ({ data }) => (
   </Link>
 );
 
-const HomeInsightsV3 = () => {
+const HomeInsightsV3 = ({ limit }) => {
   const [activeFilter, setActiveFilter] = useState('all');
 
   const filters = [
@@ -56,6 +73,11 @@ const HomeInsightsV3 = () => {
   ];
 
   const insights = [
+    { id: 101, link: '/new-insights/forensic-accounting', category: 'forensic', categoryName: 'Forensic', date: 'Jul 2026', bgGradient: 'bg-gradient-to-br from-[#001F3F] to-[#0a3663]', title: 'What is Forensic Accounting? A Complete Guide for Indian Businesses (2026)', text: 'Learn what forensic accounting is, how it works in India, and when your business needs it. A plain English guide by Northrop Management.', readTime: '5 min', isNew: true },
+    { id: 102, link: '/new-insights/fdd-checklist', category: 'due-diligence', categoryName: 'Due Diligence', date: 'Jul 2026', bgGradient: 'bg-gradient-to-bl from-[#1A2B45] to-[#2b4c7e]', title: 'The Definitive Financial Due Diligence Checklist (2026)', text: 'De-risking Mid-Market M&A in India\'s Tightening Regulatory Environment. Uncover the true run-rate EBITDA and identify off-balance-sheet liabilities.', readTime: '6 min', isNew: true },
+    { id: 103, link: '/new-insights/internal-audit', category: 'assurance', categoryName: 'Assurance', date: 'Jul 2026', bgGradient: 'bg-gradient-to-br from-[#0A2624] to-[#144744]', title: 'Internal Audit: From Compliance Checkbox to Strategic Value', text: 'Moving internal audit from static retrospective plans to agile, risk-based strategic assurance in modern Indian enterprises.', readTime: '5 min', isNew: true },
+    { id: 104, link: '/new-insights/corporate-governance', category: 'consulting', categoryName: 'Consulting', date: 'Jul 2026', bgGradient: 'bg-gradient-to-tr from-[#311b00] to-[#59390a]', title: 'Corporate Governance 2.0: The Board\'s New Fiduciary Mandate', text: 'How Indian boards are restructuring governance frameworks to meet SEBI\'s mandates and institutional investor expectations.', readTime: '5 min', isNew: true },
+    { id: 105, link: '/new-insights/forensic-audit-ibc', category: 'forensic', categoryName: 'Forensic', date: 'Jul 2026', bgGradient: 'bg-gradient-to-br from-[#400e0e] to-[#731919]', title: 'Forensic Audit Under IBC: Recovering Value and Proving PUFE Transactions', text: 'Navigating Forensic Audits under the Insolvency and Bankruptcy Code (IBC). A guide for Resolution Professionals and Creditors.', readTime: '6 min', isNew: true },
     { id: 1, link: '/insights/india-ma-2025', category: 'due-diligence', categoryName: 'Due Diligence', tagClass: 'bg-blue-50 text-blue-600', date: 'Apr 2026', img: '/reportimg/1st.png', title: 'India M&A Crosses US$50B — AI Now Cuts FDD Review Time by 50%', text: 'Infrastructure-led deals and AI-enabled diligence tools are reshaping how mid-market acquirers assess risk and valuation.', readTime: '5 min' },
     { id: 2, link: '/insights/esg-due-diligence-ma-india', category: 'due-diligence', categoryName: 'Due Diligence', tagClass: 'bg-blue-50 text-blue-600', date: 'Feb 2026', img: '/reportimg/2ND .png', title: 'ESG Is Now a Deal Essential in Every M&A Review — Not a Post-Signing Consideration', text: 'Buyers who skip ESG diligence face significant post-close exposure. Sustainability performance is being priced into mid-market valuations.', readTime: '4 min' },
     { id: 3, slug: 'rbi-bank-fraud-2025', category: 'forensic', categoryName: 'Forensic', tagClass: 'bg-red-50 text-red-600', date: 'Apr 2026', img: '/reportimg/3rd.png', title: 'RBI Reports Bank Fraud Rising to ₹36,014 Crore — Three Times the Prior Year', text: 'Organisations must move from reactive investigation to continuous fraud surveillance. The surge demands forensic frameworks beyond statutory audit.', readTime: '5 min' },
@@ -81,7 +103,10 @@ const HomeInsightsV3 = () => {
 
   ];
 
-  const filteredInsights = insights.filter(i => activeFilter === 'all' || i.category === activeFilter);
+  let filteredInsights = insights.filter(i => activeFilter === 'all' || i.category === activeFilter);
+  if (limit) {
+    filteredInsights = filteredInsights.slice(0, limit);
+  }
 
   return (
     <section className="py-10 bg-white" id="insights">

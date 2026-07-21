@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import HomeInsightsV3 from '../components/home/HomeInsightsV3';
-import Insightsv3 from '../components/Insightv3';
+import { Boxes } from '../components/ui/background-boxes';
 
 const insightsData = {
   featuredArticle: {
@@ -68,204 +68,21 @@ export default function Insights() {
       </Helmet>
 
 
-      <main className="pt-[140px] pb-[96px] px-[32px] max-w-[1536px] mx-auto">
-        {/* Hero Section */}
-        <section className="mb-[96px]">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-[48px] items-end">
-            <div className="lg:col-span-8">
-              <span className="text-[#C4973B] font-[500] tracking-[0.2em] text-[14px] uppercase mb-[16px] block">Northrop Management</span>
-              <h1 className="text-[72px] md:text-[96px] lg:text-[128px] font-sans font-extrabold tracking-tighter leading-[0.85] text-[#001f3f] mb-[32px]">
-                Insights & Mandate Reports
-              </h1>
-            </div>
-            <div className="lg:col-span-4 pb-[16px]">
-              <p className="text-[18px] text-[#43474e] leading-[1.6] max-w-[448px]">
-                A definitive archive of proprietary research, macroeconomic mandates, and institutional perspectives curated for the modern capital allocator.
-              </p>
-            </div>
-          </div>
-        </section>
+      {/* Full Width Hero Section */}
+      <section className="pt-[140px] h-[600px] relative w-full overflow-hidden bg-[#001F3F] flex flex-col items-center justify-center">
+        <div className="absolute inset-0 w-full h-full bg-[#001F3F] z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
+        <Boxes />
+        <div className="relative z-20 text-center px-[20px]">
+          <span className="text-[#C5963A] font-[700] tracking-[0.2em] text-[14px] uppercase mb-[24px] block">Northrop Management</span>
+          <h1 className="text-[56px] md:text-[72px] lg:text-[96px] font-sans font-extrabold tracking-tight leading-[1.05] text-white mb-0 break-words">
+            Insights & Mandate Reports
+          </h1>
+        </div>
+      </section>
 
-        {/* Institutional Research: Bento Grid */}
-        <section className="mb-[128px]">
-          <div className="flex items-center justify-between mb-[48px] border-b border-[#c4c6cf]/15 pb-[16px]">
-            <h2 className="text-[36px] font-sans font-[700] text-[#001f3f]">Institutional Research</h2>
-            {/* <span className="text-[12px] uppercase tracking-widest text-[#43474e]">Volume IV • Q3 2026</span> */}
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-12 gap-[32px]">
-            {/* Featured Article */}
-            <article className="md:col-span-8 group relative overflow-hidden bg-white p-[32px] flex flex-col justify-between min-h-[500px]">
-              <div className="absolute inset-0 z-0 opacity-10 group-hover:opacity-20 transition-opacity duration-500">
-                <img
-                  className="w-full h-full object-cover"
-                  src={insightsData.featuredArticle.image}
-                  alt="India's Next Capital Cycle — Northrop Management market research report cover"
-                  loading="eager"
-                />
-              </div>
-              <div className="relative z-10">
-                <span className="inline-block px-[12px] py-[4px] bg-[#001f3f] text-white text-[10px] font-[700] tracking-tighter uppercase mb-[24px]">
-                  {insightsData.featuredArticle.tag}
-                </span>
-                <h3 className="text-[48px] font-sans font-[700] text-[#001f3f] mb-[24px] max-w-[672px] leading-[1.1]">
-                  {insightsData.featuredArticle.title}
-                </h3>
-                <p className="text-[#43474e] max-w-[576px] mb-[32px] text-[16px] leading-[1.6]">
-                  {insightsData.featuredArticle.description}
-                </p>
-              </div>
-              <div className="relative z-10 flex items-center justify-between mt-auto">
-                <div className="flex gap-[16px] items-center">
-                  <span className="text-[12px] tracking-tighter text-[#43474e]">Words: {insightsData.featuredArticle.words}</span>
-                  <span className="w-[4px] h-[4px] bg-[#C4973B] rounded-full"></span>
-                  <span className="text-[12px] tracking-tighter text-[#43474e]">Duration: {insightsData.featuredArticle.duration}</span>
-                </div>
-                <Link to="/insights/indias-next-capital-cycle" className="group/btn flex items-center gap-[8px] text-[#C4973B] font-[700] uppercase tracking-widest text-[12px]">
-                  Read Report
-                  <ArrowRight className="w-[14px] h-[14px] group-hover/btn:translate-x-[4px] transition-transform" />
-                </Link>
-              </div>
-            </article>
-
-            {/* Side Article 1 */}
-            <article className="md:col-span-4 bg-[#f0f3ff] p-[32px] flex flex-col group">
-              <div className="aspect-[4/3] mb-[24px] overflow-hidden">
-                <img
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  src={insightsData.sideArticles[0].image}
-                  alt="How Private Equity Actually Makes Money — Northrop Management strategy analysis"
-                  loading="lazy"
-                />
-              </div>
-              <span className="text-[#C4973B] font-[700] text-[10px] tracking-widest uppercase mb-[16px] block">
-                {insightsData.sideArticles[0].tag}
-              </span>
-              <h3 className="text-[30px] font-sans font-[700] text-[#001f3f] mb-[16px] leading-[1.1]">
-                {insightsData.sideArticles[0].title}
-              </h3>
-              <p className="text-[14px] text-[#43474e] mb-[32px] flex-grow leading-[1.6]">
-                {insightsData.sideArticles[0].description}
-              </p>
-              <Link to="/insights/strategy-ledger-private-equity" className="w-fit border-b border-[#C4973B]/30 pb-[4px] text-[#C4973B] font-[700] uppercase tracking-widest text-[10px] hover:border-[#C4973B] transition-colors">
-                Read Report
-              </Link>
-            </article>
-
-            {/* Side Article 2 */}
-            <article className="md:col-span-4 bg-[#f0f3ff] p-[32px] flex flex-col group">
-              <span className="text-[#C4973B] font-[700] text-[10px] tracking-widest uppercase mb-[16px] block">
-                {insightsData.sideArticles[1].tag}
-              </span>
-              <h3 className="text-[30px] font-sans font-[700] text-[#001f3f] mb-[16px] leading-[1.1]">
-                {insightsData.sideArticles[1].title}
-              </h3>
-              <p className="text-[14px] text-[#43474e] mb-[32px] flex-grow leading-[1.6]">
-                {insightsData.sideArticles[1].description}
-              </p>
-              <div className="aspect-video mb-[24px] overflow-hidden">
-                <img
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  src={insightsData.sideArticles[1].image}
-                  alt="Why Most Startups Misallocate Capital — Northrop Management capital allocation report"
-                  loading="lazy"
-                />
-              </div>
-              <Link to="/insights/anatomy-of-allocation" className="w-fit border-b border-[#C4973B]/30 pb-[4px] text-[#C4973B] font-[700] uppercase tracking-widest text-[10px] hover:border-[#C4973B] transition-colors">
-                Read Report
-              </Link>
-            </article>
-
-            {/* Long Article / Data Visualization */}
-            <article className="md:col-span-8 bg-[#001f3f] p-[48px] flex flex-col md:flex-row gap-[48px] items-center group">
-              <div className="md:w-1/2">
-                <span className="text-[#C4973B] font-[700] text-[10px] tracking-widest uppercase mb-[24px] block">
-                  {insightsData.longArticle.tag}
-                </span>
-                <h3 className="text-[36px] font-sans font-[700] text-white mb-[24px] leading-[1.1]">
-                  {insightsData.longArticle.title}
-                </h3>
-                <p className="text-[#9ea4b0] text-[14px] mb-[32px] leading-[1.6]">
-                  {insightsData.longArticle.description}
-                </p>
-                <Link to="/insights/strategic-realignment-freight" className="px-[32px] py-[12px] bg-[#C4973B] text-white text-[12px] font-[700] uppercase tracking-widest hover:opacity-90 transition-opacity">
-                  Read Report
-                </Link>
-              </div>
-              <div className="md:w-1/2 flex items-center justify-center p-[16px] w-full">
-                 <img
-                  src={insightsData.longArticle.image}
-                  className="w-full h-full object-cover"
-                  alt="Target Yield Infographic"
-                />
-              </div>
-            </article>
-          </div>
-        </section>
-
-
-        <HomeInsightsV3/>
-
-<Insightsv3/>
-
-        {/* Strategic Perspectives: Editorial Row */}
-        <section className="mb-[48px]">
-          <div className="flex items-center justify-between mb-[48px] border-b border-[#c4c6cf]/15 pb-[16px]">
-            <h2 className="text-[36px] font-sans font-[700] text-[#001f3f]">Strategic Perspectives</h2>
-
-
-            <Link to="/insights" className="text-[12px] uppercase tracking-widest text-[#C4973B] font-[700] border-b border-[#C4973B] pb-[4px]">
-              View Archives
-            </Link>
-
-
-          </div>
-
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-[48px]">
-            <div className="space-y-[48px]">
-              {insightsData.strategicPerspectives.map((perspective, idx) => (
-                <div key={idx} className="group cursor-pointer">
-                  <span className="text-[10px] text-[#43474e] uppercase tracking-widest mb-[8px] block">
-                    {perspective.date}
-                  </span>
-                  <h4 className="text-[24px] font-sans font-[700] text-[#001f3f] group-hover:text-[#C4973B] transition-colors mb-[8px] leading-[1.2]">
-                    {perspective.title}
-                  </h4>
-                  <p className="text-[14px] text-[#43474e] leading-[1.6]">
-                    {perspective.description}
-                  </p>
-                  <Link to={perspective.link} className="mt-[16px] text-[10px] font-[700] text-[#C4973B] uppercase tracking-widest ">
-                    Read Report
-                  </Link>
-                </div>
-              ))}
-            </div>
-
-            <div className="lg:col-span-2 bg-[#e7eeff] flex flex-col md:flex-row overflow-hidden group">
-              <div className="md:w-1/2 h-full min-h-[300px]">
-                <img
-                  className="w-full h-full object-cover"
-                  src={insightsData.mandateHighlight.image}
-                  alt="Chairman's 2026 Mandate — Northrop Management institutional perspective highlight"
-                  loading="lazy"
-                />
-              </div>
-              <div className="md:w-1/2 p-[48px] flex flex-col justify-center">
-                <h4 className="text-[36px] font-sans font-[700] text-[#001f3f] mb-[24px] leading-[1.1]">
-                  {insightsData.mandateHighlight.quote}
-                </h4>
-                <p className="text-[#43474e] text-[14px] mb-[32px] leading-[1.6]">
-                  {insightsData.mandateHighlight.author}
-                </p>
-                <Link to="/insights/opportunity-cost-of-capital" className="text-[10px] font-[700] text-[#C4973B] uppercase tracking-widest">
-                <button className="w-full py-[16px] border border-[#001f3f] text-[#001f3f] font-[700] uppercase tracking-widest text-[10px] hover:bg-[#001f3f] hover:text-white transition-all duration-300">
-                  Read Full Mandate
-                </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </section>
+      <main className="pb-[96px] px-[32px] max-w-[1536px] mx-auto">
+        <div className="mb-20"></div>
+        <HomeInsightsV3 />
       </main>
     </div>
   );

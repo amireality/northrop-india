@@ -253,6 +253,14 @@ import ModernisingTheGrantLifecycle from './pages/new-insights/ModernisingTheGra
 import QuantifyingTheIntangible from './pages/new-insights/QuantifyingTheIntangible'
 import BeyondTheNarrative from './pages/new-insights/BeyondTheNarrative'
 
+import ForensicAccounting from './pages/new-insights/ForensicAccounting'
+import FddChecklist from './pages/new-insights/FddChecklist'
+import NewInsightsInternalAudit from './pages/new-insights/InternalAudit'
+import CorporateGovernance from './pages/new-insights/CorporateGovernance'
+import ForensicAuditIbc from './pages/new-insights/ForensicAuditIbc'
+
+import Pricing from './pages/Pricing'
+
 function App() {
   return (
     <BrowserRouter>
@@ -261,6 +269,7 @@ function App() {
       <main className="min-h-screen   antialiased">
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/pricing" element={<Pricing />} />
           <Route path="/reports/:slug" element={<ReportDetailPage />} />
           <Route path="/who-we-are" element={<WhoWeAre />} />
           <Route path="/what-we-do" element={<WhatWeDo />} />
@@ -521,6 +530,11 @@ function App() {
           <Route path="/new-insights/modernising-the-grant-lifecycle" element={<ModernisingTheGrantLifecycle />} />
           <Route path="/new-insights/quantifying-the-intangible" element={<QuantifyingTheIntangible />} />
           <Route path="/new-insights/beyond-the-narrative" element={<BeyondTheNarrative />} />
+          <Route path="/new-insights/forensic-accounting" element={<ForensicAccounting />} />
+          <Route path="/new-insights/fdd-checklist" element={<FddChecklist />} />
+          <Route path="/new-insights/internal-audit" element={<NewInsightsInternalAudit />} />
+          <Route path="/new-insights/corporate-governance" element={<CorporateGovernance />} />
+          <Route path="/new-insights/forensic-audit-ibc" element={<ForensicAuditIbc />} />
 
 
           

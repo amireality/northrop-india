@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
+import ArticleSidebar from '../../components/insights/ArticleSidebar';
 
 const ModernisingTheGrantLifecycle = () => {
   useEffect(() => {

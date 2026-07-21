@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Link } from 'react-router-dom';
+import ArticleSidebar from '../../components/insights/ArticleSidebar';
 
 const EsgAsAlpha = () => {
   useEffect(() => {
@@ -38,7 +39,9 @@ const EsgAsAlpha = () => {
         className="w-full max-w-[1200px] mx-auto px-[20px] md:px-[64px] py-20"
         style={{ backgroundImage: "radial-gradient(#c5c6cd 0.5px, transparent 0.5px)", backgroundSize: "24px 24px" }}
       >
-        {/* Section 01: The Materiality Gap */}
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-[48px]">
+          <div className="md:col-span-8">
+            {/* Section 01
         <section className="mb-32 grid grid-cols-1 md:grid-cols-12 gap-[24px] items-start">
           <div className="md:col-span-4 sticky top-28">
             <span className="text-[#7c5800] text-[12px] leading-[16px] font-bold tracking-[0.05em] uppercase block mb-4">SECTION 01</span>
@@ -210,6 +213,11 @@ const EsgAsAlpha = () => {
             </div>
           </div>
         </section>
+      </div>
+          <div className="md:col-span-4">
+            <ArticleSidebar />
+          </div>
+        </div>
       </main>
     </div>
   );
